@@ -1,2 +1,2 @@
-# Quick start
+# This is QGroundControl
 
