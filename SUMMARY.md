@@ -1,7 +1,7 @@
 # Summary
 
 * Quick start
-  * Autonomous flight
   * Connecting the drone
+  * Autonomous flight
   * Flight monitoring
   * Log analysis
