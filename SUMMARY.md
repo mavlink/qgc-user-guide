@@ -16,3 +16,17 @@
   * Safety
   * Parameters
 
+* Advanced
+  * MAVLink Inspector
+  * Custom command
+  * Onboard files
+  * Status details
+  * Info view
+  * HIL config
+
+* Settings
+  * General settings
+  * Comm links
+  * Offline maps
+  * MavLink
+  * Preferences
