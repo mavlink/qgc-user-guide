@@ -2,7 +2,9 @@
 The first step is to download and install it. On its first screen you can access the main functionalities, like setup your drone, plan and monitor your flight.
 <br><br>
 ![](01_quickstart_a.png)
-<br><br>
+<br>
+<br>
+<br>
 ![](01.png) **Application Settings**
 <br>uhsfghldjkglhzdjkhgjkhlzdgjkdjkrgkjdfgjklzdgjkjkdfgj
 
