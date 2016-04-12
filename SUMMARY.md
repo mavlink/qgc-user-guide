@@ -1,6 +1,6 @@
 # Summary
 
-Quick start
+*Quick start
   Autonomous flight
 Connecting the drone
 1.3. Flight monitoring
