@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Quick start](quick_start.md)
-   * Connecting the drone
+   * [Connecting the drone](connecting_the_drone.md)
    * Autonomous flight
    * Flight monitoring
    * Log analysis
