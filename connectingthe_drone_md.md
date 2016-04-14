@@ -12,25 +12,25 @@ You will notice that the toolbar contains additional information when it is conn
 
 ![](02_connecting_the_drone_menu.jpg)
 
-**Alerts **
+![](02_ic_connecting_the_drone_screen_alerts.png) **Alerts **
 <br>Description of the function
 
-**GPS Status **
+![](02_ic_connecting_the_drone_screen_gps.png) **GPS Status **
 <br>Description of the function
 
-**RC RSSI Data** 
+![](02_ic_connecting_the_drone_screen_rc.png) **RC RSSI Data** 
 <br>Description of the function
 
-**Telemetry**
+![](02_ic_connecting_the_drone_screen_telemetry.png) **Telemetry**
 <br>Description of the function
 
-**Battery data**
+![](02_ic_connecting_the_drone_screen_battery.png) **Battery data**
 <br>Description of the function
 
-**Flight modes**
+![](02_ic_connecting_the_drone_screen_flight-modes.png) **Flight modes**
 <br>Description of the function
 
-**Status**
+![](02_ic_connecting_the_drone_screen_status.png) **Status**
 <br>Description of the function
 
 
