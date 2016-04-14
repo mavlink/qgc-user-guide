@@ -45,5 +45,5 @@ Besides the settings summarised on the main screen when the vehicle is connected
 
 ### Manual connection
 You can also create or control manual connections through settings if QGroundControl does not recognise your device.
-Click on settings menu , then on Comm links . 
+Click on settings menu ![](01.png), then on Comm links ![](02.png) . 
 [](connectingthe_drone_md.md)
