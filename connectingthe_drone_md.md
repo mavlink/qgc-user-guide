@@ -9,6 +9,7 @@ Here is how QGroundControl looks like when your vehicle is connected.
 <br>
 <br>
 <br>
+<br>
 ### Tool bar
 You will notice that the toolbar contains additional information when it is connected. By clicking on any of these items you can see the status of each sensor. 
 
