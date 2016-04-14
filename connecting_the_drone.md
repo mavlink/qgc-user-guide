@@ -11,6 +11,7 @@ If there is no indicator dot at all for the area that means that additional setu
 <br>
 <br>
 <br>
+<br>
 ### Tool bar
 You will notice that the toolbar contains additional information when it is connected. By clicking on any of these items you can see the status of each sensor.
 <br>
@@ -21,8 +22,23 @@ You will notice that the toolbar contains additional information when it is conn
 ![](02_ic_connecting_the_drone_screen_alerts.png) **Alerts**
 <br>Description of the function
 
+![](02_ic_connecting_the_drone_screen_gps.png) **GPS Status**
+<br>Description of the function
 
+![](02_ic_connecting_the_drone_screen_rc.png) **RC RSSI Data**
+<br>Description of the function
 
+![](02_ic_connecting_the_drone_screen_telemetry.png) **Telemetry**
+<br>Description of the function
+
+![](02_ic_connecting_the_drone_screen_battery.png) **Battery data**
+<br>Description of the function
+
+![](02_ic_connecting_the_drone_screen_flight-modes.png) **Flight modes**
+<br>Description of the function
+
+![](02_ic_connecting_the_drone_screen_status.png) **Status**
+<br>Description of the function
 
 
 
