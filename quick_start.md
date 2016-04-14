@@ -6,14 +6,16 @@ The first step is to download and install it. On its first screen you can access
 <br>
 <br>
 <br>
-![](01.png)**Application Settings**
+<br>
+
+![](01_ic_quickstart_settings.png) **Application Settings**
 <br>uhsfghldjkglhzdjkhgjkhlzdgjkdjkrgkjdfgjklzdgjkjkdfgj
 
-![](01.png) **Setup**
-<br>Configure and tune your vehicle
+![](01_ic_quickstart_setup.png) **Setup**
+Configure and tune your vehicle
 
-![](01.png) **Autonomous Flight**
+![](01_ic_quickstart_autonomous.png) **Autonomous Flight**
 <br>Create autonomous missions
 
-![](01.png) **Flight monitoring**
+![](01_ic_quickstart_monitoring.png) **Flight monitoring**
 <br>View vehicle position on the map as well as instrument indicators. Also switch between the Map and streaming Video view
