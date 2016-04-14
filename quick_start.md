@@ -12,7 +12,7 @@ The first step is to download and install it. On its first screen you can access
 <br>uhsfghldjkglhzdjkhgjkhlzdgjkdjkrgkjdfgjklzdgjkjkdfgj
 
 ![](01_ic_quickstart_setup.png) **Setup**
-Configure and tune your vehicle
+<br>Configure and tune your vehicle
 
 ![](01_ic_quickstart_autonomous.png) **Autonomous Flight**
 <br>Create autonomous missions
