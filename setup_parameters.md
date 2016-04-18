@@ -8,4 +8,6 @@ On the setup tab you will see the default parameters already listed when you acc
 ![](images/setup/02_parameters_02.png)
 <br><br>
 ### Tools
+<br>
+![](images/setup/02_parameters_tools_01.png)
 
