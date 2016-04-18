@@ -5,7 +5,6 @@
    * [Connecting the drone](quickstart_connecting_the_drone.md)
    * [Autonomous flight](quickstart_autonomous_flight.md)
    * Flight monitoring
-   * Log analysis
 * Setup
    * [Loading firmware](setup_loading_firmware.md)
    * Camera
