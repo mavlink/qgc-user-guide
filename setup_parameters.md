@@ -8,7 +8,7 @@ On the setup tab you will see the default parameters already listed when you acc
 ![](images/setup/02_parameters_02.png)
 <br><br>
 ### Tools
-<br>
+
 ![](images/setup/02_parameters_tools_01.png)
 
 ![](images/setup/02_parameters_tools_02_menu.png)
@@ -24,7 +24,7 @@ On the setup tab you will see the default parameters already listed when you acc
 
 **Load from file / Save to file**
 <br>Load parameters from an existing file or export the configuration you did to a file to be used in another software.
-<br><br><br>![](images/setup/02_parameters_03.png)
+<br><br>![](images/setup/02_parameters_03.png)
 <br>
 
 ![](images/05.png) Click back to see the parameters classified by groups.
