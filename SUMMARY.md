@@ -14,7 +14,7 @@
    * Radio
    * Sensors
    * Safety
-   * Parameters
+   * [Parameters](setup_parameters.md)
 * Advanced
    * MAVLink Inspector
    * Custom command
