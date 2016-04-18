@@ -7,7 +7,7 @@
    * Flight monitoring
    * Log analysis
 * Setup
-   * Loading firmware
+   * [Loading firmware](setup_loading_firmware.md)
    * Camera
    * Flight modes
    * Power
