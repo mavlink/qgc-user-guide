@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Quick start](quickstart.md)
    * [Connecting the drone](quickstart_connecting_the_drone.md)
-   * [Plan](quickstart_autonomous_flight.md)
+   * [Plan](quickstart_plan.md)
    * Flight monitoring
 * Setup
    * [Loading firmware](setup_loading_firmware.md)
