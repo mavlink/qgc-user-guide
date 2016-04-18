@@ -23,3 +23,8 @@ Selecting the “Advanced mode” check box allows you to choose from developer 
 Once you have made your selections, click Ok. Firmware upgrade will now begin.
 <br><br>
 ![](images/setup/02_loading_firmare_screen_upgrade.png)
+
+<br>
+Once firmware upgrade is complete you Vehicle should be automatically connected to QGroundControl. 
+<br><br>
+*Note: Support for loading Firmware is currently not available on tablet versions of QGroundControl.*
