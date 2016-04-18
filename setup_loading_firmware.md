@@ -26,5 +26,5 @@ Once you have made your selections, click Ok. Firmware upgrade will now begin.
 
 <br>
 Once firmware upgrade is complete you Vehicle should be automatically connected to QGroundControl. 
-<br><br>
+<br><br><br>
 *Note: Support for loading Firmware is currently not available on tablet versions of QGroundControl.*
