@@ -29,3 +29,6 @@ On the setup tab you will see the default parameters already listed when you acc
 <br>
 
 ![](images/02.png) Click back to see the parameters classified by groups.
+<br>
+<br>
+![](images/setup/02_parameters_04.png)
