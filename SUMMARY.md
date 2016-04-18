@@ -14,13 +14,6 @@
    * Sensors
    * Safety
    * [Parameters](setup_parameters.md)
-* Advanced
-   * MAVLink Inspector
-   * Custom command
-   * Onboard files
-   * Status details
-   * Info view
-   * HIL config
 * Settings
    * General settings
    * Comm links
