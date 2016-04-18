@@ -1,4 +1,4 @@
-# Autonomous flight
+# Plan
 Switch to the autonomous flight tab to plan a new mission.
 Click here to create a waypoint.
 Then click on the map to position it. Repeat until you complete the entire mission route.
