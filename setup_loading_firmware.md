@@ -13,3 +13,13 @@ You can now choose between the two different firmware version, referred to as a 
 <br><br>
 
 ![](images/setup/02_loading_firmare_screen_edit.png)
+
+<br>
+Selecting the “Advanced mode” check box allows you to choose from developer releases of the firmware as well as install firmware from your local file system.
+<br><br>
+![](images/setup/02_loading_firmare_screen_edit_02.png)
+
+<br>
+Once you have made your selections, click Ok. Firmware upgrade will now begin.
+<br><br>
+![](images/setup/02_loading_firmare_screen_upgrade.png)
