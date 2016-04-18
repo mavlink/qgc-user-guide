@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Quick start](quick_start.md)
+* [Quick start](quickstart.md)
    * [Connecting the drone](connectingthe_drone_md.md)
    * [Autonomous flight](autonomous_flight.md)
    * Flight monitoring
