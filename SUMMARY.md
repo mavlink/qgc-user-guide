@@ -13,7 +13,7 @@
    * Radio
    * Sensors
    * Safety
-   * [Parameters](setup_parameters.md)
+* [Parameters](setup_parameters.md)
 * Settings
    * General settings
    * Comm links
