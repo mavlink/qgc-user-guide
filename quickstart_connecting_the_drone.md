@@ -40,7 +40,40 @@ You will notice that the toolbar contains additional information when it is conn
 ### Configuration options
 
 
-Besides the settings summarised on the main screen when the vehicle is connected, more options are available. 
+Besides the settings summarised on the main screen when the vehicle is connected, more options are available.
+
+![](02_ic_connection_the_drone_configuration_options_menu_summary.png) **Summary**
+<br>An overview of all the important setup options for your vehicle.
+
+ **Firmware**
+<br>Flash new firmware onto your board.
+
+**Airframe**
+<br>Specify the airframe type such a fixed wing or quadcopter.
+
+**Camera**
+<br>Insert a camera definition an its properties here.
+
+**Flight modes**
+<br>Used to assign flight modes to your RC Transmitter switches.
+
+**Power**
+<br>Specify your battery settings as well as calibrate electronic speed controllers.
+
+**Radio**
+<br>Setup your Radio Control Transmitter.
+
+**Sensors**
+<br>Used to calibrate the sensors on the vehicle.
+
+**Safety**
+<br>Specify settings for Return to Home as well as triggers for automatic Return to Home.
+
+**Tuning**
+<br>Insert a definition of the section an its properties here.
+
+**Parameters**
+<br>Allows you to configure all parameters associated with your vehicle
 
 
 ### Manual connection
