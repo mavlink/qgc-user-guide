@@ -2,7 +2,7 @@
 
 ![](images/quickstart/1_2_autonomous_flight_screen.jpg)
 <br>
-
+<br>
 ![](1_2_ic_autonomous_flight_.png) Switch to the autonomous flight tab to plan a new mission.
 <br>
 ![](1_2_ic_autonomous_flight_new_waypoint.png) Click here to create a waypoint.
