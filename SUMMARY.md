@@ -11,7 +11,7 @@
    * Flight modes
    * Power
    * Radio
-   * Sensors
+   * [Sensors](setup_sensors.md)
    * Safety
 * [Parameters](setup_parameters.md)
 * Settings
