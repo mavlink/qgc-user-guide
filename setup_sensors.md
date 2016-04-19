@@ -8,7 +8,6 @@ Sensors marked with red means that something is wrong, while marked in green mea
 To start the individual calibration steps, you can click on each sensor's button.
 <br>
 <br>
-
 ###Compass
 
 Clicking on the sensor's button will open a context menu to calibrate, along with a more detailed settings.
