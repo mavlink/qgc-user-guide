@@ -45,34 +45,34 @@ Besides the settings summarised on the main screen when the vehicle is connected
  ![](images/quickstart/02_ic_connection_the_drone_configuration_options_menu_summary.png) **Summary**
 <br>An overview of all the important setup options for your vehicle.
 
-![](02_ic_connection_the_drone_configuration_options_menu_firmware.png) **Firmware**
+![](images/quickstart/02_ic_connection_the_drone_configuration_options_menu_firmware.png) **Firmware**
 <br>Flash new firmware onto your board.
 
-**Airframe**
+![](02_ic_connection_the_drone_configuration_options_menu_airframe.png) **Airframe**
 <br>Specify the airframe type such a fixed wing or quadcopter.
 
-**Camera**
+![](02_ic_connection_the_drone_configuration_options_menu_camera.png) **Camera**
 <br>Insert a camera definition an its properties here.
 
-**Flight modes**
+![](02_ic_connection_the_drone_configuration_options_menu_flight_modes.png) **Flight modes**
 <br>Used to assign flight modes to your RC Transmitter switches.
 
-**Power**
+![](02_ic_connection_the_drone_configuration_options_menu_power.png) **Power**
 <br>Specify your battery settings as well as calibrate electronic speed controllers.
 
-**Radio**
+![](02_ic_connection_the_drone_configuration_options_menu_radio.png) **Radio**
 <br>Setup your Radio Control Transmitter.
 
-**Sensors**
+![](02_ic_connection_the_drone_configuration_options_menu_sensors.png) **Sensors**
 <br>Used to calibrate the sensors on the vehicle.
 
-**Safety**
+![](02_ic_connection_the_drone_configuration_options_menu_safety.png) **Safety**
 <br>Specify settings for Return to Home as well as triggers for automatic Return to Home.
 
-**Tuning**
+![](02_ic_connection_the_drone_configuration_options_menu_tuning.png) **Tuning**
 <br>Insert a definition of the section an its properties here.
 
-**Parameters**
+![](02_ic_connection_the_drone_configuration_options_menu_parameter.png) **Parameters**
 <br>Allows you to configure all parameters associated with your vehicle
 
 
