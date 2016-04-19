@@ -45,7 +45,7 @@ Besides the settings summarised on the main screen when the vehicle is connected
  ![](images/quickstart/02_ic_connection_the_drone_configuration_options_menu_summary.png) **Summary**
 <br>An overview of all the important setup options for your vehicle.
 
-**Firmware**
+![](02_ic_connection_the_drone_configuration_options_menu_firmware.png) **Firmware**
 <br>Flash new firmware onto your board.
 
 **Airframe**
