@@ -1,5 +1,5 @@
 # Sensors
-On the Sensors tab ![](images/01.png) you will see and will configure all the sensors the vehicle has inside ![](images/02.png). Accelerometer, Airspeed, Compass, Gyroscope and Level Horizon are some examples.
+On the Sensors tab ![](images/01.png) you will see and configure all the sensors the vehicle has inside ![](images/02.png). Accelerometer, Airspeed, Compass, Gyroscope and Level Horizon are some examples.
 
 ![](images/setup/02_sensors_01.png)
 
