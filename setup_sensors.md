@@ -28,4 +28,4 @@ Boxes marked in red means that the step is not completed.
 
 So, when you place the vehicle according to the image, the respective box changes to yellow, indicating that you need to rotate it continuously until marked as Completed.
 
-![](images/setup02_sensors_compass_04.png)
+![](images/setup/02_sensors_compass_04.png)
