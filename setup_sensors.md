@@ -32,7 +32,7 @@ So, when you place the vehicle according to the image, the respective box change
 
 ![](images/setup/02_sensors_compass_05.png)
 
-The goal is to complete all the steps. A progress bar on top ![](images/03.png)` informs where you are on the task.
+The goal is to complete all the steps. A progress bar on top ![](images/03.png) informs where you are on the task.
 
 ![](images/setup/02_sensors_compass_06.png)
 
