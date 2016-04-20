@@ -20,13 +20,13 @@ Before start the calibration steps, you can set the autopilot or compass orienta
 
 Clicking on OK button you start the process.
 
-A serie of images will appear on screen. You need to place and turn the vehicle into the orientations, step by step, according to the instructions. 
+A serie of images will appear on screen. You need to place and turn the vehicle into the orientations, step by step, following the instructions. 
 
 ![](images/setup/02_sensors_compass_03.png)
 
 Boxes marked in red means that the step is not completed.
 
-So, when you place the vehicle according to the image, the respective box changes to yellow, indicating that you need to rotate it continuously until marked as Completed.
+So, when you place the vehicle according to the image, the respective box changes to yellow, indicating that you need to Rotate it continuously until marked as Completed.
 
 ![](images/setup/02_sensors_compass_04.png)
 
