@@ -38,5 +38,5 @@ The goal is to complete all the steps. A progress bar on top ![](images/03.png) 
 
 A message will appear when the process is finished. You can click to show the values and some details ![](images/04.png), or just click on Ok button ![](images/05.png).
 
-![](02_sensors_compass_07.png)
+![](images/setup/02_sensors_compass_07.png)
 
