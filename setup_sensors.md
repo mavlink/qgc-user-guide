@@ -26,7 +26,7 @@ A serie of images will appear on screen. You need to place and turn the vehicle 
 
 Boxes marked in red means that the step is not completed.
 
-So, when you place the vehicle according to the image, the respective box changes to yellow, indicating that you need to Rotate it continuously until marked as Completed.
+So, when you place the vehicle according to the image, the respective box changes to yellow, indicating that you need to Rotate it continuously until marked as Completed. You don't need to click on these images, just place the vehicle correctly and wait some seconds to start each process.
 
 ![](images/setup/02_sensors_compass_04.png)
 
@@ -36,7 +36,7 @@ The goal is to complete all the steps. A progress bar on top ![](images/03.png) 
 
 ![](images/setup/02_sensors_compass_06.png)
 
-A message will appear when the process is finished. You can click to show the values and some details, or just click on Ok button.
+A message will appear when the process is finished. You can click to show the values and some details ![](images/04.png), or just click on Ok button ![](images/05.png).
 
-![](images/setup/02_sensors_compass_07.png)
+![](02_sensors_compass_07.png)
 
