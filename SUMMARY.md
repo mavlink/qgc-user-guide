@@ -1,9 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
+* [Flight](quickstart_flight.md)
 * [Quick start](quickstart.md)
    * [Connecting the drone](quickstart_connecting_the_drone.md)
-   * [Flight](quickstart_flight.md)
    * [Plan](quickstart_plan.md)
 * Setup
    * [Loading firmware](setup_loading_firmware.md)
