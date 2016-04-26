@@ -4,7 +4,7 @@
 * [Quick start](quickstart.md)
    * [Connecting the drone](quickstart_connecting_the_drone.md)
    * [Plan](quickstart_plan.md)
-   * [Flight](quickstart_flight.md)
+* [Flight](quickstart_flight.md)
 * Setup
    * [Loading firmware](setup_loading_firmware.md)
    * Camera
