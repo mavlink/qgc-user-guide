@@ -17,7 +17,9 @@
 
 
 If necessary, edit the waypoints through this dialogs.
-![](1_2_autonomous_flight_screen_edit_waypoints.png)
+![](images/quickstart/1_2_autonomous_flight_screen_edit_waypoints.png)
+
+
 
 ![](images/quickstart/1_2_autonomous_flight_screen_send_to_vehicle.jpg)
 
