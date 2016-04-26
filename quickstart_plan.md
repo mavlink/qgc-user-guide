@@ -19,6 +19,8 @@ If necessary, edit the waypoints through this dialogs.
 ![](images/quickstart/1_2_autonomous_flight_screen_edit_waypoints.png)
 <br>
 <br>
+<br>
+
 ![](images/quickstart/1_2_autonomous_flight_screen_send_to_vehicle.jpg)
 
 ![](images/quickstart/1_2_ic_autonomous_flight_screen_send_to_vehicle.png) With all waypoints defined, click on transmission icon to send the data to the vehicle.
