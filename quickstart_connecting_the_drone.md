@@ -35,8 +35,8 @@ You will notice that the toolbar contains additional information when it is conn
 
 ![](images/quickstart/02_ic_connecting_the_drone_screen_status.png) **Status**
 <br>Description of the function
-
-
+<br>
+<br>
 ### Configuration options
 
 
@@ -74,8 +74,8 @@ Besides the settings summarised on the main screen when the vehicle is connected
 
 ![](images/quickstart/02_ic_connection_the_drone_configuration_options_menu_parameter.png) **Parameters**
 <br>Allows you to configure all parameters associated with your vehicle
-
-
+<br>
+<br>
 ### Manual connection
 You can also create or control manual connections through settings if QGroundControl does not recognise your device.
 Click on settings menu ![](images/01.png), then on Comm links ![](images/02.png).
