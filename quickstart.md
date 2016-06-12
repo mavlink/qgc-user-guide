@@ -9,13 +9,13 @@ The first step is to download and install it. On its first screen you can access
 <br>
 
 ![](images/quickstart/01_ic_quickstart_settings.png) **Application Settings**
-<br>uhsfghldjkglhzdjkhgjkhlzdgjkdjkrgkjdfgjklzdgjkjkdfgj
+<br>Configure the QGroundControl application
 
 ![](images/quickstart/01_ic_quickstart_setup.png) **Setup**
 <br>Configure and tune your vehicle
 
-![](images/quickstart/01_ic_quickstart_autonomous.png) **Autonomous Flight**
+![](images/quickstart/01_ic_quickstart_autonomous.png) **Plan**
 <br>Create autonomous missions
 
-![](images/quickstart/01_ic_quickstart_monitoring.png) **Flight monitoring**
-<br>View vehicle position on the map as well as instrument indicators. Also switch between the Map and streaming Video view
+![](images/quickstart/01_ic_quickstart_monitoring.png) **Fly**
+<br>Monitor you vehicle while flyingView including streaming video
