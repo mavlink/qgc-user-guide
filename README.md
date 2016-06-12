@@ -1,3 +1,3 @@
-# My Awesome Book
+# QGroundControl
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+QGroundControl provides full flight control and configuration for vehicles running Pixhawk family autopilot boards running either ArduPilot or PX4 firmware. QGroundControl also supports flight control (but no configuration) for any vehicle which communicates using the MAVLink protocol.
