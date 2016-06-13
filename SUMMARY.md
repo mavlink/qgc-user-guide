@@ -13,7 +13,6 @@
    * [Parameters](setup_parameters.md)
 * [Plan](quickstart_plan.md)
 * [Flight](quickstart_flight.md)
-* [Quick start](quickstart.md)
 * Settings
    * General settings
    * Comm links
