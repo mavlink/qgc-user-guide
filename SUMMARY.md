@@ -8,8 +8,8 @@
    * Power
    * Radio
    * [Sensors](setup_sensors.md)
+   * [Parameters](setup_parameters.md)
    * Safety
-* [Parameters](setup_parameters.md)
 * [Connecting the drone](quickstart_connecting_the_drone.md)
 * [Plan](quickstart_plan.md)
 * [Flight](quickstart_flight.md)
