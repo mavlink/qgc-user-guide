@@ -1,7 +1,7 @@
 # Summary
 
 * [Quick start](README.md)
-* Setup
+* [Setup](setup.md)
    * [Loading firmware](setup_loading_firmware.md)
    * Camera
    * Flight modes
