@@ -1,5 +1,8 @@
 # Plan
-
+<iframe width="420" height="315" src="https://www.youtube.com/embed/CF8_U5OI4eI" frameborder="0" allowfullscreen></iframe>
+<br>
+<br>
+<br>
 ![](images/quickstart/1_2_autonomous_flight_screen.jpg)
 <br>
 <br>
