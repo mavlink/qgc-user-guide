@@ -1,5 +1,5 @@
 # Plan
-<iframe width="420" height="315" src="https://www.youtube.com/embed/CF8_U5OI4eI" frameborder="0" allowfullscreen></iframe>
+<iframe width="820" height="615" src="https://www.youtube.com/embed/CF8_U5OI4eI" frameborder="0" allowfullscreen></iframe>
 <br>
 <br>
 <br>
