@@ -1,7 +1,6 @@
 # Summary
 
 * [Quick start](README.md)
-* [Connecting the drone](quickstart_connecting_the_drone.md)
 * Setup
    * [Loading firmware](setup_loading_firmware.md)
    * Camera
