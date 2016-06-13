@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Connecting the drone](quickstart_connecting_the_drone.md)
+* [Plan](quickstart_plan.md)
 * [Quick start](quickstart.md)
-   * [Connecting the drone](quickstart_connecting_the_drone.md)
    * [Plan](quickstart_plan.md)
    * [Flight](quickstart_flight.md)
 * Setup
