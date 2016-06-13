@@ -14,7 +14,7 @@
 * [Flight](quickstart_flight.md)
 * Settings
    * General settings
-   * Comm links
+   * [Comm links](comm_links.md)
    * Offline maps
    * MavLink
    * Preferences
