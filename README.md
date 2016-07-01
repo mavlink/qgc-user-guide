@@ -1,5 +1,5 @@
 # This is QGroundControl
-The first step is to download and install it. On its first screen you can access the main functionalities, like setup your drone, plan and monitor your flight.
+The first step is to [download and install it](download_and_install.md). On its first screen you can access the main functionalities, like setup your drone, plan and monitor your flight.
 <br>
 <br>
 ![](images/quickstart/01_quickstart.jpg)
