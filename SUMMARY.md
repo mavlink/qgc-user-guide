@@ -1,6 +1,7 @@
 # Summary
 
 * [Quick start](README.md)
+* [Download and Install](download_and_install.md)
 * [Setup](setup.md)
    * [Loading firmware](setup_loading_firmware.md)
    * Camera
