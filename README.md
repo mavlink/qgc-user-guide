@@ -18,7 +18,7 @@ The first step is to download and install it. On its first screen you can access
 <br>Create autonomous missions
 
 ![](images/quickstart/01_ic_quickstart_monitoring.png) **Fly**
-<br>Monitor you vehicle while flyingView including streaming video
+<br>Monitor you vehicle while flying, including streaming video
 
 # Connecting the drone
 In most cases if you have connected to your vehicle directly via USB, through a telemetry radio or over WiFi you should not need to take any additional steps. QGroundControl should detect your vehicle and connect it automatically.
