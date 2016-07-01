@@ -1,12 +1,12 @@
 # Download and Install
 
 <h1>OS Requirements</h1>
-<ul>
-	<li>Windows Vista or above</li>
-	<li>Mac OSX 10.8 or above</li>
-	<li>Ubuntu 14.04 LTS or above</li>
-	<li>Android 5.1 or above</li>
-</ul>
+* Windows Vista or above
+* Mac OSX 10.8 or above
+* Ubuntu 14.04 LTS or above
+* Android 5.1 or above
+* iOS #.# or above
+
 <h1>Downloading</h1>
 Stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. The latest Stable releases will be at the top with the highest version number. Normally this is the version you want to install.
 <ul>
