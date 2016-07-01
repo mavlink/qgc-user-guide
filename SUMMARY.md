@@ -18,4 +18,5 @@
    * Offline maps
    * MavLink
    * Preferences
+* Download and Install
 
