@@ -2,8 +2,11 @@
 
 * [Quick start](README.md)
 * [Download and Install](download_and_install.md)
+<<<<<<< HEAD
 * [Fly](FlyView.md)
 * [Plan](PlanView.md)
+=======
+>>>>>>> origin/SetupView
 * [Setup](SetupView.md)
    * [Firmware](SetupViewFirmware.md)
    * Airframe
