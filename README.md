@@ -8,13 +8,13 @@ The first step is to [download](download_and_install.md) and install it. On its 
 ![](images/quickstart/SettingsViewButton.jpg) **Application Settings**
 <br>Configure the QGroundControl application.
 
-![](images/quickstart/SetupViewButton.jpg) **Setup**
+![](images/quickstart/SetupViewButton.jpg) **[Setup](SetupView.md)**
 <br>Configure and tune your vehicle.
 
-![](images/quickstart/PlanViewButton.jpg) **Plan**
+![](images/quickstart/PlanViewButton.jpg) **[Plan](PlanView.md)**
 <br>Create autonomous missions.
 
-![](images/quickstart/FlyViewButton.jpg) **Fly**
+![](images/quickstart/FlyViewButton.jpg) **[Fly](FlyView.md)**
 <br>Monitor you vehicle while flying, including streaming video.
 
 # Connecting the drone
