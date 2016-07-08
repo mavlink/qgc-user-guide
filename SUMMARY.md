@@ -6,19 +6,14 @@
 * [Plan](PlanView.md)
 * [Setup](SetupView.md)
    * [Firmware](SetupViewFirmware.md)
-   * Airframe
-   * Radio
-   * [Sensors](setup_sensors.md)
-   * Flight Modes
-   * Power
-   * Safety
-   * Tuning
-   * Camera
-   * [Parameters](setup_parameters.md)
-* Settings
-   * General settings
-   * [Comm links](comm_links.md)
-   * Offline maps
-   * MavLink
-   * Preferences
+   * [Airframe](SetupViewAirframe.md)
+   * [Radio](SetupViewRadio.md)
+   * [Sensors](SetupViewSensors.md)
+   * [Flight Modes](SetupViewFlightModes.md)
+   * [Power](SetupViewPower.md)
+   * [Safety](SetupViewSafety.md)
+   * [Tuning](SetupViewTuning.md)
+   * [Camera](SetupViewCamera.md)
+   * [Parameters](SetupViewParameters.md)
+* [Settings](SettingsView.md)
 
