@@ -14,34 +14,34 @@ Note: The set of options shown and the contents of each option may differ based 
 **Summary**
 <br>An overview of all the important setup options for your vehicle. Similar to the individual setup buttons, the summary blocks show a red indicator when those settings are not fully configured.
 
-**[Firmware](SetupViewFirmware.md)**
+**[Firmware](Firmware.md)**
 <br>Flash new firmware onto your vehicle.
 
-**Airframe**
+**[Airframe](Airframe.md)**
 <br>Specify the airframe type for the vehicle.
 
-**Radio**
+**[Radio](Radio.md)**
 <br>Calibrate your Radio Control Transmitter.
 
-**Sensors**
+**[Sensors](Sensors.md)**
 <br>Calibrate the sensors on the vehicle.
 
-**Flight Modes**
+**[Flight Modes](FlightModes.md)**
 <br>Used to assign flight modes to your RC Transmitter switches.
 
-**Power**
+**[Power](Power.md)**
 <br>Battery settings and additional power options such as ESC calibration.
 
-**Safety**
+**[Safety](Safety.md)**
 <br>Specify settings for options related to Safety such as Return to Home or Failsafes.
 
-**Tuning**
+**[Tuning](Tuning.md)**
 <br>Tune flight characteristics of the vehicle.
 
-**Camera**
+**[Camera](Camera.md)**
 <br>Configure settings for camera and gimbal.
 
-**Parameters**
+**[Parameters](Parameters.md)**
 <br>Allows you to modify all parameters associated with your vehicle.
 <br>
 <br>
