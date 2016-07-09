@@ -1,6 +1,6 @@
 # Loading firmware
 
-![](images/SetupViewFirmware.jpg)
+![](Firmware.jpg)
 
 Firmware is what makes your vehicle run and have all of its great capabilities. Using QGroundControl you can install the latest versions of the firmware of your choice.
 
@@ -16,7 +16,7 @@ Now connect your device (Pixhawk, SiK Radio, PX4 Flow) directly to your computer
 
 ### Select the firmware to load
 
-![](images/SettingsViewFirmwareSelect.jpg)
+![](FirmwareSelect.jpg)
 
 Once the device is connected you can now choose which firmware to load. The image above is for uploading firmware to a Pixhawk family board. Choose whether you would like to install [PX4 Pro](http://px4.io/) or [ArduPilot](http://ardupilot.com) firmware.
 

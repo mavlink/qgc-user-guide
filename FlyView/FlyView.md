@@ -1,6 +1,6 @@
 # Fly View
 
-![](images/quickstart/ConnectedVehicle.jpg)
+![](FlyView.jpg)
 
 The Fly View is the main view you will use while flying your vehicle. You can switch between a map view and a video view (if available).
 

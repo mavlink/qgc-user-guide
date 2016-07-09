@@ -1,6 +1,6 @@
 # Setup View
 
-![](images/SetupView.jpg)
+![](SetupView.jpg)
 
 The Setup View is used to configure a new vehicle prior to first flight and/or tune an a configured vehicle. 
 
