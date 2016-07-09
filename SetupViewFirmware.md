@@ -16,8 +16,7 @@ Now connect your device (Pixhawk, SiK Radio, PX4 Flow) directly to your computer
 
 ### Select the firmware to load
 
-![](images/setup/02_loading_firmare_screen_edit.png)
-Note: This image is out of date.
+![](images/SettingsViewFirmwareSelect.jpg)
 
 Once the device is connected you can now choose which firmware to load. The image above is for uploading firmware to a Pixhawk family board. Choose whether you would like to install [PX4 Pro](http://px4.io/) or [ArduPilot](http://ardupilot.com) firmware.
 
