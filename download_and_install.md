@@ -43,6 +43,6 @@ You will also need to install additional packages as specified in the github <a
 
 Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of new features available. Use at your own risk!
 
-* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/master/qgroundcontrol-installer.exe)
-* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/master/qgroundcontrol.dmg)
-* [Linux](https://s3-us-west-2.amazonaws.com/qgroundcontrol/master/qgroundcontrol.tar.bz2)
+* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/qgroundcontrol-installer.exe)
+* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/qgroundcontrol.dmg)
+* [Linux](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/qgroundcontrol.tar.bz2)
