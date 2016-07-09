@@ -21,4 +21,4 @@ You can switch between the various settings options by clicking the buttons on t
 <br>Settings associated with the Mavlink connection to a vehicle.
 
 **Console**
-<br>Used to capture logs for help with diagnosing application problems.
+<br>Used to capture [logs](../Support/Support.md) for help with diagnosing application problems.

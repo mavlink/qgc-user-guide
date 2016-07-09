@@ -17,4 +17,4 @@
    * [Camera](SetupView/Camera.md)
    * [Parameters](SetupView/Parameters.md)
 * [Settings](SettingsView/SettingsView.md)
-
+* [Support](Support/Support.md)
