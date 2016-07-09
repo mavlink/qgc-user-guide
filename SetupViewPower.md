@@ -1,2 +1,0 @@
-# Power Setup
-

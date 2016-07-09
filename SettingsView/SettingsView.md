@@ -1,6 +1,6 @@
 # Settings View
 
-![](images/SettingsView.jpg)
+![](SettingsView.jpg)
 
 The Settings View allows you to configure the settings which are associated with the QGroundControl application. Since these settings are for QGroundControl and not your specific vehicle you do not have to have a vehicle connected to change these settings.
 

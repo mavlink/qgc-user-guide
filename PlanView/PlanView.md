@@ -1,6 +1,6 @@
 # Plan View
 
-![](images/PlanView.jpg)
+![](PlanView.jpg)
 
 The Plan View is used to plan autonomous missions for you Vehicle. Once the mission is planned and sent to the vehicle, you switch to the [Fly View](FlyView.md) to fly the mission.
 

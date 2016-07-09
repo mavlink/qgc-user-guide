@@ -1,2 +1,0 @@
-# Safety Setup
-
