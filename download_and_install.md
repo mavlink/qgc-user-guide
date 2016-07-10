@@ -1,5 +1,7 @@
 # Download and Install
 
+Note: QGroundControl V3.0 [Release Candidate Builds](#rcbuilds) are available!
+
 ### OS Requirements
 
 * Windows Vista or above
@@ -43,6 +45,15 @@ You will also need to install additional packages as specified in the github <a
 
 Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of new features available. Use at your own risk!
 
-* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/qgroundcontrol-installer.exe)
-* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/qgroundcontrol.dmg)
-* [Linux](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/qgroundcontrol.tar.bz2)
+* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
+* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
+* [Linux](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
+
+### <a name="rcbuilds"></a>QGroundControl V3.0 Release Candidate Builds
+
+QGroundControl V3.0 is currently in RC mode. Please report any issues with these builds immediately on [Gitter](https://gitter.im/mavlink/qgroundcontrol).
+
+* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/Stable_V3.0/QGroundControl-installer.exe)
+* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/Stable_V3.0/QGroundControl.dmg)
+* [Linux](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/Stable_V3.0/QGroundControl.tar.bz2)
+* [Android](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/Stable_V3.0/QGroundControl.apk) only available in .apk form
