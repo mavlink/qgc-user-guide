@@ -1,6 +1,6 @@
 # Download and Install
 
-Note: QGroundControl V3.0 [Release Candidate Builds](#rcbuilds) are available!
+Note: QGroundControl V3.0 Release Candidate builds are available, details [below](#rcbuilds)!
 
 ### OS Requirements
 
