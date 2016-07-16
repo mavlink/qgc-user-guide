@@ -20,6 +20,27 @@ The Console can be helpful tool for diagnosing QGroundControl problems. It can b
 * MissionManagerLog - Debug mission protocol issues.
 * RadioComponentControllerLog - Debug Radio calibration issues.
 
+##### Logging from the command line
+
+An alternate mechanism for logging is using the --logging command line option. This is handy if you are trying to get logs from a situation where QGroundControl crashes.
+
+How you do this and where the traces are output vary by OS:
+
+  * Windows
+    * You must open a command prompt, change directory to the qgroundcontrol.exe location, and run it from there:
+    * <code>cd "\Program Files (x86)\qgroundcontrol"
+qgroundcontrol --logging:full</code>
+    * When QGC starts you should see a separate console window open which will have the log output
+  * OSX
+    * You must run QGC from Terminal. The Terminal app is located in Applications/Utilities. Once Terminal is open paste the following into it:
+    * <code>cd /Applications/qgroundcontrol.app/Contents/MacOS/
+./qgroundcontrol --logging:full</code>
+    * Log traces will output to the Terminal window.
+  * Linux
+    * <code>./qgroundcontrol-start.sh --logging:full</code>
+    * Log traces will output to the shell you are running from.
+
+
 ### Developer Chat
 
 The QGroundControl developers as well as many QGGroundControl users can be found on the QGroundControl [Gitter](https://gitter.im/mavlink/qgroundcontrol) channel. If you are a heavy user of QGroundControl and want to keep up to date on the latest information or help with QGroundControl we suggest monitoring that channel.
