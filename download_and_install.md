@@ -23,11 +23,10 @@ Previous stable releases can be found on <a href="https://github.com/mavlink/qg
 
 ### Installing
 
-<ul>
-	<li>Windows: Double click the executable to launch the installer.</li>
-	<li>Mac: Double click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.</li>
-	<li>Linux: Use tar to descompress QGroundControl into a folder.</li>
-</ul>
+* Windows: Double click the executable to launch the installer.
+ * Important: Windows also requires the install of [OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_0_2h.exe). 
+* Mac: Double click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.
+* Linux: Use tar to descompress QGroundControl into a folder.
 
 ##### Installing Android Beta from Google Play
 
