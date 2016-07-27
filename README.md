@@ -13,3 +13,5 @@ QGroundControl features:
 - Competition-proven at IMAV and EMAV competitions
 
 QGroundControl runs on Windows, OS X and Linux platforms as well as iOS and Android devices.
+
+**Note: The QGroundControl user guide is an active work in progress. The information provided should be correct, but you may find missing information or incomplete pages.**
