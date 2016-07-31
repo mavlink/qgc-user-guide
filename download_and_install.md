@@ -12,11 +12,11 @@
 
 The links below will download the current Stable releases of QGroundControl.
 
-* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/v3.0.0/QGroundControl-installer.exe)
-* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/v3.0.0/QGroundControl.dmg)
+* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)
+* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)
 * Linux
-  * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/v3.0.0/QGroundControl.AppImage)
-  * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/v3.0.0/QGroundControl.tar.bz2)
+  * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)
+  * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2)
 * [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol)
   * If you are a current member of the QGC Android Beta you must [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol) of that first.
 
