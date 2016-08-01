@@ -2,9 +2,7 @@
 
 ![](Firmware.jpg)
 
-Firmware is what makes your vehicle run and have all of its great capabilities. Using QGroundControl you can install the latest versions of the firmware of your choice.
-
-QGroundControl is capable of loading firmware onto Pixhawk family autopilot boards, SiK Radios and PX4 Flow devices.
+Using QGroundControl you can install the latest versions of the firmware of your choice. QGroundControl is capable of loading firmware onto Pixhawk family autopilot boards, SiK Radios and PX4 Flow devices.
 
 ### Before you install Firmware [Important]
 
