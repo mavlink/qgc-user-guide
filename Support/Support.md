@@ -12,8 +12,8 @@ The Console can be helpful tool for diagnosing QGroundControl problems. It can b
 
 ##### Commonly used logging options
 
-* LogManagerLog, MultiVehicleManagerLog - Debug connection problems.
-* LogManagerVerboseLog - Very noisy connection problem debugging. Continuous output of available serial ports.
+* LinkManagerLog, MultiVehicleManagerLog - Debug connection problems.
+* LinkManagerVerboseLog - Very noisy connection problem debugging. Continuous output of available serial ports.
 * FirmwareUpgradeLog - Debug firmware flash issues.
 * ParameterLoaderLog - Debug parameter load problems.
 * ParameterLoaderVerboseLog - Debug parameter load problems with full trace of parameters coming/going/in system.
