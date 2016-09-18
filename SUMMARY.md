@@ -5,6 +5,8 @@
 * [Download and Install](download_and_install.md)
 * [Fly](FlyView/FlyView.md)
 * [Plan](PlanView/PlanView.md)
+	* [Mission](PlanView/PlanMission.md)
+	* [GeoFence](PlanView/PlanGeoFence.md)
 * [Setup](SetupView/SetupView.md)
    * [Firmware](SetupView/Firmware.md)
    * [Airframe](SetupView/Airframe.md)
