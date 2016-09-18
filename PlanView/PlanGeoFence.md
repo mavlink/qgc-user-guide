@@ -1,0 +1,42 @@
+# Plan View - GeoFence (Daily Builds only)
+A GeoFence allows you to create a virtual fence around the area you want to fly in. If you then fly outside that area you can configure a specific action to be taken. 
+
+Not all vehicle firmwares support GeoFence and if supported the GeoFence capabilities vary. If your vehicle supports GeoFence you will see the Mission and GeoFence radio buttons at the top right of the Plan View. If these are not visible your vehicle does not support GeoFence.
+
+## Example Visuals
+ArduCopter visual:
+![](GeoFence.APM.Copter.jpg)
+
+ArduPlane visual:
+![](GeoFence.APM.Plane.jpg)
+
+PX4 Pro visual:
+![](GeoFence.PX4.jpg)
+
+## GeoFence Setup
+The steps to creating a GeoFence are:
+
+1. Change to Plan View
+2. Select the GeoFence radio button (top right of view)
+3. Specify fence settings in the editor panel
+4. Add a fence polygon (if supported)
+5. Send the GeoFence to the Vehicle (or save to file)
+
+### Drawing a GeoFence Polygon
+If your vehicle supports polygon fences, at the bottom of the editor panel you will see the "Fence Polygon" section. Click the Draw button to draw a polygon on the map by clicking to add points to the polygon.
+
+Once you have created a fence polygon you can adjust it by clicking the Adjust button which will allow you to move the polygon corners. You can also click Draw again to redraw a completely new fence polygon.
+
+### GeoFence Tools
+On the left edge of the screen you will see the Plan Tools. The order of tools from top to bottom is:
+
+* Sync
+* Center map
+* Map Type
+* Zoom In/Out
+
+#### Sync
+The Sync tool allows you to send the GeoFence you created to your vehicle and/or read a GeoFence from your vehicle. It also allows you to save a GeoFence to/from a file. When you save a GeoFence to a file all settings will be saved, not just the fence polygon. The Sync tool will change to have an "!" within it to indicate that you have changes to your GeoFence which you have not sent to your vehicle.
+
+#### Remaining tools
+The rest of the tools work exactly as they do while editing a Mission.
