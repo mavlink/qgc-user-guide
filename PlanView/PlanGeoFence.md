@@ -36,7 +36,17 @@ On the left edge of the screen you will see the Plan Tools. The order of tools f
 * Zoom In/Out
 
 #### Sync
-The Sync tool allows you to send the GeoFence you created to your vehicle and/or read a GeoFence from your vehicle. It also allows you to save a GeoFence to/from a file. When you save a GeoFence to a file all settings will be saved, not just the fence polygon. The Sync tool will change to have an "!" within it to indicate that you have changes to your GeoFence which you have not sent to your vehicle.
+The Sync tools allows you to move GeoFences back and forth to your Vehicle or a file. *Before you fly you must be sure to send your GeoFence to your vehicle.* The tool will change to have an "!" within it to indicate that you have changes to your GeoFence which you have not sent to your vehicle. 
+
+The Sync tool provides the following functionality:
+
+* Send to Vehicle
+* Load from Vehicle
+* Save to File
+* Load from File
+* Remove All
+
+When you save a GeoFence to a file all settings will be saved, not just the fence polygon. 
 
 #### Remaining tools
 The rest of the tools work exactly as they do while editing a Mission.

@@ -14,6 +14,7 @@ The steps to creating a missions are:
 
 ### Plan Tools
 On the left edge of the screen you will see the Plan Tools. The order of tools from top to bottom is:
+
 * Add Commands
 * Sync
 * Center map
@@ -24,7 +25,15 @@ On the left edge of the screen you will see the Plan Tools. The order of tools f
 Click to activate the Add Commands tool. While active, clicking in the map will add new mission commands at the clicked location. The tool will stay active until you click it again.
 
 ##### Sync
-The Sync tool allows you to send the mission you created to your vehicle and/or read a mission from your vehicle. It also allows you to save mission to/from a file. Before you fly a mission you must be sure to send your mission to your vehicle. The Sync tool will change to have an "!" within it to indicate that you have changes to your mission which you have not sent to your vehicle.
+The Sync tools allows you to move Missions back and forth to your Vehicle or a file. *Before you fly a mission you must be sure to send your Mission to your vehicle.* The tool will change to have an "!" within it to indicate that you have changes to your Mission which you have not sent to your vehicle. 
+
+The Sync tool provides the following functionality:
+
+* Send to Vehicle
+* Load from Vehicle
+* Save to File
+* Load from File
+* Remove All
 
 ##### Center Map
 The Center Map tool allow you to center the map around various points such as home position, vehicle and so forth.
