@@ -7,6 +7,7 @@
 * [Plan](PlanView/PlanView.md)
 	* [Mission](PlanView/PlanMission.md)
 	* [GeoFence](PlanView/PlanGeoFence.md)
+	* [Rally Points](PlanView/PlanRallyPoints.md)
 * [Setup](SetupView/SetupView.md)
    * [Firmware](SetupView/Firmware.md)
    * [Airframe](SetupView/Airframe.md)
