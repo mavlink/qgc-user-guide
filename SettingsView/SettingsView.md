@@ -18,7 +18,7 @@ You can switch between the various settings options by clicking the buttons on t
 <br>Allows you to cache maps for use while you have no internet connection.
 
 **Mavlink**
-<br>Settings associated with the Mavlink connection to a vehicle.
+<br>Settings associated with the MAVLink connection to a vehicle.
 
 **Console**
-<br>Used to capture [logs](../Support/Support.md) for help with diagnosing application problems.
+<br>Used to capture application [logs](../Support/Support.md) for help with diagnosing application problems.

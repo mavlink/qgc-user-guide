@@ -1,43 +1,42 @@
 # Sensors
-On the Sensors tab ![](../images/01.png) you will see and configure all the sensors the vehicle has inside ![](../images/02.png). Accelerometer, Airspeed, Compass, Gyroscope and Level Horizon are some examples.
+Sensor setup allows you to configure and calibrate the sensors on your vehicle.
 
-![](PX4Sensors.jpg)
-*Note: The image shown is from a vehicle running P4 Pro firmware.*
+![](Sensors.jpg)
+*Note: The image shown is from a vehicle running ArduPilot firmware. PX4 Firmware options will be slightly different.*
 
-Sensors marked with red means that something is wrong, while marked in green means that is working properly.
+To start the individual calibration steps click on a sensor's button. Sensors marked with red require calibration prior to flight. Sensors marked with green indicate a good calibration.
 
-To start the individual calibration steps, you can click on each sensor's button.
-<br>
-<br>
-###Compass
+## Accelerometer
+To calibrate the accelerometers on your vehicle you will be asked to place you vehicle in an orientation and hold it there until asked to move to the next step.
 
-Clicking on the sensor's button will open a context menu to calibrate, along with a more detailed settings ![](images/01.png).
+For ArduPilot follow text textual instructions in the center display, clicking the Next button to capture each position.
 
-![](../images/setup/02_sensors_compass_01.png)
+For PX4 you will be guided with a visual display of positions.
 
-Before start the calibration steps, you can set the autopilot or compass orientations ![](images/02.png), if you want/need.
+## Compass
 
-![](../images/setup/02_sensors_compass_02.png)
+### ArduPilot (newer firmwares)
+For newer ArduPilot firmwares compass calibration will be done using the Onboard calibration support which provides for more accurate calibration. You need to rotate the vehicle randomly around all axes until the progress bar fills all the way to the right and the calibration completes. When the calibration completes you will get the following results:
 
-Clicking on OK button you start the process.
+![](ArudPilolCompassCalOnboardResult.jpg)
 
-A serie of images will appear on screen. You need to place and turn the vehicle into the orientations, step by step, following the instructions. 
+This shows you the quality of the calibration for each compass. Using these values you can determine whether you may want to turn off usage of poorly performing compasses.
 
-![](../images/setup/02_sensors_compass_03.png)
+### ArduPilot (older firmwares) and PX4
 
-Boxes marked in red means that the step is not completed.
+For PX4 and older ArduPilot you will be guided through positioning the vehicle in a number of set orientations and rotating the vehicle through the request axis. To calibrate place the Vehicle in one of the incomplete orientations and hold it still, when asked to Rotate rotate the vehicle around the specific axis.
 
-So, when you place the vehicle according to the image, the respective box changes to yellow, indicating that you need to Rotate it continuously until marked as Completed. You don't need to click on these images, just place the vehicle correctly and wait some seconds to start each process.
+![](CompassImageCal.jpg)
 
-![](../images/setup/02_sensors_compass_04.png)
+## Level Horizon
+If after completing Accelerometer calibration you see that the horizon as shown in the HUD is not level you can calibrate the level horizon for your vehicle. You will be asked to place the vehicle in a level orientation while it captures the information.
 
-![](../images/setup/02_sensors_compass_05.png)
+## CompassMot (ArduPilot only)
+CompassMot calibration is only recommended for vehicles that have only an internal compass and on vehicles where there is significant interference on the compass from the motors, power wires, etc. CompassMot only works well if you have a battery current monitor because the magnetic interference is linear with current drawn.
 
-The goal is to complete all the steps. A progress bar on top ![](../images/03.png) informs where you are on this task.
+To perform CompassMot calibration click the button and follow the onscreen prompts.
 
-![](../images/setup/02_sensors_compass_06.png)
+## Sensor Settings
+Configure the orienation and usage of your sensors.
 
-A message will appear when the process is finished. You can click to show the values and some details ![](../images/04.png), or just click on Ok button ![](../images/05.png).
-
-![](../images/setup/02_sensors_compass_07.png)
-
+<img src="SensorSettings.jpg" style="width: 200px;"/>
