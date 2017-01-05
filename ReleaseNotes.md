@@ -4,7 +4,7 @@
 
 New Features
 
-* Survey mission support
+* [Survey](PlanView/Survey.md) mission support
 * [GeoFence](PlanView/PlanGeoFence.md) Support in Plan View
 * [Rally Point](PlanView/PlanRallyPoints.md) support in Plan View (ArduPilot only)
 * ArduPilot onboard compass calibration
