@@ -1,4 +1,4 @@
-# Plan View - GeoFence (Daily Builds only)
+# Plan View - GeoFence
 A GeoFence allows you to create a virtual fence around the area you want to fly in. If you then fly outside that area you can configure a specific action to be taken. 
 
 Not all vehicle firmwares support GeoFence and if supported the GeoFence capabilities vary.

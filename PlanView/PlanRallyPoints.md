@@ -1,4 +1,4 @@
-# Plan View - Rally Points (Daily Builds only)
+# Plan View - Rally Points
 Rally Points are alternative landing or loiter locations.
 
 Not all vehicle firmwares support Rally Points and if supported the Rally Point capabilities vary.

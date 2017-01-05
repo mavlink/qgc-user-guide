@@ -5,7 +5,7 @@ The first step is to [download](download_and_install.md) and install it. On its 
 ![](BootToFly.jpg)
 <br>
 
-![](SettingsViewButton.jpg) **Application Settings**
+![](SettingsViewButton.jpg) **[Settings](../SettingsView/SettingsView.md)**
 <br>Configure the QGroundControl application.
 
 ![](SetupViewButton.jpg) **[Setup](../SetupView/SetupView.md)**
