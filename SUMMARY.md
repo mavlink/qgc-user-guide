@@ -3,6 +3,7 @@
 * [Overview](README.md)
 * [Quick start](QuickStart/QuickStart.md)
 * [Download and Install](download_and_install.md)
+	* [Release Notes](ReleaseNotes.md)
 * [Fly](FlyView/FlyView.md)
 * [Plan](PlanView/PlanView.md)
 	* [GeoFence](PlanView/PlanGeoFence.md)
