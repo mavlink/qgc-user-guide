@@ -14,7 +14,7 @@ You can switch between the various settings options by clicking the buttons on t
 **Comm Links**
 <br>Allows you to manually create communication links and connect to them. *Keep in mind that normally this is not needed since QGroundControl will automatically connect to the most common devices.*
 
-**Offline Maps**
+**[Offline Maps](OfflineMaps.md)**
 <br>Allows you to cache maps for use while you have no internet connection.
 
 **Mavlink**

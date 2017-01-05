@@ -1,13 +1,5 @@
 # Download and Install
 
-### OS Requirements
-
-* Windows Vista or above
-* Mac OSX 10.8 or above
-* Ubuntu 14.04 LTS or above
-* Android 5.1 or above
-* iOS 8.0 or above (Beta)
-
 ### Downloading
 
 The links below will download the current Stable releases of QGroundControl.
@@ -21,6 +13,16 @@ The links below will download the current Stable releases of QGroundControl.
   * If you are a current member of the QGC Android Beta you must [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol) of that first.
 
 Previous stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
+
+Release notes are [here](ReleaseNotes.md).
+
+### OS Requirements
+
+* Windows Vista or above
+* Mac OSX 10.8 or above
+* Ubuntu 14.04 LTS or above
+* Android 5.1 or above
+* iOS 8.0 or above (Beta)
 
 
 ### Installing
