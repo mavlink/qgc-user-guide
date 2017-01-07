@@ -50,6 +50,9 @@ On the right edge of the display is the list of mission commands for this missio
 
 Click on a mission command to show its editor which allows you to specify the values for the command. You can also change the type of the command by clicking on the command name, "Waypoint" in this example. This allows you to pick from the set up available commands to build your mission. To the right of the command name is a menu you can open by clicking. This menu provides you access to additional options such as Insert and Delete.
 
+### Planned Home Position
+A mission always has a "Planned Home Position" associated with it. This is used to simulate the home position of the vehicle such that waypoint lines can be drawn correctly to the first actual waypoint. Keep in mind that the actual home position for a mission is set by the vehicle and may differ from the "planned" home position if you don't begin your mission with the vehicle in the same location as "planned".
+
 ## Mission Display
 In the center of the map you will see a visualization of your current mission. You can click on the inicators to select then and then you can also drag them around to move them.
 
