@@ -51,7 +51,7 @@ cd qgroundcontrol
 
 ### Daily Builds
 
-Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of new features available. Use at your own risk!
+Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of [new features](DailyBuildChanges/DailyBuildNewFeatures.md) available. Use at your own risk!
 
 * [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 * [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
