@@ -1,5 +1,20 @@
 # Daily Build Major Changes
 
+## Plan View - Mission Settings
+When planning a mission the first item in the mission list on the right of the screen is Mission Settings. This allows you to specify your planned home positions as well as specify vehicle information associated with the planned mission.
+
+<img src="MissionSettings.jpg" style="width: 150px;"/>
+
+### Planned Home Position
+The planned home position allows you to simulate the vehicle's home position while planning a mission. This way you see that waypoint trajectory for your vehicle from takeoff to mission completion. Keep in mind that this is the "planned" home position and you should place it where you plan to start the vehicle from. The actual home position of a vehicle is set by the vehicle itself when arming.
+
+### Vehicle Info
+When planning a mission the firmware being run on the vehicle as well as the vehicle type must be known in order for QGroundControl to show you the mission items appropriate for you vehicle.
+
+If you are planning a mission while you are connected to your vehicle the Firmware and Vehicle Type will be determined from the vehicle connection. If you are planning a mission while not connected to a vehicle you will need to specify this information yourself.
+
+The additional value which can be specified when planning a mission is the vehicle flight speed. By specifying this value total mission or survey times can be approximated.
+
 ## Multi-Vehicle View (Work In Progress)
 
 There is a new view available when you have multiple vehicles connected to QGC. It will only show up when more than one vehicle is connected. When that happens you will see an additional set of radio button at the top right of the Plan view.
