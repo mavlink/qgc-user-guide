@@ -22,9 +22,10 @@ There is a new view available when you have multiple vehicles connected to QGC. 
 <img src="MultiVehicleRadios.jpg" style="width: 150px;"/>
 
 Click the Multi-Vehicle radio button to replace the instrument panel with the multi-vehicle list:
+
 <img src="MultiVehicleList.jpg" style="width: 150px;"/>
 
-The example above shows three vehicles. The numbers are the vehicle id. In the large font is the current flight mode. You can click the flight mode name to chnage to a different flight mode. To the right are small version of the instruments for each vehicle. You command the vehicle to do the follow actions from the control panel:
+The example above shows three vehicles. The numbers are the vehicle id. In the large font is the current flight mode. You can click the flight mode name to chnage to a different flight mode. To the right are small version of the instruments for each vehicle. You can command the vehicle to do the following actions from the control panel:
 
 * Arm/Disarm
 * Start/Stop a mission
@@ -33,9 +34,7 @@ The example above shows three vehicles. The numbers are the vehicle id. In the l
 
 Coming soon:
 
-* Change any flight mode
 * See mission progress as a linear display (green line)
-* The ability to automatically load a mission into a vehicle at connect time based on vehicle id
 
 ### Multi-Vehicle Gotchas
 
