@@ -62,3 +62,9 @@ The PX4 Pro SITL simulator does not support this. Although it may be possible wi
 ## AutoLoad Mission on Vehicle Connect (WIP)
 
 In the Settings / General page there is a new item for "AutoLoad mission directory:". By checking this item and specifying a directory, when QGC connects to a vehicle it will automatically upload a mission to the vehicle. The mission file must be named "AutoLoad#.mission" where the # is replaced with the vehicle id. 
+
+## Default Mission Item Altitude
+
+When you add the first new waypoint to a mission the altitude for that item was previously hardcoded to 50 meters. You can now choose a default value for that from the Settings/General page.
+
+If you change the altitude on a waypoint, subsequent items will continue to use that new altitude. This is an existing feature that has not changed. That new altitude entered from he Plan view does not affect the default altitude stored in settings.
