@@ -68,3 +68,9 @@ In the Settings / General page there is a new item for "AutoLoad mission directo
 When you add the first new waypoint to a mission the altitude for that item was previously hardcoded to 50 meters. You can now choose a default value for that from the Settings/General page.
 
 If you change the altitude on a waypoint, subsequent items will continue to use that new altitude. This is an existing feature that has not changed. That new altitude entered from he Plan view does not affect the default altitude stored in settings.
+
+## Plan - Mission Settings
+
+## Plan - Camera Section on Waypoints
+
+## Plan/Fly - Camera/Gimbal direction shown on waypoints
