@@ -74,3 +74,13 @@ If you change the altitude on a waypoint, subsequent items will continue to use 
 ## Plan - Camera Section on Waypoints
 
 ## Plan/Fly - Camera/Gimbal direction shown on waypoints
+
+## Save path
+
+## Battery Change
+
+## Survey
+
+### Hover and Capture
+
+### Images in turnaround

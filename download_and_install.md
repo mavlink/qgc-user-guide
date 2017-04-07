@@ -10,7 +10,6 @@ The links below will download the current Stable releases of QGroundControl.
   * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)
   * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2)
 * [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol)
-  * If you are a current member of the QGC Android Beta you must [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol) of that first.
 
 Previous stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
 
@@ -58,10 +57,12 @@ Daily Builds of QGroundControl are also available for use. These builds have les
 * Linux
   * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
   * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
+* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta&rdid=org.mavlink.qgroundcontrolbeta)
 
 ##### Android daily builds
 
-Daily builds for Android are available as an opt-in beta from the Google play store. You can opt-in using this [link](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol). This will register you as a Beta user and then allow you to install QGroundControl daily builds from the Google Play store. Once installed it will automatically update itself to the latest version if changes are made.
+Daily builds for Android now have there own Google Play store entry. The old opt-in beta test is no longer valid. If you were a member of that you should [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol).
+
 
 ##### Installing iOS Beta using Test Flight
 
