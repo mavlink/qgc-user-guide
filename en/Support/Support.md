@@ -6,7 +6,7 @@ For reporting problems or asking questions about QGroundControl please use the [
 
 ### Console Logging
 
-![](Console.jpg)
+![](../../images/support/Console.jpg)
 
 The Console can be helpful tool for diagnosing QGroundControl problems. It can be found in the Setttings view. It allows you turn turn on/off the logging options available in QGroundControl. Click the "Set Logging" button to select logging options.
 

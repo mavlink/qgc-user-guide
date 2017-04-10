@@ -1,6 +1,6 @@
 # Radio Setup
 
-![](PX4Radio.jpg)
+![](../../images/setup/PX4Radio.jpg)
 *Note: Image shown is from PX4 Pro firmware vehicle. Main Radio Setup is common to both firwares. Additional Radio Setup differs between firmwares.*
 
 Radio Setup is used to configure the mapping of your main attitude control sticks to channels as well as calibrate the settings for all rc channels.

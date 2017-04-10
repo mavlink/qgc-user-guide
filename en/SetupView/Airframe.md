@@ -4,17 +4,17 @@ This page allows you to configure the main airframe selection associated with yo
 
 ## ArduCopter Airfame Setup
 
-![](APMAirframe.jpg)
+![](../../images/setup/APMAirframe.jpg)
 
 Select the frame type that matches your vehicle. You can also click "Load common parameters" to load a parameter set for known vehicle types:
 
-![](APMAirframeParams.jpg)
+![](../../images/setup/APMAirframeParams.jpg)
 
 Note: Airframe Setup is only available on ArduCopter vehicles. For other ArduPilot vehicles Airframe Setup will not be shown.
 
 ## PX4 Pro Airfame Setup
 
-![](PX4Airframe.jpg)
+![](../../images/setup/PX4Airframe.jpg)
 
 Select the specific airframe from the dropdown within the group which best matches your vehicle. Example image above shows 3DR Iris Quadrotor selected from the Quadrotor wide group.
 

@@ -3,7 +3,7 @@ Rally Points are alternative landing or loiter locations.
 
 Not all vehicle firmwares support Rally Points and if supported the Rally Point capabilities vary.
 
-![](RallyPoints.jpg)
+![](../../images/plan/RallyPoints.jpg)
 
 ## Rally Point Setup
 The steps to creating a GeoFence are:

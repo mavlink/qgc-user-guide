@@ -8,7 +8,7 @@ A set of Basic Tuning sliders are suppored for both firmwares. They allow you to
 
 ## ArduCopter Tuning
 
-![](APMTuningCopter.jpg)
+![](../../images/setup/APMTuningCopter.jpg)
 
 ### AutoTune
 
@@ -38,4 +38,4 @@ This is an advanced option which allows you to tune a flight control parameter u
 
 ## PX4 Copter Tuning
 
-![](PX4TuningCopter.jpg)
+![](../../images/setup/PX4TuningCopter.jpg)

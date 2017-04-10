@@ -1,3 +1,3 @@
 # Motors Setup
 
-![](Motors.jpg)
+![](../../images/setup/Motors.jpg)

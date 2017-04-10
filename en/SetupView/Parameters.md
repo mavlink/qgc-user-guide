@@ -1,6 +1,6 @@
 # Parameters
 
-![](PX4Parameters.jpg)
+![](../../images/setup/PX4Parameters.jpg)
 *Note: This image is from a vehicle running PX4 Pro firmware. ArduPilot works similary, just the parameter set will differ.*
 
 The Parameters screen allows you to modify any of the parameters associated with the vehicle.

@@ -3,7 +3,7 @@
 This page allows you to configure the flight mode switch on your rc transmitter. Flight modes allow for different levels of flight stablization as well as features such as Return to Launch (RTL).
 
 ## ArduPilot Flight Mode Setup
-![](ArduCopterFlightMode.jpg)
+![](../../images/setup/ArduCopterFlightMode.jpg)
 *Note: Image is from an ArduCopter vehicle.*
 
 You can assign up to 6 different flight modes to a single channel of your transmitter. The flight mode will be selected when the output from the channel is whithin the specified PWM range as shown in the image above. To change a flight mode selection simply select it from the dropdown.
@@ -27,4 +27,4 @@ The example image above shows a typical setup for a three position flight mode s
 [ArduPlane detailed flight mode descriptions](http://ardupilot.org/plane/docs/flight-modes.html)
 
 ## PX4 Pro Flight Mode Setup
-![](PX4SingleChannelFlightMode.jpg)
+![](../../images/setup/PX4SingleChannelFlightMode.jpg)

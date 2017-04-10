@@ -3,7 +3,7 @@
 ## Plan View - Mission Settings
 When planning a mission the first item in the mission list on the right of the screen is Mission Settings. This allows you to specify your planned home positions as well as specify vehicle information associated with the planned mission.
 
-<img src="MissionSettings.jpg" style="width: 150px;"/>
+<img src="../../images/daily_build_changes/MissionSettings.jpg" style="width: 150px;"/>
 
 ### Planned Home Position
 The planned home position allows you to simulate the vehicle's home position while planning a mission. This way you see that waypoint trajectory for your vehicle from takeoff to mission completion. Keep in mind that this is the "planned" home position and you should place it where you plan to start the vehicle from. The actual home position of a vehicle is set by the vehicle itself when arming.
@@ -19,11 +19,11 @@ The additional value which can be specified when planning a mission is the vehic
 
 There is a new view available when you have multiple vehicles connected to QGC. It will only show up when more than one vehicle is connected. When that happens you will see an additional set of radio button at the top right of the Plan view.
 
-<img src="MultiVehicleRadios.jpg" style="width: 150px;"/>
+<img src="../../images/daily_build_changes/MultiVehicleRadios.jpg" style="width: 150px;"/>
 
 Click the Multi-Vehicle radio button to replace the instrument panel with the multi-vehicle list:
 
-<img src="MultiVehicleList.jpg" style="width: 150px;"/>
+<img src="../../images/daily_build_changes/MultiVehicleList.jpg" style="width: 150px;"/>
 
 The example above shows three vehicles. The numbers are the vehicle id. In the large font is the current flight mode. You can click the flight mode name to chnage to a different flight mode. To the right are small version of the instruments for each vehicle. You can command the vehicle to do the following actions from the control panel:
 

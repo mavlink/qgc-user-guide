@@ -5,13 +5,13 @@ Not all vehicle firmwares support GeoFence and if supported the GeoFence capabil
 
 ## Example Visuals
 ArduCopter visual:
-![](GeoFence.APM.Copter.jpg)
+![](../../images/plan/GeoFence.APM.Copter.jpg)
 
 ArduPlane visual:
-![](GeoFence.APM.Plane.jpg)
+![](../../images/plan/GeoFence.APM.Plane.jpg)
 
 PX4 Pro visual:
-![](GeoFence.PX4.jpg)
+![](../../images/plan/GeoFence.PX4.jpg)
 
 ## GeoFence Setup
 The steps to creating a GeoFence are:

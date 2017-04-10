@@ -1,6 +1,6 @@
 # QGroundControl
 
-![](QuickStart/ConnectedVehicle.jpg)
+![](../../images/quickstart/ConnectedVehicle.jpg)
 
 QGroundControl provides full flight control and vehicle setup for ArduPilot or PX4 powered vehicles. The goal for QGroundControl is improved ease of use for new users as well as high end feature support for experienced users. 
 
