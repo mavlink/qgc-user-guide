@@ -11,7 +11,7 @@ The parameters are organized in groups. You can select a group of parameters to 
 
 To change the value of a parameter click on the parameter value in the list. This will open a side dialog which allows you to update the value and also provides additional detailed information on the parameter.
 
-![](../images/setup/02_parameters_02.png)
+![](../../images/setup/02_parameters_02.png)
 *Note: This image is out of date.*
 
 ### Searching for a parameter
@@ -20,9 +20,9 @@ Enter the string you are searching for in the text field to right of the Search 
 
 ### Tools
 
-![](../images/setup/02_parameters_tools_01.png)
+![](../../images/setup/02_parameters_tools_01.png)
 
-![](../images/setup/02_parameters_tools_02_menu.png)
+![](../../images/setup/02_parameters_tools_02_menu.png)
 *Note: These images are out of data.*
 
 You can select additional options from the Tools menu.
