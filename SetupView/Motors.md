@@ -1,3 +1,0 @@
-# Motors Setup
-
-![](Motors.jpg)
