@@ -4,13 +4,13 @@ This user guide is meant to be the main provider of support for QGroundControl. 
 
 For reporting problems or asking questions about QGroundControl please use the [QGroundControl Google Group](http://groups.google.com/group/qgroundcontrol).
 
-### Console Logging
+## Console Logging
 
 ![](../../images/support/Console.jpg)
 
 The Console can be helpful tool for diagnosing QGroundControl problems. It can be found in the Setttings view. It allows you turn turn on/off the logging options available in QGroundControl. Click the "Set Logging" button to select logging options.
 
-##### Commonly used logging options
+### Commonly used logging options
 
 * LinkManagerLog, MultiVehicleManagerLog - Debug connection problems.
 * LinkManagerVerboseLog - Very noisy connection problem debugging. Continuous output of available serial ports.
@@ -20,7 +20,7 @@ The Console can be helpful tool for diagnosing QGroundControl problems. It can b
 * MissionManagerLog - Debug mission protocol issues.
 * RadioComponentControllerLog - Debug Radio calibration issues.
 
-##### Logging from the command line
+### Logging from the command line
 
 An alternate mechanism for logging is using the --logging command line option. This is handy if you are trying to get logs from a situation where QGroundControl crashes.
 
@@ -41,10 +41,10 @@ qgroundcontrol --logging:full</code>
     * Log traces will output to the shell you are running from.
 
 
-### Developer Chat
+## Developer Chat
 
 The QGroundControl developers as well as many QGGroundControl users can be found on the QGroundControl [Gitter](https://gitter.im/mavlink/qgroundcontrol) channel. If you are a heavy user of QGroundControl and want to keep up to date on the latest information or help with QGroundControl we suggest monitoring that channel.
 
-##### Help out your fellow QGroundControl users
+## Help out your fellow QGroundControl users
 
 Just like QGroundControl itself, the user guide is an open source, user created and supported GitBook. We welcome [Pull Requests](https://github.com/mavlink/qgc-user-guide/pulls) against the guide for fixes and/or updates.

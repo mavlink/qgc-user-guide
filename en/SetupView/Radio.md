@@ -9,6 +9,6 @@ To start radio calibration click the Calibrate button. You will be asked to move
 
 After calibration is complete the mappings for Roll, Pitch, Raw and Throttle will be set. Also the min, max, trim and reverse settings will be configured automatically for all channels.
 
-### Additional Radio Setup
+## Additional Radio Setup
 
 Below the top most calibration portion of the screen are additional radio based settings which are specific to the firmware your vehicle is using.

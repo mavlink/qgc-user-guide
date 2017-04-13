@@ -6,7 +6,7 @@ The Settings View allows you to configure the settings which are associated with
 
 You can switch between the various settings options by clicking the buttons on the left.
 
-### Settings Options
+## Settings Options
 
 **General**
 <br>The main application settings.

@@ -1,13 +1,25 @@
 {   
     "gitbook": ">= 3.2.2",
     "plugins": [
+        "youtube",
+        "richquotes",
+        "page-toc-button",
+        "collapsible-menu",
         "language-picker",
         "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git"
     ],
     "pluginsConfig": {       
         "language-redirect": {
             "baseurl": "https://donlakeflyer.gitbooks.io/qgroundcontrol-user-guide/"
-        }        
+        },
+        "richquotes":
+        {
+            "tip": {
+                "alert": "success",
+                "picto": "fa-thumbs-o-up"
+            }
+        }
+        
     } 
 
 
