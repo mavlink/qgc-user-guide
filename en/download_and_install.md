@@ -1,6 +1,6 @@
 # Download and Install
 
-### Downloading
+## Downloading
 
 The links below will download the current Stable releases of QGroundControl.
 
@@ -15,7 +15,7 @@ Previous stable releases can be found on <a href="https://github.com/mavlink/qg
 
 Release notes are [here](ReleaseNotes.md).
 
-### OS Requirements
+## OS Requirements
 
 * Windows Vista or above
 * Mac OSX 10.8 or above
@@ -24,21 +24,21 @@ Release notes are [here](ReleaseNotes.md).
 * iOS 8.0 or above (Beta)
 
 
-### Installing
+## Installing
 
 * Windows: Double click the executable to launch the installer.
 * Mac: Double click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.
 
-### Installing and Running on Linux
+## Installing and Running on Linux
 
-##### AppImage
+### AppImage
 
 ```sh
 chmod +x ./QGroundControl.AppImage
 ./QGroundControl.AppImage (or double click)
 ```
 
-##### Compressed Archive
+### Compressed Archive
 
 You will also need to install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. You do not need to install Qt.
 
@@ -48,7 +48,7 @@ cd qgroundcontrol
 ./qgroundcontrol-start.sh
 ```
 
-### Daily Builds
+## Daily Builds
 
 Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of [new features](DailyBuildChanges/DailyBuildNewFeatures.md) available. Use at your own risk!
 
@@ -59,12 +59,12 @@ Daily Builds of QGroundControl are also available for use. These builds have les
   * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
 * [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta&rdid=org.mavlink.qgroundcontrolbeta)
 
-##### Android daily builds
+### Android daily builds
 
 Daily builds for Android now have there own Google Play store entry. The old opt-in beta test is no longer valid. If you were a member of that you should [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol).
 
 
-##### Installing iOS Beta using Test Flight
+### Installing iOS Beta using Test Flight
 
 The iOS version of QGroundControl is currently in open Beta. You can opt-in to the Beta by adding your email address [here](https://github.com/mavlink/qgroundcontrol/issues/3509). Keep in mind that due to device restrictions on iOS only WiFi connections are supported. Once installed you will be notified of new versions through the Test Flight app. The release frequency of iOS beta builds is on an ad-hoc basis more on the order of a new build every week or two.
 
