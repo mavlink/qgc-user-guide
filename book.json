@@ -5,6 +5,7 @@
         "richquotes",
         "page-toc-button",
         "collapsible-menu",
+        "github",
         "language-picker",
         "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git"
     ],
@@ -18,6 +19,9 @@
                 "alert": "success",
                 "picto": "fa-thumbs-o-up"
             }
+        },
+        "github": {
+            "url": "https://github.com/mavlink/qgc-user-guide"
         }
         
     } 
