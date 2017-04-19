@@ -1,7 +1,7 @@
 # Summary
 
 * [Overview](README.md)
-* [Quick start](QuickStart/QuickStart.md)
+* [Quick Start](QuickStart/QuickStart.md)
 * [Download and Install](download_and_install.md)
 	* [Release Notes](ReleaseNotes.md)
 	* [Daily Build New Features](DailyBuildChanges/DailyBuildNewFeatures.md)

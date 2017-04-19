@@ -7,7 +7,8 @@
         "collapsible-menu",
         "github",
         "language-picker",
-        "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git"
+        "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git",
+        "custom-favicon"
     ],
     "pluginsConfig": {       
         "language-redirect": {
@@ -22,7 +23,8 @@
         },
         "github": {
             "url": "https://github.com/mavlink/qgc-user-guide"
-        }
+        },
+        "favicon": "favicon.ico"
         
     } 
 
