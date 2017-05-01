@@ -1,22 +1,22 @@
 # Plan View - Rally Points
 
-Rally Points are alternative landing or loiter locations.
+Rally 포인트는 착륙 혹은 로이터링 위치를 대신합니다.
 
-They are typically used to provide a safer or more convenient destination than the home position in RETURN TO LAUNCH (RTL) mode. 
+RETURN TO LAUNCH(RTL)모드에서 home position보다 안전하고 편리한 목적지를 제공하는데 일반적으로 사용됩니다.
 
 ![](../../images/plan/RallyPoints.jpg)
 
-> **Note** Not all vehicle firmwares support Rally Points, and even if supported the Rally Point capabilities vary.  Rally Point docs for ArduPilot [can be found here](http://ardupilot.org/copter/docs/common-rally-points.html). PX4 does not support rally points at time of writing (April 2017).
+> **Note** 모든 비행 펌웨어가 렐리 포인트를 지원하는 것은 아니며, 지원하더라도 Rally Point 기능은 다를 수 있습니다. ArduPilot와 관련한 문서는 [여기](http://ardupilot.org/copter/docs/common-rally-points.html)에서 찾을 수 있습니다. PX4는 현재(4월 2017) 지원하지 않습니다.
 
 ## Rally Point Setup
-The steps to creating a GeoFence are:
+GeoFence를 생성하는 단계 :
 
-1. Change to Plan View
-2. Select the Rally button (top right of view)
-3. Click in the map to add Rally Points
+1. Plan View로 변경
+2. Rally 버튼을 선택 (화면의 오른쪽 상단)
+3. 지도에 클릭해서 렐리 포인트 추가
 
 ### Rally Points Tools
-On the left edge of the screen you will see the Plan Tools. The order of tools from top to bottom is:
+화면의 왼쪽 모퉁이에 Plan Tools가 있습니다. 이 도구들은 위에서 아래로 순서로 :
 
 * Sync
 * Center map
@@ -24,15 +24,15 @@ On the left edge of the screen you will see the Plan Tools. The order of tools f
 * Zoom In/Out
 
 #### Sync
-The Sync tools allows you to move Rally Points back and forth to your Vehicle or a file. *Before you fly you must be sure to send your Rally Points to your vehicle.* The tool will change to have an "!" within it to indicate that you have changes to your GeoFence which you have not sent to your vehicle. 
+Sync는 Rally Points를 비행체나 파일로 보낼 수 있습니다. *비행전에 Rally Points를 비행체로 전송했는지 확인하세요.* "!"로 표시되는 것은 GeoFence를 변경한 후에 비행체로 전송하지 않았다는 것을 뜻합니다.
 
-The Sync tool provides the following functionality:
+Sync 도구는 다음과 같은 기능을 제공합니다 :
 
-* Send to Vehicle
-* Load from Vehicle
-* Save to File
-* Load from File
-* Remove All
+* 비행체로 전송
+* 비행체로부터 로드
+* 파일에 저장
+* 파일로부터 로드
+* 전체 삭제
 
-#### Remaining tools
-The rest of the tools work exactly as they do while editing a Mission.
+#### 그 이외 도구들
+다른 도구들은 미션을 수정하는 동안 문구대로 동작합니다.
