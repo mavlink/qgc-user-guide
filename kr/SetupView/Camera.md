@@ -1,6 +1,6 @@
 # Camera Setup
 
-The details of the page differ if you are using PX4 Pro firmware or ArduPilot firmware.
+만약 PX4 Pro 펌웨어나 ArduPilot 펌웨어를 사용하는 경우 이 페이지와 다를 수 있습니다.
 
 ## ArduPilot Camera Setup
 
