@@ -1,5 +1,5 @@
 # This is QGroundControl
-The first step is to [download](download_and_install.md) and install QGroundControl. Below is the screen you will see when no vehicle is connected.
+The first step is to [download](../download_and_install.md) and install QGroundControl. Below is the screen you will see when no vehicle is connected.
 <br>
 <br>
 ![](../../images/quickstart/BootToFly.jpg)
