@@ -5,10 +5,10 @@
         "richquotes",
         "page-toc-button",
         "collapsible-menu",
-        "github",
         "language-picker",
         "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git",
-        "custom-favicon"
+        "custom-favicon",
+        "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git"
     ],
     "pluginsConfig": {       
         "language-redirect": {
@@ -21,10 +21,31 @@
                 "picto": "fa-thumbs-o-up"
             }
         },
-        "github": {
-            "url": "https://github.com/mavlink/qgc-user-guide"
-        },
-        "favicon": "favicon.ico"
+        "favicon": "favicon.ico",
+        "toolbar": {
+            "buttons":
+            [
+                {
+                    "label": "Bug tracker",
+                    "icon": "fa fa-bug",
+                    "position" : "left",
+                    "url": "https://github.com/mavlink/qgc-user-guide/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"
+                    
+                },
+                {
+                    "label": "GitHub",
+                    "icon": "fa fa-github",
+                    "url": "https://github.com/mavlink/qgc-user-guide"
+                },
+                {
+                    "label": "Edit page on github",
+                    "icon": "fa fa-pencil-square-o",
+                    "position" : "left",
+                    "url": "https://github.com/mavlink/qgc-user-guide/edit/master/{{filepath_lang}}"
+                }
+            ]
+        }
+        
         
     } 
 
