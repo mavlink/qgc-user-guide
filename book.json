@@ -9,6 +9,7 @@
         "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git",
         "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
+        "bulk-redirect",
         "-validate-links"
     ],
     "pluginsConfig": {       
@@ -23,6 +24,10 @@
             }
         },
         "favicon": "favicon.ico",
+        "bulk-redirect": {
+            "basepath": "/",
+            "redirectsFile": "redirects.json"
+        },
         "toolbar": {
             "buttons":
             [

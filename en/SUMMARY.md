@@ -1,10 +1,10 @@
 # Summary
 
 * [Overview](README.md)
-* [Quick Start](QuickStart/QuickStart.md)
-* [Download and Install](download_and_install.md)
-	* [Release Notes](ReleaseNotes.md)
-	* [Daily Build New Features](DailyBuildChanges/DailyBuildNewFeatures.md)
+* [Quick Start](getting_started/quick_start.md)
+* [Download and Install](getting_started/download_and_install.md)
+	* [Release Notes](releases/release_notes.md)
+	* [Daily Build New Features](releases/daily_build_new_features.md)
     * [Google Play Privacy Policy](releases/google_play_privacy_policy.md)
 * [Fly](FlyView/FlyView.md)
 * [Plan](PlanView/PlanView.md)

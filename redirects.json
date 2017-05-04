@@ -1,0 +1,25 @@
+{
+    "redirects": [
+            {
+                "from": "download_and_install.html",
+                "to": "en/getting_started/download_and_install.html"
+            },
+            {
+                "from": "ReleaseNotes.html",
+                "to": "en/releases/release_notes.html"
+            },
+            {
+                "from": "DailyBuildChanges/DailyBuildNewFeatures.html",
+                "to": "en/releases/daily_build_new_features.html"
+            },
+            {
+                "from": "QuickStart/QuickStart.html",
+                "to": "en/getting_started/quick_start.html"
+            }
+            
+
+    ]
+}
+
+
+
