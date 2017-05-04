@@ -5,6 +5,7 @@
 * [Download and Install](download_and_install.md)
 	* [Release Notes](ReleaseNotes.md)
 	* [Daily Build New Features](DailyBuildChanges/DailyBuildNewFeatures.md)
+    * [Google Play Privacy Policy](releases/google_play_privacy_policy.md)
 * [Fly](FlyView/FlyView.md)
 * [Plan](PlanView/PlanView.md)
 	* [GeoFence](PlanView/PlanGeoFence.md)
