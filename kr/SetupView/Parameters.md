@@ -1,37 +1,37 @@
 # Parameters
 
 ![](../../images/setup/PX4Parameters.jpg)
-*Note: This image is from a vehicle running PX4 Pro firmware. ArduPilot works similary, just the parameter set will differ.*
+*Note: PX4 Pro 펌웨어를 실행하는 비행체에서 얻은 이미지입니다. ArduPilot도 유사하게 동작하지만 파라미터 설정은 다를 수 있습니다.*
 
-The Parameters screen allows you to modify any of the parameters associated with the vehicle.
+파라미터 스크린에서 비행체와 관련된 파라미터를 수정할 수 있습니다.
 
-The parameters are organized in groups. You can select a group of parameters to view by clicking on one of the group buttons to the left. In the example image the "Battery Calibration" group is selected.
+파라미터는 그룹으로 구성되어 있습니다. 왼쪽에 그룹 버튼의 하나를 클릭해서 볼려면 파라미터의 그룹을 선택할 수 있습니다. 예제 이미지에서 "Battery Calibration" 그룹이 선택됩니다.
 
-### Changing a value
+### 값 변경하기
 
-To change the value of a parameter click on the parameter value in the list. This will open a side dialog which allows you to update the value and also provides additional detailed information on the parameter.
+파라미터의 값을 변경하기 위해서 목록에 있는 파라미터 값을 클릭합니다. 이렇게 하면 값을 업데이트할 수 있게 옆에 다이얼로그가 열리고 파라미터에 대한 상세한 정보가 제공됩니다.
 
 ![](../../images/setup/02_parameters_02.png)
-*Note: This image is out of date.*
+*Note: 이 이미지는 예전 이미지입니다.*
 
-### Searching for a parameter
+### 파라미터 검색하기
 
-Enter the string you are searching for in the text field to right of the Search button and then click Search. This will show you a list of parameters which match you search criteria. Search will not only match on parameter names, but it will also match on parameter descriptions.
+텍스트 입력창에 찾으려는 문자열을 입력하고 Search 버튼을 클릭합니다. 여러분이 찾는 문자열과 매칭되는 파라미터의 목록을 보여줍니다. 파라미터 이름뿐만 아니라 파라미터 설명이 있는 부분과도 매칭되어 검색됩니다.
 
 ### Tools
 
 ![](../../images/setup/02_parameters_tools_01.png)
 
 ![](../../images/setup/02_parameters_tools_02_menu.png)
-*Note: These images are out of data.*
+*Note: 이 이미지들은 예전 이미지입니다.*
 
-You can select additional options from the Tools menu.
+Tools 메뉴에서 추가 옵션을 선택할 수 있습니다.
 
 **Refresh**
-<br>Refresh the parameter values by re-requesting all of them from the vehicle.
+<br>비행체로부터 모든 파라미터를 재요청해서 파라미터 값을 갱신
 
 **Reset all to defaults**
-<br>Reset all parameters to their original default values.
+<br>모든 파라미터들을 원래 기본 값으로 리셋
 
 **Load from file / Save to file**
-<br>Load parameters from an existing file or Save your current parameter settings to a file.
+<br>기존 파일에서 파라미터를 로드하거나 현재 파라미터 셋팅을 파일로 저장

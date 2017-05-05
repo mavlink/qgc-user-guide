@@ -1,14 +1,14 @@
 # Radio Setup
 
 ![](../../images/setup/PX4Radio.jpg)
-*Note: Image shown is from PX4 Pro firmware vehicle. Main Radio Setup is common to both firwares. Additional Radio Setup differs between firmwares.*
+*Note:  PX4 Pro 펌웨어 비행체인 경우의 이미지입니다. Main Radio Setup은 양쪽 펌웨어에 공통입니다. 추가 Radio Setup은 펌웨어마다 다릅니다.*
 
-Radio Setup is used to configure the mapping of your main attitude control sticks to channels as well as calibrate the settings for all rc channels.
+Radio Setup은 모든 rc채널 셋팅의 칼리브레이션뿐만 아니라 채널에 따른 주요 자세제어 스틱을 채널로 매핑하는 설정에 사용합니다.
 
-To start radio calibration click the Calibrate button. You will be asked to move the sticks in a specific pattern. The image on the top right of the screen will also show you how to move the sticks. Simply follow the instructions to complete calibration.
+라디오 칼리브레이션을 시작하려면 Calibrate 버튼을 클릭합니다. 스틱을 특정 패턴으로 움직이라는 지시를 따릅니다. 화면의 오른쪽 위에서 스틱을 움직이는 방법을 보여줍니다. 그냥 지시를 따라 칼리브레이션을 완성합니다.
 
-After calibration is complete the mappings for Roll, Pitch, Raw and Throttle will be set. Also the min, max, trim and reverse settings will be configured automatically for all channels.
+칼리브레이션이 완료되고 나면 Roll, Pitch, Yaw와 Throttle에 대한 매핑을 설정돕니다. 또한 min, max, trim, reverse 셋팅은 자동으로 모든 채널에 대해서 설정됩니다.
 
-## Additional Radio Setup
+## 추가 라디오 셋업
 
-Below the top most calibration portion of the screen are additional radio based settings which are specific to the firmware your vehicle is using.
+추가 라디오 셋팅은 여러분이 사용하는 펌웨어에 따라서 달라집니다.

@@ -23,4 +23,4 @@
    * [Parameters](SetupView/Parameters.md)
 * [Settings](SettingsView/SettingsView.md)
 	* [Offline Maps](SettingsView/OfflineMaps.md)
-* [지원](Support/Support.md)
+* [Support](Support/Support.md)

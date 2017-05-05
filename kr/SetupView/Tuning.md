@@ -1,10 +1,10 @@
 # Tuning Setup
 
-This page allows you to configure settings on your vehicle which control basic flight characteristics. The details of the page differ slightly if you are using PX4 Pro firmware or ArduPilot firmware.
+이 페이지에서는 기본 비행 특성을 제어하는 셋팅 설정 방법을 알아봅니다. 상세한 내용은 사용하는 PX4 Pro나 ArduPilot 펌웨어에 따라서 다를 수 있습니다.
 
 ### Basic Tuning
 
-A set of Basic Tuning sliders are suppored for both firmwares. They allow you to adjust the specified flight characteristic by moving the slider to the left or right.
+기본 튜닝 슬라이더는 양쪽 펌웨어에서 지원됩니다. 슬라이더를 왼쪽에서 오른쪽으로 이동시키는 방식으로 비행 특성을 조정할 수 있습니다.
 
 ## ArduCopter Tuning
 
@@ -12,29 +12,29 @@ A set of Basic Tuning sliders are suppored for both firmwares. They allow you to
 
 ### AutoTune
 
-AutoTune is used to automatically tune the rate parameters in order to provide the highest response without significant overshoot.
+심각한 오버슛(overshoot)없이 빠른 응답을 제공하도록 rate 파라미터를 자동으로 튜닝하는데 사용합니다.
 
-Performing an AutoTune:
+AutoTune 수행하기 :
 
-* Select which axes you would like to tune. Tuning all axes at once can take a significant amount of time which may cause you to run out of battery. In order to prevent this you can select to tune only one axis at a time. 
-* Assign AutoTune to one of your transmitter switches. Ensure that switch is in low position before taking off.
-* Take off and put the copter into AltHold.
-* Turn on AutoTune with your transmitter switch.
-* The copter will twitch around the specified axes for a few minutes.
-* When AutoTune completes the copter will change back to the original settings.
-* Move the AutoTune switch back to low position and then back to high to test the new settings.
-* Move the AutoTune switch to low to test previous settings.
-* To save new settings, land and disarm while AutoTune switch is in high position.
+* 어느 축으로 튜닝할지를 선택합니다. 모든 축으로 한번에 튜닝은 시간이 많이 걸려서 배터리가 모두 소진될 수 있습니다. 이를 방지하기 위해서 한번에 하나의 축으로 튜닝하는 것을 선택할 수 있습니다.
+* 자동튜닝을 트랜스미터 스위치 중에 하나에 할당합니다. 해당 스위치가 이륙하기 전에는 아래로 위치해 있어야 합니다.
+* 이륙 시키고 copter를 AltHold 모드가 되도록 합니다.
+* 트랜스미터 스위치로 자동튜닝을 켭니다.
+* copter는 몇 분동안 특정 축 주위로 출렁입니다.
+* 자동튜닝이 완료되면 copter를 원래 셋팅으로 돌아갑니다.
+* 자동튜닝 스위치가 아래 방향으로 내려가고 다음으로 새로운 셋팅을 테스트하기 위해서 위로 다시 올립니다.
+* 자동튜닝 스위치를 아래로 내리고 이전 셋팅을 테스트합니다.
+* 새로운 셋팅을 저장하기 위해서, 자동튜닝 스위치가 위방향으로 되어 있는 동안 착륙과 disarm을 수행합니다.
 
 Note:
 
-* Since AutoTune is done in AltHold your copter must already have a tuning which is minimally flyable in AltHold.
-You can cancel AutoTune at any time by moving the AutoTune switch back to low position.
-* You can reposition the copter using your transmitter at any time during AutoTune.
+* 자동튜닝이 AltHold에서 완료되면, 여러분의 copter는 최소한 AltHold에서는 비행할 수 있는 튜닝을 이미 가지게 되었습니다.
+자동튜닝 스위치를 아래 방향으로 움직이면 언제든 자동튜닝을 취소할 수 있습니다.
+* 자동튜닝 동안 언제든 트랜스미터를 이용해서 copter를 reposition시킬 수 있습니다.
 
 ### In Flight Tuning
 
-This is an advanced option which allows you to tune a flight control parameter using one of your transmitter dial channels. Select the control option from the dropdown and specify the min/max for the values to assign to the dial.
+이것은 고급 옵션으로 트랜스미터 다이얼 채널의 하나를 이용해서 비행 제어 파라미터를 튜닝할 수 있습니다. 드롭다운에서 제어 옵션을 선택하고 값이 다이얼에 할당되도록 min/max를 지정합니다.
 
 ## PX4 Copter Tuning
 
