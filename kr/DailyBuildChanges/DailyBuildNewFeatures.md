@@ -1,18 +1,18 @@
-# Daily Build 주요 변경사항
+# Daily Build Major Changes
 
 ## Settings
 
-### File 저장 경로
-QGC가 Parameters, Telemetry나 Mission을 저장할 파일들에 대한 기본 저장 경로를 지정할 수 있습니다.
+### File save path
+You can now specify a save path which QGC will use as the default location to save files such as Parameters, Telemetry or Mission to.
 
-### Telemetry log 자동저장
-*Save telemetry log after each flight* 를 켜면 비행체가 매번 disarm되는 경우 log를 어디에 저장할 것인지 프롬프트가 뜨지 않습니다. 자동으로 Settings에서 지정한 저장 경로에 저장됩니다.
+### Telemetry log auto-save
+If you have *Save telemetry log after each flight* turned on you will no longer be prompted as to where to save the log each time the vehicle disarms. They will automatically be saved to the save path specified in Settings.
 
 ### Video save
 
 ### AutoLoad missions
 
-이 설정을 켜면 QGC가 비행체에 연결될 때, 자동으로 mission을 비행체에 업로드합니다. mission 파일은 반드시 "AutoLoad#.mission" 과 같은 이름을 가져야하며, #은 비행체 id로 대체합니다. mission 파일의 위치는 위에서 지정한 파일 저장 경로에 있습니다.
+When this settings is turned on when QGC connects to a vehicle it will automatically upload a mission to the vehicle. The mission file must be named "AutoLoad#.mission" where the # is replaced with the vehicle id. The location of the mission file is in the file save path as specified above.
 
 ## Plan View
 
@@ -21,16 +21,15 @@ QGC가 Parameters, Telemetry나 Mission을 저장할 파일들에 대한 기본 
 #### Battery information
 
 ### Mission Settings
-mission을 계획할 때, 화면 오른쪽에 있는 mission 목록에 있는 첫번째 아이템이 Mission Settings입니다. mission과 관련된 비행체 정보 지정과 planned home position을 지정할 수 있습니다.
+When planning a mission the first item in the mission list on the right of the screen is Mission Settings. This allows you to specify your planned home positions as well as specify vehicle information associated with the planned mission.
 
 <img src="../../images/daily_build_changes/MissionSettings.jpg" style="width: 150px;"/>
 
 #### Mission defaults
 
 ##### Waypoint altitude
-처음 새로운 waypoint를 mission에 추가할 때, 해당 아이템에 대해서 altitude는 이전에 50m로 박혀져 있었다. Mission Settings에서 기본 값을 선택할 수 있습니다. mission을 로드하는 동안 만약에 이 값을 업데이트하면, 새로운 altitude로 모든 wapoint를 업데이트하라는 프롬프트가 뜨게 됩니다.
+When you add the first new waypoint to a mission the altitude for that item was previously hardcoded to 50 meters. You can now choose a default value for that from Mission Settings. If you update this value while you have a mission loaded it will prompt you to update all the your waypoints to this new altitude.
 
-waypoint에 있는 altitude를 변경하면, 하부 아이템들은 새로운 altitude를 사용하게 됩니다.
 If you change the altitude on a waypoint, subsequent items will continue to use that new altitude. This is an existing feature that has not changed. That new altitude entered from he Plan view does not affect the default altitude stored in settings.
 
 ##### Flight speed
