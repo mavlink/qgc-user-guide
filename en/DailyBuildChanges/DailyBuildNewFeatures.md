@@ -110,6 +110,8 @@ You will be prompted to remove the mission from the vehicle after the mission co
 
 ### Instrument panel
 #### Camera trigger
+#### Flight Time
+Flight time is now available for display in the instrument panel. For new users, fligth time will be shown by defeault. For existing users who have already modified their instrument panel values you will have to add it yourself if you want to use it.
 
 ## Analyze View
 * Log download moved to Analyze view from menu
