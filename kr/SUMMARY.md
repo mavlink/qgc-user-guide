@@ -2,9 +2,10 @@
 
 * [개요](README.md)
 * [바로 시작하기](QuickStart/QuickStart.md)
-* [다운로드 및 설치](download_and_install.md)
-	* [릴리즈 노트](ReleaseNotes.md)
-	* [Daily Build 새로운 기능들](DailyBuildChanges/DailyBuildNewFeatures.md)
+* [다운로드 및 설치](getting_started/download_and_install.md)
+	* [릴리즈 노트](releases/release_notes.md)
+	* [Daily Build 새로운 기능들](releases/daily_build_new_features.md)
+    * [Google Play 프라이버시 정책](releases/google_play_privacy_policy.md)
 * [비행화면](FlyView/FlyView.md)
 * [계획화면](PlanView/PlanView.md)
 	* [GeoFence](PlanView/PlanGeoFence.md)
