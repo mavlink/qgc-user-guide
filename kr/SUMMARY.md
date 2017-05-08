@@ -1,7 +1,7 @@
 # 요약
 
 * [개요](README.md)
-* [바로 시작하기](QuickStart/QuickStart.md)
+* [바로 시작하기](getting_started/quick_start.md)
 * [다운로드 및 설치](getting_started/download_and_install.md)
 	* [릴리즈 노트](releases/release_notes.md)
 	* [Daily Build 새로운 기능들](releases/daily_build_new_features.md)
