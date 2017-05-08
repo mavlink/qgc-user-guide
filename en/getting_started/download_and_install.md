@@ -13,7 +13,7 @@ The links below will download the current Stable releases of QGroundControl.
 
 Previous stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
 
-Release notes are [here](ReleaseNotes.md).
+Release notes are [here](../releases/release_notes.md).
 
 ## OS Requirements
 
@@ -50,7 +50,7 @@ cd qgroundcontrol
 
 ## Daily Builds
 
-Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of [new features](DailyBuildChanges/DailyBuildNewFeatures.md) available. Use at your own risk!
+Daily Builds of QGroundControl are also available for use. These builds have less testing than Stable builds but will have the absolute latest set of [new features](../releases/daily_build_new_features.md) available. Use at your own risk!
 
 * [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 * [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
