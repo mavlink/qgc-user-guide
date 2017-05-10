@@ -2,7 +2,7 @@
 
 ## Downloading
 
-The links below will download the current Stable releases of QGroundControl.
+The links below can be used download the current stable release of *QGroundControl* ([release notes](../releases/release_notes.md)):
 
 * [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)
 * [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)
@@ -11,9 +11,6 @@ The links below will download the current Stable releases of QGroundControl.
   * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2)
 * [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol)
 
-Previous stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
-
-Release notes are [here](../releases/release_notes.md).
 
 ## OS Requirements
 
@@ -21,7 +18,7 @@ Release notes are [here](../releases/release_notes.md).
 * Mac OSX 10.8 or above
 * Ubuntu 14.04 LTS or above
 * Android 5.1 or above
-* iOS 8.0 or above (Beta)
+* iOS 8.0 or above (Beta - [daily build only](../releases/daily_builds.md))
 
 
 ## Installing
@@ -48,6 +45,10 @@ cd qgroundcontrol
 ./qgroundcontrol-start.sh
 ```
 
+## Old Stable Releases
+
+Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
+
 ## Daily Builds
 
-The daily build can be [downloaded from here](../releases/daily_builds.md).
+Daily builds can be [downloaded from here](../releases/daily_builds.md).
