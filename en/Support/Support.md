@@ -42,8 +42,19 @@ qgroundcontrol --logging:full</code>
 
 
 ## Developer Chat
-
 The QGroundControl developers as well as many QGGroundControl users can be found on the QGroundControl [Gitter](https://gitter.im/mavlink/qgroundcontrol) channel. If you are a heavy user of QGroundControl and want to keep up to date on the latest information or help with QGroundControl we suggest monitoring that channel.
+
+## GitHub Issues
+Issues are used to track bugs against QGroundControl as well as feature reuqests for later versions. The current list of Issues can be found here: https://github.com/mavlink/qgroundcontrol/issues.
+
+Please don't enter Issues directly into GitHub without first contacting developers using the Gitter channel as descrcibed below.
+
+### Reporting Bugs
+It is best to first ask any question around a bug on the Gitter channel. There are many cases where something that seems like a bug is actually a vehicle setup problem. After that if directed to you can enter a GitHub Issue for the bug using the link above.
+
+### Feature Requests
+Feature Requests should also first go through the Gitter channel to determine whether the feature is actually missing. That way you may be directed to a feature you haven't found which covers what you were looking for. If the feature is truly not available, then you can enter a GitHub Issue for the request using the link above.
+
 
 ## Help out your fellow QGroundControl users
 
