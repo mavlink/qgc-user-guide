@@ -1,53 +1,69 @@
 # Download and Install
 
-## Downloading
+The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
-The links below will download the current Stable releases of QGroundControl.
+## Windows
 
-* [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)
-* [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)
-* Linux
-  * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)
-  * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2)
-* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol)
+Install *QGroundControl* for Windows Vista or later:
 
-Previous stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
-
-Release notes are [here](../releases/release_notes.md).
-
-## OS Requirements
-
-* Windows Vista or above
-* Mac OSX 10.8 or above
-* Ubuntu 14.04 LTS or above
-* Android 5.1 or above
-* iOS 8.0 or above (Beta)
+1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
+1. Double click the executable to launch the installer.
 
 
-## Installing
+## Mac OS X
 
-* Windows: Double click the executable to launch the installer.
-* Mac: Double click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.
+Install *QGroundControl* for Mac OS X 10.8 or later: 
 
-## Installing and Running on Linux
+1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
+1. Double-click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.
+
+  
+## Ubuntu Linux
+
+Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later. You can either install the AppImage **or** the compressed archive.
 
 ### AppImage
 
-```sh
-chmod +x ./QGroundControl.AppImage
-./QGroundControl.AppImage (or double click)
-```
+1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
+1. Install using the terminal commands:
+   ```sh
+   chmod +x ./QGroundControl.AppImage
+   ./QGroundControl.AppImage  (or double click)
+   ```
 
 ### Compressed Archive
 
-You will also need to install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. You do not need to install Qt.
+1. Download [QGroundControl.tar.bz2](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2).
+1. Extract the archive using the terminal command:
+   ```sh
+   tar jxf QGroundControl.tar.bz2
+   cd qgroundcontrol
+   ./qgroundcontrol-start.sh
+   ```
+1. Install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. You do not need to install Qt.
 
-```sh
-tar jxf QGroundControl.tar.bz2
-cd qgroundcontrol
-./qgroundcontrol-start.sh
-```
+  
+## Android
+
+Install *QGroundControl* for Android 5.1 or later:
+
+1. Open the Google Play Store [QGroundControl link](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol).
+1. Follow the installation instructions.
+
+
+## iOS
+
+> **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md#installing-ios-beta-using-test-flight).
+
+Install *QGroundControl* for iOS 8.0 or later:  
+
+1. Follow the instructions for [Installing iOS Daily Beta using Test Flight](../releases/daily_builds.md#installing-ios-beta-using-test-flight).
+
+
+## Old Stable Releases
+
+Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
 
 ## Daily Builds
 
-The daily build can be [downloaded from here](../releases/daily_builds.md).
+Daily builds can be [downloaded from here](../releases/daily_builds.md).
