@@ -11,8 +11,8 @@ These can be downloaded from the links below (install as described in [Download 
 * Linux 
   * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
   * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
-* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta&rdid=org.mavlink.qgroundcontrolbeta) 
-  > **Warning** At time of writing daily builds are locked out ([#5162](https://github.com/mavlink/qgroundcontrol/issues/5162)).
+* [Android](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.apk) 
+  > Daily builds are currently only available from direct link above. We are working to get them back into the Google Play Store ([#5162](https://github.com/mavlink/qgroundcontrol/issues/5162)).
   
   <span></span>
   > **Note** The old opt-in beta test is no longer valid. If you were a member of that you should [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol).
