@@ -11,7 +11,7 @@ QGroundControl의 Daily Builds도 사용이 가능합니다. 이 빌드들은 �
 
 ## Android daily builds
 
-구글 플레이 스토어에서 안드로이드용 Daily builds을 받을 수 있습니다. 기존 베타 테스트는 더 이상 지원하지 않습니다. 만약 기존에 멤버였다면 [멤버 탈퇴](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol)를 하도록 합니다.
+구글 플레이 스토어에서 안드로이드용 Daily builds을 받을 수 있습니다. 기존 베타 테스트는 더 이상 지원하지 않습니다. 만약 기존에 멤버였다면 [멤버 탈퇴](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta)를 하도록 합니다.
 
 
 ## Test Flight 사용해서 iOS Beta 설치
