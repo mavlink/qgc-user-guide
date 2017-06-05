@@ -1,22 +1,33 @@
 # Airframe Setup
 
-This page allows you to configure the main airframe selection associated with your vehicle. The details of the page differ if you are using PX4 Pro firmware or ArduPilot firmware.
+This page allows you to configure the main airframe selection associated with your vehicle. The view differs based on the flight controller firmware used. 
 
-## ArduCopter Airfame Setup
 
-![](../../images/setup/APMAirframe.jpg)
+## PX4 Pro Airframe Setup
 
-Select the frame type that matches your vehicle. You can also click "Load common parameters" to load a parameter set for known vehicle types:
+1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
+   
+1. Select the broad vehicle group/type that matches your airframe and then use the dropdown within the group to choose the airframe that best matches your vehicle. 
+   
+   ![](../../images/setup/airframe_px4.jpg)
+   
+   The example above shows *3DR Iris Quadrotor* selected from the *Quadrotor Wide* group.
 
-![](../../images/setup/APMAirframeParams.jpg)
+1. Click **Apply and Restart**. Click **Apply** in the following prompt to save the settings and restart the vehicle.
 
-Note: Airframe Setup is only available on ArduCopter vehicles. For other ArduPilot vehicles Airframe Setup will not be shown.
+   <img src="../../images/setup/airframe_px4_apply_prompt.jpg" width="200px" title="Apply airframe selection prompt" />
+  
 
-## PX4 Pro Airfame Setup
+## ArduCopter Airframe Setup
 
-![](../../images/setup/PX4Airframe.jpg)
+> **Note** Airframe Setup is only available on ArduCopter vehicles (it is not shown for other ArduPilot vehicles). 
 
-Select the specific airframe from the dropdown within the group which best matches your vehicle. Example image above shows 3DR Iris Quadrotor selected from the Quadrotor wide group.
+1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
 
-After you have selected your airfame, click Apply and Restart. This will prompt you to save the settings and restart to vehicle.
+1. Select the broad frame type that matches your vehicle.
 
+   ![Select airframe type](../../images/setup/airframe_ardupilot.jpg)
+
+   * You can also click **Load common parameters** to load a parameter set for known vehicle types:
+
+     ![Load vehicle params](../../images/setup/airframe_ardupilot_parameters.jpg)
