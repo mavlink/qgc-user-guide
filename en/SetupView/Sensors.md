@@ -66,17 +66,11 @@ For PX4 you will be guided to position the vehicle in a number of set orientatio
 The calibration steps are:
 
 1. Click the **Compass** sensor button
-
    ![Select Compass calibration PX4](../../images/setup/sensor_compass_select_px4.jpg)
-
-1. Click **OK** to start the calibration. 
-
    > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. If not, you can also set it here.
-
+1. Click **OK** to start the calibration. 
 1. Place the vehicle in any of the orientations shown in red (incomplete) and hold it still. Once prompted (the orientation-image turns yellow) rotate the vehicle around the specified axis in either/both directions. Once the calibration is complete in that orientation the associated image on the screen will turn green.
- 
    ![Compass calibration steps on PX4](../../images/setup/sensor_compass_calibrate_px4.jpg)
-   
 1. Repeat the calibration process for all vehicle orientations.
    
 Once you've rotated the vehicle in all the positions *QGroundControl* will display *Calibration complete* (all orientation images will be displayed in green and the progress bar will fill completely). You can then proceed to the next sensor. 
@@ -105,15 +99,10 @@ To calibrate the flight controller accelerometers you will be asked to place and
 The calibration steps are:
 
 1. Click the **Accelerometer** sensor button.
-
    ![Accelerometer calibration](../../images/setup/sensor_accelerometer.jpg)
-   
+   > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. If not, you can also set it here.     
 1. Click **OK** to start the calibration. 
-
-   > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. If not, you can also set it here.  
-
 1. Position the vehicle as guided by the *images* on the screen. This is very similar to compass calibration.
-  
   ![Accelerometer calibration](../../images/setup/sensor_accelerometer_positions_px4.jpg)
   
   
@@ -122,15 +111,10 @@ The calibration steps are:
 The calibration steps are:
 
 1. Click the **Accelerometer** sensor button.
-
    ![Accelerometer calibration](../../images/setup/sensor_accelerometer.jpg)
-   
-1. Click **OK** to start the calibration. 
-
    > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. If not, you can also set it here. 
-  
+1. Click **OK** to start the calibration.   
 1. Position the vehicle based on text instructions in the center display. Click the **Next** button to capture each position.
-
   ![Accelerometer calibration](../../images/setup/sensor_accelerometer_positions_ardupilot.jpg)
 
 
@@ -139,18 +123,14 @@ The calibration steps are:
 If the horizon (as shown in the HUD) is not level after completing Accelerometer calibration you can calibrate the level horizon for your vehicle. You will be asked to place the vehicle in a level orientation while it captures the information.
 
 1. Click the **Level Horizon** sensor button.
-
    ![Level Horizon calibration](../../images/setup/sensor_level_horizon.jpg)
-   
+   > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. If not, you can also set it here.   
 1. Place the vehicle in its level flight orientation on a level surface:
-
   * For planes this is the position during level flight (planes tend to have their wings slightly pitched up!)
   * For copters this is the hover position.
-
 1. Click **OK** to start the calibration. 
 
-   > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. If not, you can also set it here.
-   
+
 
 
 ## Airspeed
@@ -176,7 +156,6 @@ To perform **CompassMot** calibration:
 1. Click the **CompassMot** sensor button.
 
    <img src="../../images/setup/sensor_compass_mot_menu.jpg" style="width: 250px;"/>
-
 1. Follow the onscreen prompts.
 
    ![CompassMot calibration](../../images/setup/sensor_compass_mot.jpg)
