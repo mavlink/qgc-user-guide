@@ -2,11 +2,11 @@
 
 This user guide is meant to be the main provider of support for QGroundControl. If you find that it is missing helpful information and/or has incorrect information please file an [Issue](https://github.com/mavlink/qgc-user-guide/issues) against it.
 
-For reporting problems or asking questions about QGroundControl please use the [QGroundControl Google Group](http://groups.google.com/group/qgroundcontrol).
+For reporting problems or asking questions about QGroundControl please use the [QGroundControl Usage Category here](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage).
 
 ## Console Logging
 
-![](../../images/support/Console.jpg)
+![Console logging](../../images/support/Console.jpg)
 
 The Console can be helpful tool for diagnosing QGroundControl problems. It can be found in the Setttings view. It allows you turn turn on/off the logging options available in QGroundControl. Click the "Set Logging" button to select logging options.
 
@@ -43,6 +43,8 @@ qgroundcontrol --logging:full</code>
 
 ## Developer Chat
 The QGroundControl developers as well as many QGGroundControl users can be found on the QGroundControl [Gitter](https://gitter.im/mavlink/qgroundcontrol) channel. If you are a heavy user of QGroundControl and want to keep up to date on the latest information or help with QGroundControl we suggest monitoring that channel.
+
+
 
 ## GitHub Issues
 Issues are used to track bugs against QGroundControl as well as feature reuqests for later versions. The current list of Issues can be found here: https://github.com/mavlink/qgroundcontrol/issues.
