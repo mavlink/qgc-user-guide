@@ -135,15 +135,23 @@ If the horizon (as shown in the HUD) is not level after completing Accelerometer
 
 ## Airspeed
 
-For Airspeed calibration you will need to keep your airspeed sensor out of any wind and then blow across the sensor. 
+For Airspeed calibration you will need to keep your airspeed sensor out of any wind and then blow across the sensor.
 
 To calibrate the airspeed sensor:
 
 1. Click the **Airspeed** sensor button
 
    ![Airspeed calibration](../../images/setup/sensors_airspeed.jpg)
+   
+1. Cover the sensor (i.e. with your hand)
 
-1. Click **OK** to start the calibration. 
+   > **Warning** Do not touch the sensor (obstruct any holes) during calibration.
+
+1. Click **OK** to start the calibration.
+
+1. Blow across the sensor.
+
+1. Wait for 2-3 seconds before removing the covering (calibration completes silently after several seconds)
 
 
 
