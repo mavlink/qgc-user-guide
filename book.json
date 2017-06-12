@@ -10,7 +10,7 @@
         "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
         "bulk-redirect",
-        "-validate-links"
+        "validate-links"
     ],
     "pluginsConfig": {       
         "language-redirect": {
