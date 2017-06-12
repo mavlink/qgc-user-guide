@@ -4,9 +4,9 @@
 
 새로운 기능들
 
-* [Survey](PlanView/Survey.md) 미션 지원
-* [GeoFence](PlanView/PlanGeoFence.md) Plan View에서 지원
-* [Rally Point](PlanView/PlanRallyPoints.md) Plan View에서 지원 (ArduPilot만 해당)
+* [Survey](../PlanView/Survey.md) 미션 지원
+* [GeoFence](../PlanView/PlanGeoFence.md) Plan View에서 지원
+* [Rally Point](../PlanView/PlanRallyPoints.md) Plan View에서 지원 (ArduPilot만 해당)
 * ArduPilot 온보드 컴파스 칼리브레이션
 * 파라미터 editor 검색에서 검색시 빠른 접근 가능
 * 파라미터 표시에서 단위 변환기 지원

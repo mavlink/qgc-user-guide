@@ -2,7 +2,7 @@
 
 ![](../../images/plan/PlanView.jpg)
 
-Plan View는 비행체의 자동 미션을 계획하는데 사용합니다. 일단 미션을 계획하고 비행체로 보내면, 미션에 따라 비행하기 위해서 [Fly View](FlyView.md)로 전환됩니다.
+Plan View는 비행체의 자동 미션을 계획하는데 사용합니다. 일단 미션을 계획하고 비행체로 보내면, 미션에 따라 비행하기 위해서 [Fly View](../FlyView/FlyView.md)로 전환됩니다.
 
 비행체가 [GeoFence](PlanGeoFence.md)나 [Rally Points](PlanRallyPoints.md)을 지원한다면, Plan View에서 설정이 가능합니다.
 
