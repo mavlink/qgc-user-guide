@@ -17,6 +17,14 @@ You can now specify a save path which QGC will use as the default location to sa
 ### RTK GPS
 You can now specify the *Survey in accuracy* and *Minimum observation duration* for use with a connected RTK GPS.
 
+## Setup
+
+### ArduPilot - Pre-Flight Barometer and Airspeed calibration
+This is now supported from the Sensors page.
+
+### ArduPilot - Copy RC Trims
+This is now supported from the Copy Trims button on the Radio setup page.
+
 ## Plan View
 
 ### Plan files

@@ -13,7 +13,9 @@ This page allows you to configure the main airframe selection associated with yo
    
    The example above shows *3DR Iris Quadrotor* selected from the *Quadrotor Wide* group.
 
-1. Click **Apply and Restart**. Click **Apply** in the following prompt to save the settings and restart the vehicle.
+1. Click the **Apply and Restart** button to the top right of the screen. 
+
+1. Click **Apply** in the following prompt to save the settings and restart the vehicle.
 
    <img src="../../images/setup/airframe_px4_apply_prompt.jpg" width="200px" title="Apply airframe selection prompt" />
   
