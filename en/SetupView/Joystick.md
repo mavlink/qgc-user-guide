@@ -50,6 +50,14 @@ The Taranis does not allow you to use button options (to be precise, you can set
 
 > **Note** The Taranis is an open system that is openly being worked on. It is possible that at time of writing there is a firmware or configuration that allows it to work effectively as a joystick. 
 
+### Logitech Gamepad F310
+
+The Logitech Gamepad F310 has been tested via USB on MacOSX "Sierra".
+
+### Logitech Extreme 3D Pro
+
+The [Logitech Extreme 3D Pro](http://gaming.logitech.com/en-ch/product/extreme-3d-pro-joystick) Joystick has been tested on all platforms (Linux, Windows, Mac OSX). This is a single stick controller that can also be twisted. The main stick axes are used for pitch and roll, while the twist action is used for yaw. The throttle is mapped onto a separate wheel.
+
 
 ### Logitech F710 Gamepad
 
@@ -57,11 +65,13 @@ The Taranis does not allow you to use button options (to be precise, you can set
 
 This gamepad is great for flying a multirotor manually via QGroundControl. It works on Windows, Linux and Mac OS.
 
-### Mac OS Leopard / Lion Setup
+#### Mac OS Leopard / Lion Setup
 
-The F710 is detected under Leopard / Lion but is not automatically configured as an input device. In order to get a working configuration, the F710 has to be detected as *Rumblepad2*. First check as what it currently is detected: **Apple > About this Mac > Additional Information > System Report > USB**. Check if you have a "Logitech Wireless 710" or a "Logitech Cordless RumblePad 2". 
+The F710 is detected under Leopard / Lion but is not automatically configured as an input device. In order to get a working configuration, the F710 has to be recognised as *Rumblepad2*. 
 
-If it is detected as 710, perform these steps:
+First check how it is recognised: **Apple > About this Mac > Additional Information > System Report > USB**. I it is detected as "Logitech Cordless RumblePad 2" then nothing further needs to be done.
+
+If it is detected as a "Logitech Wireless 710", perform these steps:
 
 1. Unplug the USB receiver of the gamepad
 1. Prepare to quickly plug it into a USB port
