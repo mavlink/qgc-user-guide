@@ -1,11 +1,12 @@
-# Joystick Setup
+# Joystick Setup (PX4 only)
 
-*QGroundControl* allows you to control a vehicle using a USB joystick or gamepad instead of an RC Transmitter. A number of [common joysticks and gamepads](#supported-joysticks) are known to work.
+*QGroundControl* allows you to control a vehicle using a joystick or gamepad instead of an RC Transmitter.
 
-> **Note** Flying with a Joystick is not as responsive as RC Control because joystick information is sent over MAVLink.
+> **Note** Flying with a Joystick (or [virtual thumb-sticks](../SettingsView/VirtualJoystick.md)) is not as responsive as RC Control because joystick information is sent over MAVLink.
 
 <span></span>
-> **Note** *QGroundControl* also enables vehicle control via [virtual thumb-sticks](../SettingsView/VirtualJoystick.md).
+> **Note** Joystick and Gamepad support is enabled using the cross-platform [SDL2](http://www.libsdl.org/index.php) library. Compatibility with a particular controller depends on SDL (all buttons that are exposed by that API are displayed through the *QGroundControl* UI). A [number of common joysticks and gamepads](#supported-joysticks) are known to work.
+
 
 ## Enabling PX4 Joystick Support
 
@@ -37,7 +38,8 @@ To configure a joystick:
 
 The following joysticks/controllers have been shown to work with relatively recent *QGroundControl* builds.
 
-### Sony Playstation 3 or Playstation 4 Controller
+
+### Sony Playstation 3/4 Controllers
 
 These are both highly recommended. They work well "out of the box" and have many buttons that you can map to flight modes. 
 
