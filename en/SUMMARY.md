@@ -24,10 +24,11 @@
     * [Offline Maps](SettingsView/OfflineMaps.md)
     * [Virtual Joystick (PX4)](SettingsView/VirtualJoystick.md)
 * [Releases](releases/README.md)
-    * [Release Notes](releases/release_notes.md)
+    * [Release Notes](releases/stable_v3.2_short.md)
     * [Daily Builds](releases/daily_builds.md)
     * [Daily Build New Features](releases/daily_build_new_features.md)
     * [Google Play Privacy Policy](releases/google_play_privacy_policy.md)
+    * [Previous Release Notes](releases/previous_release_notes.md)
 * [Support](Support/Support.md)
 
 
