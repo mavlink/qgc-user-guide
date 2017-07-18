@@ -1,11 +1,11 @@
-# Release Notes - Version 3.2
+## Stable Version 3.2 (Current)
 
-This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.2. More detailed release notes can be found [here](stable_v3.2_long.md).
+This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.2. More detailed release notes can be found [here](../releases/stable_v3.2_long.md).
 
 * **Settings**
-	* ***File Save path*** - Specify a save path for all files used by QGC.
+	* **File Save path** - Specify a save path for all files used by QGC.
 	* **Telemetry log auto-save** - Telemetry logs are now automatically saved without prompting.
-	* ***AutoLoad Plans*** - Used to automaticaclly load a Plan onto a vehicle when it first connects.
+	* **AutoLoad Plans** - Used to automatically load a Plan onto a vehicle when it first connects.
 	* **RTK GPS** - Specify the Survey in accuracy and Minimum observation duration.
 
 * **Setup**
