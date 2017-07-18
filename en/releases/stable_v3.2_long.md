@@ -1,4 +1,4 @@
-# Release Notes (detailed) - Version 3.2
+# QGroundControl v3.2 Release Notes (Detailed)
 
 This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.2.
 

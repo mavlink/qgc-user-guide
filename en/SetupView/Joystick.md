@@ -12,7 +12,7 @@
 
 To enable Joystick support in PX4 you need to set the parameter `COM_RC_IN_MODE` to 1 - *Joystick/No RC Checks*. If this parameter is not set then *Joystick* will not be offered as a setup option.
 
-This is enabled by default for PX4 SITL builds (see the [Parameters](..SetupView/Parameters.md) topic for information on how to find and set a particular parameter). 
+This is enabled by default for PX4 SITL builds (see the [Parameters](../SetupView/Parameters.md) topic for information on how to find and set a particular parameter). 
 
 <!-- what is "Virtual RC by Joystick"? -->
 
