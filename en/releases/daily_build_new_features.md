@@ -2,6 +2,7 @@
 
 This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* since the last [stable release](../releases/release_notes.md). These features are available in [daily builds](../releases/daily_builds.md).
 
+* Plan: Fixed Wing Landing Pattern: You can now adjust the distance from the loiter to land point by either distance or glide slope fall rate.
 * Fly: Better display of vehicle icons when connected to multiple vehicles.
 * Fly: Multi-Vehicle View supports commands which apply to all vehicles.
 * Fly: Displays vehicles reported from ADS-B sensor.
