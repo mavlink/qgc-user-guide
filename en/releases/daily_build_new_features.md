@@ -28,7 +28,7 @@ The current list of available commands are Pause and Start Mission but that will
 
 #### ADS-B sensor vehicle display
 
-Vehicle reported by ADS-B sensor on vehicle are shown on map as smaller blue icons with altitude below the icon.
+Vehicle reported by ADS-B sensor on vehicle are shown on map as smaller blue icons with altitude and callsign below the icon.
 
    ![](../../images/fly/ADSBVehicle.jpg)
 
