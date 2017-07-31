@@ -30,7 +30,7 @@ To configure a joystick:
 1. Press the **Calibrate** button and then follow the on-screen instructions to calibrate/move the sticks.
 1. Check the **Enable joystick input** checkbox 
 1. Make sure your joystick is selected in the **Active joystick** dropdown.
-1. Select flight modes for each of the button actions as required.
+1. Select the flight modes/vehicle functions activated by each joystick button. A maximum of 16 joystick *button actions* can be set. <!-- MANUAL_CONTROL used to send button values only has 16 bits -->
 1. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor.
 
 
