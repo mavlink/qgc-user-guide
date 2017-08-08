@@ -1,47 +1,21 @@
-# This is QGroundControl
+# QGroundControl Quick Start
 
-The first step is to [download](../getting_started/download_and_install.md) and install QGroundControl. Below is the screen you will see when no vehicle is connected.
+Getting *QGroundControl* up and running is quick and easy:
 
-![](../../images/quickstart/BootToFly.jpg)
-<br>
+1. [Download and install](../getting_started/download_and_install.md) the application.
+1. Start *QGroundControl*. 
+1. Attach your vehicle to the ground station device via USB, through a telemetry radio, or over WiFi. *QGroundControl* should detect your vehicle and connect to it automatically.
 
-![](../../images/quickstart/SettingsViewButton.jpg) **[Settings](../SettingsView/SettingsView.md)**
-<br>Configure the QGroundControl application.
+That's it! If the vehicle is ready to fly,  *QGroundControl* should display [Fly View](../FlyView/FlyView.md) as shown below (otherwise it will open [Setup View](../SetupView/SetupView.md)).
 
-![](../../images/quickstart/SetupViewButton.jpg) **[Setup](../SetupView/SetupView.md)**
-<br>Configure and tune your vehicle.
+![](../../images/quickstart/fly_view_connected_vehicle.jpg)
 
-![](../../images/quickstart/PlanViewButton.jpg) **[Plan](../PlanView/PlanView.md)**
-<br>Create autonomous missions.
+A good way to become familiar with *QGroundControl* is to start experimenting:
+- Use the [toolbar](../toolbar/toolbar.md) to switch between the main views:
+  - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
+  - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
+  - [Plan](../PlanView/PlanView.md): Create autonomous missions.
+  - [Fly](../FlyView/FlyView.md): Monitor you vehicle(s) while flying, including streaming video.
+- Click the *Status icons* on the toolbar to find out the status of the connected vehicle. 
 
-![](../../images/quickstart/FlyViewButton.jpg) **[Fly](../FlyView/FlyView.md)**
-<br>Monitor you vehicle(s) while flying, including streaming video.
-
-
-# Connecting the drone
-
-In most cases if you have connected to your vehicle directly via USB, through a telemetry radio or over WiFi you should not need to take any additional steps. QGroundControl should detect your vehicle and connect it automatically.
-
-By default QGroundControl will show you the Fly view as shown here. If your vehicle requires additional setup you will be automatically shown the Setup view instead.
-
-![](../../images/quickstart/ConnectedVehicle.jpg)
-
-You will notice that the toolbar contains additional information when it is connected. It shows you high level status for your vehicle. By clicking on any of these items you can see more detailed information. 
-
-![](../../images/quickstart/MessageToolbar.jpg) **Vehicle Messages**
-<br>Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
-
-![](../../images/quickstart/GPSToolbar.jpg) **GPS Status**
-<br>Shows you satellite count and curent hdop.
-
-![](../../images/quickstart/RCToolbar.jpg) **RC RSSI** 
-<br>RS signal strength information.
-
-![](../../images/quickstart/TelemetryToolbar.jpg) **Telemetry RSSI**
-<br>Telemetry signals strength information.
-
-![](../../images/quickstart/BatteryToolbar.jpg) **Battery**
-<br>Remaining battery percent.
-
-![](../../images/quickstart/FlightModeToolbar.jpg) **Flight Mode**
-<br>Current flight mode. Click to change flight mode.
+While the UI is fairly intuitive, this documentation can also be referenced to find out more.

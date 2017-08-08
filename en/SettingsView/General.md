@@ -28,14 +28,14 @@ This section specifies the RTK GPS "Survey-in" settings:
 - **Survey-in accuracy:** The minimum position accuracy for the RTK Survey-in process to complete.
 - **Minimum observation duration:** The minimum time that will be taken for the RTK Survey-in process. 
 
-> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. The process takes measurements over time, leading to increasing position accuracy. Both of the setting conditions must met for the Survey-in process to complete. For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs).
+> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. The process takes measurements over time, leading to increasing position accuracy. Both of the setting conditions must met for the Survey-in process to complete. For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
 
 ![RTK GPS Settings](../../images/settings/settings_view_general_rtk_gps.jpg)
 
 
 ## Autoconnect to the following devices
 
-This section defines the set of devices that *QGroundControl* will auto-connect to: Pixhawk, SiK Radio, PX4 Flow, Libre Pilot, UDP, RTK GPS.
+This section defines the set of devices to which *QGroundControl* will auto-connect. Options include: **Pixhawk**, **SiK Radio**, **PX4 Flow**, **Libre Pilot**, **UDP**, **RTK GPS**.
 
 ![Device autoconnect settings](../../images/settings/settings_view_general_autoconnect_devices.jpg)
 
