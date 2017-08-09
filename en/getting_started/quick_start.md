@@ -11,6 +11,7 @@ That's it! If the vehicle is ready to fly,  *QGroundControl* should display [Fly
 ![](../../images/quickstart/fly_view_connected_vehicle.jpg)
 
 A good way to become familiar with *QGroundControl* is to start experimenting:
+
 - Use the [toolbar](../toolbar/toolbar.md) to switch between the main views:
   - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
   - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
