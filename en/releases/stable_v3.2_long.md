@@ -15,7 +15,7 @@ If this setting is turned on, QGC will automatically upload a plan to the vehicl
 You can now specify a save path which QGC will use as the default location to save files such as Parameters, Telemetry or Mission Plans.
 
 ### RTK GPS
-You can now specify the *Survey in accuracy* and *Minimum observation duration* for use with a connected RTK GPS.
+You can now specify the *Survey in accuracy* and *Minimum observation duration* for use with a connected RTK GPS. See [SettingsView > General](../SettingsView/General.md#rtk-gps).
 
 ## Setup
 
