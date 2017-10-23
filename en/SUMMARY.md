@@ -24,6 +24,7 @@
 * [Settings](SettingsView/SettingsView.md)
     * [General](SettingsView/General.md)
     * [Offline Maps](SettingsView/OfflineMaps.md)
+    * [Console Logging](SettingsView/console_logging.md)
     * [Virtual Joystick (PX4)](SettingsView/VirtualJoystick.md)
 * [Releases](releases/README.md)
     * [Release Notes](releases/release_notes.md)
