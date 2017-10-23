@@ -7,48 +7,55 @@ Questions about *QGroundControl* should be raised in the associated flight stack
 * [ArduPilot Flight Stack](http://discuss.ardupilot.org/c/ground-control-software/qgroundcontrol) (discuss.ardupilot.org).
 
 
-## Console Logging
+## Console Logging {#console_logging}
+
+The *Console* can be helpful tool for diagnosing *QGroundControl* problems. It can be found in the [SettingsView > Console](../SettingsView/SettingsView.md). 
 
 ![Console logging](../../images/support/Console.jpg)
 
-The Console can be helpful tool for diagnosing *QGroundControl* problems. It can be found in the [SettingsView](../SettingsView/SettingsView.md). It allows you turn turn on/off the logging options available in *QGroundControl*. Click the "Set Logging" button to select logging options.
+Click the **Set Logging** button to enable/disable logging information displayed by *QGroundControl*.
 
-### Commonly used logging options
+### Common Logging Options
 
-* `LinkManagerLog`, `MultiVehicleManagerLog` - Debug connection problems.
-* `LinkManagerVerboseLog` - Very noisy connection problem debugging. Continuous output of available serial ports.
-* `FirmwareUpgradeLog` - Debug firmware flash issues.
-* `ParameterLoaderLog` - Debug parameter load problems.
-* `ParameterLoaderVerboseLog` - Debug parameter load problems with full trace of parameters coming/going/in system.
-* `MissionManagerLog` - Debug mission protocol issues.
-* `RadioComponentControllerLog` - Debug Radio calibration issues.
+The most commmonly used logging options are listed below.
 
-### Logging from the command line
+Option(s) | Description
+--- | ---
+`LinkManagerLog`, `MultiVehicleManagerLog` | Debug connection problems.
+`LinkManagerVerboseLog` | Debug very noisy connections. Continuous output of available serial ports.
+`FirmwareUpgradeLog` | Debug firmware flash issues.
+`ParameterLoaderLog` | Debug parameter load problems.
+`ParameterLoaderVerboseLog` | Debug parameter load problems with full trace of parameters coming/going/in system.
+`MissionManagerLog` | Debug mission protocol issues.
+`RadioComponentControllerLog` | Debug Radio calibration issues.
 
-An alternate mechanism for logging is using the --logging command line option. This is handy if you are trying to get logs from a situation where *QGroundControl* crashes.
+
+### Logging from the Command Line
+
+An alternate mechanism for logging is using the `--logging` command line option. This is handy if you are trying to get logs from a situation where *QGroundControl* crashes.
 
 How you do this and where the traces are output vary by OS:
 
-  * Windows
-    * You must open a command prompt, change directory to the **qgroundcontrol.exe** location, and run it from there:
-      ```bash
-      cd "\Program Files (x86)\qgroundcontrol"
-      qgroundcontrol --logging:full</code>
-      ```
-    * When *QGroundControl* starts you should see a separate console window open which will have the log output
-  * OSX
-    * You must run *QGroundControl* from Terminal. The Terminal app is located in Applications/Utilities. Once Terminal is open paste the following into it:
-      ```bash
-      cd /Applications/qgroundcontrol.app/Contents/MacOS/
-      ./qgroundcontrol --logging:full
-      ```
-    * Log traces will output to the Terminal window.
-  * Linux
-    * 
+* Windows
+  * You must open a command prompt, change directory to the **qgroundcontrol.exe** location, and run it from there:
     ```bash
-    ./qgroundcontrol-start.sh --logging:full
+    cd "\Program Files (x86)\qgroundcontrol"
+    qgroundcontrol --logging:full</code>
     ```
-    * Log traces will output to the shell you are running from.
+  * When *QGroundControl* starts you should see a separate console window open which will have the log output
+* OSX
+  * You must run *QGroundControl* from Terminal. The Terminal app is located in Applications/Utilities. Once Terminal is open paste the following into it:
+    ```bash
+    cd /Applications/qgroundcontrol.app/Contents/MacOS/
+    ./qgroundcontrol --logging:full
+    ```
+  * Log traces will output to the Terminal window.
+* Linux
+  * 
+  ```bash
+  ./qgroundcontrol-start.sh --logging:full
+  ```
+  * Log traces will output to the shell you are running from.
 
 
 ## Developer Chat
