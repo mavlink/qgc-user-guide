@@ -19,14 +19,14 @@ The following icons are used to switch between the main *Views*. These are displ
 <br>Monitor you vehicle(s) while flying, including streaming video.
 
 ![Analyse icon](../../images/toolbar/toolbar_view_select_analyse.jpg) **Analyse**
-<br>Download logs, geotag images from a survey mission, access the mavlink console.
+<br>Download logs, geotag images from a survey mission, access the MAVLink console.
 
 
 ## Status icons
 
 Status icons are displayed when *QGroundControl* is connected to a vehicle. These show the high level status of the vehicle, and can be clicked to see more detailed information. 
 
-![](../../images/toolbar/toolbar_status_message.jpg.jpg) **Vehicle Messages**
+![](../../images/toolbar/toolbar_status_message.jpg) **Vehicle Messages**
 <br>Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
 
 ![](../../images/toolbar/toolbar_status_gps.jpg) **GPS Status**
