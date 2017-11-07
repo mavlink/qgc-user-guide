@@ -54,7 +54,7 @@ All values are automatically saved as they are changed.
 > **Tip** The recommended approach is use *Single Channel Mode Selection* because it easy to understand and configure. It is similar to the approach used by ArduPilot. 
 
 
-### Single-Channel Mode
+### Single-Channel Mode {#single_channel}
 
 The single-channel selection mode allows you to specify a "mode" channel and select up to 6 flight modes that will be activated based on the PWM value of the channel. You can also separately specify channels for mapping a kill switch, return to launch mode, and offboard mode.
 
@@ -87,6 +87,7 @@ It is common to use the positions of a 2- and a 3-position switch on the transmi
 
 The video below shows how this is done with the *FrSky Taranis* transmitter (a very popular and highly recommended RC transmitter). The process involves assigning a "logical switch" to each combination of positions of the two real switches. Each logical switch is then assigned to a different PWM value on the same channel.
 
+<span id="taranis_setup"></span>
 The video then shows how to use *QGroundControl* to specify the mode channel and map modes to each of the 6 "slots".
 {% youtube %}
 http://www.youtube.com/watch?v=scqO7vbH2jo

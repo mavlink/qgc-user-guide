@@ -10,7 +10,7 @@ install:
 
 script: 
 
-- htmlproofer ./_book --empty-alt-ignore true --check-external-hash true --url-ignore 'https://img.shields.io/badge/discuss-dev-ff69b4.svg,https://img.shields.io/github/release/mavlink/QGroundControl.svg'
+- htmlproofer ./_book --empty-alt-ignore true --check-external-hash true --url-ignore 'https://img.shields.io/badge/discuss-dev-ff69b4.svg,https://img.shields.io/github/release/mavlink/QGroundControl.svg,https://img.shields.io/badge/discuss-ardupilot-ff69b4.svg,https://img.shields.io/badge/discuss-px4-ff69b4.svg'
 
 
 env:
