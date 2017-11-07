@@ -1,6 +1,6 @@
 # Settings View
 
-![](../../images/settings/SettingsView.jpg)
+![Settings View](../../images/settings/settings_view.jpg)
 
 Settings View에서는 QGroundControl 어플리케이션과 관련된 셋팅을 설정할 수 있습니다. 이 셋팅들은 특정 비행체가 아닌 QGroundControl용이기 때문에 여기서 셋팅들을 변경하기 위해 비행체를 연결할 필요는 없습니다.
 
