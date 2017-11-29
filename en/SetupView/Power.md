@@ -1,14 +1,16 @@
 # Power Setup
 
-Enter data for your battery from its data sheet: number of cells, full voltage per cell, empty voltage per cell. Approximate values will be automatically populated for the voltage divider and amps per volt values.
+The *Power Setup* screen is used to configure battery parameters and also provide advanced settings for propellers.
 
 ![Battery Calibration](../../images/setup/PX4Power.jpg)
 
 ## Battery Voltage/Current Calibration
 
-If the measured battery voltage and current differ significantly from the default values *QGroundControl* will help you calculate more appropriate voltage divider and amps-per-volt values:
+Enter data for your battery/power module from its data sheet: number of cells, full voltage per cell, empty voltage per cell. If provided, also enter voltage divider and amps-per-volt information. 
 
-1. Measure the voltage from the battery using a multimeter
+*QGroundControl* can be used to calculate appropriate voltage divider and amps-per-volt values from measurements:
+
+1. Measure the voltage from the battery using a multimeter.
 1. Click **Calibrate** next to the *Voltage divider* field. On the prompt that appears:
   1. Enter the measured voltage.
   1. Click **Calculate** to generate a new voltage-divider value.
