@@ -11,12 +11,12 @@ Enter data for your battery/power module from its data sheet: number of cells, f
 *QGroundControl* can be used to calculate appropriate voltage divider and amps-per-volt values from measurements:
 
 1. Measure the voltage from the battery using a multimeter.
-1. Click **Calibrate** next to the *Voltage divider* field. On the prompt that appears:
+1. Click **Calculate** next to the *Voltage divider* field. On the prompt that appears:
   1. Enter the measured voltage.
   1. Click **Calculate** to generate a new voltage-divider value.
   1. Click **Close** to save the value into the main form. 
 1. Measure the current from the battery.
-1. Click **Calibrate** next to the *Amps per volt* field. On the prompt that appears:
+1. Click **Calculate** next to the *Amps per volt* field. On the prompt that appears:
   1. Enter the measured current.
   1. Click **Calculate** to generate a new *amps per volt* value.
   1. Click **Close** to save the value into the main form. 
