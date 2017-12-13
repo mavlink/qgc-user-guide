@@ -22,6 +22,32 @@ The fence which is currently selected by the "Edit" radio button will show the o
 
 Note: Only PX4 Pro firmware supports the new specification. ArduPilot does not yet support the new spec. Support for GeoFence/Rally is temporarily disabled in QGC until QGC ArduPilot code is reworked to the new architecture.
 
+#### Edit Position Dialog
+
+   ![](../../images/plan/EditPositionDialog.jpg)
+
+The Edit Position Dialog allows you to specify a detailed position for an item in either Geographic or UTM coordinate systems. It is available from the Polygon Tools menu as well as the hamburger menu of any mission item which specifies a coordinate:
+
+   ![](../../images/plan/MissionItemEditorHamburger.jpg)
+
+   
+#### Polygon Tools
+
+   ![](../../images/plan/PolygonTools.jpg)
+   
+You can now also click on the polygon center drag handle to bring up a set of polygon manipulation tools. The tools are available anywhere polygon editing is supported: Survey, Structure Scan, GeoFence, ...
+
+* Circle - Converts the polygon to a circular polygon.
+* Polygon - Changes a circular polygon back to a rectangular polygon.
+* Set radius - Set radius for circular polygons.
+* Edit position - Displays the edit position dialog to specify a detailed position for the circular center.
+* Load KML - Set polygon to polygon loaded from KML file.
+
+Circular polygon example:
+
+<img src="../../images/plan/CircularPolygon.jpg" height="200" />
+
+
 ### Fly View
 
 #### Multi-Vehicle vehicle indicators
