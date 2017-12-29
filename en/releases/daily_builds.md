@@ -8,9 +8,7 @@ These can be downloaded from the links below (install as described in [Download 
 
 * [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 * [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
-* Linux 
-  * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
-  * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
+* [Linux] (https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
 * [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta) (Google Play)
   
   > **Note** The old opt-in beta test is no longer valid. If you were a member of that you should [opt-out](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol).
