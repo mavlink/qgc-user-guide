@@ -1,31 +1,35 @@
 # Parameters
 
-![](../../images/setup/PX4Parameters.jpg)
-*Note: This image is from a vehicle running PX4 Pro firmware. ArduPilot works similary, just the parameter set will differ.*
+The *Parameters* screen allows you to find and modify any of the parameters associated with the vehicle.
 
-The Parameters screen allows you to modify any of the parameters associated with the vehicle.
+![Parameters Screen](../../images/setup/parameters_px4.jpg)
 
-The parameters are organized in groups. You can select a group of parameters to view by clicking on one of the group buttons to the left. In the example image the "Battery Calibration" group is selected.
+> **Note** PX4 Pro and ArduPilot use different parameter sets, but they are both managed as described in this section.
 
-### Changing a value
 
-To change the value of a parameter click on the parameter value in the list. This will open a side dialog which allows you to update the value and also provides additional detailed information on the parameter.
+## Finding a Parameter
 
-![](../../images/setup/02_parameters_02.png)
-*Note: This image is out of date.*
+The parameters are organized in groups. Select a group of parameters to view by clicking on the buttons to the left (in the image above the *Battery Calibration* group is selected).
 
-### Searching for a parameter
+You can also *search* for a parameter by entering a term in the *Search* field. This will show you a list of all parameter names and descriptions that contain the entered substring (press **Clear** to reset the search).
 
-Enter the string you are searching for in the text field to right of the Search button and then click Search. This will show you a list of parameters which match you search criteria. Search will not only match on parameter names, but it will also match on parameter descriptions.
+![Parameters Search](../../images/setup/parameters_search.jpg)
 
-### Tools
+## Changing a Parameter
 
-![](../../images/setup/02_parameters_tools_01.png)
+To change the value of a parameter click on the parameter row in a group or search list. This will open a side dialog in which you can update the value (this dialog also provides additional detailed information about the parameter - including whether a reboot is required for the change to take effect). 
 
-![](../../images/setup/02_parameters_tools_02_menu.png)
-*Note: These images are out of data.*
+![Changing a parameter value](../../images/setup/parameters_changing.png)
 
-You can select additional options from the Tools menu.
+> **Note** When you click **Save** the parameter is automatically and silently uploaded to the connected vehicle. Depending on the parameter, you may then need to reboot the flight controller for the change to take effect.
+
+
+## Tools
+
+You can select additional options from the **Tools** menu on the top right hand side of the screen.
+
+![Tools menu](../../images/setup/parameters_tools_menu.png)
+
 
 **Refresh**
 <br>Refresh the parameter values by re-requesting all of them from the vehicle.
@@ -34,4 +38,10 @@ You can select additional options from the Tools menu.
 <br>Reset all parameters to their original default values.
 
 **Load from file / Save to file**
-<br>Load parameters from an existing file or Save your current parameter settings to a file.
+<br>Load parameters from an existing file or save your current parameter settings to a file.
+
+**Clear RC to Param**
+<br>This clears all associations between RC transmitter controls and parameters. For more information see: [Radio Setup > Param Tuning Channels](../SetupView/Radio.md#param-tuning-channels-px4).
+
+**Reboot Vehicle**
+<br>Reboot the vehicle (required after changing some parameters).
