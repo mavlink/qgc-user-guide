@@ -9,6 +9,7 @@
     * [GeoFence](PlanView/PlanGeoFence.md)
     * [Rally Points](PlanView/PlanRallyPoints.md)
     * [Survey](PlanView/Survey.md)
+    * [Structure Scan](PlanView/StructureScan.md)
 * [Setup](SetupView/SetupView.md)
    * [Firmware](SetupView/Firmware.md)
    * [Airframe](SetupView/Airframe.md)
