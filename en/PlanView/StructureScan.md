@@ -8,8 +8,6 @@ Structure Scan is available to insert into a mission from the Pattern tool.
 
 In green you can see the polygon show which represent the structure. In white you can see the flight path for the vehicle. You can also fly circular structure scans by change the polygon to a circle using the center tool.
 
-## Defining the structure shape
-
 ## Camera based scan
 The settings for the scan can be based off of the specifications of the camera on the vehicle. By using the option you can also specify the resolution of the images for the structure surface. You do this by selecting a camera from the list or selecting Custom Camera to provide you own camera specs.
 
