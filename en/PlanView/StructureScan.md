@@ -1,15 +1,16 @@
 # Plan - Structure Scan
 
-A structure scan allows you to create a grid flight pattern which captures images over vertical surfaces. These are tpypically used for the visual inspection or creation of 3d models of structures.
+A *Structure Scan* allows you to create a grid flight pattern that captures images over vertical surfaces. These are typically used for the visual inspection or creation of 3d models of structures.
 
-Structure Scan is available to insert into a mission from the Pattern tool.
+Structure Scan is available to insert into a mission from the *Pattern* tool.
 
 ![](../../images/plan/StructureScan.jpg)
 
-In green you can see the polygon show which represent the structure. In white you can see the flight path for the vehicle. You can also fly circular structure scans by change the polygon to a circle using the center tool.
+In the diagram green is used to show the polygon that represents the structure. In white you can see the flight path for the vehicle. You can also fly circular structure scans by change the polygon to a circle using the *center tool*.
 
 ## Camera based scan
-The settings for the scan can be based off of the specifications of the camera on the vehicle. By using the option you can also specify the resolution of the images for the structure surface. You do this by selecting a camera from the list or selecting Custom Camera to provide you own camera specs.
+
+The settings for the scan can be based on the specifications of the camera on the vehicle. By using the option you can also specify the resolution of the images for the structure surface. You do this by selecting a camera from the list or selecting **Custom Camera** to provide you own camera specs.
 
 For camera based scans the camera is always pointed directly at the right angles to the surface which it is capturing images for.
 
@@ -17,13 +18,13 @@ For camera based scans the camera is always pointed directly at the right angles
 
 ### Structure information
 
-* Base layer alt - This is used to specify the bottom of the lowest layer of the scan.
-* Structure height - This id used to specify the height of the structure.
-
-Using these two values, the vehicle will fly a pattern such images fully cover the structure starting from "Base layer alt" and then going up "Structure height" amount.
+The vehicle will fly a pattern such that images fully cover the structure starting from "Base layer alt" up to "Structure height":
+* Base layer alt - The bottom of the lowest layer of the scan.
+* Structure height - The height of the structure.
 
 ## Manual scan
-A manual scan allows you to specify the various distances and heights associated with a structure scan yourself. You select Manual from the list for a manual scan.
+
+A manual scan allows you to specify the various distances and heights associated with a structure scan yourself. You select **Manual** from the list for a manual scan.
 
 <img src="../../images/plan/StructureScanManual.jpg" style="width: 150px;"/>
 
