@@ -9,6 +9,8 @@ Install *QGroundControl* for Windows Vista or later:
 1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
 1. Double click the executable to launch the installer.
 
+> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [Support > Troubleshooting](../Support/Support.md#opengl_troubleshooting).
+
 
 ## Mac OS X
 
