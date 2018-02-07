@@ -1,16 +1,30 @@
 # QGroundControl v3.3 Release Notes (Detailed)
 
 This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.3.
-
-* Plan: Fixed Wing Landing Pattern: You can now adjust the distance from the loiter to land point by either distance or glide slope fall rate.
-* Plan: PX4 GeoFence and Rally Point support.
-* Fly: Better display of vehicle icons when connected to multiple vehicles.
-* Fly: Multi-Vehicle View supports commands which apply to all vehicles.
-* Fly: Displays vehicles reported from ADS-B sensor.
-
+  
 ## Detailed Notes
 
+### Settings View
+
+#### NMEA GPS Device support
+
+   ![](../../images/settings/NMEADevice.jpg)
+
+You can specify a connection to one of these devices on the General page. The GPS information will then be used for ground station location and in turn follow me support.
+
+#### Video Recording
+
+   ![](../../images/settings/VideoRecording.jpg)
+
+Videos will be saved to the Video directory of your QGC file save path. You can also specify the maximum amount of space you want video files to consume. After that size if exceeded the oldest video files will be removed. Video Recording is turned on/off from the Video widget in the Fly View.
+
 ### Plan View
+
+#### Structure Scan
+
+A Structure Scan allows you to create a grid flight pattern that captures images over vertical surfaces (polygonal or circular). These are typically used for the visual inspection or creation of 3d models of structures.
+
+Details [here](../PlanView/StructureScan.md).
 
 #### New MAVLink GeoFence, Rally Point support
 
@@ -46,13 +60,11 @@ Circular polygon example:
 
 <img src="../../images/plan/CircularPolygon.jpg" height="200" />
 
-#### Structure Scan
-
-A Structure Scan allows you to create a grid flight pattern that captures images over vertical surfaces (polygonal or circular). These are typically used for the visual inspection or creation of 3d models of structures.
-
-Details [here](../PlanView/StructureScan.md).
-
 ### Fly View
+
+#### Start/Stop Video Recording
+
+This is now a video record button in the video window. Settings for saved videos are available from General Page of Setup view.
 
 #### Multi-Vehicle vehicle indicators
 
