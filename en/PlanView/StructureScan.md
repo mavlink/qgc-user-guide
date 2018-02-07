@@ -4,6 +4,8 @@ A *Structure Scan* allows you to create a grid flight pattern that captures imag
 
 Structure Scan is available to insert into a mission from the *Pattern* tool.
 
+**NOTE** **This feature requires new firmware support in both PX4 and Ardupilot. At this point the QGC release is a bit ahead of the firmware support releases. PX4 support should be available within a few days. ArduPilot support soon thereafter.**
+
 ![](../../images/plan/StructureScan.jpg)
 
 In the diagram green is used to show the polygon that represents the structure. In white you can see the flight path for the vehicle. You can also fly circular structure scans by change the polygon to a circle using the *center tool*.

@@ -2,7 +2,33 @@
 
 This topic contains the cumulative release notes for *QGroundControl*.
 
-## Stable Version 3.2 (Current)
+## Stable Version 3.3 (Current)
+
+> **Tip** More detailed release notes for version 3.2 can be found [here](../releases/stable_v3.3_long.md).
+
+This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.3. Not to mention the large number of bug fixes of this release.
+
+* **Settings**
+  * Local NMEA GPS device support.
+  * Video Recording save settings.
+* **Setup**
+  * **Parameter Editor** - Searching updates as you type characters for near immediate response to searches.
+  * **Joystick** - Android joystick support.
+* **Plan**
+  * **NEW - Structure Scan Pattern** - Create a multi-layered flight pattern that captures images over vertical surfaces (polygonal or circular). Used for 3d model generation or vertical surface inspection.
+  * **Fixed Wing Landing Pattern** - You can now adjust the distance from the loiter to land point by either distance or glide slope fall rate.
+  * PX4 GeoFence and Rally Point support.
+  * Terrain height display in lower Mission Item altitude display
+* **Fly**
+  * Start/Stop video recording.
+  * Better display of vehicle icons when connected to multiple vehicles.
+  * Multi-Vehicle View supports commands which apply to all vehicles.
+  * Displays vehicles reported from ADS-B sensor.
+* **Analyze**
+  * **Mavlink console** - New support for communicating with Mavlink console.
+  * **Log Download** - Moved from Menu to Analyze view.
+
+## Stable Version 3.2
 
 > **Tip** More detailed release notes for version 3.2 can be found [here](../releases/stable_v3.2_long.md).
 
