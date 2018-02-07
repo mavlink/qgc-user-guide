@@ -20,7 +20,7 @@ QGC supports the new MAVLink GeoFence and Rally Point specification/protocol. Th
 
 The fence which is currently selected by the "Edit" radio button will show the on screen editing controls such as the drag points for polygon editing.
 
-Note: Only PX4 Pro firmware supports the new specification. ArduPilot does not yet support the new spec. Support for GeoFence/Rally is temporarily disabled in QGC until QGC ArduPilot code is reworked to the new architecture.
+**Note** Only PX4 Pro firmware supports the new specification. ArduPilot does not yet support the new spec. Support for GeoFence/Rally is temporarily disabled in QGC until QGC ArduPilot code is reworked to the new architecture.
 
 #### Edit Position Dialog
 
@@ -50,7 +50,7 @@ Circular polygon example:
 
 A Structure Scan allows you to create a grid flight pattern that captures images over vertical surfaces (polygonal or circular). These are typically used for the visual inspection or creation of 3d models of structures.
 
-Details [here](PlanView/StructureScan.md).
+Details [here](../PlanView/StructureScan.md).
 
 ### Fly View
 
