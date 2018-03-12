@@ -15,8 +15,9 @@ Option(s) | Description
 `LinkManagerLog`, `MultiVehicleManagerLog` | Debug connection problems.
 `LinkManagerVerboseLog` | Debug very noisy connections. Continuous output of available serial ports.
 `FirmwareUpgradeLog` | Debug firmware flash issues.
-`ParameterLoaderLog` | Debug parameter load problems.
-`ParameterLoaderVerboseLog` | Debug parameter load problems with full trace of parameters coming/going/in system.
+`ParameterManagerVerbose1Log` | Debug parameter load problems.
+`ParameterManagerVerbose2Log` | Debug parameter load problems with full trace of parameters coming/going/in system.
+`ParameterManagerDebugCacheFailureLog` | Debug parameter cache crc misses.
 `MissionManagerLog` | Debug mission protocol issues.
 `RadioComponentControllerLog` | Debug Radio calibration issues.
 
