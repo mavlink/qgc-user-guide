@@ -1,5 +1,9 @@
 {   
     "gitbook": ">= 3.2.2",
+    "title": "QGroundControl User Guide",
+    "variables": {
+        "logo": "./assets/site/logo_qgc_rgb_horizontal.png"
+    },
     "plugins": [
         "youtube",
         "richquotes",
