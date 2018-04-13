@@ -11,8 +11,7 @@ Available sensors are displayed as a list of buttons beside the sidebar. Sensors
 Click on the button for each sensor to start its calibration sequence.
 
 
-<span id="flight_controller_orientation"></span>
-## Flight Controller Orientation
+## Flight Controller Orientation {#flight_controller_orientation}
 
 > **Tip** You can skip this section if the flight controller and compass are mounted upright on the vehicle and facing the front (this is the default orientation - `ROTATION_NONE`).
 
@@ -33,9 +32,7 @@ To set the orientation(s) on PX4:
    <img src="../../images/setup/sensor_orientation_set_orientations.jpg" style="width: 600px;"/>
    
 1. Select the **AutoPilot Orientation**.
-
 1. Select the **External Compass Orientation** (this option will only be displayed if there is an external compass).
-
 1. Press **OK**.
 
 
@@ -48,9 +45,7 @@ To set the orientation(s) on ArduPilot:
    <img src="../../images/setup/sensor_orientation_sensor_settings.jpg" style="width: 600px;"/>
 
 1. Select the **AutoPilot Orientation**.
-
 1. Select the *orientation* from **Compass 1 (primary/external) > Orientation** (or check **Compass2 (secondary, external) > Use Compass** to instead use the internal compass).
-
 1. Press **OK**.
 
 
@@ -135,7 +130,7 @@ If the horizon (as shown in the HUD) is not level after completing Accelerometer
 
 ## Airspeed
 
-For Airspeed calibration you will need to keep your airspeed sensor out of any wind and then blow across the sensor.
+The airspeed calibration needs to read a stable baseline with 0 airspeed in order to determine an offset. Cup your hands over the pitot to block any wind (if calibrating the sensor indoors this is not needed) and then blow into the tube using your mouth (to signal completion of the calibration).
 
 To calibrate the airspeed sensor:
 
@@ -148,9 +143,7 @@ To calibrate the airspeed sensor:
    > **Warning** Do not touch the sensor (obstruct any holes) during calibration.
 
 1. Click **OK** to start the calibration.
-
-1. Blow across the sensor.
-
+1. Blow into the sensor.
 1. Wait for 2-3 seconds before removing the covering (calibration completes silently after several seconds)
 
 
