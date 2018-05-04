@@ -6,7 +6,7 @@ The *Plan View* is used to plan autonomous missions for your Vehicle. Once the m
 
 If your Vehicle supports a [GeoFence](PlanGeoFence.md) or [Rally Points](PlanRallyPoints.md) you can also set those up from the *Plan View*.
 
-The image above shows a simple mission which starts with a takeoff, flies through two waypoints and then lands.
+The image above shows a simple mission which starts with a takeoff at the home position (H), flies through three waypoints and then lands on the last waypoint (i.e. waypoint 3).
 
 The steps to creating a missions are:
 
@@ -70,7 +70,7 @@ In the center of the map you will see a visualization of your current mission. Y
 
 ![](../../images/plan/PlanToolbar.png)
 
-At the top of the *Plan View* you will see the Plan Toolbar which shows you information for the currently selected waypoint relative to the previous waypoint as well as statistics for the entire mission. For e.g. to the left you will find altitude difference and distance from the previous waypoint, whereas to the right you will find an estimate of the horizontal distance and time taken by the total mission. "Max telem dist" is the distance between the Planned Home position (where your GCS is expected to be) and the furthest waypoint.
+At the top of the *Plan View* you will see the Plan Toolbar which shows information for the currently selected waypoint relative to the previous waypoint as well as statistics for the entire mission. For e.g. to the left you will find altitude difference and distance from the previous waypoint, whereas to the right you will find an estimate of the horizontal distance and time taken by the total mission. "Max telem dist" is the distance between the Planned Home position (where your GCS is expected to be) and the furthest waypoint.
 
 ![](../../images/plan/MissionHeightDisplay.png)
 
