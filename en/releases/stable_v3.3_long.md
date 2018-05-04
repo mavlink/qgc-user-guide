@@ -18,7 +18,7 @@ You can specify a connection to one of these devices on the General page. The GP
 
 Videos will be saved to the Video directory of your QGC file save path. You can also specify the maximum amount of space you want video files to consume. After that size if exceeded the oldest video files will be removed. Video Recording is turned on/off from the Video widget in the Fly View.
 
-### Plan View
+### Plan View {#plan_view}
 
 #### Structure Scan
 

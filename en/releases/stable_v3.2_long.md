@@ -25,7 +25,7 @@ This is now supported from the Sensors page.
 ### ArduPilot - Copy RC Trims
 This is now supported from the Copy Trims button on the Radio setup page.
 
-## Plan View
+## Plan View {#plan_view}
 
 ### Plan files
 Previous version of QGC saved missions, geo-fences and rally points in separate files (**.mission**, **.fence**, **.rally**). QGC now save all information related to a flight plan into a single file called a *Plan File* with a file extension of **.plan**.
