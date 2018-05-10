@@ -34,11 +34,11 @@ Click on the indicators to select them (for editing) or drag them around to repo
 
 ### Status Bar
 
-At the top of the *Plan View* you will see the Statusbar, which shows information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission. This also has a button for uploading missions to the vehicle.
+At the top of the *Plan View* you will see the Status bar, which shows information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission. This also has a button for uploading missions to the vehicle.
 
 ![Status Bar](../../images/plan/PlanToolbar.png)
 
-For example, above we see altitude and position difference from previous waypoint on the left, and an estimate of the horizontal distance and time taken by the total mission on teh right. `Max telem dist` is the distance between the Planned Home position (where your GCS is expected to be) and the furthest waypoint.
+For example, above we see altitude and position difference from previous waypoint on the left, and an estimate of the horizontal distance and time taken by the total mission on the right. `Max telem dist` is the distance between the Planned Home position (where your GCS is expected to be) and the furthest waypoint.
 
 ### Plan Toolbar
 
@@ -100,17 +100,20 @@ It is used by QGC to estimate mission times and to draw waypoint lines.
 
 ![Planned Home Position](../../images/plan/MissionSettingsPlannedHome.jpg)
 
-You should move/drag the planned home position to roughly the location where you plan to takeoff.
+You should move/drag the planned home position to roughly the location where you plan to takeoff. 
+The altitude for the planned home position is set in the [Mission Start](#mission-start) panel.
+
+<img src="../../images/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 200px;"/>
 
 > **Tip** The Fly View displays the *actual* home position set by the vehicle firmware when it arms (this where the vehicle will return in Return/RTL mode). 
-
-<img src="../../images/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 300px;"/>
 
 
 ## Mission Command List {#mission_command_list}
 
 Mission commands for the current mission are listed on the right side of the view. You can select individual items to edit their values. 
 Above are a set of options to switch between editing the mission, GeoFence and rally points.
+
+![Mission Command List](../../images/plan/mission_command_list.png)
 
 
 ### Mission Command Editors
@@ -127,15 +130,22 @@ The list of commands displayed in the dialog can be filtered by category. For ex
 > **Note** The list of available commands will depend on firmware and vehicle type. Examples may include: Waypoint, Start image capture, Jump to item (to repeat mission) and other commands.
 
 
-### Mission Settings
+### Mission Start
 
-The *Mission Settings* (Mission Start) panel is the first item in the mission command list (right of the screen). 
-This allows you to specify default values for new waypoints/command, or to reapply these values to all waypoints. 
-For example, you can change the altitude for all mission waypoints to the value you set in *Waypoint alt*.
+The *Mission Start* panel is the first item that appears in the mission command list. 
+It contains a number of default settings that may affect the start or end of the mission. 
 
 <img src="../../images/plan/MissionSettings.png" style="width: 200px;"/>
 
 
+- *Waypoint alt*:
+  - Sets the default altitude for the *first* item added to a plan (subsequent items take an initial altitude from the previous item).
+  - This can also be used to change the altitude of all items in a plan to the same value (you will be prompted if you change the value when there are items in a plan).
+- *Flight Speed*: Same as for *Waypoint alt* but affecting flight speed at each waypoint. 
+- *Return to Launch*: Select checkbox to make the vehicle return to launch at the end of the mission.
+- *Planned Home Position*: 
+  - Edit the altitude of the [Planned Home Position](#planned_home).
+  - Set the planned home position to the map centre.
 
 ## Further Info
 
