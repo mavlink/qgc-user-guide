@@ -1,4 +1,4 @@
-# Toolbar
+# Main Toolbar
 
 The main menu/tool bar provides access to the different application views, and high level status information for connected vehicles. The menu is the same in all views except for "PlanView" (which has a single icon to take you back to "Fly" view).
 
