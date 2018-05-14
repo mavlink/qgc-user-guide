@@ -1,16 +1,29 @@
 # Plan View
 
-The *Plan View* is used to plan autonomous missions for your vehicle, and upload them to the vehicle. It is also use to configure the [GeoFence](PlanGeoFence.md) and [Rally Points](PlanRallyPoints.md) if these are supported by the firmware.
+The *Plan View* is used to plan autonomous missions for your vehicle, and upload them to the vehicle. Once the mission is [planned](#plan_mission) and sent to the vehicle, you switch to the [Fly View](../FlyView/FlyView.md) to fly the mission.
 
+It is also use to configure the [GeoFence](PlanGeoFence.md) and [Rally Points](PlanRallyPoints.md) if these are supported by the firmware.
+
+<span id="plan_screenshot"></span>
 ![Plan View](../../images/plan/PlanView.png)
 
-Once the mission is planned and sent to the vehicle, you switch to the [Fly View](../FlyView/FlyView.md) to fly the mission.
 
+## UI Overview
 
-## Planning a Mission
+The [screenshot above](#plan_screenshot) shows a simple mission plan that starts with a takeoff at the [Planned Home](#planned_home) position (H), 
+flies through three waypoints, and then lands on the last waypoint (i.e. waypoint 3).
 
-The image above shows a simple mission plan that starts with a takeoff at the home position (H), 
-flies through three waypoints,  and then lands on the last waypoint (i.e. waypoint 3).
+The main elements of the UI are:
+
+* **Map:** Displays the numbered indicators for the current mission, including the [Planned Home](#planned_home).
+  Click on the indicators to select them (for editing) or drag them around to reposition them. 
+* **Main Toolbar:** Status information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission (e.g. horizontal distance and time for mission). `Max telem dist` is the distance between the [Planned Home](#planned_home) and the furthest waypoint. This also has a button for uploading missions to the vehicle.
+* **[Plan Tools](#plan_tools):** Used to create and manage missions.
+* **[Mission Command List/Overlay](#mission_command_list):** Displays the current list of mission items (select items to [edit](#mission_command_editors)).
+* **Terrain Altitude Overlay:** Shows the relative altitude of each mission command.
+
+  
+## Planning a Mission {#plan_mission}
 
 At very high level, the steps to create a mission are:
 
@@ -22,40 +35,20 @@ At very high level, the steps to create a mission are:
 The following sections explain some of the details in the view.
 
 
-## UI Overview
+## Planned Home Position {#planned_home}
 
-The main elements of the UI are shown in the screenshot at the top of the page.
+The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to a vehicle). 
+It is used by QGC to estimate mission times and to draw waypoint lines.
 
+![Planned Home Position](../../images/plan/MissionSettingsPlannedHome.jpg)
 
-### Map
+You should move/drag the planned home position to roughly the location where you plan to takeoff. 
+The altitude for the planned home position is set in the [Mission Start](#mission-start) panel.
 
-The central area of the view is occupied by a map. This displays the numbered indicators for the current mission, including the [Planned Home](#planned_home).
-Click on the indicators to select them (for editing) or drag them around to reposition them. 
+<img src="../../images/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 200px;"/>
 
-### Status Bar
+> **Tip** The Fly View displays the *actual* home position set by the vehicle firmware when it arms (this where the vehicle will return in Return/RTL mode). 
 
-At the top of the *Plan View* you will see the Status bar, which shows information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission. This also has a button for uploading missions to the vehicle.
-
-![Status Bar](../../images/plan/PlanToolbar.png)
-
-For example, above we see altitude and position difference from previous waypoint on the left, and an estimate of the horizontal distance and time taken by the total mission on the right. `Max telem dist` is the distance between the Planned Home position (where your GCS is expected to be) and the furthest waypoint.
-
-### Plan Toolbar
-
-The Plan Toolbar is displayed on the left side of the screen (marked in red with white labels in the image above). It contains the [plan tools](#plan_tools) for creating and managing missions.
-
-### Mission Command List/Overlay
-
-The Mission Command List is displayed on the right hand side. This contains the list of mission items (select items to edit).
-
-More information about mission editors is [provided below](#mission_command_list).
-
-
-### Terrain Altitude Overlay
-
-The terrain altitude overlay (bottom left of map) shows the relative altitude of each mission command.
-
-![Mission Height display](../../images/plan/MissionHeightDisplay.png)
 
 
 ## Plan Tools {#plan_tools}
@@ -93,21 +86,6 @@ The *Sync tools* provides the following functionality:
 The [Pattern](Pattern.md) tool simplifies the creation of missions for flying complex geometries, including [surveys](../PlanView/Survey.md) and [structure scans](../PlanView/StructureScan.md).
 
 
-## Planned Home Position {#planned_home}
-
-The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to a vehicle). 
-It is used by QGC to estimate mission times and to draw waypoint lines.
-
-![Planned Home Position](../../images/plan/MissionSettingsPlannedHome.jpg)
-
-You should move/drag the planned home position to roughly the location where you plan to takeoff. 
-The altitude for the planned home position is set in the [Mission Start](#mission-start) panel.
-
-<img src="../../images/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 200px;"/>
-
-> **Tip** The Fly View displays the *actual* home position set by the vehicle firmware when it arms (this where the vehicle will return in Return/RTL mode). 
-
-
 ## Mission Command List {#mission_command_list}
 
 Mission commands for the current mission are listed on the right side of the view. You can select individual items to edit their values. 
@@ -116,7 +94,7 @@ Above are a set of options to switch between editing the mission, GeoFence and r
 ![Mission Command List](../../images/plan/mission_command_list.png)
 
 
-### Mission Command Editors
+### Mission Command Editors {#mission_command_editors}
 
 Click on a mission command in the list to display its editor (in which you can set/change the command attributes).
 
