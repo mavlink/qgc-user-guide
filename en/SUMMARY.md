@@ -50,4 +50,6 @@
 * [PX4 Developer Guide](https://dev.px4.io/en/)
 * [DroneCore Guide](https://docs.dronecore.io/en/)
 * [MAVLink Developer Guide](https://mavlink.io/en/)
+* [Dronecode Camera Manager Guide](https://camera-manager.dronecode.org/en/)
+
 
