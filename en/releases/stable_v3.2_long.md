@@ -27,22 +27,22 @@ This is now supported from the Copy Trims button on the Radio setup page.
 
 ## Plan View {#plan_view}
 
-### Plan files
+### Plan Files
 Previous version of QGC saved missions, geo-fences and rally points in separate files (**.mission**, **.fence**, **.rally**). QGC now save all information related to a flight plan into a single file called a *Plan File* with a file extension of **.plan**.
 
 ### Plan Toolbar
-![](../../images/plan/PlanToolbar.jpg)
+![Plan Toolbar](../../images/plan/PlanToolbar.jpg)
 
 The new Plan Toolbar is displayed at the top of the Plan View. It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
 
 When you are connected to a vehicle it also show an *Upload* button which can be used to upload the plan to the vehicle.
 
 ### Mission Settings
-The Mission Settings panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
+The *Mission Settings* panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
 
-<img src="../../images/plan/MissionSettings.jpg" style="width: 150px;"/>
+<img src="../../images/plan/MissionSettings.png" style="width: 150px;"/>
 
-#### Mission defaults
+#### Mission Defaults
 
 ##### Waypoint alt
 This specifies the default altitude for newly added mission items. If you update this value while you have a mission loaded it will prompt you to update all the the waypoints to this new altitude.
@@ -181,12 +181,13 @@ You will be prompted to remove the mission from the vehicle after the mission co
 #### Flight Time
 Flight time is now available for display in the instrument panel. For new users, flight time will be shown by defeault. For existing users who have already modified their instrument panel values you will have to add it yourself if you want to use it.
 
-## Analyze View
-* Log download moved to Analyze view from menu
-* New GeoTag images support for PX4 Pro firmware
-* New Mavlink Console which provides access the the nsh shell running on the vehicle.
+## [Analyze View](../analyze_view/README.md)
+* [Log Download](../analyze_view/log_download.md) moved to *Analyze View* from menu.
+* New [GeoTag Images](../analyze_view/geotag_images.md) support for PX4 Pro firmware
+* New [MAVLink Console](../analyze_view/mavlink_console.md) which provides access the the *nsh shell* running on the vehicle.
 
-### Multi-Vehicle View
+
+## Multi-Vehicle View
 
 There is a new view available when you have multiple vehicles connected to QGC. It will only show up when more than one vehicle is connected. When that happens you will see an additional set of radio button at the top right of the Plan view.
 
@@ -203,7 +204,7 @@ The example above shows three vehicles. The numbers are the vehicle id. In the l
 * Return to Launch
 * Take Control back of the vehicle by returning to manual control from a mission.
 
-#### Multi-Vehicle Gotchas - Unique vehicle ids
+### Multi-Vehicle Gotchas - Unique vehicle ids
 Each vehicle connected to QGC must have a unique id. Otherwise QGC will think the vehicles are actually the same vehicle. The symptom of this is the Plan view jerking around as it tries to position itself to one vehicle and then the next. For PX4 Pro firmwares this is the `MAV_SYS_ID` parameter. For ArduPilot firmwares it is the ```SYSID_THISMAV``` parameter.
 
 ## Support for third-party customized QGroundControl
