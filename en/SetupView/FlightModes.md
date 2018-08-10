@@ -42,8 +42,6 @@ All values are automatically saved as they are changed.
 
 
 
-
-
 ## PX4 Pro Flight Mode Setup
 
 *PX4* (*QGroundControl*) supports two modes for mapping flight modes to transmitter switches/dials:
@@ -73,7 +71,7 @@ To configure single-channel flight mode selection:
    * Select the **Mode channel** (above this shown as Channel 5, but this will depend on your transmitter configuration). 
    * Select up to six **Flight Modes**.
 1. Specify *Switch Settings*:
-   * Select channels for *Return To Launch* mode, *Kill Switch*, and *offboard* mode (if you have spare switches and channels on your transmitter).
+   * Select the channels that you want to map to specific actions - e.g. *Return* mode, *Kill switch*, *offboard* mode, etc. (if you have spare switches and channels on your transmitter).
 1. Test that the modes are mapped to the right transmitter switches:
    * Check the *Channel Monitor* to confirm that the expected channel is changed by each switch.
    * Select each mode switch on your transmitter in turn, and check that the desired flight mode is activated (the text turns yellow on *QGroundControl* for the active mode).
