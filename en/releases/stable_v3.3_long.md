@@ -8,15 +8,23 @@ This topic contains a high level and *non-exhaustive* list of new features added
 
 #### NMEA GPS Device support
 
-   ![](../../images/settings/NMEADevice.jpg)
+![NMEA GPS Device support](../../images/settings/NMEADevice.jpg)
 
-You can specify a connection to one of these devices on the General page. The GPS information will then be used for ground station location and in turn follow me support.
+You can specify a connection to one of these devices on the General page. 
+The GPS information will then be used for ground station location and in turn follow me support.
+
+For more information see [Settings > General (AutoConnect to the following devices)](../SettingsView/General.md#auto_connect).
 
 #### Video Recording
 
-   ![](../../images/settings/VideoRecording.jpg)
+![Video Recording](../../images/settings/VideoRecording.jpg)
 
-Videos will be saved to the Video directory of your QGC file save path. You can also specify the maximum amount of space you want video files to consume. After that size if exceeded the oldest video files will be removed. Video Recording is turned on/off from the Video widget in the Fly View.
+Videos will be saved to the Video directory of your QGC file save path. 
+You can also specify the maximum amount of space you want video files to consume. 
+After that size if exceeded the oldest video files will be removed. 
+Video Recording is turned on/off from the Video widget in the Fly View.
+
+For more information see [Settings > General (Video / Video Recording)](../SettingsView/General.md#video).
 
 ### Plan View {#plan_view}
 
