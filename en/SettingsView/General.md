@@ -33,7 +33,8 @@ The settings are:
 - **Font Size**: Font size across app (Requires restart)
 - **Mute all audio output**: Turns off all audio output. 
 - <span id="autosave_log"></span>**Save telemetry log after each flight**: Logs automatically saved to the *File Save Path* ([below](#file_save_path)) after flight. 
-- **Save telemetry log even if vehicle was not armed**: 
+- **Save telemetry log even if vehicle was not armed**: Logs when a vehicle connects to *QGroundControl*. 
+  Stops logging when the last vehicle disconnects.
 - **Use preflight checklist**: Enable pre-flight checklist.
 - **Virtual Joystick**: Enable [virtual joysticks](../SettingsView/VirtualJoystick.md) (PX4 only)
 - <span id="autoload_missions"></span> **Autoload Missions**: If enabled, automatically upload a plan to the vehicle on connection. 
@@ -41,7 +42,7 @@ The settings are:
   - The plan file must be located in the [Application Load/Save Path(#load_save_path).
 - **Clear all settings on next start**: Resets all settings to the default (including this one) when *QGroundControl* restarts.
 - **Announce battery lower than**: Specify battery level at which *QGroundControl* will start low battery announcements.
-- **Default Mission Altitude**:
+- **Default Mission Altitude**: The default altitude used for the first waypoint (subsequent new waypoints are seeded with the altitude value of the preceding waypoint).
 - <span id="load_save_path"></span>**Application Load/Save Path**: Default location for loading/saving application files, including: parameters, telemetry logs, and mission plans.
 
 
@@ -86,7 +87,8 @@ The *Video* section is used to define the source and connection settings for vid
 
 ## Video Recording
 
-The *Video Recording* section is used to specify the file format and maximum allocated file storage for storing video. Videos are saved to a sub-directory ("Video") of the [Application Load/Save Path](#load_save_path).
+The *Video Recording* section is used to specify the file format and maximum allocated file storage for storing video. 
+Videos are saved to a sub-directory ("Video") of the [Application Load/Save Path](#load_save_path).
 
 ![Video - without auto deletion](../../images/settings/settings_view_general_video_recording.jpg)
 
@@ -100,7 +102,10 @@ The settings are:
 
 ## Brand Image
 
-This setting specifies the brand image used for indoor/outdoor colour schemes.
+This setting specifies the *brand image* used for indoor/outdoor colour schemes.
+
+The brand image is displayed in place of the icon for the connected autopilot in the top right corner of the toolbar.
+It is provided so that users can easily create screen/video captures that include a company logo/branding.
 
 ![Brand Image](../../images/settings/settings_view_general_brand_image.jpg)
 
