@@ -1,6 +1,6 @@
 # 飞行数据
 
-![](../../images/quickstart/ConnectedVehicle.jpg)
+![](../../assets/quickstart/ConnectedVehicle.jpg)
 
 飞行数据 界面是你在飞行时要用到的主要界面。 你可以在地图界面或者视频界面（如果视频可用）切换。
 
@@ -36,19 +36,19 @@ To the right is an instrument panel showing you current information on your vehi
 
 ### Telemetry page
 
-<img src="../../images/fly/InstrumentTelemetryPage.jpg" style="width: 100px;" />
+<img src="../../assets/fly/InstrumentTelemetryPage.jpg" style="width: 100px;" />
 
 The values shown within the telemetry page can be configured by clicking on the small gear icon.
 
 ### Vehicle Health page
 
-<img src="../../images/fly/InstrumentHealthPage.jpg" style="width: 100px;" />
+<img src="../../assets/fly/InstrumentHealthPage.jpg" style="width: 100px;" />
 
 This page shows you the health of the systems within your Vehicle. If any of the systems switchs from healthy to unhealthy this page will automatically be switched to.
 
 ### Vibration Clipping page
 
-<img src="../../images/fly/InstrumentClipPage.jpg" style="width: 100px;" />
+<img src="../../assets/fly/InstrumentClipPage.jpg" style="width: 100px;" />
 
 This page show you current vibration values and clip counts.
 
