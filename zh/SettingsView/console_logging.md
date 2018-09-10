@@ -2,7 +2,7 @@
 
 The *Console* can be helpful tool for diagnosing *QGroundControl* problems. It can be found in **SettingsView > Console**.
 
-![Console logging](../../images/support/Console.jpg)
+![Console logging](../../assets/support/Console.jpg)
 
 Click the **Set Logging** button to enable/disable logging information displayed by *QGroundControl*.
 
