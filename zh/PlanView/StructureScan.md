@@ -6,7 +6,7 @@ Structure Scan is available to insert into a mission from the *Pattern* tool.
 
 > **Warning** **This feature requires new firmware support in both PX4 and ArduPilot.** At this point the QGC release is a bit ahead of the firmware support releases. PX4 support should be available within a few days. ArduPilot support soon thereafter.
 
-![Structure Scan](../../images/plan/StructureScan.jpg)
+![Structure Scan](../../assets/plan/StructureScan.jpg)
 
 In the diagram green is used to show the polygon that represents the structure. In white you can see the flight path for the vehicle. You can also fly circular structure scans by change the polygon to a circle using the *center tool*.
 
@@ -16,7 +16,7 @@ The settings for the scan can be based on the specifications of the camera on th
 
 For camera based scans the camera is always pointed directly at the right angles to the surface which it is capturing images for.
 
-<img src="../../images/plan/StructureScanCamera.jpg" style="width: 150px;" />
+<img src="../../assets/plan/StructureScanCamera.jpg" style="width: 150px;" />
 
 ### Structure information
 
@@ -29,7 +29,7 @@ The vehicle will fly a pattern such that images fully cover the structure starti
 
 A manual scan allows you to specify the various distances and heights associated with a structure scan yourself. You select **Manual** from the list for a manual scan.
 
-<img src="../../images/plan/StructureScanManual.jpg" style="width: 150px;" />
+<img src="../../assets/plan/StructureScanManual.jpg" style="width: 150px;" />
 
 * Scan Distance - The amount of distance to fly away from the structure.
 * Bottom Layer Alt - The bottom altitude of the first layer.
