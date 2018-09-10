@@ -8,7 +8,7 @@ Getting *QGroundControl* up and running is quick and easy:
 
 That's it! If the vehicle is ready to fly,  *QGroundControl* should display [Fly View](../FlyView/FlyView.md) as shown below (otherwise it will open [Setup View](../SetupView/SetupView.md)).
 
-![](../../images/quickstart/fly_view_connected_vehicle.jpg)
+![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
 A good way to become familiar with *QGroundControl* is to start experimenting:
 

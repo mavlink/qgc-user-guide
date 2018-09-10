@@ -14,7 +14,7 @@ QGroundControl를 이용하면 ArduPilot나 PX4기반 비행체에 대해서 완
 * 여러 비행체 관리 지원
 * QGC는 Windows, OS X, Linux 플랫폼, iOS, Android 장치에서 실행
 
-![](../../images/quickstart/ConnectedVehicle.jpg)
+![](../../assets/quickstart/ConnectedVehicle.jpg)
 
 > **노트** QGroundControl 사용자 가이드는 계속 작업 중입니다. 따라서 제공된 정보 중에 놓치거나 완료하지 않은 자료들이 있을 수 있습니다.
 

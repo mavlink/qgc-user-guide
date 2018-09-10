@@ -4,7 +4,7 @@ Rally 포인트는 착륙 혹은 로이터링 위치를 대신합니다.
 
 RETURN TO LAUNCH(RTL)모드에서 home position보다 안전하고 편리한 목적지를 제공하는데 일반적으로 사용됩니다.
 
-![](../../images/plan/RallyPoints.jpg)
+![](../../assets/plan/RallyPoints.jpg)
 
 > **Note** 모든 비행 펌웨어가 렐리 포인트를 지원하는 것은 아니며, 지원하더라도 Rally Point 기능은 다를 수 있습니다. ArduPilot와 관련한 문서는 [여기](http://ardupilot.org/copter/docs/common-rally-points.html)에서 찾을 수 있습니다. PX4는 현재(4월 2017) 지원하지 않습니다.
 

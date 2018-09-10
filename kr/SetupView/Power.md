@@ -1,3 +1,3 @@
 # Power Setup
 
-![](../../images/setup/PX4Power.jpg)
+![](../../assets/setup/PX4Power.jpg)

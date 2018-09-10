@@ -5,13 +5,13 @@ GeoFence로 비행할려는 지역에 가상의 울타리를 만들 수 있습�
 
 ## 예제 화면
 ArduCopter 화면:
-![](../../images/plan/GeoFence.APM.Copter.jpg)
+![](../../assets/plan/GeoFence.APM.Copter.jpg)
 
 ArduPlane 화면:
-![](../../images/plan/GeoFence.APM.Plane.jpg)
+![](../../assets/plan/GeoFence.APM.Plane.jpg)
 
 PX4 Pro 화면:
-![](../../images/plan/GeoFence.PX4.jpg)
+![](../../assets/plan/GeoFence.PX4.jpg)
 
 ## GeoFence Setup
 GeoFence를 생성하는 단계 :

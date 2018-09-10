@@ -1,6 +1,6 @@
 # Parameters
 
-![](../../images/setup/parameters_px4.jpg)
+![](../../assets/setup/parameters_px4.jpg)
 *Note: PX4 Pro 펌웨어를 실행하는 비행체에서 얻은 이미지입니다. ArduPilot도 유사하게 동작하지만 파라미터 설정은 다를 수 있습니다.*
 
 파라미터 스크린에서 비행체와 관련된 파라미터를 수정할 수 있습니다.
@@ -11,7 +11,7 @@
 
 파라미터의 값을 변경하기 위해서 목록에 있는 파라미터 값을 클릭합니다. 이렇게 하면 값을 업데이트할 수 있게 옆에 다이얼로그가 열리고 파라미터에 대한 상세한 정보가 제공됩니다.
 
-![](../../images/setup/parameters_changing.png)
+![](../../assets/setup/parameters_changing.png)
 
 ### 파라미터 검색하기
 
@@ -19,7 +19,7 @@
 
 ### Tools
 
-![](../../images/setup/parameters_tools_menu.png)
+![](../../assets/setup/parameters_tools_menu.png)
 
 
 Tools 메뉴에서 추가 옵션을 선택할 수 있습니다.

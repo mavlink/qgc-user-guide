@@ -26,7 +26,7 @@ When this settings is turned on when QGC connects to a vehicle it will automatic
 ### Mission Settings
 When planning a mission the first item in the mission list on the right of the screen is Mission Settings. This allows you to specify your planned home positions as well as specify vehicle information associated with the planned mission.
 
-<img src="../../images/plan/MissionSettings.jpg" style="width: 150px;"/>
+<img src="../../assets/plan/MissionSettings.jpg" style="width: 150px;"/>
 
 #### Mission defaults
 
@@ -125,11 +125,11 @@ Flight time is now available for display in the instrument panel. For new users,
 
 There is a new view available when you have multiple vehicles connected to QGC. It will only show up when more than one vehicle is connected. When that happens you will see an additional set of radio button at the top right of the Plan view.
 
-<img src="../../images/daily_build_changes/MultiVehicleRadios.jpg" style="width: 150px;"/>
+<img src="../../assets/daily_build_changes/MultiVehicleRadios.jpg" style="width: 150px;"/>
 
 Click the Multi-Vehicle radio button to replace the instrument panel with the multi-vehicle list:
 
-<img src="../../images/daily_build_changes/MultiVehicleList.jpg" style="width: 150px;"/>
+<img src="../../assets/daily_build_changes/MultiVehicleList.jpg" style="width: 150px;"/>
 
 The example above shows three vehicles. The numbers are the vehicle id. In the large font is the current flight mode. You can click the flight mode name to change to a different flight mode. To the right are small version of the instruments for each vehicle. You can command the vehicle to do the following actions from the control panel:
 

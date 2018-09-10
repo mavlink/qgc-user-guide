@@ -3,7 +3,7 @@
 이 페이지에서는 rc 트랜스미터에서 비행모드(flight mode) 스위치를 설정하는 방법에 대해서 알아봅니다. 비행모드는 RTL(Return to Launch)과 같은 기능뿐만 아니라 다양한 비행 안정성 단계를 지정합니다.
 
 ## ArduPilot 비행모드 셋업
-![](../../images/setup/ArduCopterFlightMode.jpg)
+![](../../assets/setup/ArduCopterFlightMode.jpg)
 *Note: ArduCopter 비행체 이미지*
 
 
@@ -28,4 +28,4 @@
 [ArduPlane 상세 비행모드 설명](http://ardupilot.org/plane/docs/flight-modes.html)
 
 ## PX4 Pro 비행모드 셋업
-![](../../images/setup/PX4SingleChannelFlightMode.jpg)
+![](../../assets/setup/PX4SingleChannelFlightMode.jpg)

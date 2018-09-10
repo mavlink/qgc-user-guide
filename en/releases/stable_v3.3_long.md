@@ -8,7 +8,7 @@ This topic contains a high level and *non-exhaustive* list of new features added
 
 #### NMEA GPS Device support
 
-![NMEA GPS Device support](../../images/settings/NMEADevice.jpg)
+![NMEA GPS Device support](../../assets/settings/NMEADevice.jpg)
 
 You can specify a connection to one of these devices on the General page. 
 The GPS information will then be used for ground station location and in turn follow me support.
@@ -17,7 +17,7 @@ For more information see [Settings > General (AutoConnect to the following devic
 
 #### Video Recording
 
-![Video Recording](../../images/settings/VideoRecording.jpg)
+![Video Recording](../../assets/settings/VideoRecording.jpg)
 
 Videos will be saved to the Video directory of your QGC file save path. 
 You can also specify the maximum amount of space you want video files to consume. 
@@ -36,7 +36,7 @@ Details [here](../PlanView/StructureScan.md).
 
 #### New MAVLink GeoFence, Rally Point support
 
-   ![](../../images/plan/GeoFenceRally.jpg)
+   ![](../../assets/plan/GeoFenceRally.jpg)
    
 QGC supports the new MAVLink GeoFence and Rally Point specification/protocol. This new system supports multiple polygonal and/or circular fences which can be specified as an exclusion or an inclusion fence.
 
@@ -46,15 +46,15 @@ The fence which is currently selected by the "Edit" radio button will show the o
 
 #### Edit Position Dialog
 
-   ![](../../images/plan/EditPositionDialog.jpg)
+   ![](../../assets/plan/EditPositionDialog.jpg)
 
 The Edit Position Dialog allows you to specify a detailed position for an item in either Geographic or UTM coordinate systems. It is available from the Polygon Tools menu as well as the hamburger menu of any mission item which specifies a coordinate:
 
-   ![](../../images/plan/MissionItemEditorHamburger.jpg)
+   ![](../../assets/plan/MissionItemEditorHamburger.jpg)
 
 #### Polygon Tools
 
-   ![](../../images/plan/PolygonTools.jpg)
+   ![](../../assets/plan/PolygonTools.jpg)
    
 You can now also click on the polygon center drag handle to bring up a set of polygon manipulation tools. The tools are available anywhere polygon editing is supported: Survey, Structure Scan, GeoFence, ...
 
@@ -66,7 +66,7 @@ You can now also click on the polygon center drag handle to bring up a set of po
 
 Circular polygon example:
 
-<img src="../../images/plan/CircularPolygon.jpg" height="200" />
+<img src="../../assets/plan/CircularPolygon.jpg" height="200" />
 
 ### Fly View
 
@@ -78,13 +78,13 @@ This is now a video record button in the video window. Settings for saved videos
 
 When you are connected to multiple vehicles the vehicle id will be shown below the vehicle icon. The active vehicle will be opaque and the inactive vehicles will be semi-transparent.
 
-   ![](../../images/fly/MultiVehicleIndicators.jpg)
+   ![](../../assets/fly/MultiVehicleIndicators.jpg)
 
 #### Multi-Vehicle View supports batch commands
 
 The multi-vehicle list now supports commands which apply to all vehicles.
 
-   ![](../../images/fly/MultiVehicleList.jpg)
+   ![](../../assets/fly/MultiVehicleList.jpg)
    
 The current list of available commands are Pause and Start Mission but that will be exapanded upon with further development.
 
@@ -93,5 +93,5 @@ The current list of available commands are Pause and Start Mission but that will
 
 Vehicle reported by ADS-B sensor on vehicle are shown on map as smaller blue icons with altitude and callsign below the icon.
 
-   ![](../../images/fly/ADSBVehicle.jpg)
+   ![](../../assets/fly/ADSBVehicle.jpg)
 

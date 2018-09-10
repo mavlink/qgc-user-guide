@@ -6,7 +6,7 @@ QGroundControl 관련 질문 및 문제 리포팅은 [QGroundControl Usage Categ
 
 ## Console Logging
 
-![Console logging](../../images/support/Console.jpg)
+![Console logging](../../assets/support/Console.jpg)
 
 콘솔은 QGroundControl 문제를 진단하는 유용한 도구로 Settings View에 있습니다. QGroundControl에서 유효한 logging 옵션을 켜고/끄기가 가능합니다. "Set Logging" 버튼을 클릭해서 logging 옵션을 선택합니다.
 

@@ -25,7 +25,7 @@ To set the flight modes:
 1. Turn on your RC transmitter.
 1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
    
-   ![Flight modes setup - ArduCopter](../../images/setup/flight_modes_copter_ardupilot.jpg)
+   ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes_copter_ardupilot.jpg)
    
    > **Note** The above image is a screenshot of the flight mode setup for ArduCopter.
    
@@ -33,7 +33,7 @@ To set the flight modes:
 1. **ArduCopter only:** Select additional *Channel Options* for channels 7-12.
 1. **ArduPlane only:** Select the mode channel from the dropdown.
 
-   ![Flight modes setup - ArduPlane](../../images/setup/flight_modes_plane_ardupilot.jpg)
+   ![Flight modes setup - ArduPlane](../../assets/setup/flight_modes_plane_ardupilot.jpg)
 1. Test that the modes are mapped to the right transmitter switches by selecting each mode switch on your transmitter in turn, and check that the desired flight mode is activated (the text turns yellow on *QGroundControl* for the active mode).
 
 All values are automatically saved as they are changed.
@@ -63,7 +63,7 @@ To configure single-channel flight mode selection:
 1. Turn on your RC transmitter.
 1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
    
-   ![Flight modes multi-channel](../../images/setup/flight_modes_single_channel_px4.jpg)
+   ![Flight modes multi-channel](../../assets/setup/flight_modes_single_channel_px4.jpg)
    
    > **Tip** If the screen opens in *Multi Channel Mode* click the **Use Single Channel Mode Selection** button to change screen.
    
@@ -103,7 +103,7 @@ To configure flight modes using the multi-channel UI:
 1. Turn on your RC transmitter.
 1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
    
-   ![Flight modes multi-channel](../../images/setup/flight_modes_multi_channel_px4.jpg)
+   ![Flight modes multi-channel](../../assets/setup/flight_modes_multi_channel_px4.jpg)
    
    > **Tip** If the screen opens in *Single Channel Mode* click the **Use Multi Channel Mode Selection** button to change screen.
    

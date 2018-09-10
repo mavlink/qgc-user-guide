@@ -50,7 +50,7 @@ Information about the format can be found in [Plan File Format](https://dev.qgro
 
 ### Plan Toolbar
 
-![Plan Toolbar](../../images/plan/PlanToolbar.jpg)
+![Plan Toolbar](../../assets/plan/PlanToolbar.jpg)
 
 The new Plan Toolbar is displayed at the top of the Plan View. 
 It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
@@ -60,7 +60,7 @@ When you are connected to a vehicle it also show an **Upload** button which can 
 ### Mission Settings
 The *Mission Settings* panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
 
-<img src="../../images/plan/MissionSettings.png" style="width: 150px;"/>
+<img src="../../assets/plan/MissionSettings.png" style="width: 150px;"/>
 
 #### Mission Defaults
 
@@ -75,7 +75,7 @@ Check this if you want your vehicle to RTL after the final mission item.
 
 #### Camera section
 
-<img src="../../images/plan/MissionSettingsCameraSection.jpg" style="width: 150px;"/>
+<img src="../../assets/plan/MissionSettingsCameraSection.jpg" style="width: 150px;"/>
 
 The camera section allows you to specify a camera action to take, control the gimbal and set your camera into photo or video mode.
 
@@ -90,7 +90,7 @@ The camera actions available are:
 
 #### Vehicle Info section
 
-<img src="../../images/plan/MissionSettingsVehicleInfoSection.jpg" style="width: 150px;"/>
+<img src="../../assets/plan/MissionSettingsVehicleInfoSection.jpg" style="width: 150px;"/>
 
 When planning a mission the firmware being run on the vehicle as well as the vehicle type must be known in order for QGroundControl to show you the mission commands which are appropriate for your vehicle.
 
@@ -99,20 +99,20 @@ If you are planning a mission while you are connected to your vehicle the Firmwa
 The additional value that can be specified when planning a mission is the vehicle flight speed. By specifying this value, total mission or survey times can be approximated even when not connected to a vehicle.
 
 #### Planned Home Position
-<img src="../../images/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 150px;"/>
+<img src="../../assets/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 150px;"/>
 
 The planned home position allows you to simulate the vehicle's home position while planning a mission. This way you see the waypoint trajectory for your vehicle from takeoff to mission completion. Keep in mind that this is only the "planned" home position and you should place it where you plan to start the vehicle from. It has no actual impact on flying the mission. The actual home position of a vehicle is set by the vehicle itself when arming.
 
 ### New Waypoint features
 
-<img src="../../images/plan/Waypoint.jpg" style="width: 150px;"/>
+<img src="../../assets/plan/Waypoint.jpg" style="width: 150px;"/>
 
 * You can now adjust heading and flight speed for each waypoint.
 * There is a camera section available for camera changes on each waypoint. Explanation of Camera Section can be read under Mission Settings above.
 
 ### Visual Gimbal direction
 
-<img src="../../images/plan/GimbalDirection.jpg" style="width: 300px;"/>
+<img src="../../assets/plan/GimbalDirection.jpg" style="width: 300px;"/>
 
 If you specify gimbal yaw changes on waypoints, both the plan and fly views will show you a visual representation of the gimbal direction.
 
@@ -124,7 +124,7 @@ There is a new *Pattern tool*. The following patterns are supported:
 * Survey (with new features)
 
 #### Fixed Wing Landing Pattern
-![](../../images/plan/FixedWingLandingPattern.jpg)
+![](../../assets/plan/FixedWingLandingPattern.jpg)
 
 This adds a landing pattern for fixed wings to your mission. The first point of the pattern is the loiter point which commands to vehicle to loiter to a specific altitude. Once that altitude is reached, the vehicle will begin the landing sequence and fly down to the specified landing spot.
 
@@ -135,7 +135,7 @@ Both the loiter and land points can be dragged to adjust. Also all the various v
 * There is a new *Hover and Capture* option which can be used to capture the highest quality image at each image location. The vehicle will stop at each image location prior to taking the image such that the vehicle is stable while the image is taken.
 * There is a new option to re-fly the survey grid at a 90 degree angle to the previous pass. This allows you to generate much denser coverage for the images.
 
-![](../../images/plan/PolygonEdit.jpg)
+![](../../assets/plan/PolygonEdit.jpg)
 
 Manipulating the survey area polygon is now easier to use on tablets with touch screens:
 
@@ -211,11 +211,11 @@ Flight time is now available for display in the instrument panel. For new users,
 
 There is a new view available when you have multiple vehicles connected to QGC. It will only show up when more than one vehicle is connected. When that happens you will see an additional set of radio button at the top right of the Plan view.
 
-<img src="../../images/daily_build_changes/MultiVehicleRadios.jpg" style="width: 150px;"/>
+<img src="../../assets/daily_build_changes/MultiVehicleRadios.jpg" style="width: 150px;"/>
 
 Click the **Multi-Vehicle** radio button to replace the instrument panel with the multi-vehicle list:
 
-<img src="../../images/daily_build_changes/MultiVehicleList.jpg" style="width: 150px;"/>
+<img src="../../assets/daily_build_changes/MultiVehicleList.jpg" style="width: 150px;"/>
 
 The example above shows three vehicles. The numbers are the vehicle id. In the large font is the current flight mode. You can click the flight mode name to change to a different flight mode. To the right are small version of the instruments for each vehicle. You can command the vehicle to do the following actions from the control panel:
 

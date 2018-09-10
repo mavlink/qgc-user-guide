@@ -1,7 +1,7 @@
 # Sensors
 Sensor 셋업을 통해 비행체의 센서를 설정하고 칼리브레이션할 수 있습니다.
 
-![](../../images/setup/sensors_px4_vtol.jpg)
+![](../../assets/setup/sensors_px4_vtol.jpg)
 *Note: PX4 펌웨어를 실행하는 비행체인 경우의 이미지. PX4 펌웨어 옵션은 조금 다를 수 있습니다.*
 
 개별 칼리브레이션 단계를 시작하려면 sensor 버튼을 클릭합니다. 빨간색으로 표시된 sensor의 경우 비행하기 전에 칼리브레이션이 필요합니다. 녹색으로 표시된 sensor는 칼리브레이션이 정상적으로 되었다는 뜻입니다.
@@ -18,7 +18,7 @@ PX4의 경우 위치를 이미지로 가이드합니다.
 ### ArduPilot (새로운 펌웨어)
 새로운 ArduPilot 펌웨어의 경우 컴파스 칼리브레이션은 보다 정확한 칼리브레이션을 위해서 Onboard 칼리브레이션을 제공합니다. 비행체를 랜덤하게 모든 축에 대해서 회전시켜서 프로그레스바가 오른쪽으로 다차면 칼리브레이션이 완료됩니다. 칼리브레이션이 완료되면 다음과 같은 결과가 나옵니다. :
 
-![](../../images/setup/sensor_compass_ardupilot_onboard_calibration_result.jpg)
+![](../../assets/setup/sensor_compass_ardupilot_onboard_calibration_result.jpg)
 
 여기서 각 컴파스에 대해서 칼리브레이션의 품질을 보여줍니다. 이 값을 이용하면 성능이 좋지 않은 컴파스의 경우 사용할지 여부를 결정하는데 도움이 됩니다.
 
@@ -26,7 +26,7 @@ PX4의 경우 위치를 이미지로 가이드합니다.
 
 PX4와 이전 ArduPilot의 경우 가이드에 따라서 비행체를 각 축에 대해서 여러 방향으로 회전시킵니다. 아직 설정이 완료되지 않은 방향으로 비행체를 둬서 칼리브레이션이 되게 합니다. 회전하라는 지시가 나오면 지정한 축으로 비행체를 회전시킵니다.
 
-![](../../images/setup/sensor_compass_select_px4.jpg)
+![](../../assets/setup/sensor_compass_select_px4.jpg)
 
 ## Level Horizon
 Accelerometer 칼리브레이션을 마치고 나면 HUD에 수평선이 보이는데 이것은 비행체에 대한 level horizon을 칼리브레이션할 수 있는 level을 뜻하는 것이 아닙니다. 정보를 얻는 동안 비행체를 level orientation으로 위치시키라는 지시가 나올 것입니다.
@@ -39,4 +39,4 @@ CompassMot 칼리브레이션을 수행할려면 버튼을 클릭하고 onscreen
 ## Sensor Settings
 방향 설정 및 센서 사용법
 
-<img src="../../images/setup/sensor_orientation_sensor_settings.jpg" style="width: 200px;"/>
+<img src="../../assets/setup/sensor_orientation_sensor_settings.jpg" style="width: 200px;"/>
