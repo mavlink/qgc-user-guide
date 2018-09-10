@@ -6,7 +6,7 @@ This topic contains a high level and *non-exhaustive* list of new features added
 
 ### Simple Terrain Support
 
-![](../../images/Plan/SimpleMissionItemTerrain.jpg)
+![](../../assets/Plan/SimpleMissionItemTerrain.jpg)
 
 Allows you to create mission items which specify altitude as height above terrain. 
 
@@ -14,7 +14,7 @@ Allows you to create mission items which specify altitude as height above terrai
 
 ### Corridor Scan
 
-![](../../images/Plan/CorridorScan.jpg)
+![](../../assets/Plan/CorridorScan.jpg)
 
 Allow to create surveys which cover a corridor area specified by a polyline. Support for terrain following is a work in progress.
 

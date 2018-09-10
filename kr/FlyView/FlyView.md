@@ -1,6 +1,6 @@
 # Fly View
 
-![](../../images/quickstart/ConnectedVehicle.jpg)
+![](../../assets/quickstart/ConnectedVehicle.jpg)
 
 Fly View는 비행체가 비행하는 동안 사용하는 메인 뷰입니다. map뷰와 video뷰 사이를 스위칭 가능합니다.(가능한 경우에)
 
@@ -31,19 +31,19 @@ Center Map tool은 home position, 비행체 등과 같은 여러 포인트 주�
 
 ### Telemetry page
 
-<img src="../../images/fly/InstrumentTelemetryPage.jpg" style="width: 100px;"/>
+<img src="../../assets/fly/InstrumentTelemetryPage.jpg" style="width: 100px;"/>
 
 텔레메트리 페이지 내에서 볼 수 있는 값은 작은 기어 아이콘을 클릭해서 설정이 가능합니다.
 
 ### Vehicle Health page
 
-<img src="../../images/fly/InstrumentHealthPage.jpg" style="width: 100px;"/>
+<img src="../../assets/fly/InstrumentHealthPage.jpg" style="width: 100px;"/>
 
 이 페이지에서는 비행체 내부 시스템의 정상상태를 보여줍니다. 어떤 시스템이 정상에서 이상상태로 변경되면 이 페이지는 자동으로 변경됩니다.
 
 ### Vibration Clipping page
 
-<img src="../../images/fly/InstrumentClipPage.jpg" style="width: 100px;"/>
+<img src="../../assets/fly/InstrumentClipPage.jpg" style="width: 100px;"/>
 
 이 페이지는 현재 진동 값과 clip 카운트를 보여줍니다.
 

@@ -8,7 +8,7 @@
 
 ## ArduCopter Tuning
 
-![](../../images/setup/APMTuningCopter.jpg)
+![](../../assets/setup/APMTuningCopter.jpg)
 
 ### AutoTune
 
@@ -38,4 +38,4 @@ Note:
 
 ## PX4 Copter Tuning
 
-![](../../images/setup/PX4TuningCopter.jpg)
+![](../../assets/setup/PX4TuningCopter.jpg)

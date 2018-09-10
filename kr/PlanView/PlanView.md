@@ -1,6 +1,6 @@
 # Plan View
 
-![](../../images/plan/PlanView.jpg)
+![](../../assets/plan/PlanView.jpg)
 
 Plan View는 비행체의 자동 미션을 계획하는데 사용합니다. 일단 미션을 계획하고 비행체로 보내면, 미션에 따라 비행하기 위해서 [Fly View](../FlyView/FlyView.md)로 전환됩니다.
 

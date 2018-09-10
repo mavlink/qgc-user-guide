@@ -1,6 +1,6 @@
 # Loading firmware
 
-![](../../images/setup/firmware_disconnected.jpg)
+![](../../assets/setup/firmware_disconnected.jpg)
 
 QGroundControl을 사용하면 최신 버전을 선택해서 설치할 수 있습니다. QGroundControl은 Pixhawk계열, SiK 라디오, PX4 Flow 장치 등에 펌웨어를 로딩할 수 있습니다.
 
@@ -14,7 +14,7 @@ QGroundControl을 사용하면 최신 버전을 선택해서 설치할 수 있�
 
 ## 로드할 펌웨어 선택하기
 
-![](../../images/setup/firmware_selection_advanced_settings.jpg)
+![](../../assets/setup/firmware_selection_advanced_settings.jpg)
 
 일단 장치가 연결되면, 어떤 펌웨어를 로드할지 선택할 수 있습니다. 위에 이미지는 펌웨어를 Pixhawk계열 보드로 업로드합니다. [PX4 Pro](http://px4.io/)와 [ArduPilot](http://ardupilot.com) 펌웨어 중에 선택합니다.
 

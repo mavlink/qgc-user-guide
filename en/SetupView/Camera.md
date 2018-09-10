@@ -4,8 +4,8 @@ The details of the page differ if you are using PX4 Pro firmware or ArduPilot fi
 
 ## ArduPilot Camera Setup
 
-![](../../images/setup/APMCamera.jpg)
+![](../../assets/setup/APMCamera.jpg)
 
 ## PX4 Pro Camera Setup
 
-![](../../images/setup/PX4Camera.jpg)
+![](../../assets/setup/PX4Camera.jpg)

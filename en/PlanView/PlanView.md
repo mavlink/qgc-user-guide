@@ -5,7 +5,7 @@ The *Plan View* is used to plan autonomous missions for your vehicle, and upload
 It is also use to configure the [GeoFence](PlanGeoFence.md) and [Rally Points](PlanRallyPoints.md) if these are supported by the firmware.
 
 <span id="plan_screenshot"></span>
-![Plan View](../../images/plan/PlanView.png)
+![Plan View](../../assets/plan/PlanView.png)
 
 
 ## UI Overview
@@ -40,12 +40,12 @@ The following sections explain some of the details in the view.
 The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to a vehicle). 
 It is used by QGC to estimate mission times and to draw waypoint lines.
 
-![Planned Home Position](../../images/plan/MissionSettingsPlannedHome.jpg)
+![Planned Home Position](../../assets/plan/MissionSettingsPlannedHome.jpg)
 
 You should move/drag the planned home position to roughly the location where you plan to takeoff. 
 The altitude for the planned home position is set in the [Mission Start](#mission-start) panel.
 
-<img src="../../images/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 200px;"/>
+<img src="../../assets/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 200px;"/>
 
 > **Tip** The Fly View displays the *actual* home position set by the vehicle firmware when it arms (this where the vehicle will return in Return/RTL mode). 
 
@@ -91,7 +91,7 @@ The [Pattern](Pattern.md) tool simplifies the creation of missions for flying co
 Mission commands for the current mission are listed on the right side of the view. You can select individual items to edit their values. 
 Above are a set of options to switch between editing the mission, GeoFence and rally points.
 
-![Mission Command List](../../images/plan/mission_command_list.png)
+![Mission Command List](../../assets/plan/mission_command_list.png)
 
 
 ### Mission Command Editors {#mission_command_editors}
@@ -101,7 +101,7 @@ Click on a mission command in the list to display its editor (in which you can s
 You can change the type of the command by clicking on the command name (for example: "Waypoint"). 
 This will display the *Select Mission Command* dialog shown below. To the right of each command name is a menu that you can click to access to additional options such as *Insert* and *Delete*.
 
-<img src="../../images/plan/MissionCommands.png" style="width: 200px;"/>
+<img src="../../assets/plan/MissionCommands.png" style="width: 200px;"/>
 
 The list of commands displayed in the dialog can be filtered by category. For example, to see all commands, choose **All commands** from **Category** drop down menu. 
 
@@ -113,7 +113,7 @@ The list of commands displayed in the dialog can be filtered by category. For ex
 The *Mission Start* panel is the first item that appears in the mission command list. 
 It contains a number of default settings that may affect the start or end of the mission. 
 
-<img src="../../images/plan/MissionSettings.png" style="width: 200px;"/>
+<img src="../../assets/plan/MissionSettings.png" style="width: 200px;"/>
 
 
 - *Waypoint alt*:

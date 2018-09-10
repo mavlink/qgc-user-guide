@@ -1,6 +1,6 @@
 # Setup View
 
-![](../../images/setup/SetupView.jpg)
+![](../../assets/setup/SetupView.jpg)
 
 Setup View는 처음 비행하기에 앞서 새 비행체를 설정하고 설정한 비행체를 튜닝하는데 사용합니다.
 

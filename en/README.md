@@ -14,7 +14,7 @@
 * Support for managing multiple vehicles.
 * QGC runs on Windows, OS X, Linux platforms, iOS and Android devices.
 
-![](../../images/quickstart/ConnectedVehicle.jpg)
+![](../../assets/quickstart/ConnectedVehicle.jpg)
 
 > **Note** This guide is an active work in progress. The information provided should be correct, but you may find missing information or incomplete pages.
 
