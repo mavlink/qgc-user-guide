@@ -2,7 +2,7 @@
 
 The Setup View is used to configure a new vehicle prior to first flight and/or tune a configured vehicle.
 
-![](../../images/setup/SetupView.jpg)
+![](../../assets/setup/SetupView.jpg)
 
 ## Setup Options
 
