@@ -2,7 +2,7 @@
 
 A survey allows you to create a grid flight pattern over a polygonal area. You can specify the polygon as well as the specifications for the grid and camera settings appropriate for creating geotagged images.
 
-![](../../images/plan/Survey.jpg)
+![](../../assets/plan/Survey.jpg)
 
 To draw the polygon for your survey, click the "Draw" button and click in the map to set polygon vertices.
 
@@ -10,7 +10,7 @@ There are multiple options for a survey grid. You can select the main option fro
 
 ## Manual Grid
 
-<img src="../../images/plan/SurveyManual.jpg" style="width: 150px;" />
+<img src="../../assets/plan/SurveyManual.jpg" style="width: 150px;" />
 
 The Manual Grid option allows you to specify all the values for generating the grid pattern over the polygon by hand.
 
@@ -22,7 +22,7 @@ The Manual Grid option allows you to specify all the values for generating the g
 
 ## Camera
 
-<img src="../../images/plan/SurveyCamera.jpg" style="width: 150px;" />
+<img src="../../assets/plan/SurveyCamera.jpg" style="width: 150px;" />
 
 Selecting a known camera from the option dropdown allows you to generate a grid pattern based on the camera's specifications.
 
@@ -33,7 +33,7 @@ Selecting a known camera from the option dropdown allows you to generate a grid 
 
 ## Custom Camera
 
-<img src="../../images/plan/SurveyCameraCustom.jpg" style="width: 150px;" />
+<img src="../../assets/plan/SurveyCameraCustom.jpg" style="width: 150px;" />
 
 The custom camera option is similar to the known camera option. The difference is that you must specify the details for the camera specifications yourself.
 
