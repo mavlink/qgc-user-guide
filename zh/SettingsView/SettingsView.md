@@ -4,7 +4,7 @@ The *Settings View* is used to configure the settings for the *QGroundControl* a
 
 You can switch between the various settings options by clicking the buttons in the left-sidebar.
 
-![](../../images/settings/settings_view.jpg)
+![](../../assets/settings/settings_view.jpg)
 
 ## Settings Options
 
