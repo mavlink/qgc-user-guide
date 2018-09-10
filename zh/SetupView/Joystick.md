@@ -25,7 +25,7 @@ To configure a joystick:
 3. Start *QGroundControl* and connect to a vehicle
 4. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Joystick** in the sidebar. The screen below will appear.
     
-    ![Joystick setup - PlayStation](../../images/setup/joystick_sony_playstation.jpg)
+    ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
 
 5. Press the **Calibrate** button and then follow the on-screen instructions to calibrate/move the sticks.
 
