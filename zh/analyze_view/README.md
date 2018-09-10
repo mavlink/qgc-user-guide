@@ -2,7 +2,7 @@
 
 The *Analyze View* is accessed from the main toolbar.
 
-![Analyze icon](../../images/analyze/analyze_toolbar.jpg)
+![Analyze icon](../../assets/analyze/analyze_toolbar.jpg)
 
 It provides tools to:
 
