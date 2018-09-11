@@ -52,19 +52,23 @@ Information about the format can be found in [Plan File Format](https://dev.qgro
 
 ![Plan Toolbar](../../assets/plan/PlanToolbar.jpg)
 
-The new Plan Toolbar is displayed at the top of the Plan View. 
+The new *Plan Toolbar* is displayed at the top of the [PlanView](../PlanView/PlanView.md). 
 It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
 
-When you are connected to a vehicle it also show an **Upload** button which can be used to upload the plan to the vehicle.
+When connected to a vehicle it also shows an **Upload** button, which can be used to upload the plan to the vehicle.
+
 
 ### Mission Settings
-The *Mission Settings* panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
+
+The [Mission Settings](../PlanView/PlanView.md#mission_settings) panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission.
+This is the first item in the mission list on the right of the screen.
 
 <img src="../../assets/plan/MissionSettings.png" style="width: 150px;"/>
 
 #### Mission Defaults
 
 ##### Waypoint alt
+
 This specifies the default altitude for newly added mission items. If you update this value while you have a mission loaded it will prompt you to update all the the waypoints to this new altitude.
 
 ##### Flight speed
