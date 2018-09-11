@@ -8,21 +8,28 @@ It is also use to configure the [GeoFence](PlanGeoFence.md) and [Rally Points](P
 ![Plan View](../../assets/plan/PlanView.png)
 
 
-## UI Overview
+## UI Overview {#ui_overview}
 
 The [screenshot above](#plan_screenshot) shows a simple mission plan that starts with a takeoff at the [Planned Home](#planned_home) position (H), 
 flies through three waypoints, and then lands on the last waypoint (i.e. waypoint 3).
 
 The main elements of the UI are:
 
-* **Map:** Displays the numbered indicators for the current mission, including the [Planned Home](#planned_home).
+- **Map:** Displays the numbered indicators for the current mission, including the [Planned Home](#planned_home).
   Click on the indicators to select them (for editing) or drag them around to reposition them. 
-* **Main Toolbar:** Status information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission (e.g. horizontal distance and time for mission). `Max telem dist` is the distance between the [Planned Home](#planned_home) and the furthest waypoint. This also has a button for uploading missions to the vehicle.
-* **[Plan Tools](#plan_tools):** Used to create and manage missions.
-* **[Mission Command List/Overlay](#mission_command_list):** Displays the current list of mission items (select items to [edit](#mission_command_editors)).
-* **Terrain Altitude Overlay:** Shows the relative altitude of each mission command.
+- **Plan Toolbar:** Status information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission (e.g. horizontal distance and time for mission).
+  - `Max telem dist` is the distance between the [Planned Home](#planned_home) and the furthest waypoint. 
+  - When connected to a vehicle it also shows an **Upload** button, can be used to upload the plan to the vehicle.
+- **[Plan Tools](#plan_tools):** Used to create and manage missions.
+- **[Mission Command List/Overlay](#mission_command_list):** Displays the current list of mission items (select items to [edit](#mission_command_editors)).
+- **Terrain Altitude Overlay:** Shows the relative altitude of each mission command.
 
-  
+
+It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
+
+
+
+
 ## Planning a Mission {#plan_mission}
 
 At very high level, the steps to create a mission are:
@@ -43,7 +50,7 @@ It is used by QGC to estimate mission times and to draw waypoint lines.
 ![Planned Home Position](../../assets/plan/MissionSettingsPlannedHome.jpg)
 
 You should move/drag the planned home position to roughly the location where you plan to takeoff. 
-The altitude for the planned home position is set in the [Mission Start](#mission-start) panel.
+The altitude for the planned home position is set in the [Mission Settings](#mission_settings) panel.
 
 <img src="../../assets/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 200px;"/>
 
@@ -108,22 +115,76 @@ The list of commands displayed in the dialog can be filtered by category. For ex
 > **Note** The list of available commands will depend on firmware and vehicle type. Examples may include: Waypoint, Start image capture, Jump to item (to repeat mission) and other commands.
 
 
-### Mission Start
+### Mission Settings {#mission_settings}
 
-The *Mission Start* panel is the first item that appears in the mission command list. 
-It contains a number of default settings that may affect the start or end of the mission. 
+The *Mission Start* panel  is the first item that appears in the [mission command list](#mission_command_list).
+It may be used to specify a number default settings that may affect the start or end of the mission. 
 
-<img src="../../assets/plan/MissionSettings.png" style="width: 200px;"/>
+![Mission Command List - showing mission settings](../../assets/plan/mission_start.png)
+
+![Mission settings](../../assets/plan/MissionSettings.png)
+
+#### Mission Defaults
+
+##### Waypoint alt
+
+Set the default altitude for the first mission item added to a plan (subsequent items take an initial altitude from the previous item). 
+This can also be used to change the altitude of all items in a plan to the same value; you will be prompted if you change the value when there are items in a plan.
+
+##### Flight speed
+
+Set a flight speed for the mission that is different than the default mission speed.
+
+#### Mission End
+##### Return to Launch after mission end
+
+Check this if you want your vehicle to Return/RTL after the final mission item.
 
 
-- *Waypoint alt*:
-  - Sets the default altitude for the *first* item added to a plan (subsequent items take an initial altitude from the previous item).
-  - This can also be used to change the altitude of all items in a plan to the same value (you will be prompted if you change the value when there are items in a plan).
-- *Flight Speed*: Same as for *Waypoint alt* but affecting flight speed at each waypoint. 
-- *Return to Launch*: Select checkbox to make the vehicle return to launch at the end of the mission.
-- *Planned Home Position*: 
-  - Edit the altitude of the [Planned Home Position](#planned_home).
-  - Set the planned home position to the map centre.
+#### Planned Home Position
+
+The [Planned Home Position](#planned_home) section allows you to simulate the vehicle's home position while planning a mission. 
+This allows you to view the waypoint trajectory for your vehicle from takeoff to mission completion. 
+
+![MissionSettings Planned Home Position Section](../../assets/plan/MissionSettingsPlannedHomePositionSection.jpg)
+
+> **Note** This is only the *planned* home position and you should place it where you plan to start the vehicle from. 
+  It has no actual impact on flying the mission. 
+  The actual home position of a vehicle is set by the vehicle itself when arming.
+
+The section allows you to set the **Altitude** and **Set Home to Map Centre** 
+(you can move it to another position by dragging it on the map).
+
+
+
+#### Camera
+
+The camera section allows you to specify a camera action to take, control the gimbal and set your camera into photo or video mode.
+
+![MissionSettings Camera Section](../../assets/plan/MissionSettingsCameraSection.jpg)
+
+The available camera actions  are:
+
+*  Continue current action 
+*  Take photos (time)
+*  Take photos (distance)
+*  Stop taking photos
+*  Start recording video
+*  Stop recording video
+
+
+#### Vehicle Info
+
+The appropriate mission commands for the vehicle depend on the firmware and vehicle type.
+
+If you are planning a mission while you are *connected to a vehicle* the firmware and vehicle type will be determined from the vehicle. 
+This section allows you to specify the vehicle firmware/type when not connected to a vehicle.
+
+![MissionSettings VehicleInfoSection](../../assets/plan/MissionSettingsVehicleInfoSection.jpg)
+
+The additional value that can be specified when planning a mission is the vehicle flight speed. 
+By specifying this value, total mission or survey times can be approximated even when not connected to a vehicle.
+
 
 ## Further Info
 
