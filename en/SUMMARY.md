@@ -11,6 +11,8 @@
     * [Pattern](PlanView/Pattern.md)
       * [Survey](PlanView/pattern_survey.md)
       * [Structure Scan](PlanView/pattern_structure_scan.md)
+      * [Corridor Scan](PlanView/pattern_corridor_scan.md)
+      * [Fixed Wing Landing Pattern](PlanView/pattern_fixed_wing_landing.md)
 * [Setup](SetupView/SetupView.md)
    * [Firmware](SetupView/Firmware.md)
    * [Airframe](SetupView/Airframe.md)

@@ -128,11 +128,17 @@ There is a new *Pattern tool*. The following patterns are supported:
 * Survey (with new features)
 
 #### Fixed Wing Landing Pattern
-![](../../assets/plan/FixedWingLandingPattern.jpg)
 
-This adds a landing pattern for fixed wings to your mission. The first point of the pattern is the loiter point which commands to vehicle to loiter to a specific altitude. Once that altitude is reached, the vehicle will begin the landing sequence and fly down to the specified landing spot.
+![Fixed Wing Landing Pattern](../../assets/plan/fixed_wing_landing_pattern.jpg)
 
-Both the loiter and land points can be dragged to adjust. Also all the various values associated with the pattern can be adjusted.
+This adds a landing pattern for fixed wings to your mission. 
+The first point of the pattern is the loiter point which commands to vehicle to loiter to a specific altitude. 
+Once that altitude is reached, the vehicle will begin the landing sequence and fly down to the specified landing spot.
+
+Both the loiter and land points can be dragged to adjust. 
+Also all the various values associated with the pattern can be adjusted.
+
+For more information see [Fixed Wing Landing Pattern](../PlanView/pattern_fixed_wing_landing.md).
 
 #### Survey (new features)
 * Images are not automatically taken in the turnaround zone outside of the polygonal survey area.

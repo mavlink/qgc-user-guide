@@ -25,8 +25,8 @@ This section contains a high level and *non-exhaustive* list of new features add
   * **File Load/Save** New model for Plan file loading which matches a standard File Load/Save/Save As user model.
   * **Load KML** Ability to load a KML file directly from the Sync menu. You will be prompted for what type of Pattern you want to create from the KML if needed.
   * **Survey** Better support for irregular shaped polygons.
-  * **Corridor Scan** - Create a flight pattern which follows a poly-line. For example can be used to survey a road.
-  * **Fixed Wing Landing Pattern**
+  * **[Corridor Scan](../PlanView/pattern_corridor_scan.md)** - Create a flight pattern which follows a poly-line. For example can be used to survey a road.
+  * **[Fixed Wing Landing Pattern](../PlanView/pattern_fixed_wing_landing.md)Fixed Wing Landing Pattern**
      * Landing area visually represented in Plan.
      * Landing position/heading can be copied from Vehicle position/heading.
   * **Terrain**
