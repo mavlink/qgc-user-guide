@@ -7,7 +7,7 @@
 * [계획화면](PlanView/PlanView.md)
 	* [GeoFence](PlanView/PlanGeoFence.md)
 	* [Rally Points](PlanView/PlanRallyPoints.md)
-	* [Survey](PlanView/Survey.md)
+	* [Survey](PlanView/pattern_survey.md)
 * [셋업화면](SetupView/SetupView.md)
 	* [펌웨어](SetupView/Firmware.md)
 	* [비행체 프레임](SetupView/Airframe.md)

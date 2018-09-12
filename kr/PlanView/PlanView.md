@@ -19,7 +19,7 @@ Plan View는 비행체의 자동 미션을 계획하는데 사용합니다. 일�
 화면의 왼쪽 모퉁이에 Plan Tools가 있습니다. 위에서 부터 아래 순서로 :
 
 * Add Commands
-* [Survey](Survey.md)
+* [Survey](pattern_survey.md)
 * Sync
 * Center map
 * Map Type
@@ -41,7 +41,7 @@ Sync 툴은 다음과 같은 기능을 제공합니다 :
 
 ### Survey
 
-[Survey](Survey.md)로 다각형 영역상에서 격자패턴으로 비행할 수 있습니다.
+[Survey](pattern_survey.md)로 다각형 영역상에서 격자패턴으로 비행할 수 있습니다.
 
 ## Mission Command List
 화면의 오른쪽 모서리에 미션 명령의 목록이 있습니다. 해당 아이템에 대해서 값을 수정하고 싶다면 클릭합니다. 위에서 미션, Geofence, Rally Points 사이를 전환하는 옵션의 집합입니다.
