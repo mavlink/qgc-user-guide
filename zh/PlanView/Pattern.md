@@ -1,7 +1,14 @@
 # Pattern
 
-Pattern tool allows you to fly a complex pattern. It offers multiple options:
+The *Pattern tools* (in the [PlanView](../PlanView/PlanView.md) *Plan Tools*) allow you to specify complex flight patterns using a simple graphical UI. The available pattern tools depend on the vehicle (and support for the vehicle-type in the flight stack).
 
-* A [Survey](../PlanView/Survey.md) allows you to create a grid flight pattern over a polygonal area. You can specify the polygon as well as the specifications for the grid and camera settings appropriate for creating geotagged images.
+![Pattern Tool (Plan Tools)](../../assets/plan/pattern_tool.jpg)
 
-* A [Structure Scan](../PlanView/StructureScan.md) allows you to create a grid flight pattern that captures images over vertical surfaces (polygonal or circular). These are typically used for the visual inspection or creation of 3d models of structures.
+| Pattern                                                 | Description                                                                                                                                                                                     | Vehicles          |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| [Survey](../PlanView/pattern_survey.md)                 | Create a grid flight pattern over a polygonal area.   
+You can specify the polygon as well as the specifications for the grid and camera settings appropriate for creating geotagged images.    | All               |
+| [Structure Scan](../PlanView/pattern_structure_scan.md) | Create a grid flight pattern that captures images over vertical surfaces (polygonal or circular).   
+These are typically used for the visual inspection or creation of 3d models of structures. | MultiCopter, VTOL |
+| Corridor Scan                                           | Create a flight pattern which follows a poly-line (for example, to survey a road).                                                                                                              | All               |
+| Fixed Wing Landing                                      | Add a landing pattern for fixed wings to your mission.                                                                                                                                          | Fixed Wing        |
