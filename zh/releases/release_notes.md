@@ -136,7 +136,7 @@ This section contains a high level and *non-exhaustive* list of new features add
 
 New Features
 
-* [Survey](../PlanView/Survey.md) mission support
+* [Survey](../PlanView/pattern_survey.md) mission support
 * [GeoFence](../PlanView/PlanGeoFence.md) support in Plan View
 * [Rally Point](../PlanView/PlanRallyPoints.md) support in Plan View (ArduPilot only)
 * ArduPilot onboard compass calibration
