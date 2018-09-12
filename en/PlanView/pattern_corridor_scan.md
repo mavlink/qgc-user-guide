@@ -68,7 +68,7 @@ The configurable options are:
 The configurable options are:
 
 - **Width** - Set the width of the scan around the polyline that defines the path.
-- **Turnaround dist** - TBD.
+- **Turnaround dist** - Amount of additional distance to add outside the survey area for vehicle turn around.
 - **Take images in turnarounds** - Check to enable image capture a turnaround points.
 - **Relative altitude** - Check to TBD.
 - **Rotate entry point** - Press button to swap the start and end point of the corridor scan.
