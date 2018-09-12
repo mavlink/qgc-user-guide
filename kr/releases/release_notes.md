@@ -4,7 +4,7 @@
 
 새로운 기능들
 
-* [Survey](../PlanView/Survey.md) 미션 지원
+* [Survey](../PlanView/pattern_survey.md) 미션 지원
 * [GeoFence](../PlanView/PlanGeoFence.md) Plan View에서 지원
 * [Rally Point](../PlanView/PlanRallyPoints.md) Plan View에서 지원 (ArduPilot만 해당)
 * ArduPilot 온보드 컴파스 칼리브레이션

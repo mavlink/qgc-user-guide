@@ -1,4 +1,4 @@
-# Plan - Structure Scan
+# Structure Scan (Plan Pattern)
 
 A *Structure Scan* allows you to create a grid flight pattern that captures images over vertical surfaces. These are typically used for the visual inspection or creation of 3d models of structures.
 
