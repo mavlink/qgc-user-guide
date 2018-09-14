@@ -5,7 +5,7 @@ This can be used to, for example, survey a road.
 
 ![Corridor Scan](../../assets/Plan/corridor_scan.jpg)
 
-You can specify the path as well as the specifications for the width of the corridor and camera settings appropriate for creating geotagged images.
+You can specify the path, the width of the corridor, and camera settings appropriate for creating geotagged images.
 
 ## Creating a Scan
 
@@ -50,15 +50,15 @@ The configurable options are:
 
 #### Manual Camera 
 
-The manual camera option allows you to specify desired survey height triggering for your camera.
+The manual camera option allows you to specify desired survey height, trigger interval and appropriate grid spacing for your camera.
 
 ![Corridor Scan - Manual Camera Settings](../../assets/Plan/corridor_scan_settings_camera_manual.jpg)
 
 The configurable options are:
 
 - **Altitude** - Survey altitude.
-- **Trigger Distance** - The distance over ground for each camera shot.
-- **Spacing** - TBD.
+- **Trigger Distance** - The distance over ground between each camera shot.
+- **Spacing** - Distance between adjacent grid (flight path) lines across the corridor.
 
 
 ### Corridor
