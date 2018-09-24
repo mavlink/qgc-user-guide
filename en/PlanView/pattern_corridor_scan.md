@@ -10,7 +10,7 @@ You can specify the path, the width of the corridor, and camera settings appropr
 ## Creating a Scan
 
 To create a corridor scan:
-1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*).
+1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
 1. Choose the *Pattern Tool* from the *Plan Tools* and then select *Corridor Scan*.
 
    ![Corridor Scan](../../assets/Plan/corridor_scan_menu.jpg)
@@ -42,11 +42,10 @@ Selecting a known camera from the option dropdown allows you to generate a grid 
 The configurable options are:
 
 - **Landscape/Portrait** - Camera orientation relative to the "normal" orientation of the vehicle.
-- **Image Overap** - Overlap between each image.
-- **Altitude** - Survey altitude. 
-  The ground resolution will be calculated and shown for the specified altitude.
-- **Ground resolution** - Ground resolution you want for each image. 
-  The altitude required to achieve this resolution is calculated and shown.
+- **Image Overlap** - Overlap between each image.
+- Select one of:
+  - **Altitude** - Survey altitude (ground resolution will be calculated/displayed for this altitude).
+  - **Ground resolution** - Ground resolution for each image (altitude required to achieve this resolution calculated and shown).
 
 #### Manual Camera 
 
@@ -84,9 +83,9 @@ Enabling *Terrain Following* makes the vehicle maintain a constant height relati
 The configurable options are:
 
 - **Vehicle follows terrain** - Check to enable terrain following (and display the following options).
-- **Tolerance** - The accepted deviation in altitude from the target altitude.
-- **Max Climb Rate** - Maximum climb rate when following terrain.
-- **Max Descent Rate** - Maximum descent rate when following terrain.
+  - **Tolerance** - The accepted deviation in altitude from the target altitude.
+  - **Max Climb Rate** - Maximum climb rate when following terrain.
+  - **Max Descent Rate** - Maximum descent rate when following terrain.
 
 ### Statistics
 
