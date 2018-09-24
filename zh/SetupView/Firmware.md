@@ -4,31 +4,35 @@
 
 *QGroundControl* can also install the firmware for SiK Radios and PX4 Flow devices.
 
-> **Caution** Support for loading Firmware is currently not available on tablet or phone versions of *QGroundControl*.
+> **Caution** Loading Firmware is currently not available on tablet or phone versions of *QGroundControl*.
 
-## Connect the device for firmware update
+## Connect Device for Firmware Update
 
 > **Caution** **Before you start installing Firmware** all USB connections to you vehicle must be *disconnected* (both direct or through a telemetry radio). The vehicle must *not be* powered by a battery.
 
 1. First select the **Gear** icon (*Vehicle Setup*) in the top toolbar and then **Firmware** in the sidebar.
     
-    ![](../../assets/setup/firmware_disconnected.jpg)
+    ![Firmware disconnected](../../assets/setup/firmware/firmware_disconnected.jpg)
 
 2. Connect your device (Pixhawk, SiK Radio, PX4 Flow) directly to your computer via USB.
     
     > **Note** Connect directly to a powered USB port on your machine (do not connect through a USB hub).
 
-## Select the firmware to load
+## Select Firmware to Load
 
 Once the device is connected you can choose which firmware to load (*QGroundControl* presents sensible options based on the connected hardware).
 
-1. For a Pixhawk-compatible board choose either *PX4 Pro* or *ArduPilot* firmware to download the current stable release. If you select *ArduPilot* you will further have to select the specific firmware for each type of vehicle (as shown below).
+1. For a Pixhawk-compatible board choose either **PX4 Flight Stack vX.X.X Stable Release** or **ArduPilot Flight Stack** radio buttons to download the *current stable release*.
     
-    ![](../../assets/setup/firmware_selection_ardupilot.jpg)
+    ![Select PX4](../../assets/setup/firmware/firmware_select_default_px4.jpg)
+    
+    If you select *ArduPilot* you will also have to choose the specific firmware the type of vehicle (as shown below).
+    
+    ![Select ArduPilot](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
 
 2. Check **Advanced settings** to select specific developer releases or install firmware from your local file system.
     
-    <img src="../../assets/setup/firmware_selection_advanced_settings.jpg" width="200px" title="Ardupilot firmware options" />
+    ![ArduPilot - Advanced Settings](../../assets/setup/firmware/firmware_selection_advanced_settings.jpg)
 
 ## Update the firmware
 
@@ -38,4 +42,4 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
     
     ![](../../assets/setup/firmware_upgrade_complete.jpg)
 
-Once the firmware has completed loading the device/vehicle will reboot and reconnect. Next you will need to configure the airframe (and then sensors, radio, etc.)
+Once the firmware has completed loading the device/vehicle will reboot and reconnect. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
