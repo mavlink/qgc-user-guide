@@ -1,18 +1,24 @@
 # Structure Scan (Plan Pattern)
 
-A *Structure Scan* allows you to create a grid flight pattern that captures images over vertical surfaces. These are typically used for the visual inspection or creation of 3d models of structures.
+A *Structure Scan* allows you to create a grid flight pattern that captures images over vertical surfaces. 
+These are typically used for the visual inspection or creation of 3d models of structures.
 
 Structure Scan is available to insert into a mission from the *Pattern* tool.
 
-> **Warning** **This feature requires new firmware support in both PX4 and ArduPilot.** At this point the QGC release is a bit ahead of the firmware support releases. PX4 support should be available within a few days. ArduPilot support soon thereafter.
+> **Warning** This feature is not yet supported in ArduPilot (firmware changes are pending). 
+  It is supported in PX4.
 
 ![Structure Scan](../../assets/plan/StructureScan.jpg)
 
-In the diagram green is used to show the polygon that represents the structure. In white you can see the flight path for the vehicle. You can also fly circular structure scans by change the polygon to a circle using the *center tool*.
+In the diagram green is used to show the polygon that represents the structure. 
+In white you can see the flight path for the vehicle. 
+You can also fly circular structure scans by change the polygon to a circle using the *center tool*.
 
 ## Camera based scan
 
-The settings for the scan can be based on the specifications of the camera on the vehicle. By using the option you can also specify the resolution of the images for the structure surface. You do this by selecting a camera from the list or selecting **Custom Camera** to provide you own camera specs.
+The settings for the scan can be based on the specifications of the camera on the vehicle. 
+By using the option you can also specify the resolution of the images for the structure surface. 
+You do this by selecting a camera from the list or selecting **Custom Camera** to provide you own camera specs.
 
 For camera based scans the camera is always pointed directly at the right angles to the surface which it is capturing images for.
 
@@ -26,7 +32,8 @@ The vehicle will fly a pattern such that images fully cover the structure starti
 
 ## Manual scan
 
-A manual scan allows you to specify the various distances and heights associated with a structure scan yourself. You select **Manual** from the list for a manual scan.
+A manual scan allows you to specify the various distances and heights associated with a structure scan yourself. 
+You select **Manual** from the list for a manual scan.
 
 <img src="../../assets/plan/StructureScanManual.jpg" style="width: 150px;"/>
 

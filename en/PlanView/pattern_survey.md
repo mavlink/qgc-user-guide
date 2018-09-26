@@ -1,39 +1,122 @@
 # Survey  (Plan Pattern)
 
-A survey allows you to create a grid flight pattern over a polygonal area. You can specify the polygon as well as the specifications for the grid and camera settings appropriate for creating geotagged images.
+A survey allows you to create a grid flight pattern over a polygonal area. 
+You can specify an arbitrary polygon, the angle and other properties of the grid, and camera settings appropriate for creating geotagged images.
 
-![Survey](../../assets/plan/Survey.jpg)
+![Survey](../../assets/plan/survey/Survey.jpg)
 
-To draw the polygon for your survey, click the "Draw" button and click in the map to set polygon vertices.
 
-There are multiple options for a survey grid. You can select the main option from the dropdown at the top of the editor.
+## Creating a Survey
 
-## Manual Grid
-<img src="../../assets/plan/SurveyManual.jpg" style="width: 150px;"/>
+To create a survey:
+1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
+1. Choose the *Pattern Tool* from the *Plan Tools* and then select *Survey*.
 
-The Manual Grid option allows you to specify all the values for generating the grid pattern over the polygon by hand. 
+   ![Survey Menu](../../assets/Plan/survey/survey_menu.jpg)
+   
+   This will add a survey grid to the map, and a *Survey* item to the mission list (on the right).
+1. On the map drag the vertices to the change the shape of the polygon.
+1. Click the `(+)` symbol between existing vertices to create a new vertix.
+   The new vertix can then be dragged into a new position.
 
-* Grid angle - The angle for the parallel flight tracks of the grid. For example 0 degrees will generate parallel lines which travel north/south.
-* Grid spacing - The distance between each parallel flight track.
-* Altitude - The altitude to fly the entire grid pattern.
-* Turnaround distance - The mount of additional distance to fly past the edge of the polygon before performing the turnaround for the next flight track.
-* Trigger Distance - Used to trigger an image taken by the camera based on distance flown.
+The survey settings are covered in the next section.
 
-## Camera
-<img src="../../assets/plan/SurveyCamera.jpg" style="width: 150px;"/>
+## Settings
 
-Selecting a known camera from the option dropdown allows you to generate a grid pattern based on the camera's specifications.
+The survey can be further configured in the associated mission item (in the mission item list on the right hand side of the *Plan View*).
 
-* Landscape/Portrait - Specifies the orientation that the camera is placed on the vehicle.
-* Image Overap - Allows you to specify the amount of overlap you want between each image.
-* Altitude - Selecting this value allows you to specify the altitude for the survey. The ground resolution will be calculated and shown for the specified altitude.
-* Ground resolution - Selecting this value allows you to specify the ground resolution you want for each image. The altitude required to achieve this resolution is calculated and shown.
+### Camera
 
-## Custom Camera
-<img src="../../assets/plan/SurveyCameraCustom.jpg" style="width: 150px;"/>
+Camera triggering behaviour depends on the camera/camera settings.
+You can select an existing camera, custom camera, or manually enter the settings.
+The list of available cameras (QGC 3.4) is given below.
 
-The custom camera option is similar to the known camera option. The difference is that you must specify the details for the camera specifications yourself.
+![Survey - Camera Select](../../assets/plan/survey/survey_camera_select.jpg)
 
-* Sensor width/height - The size of the image sensor of the camera.
-* Image width/height - The resolution of the image captured by the camera.
-* Focal Length - The focal length of the camera lens.
+#### Known Camera {#known_camera}
+
+Selecting a known camera from the option dropdown generates a grid pattern based on the camera capabilities.
+
+![Survey - Camera Sony](../../assets/plan/survey/survey_camera_sony.jpg)
+
+The default settings can be tuned for your survey using the configuration options:
+
+- **Landscape/Portrait** - Camera orientation relative to the "normal" orientation of the vehicle.
+- **Overlap** - Overlap between each image capture. 
+  This can be configured separately for when flying along grid lines or across them.
+- Select one of:
+  - **Altitude** - Survey altitude (ground resolution will be calculated/displayed for this altitude).
+  - **Ground resolution** - Ground resolution for each image (altitude required to achieve this resolution calculated and shown).
+
+#### Custom Camera {#custom_camera}
+
+Selecting the custom camera option allows you to specify the settings for a new camera in a similar way to a known camera.
+
+![Survey - Custom Camera](../../assets/plan/survey/survey_camera_custom.jpg)
+
+The camera-specific settings are:
+
+- **Sensor width/height** - The size of the image sensor of the camera.
+- **Image width/height** - The resolution of the image captured by the camera.
+- **Focal Length** - The focal length of the camera lens.
+
+The remaining settings are the same as for a [known camera](#known_camera).
+
+
+#### Manual Camera 
+
+The manual camera option allows you to specify desired survey height, trigger interval and appropriate grid spacing for your camera.
+
+![Survey - Manual Camera Settings](../../assets/plan/survey/survey_camera_manual.jpg)
+
+The configurable options are:
+
+- **Altitude** - Survey altitude to fly the whole grid.
+- **Trigger Distance** - The distance over ground between each camera shot.
+- **Spacing** - Distance between adjacent grid (flight path) lines across the corridor.
+
+
+
+### Transects
+
+The *Transects* section is used for grid settings that are independent of the camera used. 
+
+![Survey - Transects](../../assets/plan/survey/survey_transects.jpg)
+
+The configurable options are:
+
+- **Angle** - The angle of the grid lines, relative to North.
+  ![Survey - Angle](../../assets/plan/survey/survey_transects_angle.jpg)
+- **Turnaround dist** - Amount of additional distance to add outside the survey area for vehicle turn around.
+- **Rotate Entry Point** - Press button to swap the start and end point of the survey.
+- **Hover and capture image** - Hover to capture images (multicopter only).
+- **Refly at 90 degree offset** - Check to refly the whole mission at a 90% offset.
+  ![Survey - Fly Offset](../../assets/plan/survey/survey_transects_offset.jpg)
+- **Images in turnarounds** - Check to take images when turning
+- **Relative altitude** - Check to ... TBD.
+
+
+### Terrain
+
+By default, a flying vehicle will follow the survey path at a fixed altitude. 
+Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
+
+![Survey - Terrain Following Settings](../../assets/Plan/survey/survey_terrain.jpg)
+
+> **Note** Terrain following uses terrain heights queried from *AirMap* servers.
+
+The configurable options are:
+
+- **Vehicle follows terrain** - Check to enable terrain following (and display the following options).
+  - **Tolerance** - The accepted deviation in altitude from the target altitude.
+  - **Max Climb Rate** - Maximum climb rate when following terrain.
+  - **Max Descent Rate** - Maximum descent rate when following terrain.
+
+
+### Statistics
+
+The *Statistics* section shows the calculated survey area, photo interval, photo spacing and planned photo count.
+
+![Survey - Statistics](../../assets/Plan/survey/survey_statistics.jpg)
+
+

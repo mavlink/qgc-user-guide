@@ -13,3 +13,5 @@ _book
 *.mobi
 *.pdf
 
+# Backup files
+*.bak
