@@ -13,12 +13,11 @@ The most commmonly used logging options are listed below.
 Option(s) | Description
 --- | ---
 `LinkManagerLog`, `MultiVehicleManagerLog` | Debug connection problems.
-`LinkManagerVerboseLog` | Debug very noisy connections. Continuous output of available serial ports.
+`LinkManagerVerboseLog` | Debug serial ports not being detected. Very noisy continuous output of available serial ports.
 `FirmwareUpgradeLog` | Debug firmware flash issues.
-`ParameterManagerVerbose1Log` | Debug parameter load problems.
-`ParameterManagerVerbose2Log` | Debug parameter load problems with full trace of parameters coming/going/in system.
+`ParameterManagerLog` | Debug parameter load problems.
 `ParameterManagerDebugCacheFailureLog` | Debug parameter cache crc misses.
-`MissionManagerLog` | Debug mission protocol issues.
+`PlanManagerLog` | Debug mission protocol issues.
 `RadioComponentControllerLog` | Debug Radio calibration issues.
 
 
