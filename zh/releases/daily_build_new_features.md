@@ -14,9 +14,9 @@ Allows you to create mission items which specify altitude as height above terrai
 
 ### Corridor Scan
 
-![](../../assets/Plan/CorridorScan.jpg)
+![Corridor Scan](../../assets/Plan/corridor_scan.jpg)
 
-Allow to create surveys which cover a corridor area specified by a polyline. Support for terrain following is a work in progress.
+Allow you to create surveys that cover a corridor area specified by a polyline. Support for terrain following is a work in progress.
 
 #### Details
 
