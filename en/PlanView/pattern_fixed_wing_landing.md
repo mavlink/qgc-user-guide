@@ -1,6 +1,7 @@
 # Fixed Wing Landing Pattern (Plan Pattern)
 
 The *Fixed Wing Landing Pattern* tool allows you to add a fixed wing landing pattern to a mission.
+It is supported on all autopilots.
 
 ![Fixed Wing Landing Pattern](../../assets/plan/fixed_wing_landing_pattern.jpg)
 

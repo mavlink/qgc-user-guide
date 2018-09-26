@@ -2,6 +2,7 @@
 
 A corridor scan allows you to create a flight pattern that follows a poly-line. 
 This can be used to, for example, survey a road.
+It is supported on all autopilots and vehicle types.
 
 ![Corridor Scan](../../assets/Plan/corridor_scan.jpg)
 
@@ -79,6 +80,8 @@ By default a flying vehicle will follow the corridor path at a fixed altitude.
 Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
 
 ![Corridor Scan - Terrain Following Settings](../../assets/Plan/corridor_scan_settings_terrain.jpg)
+
+> **Note** Terrain following uses terrain heights queried from *AirMap* servers.
 
 The configurable options are:
 

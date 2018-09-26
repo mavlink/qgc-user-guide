@@ -103,6 +103,8 @@ Enabling *Terrain Following* makes the vehicle maintain a constant height relati
 
 ![Survey - Terrain Following Settings](../../assets/Plan/survey/survey_terrain.jpg)
 
+> **Note** Terrain following uses terrain heights queried from *AirMap* servers.
+
 The configurable options are:
 
 - **Vehicle follows terrain** - Check to enable terrain following (and display the following options).
