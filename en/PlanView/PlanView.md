@@ -165,7 +165,7 @@ The camera section allows you to specify a camera action to take, control the gi
 
 The available camera actions  are:
 
-*  Continue current action 
+*  No change (continue current action)
 *  Take photos (time)
 *  Take photos (distance)
 *  Stop taking photos
