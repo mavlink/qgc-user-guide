@@ -1,6 +1,6 @@
 # Onboard Files Widget
 
-> **Warning** This feature is intended primarily for **developers**. 
+> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. 
   It is only supported on desktop builds (Windows, Linux, Mac OS).
 
 The *Onboard Files* widget allows you to navigate the file system/SD card on a connected vehicle and upload/download files.

@@ -1,6 +1,6 @@
 # HIL Config Widget
 
-> **Warning** This feature is intended primarily for **developers**. 
+> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. 
   It is only supported on desktop builds (Windows, Linux, Mac OS).
 
 The *HIL Config* widget allows you to specify simulator settings when using Hardware in the Loop simulation. 

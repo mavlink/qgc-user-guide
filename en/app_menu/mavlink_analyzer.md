@@ -1,6 +1,6 @@
 # MAVLink Analyzer Widget (Analyze)
 
-> **Warning** This feature is intended primarily for **developers**. 
+> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. 
   It is only supported on desktop builds (Windows, Linux, Mac OS).
   Note that this is distinct from the [Analyze View](../analyze_view/README.md).
 

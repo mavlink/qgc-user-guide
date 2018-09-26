@@ -1,6 +1,6 @@
 # App Menus
 
-The App Menus (**File** and **Widget**) provide access to tools that primarily useful for developers/debugging. 
+The App Menus (**File** and **Widget**) provide access to tools that primarily useful for autopilot developers/debugging.
 
 ![File Menu](../../assets/app_menu/app_menu_file.jpg) ![Widget Menu](../../assets/app_menu/app_menu_widgets.jpg)
 

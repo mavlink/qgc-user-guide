@@ -1,6 +1,6 @@
 # MAVLink Inspector Widget
 
-> **Warning** This feature is intended primarily for **developers**. 
+> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. 
   It is only supported on desktop builds (Windows, Linux, Mac OS).
 
 The *MAVLink Inspector* widget provides information about MAVLink traffic received by *QGroundControl*.

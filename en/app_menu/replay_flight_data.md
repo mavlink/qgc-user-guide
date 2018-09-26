@@ -1,6 +1,6 @@
 # Replay Flight Data
 
-> **Warning** This feature is intended primarily for **developers**. 
+> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. 
   It is only supported on desktop builds (Windows, Linux, Mac OS).
 
 The *Replay Flight Data* features allows users to replay a telemetry log, enabling review of past or problematic flights.
