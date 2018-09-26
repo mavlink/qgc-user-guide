@@ -21,6 +21,7 @@
    * [Flight Modes](SetupView/FlightModes.md)
    * [Power](SetupView/Power.md)
    * [Safety](SetupView/Safety.md)
+     * [Safety (ArduPilot)](SetupView/safety_ardupilot.md)
    * [Tuning](SetupView/Tuning.md)
    * [Camera](SetupView/Camera.md)
    * [Joystick (PX4)](SetupView/Joystick.md)
