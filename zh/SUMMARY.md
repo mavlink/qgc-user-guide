@@ -33,6 +33,15 @@
     * [GeoTag Images (PX4)](analyze_view/geotag_images.md)
     * [MAVLink Console (PX4)](analyze_view/mavlink_console.md)
 
+* [App Menus](app_menu/README.md)
+    
+    * [Replay Flight Data](app_menu/replay_flight_data.md)
+    * [Custom Command Widget](app_menu/custom_command_widget.md)
+    * [MAVLink Inspector Widget](app_menu/mavlink_inspector.md)
+    * [MAVLink Analyzer Widget (Analyze)](app_menu/mavlink_analyzer.md)
+    * [Onboard Files Widget](app_menu/onboard_files.md)
+    * [HIL Config Widget](app_menu/hil_config.md)
+
 * [Releases](releases/README.md)
     
     * [Release Notes](releases/release_notes.md) 
