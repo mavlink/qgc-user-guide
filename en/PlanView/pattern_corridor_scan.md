@@ -4,7 +4,7 @@ A corridor scan allows you to create a flight pattern that follows a poly-line.
 This can be used to, for example, survey a road.
 It is supported on all autopilots and vehicle types.
 
-![Corridor Scan](../../assets/Plan/corridor_scan.jpg)
+![Corridor Scan](../../assets/plan/corridor_scan.jpg)
 
 You can specify the path, the width of the corridor, and camera settings appropriate for creating geotagged images.
 
@@ -14,7 +14,7 @@ To create a corridor scan:
 1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
 1. Choose the *Pattern Tool* from the *Plan Tools* and then select *Corridor Scan*.
 
-   ![Corridor Scan](../../assets/Plan/corridor_scan_menu.jpg)
+   ![Corridor Scan](../../assets/plan/corridor_scan_menu.jpg)
    
    This will add a corridor to the map, and a *Corridor Scan* item to the mission list (on the right).
 1. On the map drag the ends of the corridor to the start and end positions of the scan, respectively.
@@ -33,12 +33,12 @@ Camera triggering behaviour depends on the camera/camera settings.
 You can select an existing camera or manually enter the settings.
 The list of available cameras (QGC 3.4) is given below.
 
-![Corridor Scan - Select Camera](../../assets/Plan/corridor_scan_settings_camera_select.jpg)
+![Corridor Scan - Select Camera](../../assets/plan/corridor_scan_settings_camera_select.jpg)
 
 #### Known Camera 
 Selecting a known camera from the option dropdown allows you to generate a grid pattern based on the camera's specifications.
 
-![Corridor Scan - Camera Settings Canon SX260](../../assets/Plan/corridor_scan_settings_camera_canon_sx260.jpg)
+![Corridor Scan - Camera Settings Canon SX260](../../assets/plan/corridor_scan_settings_camera_canon_sx260.jpg)
 
 The configurable options are:
 
@@ -52,7 +52,7 @@ The configurable options are:
 
 The manual camera option allows you to specify desired survey height, trigger interval and appropriate grid spacing for your camera.
 
-![Corridor Scan - Manual Camera Settings](../../assets/Plan/corridor_scan_settings_camera_manual.jpg)
+![Corridor Scan - Manual Camera Settings](../../assets/plan/corridor_scan_settings_camera_manual.jpg)
 
 The configurable options are:
 
@@ -63,23 +63,23 @@ The configurable options are:
 
 ### Corridor
 
-![Corridor Scan - Corridor Settings](../../assets/Plan/corridor_scan_settings_corridor.jpg)
+![Corridor Scan - Corridor Settings](../../assets/plan/corridor_scan_settings_corridor.jpg)
 
 The configurable options are:
 
 - **Width** - Set the width of the scan around the polyline that defines the path.
 - **Turnaround dist** - Amount of additional distance to add outside the survey area for vehicle turn around.
 - **Take images in turnarounds** - Check to enable image capture a turnaround points.
-- **Relative altitude** - Check to TBD.
+- **Relative altitude** - Check to specify a relative altitude. This is only supported for manual grids that are not using [terrain following](#terrain_following).
 - **Rotate entry point** - Press button to swap the start and end point of the corridor scan.
 
 
-### Terrain Following
+### Terrain Following {#terrain_following}
 
 By default a flying vehicle will follow the corridor path at a fixed altitude. 
 Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
 
-![Corridor Scan - Terrain Following Settings](../../assets/Plan/corridor_scan_settings_terrain.jpg)
+![Corridor Scan - Terrain Following Settings](../../assets/plan/corridor_scan_settings_terrain.jpg)
 
 > **Note** Terrain following uses terrain heights queried from *AirMap* servers.
 
@@ -94,5 +94,5 @@ The configurable options are:
 
 The *Statistics* section shows the calculated survey area, photo interval, photo spacing and planned photo count.
 
-![Corridor Scan - Statistics](../../assets/Plan/corridor_scan_settings_statistics.jpg)
+![Corridor Scan - Statistics](../../assets/plan/corridor_scan_settings_statistics.jpg)
 
