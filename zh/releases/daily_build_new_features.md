@@ -11,15 +11,3 @@ This topic contains a high level and *non-exhaustive* list of new features added
 Allows you to create mission items which specify altitude as height above terrain.
 
 [Details](https://github.com/mavlink/qgroundcontrol/pull/6225)
-
-### Corridor Scan
-
-![Corridor Scan](../../assets/Plan/corridor_scan.jpg)
-
-Allow you to create surveys that cover a corridor area specified by a polyline. Support for terrain following is a work in progress.
-
-#### Details
-
-[Initial Support](https://github.com/mavlink/qgroundcontrol/pull/6068)
-
-[Terrain Support](https://github.com/mavlink/qgroundcontrol/pull/6231)
