@@ -6,7 +6,7 @@ The *Safety Setup* page allows you to configure failsafe settings for: low batte
 
 ## Copter
 
-The Copter safety page is shown below. For more information see [Failsafe](ttp://ardupilot.org/copter/docs/failsafe-landing-page.html).
+The Copter safety page is shown below. For more information see [Failsafe](http://ardupilot.org/copter/docs/failsafe-landing-page.html).
 
 ![Safety Setup - Copter (Ardupilot)](../../assets/setup/safety/safety_arducopter.jpg)
 
@@ -16,6 +16,8 @@ The Copter safety page is shown below. For more information see [Failsafe](ttp:/
 This panel sets the [Battery Failsafe](http://ardupilot.org/copter/docs/failsafe-battery.html) parameters.
 You can set low and critical thresholds for voltage and/or remaining capacity and define the action if the failsafe value is breached. 
 The thresholds can be disabled by setting them to zero.
+
+> **Tip** If there is a second battery (enabled in the [Power Setup](../SetupView/Power.md)) a second panel will be displayed with the same settings.
 
 ![Safety Setup - Battery1 Failsafe Triggers (Copter)](../../assets/setup/safety/safety_arducopter_battery1_failsafe_triggers.jpg)
 
@@ -27,11 +29,6 @@ The configuration options are:
 - **Low mAh threshold** ([BATT_LOW_MAH](http://ardupilot.org/copter/docs/parameters.html#batt-low-mah-low-battery-capacity)) - Battery capacity that triggers the *low action*. 
 - **Critical mAh threshold** ([BATT_CRT_MAH](http://ardupilot.org/copter/docs/parameters.html#batt-crt-mah-battery-critical-capacity)) - Battery capacity that triggers the *critical action*. 
 
-
-<!-- Questions
-- What about Battery 2?
-- What actions do BATT_LOW_MAH (capacity) trigger. The ones listed in params don't exist. Is it just same as voltage ones?)
---> 
 
 ### General Failsafe Triggers {#failsafe_triggers_copter}
 
@@ -60,8 +57,8 @@ You can set whether the fence radius or height are enabled, the maximum values f
 
 The configuration options are:
 
-- **Circle GeoFence enabled** () - Enable the circular geofence.
-- **Altitude GeoFence enabled** - Enable altitude geofence.
+- **Circle GeoFence enabled** ([FENCE_TYPE](http://ardupilot.org/copter/docs/parameters.html#fence-type-fence-type), [FENCE_ENABLE](http://ardupilot.org/copter/docs/parameters.html#fence-enable-fence-enable-disable)) - Enable the circular geofence.
+- **Altitude GeoFence enabled** ([FENCE_TYPE](http://ardupilot.org/copter/docs/parameters.html#fence-type-fence-type), [FENCE_ENABLE](http://ardupilot.org/copter/docs/parameters.html#fence-enable-fence-enable-disable)) - Enable altitude geofence.
 - Fence action ([FENCE_ACTION](http://ardupilot.org/copter/docs/parameters.html#fence-action-fence-action)) One of:
   - **Report only** - Report fence breach.
   - **RTL or Land** - RTL or land on fence breach.
