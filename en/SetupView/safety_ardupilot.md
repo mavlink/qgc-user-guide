@@ -1,14 +1,20 @@
 # Safety Setup (ArduPilot)
 
-The *Safety Setup* page allows you to configure failsafe settings for: low battery, GCS loss,  geofence, etc, and the failsafe actions.
+The *Safety Setup* page allows you to configure (vehicle specific) failsafe settings.
 
-> **Tip** The setup page is slightly different for each of the vehicle types, reflecting the different safety settings in each platform.
+> **Tip** The setup page covers the most important safety options; other failsafe settings can be set via the [parameters](../SetupView/Parameters.md) described in the failsafe documentation for each vehicle type. 
+
+<span></span>
+> **Note** *QGroundControl* does not support polygon fences or rally points on ArduPilot.
+
 
 ## Copter
 
-The Copter safety page is shown below. For more information see [Failsafe](http://ardupilot.org/copter/docs/failsafe-landing-page.html).
+The Copter safety page is shown below.
 
 ![Safety Setup - Copter (Ardupilot)](../../assets/setup/safety/safety_arducopter.jpg)
+
+> **Note** For additional safety settings and information see: [Failsafe](http://ardupilot.org/copter/docs/failsafe-landing-page.html).
 
 
 ### Battery Failsafe {#battery_failsafe_copter}
@@ -41,11 +47,6 @@ The configuration options are:
 - **Ground Station failsafe** - Disabled, Enabled always RTL, Enabled Continue with Mission in Auto Mode, Enabled Always SmartRTL or RTL, Enabled Always SmartRTL or Land.
 - **Throttle failsafe** - Disabled, Always RTL, Continue with Mission in Auto Mode, Always land.
 - **PWM Threshold** ([FS_THR_VALUE](http://ardupilot.org/copter/docs/parameters.html#fs-thr-value-throttle-failsafe-value)) - PWM value below which throttle failsafe triggers.
-
-<!-- Question 
-- no radio failsafe?
-- Link to throttle failsafe? 
--->
 
 
 ### Geofence {#geofence_copter}
@@ -95,9 +96,11 @@ The configuration options are:
 
 ## Plane
 
-The Plane safety page is shown below. For more information see [Plane Failsafe Function](http://ardupilot.org/plane/docs/apms-failsafe-function.html) and [Advanced Failsafe Configuration](http://ardupilot.org/plane/docs/advanced-failsafe-configuration.html).
+The Plane safety page is shown below.
 
 ![Safety Setup - Plane (Ardupilot)](../../assets/setup/safety/safety_arduplane.jpg)
+
+> **Note** For additional safety settings and information see: [Plane Failsafe Function](http://ardupilot.org/plane/docs/apms-failsafe-function.html) and [Advanced Failsafe Configuration](http://ardupilot.org/plane/docs/advanced-failsafe-configuration.html).
 
 
 ### Battery Failsafe {#battery_failsafe_plane}
@@ -117,10 +120,6 @@ The configuration options are:
 
 - **Throttle PWM threshold** ([THR_FS_VALUE](http://ardupilot.org/plane/docs/parameters.html#thr-fs-value-throttle-failsafe-value)) - PWM value below which throttle failsafe triggers.
 - **GCS failsafe** ([FS_GCS_ENABL](http://ardupilot.org/plane/docs/parameters.html#fs-gcs-enabl-gcs-failsafe-enable)) - Check to enable GCS failsafe.
-
-<!-- Question 
-- no radio failsafe?
--->
 
 
 ### Return to Launch {#rtl_plane}
@@ -142,10 +141,11 @@ The configuration options are:
 
 ## Rover
 
-The Rover safety page is shown below. For more information see [Failsafes](http://ardupilot.org/rover/docs/rover-failsafes.html).
+The Rover safety page is shown below.
 
 ![Safety Setup - Rover (Ardupilot)](../../assets/setup/safety/safety_ardurover.jpg)
 
+> **Note** For additional safety settings and information see: [Failsafes](http://ardupilot.org/rover/docs/rover-failsafes.html).
 
 
 ### Battery Failsafe {#battery_failsafe_rover}
@@ -174,9 +174,11 @@ The configuration options are:
 
 ## Sub
 
-The Sub safety page is shown below. For more information see [Failsafes](https://www.ardusub.com/operators-manual/failsafes.html).
+The Sub safety page is shown below.
 
 ![Safety Setup - Sub (Ardupilot)](../../assets/setup/safety/safety_ardusub.jpg)
+
+> **Note** For additional safety settings and information see: [Failsafes](https://www.ardusub.com/operators-manual/failsafes.html).
 
 
 ### Failsafe Actions {#failsafe_actions_sub}
