@@ -62,5 +62,5 @@ Some of the possible options are:
 * Takeoff
 * Change altitiude
 * Go to location
-* RTL
+* 返航
 * Pause
