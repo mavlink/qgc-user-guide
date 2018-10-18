@@ -35,9 +35,13 @@ Batteries show less voltage at high throttle. Enter the difference in Volts betw
 
 To calibrate the ESC max/min PWM values:
 
-1. Connect the vehicle to QGC via USB (only). 
-2. Remove the propellers. 
+1. Remove the propellers. 
+2. Connect the vehicle to QGC via USB (only). 
 3. Click the **Calibrate** button.
+
+> **Warning** Never attempt ESC calibration with props on.
+> 
+> Motors should not spin during ESC calibration. However if an ESC doesn't properly support/detect the calibration sequence then it will respond to the PWM input by running the motor at maximum speed.
 
 ## Other Settings
 
