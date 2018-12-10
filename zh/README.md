@@ -20,4 +20,4 @@
 
 <span></span>
 
-> **Tip** Information about QGroundControl architecture and development can be found in the [Developers Guide](https://dev.qgroundcontrol.com/en/).
+> **Tip** Information about *QGroundControl* development, architecture, contributing, and translating can be found in the [Developers Guide](https://dev.qgroundcontrol.com/en/).
