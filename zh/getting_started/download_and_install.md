@@ -16,7 +16,7 @@ Install *QGroundControl* for Windows Vista or later:
 Install *QGroundControl* for Mac OS X 10.8 or later:
 
 1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
-2. Double-click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.
+2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
 
 ## Ubuntu Linux
 
@@ -50,11 +50,11 @@ Install *QGroundControl* for Android 5.1 or later:
 
 ## iOS
 
-> **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md#installing-ios-beta-using-test-flight).
+> **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md).
 
 Install *QGroundControl* for iOS 8.0 or later:
 
-1. Follow the instructions for [Installing iOS Daily Beta using Test Flight](../releases/daily_builds.md#installing-ios-beta-using-test-flight).
+1. Follow the instructions for [Installing iOS Daily Beta](../releases/daily_builds.md).
 
 ## Old Stable Releases
 
