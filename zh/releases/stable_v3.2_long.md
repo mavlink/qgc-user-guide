@@ -127,7 +127,7 @@ There is a new *Pattern tool*. The following patterns are supported:
 
 #### Fixed Wing Landing Pattern
 
-![Fixed Wing Landing Pattern](../../assets/plan/fixed_wing_landing_pattern.jpg)
+![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
 This adds a landing pattern for fixed wings to your mission. The first point of the pattern is the loiter point which commands to vehicle to loiter to a specific altitude. Once that altitude is reached, the vehicle will begin the landing sequence and fly down to the specified landing spot.
 
