@@ -33,13 +33,13 @@ The settings are:
 - **Stream GCS Position**: Never | Always | When in Follow Me flight mode.
 - **Font Size**: Font size across app (Requires restart)
 - **Mute all audio output**: Turns off all audio output. 
-- <span id="autosave_log"></span>**Save telemetry log after each flight**: Logs automatically saved to the *File Save Path* ([below](#file_save_path)) after flight. 
+- <span id="autosave_log"></span>**Save telemetry log after each flight**: Logs automatically saved to the *Application Load/Save Path* ([below](#load_save_path)) after flight. 
 - **Save telemetry log even if vehicle was not armed**: Logs when a vehicle connects to *QGroundControl*. Stops logging when the last vehicle disconnects.
 - **Use preflight checklist**: Enable pre-flight checklist.
 - **Virtual Joystick**: Enable [virtual joysticks](../SettingsView/VirtualJoystick.md) (PX4 only)
 - <span id="autoload_missions"></span> **Autoload Missions**: If enabled, automatically upload a plan to the vehicle on connection. 
   - The plan file must be named **AutoLoad#.plan**, where the `#` is replaced with the vehicle id. 
-  - The plan file must be located in the [Application Load/Save Path(#load_save_path).
+  - The plan file must be located in the [Application Load/Save Path](#load_save_path).
 - **Clear all settings on next start**: Resets all settings to the default (including this one) when *QGroundControl* restarts.
 - **Announce battery lower than**: Specify battery level at which *QGroundControl* will start low battery announcements.
 - **Default Mission Altitude**: The default altitude used for the first waypoint (subsequent new waypoints are seeded with the altitude value of the preceding waypoint).
