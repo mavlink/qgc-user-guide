@@ -2,7 +2,7 @@
 
 The *Fixed Wing Landing Pattern* tool allows you to add a fixed wing landing pattern to a mission. It is supported on both ArduPilot and PX4.
 
-![Fixed Wing Landing Pattern](../../assets/plan/fixed_wing_landing_pattern.jpg)
+![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
 The first point of the pattern is a loiter point with a specific altitude and the second is a landing point. The vehicle will loiter at the first point until it reaches the target altitude, and then begin the landing sequence to fly down to the specified landing spot.
 
@@ -15,11 +15,11 @@ To create a landing pattern:
 1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*).
 2. Choose the *Pattern Tool* from the *Plan Tools* and then select *Fixed Wing Landing Pattern*.
   
-  ![Fixed Wing Landing Pattern](../../assets/Plan/fixed_wing_landing_pattern_menu.jpg)
+  ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
   
   This will add a *Landing Pattern* item to the mission list (on the right).
   
-  ![Fixed Wing Landing Pattern](../../assets/Plan/fixed_wing_landing_pattern_mission_item_initial.jpg)
+  ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
 
 3. Click on the map to create both the loiter and landing points. These can be moved on the map.
 
@@ -33,7 +33,7 @@ The landing pattern can be further configured in the associated mission item (in
 
 The *Loiter Point* settings are used to configure the loiter altitude, radius and direction.
 
-![Landing Pattern - Loiter Point](../../assets/Plan/fixed_wing_landing_pattern_settings_loiter.jpg)
+![Landing Pattern - Loiter Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_loiter.jpg)
 
 The configurable options are:
 
@@ -45,7 +45,7 @@ The configurable options are:
 
 The *Landing Point* settings are used to configure the landing position and path.
 
-![Landing Pattern - Landing Point](../../assets/Plan/fixed_wing_landing_pattern_settings_landing.jpg)
+![Landing Pattern - Landing Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_landing.jpg)
 
 The configurable options are:
 
