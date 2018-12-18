@@ -40,10 +40,11 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
 
 1. Click the **OK** button to start the update.
 
-   The firmware will then proceed through a number of upgrade steps (downloading new firmware, erasing old firmware etc.). Each step is printed to the screen and overall progress is displayed on a progress bar.
-   
-   ![](../../assets/setup/firmware_upgrade_complete.jpg)
-   
+   The firmware will then proceed through a number of upgrade steps (downloading new firmware, erasing old firmware etc.). 
+   Each step is printed to the screen and overall progress is displayed on a progress bar.
+
+   ![Firmware Upgrade Complete](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
+
 Once the firmware has completed loading the device/vehicle will reboot and reconnect. 
 Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
 
