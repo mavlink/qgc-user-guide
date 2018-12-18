@@ -101,7 +101,7 @@ The configurable options are:
 By default, a flying vehicle will follow the survey path at a fixed altitude. 
 Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
 
-![Survey - Terrain Following Settings](../../assets/Plan/survey/survey_terrain.jpg)
+![Survey - Terrain Following Settings](../../assets/plan/survey/survey_terrain.jpg)
 
 > **Note** Terrain following uses terrain heights queried from *AirMap* servers.
 
@@ -117,6 +117,6 @@ The configurable options are:
 
 The *Statistics* section shows the calculated survey area, photo interval, photo spacing and planned photo count.
 
-![Survey - Statistics](../../assets/Plan/survey/survey_statistics.jpg)
+![Survey - Statistics](../../assets/plan/survey/survey_statistics.jpg)
 
 

@@ -46,14 +46,16 @@ The settings are:
 - <span id="load_save_path"></span>**Application Load/Save Path**: Default location for loading/saving application files, including: parameters, telemetry logs, and mission plans.
 
 
-
 ## RTK GPS
 
 This section specifies the RTK GPS "Survey-in" settings.
 
 ![RTK GPS Settings](../../assets/settings/settings_view_general_rtk_gps.jpg)
 
-> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. The process takes measurements over time, leading to increasing position accuracy. Both of the setting conditions must met for the Survey-in process to complete. For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
+> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. 
+  The process takes measurements over time, leading to increasing position accuracy. 
+  Both of the setting conditions must met for the Survey-in process to complete. 
+  For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
 
 The settings are:
 - **Survey-in accuracy:** The minimum position accuracy for the RTK Survey-in process to complete.
