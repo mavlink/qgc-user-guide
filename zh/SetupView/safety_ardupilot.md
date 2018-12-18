@@ -138,7 +138,7 @@ The Rover safety page is shown below.
 
 ### Battery Failsafe {#battery_failsafe_rover}
 
-The rover battery failsafe is the same as for [copter](#battery_failsafe).
+The rover battery failsafe is the same as for [copter](#battery_failsafe_copter).
 
 ### Failsafe Triggers {#failsafe_triggers_rover}
 
@@ -181,4 +181,4 @@ The configuration options are:
 
 ### Arming Checks {#arming_checks_sub}
 
-[Arming Checks](#arming_checks) are the same as for copter.
+[Arming Checks](#arming_checks_copter) are the same as for copter.
