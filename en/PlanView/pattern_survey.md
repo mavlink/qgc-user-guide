@@ -3,7 +3,7 @@
 A survey allows you to create a grid flight pattern over a polygonal area. 
 You can specify an arbitrary polygon, the angle and other properties of the grid, and camera settings appropriate for creating geotagged images.
 
-![Survey](../../assets/plan/survey/Survey.jpg)
+![Survey](../../assets/plan/survey/survey.jpg)
 
 
 ## Creating a Survey
@@ -12,8 +12,8 @@ To create a survey:
 1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
 1. Choose the *Pattern Tool* from the *Plan Tools* and then select *Survey*.
 
-   ![Survey Menu](../../assets/Plan/survey/survey_menu.jpg)
-   
+   ![Survey Menu](../../assets/plan/survey/survey_menu.jpg)
+
    This will add a survey grid to the map, and a *Survey* item to the mission list (on the right).
 1. On the map drag the vertices to the change the shape of the polygon.
 1. Click the `(+)` symbol between existing vertices to create a new vertix.
@@ -101,7 +101,7 @@ The configurable options are:
 By default, a flying vehicle will follow the survey path at a fixed altitude. 
 Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
 
-![Survey - Terrain Following Settings](../../assets/Plan/survey/survey_terrain.jpg)
+![Survey - Terrain Following Settings](../../assets/plan/survey/survey_terrain.jpg)
 
 > **Note** Terrain following uses terrain heights queried from *AirMap* servers.
 
@@ -117,6 +117,6 @@ The configurable options are:
 
 The *Statistics* section shows the calculated survey area, photo interval, photo spacing and planned photo count.
 
-![Survey - Statistics](../../assets/Plan/survey/survey_statistics.jpg)
+![Survey - Statistics](../../assets/plan/survey/survey_statistics.jpg)
 
 

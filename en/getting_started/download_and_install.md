@@ -9,7 +9,9 @@ Install *QGroundControl* for Windows Vista or later:
 1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
 1. Double click the executable to launch the installer.
 
-> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [Support > Troubleshooting](../Support/Support.md#opengl_troubleshooting).
+> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. 
+  Use the first shortcut unless you experience startup or video rendering issues. 
+  For more information see [Support > Troubleshooting](../Support/Support.md#opengl_troubleshooting).
 
 
 ## Mac OS X
@@ -17,12 +19,13 @@ Install *QGroundControl* for Windows Vista or later:
 Install *QGroundControl* for Mac OS X 10.8 or later: 
 
 1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
-1. Double-click the .dmg file to mount it, then drag the QGroundControl application to your Application folder.
+1. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
 
   
 ## Ubuntu Linux
 
-Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later. You can either install the AppImage **or** the compressed archive.
+Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later. 
+You can either install the AppImage **or** the compressed archive.
 
 ### AppImage
 
@@ -42,7 +45,8 @@ Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later. You can either ins
    cd qgroundcontrol
    ./qgroundcontrol-start.sh
    ```
-1. Install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. You do not need to install Qt.
+1. Install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. 
+   You do not need to install Qt.
 
   
 ## Android
@@ -55,11 +59,12 @@ Install *QGroundControl* for Android 5.1 or later:
 
 ## iOS
 
-> **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md#installing-ios-beta-using-test-flight).
+> **Note** *QGroundControl* for iOS is in beta.
+  It can only be installed as a [daily build](../releases/daily_builds.md).
 
-Install *QGroundControl* for iOS 8.0 or later:  
+Install *QGroundControl* for iOS 8.0 or later:
 
-1. Follow the instructions for [Installing iOS Daily Beta using Test Flight](../releases/daily_builds.md#installing-ios-beta-using-test-flight).
+1. Follow the instructions for [Installing iOS Daily Beta](../releases/daily_builds.md).
 
 
 ## Old Stable Releases

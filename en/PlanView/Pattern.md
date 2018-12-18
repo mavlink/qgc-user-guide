@@ -3,7 +3,7 @@
 The *Pattern tools* (in the [PlanView](../PlanView/PlanView.md) *Plan Tools*) allow you to specify complex flight patterns using a simple graphical UI.
 The available pattern tools depend on the vehicle (and support for the vehicle-type in the flight stack).
 
-![Pattern Tool (Plan Tools)](../../assets/plan/pattern_tool.jpg)
+![Pattern Tool (Plan Tools)](../../assets/plan/pattern/pattern_tool.jpg)
 
 Pattern | Description | Vehicles
 --- | --- | ---

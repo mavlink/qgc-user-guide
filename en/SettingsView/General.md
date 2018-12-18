@@ -32,19 +32,18 @@ The settings are:
 - **Stream GCS Position**: Never | Always | When in Follow Me flight mode.
 - **Font Size**: Font size across app (Requires restart)
 - **Mute all audio output**: Turns off all audio output. 
-- <span id="autosave_log"></span>**Save telemetry log after each flight**: Logs automatically saved to the *File Save Path* ([below](#file_save_path)) after flight. 
+- <span id="autosave_log"></span>**Save telemetry log after each flight**: Logs automatically saved to the *Application Load/Save Path* ([below](#load_save_path)) after flight. 
 - **Save telemetry log even if vehicle was not armed**: Logs when a vehicle connects to *QGroundControl*. 
   Stops logging when the last vehicle disconnects.
 - **Use preflight checklist**: Enable pre-flight checklist.
 - **Virtual Joystick**: Enable [virtual joysticks](../SettingsView/VirtualJoystick.md) (PX4 only)
 - <span id="autoload_missions"></span> **Autoload Missions**: If enabled, automatically upload a plan to the vehicle on connection. 
   - The plan file must be named **AutoLoad#.plan**, where the `#` is replaced with the vehicle id. 
-  - The plan file must be located in the [Application Load/Save Path(#load_save_path).
+  - The plan file must be located in the [Application Load/Save Path](#load_save_path).
 - **Clear all settings on next start**: Resets all settings to the default (including this one) when *QGroundControl* restarts.
 - **Announce battery lower than**: Specify battery level at which *QGroundControl* will start low battery announcements.
 - **Default Mission Altitude**: The default altitude used for the first waypoint (subsequent new waypoints are seeded with the altitude value of the preceding waypoint).
 - <span id="load_save_path"></span>**Application Load/Save Path**: Default location for loading/saving application files, including: parameters, telemetry logs, and mission plans.
-
 
 
 ## RTK GPS
@@ -53,7 +52,10 @@ This section specifies the RTK GPS "Survey-in" settings.
 
 ![RTK GPS Settings](../../assets/settings/settings_view_general_rtk_gps.jpg)
 
-> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. The process takes measurements over time, leading to increasing position accuracy. Both of the setting conditions must met for the Survey-in process to complete. For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
+> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. 
+  The process takes measurements over time, leading to increasing position accuracy. 
+  Both of the setting conditions must met for the Survey-in process to complete. 
+  For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
 
 The settings are:
 - **Survey-in accuracy:** The minimum position accuracy for the RTK Survey-in process to complete.

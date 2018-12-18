@@ -6,8 +6,6 @@ This topic contains a high level and *non-exhaustive* list of new features added
 
 ### Simple Terrain Support
 
-![](../../assets/Plan/SimpleMissionItemTerrain.jpg)
+![Simple Terrain Support](../../assets/plan/SimpleMissionItemTerrain.jpg)
 
-Allows you to create mission items which specify altitude as height above terrain. 
-
-[Details](https://github.com/mavlink/qgroundcontrol/pull/6225)
+Allows you to create mission items which specify altitude as height above terrain: [Details](https://github.com/mavlink/qgroundcontrol/pull/6225)
