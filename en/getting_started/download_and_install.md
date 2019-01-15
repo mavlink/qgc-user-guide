@@ -11,7 +11,7 @@ Install *QGroundControl* for Windows Vista or later:
 
 > **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. 
   Use the first shortcut unless you experience startup or video rendering issues. 
-  For more information see [Support > Troubleshooting](../Support/Support.md#opengl_troubleshooting).
+  For more information see [UI Rendering/Driver Problems](../Support/ui_driver_problems.md#opengl_troubleshooting).
 
 
 ## Mac OS X

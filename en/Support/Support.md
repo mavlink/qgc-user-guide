@@ -62,29 +62,12 @@ If Windows is telling you the *QGroundControl program is unresponsive* use the f
 
 ## Troubleshooting
 
-### 64-bit Windows: Audio in Unexpected Language
+Guidance for troubleshooting a number of problems is linked from [Common Problems](../Support/CommonProblems.md).
+This covers topics related to:
+- Configuration/hardware of the computer that QGC is running on - e.g. [Audio Problems](../Support/audio_problems.md) and [UI rendering/OpenGL driver problems](../Support/ui_driver_problems.md)
+- Interacting with a vehicle - e.g. [Parameter Download](../Support/ParameterDownload.md) and [Plan Upload/Download](../Support/PlanUploadDownload.md) failures.
 
-On Windows 64-bit machines *QGroundControl* may sometimes play audio/messages in a language that does not match the *Text-to-speech* setting in **Control Panel > Speech** (e.g. audio spoken in German on an English machine).
-
-This can occur because 64-bit Windows only displays 64-bit voices, while *QGroundControl* is a 32-bit application (on Windows) and hence can only run 32-bit voices.
-
-The solution is to set the desired *32-bit voice* for your system:
-1. Run the control panel application: **C:\Windows\SysWOW64\Speech\SpeechUX\sapi.cpl**.
-2. Make your desired *Voice selection* and then click **OK** at the bottom of the dialog.
-   ![Windows 32-bit Text-To-Speech Control Panel](../../assets/support/windows_text_to_speech.png)
-
-> **Note** Additional information about the Windows speech APIs can be found [here](https://www.webbie.org.uk/blog/microsoft-speech/).
-
-
-### Windows: UI Rendering/Video Driver Issues {#opengl_troubleshooting}
-
-If you experience UI rendering issues or video driver crashes on Windows, this may be caused by "flaky" OpenGL drivers. *QGroundControl* provides 3 shortcuts that you can use to start *QGroundControl* in "safer" video modes (try these in order):
-
-- **QGroundControl:** QGC uses OpenGL graphics drivers directly.
-- **GPU Compatibility Mode:** QGC uses ANGLE drivers, which implement OpenGL on top of DirectX.
-- **GPU Safe Mode:** QGC uses a software rasterizer for the UI (this is very slow).
 
 ## Help Improve these Docs!
 
 Just like *QGroundControl* itself, the user guide is an open source, user created and supported GitBook. We welcome [Pull Requests](https://github.com/mavlink/qgc-user-guide/pulls) against the guide for fixes and/or updates.
-
