@@ -29,6 +29,7 @@
 * [Settings](SettingsView/SettingsView.md)
     * [General](SettingsView/General.md)
     * [Offline Maps](SettingsView/OfflineMaps.md)
+    * [MAVLink](SettingsView/MAVLink.md)
     * [Console Logging](SettingsView/console_logging.md)
     * [Virtual Joystick (PX4)](SettingsView/VirtualJoystick.md)
 * [Analyze](analyze_view/README.md)
@@ -53,6 +54,9 @@
     * [Google Play Privacy Policy](releases/google_play_privacy_policy.md)
 
 * [Support](Support/Support.md)
+    * [Common Problems](Support/CommonProblems.md)
+       * [Parameter Download failures](Support/ParameterDownload.md)
+       * [Plan Upload/Download failures](Support/PlanUploadDownload.md)
 
 ## Flight Stacks
 

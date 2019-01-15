@@ -17,9 +17,8 @@ Option(s) | Description
 `FirmwareUpgradeLog` | Debug firmware flash issues.
 `ParameterManagerLog` | Debug parameter load problems.
 `ParameterManagerDebugCacheFailureLog` | Debug parameter cache crc misses.
-`PlanManagerLog` | Debug mission protocol issues.
+`PlanManagerLog`, `MissionManagerLog`, `GeoFenceManagerLog`, `RallyPointManagerLog` | Debug Plan upload/download issues.
 `RadioComponentControllerLog` | Debug Radio calibration issues.
-
 
 ## Logging from the Command Line
 
