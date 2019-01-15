@@ -1,6 +1,7 @@
 # Support
 
-This user guide is meant to be the main provider of support for *QGroundControl*. If you find incorrect or missing information please report an [Issue](https://github.com/mavlink/qgc-user-guide/issues).
+This user guide is meant to be the main provider of support for *QGroundControl*. 
+If you find incorrect or missing information please report an [Issue](https://github.com/mavlink/qgc-user-guide/issues).
 
 *Questions* about *QGroundControl* should be raised in the associated flight stack's discussion server at the links below:
 * [PX4 Flight Stack](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage) (discuss.px4.io).
