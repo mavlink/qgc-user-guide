@@ -62,6 +62,9 @@ If Windows is telling you the *QGroundControl program is unresponsive* use the f
 
 ## Troubleshooting
 
+This section is for troubleshooting the QGC host computer/configuration. 
+Problems when *using QGroundControl* to interact with a vehicle are covered in: [Common Problems](../Support/CommonProblems.md).
+
 ### 64-bit Windows: Audio in Unexpected Language
 
 On Windows 64-bit machines *QGroundControl* may sometimes play audio/messages in a language that does not match the *Text-to-speech* setting in **Control Panel > Speech** (e.g. audio spoken in German on an English machine).
