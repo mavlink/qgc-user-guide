@@ -12,9 +12,10 @@ The map will show you the positions of all the vehicles you are connected to. It
 
 On the left edge of the screen you will see the Fly Tools. The order of tools from top to bottom is:
 
-* Center map
-* Map Type
-* Zoom In/Out
+* Takeoff/Land
+* Return To Launch
+* Pause
+* Action
 
 ### Center Map
 
