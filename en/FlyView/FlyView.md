@@ -1,61 +1,81 @@
 # Fly View
 
-![](../../assets/quickstart/ConnectedVehicle.jpg)
+The Fly View is the main view you will use while flying your vehicle. 
+You can switch between a map view and a video view (if available).
 
-The Fly View is the main view you will use while flying your vehicle. You can switch between a map view and a video view (if available).
+![Fly View](../../assets/fly/fly_view_overview.jpg)
+
 
 ## Map
 
-The map will show you the positions of all the vehicles you are connected to. It will also show you the mission for the current vehicle.
+The map shows the positions of all connected vehicles and the  mission for the current vehicle.
 
-## Fly Tools
-On the left edge of the screen you will see the Fly Tools. The order of tools from top to bottom is:
+You can drag the map to move it around (the map automatically recentres after a certain amount of time).
+
+Once flying, you can click on the map to set a GoTo position.
+
+
+## Fly Tools {#fly_tools}
+
+On the left edge of the screen you will see the *Fly Tools*.
+You can use these to takeoff, return, pause, or continue/start an action (e.g. a mission).
+
+The order of tools from top to bottom is:
 
 * Takeoff/Land
 * Return To Launch
 * Pause
 * Action
 
-### Center Map
-The Center Map tool allow you to center the map around various points such as home position, vehicle and so forth.
-
-### Map Type
-This tool allows you to change the current map type between Street, Satellite and Hybrid (Street+Satellite). The default map provider is Bing since it seems to provide better Hybrid maps. You can change the map provider from the General page of Settings.
-
 ## Video
-At the lower left of the display you will see video output. QGroundControl supports RTP and RTSP video streaming over your vehicles UDP connection. It also support directly connected UVC device support. More details on QGC Video support can be found on the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
 
-By clicking on the video you can make it be the main display for the Fly view.
+At the lower left of the display you will see video output.
+*QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
+It also support directly connected UVC device support. 
+More details on QGC Video support can be found on the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+
+By clicking on the video you can make it be the main display for the *Fly View*.
 
 ## Instrument Panel
-To the right is an instrument panel showing you current information on your vehicle. The center section of the panel has multiple pages. You can switch between pages by clicking on the center section. 
 
-### Telemetry page
+To the right is an instrument panel showing you current information on your vehicle. 
+By default this displays vehicle telemetry, but you can switch the content using the drop down menu.
 
-<img src="../../assets/fly/InstrumentTelemetryPage.jpg" style="width: 100px;"/>
+The different content is listed below.
 
-The values shown within the telemetry page can be configured by clicking on the small gear icon.
+### Values (Telemetry)
 
-### Vehicle Health page
+The values page shows telemetry information.
+The displayed information can be configured by clicking on the small gear icon.
 
-<img src="../../assets/fly/InstrumentHealthPage.jpg" style="width: 100px;"/>
+![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
 
-This page shows you the health of the systems within your Vehicle. If any of the systems switchs from healthy to unhealthy this page will automatically be switched to.
 
-### Vibration Clipping page
+### Camera
 
-<img src="../../assets/fly/InstrumentClipPage.jpg" style="width: 100px;"/>
+The camera page can be used to manually trigger the camera.
 
-This page show you current vibration values and clip counts.
+![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
 
-## Guided Bar
-At the bottom of the view is the Guided Bar. The guided bar allows to to interact with your vehicle directly from the QGroundControl application. Options available vary by Vehicle and current Vehicle state. 
 
-Some of the possible options are:
+### Video Stream
 
-* Arm, Disarm, Emergency Stop
-* Takeoff
-* Change altitiude
-* Go to location
-* RTL
-* Pause
+This page is used to enable and record video streaming.
+
+![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
+
+
+### Health
+
+This page shows you the health of the systems within your vehicle.
+*QGroundControl* will switch to this page automatically if any systems change to unhealthy.
+
+![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg)
+![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
+
+
+### Vibration
+
+This page shows current vibration levels and clip counts.
+
+![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
