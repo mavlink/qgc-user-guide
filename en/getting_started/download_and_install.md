@@ -4,9 +4,11 @@ The sections below can be used download the [current stable release](../releases
 
 ## System Requirements
 
-QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. Well-capable hardware will provide the best experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better cpu will be suitable for most applications.
+QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. 
+More capable hardware will provide a better experience. 
+A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
 
-For the best experience and compatibility, it is recommended to use the newest version of your operating system.
+For the best experience and compatibility, we recommend you the newest version of your operating system.
 
 ## Windows
 
