@@ -2,9 +2,12 @@
 
 This page allows you to configure settings on your vehicle which control basic flight characteristics. The details of the page differ slightly if you are using PX4 Pro firmware or ArduPilot firmware.
 
-## ArduCopter Tuning
+## ArduPilot Tuning
 
 ![ArduCopter Tuning Page](../../assets/setup/tuning/arducopter.png)
+
+Basic tuning is supported on Copter and Sub. 
+Autotune and In-Flight Tuning are supported on Copter.
 
 ### Basic Tuning
 
@@ -35,13 +38,16 @@ Note:
   You can cancel AutoTune at any time by moving the AutoTune switch back to low position.
 * You can reposition the copter using your transmitter at any time during AutoTune.
 
-### In Flight Tuning
+### In-Flight Tuning
 
 This is an advanced option which allows you to tune a flight control parameter using one of your transmitter dial channels. 
 Select the control option from the dropdown and specify the min/max for the values to assign to the dial.
 
 
-## PX4 Copter Tuning
+## PX4 Tuning
+
+PX4 Basic tuning is supported on Mulicopter, Fixed Wing and VTOL frames.
+Advanced Tuning is supported on Multicopter fames (only).
 
 ### Basic Tuning
 
@@ -51,11 +57,11 @@ Adjust the specified flight characteristic by moving the slider(s) to the left o
 
 ### Advanced Tuning
 
-> **Note** Advanced tuning is currently only available on PX4 Multicopter frames. <!-- Still only multirotors? -->
+> **Note** Advanced tuning is currently only available on PX4 Multicopter frames.
 
 To access advanced tuning, select the **Advanced** checkbox.
 
-![PX4 Tuning - Advanced (Copter(](https://user-images.githubusercontent.com/5876851/38179099-de0cb35a-35d3-11e8-8c27-a27049a2db2f.png)
+![PX4 Tuning - Advanced (Copter)](../../assets/setup/tuning/px4_advanced_copter.png)
 
 To use advanced tuning:
 1. First select the *Tuning axis* to tune: **Rol**, **Pitch** or **Yaw** (each axis is tuned separately).
