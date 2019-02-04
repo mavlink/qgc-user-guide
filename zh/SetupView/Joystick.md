@@ -43,6 +43,28 @@ The following joysticks/controllers have been shown to work with relatively rece
 
 These are both highly recommended. They work well "out of the box" and have many buttons that you can map to flight modes.
 
+#### Sony PS4 - DualShock 4 Controller V2
+
+This type allows both USB and wireless connection (Bluetooth). Wired USB connection usually works out of the box. The wireless connection needs some setup.
+
+##### Linux Ubuntu setup
+
+To make controller working under a linux several utilities are needed
+
+1. [jstest-gtk](https://jstest-gtk.gitlab.io/)
+2. [ds4drv](https://github.com/chrippa/ds4drv)
+    
+    sudo apt install jstest-gtk
+
+For wireless connection install ds4drv package sudo pip install ds4drv
+
+Run the ds4drv
+
+    sudo ds4drv
+    
+
+Now hold share button and then ps button until controller LED starts blinking rapidly. The ds4drv should detect a new device in that situation. After that, you should check the controller setup by running jstest-gtk utility.
+
 ### FrSky Taranis XD9 plus
 
 The *FrSky Taranis XD9 plus* remote control can also be connected as a joystick. You will need to connect it via the USB port on the back.
