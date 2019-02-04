@@ -41,31 +41,35 @@ The following joysticks/controllers have been shown to work with relatively rece
 
 ### Sony Playstation 3/4 Controllers
 
-These are both highly recommended. They work well "out of the box" and have many buttons that you can map to flight modes. 
+These are both highly recommended. 
+They work well "out of the box" and have many buttons that you can map to flight modes. 
 
-#### Sony PS4 - DualShock 4 Controller V2
+#### Sony PS4 - DualShock 4 Controller V2 (Wireless setup)
 
-This type allows both USB and wireless connection (Bluetooth). Wired USB connection usually works out of the box. The wireless connection needs some setup. 
+This controller supports both USB and Bluetooth wireless connection. 
+Wired USB connection usually works out of the box. 
+The wireless connection needs some setup.
 
 ##### Linux Ubuntu setup
 
-To make controller working under a linux several utilities are needed
+To make the controller work wirelessly under Linux the [jstest-gtk](https://jstest-gtk.gitlab.io/) and [ds4drv](https://github.com/chrippa/ds4drv) utilities are needed.
 
-1. [jstest-gtk](https://jstest-gtk.gitlab.io/)
-1. [ds4drv](https://github.com/chrippa/ds4drv)
-
-    sudo apt install jstest-gtk
-
-For wireless connection install ds4drv package
-    sudo pip install ds4drv
-
-Run the ds4drv
-
-    sudo ds4drv
-
-Now hold share button and then ps button until controller LED starts blinking rapidly. The ds4drv should detect a new device in that situation.
-After that, you should check the controller setup by running jstest-gtk utility. 
-
+The steps are:
+1. Install *jstest-gtk*:
+   ```
+   sudo apt install jstest-gtk
+   ```
+1. Install *ds4drv*:
+   ```
+   sudo pip install ds4drv
+   ```
+1. Run ds4drv
+   ```
+   sudo ds4drv
+   ```
+1. Hold **Share** button and then **PS** button until controller LED starts blinking rapidly. 
+   The *ds4drv* should then detect a new device.
+1. Last of all, you should check the controller setup by running the *jstest-gtk* utility. 
 
 
 ### FrSky Taranis XD9 plus
