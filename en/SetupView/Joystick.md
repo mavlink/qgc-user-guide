@@ -33,6 +33,22 @@ To configure a joystick:
 1. Select the flight modes/vehicle functions activated by each joystick button. A maximum of 16 joystick *button actions* can be set. <!-- MANUAL_CONTROL used to send button values only has 16 bits -->
 1. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor.
 
+## Throttle Options
+   ![Joystick setup - Throttle Modes](../../assets/setup/joystick_throttle_modes.jpg)
+
+- **Center stick is zero throttle**: Centered or lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), raised stick sends 1000.
+    - **Spring loaded throttle smoothing**: In this mode you control not the throttle itself, but the rate at which it increases/decreases. This is useful for setups where the throttle stick is spring loaded, as the user can hold the desired throttle while releasing the stick.
+- **Full down stick is zero throttle**: In this mode, lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered stick 500, and raised 1000.
+- **Allow negative thrust**: When in **Center stick is zero throttle** mode, this allows the user to send negative values by lowering the stick. So that lowered stick sends -1000 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered sends zero, and raised stick sends 1000. This mode is only enabled for vehicles that support negative thrust, such as [Rover](http://ardupilot.org/rover/index.html).
+
+## Expo
+   ![Joystick setup - Expo](../../assets/setup/joystick_throttle_expo.jpg)
+
+The expo slider allows you to make the sticks less sensitive in the center, allowing finer control in this zone. The slider adjusts the curvature of the exponential curve.
+
+   ![Joystick setup - Expo Curve](../../assets/setup/joystick_throttle_expo_curve.jpg)
+
+The higher the Expo value, the flatter the curve is at the center, and steeper it is at the edges.
 
 ## Supported Joysticks
 
