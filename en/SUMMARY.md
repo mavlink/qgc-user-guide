@@ -20,6 +20,7 @@
    * [Sensors](SetupView/Sensors.md)
    * [Flight Modes](SetupView/FlightModes.md)
    * [Power](SetupView/Power.md)
+   * [Motors](SetupView/Motors.md)
    * [Safety](SetupView/Safety.md)
      * [Safety (ArduPilot)](SetupView/safety_ardupilot.md)
    * [Tuning](SetupView/Tuning.md)
