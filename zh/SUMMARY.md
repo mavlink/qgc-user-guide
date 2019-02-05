@@ -51,7 +51,6 @@
 * [Releases](releases/README.md)
     
     * [Release Notes](releases/release_notes.md) 
-        * [v3.4 (Detailed)](releases/stable_v3.4_long.md)
         * [v3.3 (Detailed)](releases/stable_v3.3_long.md)
         * [v3.2 (Detailed)](releases/stable_v3.2_long.md)
     * [Daily Builds](releases/daily_builds.md)
