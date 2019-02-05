@@ -2,9 +2,35 @@
 
 This topic contains the cumulative release notes for *QGroundControl*.
 
-## Stable Version 3.4 (Current)
+## Stable Version 3.5 (Current)
 
-> **Tip** More detailed release notes for version 3.4 can be found [here](../releases/stable_v3.4_long.md).
+This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5. Not to mention the large number of bug fixes in each stable release.
+
+* **Overall** 
+  * Added Airmap integration to QGC. OSX build only.
+  * Bumped settings version (now 8). This will cause all settings to be reset to defaults.
+  * Added Chinese and Turkish localization and partial German localization. 
+  * Added support for the Taisync 2.4GHz ViUlinx digital HD wireless link.
+  * Fix loading of parameters from multiple components. This especially affected WiFi connections.
+  * **ArduPilot** Support for ChibiOS firmware connect and flash.
+* **Settings** 
+  * **RTK** Add support for specifying fixed RTK based station location in Settings/General.
+  * **GCS Location** 
+    * Added UDP Port option for NMEA GPS Device.
+    * GCS heading shown if available
+* **Plan** 
+  * **Polygons** Support loading polygons from SHP files.
+  * **Fixed Wing Landing Pattern** Add stop photo/video support. Defaults to on such that doing an RTL will stop camera.
+  * **Edit Position dialog** Available on polygon vertices.
+* **Fly** 
+  * **Camera Page** Updated support for new MAVLInk camera messages. Camera select, camera mode, start/stop photo/video, storage mangement... 
+  * **Orbit** Support for changing rotation direction.
+  * **Instrument Panel** 
+    * Added ESTIMATOR_STATUS values to new estimatorStatus Vehicle FactGroup. These are now available to display in instrument panel.
+    * Make Distance to GCS available for display from instrument panel.
+    * Make Heading to Home available for display from instrument panel.
+
+## Stable Version 3.4
 
 This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.4. Not to mention the large number of bug fixes in each stable release.
 
