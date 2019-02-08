@@ -67,6 +67,14 @@ The advanced settings are usually not recommended for everyday users, as they ca
 
 - **Enable Circle Correction**: Circle correction is used because joysticks usually don't have as much stick travel as RC radios, these can describe a square, while joysticks usually describe a circle. This options inscribes a square into the joystick movement area. This way it is possible to reach all four corners, but this costs some resolution as the effective stick travel is reduced.
 
+    Disabled: The joystick position is sent to the vehicle the way that it is read from the joystick device, unchanged. On some joysticks, the (roll, pitch) values are confined to the space of a circle inscribed inside of a square. In this figure, point B would command full pitch forward and full roll right, but the joystick is not able to reach point B because the retainer is circular. This means that you will not be able to achieve full roll and pitch deflection simultaneously.
+
+    ![](../../assets/setup/joystick_circle_correction.jpg)
+
+    Enabled: The joystick values are adjusted in software to ensure full range of commands. The usable area of travel and resolution is decreased, however, because the area highlighted grey in the figure is no longer used.
+
+    ![](../../assets/setup/joystick_circle_correction2.jpg)
+
 - **Deadbands**: Deadbands allow input changes to be ignored when the sticks are near their neutral positions. This helps to avoid noise or small oscilations on sensitive sticks which may be interpreted as commands, or small offsets when sticks do not re-center well. They can be adjusted during the first step of the [calibration](#configure), or by dragging vertically on the corresponding axis monitor.
 
 ## Supported Joysticks
