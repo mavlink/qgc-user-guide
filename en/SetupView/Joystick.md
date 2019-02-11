@@ -17,7 +17,7 @@ This is enabled by default for PX4 SITL builds (see the [Parameters](../SetupVie
 <!-- what is "Virtual RC by Joystick"? -->
 
 
-## Configuring the Joystick
+## Configuring the Joystick {#configure}
 
 To configure a joystick:
 
@@ -49,6 +49,25 @@ The expo slider allows you to make the sticks less sensitive in the center, allo
    ![Joystick setup - Expo Curve](../../assets/setup/joystick_throttle_expo_curve.jpg)
 
 The higher the Expo value, the flatter the curve is at the center, and steeper it is at the edges.
+
+## Advanced Settings
+
+![Joystick setup - Expo Curve](../../assets/setup/joystick_advanced.jpg)
+
+The advanced settings are usually not recommended for everyday users, as they can cause unpredicted results if changed wrongly. The following settings are available:
+
+- **Joystick Mode**: Changes what the joystick actually controls, and the mavlink messages sent to the vehicle.
+    - **Normal**: User controls as if using a regular RC radio, mavlink [MANUAL_CONTROL](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) messages are used.
+    - **Attitude**: User controls the vehicle attitude, mavlink [SET_ATTITUDE_TARGET](https://mavlink.io/en/messages/common.html#SET_ATTITUDE_TARGET) messages are used.
+    - **Position**: User controls the vehicle position, mavlink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **position** only are used.
+    - **Force**: User controls the forces applied to the vehicle, mavlink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **force** only are used.
+    - **Velocity**: User controls the forces applied to the vehicle, mavlink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **velocity** only are used.
+
+- **Message Frequency**: When the joystick is idle (inputs are not changing), the joystick commands are sent to the vehicle at 5Hz. When the joystick is in use (input values are changing), the joystick commands are sent to the vehicle at the (higher) frequency configured by this setting. The default is 25Hz.
+
+- **Enable Circle Correction**: Circle correction is used because joysticks usually don't have as much stick travel as RC radios, these can describe a square, while joysticks usually describe a circle. This options inscribes a square into the joystick movement area. This way it is possible to reach all four corners, but this costs some resolution as the effective stick travel is reduced.
+
+- **Deadbands**: Deadbands allow input changes to be ignored when the sticks are near their neutral positions. This helps to avoid noise or small oscilations on sensitive sticks which may be interpreted as commands, or small offsets when sticks do not re-center well. They can be adjusted during the first step of the [calibration](#configure), or by dragging vertically on the corresponding axis monitor.
 
 ## Supported Joysticks
 
