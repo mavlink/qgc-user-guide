@@ -1,52 +1,48 @@
 # Plan View - GeoFence
-A GeoFence allows you to create a virtual fence around the area you want to fly in. If you then fly outside that area you can configure a specific action to be taken. 
 
-Not all vehicle firmwares support GeoFence and if supported the GeoFence capabilities vary.
+GeoFences allow you to create virtual regions within which the vehicle can fly, or in which it is *not allowed* to fly.
+You can also configure the action taken if you fly outside permitted areas. 
 
-## Example Visuals
-ArduCopter visual:
-![](../../assets/plan/GeoFence.APM.Copter.jpg)
+![Geofence overview](../../assets/plan/geofence/geofence_overview.jpg)
 
-ArduPlane visual:
-![](../../assets/plan/GeoFence.APM.Plane.jpg)
+> **Note** Not all vehicle firmware and types support GeoFence/all geofence capabilities. 
+  *QGroundControl* will not display the GeoFence options if they are not supported by the connected vehicle.
 
-PX4 Pro visual:
-![](../../assets/plan/GeoFence.PX4.jpg)
+## Create a Geofence
 
-## GeoFence Setup
-The steps to creating a GeoFence are:
+To create a GeoFence:
+1. Navigate to the Plan View
+1. Select the *Geofence* radio button above the Mission Command List
+   ![Select geofence radio button](../../assets/plan/geofence/geofence_select.jpg)
+1. Insert a circular or polygon region by pressing the **Circular Fence** or **Polygon Fence** buttons, respectively.
+   A new region will be added to the map and to the associated list of fences below the buttons.
+   
+  > **Tip** You can create multiple regions by pressing the buttons multiple times, allowing complex geofence definitions to be created.
+  
+   - Circular region:
+     ![Circular Geofence](../../assets/plan/geofence/geofence_circular.jpg)
+     - Move the region by dragging the central dot on the map
+     - Resize the circle by dragging the map dot on the edge of the circle (or you can change the radius value in the fence panel).
+   - Polygon region:
+     ![Polygon Geofence](../../assets/plan/geofence/geofence_polygon.jpg)
+     - Move the vertices by dragging the filled dots
+     - Create new vertices by clicking the "unfilled" dots on the lines between the filled vertices.
+1. By default new regions are created as *inclusion* zones (vehicles must stay within the region).
+   Change them to exclusion zones (where the vehicle can't travel) by unchecking the associated *Inclusion* checkbox in the fence panel.
+   
+## Edit/Delete a GeoFence
 
-1. Change to Plan View
-2. Select the GeoFence radio button (top right of view)
-3. Specify fence settings in the editor panel
-4. Add a fence polygon (if supported)
-5. Send the GeoFence to the Vehicle (or save to file)
+You can select a geofence region to edit by selecting its *Edit* radio button in the GeoFence panel.
+You can then edit the region on the map as described in the previous section.
 
-### Drawing a GeoFence Polygon
-If your vehicle supports polygon fences, at the bottom of the editor panel you will see the "Fence Polygon" section. Click the Draw button to draw a polygon on the map by clicking to add points to the polygon.
+Regions can be deleted by pressing the associated **Del** button
 
-Once you have created a fence polygon you can adjust it by clicking the Adjust button which will allow you to move the polygon corners. You can also click Draw again to redraw a completely new fence polygon.
 
-### GeoFence Tools
-On the left edge of the screen you will see the Plan Tools. The order of tools from top to bottom is:
+## Upload a GeoFence
 
-* Sync
-* Center map
-* Map Type
-* Zoom In/Out
+The GeoFence is uploaded in the same way as a mission, using **File** in the [Plan tools](../PlanView/PlanView.md).
 
-#### Sync
-The Sync tools allows you to move GeoFences back and forth to your Vehicle or a file. *Before you fly you must be sure to send your GeoFence to your vehicle.* The tool will change to have an "!" within it to indicate that you have changes to your GeoFence which you have not sent to your vehicle. 
 
-The Sync tool provides the following functionality:
+## Remaining tools
 
-* Send to Vehicle
-* Load from Vehicle
-* Save to File
-* Load from File
-* Remove All
-
-When you save a GeoFence to a file all settings will be saved, not just the fence polygon. 
-
-#### Remaining tools
 The rest of the tools work exactly as they do while editing a Mission.
