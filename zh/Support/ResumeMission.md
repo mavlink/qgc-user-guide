@@ -22,7 +22,7 @@ The following steps are required for debugging both types of problems:
 
 ### Resume Mission Dialog Problems
 
-For *Resume Mission Dialog* problems follow the [commonsteps above](#common_steps), and then:
+For *Resume Mission Dialog* problems follow the [common steps above](#common_steps), and then:
 
 7. Save the *Console Log* to a file.
 8. Place the *Console Log*, *Telemetry Log* and *Plan File* someplace which you can link to in the issue.
@@ -30,7 +30,7 @@ For *Resume Mission Dialog* problems follow the [commonsteps above](#common_step
 
 ## Resume Mission Generation Problems
 
-For *Resume Mission Generation* problems follow the [commonsteps above](#common_steps), and then:
+For *Resume Mission Generation* problems follow the [common steps above](#common_steps), and then:
 
 7. Click **Resume Mission**.
 8. The new mission should be generated.
