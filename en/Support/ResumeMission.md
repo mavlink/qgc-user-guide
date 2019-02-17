@@ -1,36 +1,44 @@
-# Resume Mission failures
+# Resume Mission Failures
 
-The process of resuming a mission after a battery swap is a fairly complex process within QGC. There tend to be to area which go wrong:
+The process of resuming a mission after a battery swap is a fairly complex process within QGC. 
 
-* The Resume Mission dialog doesn't display when it should and you are just left with a Start Mission slider.
-* The new mission generated from Resume Mission is not quite correct with respect to recration of waypoints and/or camera commands.
+The two main areas that are most problematic are:
 
-In order for the QGroundControl development team to debug these issues a specific set of information is needed in any Issue entered against Resume Mission.
+* The *Resume Mission* dialog doesn't display when it should and you are just left with a Start Mission slider.
+* The new mission generated from *Resume Mission* is not quite correct with respect to recreation of waypoints and/or camera commands.
 
-## Required Information for Resume Mission Dialog problems
-* Restart QGC
-* Turn on logging for GuidedActionsControllerLog.
-* Make sure you have telemetry logging turned on.
-* Start the mission.
-* Fly till you need a battery swap or possibly manually RTL from the middle of the middle of the mission. In some cases a manual RTL will not reproduce the problem though.
-* Once the vehicle lands and disarms you should get the Resume Mission dialog.
-* At this point the Resume Mission dialog should display. If not there is a possible bug in QGC.
-* Save the Console Log to a file.
-* Place the Console Log, Telemetry Log and Plan file someplace which you can link to in the Issue.
-* Create the Issue with details and links to all three files.
+> **Warning** In order for the *QGroundControl* development team to debug these issues the following information **must be supplied** in any github issue entered against *Resume Mission*.
 
-## Required Information for Resume Mission Generation problems
-* Restart QGC
-* Turn on logging for GuidedActionsControllerLog.
-* Make sure you have telemetry logging turned on.
-* Start the mission.
-* Fly till you need a battery swap or possibly manually RTL from the middle of the middle of the mission. In some cases a manual RTL will not reproduce the problem though.
-* Once the vehicle lands and disarms you should get the Resume Mission dialog.
-* Click Resume Mission
-* The new mission should be generated.
-* Go to Plan
-* Select Download from the Sync menu.
-* Save the Modified Plan to a file.
-* Save the Console Log to a file.
-* Place the Console Log, Telemetry Log, Original Plan file and Modified Plan file someplace which you can link to in the Issue.
-* Create the Issue with details and links to all four files.
+
+## Common Steps for Resume Mission Dialog/Generation {#common_steps}
+
+The following steps are required for debugging both types of problems:
+1. Restart QGC
+1. Turn on [console logging](../SettingsView/console_logging.md) with the log option: `GuidedActionsControllerLog`.
+1. Enable [telemetry logging](../SettingsView/General.md#miscellaneous) (**Settings > General**).
+1. Start the mission.
+1. Fly till you need a battery swap. 
+   > **Tip** Alternatively you can attempt to reproduce the problem by manually RTL from the middle of the middle of the mission (though this may not always reproduce the problem).
+1. Once the vehicle lands and disarms you should get the *Resume Mission* dialog.
+   > **Note** If not there is a possible bug in QGC.
+
+### Resume Mission Dialog Problems
+
+For *Resume Mission Dialog* problems follow the [commonsteps above](#common_steps), and then:
+
+7. Save the *Console Log* to a file.
+1. Place the *Console Log*, *Telemetry Log* and *Plan File* someplace which you can link to in the issue.
+1. Create the issue with details and links to all three files.
+
+## Resume Mission Generation Problems
+
+For *Resume Mission Generation* problems follow the [commonsteps above](#common_steps), and then:
+
+7. Click **Resume Mission**.
+1. The new mission should be generated.
+1. Go to [Plan View](../PlanView/PlanView.md).
+1. Select **Download** from the *File/Sync* menu.
+1. Save the *Modified Plan* to a file.
+1. Save the *Console Log* to a file.
+1. Place the *Console Log*, *Telemetry Log*, *Original Plan* file and *Modified Plan* file someplace which you can link to in the issue.
+1. Create the issue with details and links to all four files.
