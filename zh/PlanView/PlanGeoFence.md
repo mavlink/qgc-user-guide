@@ -11,15 +11,25 @@ GeoFences allow you to create virtual regions within which the vehicle can fly, 
 To create a GeoFence:
 
 1. Navigate to the Plan View
-2. Select the *Geofence* radio button above the Mission Command List ![Select geofence radio button](../../assets/plan/geofence/geofence_select.jpg)
+2. Select the *Geofence* radio button above the Mission Command List
+    
+    ![Select geofence radio button](../../assets/plan/geofence/geofence_select.jpg)
+
 3. Insert a circular or polygon region by pressing the **Circular Fence** or **Polygon Fence** buttons, respectively. A new region will be added to the map and to the associated list of fences below the buttons.
     
     > **Tip** You can create multiple regions by pressing the buttons multiple times, allowing complex geofence definitions to be created.
 
-- Circular region: ![Circular Geofence](../../assets/plan/geofence/geofence_circular.jpg) 
+- Circular region:
+    
+    ![Circular Geofence](../../assets/plan/geofence/geofence_circular.jpg)
+    
     - Move the region by dragging the central dot on the map
     - Resize the circle by dragging the map dot on the edge of the circle (or you can change the radius value in the fence panel).
-- Polygon region: ![Polygon Geofence](../../assets/plan/geofence/geofence_polygon.jpg) 
+
+- Polygon region:
+    
+    ![Polygon Geofence](../../assets/plan/geofence/geofence_polygon.jpg)
+    
     - Move the vertices by dragging the filled dots
     - Create new vertices by clicking the "unfilled" dots on the lines between the filled vertices. 
         1. By default new regions are created as *inclusion* zones (vehicles must stay within the region). Change them to exclusion zones (where the vehicle can't travel) by unchecking the associated *Inclusion* checkbox in the fence panel.
