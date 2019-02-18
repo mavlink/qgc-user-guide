@@ -2,37 +2,32 @@
 
 Rally Points are alternative landing or loiter locations.
 
-They are typically used to provide a safer or more convenient destination than the home position in RETURN TO LAUNCH (RTL) mode. 
+They are typically used to provide a safer or more convenient destination than the home position in Return/RTL mode. 
 
-![](../../assets/plan/RallyPoints.jpg)
+![Rally Points](../../assets/plan/rally/rally_points_overview.jpg)
 
-> **Note** Not all vehicle firmwares support Rally Points, and even if supported the Rally Point capabilities vary.  Rally Point docs for ArduPilot [can be found here](http://ardupilot.org/copter/docs/common-rally-points.html). PX4 does not support rally points at time of writing (April 2017).
+> **Note** Not all vehicle firmware and airframe types support Rally Points.
+  *QGroundControl* will not display the Rally Point options if they are not supported by the connected vehicle.
 
-## Rally Point Setup
-The steps to creating a GeoFence are:
+## Rally Point Usage
 
-1. Change to Plan View
-2. Select the Rally button (top right of view)
-3. Click in the map to add Rally Points
+To create Rally Points:
+1. Navigate to the Plan View
+1. Select the *Rally* radio button above the Mission Command List
+1. Click the map wherever you want rally points. 
+   - An **R** marker is added for each
+   - the currently active marker has a different colour (green) and can be edited using the *Rally Point* panel.
+1. Make any rally point active by selecting it on the map:
+   - Move the active rally point by either dragging it on the map or editing the position in the panel.
+   - Delete the active rally point by selecting the menu option on the *Rally Point* panel
+     ![Delete Rally Point](../../assets/plan/rally/rally_points_delete.jpg)
 
-### Rally Points Tools
-On the left edge of the screen you will see the Plan Tools. The order of tools from top to bottom is:
 
-* Sync
-* Center map
-* Map Type
-* Zoom In/Out
+## Upload Rally Points
 
-#### Sync
-The Sync tools allows you to move Rally Points back and forth to your Vehicle or a file. *Before you fly you must be sure to send your Rally Points to your vehicle.* The tool will change to have an "!" within it to indicate that you have changes to your GeoFence which you have not sent to your vehicle. 
+Rally points are uploaded in the same way as a mission, using **File** in the [Plan tools](../PlanView/PlanView.md).
 
-The Sync tool provides the following functionality:
 
-* Send to Vehicle
-* Load from Vehicle
-* Save to File
-* Load from File
-* Remove All
+## Remaining tools
 
-#### Remaining tools
 The rest of the tools work exactly as they do while editing a Mission.
