@@ -1,86 +1,80 @@
 # Structure Scan (Plan Pattern) - Daily Builds
 
-A *Structure Scan* allows you to create a grid flight pattern that captures images over vertical surfaces (e.g. walls). 
-These are typically used for the visual inspection or creating 3d models of structures.
+A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint.
+Structure Scans are typically used for the visual inspection or creating 3d models of structures.
 
-A *Structure Scan* can be inserted into a mission using the *Pattern* tool.
+*Structure Scans* may be inserted into a mission using the Plan view **Pattern > Structure Scan** tool.
 
-> **Note** The new version of *Structure Scan* is not able to read older *Structure Scan* plans. 
+> **Note** The new version of *Structure Scan* can't read older *Structure Scan* plans. 
   They will need to be recreated.
 
 <span></span>
 > **Warning** This feature is not yet supported by ArduPilot firmware.
   It is supported in PX4.
 
-![Structure Scan](../../assets/plan/StructureScanV2/StructureScan.jpg)
 
-In the diagram green is used to show the polygon that represents the structure.
-In white you can see the flight path for the vehicle.
-You can also fly circular structure scans by changing the polygon to a circle using the *center tool*.
+## Overview
 
-## Manual Scan
+The image below shows a screenshot of structure scan.
+The green polygon is used to mark out the ground footprint of the structure, while the white line around it indicates the vehicle flight path.
+The green numbered circle on the flight path is the scan entry/exit point (where the scan starts).
 
-A manual scan allows you to specify the detailed distances and heights associated with a structure scan yourself. 
-You select **Manual** from the list for a manual scan.
+![Structure Scan](../../assets/plan/structure_scan_v2/StructureScan.jpg)
 
-<img src="../../assets/plan/StructureScanV2/ManualEditor.jpg" style="width: 150px;"/>
+The scan divides the structure evenly into layers; the vehicle flies all the way around the structure at a particular altitude and *scan distance* from the structure, then repeats the process at each layer until the whole surface has been scanned.
 
-To explain how the Structure Scan settings works we will will be use a theoretical structure which is 10 meters square and 20 meters high.
+![Layer JPG](../../assets/plan/structure_scan_v2/layers.jpg)
 
-### Define Vertical Surface
 
-To scan this entire structure from top to bottom we define the vertical surfaces of the structure faces with the following values.
+## Creating a Scan
 
-10m Square Structure            |  Structure Height 20m | Settings
-:-------------------------:|:-------------------------: | :-------------------------:
-<img src="../../assets/plan/StructureScanV2/CubePolygon.jpg" style="width: 150px;"/>  |  <img src="../../assets/plan/StructureScanV2/CubeHeight.jpg" style="width: 150px;"/> | **Structure Height** = 20m<br>**Scan Bottom Alt** = 0m
+To create a scan:
+1. In the **Plan View** select **Pattern tool > Structure Scan**.
 
-### Split Into Layers
-Next step is we subdivide the structure into layers with each layer 10 meters high. 
-Since the structure is 20 meters high this will create two layers each 10 meters high.
+  ![Create Scan JPG](../../assets/plan/structure_scan_v2/create_scan.jpg)
+  
+1. This will create a simple square structure scan on the map.
 
-Two Layers           |  Settings
-:-------------------------:|:-------------------------:
-<img src="../../assets/plan/StructureScanV2/LayerHeight.jpg" style="width: 150px;"/>  |  **Layer Height** = 10m<br>
+   ![Initial Polygon](../../assets/plan/structure_scan_v2/initial_polygon_scan.jpg)
+   
+   The region shown in green must be modified so that it surrounds the structure.
+   - Drag the opaque vertices on the map to the edge of the structure (example circled in mauve above). 
+   - If the structure footprint is more than a simple square you can click the semi-transparent circles between the vertices to create a new vertix.
 
-### Layer Flight Path
+1. You can also change to a circular footprint by clicking on the central "vertix" (marked in red) and selecting *Circle* in the popup menu.
 
-The last step is to set the Scan Distance which is how far away from the structure the vehicle will fly. 
-Here you can see the vehicle will fly two passes centered within each layer flying 10 meters away from the structure.
+   ![Circle Scan](../../assets/plan/structure_scan_v2/circle_scan.jpg).
+   
+   - From the popup menu you can switch back to a polygon footprint and change the radius and/or position of the scan.
+   - Drag the central vertix to position the centre of the circle. 
 
-Flight Path          |  Settings
-:-------------------------:|:-------------------------:
-<img src="../../assets/plan/StructureScanV2/FlightPath.jpg" style="width: 150px;"/>  |  **Scan Distance** = 10m<br>
+1. The rest of the configuration is handled using the *Structure Scan* editor on the right hand side of the view. 
+   First select whether you want to perform a manual scan, a scan using a particular camera, or a scan using a custom camera definition.
+   
+   > **Note** The main difference between the modes is that predefined cameras are already set up to correctly calculate an effective layer height and trigger distance.
+   
+   Options for the different modes are shown below.
 
-### Layer Flight Obstacles
+   ![Structure Scan editor](../../assets/plan/structure_scan_v2/editor_options.jpg)
 
-An important thing to take into account is the height of the bottommost layer being flown. 
-This height is shown in Stats as Bottom Layer Alt. 
-If there are obstacles in the flight path at this height then you will not be able to scan to base of the structure. 
-You can adjust the **Scan Bottom Alt** value to adjust the bottom of the structure to be above the ground. This will in turn raise up the bottom-most layer flight altitude to be above obstacles.
-
-### Flying to the Structure
-
-You also have to be aware of obstacles when flying to the structure from your home takeoff position. 
-In order to handle this you can set the **Entrance/Exit Alt** value to be the height you want to fly to directly above the entrance point. 
-Once it reaches this point it will fly directly up/down to the first layer. 
-Once all layers are completed it will also fly back up/down to this height before proceeding with the next waypoint.
-
-### Taking Images
-
-- **Trigger Distance** - The distance between each camera trigger.
-  The camera is only triggered while flying the layer path.
-  It does not trigger images while transitioning from one layer to the next.
-- **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
-  Only available for Manual scan.
-
-## Camera Based Scan
-
-The settings for the scan can be based on the specifications of the camera on the vehicle.
-You do this by selecting a camera from the list or selecting **Custom Camera** to provide you own camera specs.
-
-You can then either manually specify the **Scan Distance** or you can specify the resolution of the images you want with **Ground Res** which which will automatically calculate the **Scan Distance** needed.
-
-When performing a camera based scan the values for **Layer Height** and **Trigger Distance** are automatically set based on the camera settings.
-
-For camera based scans the camera is always pointed directly at the right angles to the surface which it is capturing images for.
+The user can always configure the following settings:
+- **Structure height:** The height of the object being scanned.
+- **Scan distance:** Distance from the structure of the flight path.
+- **Entrance/Exit Alt:** Use this setting to avoid obstacles between the last/next waypoint and the structure to be scanned. 
+  - The vehicle will fly to the *Entrance/Exit* point at this altitude and then descend to the initial layer to start the scan. 
+  - The vehicle will ascend to this altitude after completing the scan and then move to the next waypoint.
+- **Scan Bottom Alt:** Use this setting to avoid obstacles around the base of the structure.
+  This adjust the bottom of the structure to be above the ground, and hence the altitude of the first scan
+  (the height of the lowest layer flight path is shown in the scan statistics as *Bottom Layer Alt*.
+- **Rotate Entry Point:**
+  
+The remaining settings depend on the *camera mode*:
+- *Manual Mode* allows you to specify:
+  - **Layer height:** The height of each layer.
+  - **Trigger Distance:** The distance between each camera trigger.
+    The camera is only triggered while flying the layer path.
+    It does not trigger images while transitioning from one layer to the next.
+  - **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
+- Selecting a pre-defined camera automatically selects an appropriate layer height and camera triggering distance. 
+  It also ensures that the camera is always pointed directly at the right angles to the surface which it is capturing images.
+- Selecting a custom camera allows you to enter your own camera characteristics, and otherwise behaves the same as a predefined camera.
