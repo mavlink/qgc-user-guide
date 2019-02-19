@@ -25,6 +25,8 @@ The scan divides the structure evenly into layers; the vehicle flies all the way
 
 ![Layer JPG](../../assets/plan/structure_scan_v2/layers.jpg)
 
+Users can set the *scan bottom altitude* to avoid obstacles at the bottom of the structure, and also the altitude at which the vehicle will approach the start point before starting the scan (and leave after finishing).
+
 
 ## Creating a Scan
 
@@ -58,6 +60,7 @@ To create a scan:
    ![Structure Scan editor](../../assets/plan/structure_scan_v2/editor_options.jpg)
 
 The user can always configure the following settings:
+- **Start scan from top/bottom:** The direction in which layers are scanned.
 - **Structure height:** The height of the object being scanned.
 - **Scan distance:** Distance from the structure of the flight path.
 - **Entrance/Exit Alt:** Use this setting to avoid obstacles between the last/next waypoint and the structure to be scanned. 
@@ -66,7 +69,7 @@ The user can always configure the following settings:
 - **Scan Bottom Alt:** Use this setting to avoid obstacles around the base of the structure.
   This adjust the bottom of the structure to be above the ground, and hence the altitude of the first scan
   (the height of the lowest layer flight path is shown in the scan statistics as *Bottom Layer Alt*.
-- **Rotate Entry Point:**
+- **Rotate Entry Point:** Move the start/finish point to the next vertix/position on the flight path.
   
 The remaining settings depend on the *camera mode*:
 - *Manual Mode* allows you to specify:
