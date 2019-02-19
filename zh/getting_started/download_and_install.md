@@ -26,26 +26,13 @@ Install *QGroundControl* for Mac OS X 10.8 or later:
 
 ## Ubuntu Linux
 
-Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later. You can either install the AppImage **or** the compressed archive.
-
-### AppImage
+Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later:
 
 1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
 2. Install using the terminal commands: 
         sh
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
-
-### Compressed Archive
-
-1. Download [QGroundControl.tar.bz2](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2).
-2. Extract the archive using the terminal command: 
-        sh
-        tar jxf QGroundControl.tar.bz2
-        cd qgroundcontrol
-        ./qgroundcontrol-start.sh
-
-3. Install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. You do not need to install Qt.
 
 ## Android
 
