@@ -2,7 +2,8 @@
 
 Daily Builds of *QGroundControl* have the absolute latest set of [new features](../releases/daily_build_new_features.md).
 
-> **Warning** Daily Builds are less tested than stable builds. Use at your own risk!
+> **Warning** Daily Builds are less tested than stable builds.
+  Use at your own risk!
 
 These can be downloaded from the links below (install as described in [Download and Install](../getting_started/download_and_install.md)):
 
