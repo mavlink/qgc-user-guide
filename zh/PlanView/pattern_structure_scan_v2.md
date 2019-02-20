@@ -20,7 +20,7 @@ The scan divides the structure evenly into layers; the vehicle flies all the way
 
 ![Layer JPG](../../assets/plan/structure_scan_v2/layers.jpg)
 
-Users can set the *scan bottom altitude* to avoid obstacles at the bottom of the structure, and also the altitude at which the vehicle will approach the start point before starting the scan (and leave after finishing).
+Users can set the *scan bottom altitude* to avoid obstacles at the bottom of the structure, and the *extrance/exit altitude* to avoid obstacles as the vehicle travels to/from the scan.
 
 ## Creating a Scan
 
