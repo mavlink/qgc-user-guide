@@ -17,6 +17,8 @@
 * [Setup](SetupView/SetupView.md)
    * [Firmware](SetupView/Firmware.md)
    * [Airframe](SetupView/Airframe.md)
+     * [Airframe (ArduPilot)](SetupView/Airframe_ardupilot.md)
+     * [Airframe (PX4)](SetupView/Airframe_px4.md)
    * [Radio](SetupView/Radio.md)
    * [Sensors](SetupView/Sensors.md)
    * [Flight Modes](SetupView/FlightModes.md)
