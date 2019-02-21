@@ -23,10 +23,13 @@
     * [Sensors](SetupView/Sensors.md)
     * [Flight Modes](SetupView/FlightModes.md)
     * [Power](SetupView/Power.md)
+    * [Motors](SetupView/Motors.md)
     * [Safety](SetupView/Safety.md) 
         * [Safety (ArduPilot)](SetupView/safety_ardupilot.md)
     * [Tuning](SetupView/Tuning.md) 
         * [Tuning (ArduPilot)](SetupView/tuning_ardupilot.md)
+        * [ArduCopter](SetupView/tuning_arducopter.md)
+        * [ArduSub](SetupView/tuning_ardusub.md)
         * [Tuning (PX4)](SetupView/tuning_px4.md) tuning_ardupilot
     * [Camera](SetupView/Camera.md)
     * [Joystick (PX4)](SetupView/Joystick.md)
