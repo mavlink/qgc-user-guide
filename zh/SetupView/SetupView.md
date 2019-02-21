@@ -24,6 +24,8 @@ To the left of the screen are the set of available setup options. A setup button
 
 **[Power](Power.md)** <br />Battery settings and additional power options such as ESC calibration.
 
+**[Motors](Motors.md)** <br />Motors testing and setup.
+
 **[Safety](Safety.md)** <br />Specify settings for options related to Safety such as Return to Home or Failsafes.
 
 **[Tuning](Tuning.md)** <br />Tune flight characteristics of the vehicle.
