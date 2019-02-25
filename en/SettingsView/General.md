@@ -81,10 +81,13 @@ Settings include:
 
 ### Ground Station Location (NMEA GPS Device) {#nmea_gps}
 
-*QGroundControl* will automatically use an internal GPS to display its own location on the map with a purple `Q` icon (if the GPS provides a heading, this will be also indicated by the icon). It may also use the GPS as a location source for *Follow Me Mode* - currently supported on [PX4 Multicopters only](https://docs.px4.io/en/flight_modes/follow_me.html).
+*QGroundControl* will automatically use an internal GPS to display its own location on the map with a purple `Q` icon (if the GPS provides a heading, this will be also indicated by the icon). 
+It may also use the GPS as a location source for *Follow Me Mode* - currently supported on [PX4 Multicopters only](https://docs.px4.io/en/flight_modes/follow_me.html).
 
-If your ground station does not have an internal GPS you can instead connect an external GPS module via a serial or UDP port.
-The device must support the ASCII NMEA format (this is normally the case)
+You can also configure QGC to connect to an external GPS device via a serial or UDP port.
+The GPS device must support the ASCII NMEA format - this is normally the case.
+
+> **Tip** A higher quality external GPS system may be useful even if the the ground station has internal GPS support.
 
 Use the *NMEA GPS Device* drop-down selector to manually select the GPS device and other options:
 
