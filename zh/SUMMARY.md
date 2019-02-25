@@ -32,7 +32,7 @@
         * [ArduSub Tuning](SetupView/tuning_ardusub.md)
         * [Tuning (PX4)](SetupView/tuning_px4.md) tuning_ardupilot
     * [Camera](SetupView/Camera.md)
-    * [Joystick (PX4)](SetupView/Joystick.md)
+    * [Joystick](SetupView/Joystick.md)
     * [Parameters](SetupView/Parameters.md)
 * [Settings](SettingsView/SettingsView.md) 
     * [General](SettingsView/General.md)
