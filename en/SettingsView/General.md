@@ -87,7 +87,7 @@ It may also use the GPS as a location source for *Follow Me Mode* - currently su
 You can also configure QGC to connect to an external GPS device via a serial or UDP port.
 The GPS device must support the ASCII NMEA format - this is normally the case.
 
-> **Tip** A higher quality external GPS system may be useful even if the the ground station has internal GPS support.
+> **Tip** A higher quality external GPS system may be useful even if the ground station has internal GPS support.
 
 Use the *NMEA GPS Device* drop-down selector to manually select the GPS device and other options:
 
