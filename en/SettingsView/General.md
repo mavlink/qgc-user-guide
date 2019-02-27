@@ -75,7 +75,27 @@ Settings include:
 - **Libre Pilot**: Autoconnect to Libre Pilot autopilot
 - **UDP**: Autoconnect to UDP
 - **RTK GPS**: Autoconnect to RTK GPS device
-- **NMEA GPS Device / Baudrate**: If detected, GPS information will be used for ground station location and follow me support.
+
+## Ground Station GPS (NMEA GPS Device) {#nmea_gps}
+
+The Ground Station GPS section is used to choose the source of GPS data that will be used for the GCS location. When there is a valid position provided by the NMEA GPS device, the location of the ground control station will be displayed on the map with a purple `Q` icon. If the GPS provides a heading, it will be indicated by the `Q` icon. The GCS location is also used to provide follow me support ([follow me](https://docs.px4.io/en/flight_modes/follow_me.html) is currently implemented for PX4 only).
+
+You can change the GPS source using the drop down menu in the NMEA GPS Device field. The configuration options will change based on the selected device (as shown below).
+
+![Nmea GPS Device](../../assets/settings/settings_view_general_gps.jpg)
+
+Three sources of GPS positioning for the ground control station are supported:
+
+1. **Internal GPS unit:** Many mobile devices have GPS built in. If your device internal GPS is supported, it will be automatically detected and used to display the ground control station position.
+2. **USB GPS unit:** If your device does not have a built in GPS, you may select to use a USB (serial) GPS. The GPS must print ASCII NMEA format (this is normally the case). The serial (COM) port and baudrate for the USB GPS must be configured by the user (see below). If you have trouble with using a USB GPS for positioning, try to disable RTK GPS [auto connection](#auto_connect), close qgc, reconnect your GPS, and open QGC.
+3. **Networked GPS:** If you are using your USB GPS for another application, or you have some other GPS system that is not supported by the other options, you may use a UDP network port to send the GPS data to QGC. The network port for QGC to bind and listen for data must be configured by the user (see below). The data format sent to the UDP port should be in raw ASCII NMEA format.
+
+Use these menu items to configure a USB or UDP GPS:
+
+- **NMEA GPS Device**: Select serial or UDP port for GPS information
+- **NMEA GPS Baudrate**: If serial port is selected, this sets the baudrate for that port
+- **NMEA Stream UDP Port**: If UDP port is selected, this is used to select the port that QGC will listen for the NMEA data (QGC binds the port as a server)
+
 
 ## Video {#video}
 

@@ -2,6 +2,14 @@
 
 The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
+## System Requirements
+
+QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources.
+More capable hardware will provide a better experience. 
+A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+
+For the best experience and compatibility, we recommend you the newest version of your operating system.
+
 ## Windows
 
 Install *QGroundControl* for Windows Vista or later:
@@ -24,10 +32,7 @@ Install *QGroundControl* for Mac OS X 10.8 or later:
   
 ## Ubuntu Linux
 
-Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later. 
-You can either install the AppImage **or** the compressed archive.
-
-### AppImage
+Install *QGroundControl* for Ubuntu Linux 14.04 LTS or later:
 
 1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
 1. Install using the terminal commands:
@@ -36,19 +41,6 @@ You can either install the AppImage **or** the compressed archive.
    ./QGroundControl.AppImage  (or double click)
    ```
 
-### Compressed Archive
-
-1. Download [QGroundControl.tar.bz2](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2).
-1. Extract the archive using the terminal command:
-   ```sh
-   tar jxf QGroundControl.tar.bz2
-   cd qgroundcontrol
-   ./qgroundcontrol-start.sh
-   ```
-1. Install additional packages as specified in the github <a class="urlextern" title="https://github.com/mavlink/qgroundcontrol" href="https://github.com/mavlink/qgroundcontrol" rel="nofollow">README</a>. 
-   You do not need to install Qt.
-
-  
 ## Android
 
 Install *QGroundControl* for Android 5.1 or later:

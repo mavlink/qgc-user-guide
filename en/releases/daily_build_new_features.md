@@ -2,10 +2,5 @@
 
 This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* since the last [stable release](../releases/release_notes.md). These features are available in [daily builds](../releases/daily_builds.md).
 
-## Plan
-
-### Simple Terrain Support
-
-![Simple Terrain Support](../../assets/plan/SimpleMissionItemTerrain.jpg)
-
-Allows you to create mission items which specify altitude as height above terrain: [Details](https://github.com/mavlink/qgroundcontrol/pull/6225)
+* [Structure Scan V2](../PlanView/pattern_structure_scan_v2.md) - The previous *Structure Scan* code had major issues.
+  This new version addresses those problems and includes new features. 
