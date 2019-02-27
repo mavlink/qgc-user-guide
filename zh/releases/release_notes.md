@@ -52,13 +52,12 @@ This section contains a high level and *non-exhaustive* list of new features add
   * **Load KML** Ability to load a KML file directly from the Sync menu. You will be prompted for what type of Pattern you want to create from the KML if needed.
   * **Survey** Better support for irregular shaped polygons.
   * **[Corridor Scan](../PlanView/pattern_corridor_scan.md)** - Create a flight pattern which follows a poly-line. For example can be used to survey a road.
-  * **[Fixed Wing Landing Pattern](../PlanView/pattern_fixed_wing_landing.md)Fixed Wing Landing Pattern** 
+  * **[Fixed Wing Landing Pattern](../PlanView/pattern_fixed_wing_landing.md)** 
     * Landing area visually represented in Plan.
     * Landing position/heading can be copied from Vehicle position/heading.
   * **Terrain** 
     * Height of mission items can be specified as height above terrain.
-    * Survey and Corridor Scan can generate flight plans which follow terrain.
-    * Note: This feature does not support ArduPilot terrain as specified here: http://ardupilot.org/copter/docs/common-terrain-following.html. See details for how it works. 
+    * Survey and Corridor Scan can generate flight plans which follow terrain. > **Note** This feature does not support [ArduPilot terrain following](http://ardupilot.org/copter/docs/common-terrain-following.html). 
   * **Edit Position** Set item position from vehicle position. 
 * **Fly** 
   * **Pre-Flight Checklist** You can turn this on from Settings. It provides a generic checklist to follow prior to flight. Expect more feature to appear for this in 3.5 daily builds.
@@ -66,7 +65,7 @@ This section contains a high level and *non-exhaustive* list of new features add
     * Many new values available for display.
     * New Camera page which provides full camera control. Requires a camera which support new MavLink camera specification.
   * **ArduPlane** Much better support for guided commands including QuadPlane support.
-  * **High Latency Links** Support for high latency links such as satelitte connections. Limits the traffic from QGC up to Vehicle on these links to reduce cost. Supports HIGH_LATENCY mavlink message. Supports failover back/forth from high latency to normal link with dual link setup.
+  * **High Latency Links** Support for high latency links such as satellite connections. Limits the traffic from QGC up to Vehicle on these links to reduce cost. Supports HIGH_LATENCY MavLink message. Supports failover back/forth from high latency to normal link with dual link setup.
 
 ## Stable Version 3.3
 
