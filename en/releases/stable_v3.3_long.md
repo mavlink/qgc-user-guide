@@ -8,9 +8,9 @@ This topic contains a high level and *non-exhaustive* list of new features added
 
 #### NMEA GPS Device support
 
-![NMEA GPS Device support](../../assets/settings/NMEADevice.jpg)
+![NMEA GPS Device support](../../assets/settings/general/NMEADevice.jpg)
 
-You can specify a connection to one of these devices on the General page. 
+You can specify a connection to one of these devices on the General page.
 The GPS information will then be used for ground station location and in turn follow me support.
 
 For more information see [Settings > General (AutoConnect to the following devices)](../SettingsView/General.md#auto_connect).

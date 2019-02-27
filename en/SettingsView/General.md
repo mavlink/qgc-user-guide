@@ -1,17 +1,18 @@
 # General Settings (Settings View)
 
-The general settings (**SettingsView > General Settings**) are the main place for application-level configuration. Settable values include: display units, autoconnection devices, video display and storage, RTK GPS, brand image, and other miscellaneous settings.
+The general settings (**SettingsView > General Settings**) are the main place for application-level configuration. 
+Settable values include: display units, autoconnection devices, video display and storage, RTK GPS, brand image, and other miscellaneous settings.
 
 > **Note** Values are settable even if no vehicle is connected. Settings that require a vehicle restart are indicated in the UI.
 
-![SettingsView - Full General Tab](../../assets/settings/settings_view_general.jpg)
+![SettingsView - Full General Tab](../../assets/settings/general/overview.jpg)
 
 
 ## Units
 
 This section defines the display units used in the application.
 
-![Units settings](../../assets/settings/settings_view_general_units.jpg)
+![Units settings](../../assets/settings/general/units.jpg)
 
 The settings are:
 - **Distance**: Meters | Feet
@@ -23,7 +24,7 @@ The settings are:
 
 This section defines a number of miscellaneous settings, related to (non exhaustively): font sizes, colour schemes, map providers, map types, telemetry logging, audio output, low battery announcement levels, default mission altitude, [virtual joysticks](../SettingsView/VirtualJoystick.md), mission autoloading, default application file load/save path etc.
 
-![Miscellaneous settings](../../assets/settings/settings_view_general_miscellaneous.jpg)
+![Miscellaneous settings](../../assets/settings/general/miscellaneous.jpg)
 
 The settings are:
 - <span id="colour_scheme"></span>**Color Scheme**: Indoor (Dark) | Outdoor (Light)
@@ -50,7 +51,7 @@ The settings are:
 
 This section specifies the RTK GPS "Survey-in" settings.
 
-![RTK GPS Settings](../../assets/settings/settings_view_general_rtk_gps.jpg)
+![RTK GPS Settings](../../assets/settings/general/rtk_gps.jpg)
 
 > **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. 
   The process takes measurements over time, leading to increasing position accuracy. 
@@ -66,42 +67,53 @@ The settings are:
 
 This section defines the set of devices to which *QGroundControl* will auto-connect. 
 
-![Device autoconnect settings](../../assets/settings/settings_view_general_autoconnect_devices.jpg)
+![Device autoconnect settings](../../assets/settings/general/autoconnect_devices.jpg)
 
 Settings include:
-- **Pixhawk**: Autoconnect to Pixhawk-series device
-- **SiK Radio**:  Autoconnect to SiK (Telemetry) radio
-- **PX4 Flow**: Autoconnect to PX4Flow device
-- **Libre Pilot**: Autoconnect to Libre Pilot autopilot
-- **UDP**: Autoconnect to UDP
-- **RTK GPS**: Autoconnect to RTK GPS device
+- **Pixhawk:** Autoconnect to Pixhawk-series device
+- **SiK Radio:** Autoconnect to SiK (Telemetry) radio
+- **PX4 Flow:** Autoconnect to PX4Flow device
+- **Libre Pilot:** Autoconnect to Libre Pilot autopilot
+- **UDP:** Autoconnect to UDP
+- **RTK GPS:** Autoconnect to RTK GPS device
+- **NMEA GPS Device:** Autoconnect to an external GPS device to get ground station position ([see below](#nmea_gps))
 
-## Ground Station GPS (NMEA GPS Device) {#nmea_gps}
 
-The Ground Station GPS section is used to choose the source of GPS data that will be used for the GCS location. When there is a valid position provided by the NMEA GPS device, the location of the ground control station will be displayed on the map with a purple `Q` icon. If the GPS provides a heading, it will be indicated by the `Q` icon. The GCS location is also used to provide follow me support ([follow me](https://docs.px4.io/en/flight_modes/follow_me.html) is currently implemented for PX4 only).
+### Ground Station Location (NMEA GPS Device) {#nmea_gps}
 
-You can change the GPS source using the drop down menu in the NMEA GPS Device field. The configuration options will change based on the selected device (as shown below).
+*QGroundControl* will automatically use an internal GPS to display its own location on the map with a purple `Q` icon (if the GPS provides a heading, this will be also indicated by the icon). 
+It may also use the GPS as a location source for *Follow Me Mode* - currently supported on [PX4 Multicopters only](https://docs.px4.io/en/flight_modes/follow_me.html).
 
-![Nmea GPS Device](../../assets/settings/settings_view_general_gps.jpg)
+You can also configure QGC to connect to an external GPS device via a serial or UDP port.
+The GPS device must support the ASCII NMEA format - this is normally the case.
 
-Three sources of GPS positioning for the ground control station are supported:
+> **Tip** A higher quality external GPS system may be useful even if the ground station has internal GPS support.
 
-1. **Internal GPS unit:** Many mobile devices have GPS built in. If your device internal GPS is supported, it will be automatically detected and used to display the ground control station position.
-2. **USB GPS unit:** If your device does not have a built in GPS, you may select to use a USB (serial) GPS. The GPS must print ASCII NMEA format (this is normally the case). The serial (COM) port and baudrate for the USB GPS must be configured by the user (see below). If you have trouble with using a USB GPS for positioning, try to disable RTK GPS [auto connection](#auto_connect), close qgc, reconnect your GPS, and open QGC.
-3. **Networked GPS:** If you are using your USB GPS for another application, or you have some other GPS system that is not supported by the other options, you may use a UDP network port to send the GPS data to QGC. The network port for QGC to bind and listen for data must be configured by the user (see below). The data format sent to the UDP port should be in raw ASCII NMEA format.
+Use the *NMEA GPS Device* drop-down selector to manually select the GPS device and other options:
 
-Use these menu items to configure a USB or UDP GPS:
+- USB connection:
 
-- **NMEA GPS Device**: Select serial or UDP port for GPS information
-- **NMEA GPS Baudrate**: If serial port is selected, this sets the baudrate for that port
-- **NMEA Stream UDP Port**: If UDP port is selected, this is used to select the port that QGC will listen for the NMEA data (QGC binds the port as a server)
+  ![NMEA GPS Device - Serial](../../assets/settings/general/nmea_gps_serial.jpg)
+
+  - **NMEA GPS Device:** *Serial*
+  - **NMEA GPS Baudrate**: The baudrate for the serial port
+
+  > **Tip** To troubleshoot serial GPS problems: Disable RTK GPS [auto connection](#auto_connect), close *QGroundControl*, reconnect your GPS, and open QGC.
+
+
+- Network connection:
+
+  ![NMEA GPS Device - UDP](../../assets/settings/general/nmea_gps_udp.jpg)
+
+  - **NMEA GPS Device:** *UDP Port*.
+  - **NMEA Stream UDP Port**: The UDP port on which QGC will listen for NMEA data (QGC binds the port as a server)
 
 
 ## Video {#video}
 
 The *Video* section is used to define the source and connection settings for video that will be displayed in *Fly View*.
 
-![Video settings](../../assets/settings/settings_view_general_video_udp.jpg)
+![Video settings](../../assets/settings/general/video_udp.jpg)
 
 > **Note** The values displayed in this setting depend on the video source. 
   If no video source is specified then no other video or *video recording* settings will be displayed (above we see the settings when UDP source is selected).
@@ -112,9 +124,9 @@ The *Video* section is used to define the source and connection settings for vid
 The *Video Recording* section is used to specify the file format and maximum allocated file storage for storing video. 
 Videos are saved to a sub-directory ("Video") of the [Application Load/Save Path](#load_save_path).
 
-![Video - without auto deletion](../../assets/settings/settings_view_general_video_recording.jpg)
+![Video - without auto deletion](../../assets/settings/general/video_recording.jpg)
 
-![Video - auto deletion](../../assets/settings/settings_view_general_video_recording_auto_delete.jpg)
+![Video - auto deletion](../../assets/settings/general/video_recording_auto_delete.jpg)
 
 The settings are:
 - **Auto-delete Files**: If checked, files are auto deleted when the specified amount of storage is used.
@@ -129,7 +141,7 @@ This setting specifies the *brand image* used for indoor/outdoor colour schemes.
 The brand image is displayed in place of the icon for the connected autopilot in the top right corner of the toolbar.
 It is provided so that users can easily create screen/video captures that include a company logo/branding.
 
-![Brand Image](../../assets/settings/settings_view_general_brand_image.jpg)
+![Brand Image](../../assets/settings/general/brand_image.jpg)
 
 The settings are:
 - **Indoor Image**: Brand image used in [indoor color scheme](#colour_scheme)
