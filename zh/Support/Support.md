@@ -84,6 +84,20 @@ If you experience UI rendering issues or video driver crashes on Windows, this m
 - **GPU Compatibility Mode:** QGC uses ANGLE drivers, which implement OpenGL on top of DirectX.
 - **GPU Safe Mode:** QGC uses a software rasterizer for the UI (this is very slow).
 
+### Windows: Waiting For Vehicle Connection over WiFi {#waiting_for_connection}
+
+If *QGroundControl* sits forever *Waiting For Vehicle Connection* when trying to connect to the vehicle over Wifi, a possible cause is that IP traffic is being blocked by firewall software (e.g. Windows Defender, Norton, etc.).
+
+![Waiting for connection](../../assets/support/waiting_for_connection.jpg)
+
+The solution is to allow the *QGroundControl* app through the firewall.
+
+If using *Windows Defender*:
+
+- In the **Start** bar, enter/select: *Firewall & Network Protection* (System Settings).
+- Scroll to and select the option: *Allow an app through firewall*.
+- Select *QGroundControl* and change the *Access* selector to **Allow**. > **Tip** Programs are listed in alphabetical order by description (not filename). You'll find QGC under **O**: *Open source ground control app provided by QGroundControl dev team*
+
 ## Help Improve these Docs!
 
 Just like *QGroundControl* itself, the user guide is an open source, user created and supported GitBook. We welcome [Pull Requests](https://github.com/mavlink/qgc-user-guide/pulls) against the guide for fixes and/or updates.
