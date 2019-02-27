@@ -58,7 +58,7 @@ When connected to a vehicle it also shows an **Upload** button, which can be use
 
 The [Mission Settings](../PlanView/PlanView.md#mission_settings) panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
 
-<img src="../../assets/plan/MissionSettings.png" style="width: 150px;" />
+<img src="../../assets/plan/mission/mission_settings.png" style="width: 150px;" />
 
 #### Mission Defaults
 
@@ -76,7 +76,7 @@ Check this if you want your vehicle to RTL after the final mission item.
 
 #### Camera section
 
-<img src="../../assets/plan/MissionSettingsCameraSection.jpg" style="width: 150px;" />
+<img src="../../assets/plan/mission/mission_settings_camera_section.jpg" style="width: 150px;" />
 
 The camera section allows you to specify a camera action to take, control the gimbal and set your camera into photo or video mode.
 
@@ -91,7 +91,7 @@ The camera actions available are:
 
 #### Vehicle Info section
 
-<img src="../../assets/plan/MissionSettingsVehicleInfoSection.jpg" style="width: 150px;" />
+<img src="../../assets/plan/mission/mission_settings_vehicle_info_section.jpg" style="width: 150px;" />
 
 When planning a mission the firmware being run on the vehicle as well as the vehicle type must be known in order for QGroundControl to show you the mission commands which are appropriate for your vehicle.
 
@@ -101,7 +101,7 @@ The additional value that can be specified when planning a mission is the vehicl
 
 #### Planned Home Position
 
-<img src="../../assets/plan/MissionSettingsPlannedHomePositionSection.jpg" style="width: 150px;" />
+<img src="../../assets/plan/mission/mission_settings_planned_home.jpg" style="width: 150px;" />
 
 The planned home position allows you to simulate the vehicle's home position while planning a mission. This way you see the waypoint trajectory for your vehicle from takeoff to mission completion. Keep in mind that this is only the "planned" home position and you should place it where you plan to start the vehicle from. It has no actual impact on flying the mission. The actual home position of a vehicle is set by the vehicle itself when arming.
 
