@@ -64,8 +64,9 @@ The plan tools are used for adding individual waypoints, easing mission creation
 
 ### Add Waypoints
 
-Click on the **Add Waypoint** tool to activate it. While active, clicking on the map will add new mission waypoint at the clicked location. 
-The tool will stay active until you select it again. 
+Click on the **Add Waypoint** tool to activate it.
+While active, clicking on the map will add new mission waypoint at the clicked location.
+The tool will stay active until you select it again.
 Once you have added a waypoint, you can select it and drag it around to change its position.
 
 
@@ -76,7 +77,7 @@ The tool displays an `!` to indicate that there are mission changes that you hav
 
 > **Note** Before you fly a mission you must upload it to the vehicle.
 
-The *File tools* provides the following functionality:
+The *File tools* provide the following functionality:
 
 * Upload (Send to vehicle)
 * Download (Load from vehicle)
@@ -185,6 +186,22 @@ This section allows you to specify the vehicle firmware/type when not connected 
 The additional value that can be specified when planning a mission is the vehicle flight speed. 
 By specifying this value, total mission or survey times can be approximated even when not connected to a vehicle.
 
+## Troubleshooting
+
+### Mission (Plan) Upload/Download Failures {#plan_transfer_fail}
+
+Plan uploading and downloading can fail over a noisy communication link (affecting missions, GeoFence, and rally points). 
+If a failure occurs you should see a status message in the QGC UI similar to: 
+
+> Mission transfer failed. Retry transfer. Error: Mission write mission count failed, maximum retries exceeded.
+
+The loss rate for your link can be viewed in [Settings View > MAVLink](../SettingsView/MAVLink.md).
+The loss rate should be in the low single digits (i.e. maximum of 2 or 3):
+- A loss rate in the high single digits can lead to intermittent failures.
+- Higher loss rates often lead to 100% failure.
+
+There is a much smaller possibility that issues are caused by bugs in either flight stack or QGC.
+To analyse this possibility you can turn on [Console Logging](../SettingsView/console_logging.md) for Plan upload/download and review the protocol message traffic.
 
 ## Further Info
 

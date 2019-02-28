@@ -64,7 +64,6 @@
 * [Support](Support/Support.md)
     * [Common Problems](Support/CommonProblems.md)
        * [Parameter Download failures](Support/ParameterDownload.md)
-       * [Plan Upload/Download failures](Support/PlanUploadDownload.md)
        * [Resume Mission failures](Support/ResumeMission.md)
 
 ## Flight Stacks
