@@ -17,8 +17,8 @@ You can switch between the various settings options by clicking the buttons in t
 **[Offline Maps](OfflineMaps.md)**
 <br>Allows you to cache maps for use while you have no Internet connection.
 
-**MAVLink**
+**[MAVLink](MAVLink.md)**
 <br>Settings associated with the MAVLink connection to a vehicle.
 
-**[Console](../SettingsView/console_logging.md)**
+**[Console](console_logging.md)**
 <br>Used to capture application logs for help with diagnosing application problems.
