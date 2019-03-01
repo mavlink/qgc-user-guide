@@ -1,10 +1,13 @@
 # Fly View
 
 The Fly View is used to command and monitor the vehicle when flying.
-You can use it to: start, pause, stop and resume missions.
-You can also use it to directly control the vehicle to arm/disarm/emergency stop, takeoff/land, move to or orbit a particular location, and return/RTL.
 
-From this view you can also switch between a map view and a video view (if available), and also switch between connected vehicles to view their mission and telemetry.
+You can use it to:
+- Run an automated [pre-flight checklist](#preflight_checklist).
+- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), [stop](#stop_mission) and [resume](#resume_mission).
+- Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
+- Switch between a map view and a video view (if available)
+- Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
 
 ![Fly View](../../assets/fly/fly_view_overview.jpg)
 
@@ -102,7 +105,7 @@ Click it to open the checklist:
 
 Once you have performed each test, click on it in the UI to mark it as complete.
 
-### Arm/Disarm/Emergency Stop {#arm}
+### Arm {#arm}
 
 > **Tip** Generally *QGroundControl* does not require you to arm the vehicle explicitly; this is done for you if you start a mission or takeoff.
 
@@ -115,17 +118,24 @@ To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the co
 > **Note** Vehicles usually disarm automatically if you do not take off after a few seconds.
 
 
-### Disarm/Emergency Stop {#arm}
+### Disarm {#disarm}
 
 Disarming the vehicle stops the motors (making the vehicle safe).
-To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is landed.
+To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
 
 ![Disarm](../../assets/fly/disarm.jpg)
 
-If you disarm the vehicle while it is flying your vehicle may crash - this is called an *Emergency Stop*!
+> **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
+
+
+### Emergency Stop {#emergency_stop}
+
+Emergency stop is effectively the same as disarming the vehicle while you are flying.
+Your vehicle will crash!
+
+To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
 
 ![Emergency Stop](../../assets/fly/emergency_stop.jpg)
-
 
 ### Takeoff {#takeoff}
 
@@ -141,7 +151,7 @@ To takeoff (when landed):
 
 ### Land {#land}
 
-You can land at the current position at any time while flying
+You can land at the current position at any time while flying:
 1. Click the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
 1. Confirm landing using the slider.
 
@@ -159,9 +169,17 @@ Return to the home position at any time while flying:
 > **Note** The vehicle may also land at the home position, depending on its type and configuration.
 
 
-### Change Altitude
+### Change Altitude {#change_altitude}
 
-![altitude](../../assets/fly/altitude.jpg)
+You can change altitude while flying, except when in a mission:
+1. Click the **Action** button on the *Fly Tools*
+1. Select the *Change Altitude* action from the dialog.
+
+   ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
+
+1. Move the horizontal slider to the desired altitude, then drag the confirmation slider to start the action.
+
+   ![Change altitude](../../assets/fly/change_altitude.jpg)
 
 
 ### Goto Location {#goto}
@@ -212,7 +230,7 @@ To pause:
 
 ### Missions
 
-#### Start Mission
+#### Start Mission {#start_mission}
 
 You can start a mission when the vehicle is landed (the start mission confirmation slider is often displayed by default).
 
@@ -227,11 +245,66 @@ To start a mission from landed:
 
    ![Start mission](../../assets/fly/start_mission.jpg)
 
-### Continue Mission
+#### Continue Mission {#continue_mission}
+
+You can *continue* mission from the *next* waypoint when you're flying (the *Continue Mission* confirmation slider is often displayed by default after you takeoff).
+
+> **Note** Continue and [Resume mission](#resume_mission) are different!
+  Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command.
+  Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from you place in the mission).
+
+You can continue the current mission while (unless already in a mission!):
+1. Click the **Action** button on the *Fly Tools*
+1. Select the *Continue Mission* action from the dialog.
+
+   ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
+
+1. Drag the confirmation slider to continue the mission.
+
+   ![Continue Mission](../../assets/fly/continue_mission.jpg)
 
 
-### Resume Mission
+#### Resume Mission {#resume_mission}
 
-<!-- populate from https://docs.qgroundcontrol.com/en/releases/stable_v3.2_long.html#resume-mission -->
+*Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
 
+> **Note** If you are performing a battery change, **do not** disconnect QGC from the vehicle after disconnecting the battery.
+After you insert the new battery *QGroundControl* will detect the vehicle again and automatically restore the connection. 
+
+After reconnecting you will be prompted with a *Resume Mission* confirmation slider.
+If you want to resume the mission, confirm this and the mission will start from the last waypoint traveled through. 
+Once the mission is rebuilt you will be presented with another Resume Mission slide which allows you to review the rebuilt mission before starting it again.
+Confirm this *Resume Mission* slider to continue on with the mission.
+
+![Resume Mission](../../assets/fly/resume_mission.jpg)
+
+##### Note: How Resume Mission Rebuilding Works
+
+A mission cannot simply resume from the last mission item the vehicle executed because there may be multiple items at the last waypoint that affect the next stage of the mission (e.g. speed commands or camera control commands).
+Skipping any mission items at the last waypoint may prevent the rest of the mission running correctly.
+
+Therefore *QGroundControl* rebuilds the mission looking backwards from the last mission item flown, and automatically appends relevant commands to the front of the mission. 
+By doing this the state of the mission prior to the resume point is restored.
+
+The following mission commands are the ones scanned for:
+* [MAV_CMD_DO_CONTROL_VIDEO](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_CONTROL_VIDEO)
+* [MAV_CMD_DO_SET_ROI](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_SET_ROI)
+* [MAV_CMD_DO_DIGICAM_CONFIGURE](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_DIGICAM_CONFIGURE)
+* [MAV_CMD_DO_DIGICAM_CONTROL](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_DIGICAM_CONTROL)
+* [MAV_CMD_DO_MOUNT_CONFIGURE](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_MOUNT_CONFIGURE)
+* [MAV_CMD_DO_MOUNT_CONTROL](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_MOUNT_CONTROL)
+* [MAV_CMD_DO_SET_CAM_TRIGG_DIST](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_SET_CAM_TRIGG_DIST)
+* [MAV_CMD_DO_FENCE_ENABLE](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_FENCE_ENABLE)
+* [MAV_CMD_IMAGE_START_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_IMAGE_START_CAPTURE)
+* [MAV_CMD_IMAGE_STOP_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_IMAGE_STOP_CAPTURE)
+* [MAV_CMD_VIDEO_START_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_VIDEO_START_CAPTURE)
+* [MAV_CMD_VIDEO_STOP_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_VIDEO_STOP_CAPTURE)
+* [MAV_CMD_DO_CHANGE_SPEED](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_CHANGE_SPEED)
+* [MAV_CMD_NAV_TAKEOFF](https://mavlink.io/en/messages/common.html#MAV_CMD_NAV_TAKEOFF)
+
+
+#### Remove Mission Prompt After Landing {#resume_mission_prompt}
+
+You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. 
+This is meant to prevent issues where stale missions are unknowingly left on a vehicle, potentially resulting in unexpected behavior.
 
