@@ -15,9 +15,10 @@ This section sets the MAVLink properties and behaviour of *QGroundControl*.
   Vehicles are typically allocated IDs from 1. 
   You may have to specify another ID if there are multiple ground stations or MAVLink applications on the network. 
 - **Emit heartbeat:** Disable emission of regular MAVLink HEARTBEAT message (Default: True).
-  MAVLink systems are required to emit heartbeats by the protocol, but this is not strictly speaking *needed* on single-vehicle/GCS networks.
-- **Request start of MAVLink telemetry streams (ArduPilot only):** TBD (Default: True).
-- **Only accept MAVs with the same protocol version:** TBD (Default: True).
+  Generally speaking, you should not turn this off.
+- **Request start of MAVLink telemetry streams (ArduPilot only):** Enable *QGroundControl* requesting the standard-rate ArduPilot telemetry streams (Default: True). 
+  If non-standard rates are required (e.g. if the vehicle is connecting over a slow link) then you can disable starting the standard streams so that the vehicle can control streaming rates.
+- **Only accept MAVs with the same protocol version:** Set true to only connect to MAVLink 1 or to MAVLink 2 vehicles (Default: True).
 
 ## Link Status {#link_status}
 
@@ -43,7 +44,7 @@ The fields are:
 - **Email address for Log Uploads:** *Flight Review* will email you a link to the upload at this address.
   This is important as otherwise you will have no way to access a non-public log after upload.
 - **Default Description:** Description/name of flight used for log.
-- **Default Upload URL:** URL for upload of the log/log metadata. 
+- **Default Upload URL:** URL for upload of the log/log metadata.
   This is set by default to the *Flight Review* URL.
 - **Video URL:** (Optional) URL for video of flight associated with log.
   This may be included on the Flight Review page to ease analysis.
