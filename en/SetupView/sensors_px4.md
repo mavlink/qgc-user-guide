@@ -65,13 +65,17 @@ To calibrate the flight controller accelerometers you will be asked to place and
 The calibration steps are:
 
 1. Click the **Accelerometer** sensor button.
-   ![Accelerometer calibration](../../assets/setup/sensor_accelerometer.jpg)
+   ![Accelerometer calibration](../../assets/setup/sensor/accelerometer_px4.jpg)
    > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. 
      If not, you can also set it here.     
 1. Click **OK** to start the calibration. 
 1. Position the vehicle as guided by the *images* on the screen. This is very similar to compass calibration.
-  ![Accelerometer calibration](../../assets/setup/sensor_accelerometer_positions_px4.jpg)
+  ![Accelerometer calibration](../../assets/setup/sensor/accelerometer_positions_px4.jpg)
+1. Repeat the calibration process for all vehicle orientations.
+   
+Once you've rotated the vehicle in all the positions *QGroundControl* will display *Calibration complete*.
 
+You can then proceed to the next sensor.
 
 ## Level Horizon
 

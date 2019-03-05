@@ -19,13 +19,13 @@ To calibrate the flight controller accelerometers you will be asked to place and
 The calibration steps are:
 
 1. Click the **Accelerometer** sensor button.
-   ![Accelerometer calibration](../../assets/setup/sensor_accelerometer.jpg)
+   ![Accelerometer calibration](../../assets/setup/sensor/accelerometer_ardupilot.jpg)
    > **Note** You should already have set the [Flight Controller Orientation](#flight_controller_orientation) above. 
      If not, you can also set it here. 
 1. Click **OK** to start the calibration.   
 1. Position the vehicle based on text instructions in the center display. 
    Click the **Next** button to capture each position.
-  ![Accelerometer calibration](../../assets/setup/sensor_accelerometer_positions_ardupilot.jpg)
+  ![Accelerometer calibration](../../assets/setup/sensor/accelerometer_positions_ardupilot.jpg)
 
 
 ## Compass {#compass}
