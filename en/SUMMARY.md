@@ -21,6 +21,8 @@
      * [Airframe (PX4)](SetupView/airframe_px4.md)
    * [Radio](SetupView/Radio.md)
    * [Sensors](SetupView/Sensors.md)
+     * [Sensors (ArduPilot)](SetupView/sensors_ardupilot.md)
+     * [Sensors (PX4)](SetupView/sensors_px4.md)
    * [Flight Modes](SetupView/FlightModes.md)
    * [Power](SetupView/Power.md)
    * [Motors (ArduSub)](SetupView/Motors.md)
