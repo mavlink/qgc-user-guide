@@ -30,7 +30,7 @@ The screenshot above shows the main elements of the fly view:
     Actions include changing the altitude or continuing a mission.
   - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
 - **[Instrument Panel](#instrument_pane):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
-- **Video/Switcher:** Displays video in a window (if available).
+- **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
   - Click the element to switch *Video* and *Map* to foreground.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
     It also support directly connected UVC device support.
@@ -60,7 +60,7 @@ Each value can be displayed in normal or "large" size (large size shows just one
 ![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
 
 
-### Camera
+### Camera {#camera_instrument_page}
 
 The camera page is used to configure and control the camera.
 For a camera connected directly to the Flight Controller the only available option is camera triggering:
@@ -78,7 +78,7 @@ The settings that are displayed will depend on/are a property of the camera.
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
 
 
-### Video Stream
+### Video Stream {#video_instrument_page}
 
 The video page is used to enable/disable video streaming.
 When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
@@ -101,14 +101,11 @@ The vibration page shows current vibration levels and clip counts.
 ![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
 
 
-## Common Operations
+## Actions/Tasks
 
-The following sections describe how to access/perform common operations in the Fly View.
-Most operations must be confirmed using the *Confirmation slider* at the bottom of the screen.
+The following sections describe how to perform common operations/tasks in the Fly View.
 
-![Confirmation slider](../../assets/fly/confirmation_slider.jpg)
-
-> **Note** The available options vary by vehicle and current vehicle state.
+> **Note** Many of the available options depend on both the vehicle type and its current state.
 
 
 ### Pre Flight Checklist {#preflight_checklist}
@@ -325,4 +322,54 @@ The following mission commands are the ones scanned for:
 
 You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. 
 This is meant to prevent issues where stale missions are unknowingly left on a vehicle, potentially resulting in unexpected behavior.
+
+### Display Video {#video_switcher}
+
+*QGroundControl* supports RTP and RTSP video streaming over your vehicle's UDP connection.
+When video streaming is enabled the stream is displayed in the video switcher window at the bottom left of the map.
+Click the switcher to toggle *Video* and *Map* to foreground.
+
+![Video Stream Record](../../assets/fly/video_record.jpg)
+
+> **Note** The vidoe stream is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
+
+
+It is possible to resize the video switcher.
+First click on its top-left corner.
+Resize the window by dragging the icon in the top right corner, and hide it with the icon in the lower left.
+
+![Video Pop](../../assets/fly/video_pop.jpg)
+
+
+### Record Video
+
+If supported by the camera, *QGroundControl* can start and stop video recording on the camera itself, or it can record and save the video stream locally.
+
+> **Tip** Video stored on the camera may be of much higher quality, but it is likely that your ground station will have a much larger recording capacity.
+
+#### Record Video Stream (on GCS)
+
+Record the video stream on the [video stream instrument page](#video_instrument_page).
+Click the red circle to start recording a new video (a new video is started every time the circle is clicked); the circle will change into a red square while recording is in progress.
+
+![Video Stream Record](../../assets/fly/video_record.jpg)
+
+Video stream recording is configured in the [Application Settings > General tab](../SettingsView/General.md):
+- [Video Recording](../SettingsView/General.md#video-recording) - specifies the recording file format and storage limits. 
+  > **Note** Videos are saved in Matroska format (.mkv) by default.
+    This format is relatively robust against corruption in case of errors.
+- [Miscellaneous](../SettingsView/General.md#miscellaneous) - Streamed video is saved under the **Application Load/Save Path**. 
+
+> **Tip** The stored video includes just the video stream itself.
+  To record video with QGroundControl application elements displayed, you should use separate screen recording software. 
+
+#### Record Video on Camera
+
+Start/stop video recording *on the camera itself* using the [camera instrument page](#camera_instrument_page).
+First toggle to video mode, then select the red button to start recording.
+
+![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
+
+
+
 
