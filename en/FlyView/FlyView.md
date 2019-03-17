@@ -52,21 +52,39 @@ The default page displays vehicle telemetry - use the drop down menu on the to r
 
 The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
 
-You can configure what information is display by clicking the small gear icon on the top left of the panel.
-
 ![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
+
+You can configure what information is display by clicking the small gear icon on the top left of the panel.
+Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
+
+![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
+
 
 ### Camera
 
-The camera page can be used to manually trigger the camera.
+The camera page is used to configure and control the camera.
+For a camera connected directly to the Flight Controller the only available option is camera triggering:
 
 ![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
 
+When connected to camera that supports the [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html) you can additionally configure and use other camera services that it makes available.
+For example, if your camera supports video mode you will be able to  switch between still image capture and video mode, and start/stop recording.
+
+![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
+
+Advanced settings can be changed by clicking the gear icon at the top left of the page.
+The settings that are displayed will depend on/are a property of the camera.
+
+![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
+
+
 ### Video Stream
 
-The video page is used to enable and record video streaming.
+The video page is used to enable/disable video streaming.
+When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
 
 ![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
+
 
 ### Health
 
