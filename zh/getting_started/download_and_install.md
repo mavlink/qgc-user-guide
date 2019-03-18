@@ -26,17 +26,23 @@ Install *QGroundControl* for Mac OS X 10.8 or later:
 
 ## Ubuntu Linux
 
+Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove it and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming:
+
+1. On the command prompt enter: 
+        sh
+        sudo usermod -a -G dialout $USER
+        sudo apt-get remove modemmanager -y
+        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
+
+2. Logout and login again to enable the change to user permissions.
+
 Install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
 
 1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
-2. Install using the terminal commands: 
+2. Install (and run) using the terminal commands: 
         sh
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
-
-3. For video support, you need to install GStreamer: 
-        sh
-        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav
 
 ## Android
 
