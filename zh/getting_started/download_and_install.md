@@ -34,6 +34,10 @@ Install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
+3. For video support, you need to install GStreamer: 
+        sh
+        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav
+
 ## Android
 
 Install *QGroundControl* for Android 5.1 or later:
