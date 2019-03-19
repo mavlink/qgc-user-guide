@@ -343,7 +343,7 @@ Resize the window by dragging the icon in the top right corner, and hide it with
 
 ### Record Video
 
-If supported by the camera, *QGroundControl* can start and stop video recording on the camera itself, or it can record and save the video stream locally.
+If supported by the camera and vehicle, *QGroundControl* can start and stop video recording on the camera itself. *QGroundControl* can also record the video stream and save it locally.
 
 > **Tip** Video stored on the camera may be of much higher quality, but it is likely that your ground station will have a much larger recording capacity.
 
