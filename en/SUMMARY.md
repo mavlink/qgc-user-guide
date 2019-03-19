@@ -64,7 +64,8 @@
     * [Privacy Policy](releases/privacy_policy.md)
 
 * [Support](Support/Support.md)
-    * [Common Problems](Support/CommonProblems.md)
+    * [QGC Install/Config Problems](Support/troubleshooting_qgc.md)
+    * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md)
        * [Parameter Download failures](Support/ParameterDownload.md)
        * [Plan Upload/Download failures](Support/PlanUploadDownload.md)
        * [Resume Mission failures](Support/ResumeMission.md)
