@@ -327,7 +327,13 @@ This is meant to prevent issues where stale missions are unknowingly left on a v
 
 ### Display Video {#video_switcher}
 
-*QGroundControl* supports RTP and RTSP video streaming over your vehicle's UDP connection.
+*QGroundControl* supports a number of video streaming options:
+- RTP and RTSP video streaming over your vehicle's UDP connection
+- Taisync
+- TCP-MPEG2 and MPEG-TS
+- USB video devices (UVC) on desktop platforms (Android or iOS not supported).
+  This includes webcams and USB FPV video receivers.
+
 When video streaming is enabled the stream is displayed in the video switcher window at the bottom left of the map.
 Press the switcher to toggle *Video* and *Map* to foreground.
 
