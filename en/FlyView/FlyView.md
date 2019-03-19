@@ -20,8 +20,8 @@ The screenshot above shows the main elements of the fly view:
   - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status).
   - Select the sensor indicators to view more detail.
-  - Click the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Click the *Armed/Disarmed* text to toggle the armed state. If flying you can click this to Emergency Stop.
+  - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
+  - Press the *Armed/Disarmed* text to toggle the armed state. If flying you can press this text to *Emergency Stop*.
 - **Fly tools:** You can use these to:
   - Toggle between takeoff/land.
   - Pause/restart the current operation (e.g. landing, or the mission).
@@ -31,7 +31,7 @@ The screenshot above shows the main elements of the fly view:
   - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
 - **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
-  - Click the element to switch *Video* and *Map* to foreground.
+  - Press the element to switch *Video* and *Map* to foreground.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
     It also support directly connected UVC device support.
     QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
@@ -54,7 +54,7 @@ The values page shows telemetry information; by default the altitude (relative t
 
 ![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
 
-You can configure what information is display by clicking the small gear icon on the top left of the panel.
+You can configure what information is display by pressing the small gear icon on the top left of the panel.
 Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
 
 ![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
@@ -72,11 +72,13 @@ For example, if your camera supports video mode you will be able to  switch betw
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
 
-Advanced settings can be changed by clicking the gear icon at the top left of the page.
-The settings that are displayed will depend on/are a property of the camera.
+Advanced settings can be changed via the gear icon at the top left of the page.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
 
+> **Note** Most of the settings that are displayed depend on the camera (they are defined in its [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)).
+  A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
+  
 
 ### Video Stream {#video_instrument_page}
 
@@ -114,11 +116,11 @@ An automated preflight checklist can be used to run through standard checks that
 
 To you the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox.
 The tool will then be added to the *Flight Tools*. 
-Click it to open the checklist:
+Press it to open the checklist:
 
 ![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
 
-Once you have performed each test, click on it in the UI to mark it as complete.
+Once you have performed each test, select it on it in the UI to mark it as complete.
 
 ### Arm {#arm}
 
@@ -157,7 +159,7 @@ To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is 
 > **Tip** If you are starting a mission for a multicopter *QGroundControl* will automatically perform the takeoff step.
 
 To takeoff (when landed):
-1. Click the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
+1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
 1. Optionally set the takeoff altitude in the right-side vertical slider.
 1. Confirm takeoff using the slider.
 
@@ -167,7 +169,7 @@ To takeoff (when landed):
 ### Land {#land}
 
 You can land at the current position at any time while flying:
-1. Click the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
+1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
 1. Confirm landing using the slider.
 
 ![land](../../assets/fly/land.jpg)
@@ -176,7 +178,7 @@ You can land at the current position at any time while flying:
 ### RTL/Return
 
 Return to the home position at any time while flying:
-1. Click the **RTL** button in the *Fly Tools*.
+1. Press the **RTL** button in the *Fly Tools*.
 1. Confirm RTL using the slider.
 
 ![land](../../assets/fly/land.jpg)
@@ -187,7 +189,7 @@ Return to the home position at any time while flying:
 ### Change Altitude {#change_altitude}
 
 You can change altitude while flying, except when in a mission:
-1. Click the **Action** button on the *Fly Tools*
+1. Press the **Action** button on the *Fly Tools*
 1. Select the *Change Altitude* action from the dialog.
 
    ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
@@ -201,7 +203,7 @@ You can change altitude while flying, except when in a mission:
 
 After taking off you can specify that you want to fly to a particular location.
 
-1. Click the map where you want the vehicle to move and select **Go to location** on the popup.
+1. Press the map where you want the vehicle to move and select **Go to location** on the popup.
 
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
   
@@ -209,13 +211,13 @@ After taking off you can specify that you want to fly to a particular location.
 
    ![Goto confirmation](../../assets/fly/goto.jpg)
    
-1. When you're ready, drag the slider to start the operation (or click the cross to cancel it).
+1. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
 ### Orbit Location {#orbit}
 
 After taking off you can specify that you want to orbit a particular location.
 
-1. Click the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
+1. Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
 
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
   
@@ -225,7 +227,7 @@ After taking off you can specify that you want to orbit a particular location.
    
    - Select and drag the central marker to move the orbit location.
    - Select and drag the dot on the outer circle to change the orbit radius
-1. When you're ready, drag the slider to start the operation (or click the cross to cancel it).
+1. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
 
 ### Pause
@@ -236,9 +238,9 @@ The vehicle behaviour when paused depends on the vehicle type; typically a multi
 > **Note** You cannot pause a *Goto location* operation.
 
 To pause:
-1. Click the **Pause** button in the *Fly Tools*.
+1. Press the **Pause** button in the *Fly Tools*.
 1. Optionally set a new altitude using the right-side vertical slider.
-1. Confirm Pause using the slider.
+1. Confirm the pause using the slider.
 
 ![pause](../../assets/fly/pause.jpg)
 
@@ -250,7 +252,7 @@ To pause:
 You can start a mission when the vehicle is landed (the start mission confirmation slider is often displayed by default).
 
 To start a mission from landed:
-1. Click the **Action** button on the *Fly Tools*
+1. Press the **Action** button on the *Fly Tools*
 1. Select the *Start Mission* action from the dialog.
 
    ![Start mission action](../../assets/fly/start_mission_action.jpg)
@@ -269,7 +271,7 @@ You can *continue* mission from the *next* waypoint when you're flying (the *Con
   Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from you place in the mission).
 
 You can continue the current mission while (unless already in a mission!):
-1. Click the **Action** button on the *Fly Tools*
+1. Press the **Action** button on the *Fly Tools*
 1. Select the *Continue Mission* action from the dialog.
 
    ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
@@ -327,7 +329,7 @@ This is meant to prevent issues where stale missions are unknowingly left on a v
 
 *QGroundControl* supports RTP and RTSP video streaming over your vehicle's UDP connection.
 When video streaming is enabled the stream is displayed in the video switcher window at the bottom left of the map.
-Click the switcher to toggle *Video* and *Map* to foreground.
+Press the switcher to toggle *Video* and *Map* to foreground.
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
@@ -335,7 +337,7 @@ Click the switcher to toggle *Video* and *Map* to foreground.
 
 
 It is possible to resize the video switcher.
-First click on its top-left corner.
+First press on its top-left corner.
 Resize the window by dragging the icon in the top right corner, and hide it with the icon in the lower left.
 
 ![Video Pop](../../assets/fly/video_pop.jpg)
@@ -350,7 +352,7 @@ If supported by the camera and vehicle, *QGroundControl* can start and stop vide
 #### Record Video Stream (on GCS)
 
 Video stream recording is controlled on the [video stream instrument page](#video_instrument_page).
-Click the red circle to start recording a new video (a new video file is created each time the circle is clicked); the circle will change into a red square while recording is in progress.
+Press the red circle to start recording a new video (a new video file is created each time the circle is pressed); the circle will change into a red square while recording is in progress.
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
