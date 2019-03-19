@@ -29,7 +29,7 @@ The screenshot above shows the main elements of the fly view:
   - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). 
     Actions include changing the altitude or continuing a mission.
   - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
-- **[Instrument Panel](#instrument_pane):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
+- **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
   - Click the element to switch *Video* and *Map* to foreground.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
