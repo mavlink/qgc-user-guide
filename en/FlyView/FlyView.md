@@ -42,7 +42,7 @@ There are a number of other elements that are not displayed by default/are only 
 For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
 
 
-## Instrument Panel {#instrument_pane}
+## Instrument Panel {#instrument_panel}
 
 The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
 
