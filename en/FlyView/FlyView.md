@@ -331,7 +331,7 @@ Click the switcher to toggle *Video* and *Map* to foreground.
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
-> **Note** The vidoe stream is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
+> **Note** The video stream is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
 
 
 It is possible to resize the video switcher.
