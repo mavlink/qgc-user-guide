@@ -349,7 +349,7 @@ If supported by the camera and vehicle, *QGroundControl* can start and stop vide
 
 #### Record Video Stream (on GCS)
 
-Record the video stream on the [video stream instrument page](#video_instrument_page).
+Video stream recording is controlled on the [video stream instrument page](#video_instrument_page).
 Click the red circle to start recording a new video (a new video file is created each time the circle is clicked); the circle will change into a red square while recording is in progress.
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
