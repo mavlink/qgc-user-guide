@@ -192,7 +192,7 @@ You can change altitude while flying, except when in a mission:
 
    ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-1. Move the horizontal slider to the desired altitude, then drag the confirmation slider to start the action.
+1. Move the vertical slider to the desired altitude, then drag the confirmation slider to start the action.
 
    ![Change altitude](../../assets/fly/change_altitude.jpg)
 
