@@ -2,6 +2,8 @@
 
 The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
+> **Tip** See [QGC Install/Config Problems](../Support/troubleshooting_qgc.md) if you have any problem running *QGroundControl* after installation!
+
 ## System Requirements
 
 QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
@@ -15,7 +17,7 @@ Install *QGroundControl* for Windows Vista or later:
 1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
 2. Double click the executable to launch the installer.
 
-> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [Support > Troubleshooting](../Support/Support.md#opengl_troubleshooting).
+> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
 ## Mac OS X
 
@@ -24,9 +26,11 @@ Install *QGroundControl* for Mac OS X 10.8 or later:
 1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
 
-## Ubuntu Linux
+## Ubuntu Linux {#ubuntu}
 
-Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove it and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming:
+Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
+
+Before installing *QGroundControl* for the first time:
 
 1. On the command prompt enter: 
         sh
@@ -36,7 +40,7 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 
 2. Logout and login again to enable the change to user permissions.
 
-Install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
+&nbsp; To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
 
 1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
 2. Install (and run) using the terminal commands: 
