@@ -327,26 +327,27 @@ This is meant to prevent issues where stale missions are unknowingly left on a v
 
 ### Display Video {#video_switcher}
 
-*QGroundControl* supports a number of video streaming options:
-- RTP and RTSP video streaming over your vehicle's UDP connection
-- Taisync
-- TCP-MPEG2 and MPEG-TS
-- USB video devices (UVC) on desktop platforms (Android or iOS not supported).
-  This includes webcams and USB FPV video receivers.
-
-When video streaming is enabled the stream is displayed in the video switcher window at the bottom left of the map.
-Press the switcher to toggle *Video* and *Map* to foreground.
+When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map.
+You can press the switcher anywhere to toggle *Video* and *Map* to foreground (below we show the video in the foreground).
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
-> **Note** The video stream is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
+> **Note** Video streaming is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
+
+You can further configure video display using controls on the switcher:
+
+  ![Video Pop](../../assets/fly/video_pop.jpg)
+- Resize the switcher by dragging the icon in the to right corner.
+- Hide the switcher by pressing the toggle icon in the lower left.
+- Detach the video switcher window by pressing on the icon in its top left corner
+  (once detached, you can move and resize the window just like any other in your OS).
+  If you close the detached window the switcher will re-lock to the QGC Fly view.
 
 
-It is possible to resize the video switcher.
-First press on its top-left corner.
-Resize the window by dragging the icon in the top right corner, and hide it with the icon in the lower left.
 
-![Video Pop](../../assets/fly/video_pop.jpg)
+
+
+
 
 
 ### Record Video
