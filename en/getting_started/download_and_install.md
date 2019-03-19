@@ -2,6 +2,8 @@
 
 The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
+> **Tip** See [QGC Install/Config Problems](../Support/troubleshooting_qgc.md) if you have any problem running *QGroundControl* after installation!
+
 ## System Requirements
 
 QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources.
@@ -19,7 +21,7 @@ Install *QGroundControl* for Windows Vista or later:
 
 > **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. 
   Use the first shortcut unless you experience startup or video rendering issues. 
-  For more information see [Support > Troubleshooting](../Support/Support.md#opengl_troubleshooting).
+  For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
 
 ## Mac OS X
@@ -30,11 +32,13 @@ Install *QGroundControl* for Mac OS X 10.8 or later:
 1. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
 
   
-## Ubuntu Linux
+## Ubuntu Linux {#ubuntu}
 
 Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial).
-Before installing *QGroundControl* you should remove it and grant yourself permissions to access the serial port.
-You also need to install *GStreamer* in order to support video streaming:
+Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port.
+You also need to install *GStreamer* in order to support video streaming.
+
+Before installing *QGroundControl* for the first time:
 1. On the command prompt enter:
    ```sh
    sudo usermod -a -G dialout $USER
@@ -42,8 +46,9 @@ You also need to install *GStreamer* in order to support video streaming:
    sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
    ```
 1. Logout and login again to enable the change to user permissions.
-   
-Install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
+
+&nbsp;
+To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
 1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
 1. Install (and run) using the terminal commands:
    ```sh
