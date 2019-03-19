@@ -1,9 +1,11 @@
 # MAVLink Settings
 
 The MAVLink settings (**SettingsView > MAVLink**) allow you to configure options and view information specific to MAVLink communications.
-This includes setting the MAVLink system ID for *QGroundControl*, viewing link quality, and managing log uploads (e.g. to [Flight Review](https://logs.px4.io)).
+This includes setting the MAVLink system ID for *QGroundControl* and viewing link quality.
 
-![MAVLink settings scren](../../assets/settings/mavlink/overview.jpg)
+The screen also allows you to manage logging for PX4, including [automating log uploads to Flight Review](#logging)!
+
+![MAVLink settings screen](../../assets/settings/mavlink/overview.jpg)
 
 ## Ground Station {#ground_station}
 
@@ -29,7 +31,9 @@ A high **Loss rate** may lead to protocol errors for things like parameter downl
 
 ## MAVLink 2 Logging (PX4 only) {#logging}
 
-On PX4 you can enable manual or automatic logging and upload to [Flight Review](https://logs.px4.io) (or another logging service).
+On PX4 you can enable manual or automatic logging, and manual or automatic upload of logs to [Flight Review](https://logs.px4.io) (or, in theory, another logging service).
+
+> **Tip** If you just want to download logs collected on the vehicle you can do so using [Analyze View > Log Download](../analyze_view/log_download.md).
 
 The *MAVLink 2 Logging* section allows you to manually start and stop logging, and to enable automatic capture of logs. 
 
