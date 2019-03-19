@@ -197,7 +197,7 @@ In order to make resume mission work correctly QGC rebuilds the mission looking 
 By doing this the state of the mission prior to the resume point is restore. 
 The following mission commands are the ones scanned for:
 
-* `MAV_CMD_DO_CONTROL_VIDEO
+* `MAV_CMD_DO_CONTROL_VIDEO`
 * `MAV_CMD_DO_SET_ROI`
 * `MAV_CMD_DO_DIGICAM_CONFIGURE`
 * `MAV_CMD_DO_DIGICAM_CONTROL`
