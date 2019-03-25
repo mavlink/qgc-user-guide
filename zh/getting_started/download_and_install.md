@@ -21,7 +21,7 @@ Install *QGroundControl* for Windows Vista or later:
 
 ## Mac OS X
 
-Install *QGroundControl* for Mac OS X 10.8 or later:
+Install *QGroundControl* for macOS 10.10 or later:
 
 1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
