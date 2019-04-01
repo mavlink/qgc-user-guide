@@ -286,38 +286,22 @@ You can continue the current mission while (unless already in a mission!):
 *Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
 
 > **Note** If you are performing a battery change, **do not** disconnect QGC from the vehicle after disconnecting the battery.
-After you insert the new battery *QGroundControl* will detect the vehicle again and automatically restore the connection. 
+  After you insert the new battery *QGroundControl* will detect the vehicle again and automatically restore the connection.
 
-After reconnecting you will be prompted with a *Resume Mission* confirmation slider.
-If you want to resume the mission, confirm this and the mission will start from the last waypoint traveled through. 
-Once the mission is rebuilt you will be presented with another Resume Mission slide which allows you to review the rebuilt mission before starting it again.
-Confirm this *Resume Mission* slider to continue on with the mission.
+After landing you will be prompted with a *Flight Plan complete* dialog, which gives you the option to remove the plan from the vehicle, leave it on the vehicle, or to resume the mission from the last waypoint that was traveled through.
 
 ![Resume Mission](../../assets/fly/resume_mission.jpg)
 
-##### Note: How Resume Mission Rebuilding Works
+If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle.
+Then use the *Start Mission* slider to continue the mission.
 
-A mission cannot simply resume from the last mission item the vehicle executed because there may be multiple items at the last waypoint that affect the next stage of the mission (e.g. speed commands or camera control commands).
-Skipping any mission items at the last waypoint may prevent the rest of the mission running correctly.
+The image below shows the mission that was rebuilt after the Return shown above.
 
-Therefore *QGroundControl* rebuilds the mission looking backwards from the last mission item flown, and automatically appends relevant commands to the front of the mission. 
-By doing this the state of the mission prior to the resume point is restored.
+![Resume Rebuilt Mission](../../assets/fly/resume_mission_rebuilt.jpg)
 
-The following mission commands are the ones scanned for:
-* [MAV_CMD_DO_CONTROL_VIDEO](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_CONTROL_VIDEO)
-* [MAV_CMD_DO_SET_ROI](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_SET_ROI)
-* [MAV_CMD_DO_DIGICAM_CONFIGURE](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_DIGICAM_CONFIGURE)
-* [MAV_CMD_DO_DIGICAM_CONTROL](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_DIGICAM_CONTROL)
-* [MAV_CMD_DO_MOUNT_CONFIGURE](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_MOUNT_CONFIGURE)
-* [MAV_CMD_DO_MOUNT_CONTROL](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_MOUNT_CONTROL)
-* [MAV_CMD_DO_SET_CAM_TRIGG_DIST](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_SET_CAM_TRIGG_DIST)
-* [MAV_CMD_DO_FENCE_ENABLE](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_FENCE_ENABLE)
-* [MAV_CMD_IMAGE_START_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_IMAGE_START_CAPTURE)
-* [MAV_CMD_IMAGE_STOP_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_IMAGE_STOP_CAPTURE)
-* [MAV_CMD_VIDEO_START_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_VIDEO_START_CAPTURE)
-* [MAV_CMD_VIDEO_STOP_CAPTURE](https://mavlink.io/en/messages/common.html#MAV_CMD_VIDEO_STOP_CAPTURE)
-* [MAV_CMD_DO_CHANGE_SPEED](https://mavlink.io/en/messages/common.html#MAV_CMD_DO_CHANGE_SPEED)
-* [MAV_CMD_NAV_TAKEOFF](https://mavlink.io/en/messages/common.html#MAV_CMD_NAV_TAKEOFF)
+
+> **Note** A mission cannot simply resume from the last mission item that the vehicle executed, because there may be multiple items at the last waypoint that affect the next stage of the mission (e.g. speed commands or camera control commands).
+  Instead *QGroundControl* rebuilds the mission, starting from the last mission item flown, and automatically prepending any relevant commands to the front of the mission.
 
 
 #### Remove Mission Prompt After Landing {#resume_mission_prompt}
