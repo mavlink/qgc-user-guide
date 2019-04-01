@@ -179,38 +179,54 @@ There is an armed/disarmed indicator in the toolbar. You can click it to arm/dis
   * Goto Location
 
 #### Resume Mission
-The Resume Misison guided action is used to resume a mission after performing an RTL from within the mission to perform a battery change. After the vehicle lands from RTL and you have disconnected the battery **do not** disconnect QGC from the Vehicle. Put in your new battery and QGC will detect the vehicle again and automatically restore the connection. Once this happens you will be prompted with a Resume Mission confirmation slider. If you want to resume the mission, confirm this and the mission will be rebuilt from your last waypoint travelled through. Once the mission is rebuilt you will be presented with another Resume Mission slide whic allows you to review the rebuilt mission before starting it again. Confirm this Resume Mission slider to continue on with the mission.
+
+The Resume Mission guided action is used to resume a mission after performing an RTL from within the mission to perform a battery change. 
+After the vehicle lands from RTL and you have disconnected the battery **do not** disconnect QGC from the Vehicle. 
+Put in your new battery and QGC will detect the vehicle again and automatically restore the connection. 
+Once this happens you will be prompted with a Resume Mission confirmation slider. 
+If you want to resume the mission, confirm this and the mission will be rebuilt from your last waypoint traveled through. 
+Once the mission is rebuilt you will be presented with another Resume Mission slide which allows you to review the rebuilt mission before starting it again. 
+Confirm this Resume Mission slider to continue on with the mission.
 
 ###### How resume mission rebuilding works
-In order to resume a mission you cannot simply continue it from the last mission item the vehicle ran. The reason is is that may skip over important change speed commands or camera control commands which are prior to that item in the mission. If you skippped over those the remainder of the mission will not run correctly. In order to make resume mission work correctly QGC rebuilds the mission looking backwards from the last mission item flown and automatically appends relevant commands to the front of the mission. By doing this the state of the mission prior to the resume point is restore. The following mission commands are the ones scanned for:
 
-```
-* MAV_CMD_DO_CONTROL_VIDEO
-* MAV_CMD_DO_SET_ROI
-* MAV_CMD_DO_DIGICAM_CONFIGURE
-* MAV_CMD_DO_DIGICAM_CONTROL
-* MAV_CMD_DO_MOUNT_CONFIGURE
-* MAV_CMD_DO_MOUNT_CONTROL
-* MAV_CMD_DO_SET_CAM_TRIGG_DIST
-* MAV_CMD_DO_FENCE_ENABLE
-* MAV_CMD_IMAGE_START_CAPTURE
-* MAV_CMD_IMAGE_STOP_CAPTURE
-* MAV_CMD_VIDEO_START_CAPTURE
-* MAV_CMD_VIDEO_STOP_CAPTURE
-* MAV_CMD_DO_CHANGE_SPEED;
-* MAV_CMD_NAV_TAKEOFF
-```
+In order to resume a mission you cannot simply continue it from the last mission item the vehicle ran. 
+The reason is is that may skip over important change speed commands or camera control commands which are prior to that item in the mission. 
+If you skipped over those the remainder of the mission will not run correctly. 
+In order to make resume mission work correctly QGC rebuilds the mission looking backwards from the last mission item flown and automatically appends relevant commands to the front of the mission. 
+By doing this the state of the mission prior to the resume point is restore. 
+The following mission commands are the ones scanned for:
+
+* `MAV_CMD_DO_CONTROL_VIDEO`
+* `MAV_CMD_DO_SET_ROI`
+* `MAV_CMD_DO_DIGICAM_CONFIGURE`
+* `MAV_CMD_DO_DIGICAM_CONTROL`
+* `MAV_CMD_DO_MOUNT_CONFIGURE`
+* `MAV_CMD_DO_MOUNT_CONTROL`
+* `MAV_CMD_DO_SET_CAM_TRIGG_DIST`
+* `MAV_CMD_DO_FENCE_ENABLE`
+* `MAV_CMD_IMAGE_START_CAPTURE`
+* `MAV_CMD_IMAGE_STOP_CAPTURE`
+* `MAV_CMD_VIDEO_START_CAPTURE`
+* `MAV_CMD_VIDEO_STOP_CAPTURE`
+* `MAV_CMD_DO_CHANGE_SPEED`
+* `MAV_CMD_NAV_TAKEOFF`
 
 
 ### Remove mission after vehicle lands
-You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. This is meant to prevent issues where stale missions are unknowingly left on a vehicle cause unexpected behavior.
+
+You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. 
+This is meant to prevent issues where stale missions are unknowingly left on a vehicle cause unexpected behavior.
 
 ### Instrument panel
 #### Camera trigger
 
 
 #### Flight Time
-Flight time is now available for display in the instrument panel. For new users, flight time will be shown by defeault. For existing users who have already modified their instrument panel values you will have to add it yourself if you want to use it.
+
+Flight time is now available for display in the instrument panel. 
+For new users, flight time will be shown by default. 
+For existing users who have already modified their instrument panel values you will have to add it yourself if you want to use it.
 
 ## [Analyze View](../analyze_view/README.md)
 * [Log Download](../analyze_view/log_download.md) moved to *Analyze View* from menu.
