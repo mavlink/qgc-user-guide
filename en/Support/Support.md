@@ -35,19 +35,7 @@ If you are directed to create an issue, please provide all information needed to
 
 #### Reporting Crashes from Windows Builds
 
-1. Create a file called **qgccrash.reg** with the following contents:
-  ```
-  Windows Registry Editor Version 5.00
-
-  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps\qgroundcontrol.exe]
-  "DumpType"=dword:00000002
-  "DumpFolder"="c:\\qgccrash"
-  ```
-2. Double-click it to install to your registry
-3. Create a **c:\qgccrash** folder on you machine
-4. Now when *QGroundControl* crashes it will place a dump file in the **c:\qgccrash** folder
-5. After *QGroundControl* crashes, place the newest instance of the **.dmp** file in a public location
-6. Add a link to the **.dmp** file and above details in the GitHub issue.
+When QGC crashes a crash dump file will be place in the Users LocalAppData directory. To navigate to that directory use the Start/Run command. You can bring this up window WinKey+R. Type into that ```%localappdata%``` for Open and click Ok. Crash dumps will be in a ```QGCCrashDumps``` folder in that directory. You should find a new **.dmp** file there. Add a link to that file in a GitHub Issue when reporting you problem.
 
 #### Reporting Hangs from Windows Builds
 
