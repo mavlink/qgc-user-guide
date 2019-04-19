@@ -1,12 +1,11 @@
-# Structure Scan (Plan Pattern) - Daily Builds
+# Structure Scan (Plan Pattern)
 
 A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint.
 Structure Scans are typically used for the visual inspection or creating 3d models of structures.
 
 *Structure Scans* may be inserted into a mission using the Plan view **Pattern > Structure Scan** tool.
 
-> **Note** The new version of *Structure Scan* can't read older *Structure Scan* plans. 
-  They will need to be recreated.
+> **Note** The new version of *Structure Scan* can't read older *Structure Scan* plans. They will need to be recreated.
 
 <span></span>
 > **Warning** This feature is not yet supported by ArduPilot firmware.
