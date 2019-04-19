@@ -1,4 +1,4 @@
-# Structure Scan (Plan Pattern) - Daily Builds
+# Structure Scan (Plan Pattern)
 
 A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint. Structure Scans are typically used for the visual inspection or creating 3d models of structures.
 
