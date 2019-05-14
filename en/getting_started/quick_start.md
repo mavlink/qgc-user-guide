@@ -16,7 +16,7 @@ A good way to become familiar with *QGroundControl* is to start experimenting:
   - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
   - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
   - [Plan](../PlanView/PlanView.md): Create autonomous missions.
-  - [Fly](../FlyView/FlyView.md): Monitor you vehicle(s) while flying, including streaming video.
+  - [Fly](../FlyView/FlyView.md): Monitor your vehicle(s) while flying, including streaming video.
 - Click the *Status icons* on the toolbar to find out the status of the connected vehicle. 
 
 While the UI is fairly intuitive, this documentation can also be referenced to find out more.
