@@ -49,7 +49,7 @@ The settings are:
 
 ## RTK GPS {#rtk_gps}
 
-This section allows you to specify the RTK GPS "Survey-in" settings, to save and reuse the result of a Survey-In operation, or to directly enter a known position for the base station.
+This section allows you to specify the RTK GPS "Survey-in" settings, to save and reuse the result of a Survey-In operation, or to directly enter any other known position for the base station.
 
 ![RTK GPS Settings](../../assets/settings/general/rtk_gps.jpg)
 
