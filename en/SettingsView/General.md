@@ -47,21 +47,31 @@ The settings are:
 - <span id="load_save_path"></span>**Application Load/Save Path**: Default location for loading/saving application files, including: parameters, telemetry logs, and mission plans.
 
 
-## RTK GPS
+## RTK GPS {#rtk_gps}
 
-This section specifies the RTK GPS "Survey-in" settings.
+This section allows you to specify the RTK GPS "Survey-in" settings, to save and reuse the result of a Survey-In operation, or to directly enter a known position for the base station.
 
 ![RTK GPS Settings](../../assets/settings/general/rtk_gps.jpg)
 
-> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position. 
-  The process takes measurements over time, leading to increasing position accuracy. 
-  Both of the setting conditions must met for the Survey-in process to complete. 
+> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position.
+  The process takes measurements over time, leading to increasing position accuracy.
+  Both of the setting conditions must met for the Survey-in process to complete.
   For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
 
-The settings are:
-- **Survey-in accuracy:** The minimum position accuracy for the RTK Survey-in process to complete.
-- **Minimum observation duration:** The minimum time that will be taken for the RTK Survey-in process. 
+<span></span>
+> **Tip** In order to save and reuse a base position (because Survey-In is time consuming!) perform Survey-In once, select *Use Specified Base Position* and press **Save Current Base Position** to copy in the values for the last survey.
+  The values will then persist across QGC reboots until they are changed.
 
+The settings are:
+- Perform Survey-In
+  - **Survey-in accuracy (U-blox only):** The minimum position accuracy for the RTK Survey-In process to complete.
+  - **Minimum observation duration:** The minimum time that will be taken for the RTK Survey-in process.
+- Use Specified Base Position
+  - **Base Position Latitude:** Latitude of fixed RTK base station.
+  - **Base Position Longitude:** Longitude of fixed RTK base station.
+  - **Base Position Alt (WGS94):** Altitude of fixed RTK base station.
+  - **Base Position Accuracy:** Accuracy of base station position information.
+  - **Save Current Base Position** (button): Press to copy settings from the last Survey-In operation to the *Use Specified Base Position* fields above.
 
 ## AutoConnect to the following devices {#auto_connect}
 
