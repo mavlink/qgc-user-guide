@@ -85,5 +85,5 @@
 * [PX4 User Guide](https://docs.px4.io/en/)
 * [PX4 Developer Guide](https://dev.px4.io/en/)
 * [MAVLink Guide](https://mavlink.io/en/)
-* [Dronecode SDK](https://sdk.dronecode.org/en/)
+* [MAVSDK](https://mavsdk.mavlink.io/)
 * [Dronecode Camera Manager](https://camera-manager.dronecode.org/en/)
