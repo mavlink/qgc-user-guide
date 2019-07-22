@@ -26,7 +26,7 @@ For more information see [Settings > General (Miscellaneous)](../SettingsView/Ge
 
 You can now specify the *Survey in accuracy* and *Minimum observation duration* for use with a connected RTK GPS.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#rtk-gps).
+For more information see [Settings > General (RTK GPS)](../SettingsView/General.md#rtk_gps).
 
 ## Setup
 
