@@ -12,7 +12,7 @@ A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or be
 
 For the best experience and compatibility, we recommend you the newest version of your operating system.
 
-## Windows
+## Windows {#windows}
 
 Install *QGroundControl* for Windows Vista or later:
 
@@ -24,7 +24,7 @@ Install *QGroundControl* for Windows Vista or later:
   For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
 
-## Mac OS X
+## Mac OS X {#macOS}
 
 Install *QGroundControl* for macOS 10.10 or later: 
 
@@ -56,15 +56,20 @@ To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
    ./QGroundControl.AppImage  (or double click)
    ```
 
-## Android
+## Android {#android}
 
 Install *QGroundControl* for Android 5.1 or later:
 
-1. Open the Google Play Store [QGroundControl link](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol).
-1. Follow the installation instructions.
+1. Download and install the stable build: [QGroundControl.apk](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk)
+   - Android phones have different ways of locating downloaded files.
+     On "pure" Android you can usually find downloaded files in the **Files** application, *Downloads* folder. 
+   - You may need to grant permission for your browser to download the file, and for the installer to give it access to location and other device services.
 
 
-## iOS
+> **Note** We are hoping to provide *QGroundControl* downloads from *Google Play* in the coming months (we will deliver this once we can generate 64-bit builds).
+
+
+## iOS {#iOS}
 
 > **Note** *QGroundControl* for iOS is in beta.
   It can only be installed as a [daily build](../releases/daily_builds.md).
@@ -77,6 +82,7 @@ Install *QGroundControl* for iOS 8.0 or later:
 ## Old Stable Releases
 
 Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
+
 
 ## Daily Builds
 
