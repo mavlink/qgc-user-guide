@@ -10,7 +10,7 @@ QGC should run well on any modern computer or mobile device. Performance will de
 
 For the best experience and compatibility, we recommend you the newest version of your operating system.
 
-## Windows
+## Windows {#windows}
 
 Install *QGroundControl* for Windows Vista or later:
 
@@ -19,7 +19,7 @@ Install *QGroundControl* for Windows Vista or later:
 
 > **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
-## Mac OS X
+## Mac OS X {#macOS}
 
 Install *QGroundControl* for macOS 10.10 or later:
 
@@ -48,14 +48,13 @@ Before installing *QGroundControl* for the first time:
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
-## Android
+## Android {#android}
 
-Install *QGroundControl* for Android 5.1 or later:
+*QGroundControl* is temporarily unavailable from the Google Play Store. We are working on a fix for this, but it may take some time.
 
-1. Open the Google Play Store [QGroundControl link](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrol).
-2. Follow the installation instructions.
+In the meantime you can [download and install the APK from here](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (for Android 5.1 or later).
 
-## iOS
+## iOS {#iOS}
 
 > **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md).
 
