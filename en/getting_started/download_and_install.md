@@ -58,16 +58,10 @@ To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
 
 ## Android {#android}
 
-Install *QGroundControl* for Android 5.1 or later:
+*QGroundControl* is temporarily unavailable from the Google Play Store. 
+We are working on a fix for this, but it may take some time. 
 
-1. Download and install the stable build: [QGroundControl.apk](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk)
-   - Android phones have different ways of locating downloaded files.
-     On "pure" Android you can usually find downloaded files in the **Files** application, *Downloads* folder. 
-   - You may need to grant permission for your browser to download the file, and for the installer to give it access to location and other device services.
-
-
-> **Note** We are hoping to provide *QGroundControl* downloads from *Google Play* in the coming months (we will deliver this once we can generate 64-bit builds).
-
+In the meantime you can [download and install the APK from here](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (for Android 5.1 or later).
 
 ## iOS {#iOS}
 
