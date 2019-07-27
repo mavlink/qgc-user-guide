@@ -13,6 +13,6 @@ These can be downloaded from the links below (install as described in [Download 
 * [Android](https://qgroundcontrol.s3-us-west-2.amazonaws.com/builds/master/QGroundControl.apk) (APK download) <!-- (Google Play) -->
   > **Note** *QGroundControl* is temporarily unavailable from the Google Play Store. 
     We are working on a fix for this, but it may take some time.
-    In the meantime you can use the APK supplied above (for Android 5.1 or later).
+    In the meantime you can use the APK supplied above.
 * iOS currently unavailable
 
