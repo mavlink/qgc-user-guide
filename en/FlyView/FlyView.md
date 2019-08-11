@@ -4,7 +4,7 @@ The Fly View is used to command and monitor the vehicle when flying.
 
 You can use it to:
 - Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), [stop](#stop_mission) and [resume](#resume_mission).
+- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
 - Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
 - Switch between a map view and a video view (if available)
 - Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
