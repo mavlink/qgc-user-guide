@@ -6,7 +6,7 @@ They are typically used to provide a safer or more convenient destination than t
 
 ![Rally Points](../../assets/plan/rally/rally_points_overview.jpg)
 
-> **Note** Not all vehicle firmware and airframe types support Rally Points.
+> **Note for ArduPilot users** Rally Points are only supported by Rover 3.6 and Copter 3.7 or higher. It also requires usage of a Daily build. 
   *QGroundControl* will not display the Rally Point options if they are not supported by the connected vehicle.
 
 ## Rally Point Usage
