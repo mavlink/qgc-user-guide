@@ -1,12 +1,10 @@
 # Plan View - Rally Points
 
-Rally Points are alternative landing or loiter locations.
+Rally Points are alternative landing or loiter locations. They are typically used to provide a safer or more convenient (e.g. closer) destination than the home position in Return/RTL mode.
 
-They are typically used to provide a safer or more convenient destination than the home position in Return/RTL mode.
+> **Note** Rally Points are only supported by ArduPilot on Rover 3.6 and Copter 3.7 (or higher). PX4 support is planned in PX4 v1.10 timeframes. It also requires usage of a Daily build or Stable 3.6 (once available). *QGroundControl* will not display the Rally Point options if they are not supported by the connected vehicle.
 
 ![Rally Points](../../assets/plan/rally/rally_points_overview.jpg)
-
-> **Note for ArduPilot users** Rally Points are only supported by Rover 3.6 and Copter 3.7 or higher. It also requires usage of a Daily build or Stable 3.6 (once available). *QGroundControl* will not display the Rally Point options if they are not supported by the connected vehicle.
 
 ## Rally Point Usage
 
