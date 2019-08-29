@@ -8,4 +8,6 @@ The *GeoTag Images* screen (**Analyze > GeoTag Images**) allows you to geotag im
 ![Analyze View GeoTag Images](../../assets/analyze/geotag_images.jpg)
 
 Select the log file, image directory and (optionally) output directory for geotagged images using the buttons provided.
-Click **Start Tagging** to generate the geotagged images. 
+Click **Start Tagging** to generate the geotagged images.
+
+> **Note** The geotagging error `Image requested not present` indicates that the number of images found in the specified directory does not match the number of images specified in the log. 
