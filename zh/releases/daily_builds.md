@@ -9,7 +9,10 @@ These can be downloaded from the links below (install as described in [Download 
 * [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 * [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
 * [Linux](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
-* [Android](https://qgroundcontrol.s3-us-west-2.amazonaws.com/builds/master/QGroundControl.apk) (APK download) <!-- (Google Play) --> > 
-    
-    **Note** *QGroundControl* is temporarily unavailable from the Google Play Store. We are working on a fix for this, but it may take some time. In the meantime you can use the APK supplied above.
+* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta) (Google Play)
 * iOS currently unavailable
+
+> **Note** Android 64 bit versions of *QGroundControl* do not currently support terrain. If you need terrain support on your 64 bit device you can install the 32 bit apk manually from the links below:
+
+* [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/builds/master/QGroundControl32.apk)
+* [Android 64 bit APK]((https://qgroundcontrol.s3-us-west-2.amazonaws.com/builds/master/QGroundControl64.apk))
