@@ -16,4 +16,3 @@ These can be downloaded from the links below (install as described in [Download 
   > * [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/builds/master/QGroundControl64.apk)
 
 * iOS currently unavailable
-
