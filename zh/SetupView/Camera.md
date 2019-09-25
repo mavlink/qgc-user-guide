@@ -1,11 +1,13 @@
 # Camera Setup
 
-The details of the page differ if you are using PX4 Pro firmware or ArduPilot firmware.
+The details of the page differ if you are using PX4 firmware or ArduPilot firmware.
 
 ## ArduPilot Camera Setup
 
 ![](../../assets/setup/APMCamera.jpg)
 
-## PX4 Pro Camera Setup
+## PX4 Camera Setup
 
-![](../../assets/setup/PX4Camera.jpg)
+![PX4 Camera setup](../../assets/setup/PX4Camera.jpg)
+
+> **Note** The camera settings section is not available by default for FMUv2-based flight controllers (e.g. 3DR Pixhawk) because the camera module is not automatically included in firmware. For more information see [this topic](http://docs.px4.io/master/en/advanced_config/parameters.html#parameter-not-in-firmware).
