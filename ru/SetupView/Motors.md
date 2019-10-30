@@ -1,17 +1,22 @@
 # Motors Setup
 
-This section is used to setup and test individual motors.
+This section is used to setup and test individual motors/servos, and applies to both ArduPilot and PX4:
 
-> **Tip** Currently only supported for [**ArduSub**](https://www.ardusub.com/).
+1. Remove all propellers before running the test. > **Warning** You must do this before activating the motors (next step)
+2. Slide the switch to enable motor sliders (labeled "Propellers are removed - Enable motor sliders").
+3. Adjust the individual sliders to spin the motors and confirm they spin in the correct direction. > **Note** The motors only spin after you release the slider and will automatically stop spinning after 3 seconds.
 
-## ArduSub
+<!-- PX4 Firmware specific:
 
-The ArduSub motor setup allows you to test individual motors. The sliders allow spinning each motor in forward or reverse mode, and the checkboxes under the sliders allow reversing the operation of individual thrusters.
+- If a safety button is used, it must be pressed before motor testing is allowed.
+- The kill-switch still works to stop motors immediately.
+- The parameter `COM_MOT_TEST_EN` can be used to completely disable motor testing.
+- On boards with an IO, only the MAIN pins can be tested.
+- On the shell, `motor_test` can be used as well, which has additional options.
+-->
 
-The image at the right shows the frame currently in use, along with the location and orientation of each thruster. If the frame selection does not match your vehicle, first select the correct frame in the [Frame](../SetupView/airframe_ardupilot.md#ardusub) tab.
+![Motors Test](../../assets/setup/Motors.png)
 
-To set up and test the motors, read and follow the instructions on the page.
+Vehicle specific instructions are provided in the following topics:
 
-> **Warning** Make sure the motors and propellers are clear from obstructions before sliding the switch to arm the vehicle and enable the test!
-
-![Ardusub Motors Test](../../assets/setup/motors-sub.jpg)
+* [Motors Setup (ArduSub)](../SetupView/Motors_ardusub.md)
