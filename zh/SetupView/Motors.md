@@ -1,4 +1,4 @@
-# Motors Setup
+# Motor Setup
 
 Motor Setup is used to test individual motors/servos (for example, to verify that motors spin in the correct direction).
 
