@@ -1,43 +1,43 @@
-# Fly View
+# Режим "Лета"
 
-The Fly View is used to command and monitor the vehicle when flying.
+Fly View используется для командования и мониторинга автомобиля при полете.
 
-You can use it to:
+Вы можете использовать его для:
 
-- Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
-- Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
-- Switch between a map view and a video view (if available)
-- Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
+- Запустите автоматизированный контрольный список [перед полетом](#preflight_checklist).
+- Контрольные задачи: [start](#start_mission), [continue](#continue_mission), [pause](#pause), и [возобновление](#resume_mission).
+- Направлять автомобиль на [руку](#arm)/[disarm](#disarm)/[аварийную остановку](#emergency_stop), [взлет](#takeoff)/[земля](#land), [изменить высоту](#change_altitude), [перейти к](#goto) или [орбита](#orbit) конкретное местоположение и [вернуться/RTL](#rtl).
+- Переключение между отображением карты и видео (если доступно)
+- Отображение видео, миссии, телеметрии и другой информации для текущего транспортного средства, а также переключение между подключенными автомобилями.
 
-![Fly View](../../assets/fly/fly_view_overview.jpg)
+![Режим "Лета"](../../assets/fly/fly_view_overview.jpg)
 
-## UI Overview
+## Обзор
 
-The screenshot above shows the main elements of the fly view:
+На скриншоте выше показаны основные элементы вида полета:
 
-- **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle. 
-  - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
-  - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
-- **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
-  - Select the sensor indicators to view more detail.
-  - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Press the *Armed/Disarmed* text to toggle the armed state. If flying you can press this text to *Emergency Stop*.
-- **Fly tools:** You can use these to: 
-  - Toggle between takeoff/land.
-  - Pause/restart the current operation (e.g. landing, or the mission).
-  - Safety return (also known as RTL or Return).
-  - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). Actions include changing the altitude or continuing a mission.
-  - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
+- **Карта:** Отображает положение всех подключенных транспортных средств и миссию для текущего транспортного средства. 
+  - Вы можете перетащить карту, чтобы переместить ее по карте (карта автоматически перестает по центру через определенное время).
+  - После полета, вы можете нажать на карту, чтобы установить [Перейти к](#goto) или [Орбит на](#orbit) местоположения.
+- **Панель инструментов:** Информация о ключевом статусе датчиков (GPS, аккумулятора, управления РК) и состояния транспортного средства (режим полета, состояние "Армян/разоружен"). 
+  - Выберите индикаторы датчика для более подробного просмотра.
+  - Нажмите *Режим полета* текст (например, "Задержать") для выбора нового режима. Не каждый режим может быть доступен.
+  - Нажмите *Armed/Disarmed* текст для переключения вооруженного состояния. При полете вы можете нажать этот текст на *аварийная остановка*.
+- **Летающие инструменты:** Вы можете использовать его для: 
+  - Переключение между взлет/земля.
+  - Пауза/перезапустить текущую операцию (например, посадку или миссию).
+  - Возврат безопасности (также известен как RTL или возврат).
+  - Кнопка *Действия* предлагает другие соответствующие опции для текущего состояния (они накладывают *Слайдер подтверждения*). Эти действия включают в себя изменение высоты или продолжение миссии.
+  - Включите список [preflight checklist](#preflight_checklist) (утилита отключена по умолчанию).
 - **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
-- **[Video/Switcher](#video_switcher):** Toggle between video or map in a window. 
-  - Press the element to switch *Video* and *Map* to foreground.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also support directly connected UVC device support. QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
-- **Confirmation Slider:** Context sensitive slider to confirm requested actions. Slide to start operation. Press **X** to cancel.
+- **[Video/Switcher](#video_switcher):** Переключение между видео или картой в окне. 
+  - Нажмите на элемент для переключения *Видео* и *Карта* для переключения на передний план.
+  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. Также поддерживается поддержка устройств UVC. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+- **Confirmation Slider:** Context sensitive slider to confirm requested actions. Проведите для начала операции. Нажмите **X** для отмены.
 
-There are a number of other elements that are not displayed by default/are only displayed in certain conditions. For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
+Есть несколько других элементов, которые не отображаются по умолчанию/отображаются только в определенных условиях. Например, селектор с несколькими автомобилями отображается только в том случае, если у вас несколько транспортных средств, и кнопка инструмента предполетного контрольного списка отображается только при включенной соответствующей настройке.
 
-## Instrument Panel {#instrument_panel}
+## Уровень прибора {#instrument_panel}
 
 The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
 
