@@ -2,9 +2,11 @@
 
 This topic contains the cumulative release notes for *QGroundControl*.
 
+> **Note** Stable build major/minor numbers are listed below. *Patch* release numbers are not listed, but can be found on the [Github release page](https://github.com/mavlink/qgroundcontrol/releases).
+
 ## Stable Version 3.5 (Current)
 
-This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5. Not to mention the large number of bug fixes in each stable release.
+This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5.
 
 * **Overall** 
   * Added Airmap integration to QGC. OSX build only.
