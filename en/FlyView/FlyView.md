@@ -229,6 +229,7 @@ After taking off you can specify that you want to orbit a particular location.
    - Select and drag the dot on the outer circle to change the orbit radius
 1. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
+> **Note** Goto points must be set within 1km of the vehicle (this is hard-coded in QGC, and may be changed in custom builds). 
 
 ### Pause
 
