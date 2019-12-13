@@ -71,5 +71,14 @@ The remaining settings depend on the *camera mode*:
   - **Layer height:** The height of each layer.
   - **Trigger Distance:** The distance between each camera trigger. The camera is only triggered while flying the layer path. It does not trigger images while transitioning from one layer to the next.
   - **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
-- Selecting a pre-defined camera automatically selects an appropriate layer height and camera triggering distance. It also ensures that the camera is always pointed directly at the right angles to the surface which it is capturing images.
-- Selecting a custom camera allows you to enter your own camera characteristics, and otherwise behaves the same as a predefined camera.
+
+- *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution. It also ensures that the camera is always pointed directly at the right angles to the surface which it is capturing images. The settings are:
+  
+  - **Camera Orientation:** Portrait or Landscape
+  - *Overlap*: 
+    - **Front Lap:** Image overlap from top to bottom (increasing shrinks layer height and increases layer count).
+    - **Side Lap:** Image overlap at sides (increasing takes more images in each lap/layer scan).
+  - **Scan distance:** Distance from the structure of the flight path.
+  - **Ground Res:** Required image resolution/sample quality of surface.
+
+- *Custom camera* selection allows you to enter your own camera characteristics, but otherwise behaves the same as a predefined camera.
