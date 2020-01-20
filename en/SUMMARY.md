@@ -63,6 +63,7 @@
     * [Daily Builds](releases/daily_builds.md)
     * [Daily Build New Features](releases/daily_build_new_features.md)
       * [Video Overlay](FlyView/VideoOverlay.md)
+      * [CSV Logging](SettingsView/csv.md)
     * [Privacy Policy](releases/privacy_policy.md)
 
 * [Support](Support/Support.md)
