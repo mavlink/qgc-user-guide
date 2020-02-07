@@ -54,7 +54,6 @@
     * [MAVLink Inspector Widget](app_menu/mavlink_inspector.md)
     * [MAVLink Analyzer Widget (Analyze)](app_menu/mavlink_analyzer.md)
     * [Onboard Files Widget](app_menu/onboard_files.md)
-    * [HIL Config Widget](app_menu/hil_config.md)
 
 * [Releases](releases/README.md)
     * [Release Notes](releases/release_notes.md)

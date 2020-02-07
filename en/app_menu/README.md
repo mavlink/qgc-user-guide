@@ -13,6 +13,5 @@ The linked tools are:
   - **[MAVLink Inspector](../app_menu/mavlink_inspector.md)** - Display received MAVLink messages/values.
   - **[Custom Command](../app_menu/custom_command_widget.md)** - Load custom/test QML UI at runtime.
   - **[Onboard Files](../app_menu/onboard_files.md)** - Navigate vehicle file system and upload/download files.
-  - **[HIL Config Widget](../app_menu/hil_config.md)** - Settings for HIL simulators.
   - **[Analyze](../app_menu/mavlink_analyzer.md)** - MAVLink Analyzer tool can plot trends for message fields.
   
