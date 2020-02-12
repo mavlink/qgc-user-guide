@@ -1,6 +1,14 @@
 {
     "redirects": [
             {
+                "from": "/en/app_menu/mavlink_inspector.html",
+                "to": "/en/analyze_view/mavlink_inspector.html"
+            },
+            {
+                "from": "/en/app_menu/replay_flight_data.html",
+                "to": "/en/FlyView/replay_flight_data.html"
+            },
+            {
                 "from": "download_and_install.html",
                 "to": "en/getting_started/download_and_install.html"
             },
