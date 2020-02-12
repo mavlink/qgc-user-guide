@@ -72,7 +72,7 @@ The *File tools* provide the following functionality:
 
 ### Pattern
 
-The [Pattern](Pattern.md) tool simplifies the creation of missions for flying complex geometries, including [surveys](../PlanView/pattern_survey.md) and [structure scans](../PlanView/pattern_structure_scan.md).
+The [Pattern](Pattern.md) tool simplifies the creation of missions for flying complex geometries, including [surveys](../PlanView/pattern_survey.md) and [structure scans](../PlanView/pattern_structure_scan_v2.md).
 
 ## Mission Command List {#mission_command_list}
 

@@ -28,7 +28,7 @@ For more information see [Settings > General (Video / Video Recording)](../Setti
 
 A Structure Scan allows you to create a grid flight pattern that captures images over vertical surfaces (polygonal or circular). These are typically used for the visual inspection or creation of 3d models of structures.
 
-Details [here](../PlanView/pattern_structure_scan.md).
+Details [here](../PlanView/pattern_structure_scan_v2.md).
 
 #### New MAVLink GeoFence, Rally Point support
 

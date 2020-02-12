@@ -2,14 +2,20 @@
 
 This user guide is meant to be the main provider of support for *QGroundControl*. If you find incorrect or missing information please report an [Issue](https://github.com/mavlink/qgc-user-guide/issues).
 
-*Questions* about *QGroundControl* should be raised in the associated flight stack's discussion server at the links below:
+*Questions* about how to use *QGroundControl* should be raised in the discussion server for the associated flight stack:
 
 - [PX4 Flight Stack](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage) (discuss.px4.io).
 - [ArduPilot Flight Stack](http://discuss.ardupilot.org/c/ground-control-software/qgroundcontrol) (discuss.ardupilot.org).
 
 ## Developer Chat {#developer_chat}
 
-The *QGroundControl* developers as well as many *QGroundControl* users can be found on the [#QGroundControl channel on Slack](https://px4.slack.com/) or the [Gitter](https://gitter.im/mavlink/qgroundcontrol) channel. If you are a heavy user of *QGroundControl* and want to keep up to date on the latest information or help with *QGroundControl* we suggest monitoring that channel.
+*QGroundControl* developers (and many regular/deeply-involved users) can be found on the [#QGroundControl Slack channel](https://px4.slack.com/).
+
+> **Tip** This channel is a good place to keep up to date with the latest and greatest changes in *QGroundControl*.
+
+<span></span>
+
+> **Note** The *QGroundControl* Gitter channel will be discontinued in March 2020.
 
 ## GitHub Issues
 
