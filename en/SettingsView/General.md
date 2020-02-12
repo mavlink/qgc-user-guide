@@ -27,51 +27,71 @@ This section defines a number of miscellaneous settings, related to (non exhaust
 ![Miscellaneous settings](../../assets/settings/general/miscellaneous.jpg)
 
 The settings are:
+- <span id="language"></span>**Language**: System (System Language) | Bulgarian, Chinese, ...
+
+  ![Display languages](../../assets/settings/general/languages.jpg)
 - <span id="colour_scheme"></span>**Color Scheme**: Indoor (Dark) | Outdoor (Light)
-- **Map Provider**: Bing | Google | Statkart | Eniro
-- **Map Type**: Hybrid | Street | Satellite
-- **Stream GCS Position**: Never | Always | When in Follow Me flight mode.
-- **Font Size**: Font size across app (Requires restart)
-- **Mute all audio output**: Turns off all audio output. 
-- <span id="autosave_log"></span>**Save telemetry log after each flight**: Logs automatically saved to the *Application Load/Save Path* ([below](#load_save_path)) after flight. 
-- **Save telemetry log even if vehicle was not armed**: Logs when a vehicle connects to *QGroundControl*. 
-  Stops logging when the last vehicle disconnects.
-- **Use preflight checklist**: Enable pre-flight checklist.
-- **Virtual Joystick**: Enable [virtual joysticks](../SettingsView/VirtualJoystick.md) (PX4 only)
+- **Map Provider**: Google | Mapbox | Bing | Airmap | VWorld | Eniro | Statkart
+- **Map Type**: Road | Hybrid | Satellite
+- **Stream GCS Position**: Never | Always | When in Follow Me Flight Mode.
+- **UI Scaling**: UI scale percentage (affects fonts, icons, button sizes, layout etc.) 
+- **Mute all audio output**: Turns off all audio output.
+- **Check for Internet Connection**: TBD
 - <span id="autoload_missions"></span> **Autoload Missions**: If enabled, automatically upload a plan to the vehicle on connection. 
   - The plan file must be named **AutoLoad#.plan**, where the `#` is replaced with the vehicle id. 
   - The plan file must be located in the [Application Load/Save Path](#load_save_path).
 - **Clear all settings on next start**: Resets all settings to the default (including this one) when *QGroundControl* restarts.
-- **Announce battery lower than**: Specify battery level at which *QGroundControl* will start low battery announcements.
-- **Default Mission Altitude**: The default altitude used for the first waypoint (subsequent new waypoints are seeded with the altitude value of the preceding waypoint).
+- **Announce battery lower than**: Battery level at which *QGroundControl* will start low battery announcements.
 - <span id="load_save_path"></span>**Application Load/Save Path**: Default location for loading/saving application files, including: parameters, telemetry logs, and mission plans.
 
 
-## RTK GPS {#rtk_gps}
 
-This section allows you to specify the RTK GPS "Survey-in" settings, to save and reuse the result of a Survey-In operation, or to directly enter any other known position for the base station.
+## Data Persistence {#data_persistence}
 
-![RTK GPS Settings](../../assets/settings/general/rtk_gps.jpg)
-
-> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position.
-  The process takes measurements over time, leading to increasing position accuracy.
-  Both of the setting conditions must met for the Survey-in process to complete.
-  For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
-
-<span></span>
-> **Tip** In order to save and reuse a base position (because Survey-In is time consuming!) perform Survey-In once, select *Use Specified Base Position* and press **Save Current Base Position** to copy in the values for the last survey.
-  The values will then persist across QGC reboots until they are changed.
+![Data Persistence Settings](../../assets/settings/general/data_persistence.jpg)
 
 The settings are:
-- Perform Survey-In
-  - **Survey-in accuracy (U-blox only):** The minimum position accuracy for the RTK Survey-In process to complete.
-  - **Minimum observation duration:** The minimum time that will be taken for the RTK Survey-in process.
-- Use Specified Base Position
-  - **Base Position Latitude:** Latitude of fixed RTK base station.
-  - **Base Position Longitude:** Longitude of fixed RTK base station.
-  - **Base Position Alt (WGS94):** Altitude of fixed RTK base station.
-  - **Base Position Accuracy:** Accuracy of base station position information.
-  - **Save Current Base Position** (button): Press to copy settings from the last Survey-In operation to the *Use Specified Base Position* fields above.
+- **Disable all data persistence**: Check to prevent any data being saved or cached: logs, map tiles etc. 
+  This setting disables the [telemetry logs section](#telemetry_logs).
+
+
+## Telemetry Logs from Vehicle {#telemetry_logs}
+
+![Telemetry Logs from Vehicle Settings](../../assets/settings/general/telemetry_logs.jpg)
+
+The settings are:
+- <span id="autosave_log"></span>**Save log after each flight**: Telemetry logs (`.tlog`) automatically saved to the *Application Load/Save Path* ([above](#load_save_path)) after flight. 
+- **Save logs even if vehicle was not armed**: Logs when a vehicle connects to *QGroundControl*. 
+  Stops logging when the last vehicle disconnects.
+- **Save CSV log of telemetry data**: Log subset of telemetry data to a CSV file.
+
+
+## Fly View {#fly_view}
+
+![Fly View Settings](../../assets/settings/general/fly_view.jpg)
+
+The settings are:
+- **Use Preflight Checklist**: Enable pre-flight checklist in Fly toolbar.
+- **Enforce Preflight Checklist**: Checklist completion is a pre-condition for arming.
+- **Keep Map Centered on Vehicle**: Forces map to center on the currently selected vehicle.
+- **Show Telemetry Log Replay Status Bar**: Display status bar for [Replaying Flight Data](../FlyView/replay_flight_data.md).
+- **Virtual Joystick**: Enable [virtual joysticks](../SettingsView/VirtualJoystick.md) (PX4 only)
+- **Use Vertical Instrument Panel**: Align instrument panel vertically rather than horizontally (default).
+- **Show additional heading indicators on Compass**: TBD
+- **Lock Compass Nose-Up**: Check to rotate the compass rose (default is to rotate the vehicle inside the compass indicateor).
+- **Guided Minimum Altitude**: Minimum value for guided actions altitude slider.
+- **Guided Maximum Altitude**: Minimum value for guided actions altitude slider.
+- **Go To Location Max Distance**: The maximum distance that a Go To location can be set from the current vehicle location (in guided mode).
+
+
+
+## Plan View {#plan_view}
+
+![Plan View Settings](../../assets/settings/general/plan_view.jpg)
+
+The settings are:
+- **Default Mission Altitude**: The default altitude used for the Mission Start Panel, and hence for the first waypoint.
+
 
 ## AutoConnect to the following devices {#auto_connect}
 
@@ -83,7 +103,7 @@ Settings include:
 - **Pixhawk:** Autoconnect to Pixhawk-series device
 - **SiK Radio:** Autoconnect to SiK (Telemetry) radio
 - **PX4 Flow:** Autoconnect to PX4Flow device
-- **Libre Pilot:** Autoconnect to Libre Pilot autopilot
+- **LibrePilot:** Autoconnect to Libre Pilot autopilot
 - **UDP:** Autoconnect to UDP
 - **RTK GPS:** Autoconnect to RTK GPS device
 - **NMEA GPS Device:** Autoconnect to an external GPS device to get ground station position ([see below](#nmea_gps))
@@ -119,14 +139,61 @@ Use the *NMEA GPS Device* drop-down selector to manually select the GPS device a
   - **NMEA Stream UDP Port**: The UDP port on which QGC will listen for NMEA data (QGC binds the port as a server)
 
 
+
+## RTK GPS {#rtk_gps}
+
+This section allows you to specify the RTK GPS "Survey-in" settings, to save and reuse the result of a Survey-In operation, or to directly enter any other known position for the base station.
+
+![RTK GPS Settings](../../assets/settings/general/rtk_gps.jpg)
+
+> **Note** The *Survey-In* process is a startup procedure required by RTK GPS systems to get an accurate estimate of the base station position.
+  The process takes measurements over time, leading to increasing position accuracy.
+  Both of the setting conditions must met for the Survey-in process to complete.
+  For more information see [RTK GPS](https://docs.px4.io/en/advanced_features/rtk-gps.html) (PX4 docs) and [GPS- How it works](http://ardupilot.org/copter/docs/common-gps-how-it-works.html#rtk-corrections) (ArduPilot docs).
+
+<span></span>
+> **Tip** In order to save and reuse a base position (because Survey-In is time consuming!) perform Survey-In once, select *Use Specified Base Position* and press **Save Current Base Position** to copy in the values for the last survey.
+  The values will then persist across QGC reboots until they are changed.
+
+The settings are:
+- Perform Survey-In
+  - **Survey-in accuracy (U-blox only):** The minimum position accuracy for the RTK Survey-In process to complete.
+  - **Minimum observation duration:** The minimum time that will be taken for the RTK Survey-in process.
+- Use Specified Base Position
+  - **Base Position Latitude:** Latitude of fixed RTK base station.
+  - **Base Position Longitude:** Longitude of fixed RTK base station.
+  - **Base Position Alt (WGS94):** Altitude of fixed RTK base station.
+  - **Base Position Accuracy:** Accuracy of base station position information.
+  - **Save Current Base Position** (button): Press to copy settings from the last Survey-In operation to the *Use Specified Base Position* fields above.
+  
+
+
+
+
+## ADBS Server {#adbs_server}
+
+![ADBS_Server Settings](../../assets/settings/general/adbs_server.jpg)
+
+The settings are:
+- **Connect to ADSB SBS server**: TBD
+- **Host address**: Host address of ADSB server.
+- **Server port**: Port of ADSB server
+
 ## Video {#video}
 
 The *Video* section is used to define the source and connection settings for video that will be displayed in *Fly View*.
 
 ![Video settings](../../assets/settings/general/video_udp.jpg)
 
-> **Note** The values displayed in this setting depend on the video source. 
-  If no video source is specified then no other video or *video recording* settings will be displayed (above we see the settings when UDP source is selected).
+
+  
+The settings are:
+- **Video Source**: Video Stream Disabled | RTSP Video Stream | UDP h.264 Video Stream | UDP h.265 Video Stream | TCP-MPEG2 Video Stream | MPEG-TS (h.264) Video Stream | Integrated Camera
+  > **Note**  If no video source is specified then no other video or *video recording* settings will be displayed (above we see the settings when UDP source is selected).
+- **URL/Port**: Connection type-specific stream address (may be port or URL).
+- **Aspect Ratio**: Aspect ratio for scaling video in video widget (set to 0.0 to ignore scaling)
+- **Disabled When Disarmed**: Disable video feed when vehicle is disarmed.
+
 
 
 ## Video Recording
@@ -139,9 +206,9 @@ Videos are saved to a sub-directory ("Video") of the [Application Load/Save Path
 ![Video - auto deletion](../../assets/settings/general/video_recording_auto_delete.jpg)
 
 The settings are:
-- **Auto-delete Files**: If checked, files are auto deleted when the specified amount of storage is used.
+- **Auto-Delete Files**: If checked, files are auto deleted when the specified amount of storage is used.
 - **Max Storage Usage**: Maximum video file storage before video files are auto deleted.
-- **Video file format**: File format for the saved video recording.
+- **Video File Format**: File format for the saved video recording: mkv, mov, mp4.
 
 
 ## Brand Image
@@ -157,3 +224,6 @@ The settings are:
 - **Indoor Image**: Brand image used in [indoor color scheme](#colour_scheme)
 - **Outdoor Image**: Brand image used in [outdoor color scheme](#colour_scheme)
 - **Reset Default Brand Image**: Reset the brand image back to default.
+
+
+
