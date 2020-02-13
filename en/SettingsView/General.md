@@ -177,8 +177,8 @@ The settings are:
 ![ADBS_Server Settings](../../assets/settings/general/adbs_server.jpg)
 
 The settings are:
-- **Connect to ADSB SBS server**: TBD
-- **Host address**: Host address of ADSB server.
+- **Connect to ADBS SBS server**: TBD
+- **Host address**: Host address of ADBS server.
 - **Server port**: Port of ADSB server
 
 ## Video {#video}
