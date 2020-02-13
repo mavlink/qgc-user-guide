@@ -36,7 +36,7 @@ The settings are:
 - **Stream GCS Position**: Never | Always | When in Follow Me Flight Mode.
 - **UI Scaling**: UI scale percentage (affects fonts, icons, button sizes, layout etc.) 
 - **Mute all audio output**: Turns off all audio output.
-- **Check for Internet Connection**: TBD
+- **Check for Internet Connection**: Uncheck to allow maps to be used in China/places where map tile downloads are likely to fail (stops the map-tile engine continually rechecking for an Internet connection). 
 - <span id="autoload_missions"></span> **Autoload Missions**: If enabled, automatically upload a plan to the vehicle on connection. 
   - The plan file must be named **AutoLoad#.plan**, where the `#` is replaced with the vehicle id. 
   - The plan file must be located in the [Application Load/Save Path](#load_save_path).
@@ -77,7 +77,11 @@ The settings are:
 - **Show Telemetry Log Replay Status Bar**: Display status bar for [Replaying Flight Data](../FlyView/replay_flight_data.md).
 - **Virtual Joystick**: Enable [virtual joysticks](../SettingsView/VirtualJoystick.md) (PX4 only)
 - **Use Vertical Instrument Panel**: Align instrument panel vertically rather than horizontally (default).
-- **Show additional heading indicators on Compass**: TBD
+- **Show additional heading indicators on Compass**: Adds additional indicators to the compass rose: 
+- *Blue arrow*: course over ground.
+- *White house*: direction back to home.
+- *Green line*: Direction to next waypoint.
+
 - **Lock Compass Nose-Up**: Check to rotate the compass rose (default is to rotate the vehicle inside the compass indicateor).
 - **Guided Minimum Altitude**: Minimum value for guided actions altitude slider.
 - **Guided Maximum Altitude**: Minimum value for guided actions altitude slider.
@@ -165,8 +169,6 @@ The settings are:
   - **Base Position Alt (WGS94):** Altitude of fixed RTK base station.
   - **Base Position Accuracy:** Accuracy of base station position information.
   - **Save Current Base Position** (button): Press to copy settings from the last Survey-In operation to the *Use Specified Base Position* fields above.
-  
-
 
 
 

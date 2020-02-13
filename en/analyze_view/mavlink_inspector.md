@@ -1,4 +1,4 @@
-# MAVLink Inspector Widget
+# MAVLink Inspector
 
 The *MAVLink Inspector* provides real-time information and charting of MAVLink traffic received by *QGroundControl*.
 
@@ -7,10 +7,9 @@ The *MAVLink Inspector* provides real-time information and charting of MAVLink t
 
 ![MAVLink inspector](../../assets/analyze/mavlink_inspector/mavlink_inspector.jpg)
 
-The inspector lists all received messages for the current vehicle, along with their update frequency<!-- and command number -->.
+The inspector lists all received messages for the current vehicle, along with their source component id and update frequency.
 You can drill down into individual messages to get the message id, source component id, and the values of all the individual fields. 
 You can also chart field values in real time, selecting multiple fields from multiple messages to display on one of two charts.
-
 
 To use the *MAVLink Inspector*:
 1. Select **Analyze | MAVLink Inspector**.
