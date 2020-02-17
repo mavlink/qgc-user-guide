@@ -3,7 +3,7 @@
 * [개요](README.md)
 * [바로 시작하기](getting_started/quick_start.md)
 * [다운로드 및 설치](getting_started/download_and_install.md)
-* [Toolbar/Menu](toolbar/toolbar.md)
+* [도구바/메뉴](toolbar/toolbar.md)
 * [비행화면](FlyView/FlyView.md)
 * [계획화면](PlanView/PlanView.md) 
     * [GeoFence](PlanView/PlanGeoFence.md)
