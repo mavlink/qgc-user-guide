@@ -1,6 +1,6 @@
 # Настройка питания
 
-The *Power Setup* screen is used to configure battery parameters and also provide advanced settings for propellers.
+Экран *Настройка питания* используется для настройки параметров батареи и регуляторов эл. двигателей.
 
 ![Battery Calibration](../../assets/setup/PX4Power.jpg)
 
