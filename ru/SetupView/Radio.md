@@ -1,4 +1,4 @@
-# Radio Setup
+# Настройка радиоуправления
 
 Radio Setup is used to configure the mapping of your main transmitter attitude control sticks (roll, pitch, yaw, throttle) to channels, and to calibrate the minimum, maximum, trim and reverse settings for all other transmitter controls/RC channels.
 
