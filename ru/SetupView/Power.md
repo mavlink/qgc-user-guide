@@ -1,4 +1,4 @@
-# Power Setup
+# Настройка питания
 
 The *Power Setup* screen is used to configure battery parameters and also provide advanced settings for propellers.
 
