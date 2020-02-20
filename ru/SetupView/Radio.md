@@ -1,8 +1,8 @@
 # Настройка радиоуправления
 
-Radio Setup is used to configure the mapping of your main transmitter attitude control sticks (roll, pitch, yaw, throttle) to channels, and to calibrate the minimum, maximum, trim and reverse settings for all other transmitter controls/RC channels.
+В этом пункте меню задаются настройки радиоаппаратуры, т.е. соответствие стиков аппаратуры управления (roll, pitch, yaw, throttle) каналам передатчика/приемника, в том числе калибровка минимумов и максимумов, триммирования и реверса.
 
-The main calibration process is identical for PX4 and ArduPilot (a number of additional flight-controller specific settings/tools are [detailed below](#additional-radio-setup)).
+Основной процесс калибровки одинаков для PX4 и ArduPilot (количество настроек/инструментов определяется возможностями конкретных полётных контроллеров [подробнее см. ](#additional-radio-setup)).
 
 > **Note** Before you can calibrate the radio system the receiver and transmitter must be connected/bound. The process for binding a transmitter and receiver pair is hardware specific (see your manual for instructions).
 
