@@ -6,13 +6,13 @@ The main menu/tool bar provides access to the different application views, and h
 
 The following icons are used to switch between the main *Views*. These are displayed even if no vehicle is connected.
 
-![Settings view icon](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Settings](../SettingsView/SettingsView.md)** <br />Configure the *QGroundControl* application.
+![Settings view icon](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Настройки](../SettingsView/SettingsView.md)** <br />Настройка *приложения QGroundControl*.
 
 ![Setup view icon](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Setup](../SetupView/SetupView.md)** <br />Configure and tune your vehicle.
 
 ![Plan view icon](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br />Create autonomous missions.
 
-![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor you vehicle(s) while flying, including streaming video.
+![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Полет](../FlyView/FlyView.md)** <br />Следите за БПЛА во время полёта, включая потоковое видео.
 
 ![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
 
