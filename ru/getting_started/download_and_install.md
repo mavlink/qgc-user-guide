@@ -1,12 +1,12 @@
-# Download and Install
+# Скачать и установить
 
 The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
-> **Tip** See [QGC Install/Config Problems](../Support/troubleshooting_qgc.md) if you have any problem running *QGroundControl* after installation!
+> **Совет** Смотрите раздел [QGC Установка/Проблеммы при конфигурировании](../Support/troubleshooting_qgc.md), если у вас возникли какие-либо проблемы с запуском *QGroundControl* после установки!
 
-## System Requirements
+## Системные требования
 
-QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+QGC должен хорошо работать на любом современном компьютере или мобильном устройстве. Однако производительность будет зависеть от системной среды, сторонних приложений и доступных системных ресурсов. Более мощное оборудование обеспечит лучшую производительность. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
 
 For the best experience and compatibility, we recommend you the newest version of your operating system.
 
