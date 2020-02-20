@@ -8,19 +8,19 @@ The following icons are used to switch between the main *Views*. These are displ
 
 ![Settings view icon](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Настройки](../SettingsView/SettingsView.md)** <br />Настройка *приложения QGroundControl*.
 
-![Setup view icon](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Setup](../SetupView/SetupView.md)** <br />Configure and tune your vehicle.
+![Setup view icon](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Настройка](../SetupView/SetupView.md)** <br />Настройка и настройка БПЛА.
 
-![Plan view icon](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br />Create autonomous missions.
+![Plan view icon](../../assets/toolbar/toolbar_view_select_plan.jpg) **[План](../PlanView/PlanView.md)** <br />Планирование и создание автономных планов полетов.
 
 ![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Полет](../FlyView/FlyView.md)** <br />Следите за БПЛА во время полёта, включая потоковое видео.
 
-![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
+![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Анализ](../analyze_view/README.md)** <br />Скачивание журналов событий, запись географических метаданных в фотографии на основе трека полета, доступ к консоли MAVLink.
 
-## Status icons
+## Символы состояния
 
-Status icons are displayed when *QGroundControl* is connected to a vehicle. These show the high level status of the vehicle, and can be clicked to see more detailed information.
+Символы статуса активны, когда *QGroundControl* подключено к полётному контроллеру. Они сигнализируют об уровнях состояния основных систем необходимых для навигации БПЛА и могут быть нажаты для получения более подробной информации.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages** <br />Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
+![](../../assets/toolbar/toolbar_status_message.jpg) **Сообщения БПЛА** <br />Нажмите, чтобы показать раскрывающийся список сообщений от БПЛА. This will change to a Yield sign if there are critical messages.
 
 ![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br />Shows you satellite count and curent hdop.
 
