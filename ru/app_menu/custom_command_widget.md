@@ -1,4 +1,4 @@
-# Виджет пользовательских команд
+# Инструмент пользовательские команды
 
 > **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. It is only supported on desktop builds (Windows, Linux, Mac OS).
 
@@ -8,7 +8,7 @@ The widget can use any feature of the QML language and any vehicle functionality
 
 The feature is primarily intended for creating simple UIs to send custom commands and change parameters.
 
-## How to load a Custom Widget
+## Как загрузить пользовательский Инструмент
 
 To load a widget:
 
