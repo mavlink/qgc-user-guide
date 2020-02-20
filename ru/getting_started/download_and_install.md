@@ -30,19 +30,19 @@ QGC должен хорошо работать на любом современ�
 
 Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
 
-Before installing *QGroundControl* for the first time:
+При первой инсталяции *QGroundControl*:
 
 1. On the command prompt enter: 
         sh
-        sudo usermod -a -G dialout $USER
+        sudo usermod -a -a -G dialout $USER
         sudo apt-get remove modemmanager -y
         sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
 
-2. Logout and login again to enable the change to user permissions.
+2. Завершите текущий сеанс и войдите снова, для применения изменений прав пользователя.
 
-&nbsp; To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
+&nbsp; Для установки *QGroundControl* на ОС Ubuntu Linux 16.04 LTS или выше:
 
-1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
+1. Скачайте [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
 2. Install (and run) using the terminal commands: 
         sh
         chmod +x ./QGroundControl.AppImage
