@@ -22,14 +22,14 @@ The following icons are used to switch between the main *Views*. These are displ
 
 ![](../../assets/toolbar/toolbar_status_message.jpg) **Сообщения БПЛА** <br />Нажмите, чтобы показать раскрывающийся список сообщений от БПЛА. This will change to a Yield sign if there are critical messages.
 
-![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br />Shows you satellite count and curent hdop.
+![](../../assets/toolbar/toolbar_status_gps.jpg) **Статус GPS** <br />Показывает количество спутников и текущее HDOP (Horizontal Dilution of Precision) — снижение точности в горизонтальной плоскости.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RS signal strength information.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RSSI радиоуправления** <br />Информация об уровне сигнала радиоуправления.
 
-![](../../assets/toolbar/toolbar_status_telemetry.jpg) **Telemetry RSSI** <br />Telemetry signals strength information.
+![](../../assets/toolbar/toolbar_status_telemetry.jpg) **RSSI Телеметрии ** <br />Информация об уровене сигнала канала телеметрии.
 
-![](../../assets/toolbar/toolbar_status_battery.jpg) **Battery** <br />Remaining battery percent.
+![](../../assets/toolbar/toolbar_status_battery.jpg) **Батарея** <br />Информация об остаточной емкости батарее (в процентах).
 
-![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **Flight Mode** <br />Current flight mode. Click to change flight mode.
+![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **Режимы полета** <br />Текущий режим полета. Нажмите, чтобы изменить режим полета.
 
 ![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS Survey-In Status** <br />Shows you progress of RTK GPS Survey-In process.
