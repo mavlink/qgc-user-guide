@@ -1,4 +1,4 @@
-# Custom Command Widgets
+# Виджет пользовательских команд
 
 > **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. It is only supported on desktop builds (Windows, Linux, Mac OS).
 
