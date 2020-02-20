@@ -1,6 +1,6 @@
-# QGroundControl v3.3 Release Notes (Detailed)
+# QGroundControl v3.3 Примечания к выпуску (подробные)
 
-This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.3.
+В этой теме *неисчерпывающий* список новых возможностей, добавленных в *QGroundControl* в версии 3.3.
 
 ## Подробные заметки
 
@@ -10,11 +10,11 @@ This topic contains a high level and *non-exhaustive* list of new features added
 
 ![NMEA GPS Device support](../../assets/settings/general/NMEADevice.jpg)
 
-You can specify a connection to one of these devices on the General page. The GPS information will then be used for ground station location and in turn follow me support.
+Вы можете использовать одно из устройств перечисленных на странице Общие настройки. Информация GPS будет использоваться для определения местоположения наземной станции и, в свою очередь, и поддержки функции "Следуй за мной".
 
-For more information see [Settings > General (AutoConnect to the following devices)](../SettingsView/General.md#auto_connect).
+Дополнительную информацию см. [Настройки > Общие (AutoConnect to the following devices)](../SettingsView/General.md#auto_connect).
 
-#### Video Recording
+#### Видеозапись
 
 ![Video Recording](../../assets/settings/VideoRecording.jpg)
 
