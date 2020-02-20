@@ -32,7 +32,7 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 
 При первой инсталяции *QGroundControl*:
 
-1. On the command prompt enter: 
+1. Выполните в командной строке (каждая строка отдельная команда): 
         sh
         sudo usermod -a -a -G dialout $USER
         sudo apt-get remove modemmanager -y
@@ -43,16 +43,16 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 &nbsp; Для установки *QGroundControl* на ОС Ubuntu Linux 16.04 LTS или выше:
 
 1. Скачайте [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
-2. Install (and run) using the terminal commands: 
+2. Выполните в терминале следующие команды: 
         sh
         chmod +x ./QGroundControl.AppImage
-        ./QGroundControl.AppImage  (or double click)
+        ./QGroundControl.AppImage (или двойной клик)
 
 ## Android {#android}
 
-*QGroundControl* is temporarily unavailable from the Google Play Store. We are working on a fix for this, but it may take some time.
+*QGroundControl* временно недоступен в Google Play. Мы работаем над этим, но это может занять некоторое время.
 
-In the meantime you can [download and install the APK from here](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (for Android 5.1 or later).
+Между тем вы можете [скачать необходимые APK здесь](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (для Android 5.1 и выше).
 
 ## iOS {#iOS}
 
@@ -62,10 +62,10 @@ Install *QGroundControl* for iOS 8.0 or later:
 
 1. Follow the instructions for [Installing iOS Daily Beta](../releases/daily_builds.md).
 
-## Old Stable Releases
+## Прошлые Стабильные Релизы
 
-Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
+Прошлые стабильные релизы можно найти на <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
 
-## Daily Builds
+## Ежедневные сборки
 
-Daily builds can be [downloaded from here](../releases/daily_builds.md).
+Ежедневные сборки могут быть [загружены отсюда](../releases/daily_builds.md).
