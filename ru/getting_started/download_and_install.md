@@ -56,11 +56,11 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 
 ## iOS {#iOS}
 
-> **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md).
+> **Примечание** *QGroundControl* для iOS в стадии бета-версии. И может быть установлен только из хранилища [ежедневных сборок](../releases/daily_builds.md).
 
-Install *QGroundControl* for iOS 8.0 or later:
+Для установки *QGroundControl* на ОС iOS 8.0 или более поздней версии:
 
-1. Follow the instructions for [Installing iOS Daily Beta](../releases/daily_builds.md).
+1. Следуйте инструкциям [Установка iOS Daily Beta](../releases/daily_builds.md).
 
 ## Прошлые Стабильные Релизы
 
