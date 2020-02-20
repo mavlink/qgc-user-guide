@@ -2,11 +2,11 @@
 
 This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.3.
 
-## Detailed Notes
+## Подробные заметки
 
-### Settings View
+### Просмотр настроек
 
-#### NMEA GPS Device support
+#### Поддержка GPS NMEA
 
 ![NMEA GPS Device support](../../assets/settings/general/NMEADevice.jpg)
 
