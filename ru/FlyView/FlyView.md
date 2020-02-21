@@ -81,7 +81,7 @@ The health page shows you the health of the systems within your vehicle. *QGroun
 
 ![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
 
-### Vibration
+### Вибрация
 
 The vibration page shows current vibration levels and clip counts.
 
@@ -93,7 +93,7 @@ The following sections describe how to perform common operations/tasks in the Fl
 
 > **Note** Many of the available options depend on both the vehicle type and its current state.
 
-### Pre Flight Checklist {#preflight_checklist}
+### Предполетный чек-лист {#preflight_checklist}
 
 An automated preflight checklist can be used to run through standard checks that the vehicle is configured correctly and it is safe to fly.
 
@@ -131,7 +131,7 @@ To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is 
 
 ![Emergency Stop](../../assets/fly/emergency_stop.jpg)
 
-### Takeoff {#takeoff}
+### Взлет {#takeoff}
 
 > **Tip** If you are starting a mission for a multicopter *QGroundControl* will automatically perform the takeoff step.
 
@@ -143,7 +143,7 @@ To takeoff (when landed):
 
 ![takeoff](../../assets/fly/takeoff.jpg)
 
-### Land {#land}
+### Посадка {#land}
 
 You can land at the current position at any time while flying:
 
@@ -163,7 +163,7 @@ Return to the home position at any time while flying:
 
 > **Note** The vehicle may also land at the home position, depending on its type and configuration.
 
-### Change Altitude {#change_altitude}
+### Смена высоты {#change_altitude}
 
 You can change altitude while flying, except when in a mission:
 
