@@ -37,13 +37,13 @@
 
 Некоторые элементы отображаются только в определенных условиях и не отображаются по умолчанию. Например, селектор с выбора БПЛА, отображается только в том случае, если у вас их несколько , и кнопка предполетного контрольного списка отображается только при включенной соответствующей настройке.
 
-## Уровень прибора {#instrument_panel}
+## Панель инструментов {#instrument_panel}
 
-The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
+Это многостраничный виджет с информацией о БПЛА, включающий в себя: телеметрию, камеру, видео, общее состояние системы и вибрацию.
 
-The default page displays vehicle telemetry - use the drop down menu on the to right to select the other options.
+По умолчанию отображается телеметрия БПЛА - используйте выпадающее меню справа для выбора других параметров.
 
-### Values (Telemetry)
+### Значения (Телеметрия)
 
 The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
 
@@ -53,7 +53,7 @@ You can configure what information is display by pressing the small gear icon on
 
 ![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
 
-### Camera {#camera_instrument_page}
+### Камера {#camera_instrument_page}
 
 The camera page is used to configure and control the camera. For a camera connected directly to the Flight Controller the only available option is camera triggering:
 
@@ -69,7 +69,7 @@ Advanced settings can be changed via the gear icon at the top left of the page.
 
 > **Note** Most of the settings that are displayed depend on the camera (they are defined in its [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)). A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
 
-### Video Stream {#video_instrument_page}
+### Видеопоток {#video_instrument_page}
 
 The video page is used to enable/disable video streaming. When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
 
