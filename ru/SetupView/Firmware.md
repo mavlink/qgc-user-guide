@@ -1,4 +1,4 @@
-# Loading Firmware
+# Загрузка прошивки
 
 *QGroundControl* **desktop** versions can install [PX4 Pro](http://px4.io/) or [ArduPilot](http://ardupilot.com) firmware onto Pixhawk-family flight-controller boards. By default QGC will install the current stable version of the selected autopilot, but you can also choose to install beta builds, daily builds, or custom firmware files.
 
@@ -6,7 +6,7 @@
 
 > **Caution** Loading Firmware is currently not available on tablet or phone versions of *QGroundControl*.
 
-## Connect Device for Firmware Update
+## Подключение полетного контроллера для обновления прошивки
 
 > **Caution** **Before you start installing Firmware** all USB connections to you vehicle must be *disconnected* (both direct or through a telemetry radio). The vehicle must *not be* powered by a battery.
 
@@ -18,7 +18,7 @@
     
     > **Note** Connect directly to a powered USB port on your machine (do not connect through a USB hub).
 
-## Select Firmware to Load
+## Выбер прошивки для загрузки
 
 Once the device is connected you can choose which firmware to load (*QGroundControl* presents sensible options based on the connected hardware).
 
@@ -34,7 +34,7 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
     
     ![ArduPilot - Advanced Settings](../../assets/setup/firmware/firmware_selection_advanced_settings.jpg)
 
-## Update the firmware
+## Обновление прошивки...
 
 1. Click the **OK** button to start the update.
     
