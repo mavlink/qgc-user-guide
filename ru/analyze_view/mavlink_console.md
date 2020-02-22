@@ -1,6 +1,6 @@
-# MAVLink Console (Analyze View)
+# Консоль MAVLink (Экран Анализа)
 
-The MAVLink Console (**Analyze > Mavlink Console**) allows you to connect to the PX4 [nsh shell](https://dev.px4.io/en/debug/system_console.html) and send commands.
+Консоль MAVLink (**Анализ > Консоль MAVLink**) позволяет вам подключаться к PX4 [nsh оболочке](https://dev.px4.io/en/debug/system_console.html) и передавать команды.
 
 > **Note** The console only works when connected to *hardware* running the *PX4* flight stack. PX4 SITL and ArduPilot are not supported.
 
