@@ -10,7 +10,7 @@
 - Переключение между отображением карты и видео (если доступно)
 - Отображение видео, миссии, телеметрии и другой информации для текущего транспортного средства, а также переключение между подключенными автомобилями.
 
-![Режим "Лета"](../../assets/fly/fly_view_overview.jpg)
+![Экран "Полет"](../../assets/fly/fly_view_overview.jpg)
 
 ## Обзор
 
@@ -47,7 +47,7 @@
 
 The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
 
-![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
+![Страница Инструментов - значения/телеметрия](../../assets/fly/instrument_page_values.jpg)
 
 You can configure what information is display by pressing the small gear icon on the top left of the panel. Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
 
@@ -57,7 +57,7 @@ You can configure what information is display by pressing the small gear icon on
 
 The camera page is used to configure and control the camera. For a camera connected directly to the Flight Controller the only available option is camera triggering:
 
-![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
+![Страница Инструментов - камера](../../assets/fly/instrument_page_camera.jpg)
 
 When connected to camera that supports the [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html) you can additionally configure and use other camera services that it makes available. For example, if your camera supports video mode you will be able to switch between still image capture and video mode, and start/stop recording.
 
@@ -73,19 +73,19 @@ Advanced settings can be changed via the gear icon at the top left of the page.
 
 The video page is used to enable/disable video streaming. When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
 
-![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
+![Страница Инструментов - видео поток](../../assets/fly/instrument_page_video_stream.jpg)
 
 ### Health
 
 The health page shows you the health of the systems within your vehicle. *QGroundControl* will switch to this page automatically if any systems change to unhealthy.
 
-![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
+![Страница Инструментов - хорошее состояние БПЛА ](../../assets/fly/instrument_page_health_good.jpg) ![Страница Инструментов - плохое состояние БПЛА ](../../assets/fly/instrument_page_health_bad.jpg)
 
 ### Вибрация
 
 The vibration page shows current vibration levels and clip counts.
 
-![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
+![Страница Инструментов - вибрация](../../assets/fly/instrument_page_vibration.jpg)
 
 ## Действия / Задачи
 
@@ -99,7 +99,7 @@ An automated preflight checklist can be used to run through standard checks that
 
 To you the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox. The tool will then be added to the *Flight Tools*. Press it to open the checklist:
 
-![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
+![Предполетный чек-лист](../../assets/fly/pre_flight_checklist.jpg)
 
 Once you have performed each test, select it on it in the UI to mark it as complete.
 
@@ -129,7 +129,7 @@ Emergency stop is effectively the same as disarming the vehicle while you are fl
 
 To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
 
-![Emergency Stop](../../assets/fly/emergency_stop.jpg)
+![Аварийная остановка](../../assets/fly/emergency_stop.jpg)
 
 ### Взлет {#takeoff}
 
@@ -141,7 +141,7 @@ To takeoff (when landed):
 2. Optionally set the takeoff altitude in the right-side vertical slider.
 3. Confirm takeoff using the slider.
 
-![takeoff](../../assets/fly/takeoff.jpg)
+![взлет](../../assets/fly/takeoff.jpg)
 
 ### Посадка {#land}
 
@@ -150,7 +150,7 @@ You can land at the current position at any time while flying:
 1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
 2. Confirm landing using the slider.
 
-![land](../../assets/fly/land.jpg)
+![посадка](../../assets/fly/land.jpg)
 
 ### RTL/Возврат
 
@@ -159,7 +159,7 @@ Return to the home position at any time while flying:
 1. Press the **RTL** button in the *Fly Tools*.
 2. Confirm RTL using the slider.
 
-![land](../../assets/fly/land.jpg)
+![посадка](../../assets/fly/land.jpg)
 
 > **Note** The vehicle may also land at the home position, depending on its type and configuration.
 
@@ -186,7 +186,7 @@ After taking off you can specify that you want to fly to a particular location.
 
 2. The location will be displayed on the map, along with a confirmation slider.
   
-  ![Goto confirmation](../../assets/fly/goto.jpg)
+  ![Подтверждение перехода](../../assets/fly/goto.jpg)
 
 3. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
@@ -220,7 +220,7 @@ To pause:
 2. Optionally set a new altitude using the right-side vertical slider.
 3. Confirm the pause using the slider.
 
-![pause](../../assets/fly/pause.jpg)
+![пауза](../../assets/fly/pause.jpg)
 
 ### Полётные задания
 
@@ -240,7 +240,7 @@ To start a mission from landed:
 
 3. When the confirmation slider appears, drag it to start the mission.
   
-  ![Start mission](../../assets/fly/start_mission.jpg)
+  ![Начало полетного задания](../../assets/fly/start_mission.jpg)
 
 #### Продолжение полетного задания {#continue_mission}
 
@@ -259,7 +259,7 @@ You can continue the current mission while (unless already in a mission!):
   
   ![Continue Mission](../../assets/fly/continue_mission.jpg)
 
-#### Resume Mission {#resume_mission}
+#### Возобновление полетного задания {#resume_mission}
 
 *Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
 
@@ -281,11 +281,11 @@ The image below shows the mission that was rebuilt after the Return shown above.
 
 You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. This is meant to prevent issues where stale missions are unknowingly left on a vehicle, potentially resulting in unexpected behavior.
 
-### Display Video {#video_switcher}
+### Показ видео {#video_switcher}
 
 When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map. You can press the switcher anywhere to toggle *Video* and *Map* to foreground (below we show the video in the foreground).
 
-![Video Stream Record](../../assets/fly/video_record.jpg)
+![Запись видео потока](../../assets/fly/video_record.jpg)
 
 > **Note** Video streaming is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
 
@@ -298,17 +298,17 @@ You can further configure video display using controls on the switcher:
 - Hide the switcher by pressing the toggle icon in the lower left.
 - Detach the video switcher window by pressing on the icon in its top left corner (once detached, you can move and resize the window just like any other in your OS). If you close the detached window the switcher will re-lock to the QGC Fly view.
 
-### Record Video
+### Запись видео
 
 If supported by the camera and vehicle, *QGroundControl* can start and stop video recording on the camera itself. *QGroundControl* can also record the video stream and save it locally.
 
 > **Tip** Video stored on the camera may be of much higher quality, but it is likely that your ground station will have a much larger recording capacity.
 
-#### Record Video Stream (on GCS)
+#### Запись видео потока (на наземную станцию)
 
 Video stream recording is controlled on the [video stream instrument page](#video_instrument_page). Press the red circle to start recording a new video (a new video file is created each time the circle is pressed); the circle will change into a red square while recording is in progress.
 
-![Video Stream Record](../../assets/fly/video_record.jpg)
+![Запись видео потока](../../assets/fly/video_record.jpg)
 
 Video stream recording is configured in the [Application Settings > General tab](../SettingsView/General.md):
 
@@ -317,7 +317,7 @@ Video stream recording is configured in the [Application Settings > General tab]
 
 > **Tip** The stored video includes just the video stream itself. To record video with QGroundControl application elements displayed, you should use separate screen recording software.
 
-#### Record Video on Camera
+#### Записать видео (на камеру)
 
 Start/stop video recording *on the camera itself* using the [camera instrument page](#camera_instrument_page). First toggle to video mode, then select the red button to start recording.
 
