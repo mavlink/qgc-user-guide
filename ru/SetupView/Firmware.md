@@ -36,7 +36,7 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
 
 ## Обновление прошивки...
 
-1. Click the **OK** button to start the update.
+1. Нажмите кнопку **OK**, чтобы начать обновление.
     
     The firmware will then proceed through a number of upgrade steps (downloading new firmware, erasing old firmware etc.). Each step is printed to the screen and overall progress is displayed on a progress bar.
     
