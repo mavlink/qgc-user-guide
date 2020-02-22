@@ -4,7 +4,7 @@ This topic contains the cumulative release notes for *QGroundControl*.
 
 > **Note** Stable build major/minor numbers are listed below. *Patch* release numbers are not listed, but can be found on the [Github release page](https://github.com/mavlink/qgroundcontrol/releases).
 
-## Stable Version 3.5 (Current)
+## Стабильная версия 3.5 (текущая)
 
 This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5.
 
