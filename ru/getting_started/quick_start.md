@@ -1,12 +1,12 @@
-# QGroundControl Quick Start
+# Быстрый старт QGroundControl
 
 Getting *QGroundControl* up and running is quick and easy:
 
-1. [Download and install](../getting_started/download_and_install.md) the application.
-2. Start *QGroundControl*. 
-3. Attach your vehicle to the ground station device via USB, through a telemetry radio, or over WiFi. *QGroundControl* should detect your vehicle and connect to it automatically.
+1. [Скачайте и установите](../getting_started/download_and_install.md) приложение.
+2. Запустите *QGroundControl*. 
+3. Подключите к наземную станцию через USB, через радио телеметрии или по WiFi к полётному контроллеру. *QGroundControl* определит Ваш полетный контроллер и подключится к нему автоматически.
 
-That's it! If the vehicle is ready to fly, *QGroundControl* should display [Fly View](../FlyView/FlyView.md) as shown below (otherwise it will open [Setup View](../SetupView/SetupView.md)).
+Вот и все! Если БПЛА готов к полету, *QGroundControl* откроет [Экран Полета](../FlyView/FlyView.md), как показано ниже (иначе он откроет [Экран Настроек](../SetupView/SetupView.md)).
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
