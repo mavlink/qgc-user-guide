@@ -170,11 +170,11 @@ You can change altitude while flying, except when in a mission:
 1. Press the **Action** button on the *Fly Tools*
 2. Select the *Change Altitude* action from the dialog.
   
-  ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
+  ![Продолжение полётного задания/изменение высоты](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
 3. Move the vertical slider to the desired altitude, then drag the confirmation slider to start the action.
   
-  ![Change altitude](../../assets/fly/change_altitude.jpg)
+  ![Смена высоты](../../assets/fly/change_altitude.jpg)
 
 ### Двигаться к местоположению {#goto}
 
@@ -233,7 +233,7 @@ To start a mission from landed:
 1. Press the **Action** button on the *Fly Tools*
 2. Select the *Start Mission* action from the dialog.
   
-  ![Start mission action](../../assets/fly/start_mission_action.jpg)
+  ![Подтверждение начала полетного задания](../../assets/fly/start_mission_action.jpg)
   
       (to display the confirmation slider)
       
@@ -253,11 +253,11 @@ You can continue the current mission while (unless already in a mission!):
 1. Press the **Action** button on the *Fly Tools*
 2. Select the *Continue Mission* action from the dialog.
   
-  ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
+  ![Продолжение полётного задания/изменение высоты](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
 3. Drag the confirmation slider to continue the mission.
   
-  ![Continue Mission](../../assets/fly/continue_mission.jpg)
+  ![Продолжение полетного задания](../../assets/fly/continue_mission.jpg)
 
 #### Возобновление полетного задания {#resume_mission}
 
@@ -267,13 +267,13 @@ You can continue the current mission while (unless already in a mission!):
 
 After landing you will be prompted with a *Flight Plan complete* dialog, which gives you the option to remove the plan from the vehicle, leave it on the vehicle, or to resume the mission from the last waypoint that was traveled through.
 
-![Resume Mission](../../assets/fly/resume_mission.jpg)
+![Возобновление полетного задания](../../assets/fly/resume_mission.jpg)
 
 If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle. Then use the *Start Mission* slider to continue the mission.
 
 The image below shows the mission that was rebuilt after the Return shown above.
 
-![Resume Rebuilt Mission](../../assets/fly/resume_mission_rebuilt.jpg)
+![Возобновление измененного полетного задания](../../assets/fly/resume_mission_rebuilt.jpg)
 
 > **Note** A mission cannot simply resume from the last mission item that the vehicle executed, because there may be multiple items at the last waypoint that affect the next stage of the mission (e.g. speed commands or camera control commands). Instead *QGroundControl* rebuilds the mission, starting from the last mission item flown, and automatically prepending any relevant commands to the front of the mission.
 
@@ -321,4 +321,4 @@ Video stream recording is configured in the [Application Settings > General tab]
 
 Start/stop video recording *on the camera itself* using the [camera instrument page](#camera_instrument_page). First toggle to video mode, then select the red button to start recording.
 
-![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
+![Страница Инструментов - Настройка MAVLink камеры](../../assets/fly/instrument_page_camera_mavlink.jpg)
