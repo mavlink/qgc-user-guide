@@ -152,7 +152,7 @@ You can land at the current position at any time while flying:
 
 ![land](../../assets/fly/land.jpg)
 
-### RTL/Return
+### RTL/Возврат
 
 Return to the home position at any time while flying:
 
@@ -176,7 +176,7 @@ You can change altitude while flying, except when in a mission:
   
   ![Change altitude](../../assets/fly/change_altitude.jpg)
 
-### Goto Location {#goto}
+### Двигаться к местоположению {#goto}
 
 After taking off you can specify that you want to fly to a particular location.
 
@@ -208,7 +208,7 @@ After taking off you can specify that you want to orbit a particular location.
   - Select and drag the dot on the outer circle to change the orbit radius
 3. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
-### Pause
+### Пауза
 
 You can pause most operations, including taking off, landing, RTL, missions, Orbit at location. The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
 
@@ -222,9 +222,9 @@ To pause:
 
 ![pause](../../assets/fly/pause.jpg)
 
-### Missions
+### Полётные задания
 
-#### Start Mission {#start_mission}
+#### Начало полетного задания {#start_mission}
 
 You can start a mission when the vehicle is landed (the start mission confirmation slider is often displayed by default).
 
@@ -242,7 +242,7 @@ To start a mission from landed:
   
   ![Start mission](../../assets/fly/start_mission.jpg)
 
-#### Continue Mission {#continue_mission}
+#### Продолжение полетного задания {#continue_mission}
 
 You can *continue* mission from the *next* waypoint when you're flying (the *Continue Mission* confirmation slider is often displayed by default after you takeoff).
 
