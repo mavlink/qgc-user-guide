@@ -2,13 +2,13 @@
 
 Консоль MAVLink (**Анализ > Консоль MAVLink**) позволяет вам подключаться к PX4 [nsh оболочке](https://dev.px4.io/en/debug/system_console.html) и передавать команды.
 
-> **Note** The console only works when connected to *hardware* running the *PX4* flight stack. PX4 SITL and ArduPilot are not supported.
+> **Примечание** консоль работает только при подключении к *оборудованию* полетного контроллера *PX4*. PX4 SITL и ArduPilot не поддерживаются.
 
 <span></span>
 
-> **Tip** This is a very useful feature for developers as it allows deep access to the system. In particular, if you are connected via Wifi, you can have this same level of access while the vehicle is flying.
+> **Совет** Это очень полезная функция для разработчиков, так как она предоставляет глубокий доступ к системе. В частности, если вы подключены через Wifi, вы можете иметь такой же уровень доступа во время полета БПЛА.
 
-![Analyze View MAVLink Console](../../assets/analyze/mavlink_console.jpg)
+![Экран Анализа Консоль MAVLink](../../assets/analyze/mavlink_console.jpg)
 
 The view does not display any output except in response to commands. Once the vehicle is connected, you can enter commands in the bar provided (for a full list of available commands enter: `?`).
 
