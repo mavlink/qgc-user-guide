@@ -1,10 +1,10 @@
 # Повтор данных полета
 
-> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. It is only supported on desktop builds (Windows, Linux, Mac OS).
+> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. Он поддерживается только в операционных системах:Windows, Linux, Mac OS.
 
-The *Replay Flight Data* features allows users to replay a telemetry log, enabling review of past or problematic flights. The flight can be started, paused, stopped, restarted etc.
+Функция *Повтор данных полета* позволяет пользователям повторно воспроизводить журнал телеметрии, анализировать за прошедшими или проблемными полетами. Журналы полета можно приостановливать и перезапускать для востановления событий полета или поиска ошибок.
 
-> **Note** *QGroundControl* treats flight replay like an active connection. When you pause/stop playing, the ground station will report "Communication Lost" and wait for disconnection or for more messages.
+> **Примечание** *QGroundControl* рассматривает воспроизведение полета как активное соединение. Когда вы приостанавливаете/прекратите воспроизведение, станция будет сообщать «Соединение потеряно» и ждать подключения или других событий.
 
 Для повтора данных полета:
 
