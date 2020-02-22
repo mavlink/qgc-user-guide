@@ -1,6 +1,6 @@
 # Onboard Files Widget
 
-> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. Он поддерживается только в операционных системах:Windows, Linux, Mac OS.
+> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. Она поддерживается только в операционных системах: Windows, Linux, Mac OS.
 
 The *Onboard Files* widget allows you to navigate the file system/SD card on a connected vehicle and upload/download files.
 
