@@ -10,13 +10,13 @@ Getting *QGroundControl* up and running is quick and easy:
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
-A good way to become familiar with *QGroundControl* is to start experimenting:
+Хороший способ познакомиться с *QGroundControl* - поэкспериментировать:
 
-- Use the [toolbar](../toolbar/toolbar.md) to switch between the main views: 
-  - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
-  - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
-  - [Plan](../PlanView/PlanView.md): Create autonomous missions.
-  - [Fly](../FlyView/FlyView.md): Monitor your vehicle(s) while flying, including streaming video.
-- Click the *Status icons* on the toolbar to find out the status of the connected vehicle. 
+- Используйте [панель инструментов](../toolbar/toolbar.md) для переключения между основными экранами: 
+  - [Настройки](../SettingsView/SettingsView.md) Настройка приложения QGroundControl.
+  - [Уставки](../SetupView/SetupView.md) Настройка и настройка БПЛА.
+  - [План](../PlanView/PlanView.md) Планирование и создание автономных планов полетов.
+  - [Полет](../FlyView/FlyView.md) Следите за БПЛА во время полёта, включая потоковое видео.
+- Нажмите *Символы состояния* на панели инструментов, чтобы узнать состояние подключенного БПЛА. 
 
-While the UI is fairly intuitive, this documentation can also be referenced to find out more.
+Хотя пользовательский интерфейс достаточно интуитивен, из этой документации можно почерпнуть дополнительную информацию.
