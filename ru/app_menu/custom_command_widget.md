@@ -1,6 +1,6 @@
 # Инструмент пользовательские команды
 
-> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. It is only supported on desktop builds (Windows, Linux, Mac OS).
+> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. Она поддерживается только в операционных системах: Windows, Linux, Mac OS.
 
 The *Custom Command Widget* feature can be used to load QML UIs at runtime (without having to rebuild *QGroundControl* or understand its internal architecture). A single widget can be loaded at a time and will be "remembered" between *QGroundControl* restarts.
 
