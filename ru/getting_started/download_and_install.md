@@ -24,7 +24,12 @@ QGC должен хорошо работать на любом современ�
 Для установки *QGroundControl* на macOS 10.10 и выше:
 
 1. Скачайте [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
-2. Дважды кликните на .dmg файле, чтобы смонтировать его, затем перетащите *QGroundControl* в папку *Приложения*.
+2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
+    
+    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
+    > 
+    > * Right-click the QGC app icon, select Open from the menu. You will only be presented with an option to Cancel. Select Cancel.
+    > * Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
 
 ## Ubuntu Linux {#ubuntu}
 
@@ -50,17 +55,16 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 
 ## Android {#android}
 
-*QGroundControl* временно недоступен в Google Play. Мы работаем над этим, но это может занять некоторое время.
+*QGroundControl* is available from the Google Play Store.
 
-Между тем вы можете [скачать необходимые APK здесь](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (для Android 5.1 и выше).
+You can also install manually:
+
+* [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
+* [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
 ## iOS {#iOS}
 
-> **Примечание** *QGroundControl* для iOS в стадии бета-версии. И может быть установлен только из хранилища [ежедневных сборок](../releases/daily_builds.md).
-
-Для установки *QGroundControl* на ОС iOS 8.0 или более поздней версии:
-
-1. Следуйте инструкциям [Установка iOS Daily Beta](../releases/daily_builds.md).
+*QGroundControl* is available from the App Store.
 
 ## Прошлые Стабильные Релизы
 
