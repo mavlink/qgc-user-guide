@@ -7,6 +7,8 @@ This topic contains the cumulative release notes for *QGroundControl*.
   
 ## Stable Version 4.0 (current)
 
+> **Note** The format for Settings in QGC had to change in this release. Which means all QGC settings will be reset to defaults.
+
 * Settings
   * Language: Allow selection of language
   * ArduPilot
