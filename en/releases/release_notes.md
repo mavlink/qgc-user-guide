@@ -4,8 +4,44 @@ This topic contains the cumulative release notes for *QGroundControl*.
 
 > **Note** Stable build major/minor numbers are listed below.
   *Patch* release numbers are not listed, but can be found on the [Github release page](https://github.com/mavlink/qgroundcontrol/releases).
+  
+## Stable Version 4.0 (current)
 
-## Stable Version 3.5 (Current)
+* Settings
+  * Language: Allow selection of language
+  * ArduPilot
+    * Mavlink: Configurable stream rate settings
+* Setup
+  * Joystick
+    * New joystick setup ui
+    * Ability to configure held button to single or repeated action
+  * ArduPilot
+    * Motor Test
+* Plan
+  * Create Plan from template with wizard like progression for completing full Plan.
+  * Survey: Save commonly used settings as a Preset
+  * Polygon editing
+    * New editing tools ui
+    * Support for tracing a polygon from map locations
+  * ArduPilot
+    * Support for GeoFence and Rally Points using latest firmwares and mavlink v2
+* Fly
+  * Click to ROI support
+  * Added support for connecting to ADSB SBS server. Adds support for ADSB data from USB SDR Dongle running 'dump1090 --net' for example.
+  * Ability to turn on Heading to home, COG and Next Waypoint heading indicators in Compass.
+  * Video
+    * Add support for h.265 video streams
+  * Vehicle type specific pre-flight checklists. Turn on from Settings.
+* Analyze
+  * New Mavlink Inspector which includes charting support. Supported on all builds including Android and iOS.
+* General
+  * Released Windows build are now 64 bit only
+  * Log Replay: Ability to specify replay speed
+  * ArduPilot
+    * Improved support for chibios firmwares and ArduPilot bootloader with respect to flashing and auto-connect.
+
+
+## Stable Version 3.5
 
 This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5.
 
