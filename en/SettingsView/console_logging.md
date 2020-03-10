@@ -30,7 +30,7 @@ How you do this and where the traces are output vary by OS:
   * You must open a command prompt, change directory to the **qgroundcontrol.exe** location, and run it from there:
     ```bash
     cd "\Program Files (x86)\qgroundcontrol"
-    qgroundcontrol --logging:full</code>
+    qgroundcontrol --logging:full
     ```
   * When *QGroundControl* starts you should see a separate console window open which will have the log output
 * OSX
