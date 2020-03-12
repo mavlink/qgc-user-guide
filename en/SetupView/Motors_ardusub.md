@@ -1,14 +1,16 @@
 # Motors Setup (ArduSub)
 
 In order for ArduSub to function properly, the motors must be correctly set up.
-**Manual Test** is supported by ArduSub up to 3.5, while Ardusub 4.0 supports both **Manual Test** and **Automatic Direction Detection**.
 
 If you just assembled your ROV, first make sure that the thrusters are connected to the correct outputs in the **Manual Test** section.
-Drag each slider and make sure that the correct motor spins accordingly to the frame displayed.
+Drag each slider and make sure that the *correct motor* spins accordingly to the frame displayed.
 
-Once you know that the thrusters are connected to the proper outputs, the **Automatic Direction Detection** is able to detect the direction (forward/reverse) for them.
+Once you know that the thrusters are connected to the proper outputs you can check for *correct direction* (forward/reverse) using either [automatic direction detection](#automatic) (recommended from ArduSub 4.0) or the [manual test](#manual).
 
-## Manual Test
+> **Note** [Manual Test](#manual) is supported by ArduSub up to 3.5, while ArduSub 4.0 supports both [Manual Test](#manual) and [automatic direction detection](#automatic).
+
+## Manual Test {#manual}
+
 The ArduSub motor setup allows you to test individual motors.
 The sliders allow spinning each motor in forward or reverse mode, and the checkboxes under the sliders allow reversing the operation of individual thrusters.
 
@@ -21,7 +23,7 @@ To manually set up and test the motors, read and follow the instructions on the 
 
 ![Ardusub Motors Test](../../assets/setup/motors-sub.jpg)
 
-## Automatic Direction Detection
+## Automatic Direction Detection {#automatic}
 
 Ardusub 4.0 and newer support automatic detection of the motor directions.
 This works by applying pulses to each motor, checking if the frame reacts as expected, and reversing the motor if necessary.
