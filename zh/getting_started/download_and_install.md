@@ -17,14 +17,14 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 1. 下载[QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)。
 2. 双击可执行文件来启动安装程序。
 
-> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
+> **注意** Windows 安装程序有三个快捷选项：**QGroundControl**, **GPU 兼容性模式**, **GPU 安全模式**。 除非您有遇到启动或图像渲染问题，一般情况下，使用第一个选项来安装， 想了解更多详情可以参考[QGC Install/Config Problem>Windows：UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting)。
 
-## Mac OS X {#macOS}
+## Mac OS X 系统 {#macOS}
 
-Install *QGroundControl* for macOS 10.10 or later:
+为 macOS 10.10或更高版本安装 *QGroundControl* ︰
 
-1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
-2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
+1. 下载[QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)。
+2. 双击.dmg 文件以挂载它，然后将*QGroundControl*应用程序拖动到您的*应用程序*文件夹。
     
     > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
     > 
