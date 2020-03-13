@@ -6,16 +6,16 @@
 
 ## 系统配置要求
 
-QGC可以在任何当下流行的计算机或移动设备上正常运行。 Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+QGC可以在任何当下流行的计算机或移动设备上正常运行。 性能表现将取决于系统环境、第三方应用程序和当前系统可使用的资源状况。 更牛的硬件配置将会提供一个更好的使用体验。 最低配置也至少要8Gb的内存，一个固态硬盘，Nvidia 或 AMD的显示卡和i5级别或更强的CPU，会让大多数应用程序执行起来爽到666
 
-For the best experience and compatibility, we recommend you the newest version of your operating system.
+为了获得最好的体验和兼容性，我们推荐您使用最新版本的操作系统。
 
 ## Windows {#windows}
 
-Install *QGroundControl* for Windows Vista or later:
+为Windows Vista或更高版本安装*QGroundControl*：
 
-1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
-2. Double click the executable to launch the installer.
+1. 下载[QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)。
+2. 双击可执行文件来启动安装程序。
 
 > **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
