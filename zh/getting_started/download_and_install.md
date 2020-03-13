@@ -68,8 +68,8 @@ Ubuntu 具有一个串行的调制解调的管理器，它会影响干扰任何�
 
 ## 旧稳定版本
 
-Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
+旧稳定版本可在 <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub </a>找到。
 
-## Daily Builds
+## 每日构建
 
-Daily builds can be [downloaded from here](../releases/daily_builds.md).
+每日构建可以从这里下载[](../releases/daily_builds.md)。
