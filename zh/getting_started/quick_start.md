@@ -10,7 +10,7 @@
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
-A good way to become familiar with *QGroundControl* is to start experimenting:
+要想把*QGroundControl*玩的纯熟，最好方法是亲自上手折腾：
 
 - 使用[工具栏](../toolbar/toolbar.md)在主视图之间切换： 
   - [Settings](../SettingsView/SettingsView.md)：配置 *QGroundControl* 应用程序。
