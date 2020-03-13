@@ -1,4 +1,4 @@
-# MAVLink Console (Analyze View)
+# MAVLink 控制台(分析视图)
 
 The MAVLink Console (**Analyze > Mavlink Console**) allows you to connect to the PX4 [nsh shell](https://dev.px4.io/en/debug/system_console.html) and send commands.
 
