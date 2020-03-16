@@ -1,17 +1,17 @@
-# App Menus
+# Меню
 
-The App Menus (**File** and **Widget**) provide access to tools that primarily useful for autopilot developers/debugging.
+Меню приложения (**Файл** и **Виджет**) предоставляют доступ к инструментам, которые в первую очередь полезны разработчикам / отладке.
 
-![File Menu](../../assets/app_menu/app_menu_file.jpg) ![Widget Menu](../../assets/app_menu/app_menu_widgets.jpg)
+![File Menu](../../assets/app_menu/app_menu_file.jpg) ![Меню элементов управления](../../assets/app_menu/app_menu_widgets.jpg)
 
-The linked tools are:
+К ним относятся:
 
-- **File** 
-  - **[Replay Flight Data](../app_menu/replay_flight_data.md)** - Replay a telemetry log.
-  - **Exit** - Close *QGroundControl*
-- **Widgets** 
-  - **[MAVLink Inspector](../app_menu/mavlink_inspector.md)** - Display received MAVLink messages/values.
-  - **[Custom Command](../app_menu/custom_command_widget.md)** - Load custom/test QML UI at runtime.
-  - **[Onboard Files](../app_menu/onboard_files.md)** - Navigate vehicle file system and upload/download files.
-  - **[HIL Config Widget](../app_menu/hil_config.md)** - Settings for HIL simulators.
-  - **[Analyze](../app_menu/mavlink_analyzer.md)** - MAVLink Analyzer tool can plot trends for message fields.
+- **Файл** 
+  - **[Повтор данных полета](../app_menu/replay_flight_data.md)** - Повтор журнала телеметрии.
+  - **Выход** - Закрыть *QGroundControl*
+- **Элементы управления** 
+  - **[MAVLink инспектор](../app_menu/mavlink_inspector.md)** - Отображение полученных MAVLink сообщений/значений.
+  - **[Пользовательская команда](../app_menu/custom_command_widget.md)** - Загрузка пользовательского/тестового интерфейса QML во время выполнения.
+  - **[Файлы на борту](../app_menu/onboard_files.md)** - Навигация (загрузка/скачивание) по файловой системе полетного контроллера.
+  - **[HIL конфигурация](../app_menu/hil_config.md)** - Настройки для HIL симуляторов.
+  - **[Анализатор](../app_menu/mavlink_analyzer.md)** - Инструмент анализа MAVLink сообщений, может отрисовывать тренды из значений полей сообщений.

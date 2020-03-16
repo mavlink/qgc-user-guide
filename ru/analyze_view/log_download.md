@@ -1,4 +1,4 @@
-# Log Download (Analyze View)
+# Загрузка журналов (Экран Анализ)
 
 The *Log Download* screen (**Analyze > Log Download**) is used to list (*Refresh*), *Download* and *Erase All* log files from the connected vehicle.
 

@@ -1,6 +1,6 @@
 # MAVLink Inspector Widget
 
-> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. It is only supported on desktop builds (Windows, Linux, Mac OS).
+> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. Она поддерживается только в операционных системах:Windows, Linux, Mac OS.
 
 The *MAVLink Inspector* widget provides information about MAVLink traffic received by *QGroundControl*. For every vehicle it lists all received messages (including their update frequency and command number). You can drill down into any vehicle message to see the content of the last received message.
 

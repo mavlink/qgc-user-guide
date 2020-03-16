@@ -1,22 +1,22 @@
-# QGroundControl Quick Start
+# QGroundControl快速上手指南
 
-Getting *QGroundControl* up and running is quick and easy:
+让 *QGroundControl* 轻松入门上手使用：
 
-1. [Download and install](../getting_started/download_and_install.md) the application.
-2. Start *QGroundControl*. 
-3. Attach your vehicle to the ground station device via USB, through a telemetry radio, or over WiFi. *QGroundControl* should detect your vehicle and connect to it automatically.
+1. [下载并安装](../getting_started/download_and_install.md) 应用程序.
+2. 启动*QGroundControl*。 
+3. 通过USB有线通讯线缆、无线数据传输或WiFi将您的设备与地面站设备相联接。 *QGroundControl*应检测您的设备并自动连接它。
 
-That's it! If the vehicle is ready to fly, *QGroundControl* should display [Fly View](../FlyView/FlyView.md) as shown below (otherwise it will open [Setup View](../SetupView/SetupView.md)).
+就这么简单！ 如果设备准备飞行（无人机是飞，其它设备是运行），*QGroundControl*应显示如下[Fly View](../FlyView/FlyView.md) (否则将打开[Setup View](../SetupView/SetupView.md))。
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
-A good way to become familiar with *QGroundControl* is to start experimenting:
+要想把*QGroundControl*玩的纯熟，最好方法是亲自上手折腾：
 
-- Use the [toolbar](../toolbar/toolbar.md) to switch between the main views: 
-  - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
-  - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
-  - [Plan](../PlanView/PlanView.md): Create autonomous missions.
-  - [Fly](../FlyView/FlyView.md): Monitor your vehicle(s) while flying, including streaming video.
-- Click the *Status icons* on the toolbar to find out the status of the connected vehicle. 
+- 使用[工具栏](../toolbar/toolbar.md)在主视图之间切换： 
+  - [Settings](../SettingsView/SettingsView.md)：配置 *QGroundControl* 应用程序。
+  - [Setup](../SetupView/SetupView.md)：配置和调试你的设备。
+  - [Plan](../PlanView/PlanView.md)：创建自主自动执行的任务
+  - [Fly](../FlyView/FlyView.md)：在飞行时监测您的车辆，包括视频流。
+- 点击工具栏上的*Status 图标*来确认已连接设备的状态。 
 
-While the UI is fairly intuitive, this documentation can also be referenced to find out more.
+虽然软件的界面相当直观亲和，但是这篇文档也能给您带来更多信息让您更加容易上手把玩QGC。

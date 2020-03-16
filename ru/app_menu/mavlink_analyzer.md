@@ -1,6 +1,6 @@
 # MAVLink Analyzer Widget (Analyze)
 
-> **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. It is only supported on desktop builds (Windows, Linux, Mac OS). Note that this is distinct from the [Analyze View](../analyze_view/README.md).
+> **Предупреждение** Эта функция предназначена главным образом для **разработчиков**. Она поддерживается только в операционных системах:Windows, Linux, Mac OS. Обратите внимание, что это отличается от [Экрана Анализ](../analyze_view/README.md).
 
 The *MAVLink Analyzer* widget can be used to show *trend* information for MAVLink traffic received by *QGroundControl*.
 

@@ -2,7 +2,7 @@
 
 *QGroundControl* allows you to control a vehicle using a joystick or gamepad instead of an RC Transmitter.
 
-> **Note** Flying with a Joystick (or [virtual thumb-sticks](../SettingsView/VirtualJoystick.md)) is not as responsive as RC Control because joystick information is sent over MAVLink.
+> **Note** Flying with a Joystick (or [virtual thumb-sticks](../SettingsView/VirtualJoystick.md)) requires a reliable high bandwidth telemetry channel to ensure that the vehicle is responsive to joystick movements (because joystick information is sent over MAVLink).
 
 <span></span>
 

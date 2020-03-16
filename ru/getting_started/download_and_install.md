@@ -1,71 +1,75 @@
-# Download and Install
+# Скачать и установить
 
 The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
-> **Tip** See [QGC Install/Config Problems](../Support/troubleshooting_qgc.md) if you have any problem running *QGroundControl* after installation!
+> **Совет** Смотрите раздел [QGC Установка/Проблеммы при конфигурировании](../Support/troubleshooting_qgc.md), если у вас возникли какие-либо проблемы с запуском *QGroundControl* после установки!
 
-## System Requirements
+## Системные требования
 
-QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+QGC должен хорошо работать на любом современном компьютере или мобильном устройстве. Однако производительность будет зависеть от системной среды, сторонних приложений и доступных системных ресурсов. Более мощное и современное оборудование обеспечит лучшую производительность. Рекомендуемые системные требования: процессор - Intel i5 (или старше), 8Gb RAM, SSD, видеокарта: Nvidia или AMD (не имеет принципиального значения).
 
-For the best experience and compatibility, we recommend you the newest version of your operating system.
+Для большего комфорта и наилучшей совместимости, мы рекомендуем вам новейшую версию вашей операционной системы.
 
 ## Windows {#windows}
 
-Install *QGroundControl* for Windows Vista or later:
+Для установки *QGroundControl* на ОС Windows Vista и выше:
 
-1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
-2. Double click the executable to launch the installer.
+1. Скачайте [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
+2. Для запуска программы установки дважды кликните на исполняемый файл.
 
-> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
+> **Примечание** Установщик создает 3 ярлыка: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
 ## Mac OS X {#macOS}
 
-Install *QGroundControl* for macOS 10.10 or later:
+Для установки *QGroundControl* на macOS 10.10 и выше:
 
-1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
+1. Скачайте [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
+    
+    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
+    > 
+    > * Right-click the QGC app icon, select Open from the menu. You will only be presented with an option to Cancel. Select Cancel.
+    > * Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
 
 ## Ubuntu Linux {#ubuntu}
 
 Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
 
-Before installing *QGroundControl* for the first time:
+При первой инсталяции *QGroundControl*:
 
-1. On the command prompt enter: 
+1. Выполните в командной строке (каждая строка отдельная команда): 
         sh
-        sudo usermod -a -G dialout $USER
+        sudo usermod -a -a -G dialout $USER
         sudo apt-get remove modemmanager -y
         sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
 
-2. Logout and login again to enable the change to user permissions.
+2. Завершите текущий сеанс и войдите снова, для применения изменений прав пользователя.
 
-&nbsp; To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
+&nbsp; Для установки *QGroundControl* на ОС Ubuntu Linux 16.04 LTS или выше:
 
-1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
-2. Install (and run) using the terminal commands: 
+1. Скачайте [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
+2. Выполните в терминале следующие команды: 
         sh
         chmod +x ./QGroundControl.AppImage
-        ./QGroundControl.AppImage  (or double click)
+        ./QGroundControl.AppImage (или двойной клик)
 
 ## Android {#android}
 
-*QGroundControl* is temporarily unavailable from the Google Play Store. We are working on a fix for this, but it may take some time.
+*QGroundControl* is available from the Google Play Store.
 
-In the meantime you can [download and install the APK from here](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (for Android 5.1 or later).
+You can also install manually:
+
+* [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
+* [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
 ## iOS {#iOS}
 
-> **Note** *QGroundControl* for iOS is in beta. It can only be installed as a [daily build](../releases/daily_builds.md).
+*QGroundControl* is available from the App Store.
 
-Install *QGroundControl* for iOS 8.0 or later:
+## Прошлые Стабильные Релизы
 
-1. Follow the instructions for [Installing iOS Daily Beta](../releases/daily_builds.md).
+Прошлые стабильные релизы можно найти на <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
 
-## Old Stable Releases
+## Ежедневные сборки
 
-Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
-
-## Daily Builds
-
-Daily builds can be [downloaded from here](../releases/daily_builds.md).
+Ежедневные сборки могут быть [загружены отсюда](../releases/daily_builds.md).

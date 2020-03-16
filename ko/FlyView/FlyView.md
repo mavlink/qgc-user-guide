@@ -33,6 +33,7 @@ The screenshot above shows the main elements of the fly view:
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window. 
   - Press the element to switch *Video* and *Map* to foreground.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also support directly connected UVC device support. QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. Slide to start operation. Press **X** to cancel.
 
 There are a number of other elements that are not displayed by default/are only displayed in certain conditions. For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
