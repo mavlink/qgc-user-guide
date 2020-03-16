@@ -33,6 +33,7 @@
 - **[Video/Switcher](#video_switcher):** Переключение между видео или картой в окне. 
   - Нажмите на элемент для переключения *Видео* и *Карта* для переключения на передний план.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. Также поддерживается поддержка устройств UVC. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. Проведите для начала операции. Нажмите **X** для отмены.
 
 Некоторые элементы отображаются только в определенных условиях и не отображаются по умолчанию. Например, селектор с выбора БПЛА, отображается только в том случае, если у вас их несколько , и кнопка предполетного контрольного списка отображается только при включенной соответствующей настройке.
