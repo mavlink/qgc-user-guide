@@ -42,6 +42,7 @@
    * [Parameters](SetupView/Parameters.md)
 * [Application Settings](SettingsView/SettingsView.md)
     * [General](SettingsView/General.md)
+      * [CSV Logging](SettingsView/csv.md)
     * [Offline Maps](SettingsView/OfflineMaps.md)
     * [MAVLink](SettingsView/MAVLink.md)
     * [Console Logging](SettingsView/console_logging.md)
@@ -57,7 +58,6 @@
        * [v3.2 (Detailed)](releases/stable_v3.2_long.md)
     * [Daily Builds](releases/daily_builds.md)
     * [Daily Build New Features](releases/daily_build_new_features.md)
-      * [CSV Logging](SettingsView/csv.md)
     * [Privacy Policy](releases/privacy_policy.md)
 
 * [Support](Support/Support.md)

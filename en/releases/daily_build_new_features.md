@@ -10,4 +10,3 @@ This topic contains a high level and *non-exhaustive* list of new features added
   * Improved support for flashing ChibiOS firmware
   * Improved support for connecting to ChibiOS bootloader boards
   * Support configurable mavlink stream rates. Available from Settings/Mavlink page. ![Stream Rates JPG](../../assets/daily_build_changes/ArduPilotStreamRates.jpg)
-* Optional [CSV Logging](../SettingsView/csv.md) of telemetry data for improved accessibility.
