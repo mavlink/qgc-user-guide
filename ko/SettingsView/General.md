@@ -62,7 +62,7 @@ The settings are:
 
 - <span id="autosave_log"></span>**Save log after each flight**: Telemetry logs (`.tlog`) automatically saved to the *Application Load/Save Path* ([above](#load_save_path)) after flight. 
 - **Save logs even if vehicle was not armed**: Logs when a vehicle connects to *QGroundControl*. Stops logging when the last vehicle disconnects.
-- **Save CSV log of telemetry data**: Log subset of telemetry data to a CSV file.
+- [**CSV Logging**](csv.md): Log subset of telemetry data to a CSV file.
 
 ## Fly View {#fly_view}
 
