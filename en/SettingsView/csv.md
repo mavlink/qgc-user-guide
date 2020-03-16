@@ -1,7 +1,5 @@
 # CSV Logging
 
-> **Note** This is a daily build feature (not present in QGC v3.5)
-
 ![Csv checkbox](../../assets/settings/general/csv.jpg)
 
 When checked, a CSV (comma-separated value) telemetry file will be created along with the usual **.tlog** telemetry file.
