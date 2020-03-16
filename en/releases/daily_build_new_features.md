@@ -10,4 +10,3 @@ This topic contains a high level and *non-exhaustive* list of new features added
   * Improved support for flashing ChibiOS firmware
   * Improved support for connecting to ChibiOS bootloader boards
   * Support configurable mavlink stream rates. Available from Settings/Mavlink page. ![Stream Rates JPG](../../assets/daily_build_changes/ArduPilotStreamRates.jpg)
-* Automatically add a [Video Overlay](../FlyView/VideoOverlay.md) with flight data as a subtitle for locally-recorded videos ![Overlay in action](../../assets/fly/overlay_capture.png)

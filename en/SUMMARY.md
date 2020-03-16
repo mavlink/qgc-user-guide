@@ -6,7 +6,7 @@
 * [Toolbar/Menu](toolbar/toolbar.md)
 * [Fly](FlyView/FlyView.md)
   * [Replay Flight Data](FlyView/replay_flight_data.md)
-
+  * [Video Overlay](FlyView/VideoOverlay.md)
 * [Plan](PlanView/PlanView.md)
     * [GeoFence](PlanView/PlanGeoFence.md)
     * [Rally Points](PlanView/PlanRallyPoints.md)
@@ -58,7 +58,6 @@
        * [v3.2 (Detailed)](releases/stable_v3.2_long.md)
     * [Daily Builds](releases/daily_builds.md)
     * [Daily Build New Features](releases/daily_build_new_features.md)
-      * [Video Overlay](FlyView/VideoOverlay.md)
     * [Privacy Policy](releases/privacy_policy.md)
 
 * [Support](Support/Support.md)

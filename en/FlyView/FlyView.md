@@ -35,6 +35,7 @@ The screenshot above shows the main elements of the fly view:
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
     It also support directly connected UVC device support.
     QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. 
   Slide to start operation. Press **X** to cancel.
 
