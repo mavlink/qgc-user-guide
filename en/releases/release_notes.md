@@ -19,6 +19,8 @@ This topic contains the cumulative release notes for *QGroundControl*.
     * Ability to configure held button to single or repeated action
   * ArduPilot
     * Motor Test
+    * ArduSub
+      * Automatic motor direction detection
 * Plan
   * Create Plan from template with wizard like progression for completing full Plan.
   * Survey: Save commonly used settings as a Preset
