@@ -11,6 +11,7 @@ This topic contains the cumulative release notes for *QGroundControl*.
 
 * Settings
   * Language: Allow selection of language
+  * Optional [CSV Logging](../SettingsView/csv.md) of telemetry data for improved accessibility.
   * ArduPilot
     * Mavlink: Configurable stream rate settings
 * Setup
@@ -35,6 +36,7 @@ This topic contains the cumulative release notes for *QGroundControl*.
   * Ability to turn on Heading to home, COG and Next Waypoint heading indicators in Compass.
   * Video
     * Add support for h.265 video streams
+    * Automatically add a [Video Overlay](../FlyView/VideoOverlay.md) with flight data as a subtitle for locally-recorded videos
   * Vehicle type specific pre-flight checklists. Turn on from Settings.
 * Analyze
   * New Mavlink Inspector which includes charting support. Supported on all builds including Android and iOS.
