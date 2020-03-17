@@ -53,6 +53,8 @@ Before installing *QGroundControl* for the first time:
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
+> **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+
 ## Android {#android}
 
 *QGroundControl* is available from the Google Play Store.
