@@ -53,6 +53,8 @@ Ubuntu 具有一个串行的调制解调的管理器，它会影响干扰任何�
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
+> **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+
 ## Android {#android}
 
 *QGroundControl*可从Google Play商店获得。
