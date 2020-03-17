@@ -53,6 +53,8 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage (или двойной клик)
 
+> **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+
 ## Android {#android}
 
 *QGroundControl* is available from the Google Play Store.
