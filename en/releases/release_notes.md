@@ -46,6 +46,7 @@ This topic contains the cumulative release notes for *QGroundControl*.
   * ArduPilot
     * Improved support for chibios firmwares and ArduPilot bootloader with respect to flashing and auto-connect.
 
+Additional notes for some features can be found here: [v4.0 (Additional Notes)](../releases/stable_v4.0_additional.md).
 
 ## Stable Version 3.5
 

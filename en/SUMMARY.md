@@ -54,6 +54,7 @@
 	* [MAVLink Inspector](analyze_view/mavlink_inspector.md)
 * [Releases](releases/README.md)
     * [Release Notes](releases/release_notes.md)
+       * [v4.0 (Additional Notes)](releases/stable_v4.0_additional.md)
        * [v3.3 (Detailed)](releases/stable_v3.3_long.md)
        * [v3.2 (Detailed)](releases/stable_v3.2_long.md)
     * [Daily Builds](releases/daily_builds.md)
