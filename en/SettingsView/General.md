@@ -195,6 +195,7 @@ The settings are:
 - **URL/Port**: Connection type-specific stream address (may be port or URL).
 - **Aspect Ratio**: Aspect ratio for scaling video in video widget (set to 0.0 to ignore scaling)
 - **Disabled When Disarmed**: Disable video feed when vehicle is disarmed.
+- **Low Latency Mode**: Enabling low latency mode reduces the video stream latency, but may cause frame loss and choppy video (especially with a poor network connection). <!-- disables the internal jitter buffer -->
 
 
 
