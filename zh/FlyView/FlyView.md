@@ -16,7 +16,7 @@
 
 以上屏幕截图显示了飞行视图的主要元素：
 
-- **地图：** Displays the positions of all connected vehicles and the mission for the current vehicle. 
+- **地图：** 显示所有已连接飞行器的位置及当前飞行器的任务。 
   - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
   - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
