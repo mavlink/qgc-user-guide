@@ -5,7 +5,8 @@
 > **Note** Flying with a Joystick (or [virtual thumb-sticks](../SettingsView/VirtualJoystick.md)) requires a reliable high bandwidth telemetry channel to ensure that the vehicle is responsive to joystick movements (because joystick information is sent over MAVLink).
 
 <span></span>
-> **Note** Joystick and Gamepad support is enabled using the cross-platform [SDL2](http://www.libsdl.org/index.php) library. Compatibility with a particular controller depends on SDL (all buttons that are exposed by that API are displayed through the *QGroundControl* UI). A [number of common joysticks and gamepads](#supported-joysticks) are known to work.
+> **Note** Joystick and Gamepad support is enabled using the cross-platform [SDL2](http://www.libsdl.org/index.php) library.
+  Compatibility with a particular controller depends on SDL (all buttons that are exposed by that API are displayed through the *QGroundControl* UI). A [number of common joysticks and gamepads](#supported-joysticks) are known to work.
 
 
 ## Enabling PX4 Joystick Support
@@ -26,11 +27,14 @@ To configure a joystick:
 
 1. Start *QGroundControl* and connect to a vehicle.
 1. Connect the Joystick or Gamepad to a USB port.
-1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Joystick** in the sidebar. The screen below will appear.
+1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Joystick** in the sidebar.
+   The screen below will appear.
 
    ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
 1. Make sure your joystick is selected in the **Active joystick** dropdown.
-1. Go to the **Calibrate** Tab, press the **Start** button and then follow the on-screen instructions to calibrate/move the sticks. The joystick is enabled as the last step of the calibration process.
+1. Go to the **Calibrate** Tab, press the **Start** button and then follow the on-screen instructions to calibrate/move the sticks.
+   The joystick is enabled as the last step of the calibration process.
+   
    ![Joystick setup - Calibration](../../assets/setup/joystick_calibration.jpg)
 1. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor in the **General** tab.
 1. Select the flight modes/vehicle functions activated by each joystick button.
@@ -39,15 +43,19 @@ To configure a joystick:
 
 ## Advanced Options
 
-Some additional Options are available at the **Advanced** tab. These options may be useful for specific, unsual setups, for increasing sensibility, and for handling noisy joysticks.
+Some additional Options are available at the **Advanced** tab.
+These options may be useful for specific, unsual setups, for increasing sensibility, and for handling noisy joysticks.
 
 ### Throttle Options
    ![Joystick setup - Throttle Modes](../../assets/setup/joystick_throttle_modes.jpg)
 
 - **Center stick is zero throttle**: Centered or lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), raised stick sends 1000.
-    - **Spring loaded throttle smoothing**: In this mode you control not the throttle itself, but the rate at which it increases/decreases. This is useful for setups where the throttle stick is spring loaded, as the user can hold the desired throttle while releasing the stick.
+    - **Spring loaded throttle smoothing**: In this mode you control not the throttle itself, but the rate at which it increases/decreases.
+      This is useful for setups where the throttle stick is spring loaded, as the user can hold the desired throttle while releasing the stick.
 - **Full down stick is zero throttle**: In this mode, lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered stick 500, and raised 1000.
-- **Allow negative thrust**: When in **Center stick is zero throttle** mode, this allows the user to send negative values by lowering the stick. So that lowered stick sends -1000 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered sends zero, and raised stick sends 1000. This mode is only enabled for vehicles that support negative thrust, such as [Rover](http://ardupilot.org/rover/index.html).
+- **Allow negative thrust**: When in **Center stick is zero throttle** mode, this allows the user to send negative values by lowering the stick.
+  So that lowered stick sends -1000 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered sends zero, and raised stick sends 1000.
+  This mode is only enabled for vehicles that support negative thrust, such as [Rover](http://ardupilot.org/rover/index.html).
 
 ### Expo
 
