@@ -1,11 +1,11 @@
 # 飞行视图
 
-The Fly View is used to command and monitor the vehicle when flying.
+飞行视图用于飞行时对车辆进行指挥和监视。
 
-You can use it to:
+您可以使用它：
 
-- Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
+- 自动运行[航前检查表](#preflight_checklist)。
+- 控制飞行任务：[启动](#start_mission), [继续](#continue_mission), [暂停](#pause), 和[恢复](#resume_mission)。
 - Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
 - Switch between a map view and a video view (if available)
 - Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
