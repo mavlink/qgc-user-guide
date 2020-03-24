@@ -8,6 +8,8 @@
 > **Note** Joystick and Gamepad support is enabled using the cross-platform [SDL2](http://www.libsdl.org/index.php) library.
   Compatibility with a particular controller depends on SDL (all buttons that are exposed by that API are displayed through the *QGroundControl* UI). A [number of common joysticks and gamepads](#supported-joysticks) are known to work.
 
+<span></span>
+> **Note** The joystick is *enabled* as the last step of the calibration process.
 
 ## Enabling PX4 Joystick Support
 
@@ -33,9 +35,10 @@ To configure a joystick:
    ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
 1. Make sure your joystick is selected in the **Active joystick** dropdown.
 1. Go to the **Calibrate** Tab, press the **Start** button and then follow the on-screen instructions to calibrate/move the sticks.
-   The joystick is enabled as the last step of the calibration process.
    
    ![Joystick setup - Calibration](../../assets/setup/joystick_calibration.jpg)
+   
+   The joystick is *enabled* as the last step of the calibration process.
 1. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor in the **General** tab.
 1. Select the flight modes/vehicle functions activated by each joystick button.
    ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
