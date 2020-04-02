@@ -71,7 +71,7 @@ Other alternatives are to disable one of the VGAs, uninstall VA API components, 
 
 ## Ubuntu 16.04: GLIBC_2.27 not found {#glibc_2_27}
 
-QGroundControl 4.0 and later require Ubuntu 18.04 LTS (or later).
+The pre-built AppImages for QGroundControl 4.0 (and later) can only run on Ubuntu 18.04 LTS (or later).
 They do not run on Ubuntu 16.04.
 
 If you try you will get the error as shown:
