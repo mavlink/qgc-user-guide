@@ -66,8 +66,8 @@ To install *QGroundControl*:
 > **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
 
 <span></span>
-> **Note** *QGroundControl* versions prior to 4.0 can run on Ubuntu 16.04.
-  To run later versions on Ubuntu 16.04 [build from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
+> **Note** Prebuilt *QGroundControl* versions from 4.0 cannot run on Ubuntu 16.04.
+  To run these versions on Ubuntu 16.04 you can [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
 
 
 ## Android {#android}
