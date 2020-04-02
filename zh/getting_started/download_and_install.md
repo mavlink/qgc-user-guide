@@ -12,7 +12,7 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 ## Windows 系统 {#windows}
 
-为Windows Vista或更高版本安装*QGroundControl*：
+*QGroundControl* can be installed on Windows Vista or later:
 
 1. 下载[QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)。
 2. 双击可执行文件来启动安装程序。
@@ -21,7 +21,7 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 ## Mac OS X 系统 {#macOS}
 
-为 macOS 10.10或更高版本安装 *QGroundControl* ︰
+*QGroundControl* can be installed on macOS 10.10 or later:
 
 1. 下载[QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)。
 2. 双击.dmg 文件以挂载它，然后将*QGroundControl*应用程序拖动到您的*应用程序*文件夹。
@@ -33,9 +33,11 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 ## Ubuntu Linux 系统 {#ubuntu}
 
-Ubuntu 具有一个串行的调制解调的管理器，它会影响干扰任何与机器人相关的串行端口通讯 (或USB 串行)。 所以在安装 *QGroundControl* 之前，您得删除调制解调的管理器并赋予您自己访问串行端口的权限。 为了支持视频流功能，您还需要安装*GStreamer*。
+*QGroundControl* can be installed/run on Ubuntu LTS 18.04 (and later).
 
-在首次安装*QGroundControl*之前：
+Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
+
+Before installing *QGroundControl* for the first time:
 
 1. 在命令提示符下输入: 
         sh
@@ -45,7 +47,7 @@ Ubuntu 具有一个串行的调制解调的管理器，它会影响干扰任何�
 
 2. 注销并重新登录以启用对用户权限的更改。
 
-&nbsp; 为 Ubuntu Linux 16.04 LTS 安装*QGroundControl*
+&nbsp; To install *QGroundControl*:
 
 1. 下载[QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)。
 2. 使用终端命令安装(并运行)： 
@@ -55,23 +57,27 @@ Ubuntu 具有一个串行的调制解调的管理器，它会影响干扰任何�
 
 > **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
 
+<span></span>
+
+> **Note** Prebuilt *QGroundControl* versions from 4.0 cannot run on Ubuntu 16.04. To run these versions on Ubuntu 16.04 you can [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
+
 ## Android {#android}
 
-*QGroundControl*可从Google Play商店获得。
+*QGroundControl* is available from the Google Play Store.
 
-您也可以手动安装：
+You can also install manually:
 
 * [Android 32 位 APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 位 APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
 ## iOS 版 {#iOS}
 
-*QGroundControl*可从 App Store 获得。
+*QGroundControl* is available from the App Store.
 
 ## 旧稳定版本
 
-旧稳定版本可在 <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub </a>找到。
+Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
 
 ## 每日构建
 
-每日构建可以从这里下载[](../releases/daily_builds.md)。
+Daily builds can be [downloaded from here](../releases/daily_builds.md).
