@@ -12,12 +12,16 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 ## Windows 系统 {#windows}
 
-*QGroundControl* can be installed on Windows Vista or later:
+*QGroundControl* can be installed on 64 bit version of Windows OS:
 
 1. 下载[QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)。
 2. 双击可执行文件来启动安装程序。
 
 > **注意** Windows 安装程序有三个快捷选项：**QGroundControl**, **GPU 兼容性模式**, **GPU 安全模式**。 除非您有遇到启动或图像渲染问题，一般情况下，使用第一个选项来安装， 想了解更多详情可以参考[QGC Install/Config Problem>Windows：UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting)。
+
+<span></span>
+
+> **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64 bit only. It is possible to manually build 32 bit versions if you have the expertise to be able to build on your own.
 
 ## Mac OS X 系统 {#macOS}
 
