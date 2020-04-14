@@ -14,7 +14,7 @@ For the best experience and compatibility, we recommend you the newest version o
 
 ## Windows {#windows}
 
-*QGroundControl* can be installed on 64 bit version of Windows OS:
+*QGroundControl* can be installed on 64 bit versions of Windows:
 
 1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
 1. Double click the executable to launch the installer.
@@ -24,7 +24,8 @@ For the best experience and compatibility, we recommend you the newest version o
   For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
   
 <span></span>
-> **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64 bit only. It is possible to manually build 32 bit versions if you have the expertise to be able to build on your own.
+> **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64-bit only.
+  It is possible to manually build 32 bit versions (this is not supported by the dev team).
 
 ## Mac OS X {#macOS}
 
