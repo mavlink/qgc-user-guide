@@ -8,6 +8,10 @@
 
 > **Note** Joystick and Gamepad support is enabled using the cross-platform [SDL2](http://www.libsdl.org/index.php) library. Compatibility with a particular controller depends on SDL (all buttons that are exposed by that API are displayed through the *QGroundControl* UI). A [number of common joysticks and gamepads](#supported-joysticks) are known to work.
 
+<span></span>
+
+> **Note** The joystick is *enabled* as the last step of the calibration process.
+
 ## Enabling PX4 Joystick Support
 
 To enable Joystick support in PX4 you need to set the parameter `COM_RC_IN_MODE` to 1 - *Joystick/No RC Checks*. If this parameter is not set then *Joystick* will not be offered as a setup option.
@@ -30,10 +34,19 @@ To configure a joystick:
 
 4. Make sure your joystick is selected in the **Active joystick** dropdown.
 
-5. Press the **Calibrate** button and then follow the on-screen instructions to calibrate/move the sticks.
-6. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor.
-7. Select the flight modes/vehicle functions activated by each joystick button.
-8. Check the **Enable joystick input** checkbox to begin sending joystick commands to the vehicle.
+5. Go to the **Calibrate** Tab, press the **Start** button and then follow the on-screen instructions to calibrate/move the sticks.
+    
+    ![Joystick setup - Calibration](../../assets/setup/joystick_calibration.jpg)
+    
+    The joystick is *enabled* as the last step of the calibration process.
+
+6. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor in the **General** tab.
+
+7. Select the flight modes/vehicle functions activated by each joystick button. ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
+
+## Advanced Options
+
+Some additional Options are available at the **Advanced** tab. These options may be useful for specific, unsual setups, for increasing sensibility, and for handling noisy joysticks.
 
 ### Throttle Options
 
@@ -64,6 +77,8 @@ The advanced settings are not recommended for everyday users. They can cause unp
 
 The following settings are available:
 
+- **Enable Gimbal Control**: Enabled two additional channels for controlling a gimbal.
+
 - **Joystick Mode**: Changes what the joystick actually controls, and the MAVLink messages sent to the vehicle.
     
     - **Normal**: User controls as if using a regular RC radio, MAVLink [MANUAL_CONTROL](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) messages are used.
@@ -72,7 +87,9 @@ The following settings are available:
     - **Force**: User controls the forces applied to the vehicle, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **force** only are used.
     - **Velocity**: User controls the forces applied to the vehicle, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **velocity** only are used.
 
-- **Message Frequency**: When the joystick is idle (inputs are not changing), the joystick commands are sent to the vehicle at 5Hz. When the joystick is in use (input values are changing), the joystick commands are sent to the vehicle at the (higher) frequency configured by this setting. The default is 25Hz.
+- **Axis Frequency**: When the joystick is idle (inputs are not changing), the joystick commands are sent to the vehicle at 5Hz. When the joystick is in use (input values are changing), the joystick commands are sent to the vehicle at the (higher) frequency configured by this setting. The default is 25Hz.
+
+- **Button Frequency**: Controls the frequency at which repeated button actions are sent.
 
 - **Enable Circle Correction**: RC controllers sticks describe a square, while joysticks usually describe a circle. When this option is enabled a square is inscribed inside the joystick movement area to make it more like an RC controller (so it is possible to reach all four corners). The cost is decreased resolution, as the effective stick travel is reduced.
     
