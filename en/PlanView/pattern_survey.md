@@ -3,6 +3,9 @@
 A survey allows you to create a grid flight pattern over a polygonal area. 
 You can specify an arbitrary polygon, the angle and other properties of the grid, and camera settings appropriate for creating geotagged images.
 
+> **Important** When planning a Survey using camera specifications the ground elevations under your survey area are assumed to be at the same altitude as your launch/home location. If the ground elevation under your survey area is either higher or lower than your launch/home location the effective overlap in your images will be less or more (respectively) than calculated. If ground elevation under your survey area is significantly higher than your launch/home location you could inadvertently plan a mission which causes the vehicle to fly into trees, obstacles, or the ground. Use Terrain Follow to create a survey that more closely maintains the desired altitude above terrain that has significant elevation differences from your launch/home altitude.
+
+
 ![Survey](../../assets/plan/survey/survey.jpg)
 
 
