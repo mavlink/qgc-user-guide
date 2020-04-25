@@ -1,0 +1,19 @@
+name: Deploy QGC User Guide
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Installing book dependencies
+      uses: actions/setup-node@v1
+    - run: npm install gitbook-cli
+    - run: gitbook install
+    - name: Building book
+    - run: gitbook build
