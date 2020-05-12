@@ -45,9 +45,9 @@ Before installing *QGroundControl* for the first time:
 
 1. Выполните в командной строке (каждая строка отдельная команда): 
         sh
-        sudo usermod -a -a -G dialout $USER
+        sudo usermod -a -G dialout $USER
         sudo apt-get remove modemmanager -y
-        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
+        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
 
 2. Завершите текущий сеанс и войдите снова, для применения изменений прав пользователя.
 
