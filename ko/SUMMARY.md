@@ -32,8 +32,13 @@
   * [Joystick](SetupView/Joystick.md)
   * [파라미터](SetupView/Parameters.md)
 * [Application Settings](SettingsView/SettingsView.md) * [General](SettingsView/General.md) * [CSV Logging](SettingsView/csv.md) * [Offline Maps](SettingsView/OfflineMaps.md) * [MAVLink](SettingsView/MAVLink.md) * [Console Logging](SettingsView/console_logging.md) * [Virtual Joystick (PX4)](SettingsView/VirtualJoystick.md)
-* [Analyze](analyze_view/README.md) * [Log Download](analyze_view/log_download.md) * [GeoTag Images (PX4)](analyze_view/geotag_images.md) * [MAVLink Console (PX4)](analyze_view/mavlink_console.md) * [MAVLink Inspector](analyze_view/mavlink_inspector.md)
-* [Releases](releases/README.md) * [Release Notes](releases/release_notes.md) * [v3.3 (Detailed)](releases/stable_v3.3_long.md) * [v3.2 (Detailed)](releases/stable_v3.2_long.md) * [Daily Builds](releases/daily_builds.md) * [Daily Build New Features](releases/daily_build_new_features.md) * [Privacy Policy](releases/privacy_policy.md)
+* [Analyze](analyze_view/README.md) 
+  * [Log Download](analyze_view/log_download.md)
+  * [GeoTag Images (PX4)](analyze_view/geotag_images.md)
+  * [MAVLink Console (PX4)](analyze_view/mavlink_console.md)
+  * [MAVLink Inspector](analyze_view/mavlink_inspector.md)
+
+* [Releases](releases/README.md) * [Release Notes](releases/release_notes.md) * [v4.0 (Additional Notes)](releases/stable_v4.0_additional.md) * [v3.3 (Detailed)](releases/stable_v3.3_long.md) * [v3.2 (Detailed)](releases/stable_v3.2_long.md) * [Daily Builds](releases/daily_builds.md) * [Daily Build New Features](releases/daily_build_new_features.md) * [Privacy Policy](releases/privacy_policy.md)
 
 * [Support](Support/Support.md) * [QGC Install/Config Problems](Support/troubleshooting_qgc.md) * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md) * [Parameter Download failures](Support/ParameterDownload.md) * [Plan Upload/Download failures](Support/PlanUploadDownload.md) * [Resume Mission failures](Support/ResumeMission.md)
 

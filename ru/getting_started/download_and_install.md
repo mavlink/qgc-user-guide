@@ -12,16 +12,20 @@ QGC должен хорошо работать на любом современ�
 
 ## Windows {#windows}
 
-Для установки *QGroundControl* на ОС Windows Vista и выше:
+*QGroundControl* can be installed on 64 bit versions of Windows:
 
 1. Скачайте [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
 2. Для запуска программы установки дважды кликните на исполняемый файл.
 
 > **Примечание** Установщик создает 3 ярлыка: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
+<span></span>
+
+> **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64-bit only. It is possible to manually build 32 bit versions (this is not supported by the dev team).
+
 ## Mac OS X {#macOS}
 
-Для установки *QGroundControl* на macOS 10.10 и выше:
+*QGroundControl* can be installed on macOS 10.10 or later:
 
 1. Скачайте [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
@@ -33,9 +37,11 @@ QGC должен хорошо работать на любом современ�
 
 ## Ubuntu Linux {#ubuntu}
 
+*QGroundControl* can be installed/run on Ubuntu LTS 18.04 (and later).
+
 Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
 
-При первой инсталяции *QGroundControl*:
+Before installing *QGroundControl* for the first time:
 
 1. Выполните в командной строке (каждая строка отдельная команда): 
         sh
@@ -45,13 +51,19 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 
 2. Завершите текущий сеанс и войдите снова, для применения изменений прав пользователя.
 
-&nbsp; Для установки *QGroundControl* на ОС Ubuntu Linux 16.04 LTS или выше:
+&nbsp; To install *QGroundControl*:
 
 1. Скачайте [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
 2. Выполните в терминале следующие команды: 
         sh
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage (или двойной клик)
+
+> **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+
+<span></span>
+
+> **Note** Prebuilt *QGroundControl* versions from 4.0 cannot run on Ubuntu 16.04. To run these versions on Ubuntu 16.04 you can [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
 
 ## Android {#android}
 
@@ -68,8 +80,8 @@ You can also install manually:
 
 ## Прошлые Стабильные Релизы
 
-Прошлые стабильные релизы можно найти на <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
+Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
 
 ## Ежедневные сборки
 
-Ежедневные сборки могут быть [загружены отсюда](../releases/daily_builds.md).
+Daily builds can be [downloaded from here](../releases/daily_builds.md).

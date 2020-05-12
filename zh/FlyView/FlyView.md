@@ -1,22 +1,22 @@
-# 飞行数据
+# 飞行视图
 
-The Fly View is used to command and monitor the vehicle when flying.
+飞行视图用于在飞行时对车辆进行指挥和监视。
 
-You can use it to:
+您可以使用它：
 
-- Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
-- Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
-- Switch between a map view and a video view (if available)
-- Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
+- 自动运行[航前检查表](#preflight_checklist)。
+- 控制飞行任务：[启动](#start_mission), [继续](#continue_mission), [暂停](#pause), 和[恢复](#resume_mission)。
+- 引导飞行器执行[解锁](#arm)/[上锁](#disarm)/[急停](#emergency_stop)、[起飞](#takeoff)/[着陆](#land)、[改变高度](#change_altitude)、[去](#goto)或[环绕](#orbit)指定位置，以及[返航/RTL](#rtl)。
+- 在地图视图和视频视图之间切换(如果可用)
+- 显示当前飞行器采集到的视频、飞行任务、数传和其他信息，同时在已连接的多个飞行器之间切换。
 
 ![Fly View](../../assets/fly/fly_view_overview.jpg)
 
-## UI Overview
+## 界面概述
 
-The screenshot above shows the main elements of the fly view:
+以上屏幕截图显示了飞行视图的主要元素：
 
-- **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle. 
+- **地图：** 显示所有已连接飞行器的位置及当前飞行器的任务。 
   - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
   - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
