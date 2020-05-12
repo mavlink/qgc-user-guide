@@ -1,6 +1,7 @@
 # Main Toolbar
 
-The main menu/tool bar provides access to the different application views, and high level status information for connected vehicles. The menu is the same in all views except for "PlanView" (which has a single icon to take you back to "Fly" view).
+The main toolbar provides access to select the different application views, and high level status information for connected vehicles.
+The toolbar is the same in all views except for "PlanView" (which has a single icon to take you back to "Fly" view).
 
 ## View-select icons
 
@@ -24,7 +25,8 @@ The following icons are used to switch between the main *Views*. These are displ
 
 ## Status icons
 
-Status icons are displayed when *QGroundControl* is connected to a vehicle. These show the high level status of the vehicle, and can be clicked to see more detailed information. 
+Status icons are displayed when *QGroundControl* is connected to a vehicle.
+These show the high level status of the vehicle, and can be clicked to see more detailed information. 
 
 ![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages**
 <br>Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
