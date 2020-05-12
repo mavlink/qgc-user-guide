@@ -47,7 +47,7 @@ Before installing *QGroundControl* for the first time:
         sh
         sudo usermod -a -G dialout $USER
         sudo apt-get remove modemmanager -y
-        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav -y
+        sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
 
 2. Logout and login again to enable the change to user permissions.
 
