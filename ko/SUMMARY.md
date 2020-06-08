@@ -40,7 +40,7 @@
 
 * [Releases](releases/README.md) * [Release Notes](releases/release_notes.md) * [v4.0 (Additional Notes)](releases/stable_v4.0_additional.md) * [v3.3 (Detailed)](releases/stable_v3.3_long.md) * [v3.2 (Detailed)](releases/stable_v3.2_long.md) * [Daily Builds](releases/daily_builds.md) * [Daily Build New Features](releases/daily_build_new_features.md) * [Privacy Policy](releases/privacy_policy.md)
 
-* [Support](Support/Support.md) * [QGC Install/Config Problems](Support/troubleshooting_qgc.md) * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md) * [Parameter Download failures](Support/ParameterDownload.md) * [Plan Upload/Download failures](Support/PlanUploadDownload.md) * [Resume Mission failures](Support/ResumeMission.md)
+* [Support](Support/Support.md) * [QGC Install/Config Problems](Support/troubleshooting_qgc.md) * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md) * [Connection problems](Support/VehicleConnection.md) * [Parameter Download failures](Support/ParameterDownload.md) * [Plan Upload/Download failures](Support/PlanUploadDownload.md) * [Resume Mission failures](Support/ResumeMission.md)
 
 ## Flight Stacks
 
