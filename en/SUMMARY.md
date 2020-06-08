@@ -64,6 +64,7 @@
 * [Support](Support/Support.md)
     * [QGC Install/Config Problems](Support/troubleshooting_qgc.md)
     * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md)
+       * [Connection problems](Support/VehicleConnection.md)
        * [Parameter Download failures](Support/ParameterDownload.md)
        * [Plan Upload/Download failures](Support/PlanUploadDownload.md)
        * [Resume Mission failures](Support/ResumeMission.md)

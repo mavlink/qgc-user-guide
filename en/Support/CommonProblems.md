@@ -2,6 +2,7 @@
 
 This section covers a number of common problems related to **using** *QGroundControl* to interact with a vehicle:
 
+* [Connection problems](../Support/VehicleConnection.md)
 * [Parameter Download failures](../Support/ParameterDownload.md)
 * [Plan Upload/Download failures](../Support/PlanUploadDownload.md)
 * [Resume Mission failures](../Support/ResumeMission.md)
