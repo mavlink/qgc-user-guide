@@ -1,4 +1,4 @@
-# Virtual Joystick (PX4 only)
+# Virtual Joystick
 
 *QGroundControl* allows you to control a vehicle with on-screen virtual thumbsticks. These are displayed as shown below in the flight view.
 
