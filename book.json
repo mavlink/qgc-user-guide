@@ -2,11 +2,13 @@
     "gitbook": ">= 3.2.2",
     "title": "QGroundControl User Guide",
     "variables": {
-        "logo": "./assets/site/logo_qgc_rgb_horizontal.png"
+        "logo": "./assets/site/logo_qgc_rgb_horizontal.png",
+        "qgc_version": "master"
     },
     "plugins": [
         "youtube",
-        "richquotes",
+        "richquotes@git+https://github.com/Dronecode/gitbook-plugin-richquotes.git",
+        "anchors",
         "page-toc-button",
         "collapsible-menu",
         "language-picker",
@@ -15,11 +17,12 @@
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
         "bulk-redirect",
         "validate-links",
+        "versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git",
         "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git"
     ],
     "pluginsConfig": {       
         "language-redirect": {
-            "baseurl": "https://donlakeflyer.gitbooks.io/qgroundcontrol-user-guide/"
+            "baseurl": "https://docs.qgroundcontrol.com/en/"
         },
         "richquotes":
         {
@@ -29,10 +32,22 @@
             }
         },
         "favicon": "favicon.ico",
+        
+        "versions": {
+            "gitbookConfigURL": "https://raw.githubusercontent.com/mavlink/qgc-user-guide/master/book.json",
+            "options": [
+                {
+                    "value": "https://docs.qgroundcontrol.com/master/en/",
+                    "text": "master"
+                }
+            ]
+        },
+        
         "bulk-redirect": {
             "basepath": "/",
             "redirectsFile": "redirects.json"
         },
+        
         "toolbar": {
             "buttons":
             [
