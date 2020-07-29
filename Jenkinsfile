@@ -44,11 +44,12 @@ pipeline {
         unstash('gitbook')
         withCredentials([usernamePassword(credentialsId: 'px4buildbot_github_personal_token', passwordVariable: 'GIT_PASS', usernameVariable: 'GIT_USER')]) {
           sh('git clone https://${GIT_USER}:${GIT_PASS}@github.com/mavlink/docs.qgroundcontrol.com.git')
-          //sh('rm -rf docs.qgroundcontrol.com/${BRANCH_NAME}')
-          //sh('mkdir -p docs.qgroundcontrol.com/${BRANCH_NAME}')
-          //sh('cp -r _book/* docs.qgroundcontrol.com/${BRANCH_NAME}/')
-          sh('cp -r _book/* docs.qgroundcontrol.com/')
-          sh('cd docs.qgroundcontrol.com; git add .; git commit -a -m "gitbook build update `date`"')
+          sh('rm -rf docs.qgroundcontrol.com/${BRANCH_NAME}')
+          sh('mkdir -p docs.qgroundcontrol.com/${BRANCH_NAME}')
+          sh('cp -r _book/* docs.qgroundcontrol.com/${BRANCH_NAME}/')
+          sh('cd docs.qgroundcontrol.com; git add ${BRANCH_NAME}; git commit -a -m "gitbook build update `date`"')
+          //sh('cp -r _book/* docs.qgroundcontrol.com/')
+          //sh('cd docs.qgroundcontrol.com; git add .; git commit -a -m "gitbook build update `date`"')
           sh('cd docs.qgroundcontrol.com; git push origin master')
           
         }
@@ -61,6 +62,9 @@ pipeline {
       when {
         anyOf {
           branch "master"
+          branch "v3.*"
+          branch "v4.*"
+          branch "v5.*"
           branch "pr-jenkins"
         }
       }
