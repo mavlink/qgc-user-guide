@@ -5,6 +5,7 @@
         "logo": "./assets/site/logo_qgc_rgb_horizontal.png",
         "qgc_version": "master"
     },
+	
     "plugins": [
         "youtube",
         "richquotes@git+https://github.com/Dronecode/gitbook-plugin-richquotes.git",
@@ -12,14 +13,14 @@
         "page-toc-button",
         "collapsible-menu",
         "language-picker",
-        "language-redirect@git+https://github.com/hamishwillee/gitbook-plugin-language-redirect.git",
         "custom-favicon",
         "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
-        "bulk-redirect",
+        "bulk-redirect@git+https://github.com/Dronecode/gitbook-plugin-bulk-redirect.git",
         "validate-links",
         "versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git",
         "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git"
     ],
+	
     "pluginsConfig": {       
         "language-redirect": {
             "baseurl": "https://docs.qgroundcontrol.com/en/"
