@@ -177,9 +177,13 @@ The settings are:
 ![ADSB_Server Settings](../../assets/settings/general/adbs_server.jpg)
 
 The settings are:
-- **Connect to ADSB SBS server**: TBD
+- **Connect to ADSB SBS server**: Connect to ADSB server on startup
 - **Host address**: Host address of ADSB server.
 - **Server port**: Port of ADSB server
+
+QGC can consume ADSB SBS message e.g. from
+[dump1090](https://github.com/antirez/dump1090). Use the `--net` option of
+dump1090 to start a QGC compatible server.
 
 ## Video {#video}
 
