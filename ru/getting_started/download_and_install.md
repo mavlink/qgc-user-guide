@@ -25,7 +25,7 @@ QGC должен хорошо работать на любом современ�
 
 ## Mac OS X {#macOS}
 
-*QGroundControl* can be installed on macOS 10.10 or later:
+*QGroundControl* can be installed on macOS 10.20 or later:
 
 1. Скачайте [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
