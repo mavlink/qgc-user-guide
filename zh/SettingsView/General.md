@@ -167,9 +167,13 @@ The settings are:
 
 The settings are:
 
-- **Connect to ADSB SBS server**: TBD
-- **Host address**: Host address of ADSB server.
+- **Connect to ADSB SBS server**: Check to connect to ADSB server on startup.
+- **Host address**: Host address of ADSB server
 - **Server port**: Port of ADSB server
+
+QGC can consume ADSB messages in SBS format from a remote or local server (at the specified IP address/port) and display detected vehicles on the Fly View map.
+
+> **Tip** One way to get ADSB information from nearby vehicles is to use [dump1090](https://github.com/antirez/dump1090) to serve the data from a connected RTL-SDR dongle to QGC. The steps are: 1. Get an RTL-SDR dongle (and antenna) and attach it to your ground station computer (you may need to find compatible drivers for your OS). 1. Install *dump1090* on your OS (either pre-built or build from source). 1. Run `dump1090 --net` to start broadcasting messages for detected vehicles on TCP localhost port 30003 (127.0.0.1:30003). 1. Enter the server (`127.0.0.1`) and port (`30003`) address in the QGC settings above. 1. Restart QGC to start seeing local vehicles on the map.
 
 ## Video {#video}
 
