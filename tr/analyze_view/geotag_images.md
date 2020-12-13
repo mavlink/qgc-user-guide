@@ -2,7 +2,7 @@
 
 *GeoTag Görüntüleri* ekranı (**Analiz > GeoTag Görüntüleri**) uçuş günlüğündeki bilgileri kullanarak bir gözlem görevindeki görüntüleri çoğrafi etiketlemenize olanak tanır.
 
-> **Note** This feature only works with *PX4* flight stack logs. ArduPilot is not supported.
+> **Not** Bu özellik sadece *PX4* uçuş günlükleriyle çalışır. Ardupilot desteklenmemektedir.
 
 ![Analyze View GeoTag Images](../../assets/analyze/geotag_images.jpg)
 
