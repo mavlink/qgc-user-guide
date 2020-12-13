@@ -1,6 +1,6 @@
 # GeoTag Görüntüleri (Analiz Görünümü)
 
-The *GeoTag Images* screen (**Analyze > GeoTag Images**) allows you to geotag images from a survey mission using information in the flight log.
+*GeoTag Görüntüleri* ekranı (**Analiz > GeoTag Görüntüleri**) uçuş günlüğündeki bilgileri kullanarak bir gözlem görevindeki görüntüleri çoğrafi etiketlemenize olanak tanır.
 
 > **Note** This feature only works with *PX4* flight stack logs. ArduPilot is not supported.
 
