@@ -1,4 +1,4 @@
-# GeoTag Images (Analyze View)
+# GeoTag Görüntüleri (Analiz Görünümü)
 
 The *GeoTag Images* screen (**Analyze > GeoTag Images**) allows you to geotag images from a survey mission using information in the flight log.
 
