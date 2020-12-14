@@ -30,10 +30,10 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 1. [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)'i indirin.
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
     
-    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
+    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. QGC uygulamasını ilk defa açmak için:
     > 
-    > * Right-click the QGC app icon, select Open from the menu. You will only be presented with an option to Cancel. Select Cancel.
-    > * Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
+    > * QGC uygulama ikonuna sağ tıklayın, menüden Aç'ı seçin. Karşınıza yalnızca İptal Et seçeneği çıkacaktır. İptal Et'i seçin.
+    > * QGC uygulama ikonuna tekrar sağ tıklayın, menüden Aç'ı seçin. Bu sefer Aç seçeneği de size sunulacaktır.
 
 ## Ubuntu Linux {#ubuntu}
 
