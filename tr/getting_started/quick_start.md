@@ -1,22 +1,22 @@
-# QGroundControl Quick Start
+# QGroundControl için Hızlı Başlangıç
 
-Getting *QGroundControl* up and running is quick and easy:
+*QGroundControl*'ü kurmak ve çalıştırmak, hızlı ve kolaydır:
 
-1. [Download and install](../getting_started/download_and_install.md) the application.
-2. Start *QGroundControl*. 
-3. Attach your vehicle to the ground station device via USB, through a telemetry radio, or over WiFi. *QGroundControl* should detect your vehicle and connect to it automatically.
+1. [Download and install](../getting_started/download_and_install.md)'a tıklayarak uygulamayı indirin ve kurun.
+2. *QGroundControl*'ü başlatın. 
+3. Aracınızı yer istasyonu cihazına USB, telemetri veya WIFI ile bağlayın. *QGroundControl* aracınızı otomatik olarak tespit edip bağlanacaktır.
 
-That's it! If the vehicle is ready to fly, *QGroundControl* should display [Fly View](../FlyView/FlyView.md) as shown below (otherwise it will open [Setup View](../SetupView/SetupView.md)).
+İşte bu kadar! Eğer aracınız uçuşa hazırsa, aşağıda görebileceğiniz üzere *QGroundControl* [Fly View](../FlyView/FlyView.md) 'i görüntüleyecektir (aksi halde [Setup View](../SetupView/SetupView.md)'i açacaktır).
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
-A good way to become familiar with *QGroundControl* is to start experimenting:
+*QGroundControl*'e alışmanın iyi bir yolu denemeye başlamaktır:
 
-- Use the [toolbar](../toolbar/toolbar.md) to switch between the main views: 
-  - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
-  - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
-  - [Plan](../PlanView/PlanView.md): Create autonomous missions.
-  - [Fly](../FlyView/FlyView.md): Monitor your vehicle(s) while flying, including streaming video.
-- Click the *Status icons* on the toolbar to find out the status of the connected vehicle. 
+- Ana ekranlar arasında geçiş yapmak için [toolbar](../toolbar/toolbar.md) 'ı kullan: 
+  - [Settings](../SettingsView/SettingsView.md): *QGroundControl* uygulamasını yapılandırın.
+  - [Setup](../SetupView/SetupView.md): Aracınızı yapılandırın ve ayarlayın.
+  - [Plan](../PlanView/PlanView.md): Otonom görevler oluşturun.
+  - [Fly](../FlyView/FlyView.md): Video akışıyla birlikte araç(lar)ınızı uçarken izleyin.
+- Bağlı aracın durumunu öğrenmek için araç çubuğundaki *Status icons*'a tıklayın. 
 
-While the UI is fairly intuitive, this documentation can also be referenced to find out more.
+Kullanıcı arayüzü gayet açık olsa da, daha fazlasını öğrenmek için bu dokümantasyona başvurulabilir.
