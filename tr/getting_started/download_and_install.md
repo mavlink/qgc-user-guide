@@ -2,9 +2,9 @@
 
 Aşağıdaki bölümler tüm platformlar için *QGroundControl*'ün [current stable release](../releases/release_notes.md)'lerini indirmek için kullanılabilir.
 
-> **Tip** See [QGC Install/Config Problems](../Support/troubleshooting_qgc.md) if you have any problem running *QGroundControl* after installation!
+> **Tip** *QGroundControl*'i indirdikten sonra çalıştırmakta bir problem yaşıyorsanız [QGC Install/Config Problems](../Support/troubleshooting_qgc.md)'e bir göz atın!
 
-## System Requirements
+## Sistem Gereksinimleri
 
 QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
 
