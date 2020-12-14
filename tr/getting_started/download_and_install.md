@@ -37,24 +37,24 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 ## Ubuntu Linux {#ubuntu}
 
-*QGroundControl* can be installed/run on Ubuntu LTS 18.04 (and later).
+*QGroundControl* Ubuntu LTS 18.04 (ve sonrası) sürümlerde kurulabilir/çalıştırılabilir.
 
-Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
+Ubuntu, bir seri bağlantı noktasının (veya USB serisinin) robotikle ilgili kullanımına müdahale eden bir seri modem yöneticisi ile birlikte gelir. * QGroundControl * 'ü kurmadan önce modem yöneticisini kaldırmalı ve seri bağlantı noktasına erişim için kendinize izin vermelisiniz. Ayrıca video akışını desteklemek için * GStreamer * 'ı da yüklemeniz gerekmektedir.
 
-Before installing *QGroundControl* for the first time:
+* QGroundControl * 'ı ilk kez kurmadan önce:
 
-1. On the command prompt enter: 
+1. Terminalde şunu girin: 
         sh
         sudo usermod -a -G dialout $USER
         sudo apt-get remove modemmanager -y
         sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
 
-2. Logout and login again to enable the change to user permissions.
+2. Kullanıcı izinlerinde değişikliği etkinleştirmek için oturumunuzu kapatın ve tekrar oturum açın.
 
-&nbsp; To install *QGroundControl*:
+&nbsp; * QGroundControl * yüklemek için:
 
-1. Download [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
-2. Install (and run) using the terminal commands: 
+1. [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)'ü indirin.
+2. Aşağıdaki terminal komutlarını kullanarak kurun (ve çalıştırın): 
         sh
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
