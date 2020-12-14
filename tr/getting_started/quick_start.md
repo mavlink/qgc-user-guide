@@ -1,6 +1,6 @@
-# QGroundControl Quick Start
+# QGroundControl için Hızlı Başlangıç
 
-Getting *QGroundControl* up and running is quick and easy:
+*QGroundControl*'ü kurmak ve çalıştırmak, hızlı ve kolaydır:
 
 1. [Download and install](../getting_started/download_and_install.md) the application.
 2. Start *QGroundControl*. 
