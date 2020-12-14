@@ -1,4 +1,4 @@
-# İndir ve Kur
+# İndirme ve Kurulum
 
 Aşağıdaki bölümler tüm platformlar için *QGroundControl*'ün [current stable release](../releases/release_notes.md)'lerini indirmek için kullanılabilir.
 
@@ -6,9 +6,9 @@ Aşağıdaki bölümler tüm platformlar için *QGroundControl*'ün [current sta
 
 ## Sistem Gereksinimleri
 
-QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+QGC tüm güncel bilgisayar ya da mobil cihazlarda iyi bir şekilde çalışacaktır. Performansı sistem ortamına, 3. taraf uygulamalara ve mevcut sistem kaynaklarına bağlıdır. Daha yüksek kapasiteli donanım daha iyi bir deneyim sunacaktır. En az 8 Gb Ram'e, SSD'ye, Nvidia ya da AMD ekran kartına ve i5 veya daha iyi bir işlemciye sahip bir bilgisayar çoğu uygulama için yeterince iyi olacaktır.
 
-For the best experience and compatibility, we recommend you the newest version of your operating system.
+En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümünü kullanmanızı öneriyoruz.
 
 ## Windows {#windows}
 
