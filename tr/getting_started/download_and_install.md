@@ -21,7 +21,7 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 <span></span>
 
-> **Note** Önceki *QGroundControl* sürümleri 4.0'dan itibaren sadece 64 bittir. Manuel olarak 32 bit sürümler oluşturmak mümkündür (bu, geliştirici ekip tarafından desteklenmez).
+> **Note** 4.0'dan itibaren önceki *QGroundControl* sürümleri sadece 64 bittir. Manuel olarak 32 bit sürümler oluşturmak mümkündür (bu, geliştirici ekip tarafından desteklenmez).
 
 ## Mac OS X {#macOS}
 
@@ -59,29 +59,29 @@ Ubuntu, bir seri bağlantı noktasının (veya USB serisinin) robotikle ilgili k
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
-> **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+> **Note** Çift adaptörlü Ubuntu 18.04 sistemlerinde bilinen [ video steaming issues ](../Support/troubleshooting_qgc.md#dual_vga) vardır.
 
 <span></span>
 
-> **Note** Prebuilt *QGroundControl* versions from 4.0 cannot run on Ubuntu 16.04. To run these versions on Ubuntu 16.04 you can [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
+> **Note** 4.0'dan itibaren önceki *QGroundControl* sürümleri Ubuntu 16.04'te çalıştırılamaz. Bu versiyonları Ubuntu 16.04'te çalıştırabilmek için [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
 
 ## Android {#android}
 
-*QGroundControl* is available from the Google Play Store.
+* QGroundControl *'ü Google Play Store'dan edinebilirsiniz.
 
-You can also install manually:
+Ayrıca manuel olarak da kurabilirsiniz:
 
 * [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
 ## iOS {#iOS}
 
-*QGroundControl* is available from the App Store.
+* QGroundControl *'ü App Store'dan edinebilirsiniz.
 
-## Old Stable Releases
+## Eski Stabil Sürümler
 
-Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
+Eski stabil sürümleri <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>'dan bulabilirsiniz.
 
-## Daily Builds
+## Günlük Sürümler
 
-Daily builds can be [downloaded from here](../releases/daily_builds.md).
+Günlük sürümler [downloaded from here](../releases/daily_builds.md).
