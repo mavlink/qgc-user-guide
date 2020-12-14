@@ -12,10 +12,10 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 ## Windows {#windows}
 
-*QGroundControl* can be installed on 64 bit versions of Windows:
+*QGroundControl* Windows'un 64 bit versiyonlarına kurulabilir:
 
-1. Download [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
-2. Double click the executable to launch the installer.
+1. [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)'i indirin.
+2. Yükleyiciyi başlatmak için QGroundControl-installer. exe'ye çift tıklayın.
 
 > **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
 
