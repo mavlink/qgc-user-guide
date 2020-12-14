@@ -2,11 +2,11 @@
 
 *QGroundControl*'ü kurmak ve çalıştırmak, hızlı ve kolaydır:
 
-1. [Download and install](../getting_started/download_and_install.md) the application.
-2. Start *QGroundControl*. 
-3. Attach your vehicle to the ground station device via USB, through a telemetry radio, or over WiFi. *QGroundControl* should detect your vehicle and connect to it automatically.
+1. [Download and install](../getting_started/download_and_install.md)'a tıklayarak uygulamayı indirin ve kurun.
+2. *QGroundControl*'ü başlatın. 
+3. Aracınızı yer istasyonu cihazına USB, telemetri veya WIFI ile bağlayın. *QGroundControl* aracınızı otomatik olarak tespit edip bağlanacaktır.
 
-That's it! If the vehicle is ready to fly, *QGroundControl* should display [Fly View](../FlyView/FlyView.md) as shown below (otherwise it will open [Setup View](../SetupView/SetupView.md)).
+İşte bu kadar! Eğer aracınız uçuşa hazırsa, aşağıda görebileceğiniz üzere *QGroundControl* [Fly View](../FlyView/FlyView.md) 'i görüntüleyecektir (aksi halde [Setup View](../SetupView/SetupView.md)'i açacaktır).
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
