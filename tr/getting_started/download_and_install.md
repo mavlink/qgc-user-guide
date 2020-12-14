@@ -17,17 +17,17 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 1. [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)'i indirin.
 2. Yükleyiciyi başlatmak için QGroundControl-installer. exe'ye çift tıklayın.
 
-> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
+> **Note** Windows kurulum programı 3 kısayol oluşturur: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Eğer başlatma veya video işleme sorunları yaşamıyorsanız ilk kısayolu kullanın. Daha fazla bilgi için [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting)'e göz atın.
 
 <span></span>
 
-> **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64-bit only. It is possible to manually build 32 bit versions (this is not supported by the dev team).
+> **Note** Önceki *QGroundControl* sürümleri 4.0'dan itibaren sadece 64 bittir. Manuel olarak 32 bit sürümler oluşturmak mümkündür (bu, geliştirici ekip tarafından desteklenmez).
 
 ## Mac OS X {#macOS}
 
-*QGroundControl* can be installed on macOS 10.20 or later:
+*QGroundControl* macOS 10.20 veya daha güncel sürümlere kurulabilir:
 
-1. Download [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
+1. [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)'i indirin.
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
     
     > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
