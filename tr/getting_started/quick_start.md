@@ -10,13 +10,13 @@
 
 ![](../../assets/quickstart/fly_view_connected_vehicle.jpg)
 
-A good way to become familiar with *QGroundControl* is to start experimenting:
+*QGroundControl*'e alışmanın iyi bir yolu denemeye başlamaktır:
 
-- Use the [toolbar](../toolbar/toolbar.md) to switch between the main views: 
-  - [Settings](../SettingsView/SettingsView.md): Configure the *QGroundControl* application.
-  - [Setup](../SetupView/SetupView.md): Configure and tune your vehicle.
-  - [Plan](../PlanView/PlanView.md): Create autonomous missions.
-  - [Fly](../FlyView/FlyView.md): Monitor your vehicle(s) while flying, including streaming video.
-- Click the *Status icons* on the toolbar to find out the status of the connected vehicle. 
+- Ana ekranlar arasında geçiş yapmak için [toolbar](../toolbar/toolbar.md) 'ı kullan: 
+  - [Settings](../SettingsView/SettingsView.md): *QGroundControl* uygulamasını yapılandırın.
+  - [Setup](../SetupView/SetupView.md): Aracınızı yapılandırın ve ayarlayın.
+  - [Plan](../PlanView/PlanView.md): Otonom görevler oluşturun.
+  - [Fly](../FlyView/FlyView.md): Video akışıyla birlikte araç(lar)ınızı uçarken izleyin.
+- Bağlı aracın durumunu öğrenmek için araç çubuğundaki *Status icons*'a tıklayın. 
 
-While the UI is fairly intuitive, this documentation can also be referenced to find out more.
+Kullanıcı arayüzü gayet açık olsa da, daha fazlasını öğrenmek için bu dokümantasyona başvurulabilir.
