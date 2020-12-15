@@ -14,7 +14,7 @@ Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. 
 
 ![Uçuş simgesi](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor you vehicle(s) while flying, including streaming video.
 
-![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
+![Analiz simgesi](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
 
 ## Durum Simgeleri
 
