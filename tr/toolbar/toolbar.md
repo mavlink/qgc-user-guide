@@ -1,10 +1,10 @@
 # Ana Araç Çubuğu
 
-The main toolbar provides access to select the different application views, and high level status information for connected vehicles. The toolbar is the same in all views except for "PlanView" (which has a single icon to take you back to "Fly" view).
+Ana araç çubuğu, farklı uygulama görünümlerine erişmenize ve bağlı araçlarınız için ayrıntılı durum bilgisine ulaşmanıza olanak sağlar. Araç çubuğu, "PlanView" haricindeki tüm ekranlarda aynıdır (sizi "Fly" görünümüne geri götüren tek bir simgeye sahiptir).
 
-## View-select icons
+## Seç-Görüntüle Simgeler
 
-The following icons are used to switch between the main *Views*. These are displayed even if no vehicle is connected.
+Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. Hiçbir araç bağlı olmasa bile bu simgeler ekranda bulunur.
 
 ![Settings view icon](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Settings](../SettingsView/SettingsView.md)** <br />Configure the *QGroundControl* application.
 
