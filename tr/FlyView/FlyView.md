@@ -27,8 +27,8 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
   - Kalkış/iniş arasında geçiş yapın.
   - Mevcut işlemi durdur/tekrar başlat (ör. iniş, ya da görev).
   - Güvenli geri dönüş (RTL ya da Return olarakta bilinir).
-  - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). Actions include changing the altitude or continuing a mission.
-  - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
+  - *Action* butonu mevcut durum için diğer uygun seçenekleri sunar (bunlar *Confirmation Slider*'ın üstünde gözükür). İşlemler, yüksekliği değiştirmeyi veya bir göreve devam etmeyi içerir.
+  - [preflight checklist](#preflight_checklist)'i etkinleştirin (varsayılan olarak devre dışıdır).
 - **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window. 
   - Press the element to switch *Video* and *Map* to foreground.
