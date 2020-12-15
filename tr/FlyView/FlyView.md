@@ -1,25 +1,25 @@
 # Uçuş Ekranı
 
-The Fly View is used to command and monitor the vehicle when flying.
+Uçuş Ekranı, aracı uçarken izlemek ve araca komut vermek için kullanılır.
 
-You can use it to:
+Şunları yapmak için kullanabilirsiniz:
 
-- Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
-- Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
-- Switch between a map view and a video view (if available)
-- Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
+- Otomatik şekilde [pre-flight checklist](#preflight_checklist) çalıştırın.
+- Görevleri kontrol edin: [start](#start_mission), [continue](#continue_mission), [pause](#pause), ve [resume](#resume_mission).
+- Aracı [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), belirli bir konuma [go to](#goto) veya [orbit](#orbit), ve [return/RTL](#rtl) için yönlendirin.
+- Harita görünümü ile video görünümü (eğer varsa) arasında geçiş yapın
+- Mevcut araç için video, görev, telemetri ve diğer bilgileri görüntüleyin ve ayrıca bağlı araçlar arasında geçiş yapın.
 
 ![Fly View](../../assets/fly/fly_view_overview.jpg)
 
-## UI Overview
+## Kullanıcı Arayüzü'ne Genel Bakış
 
-The screenshot above shows the main elements of the fly view:
+Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 
-- **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle. 
-  - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
-  - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
-- **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
+- **Harita:** Bağlı tüm araçların pozisyonlarını ve mevcut aracın görevini gösterir. 
+  - Haritada gezinmek için haritayı sürükleyebilirsiniz (harita belirli bir süre sonra otomatik olarak yeniden ortalanır).
+  - Kalkıştan sonra, haritaya tıklayarak bir konuma [Go to](#goto) veya [Orbit at](#orbit) ayarlayabilirsiniz.
+- **Uçuş Araç Çubuğu:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
   - Select the sensor indicators to view more detail.
   - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
   - Press the *Armed/Disarmed* text to toggle the armed state. If flying you can press this text to *Emergency Stop*.
