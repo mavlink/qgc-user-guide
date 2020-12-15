@@ -23,10 +23,10 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
   - Daha fazla ayrıntı görmek için sensör göstergelerini seçin.
   - Yeni bir mod seçmek için * Flight mode * metnine (ör. "Hold") tıklayın. Tüm modlar mevcut olmayabilir.
   - Aracın uçuşa hazır olma durumunu değiştirmek için *Armed/Disarmed* metnine tıklayın. Eğer araç uçuyorsa *Emergency Stop* için bu metne tıklayın.
-- **Fly tools:** You can use these to: 
-  - Toggle between takeoff/land.
-  - Pause/restart the current operation (e.g. landing, or the mission).
-  - Safety return (also known as RTL or Return).
+- **Uçuş araçları:** Şunları yapmak için kullanabilirsiniz: 
+  - Kalkış/iniş arasında geçiş yapın.
+  - Mevcut işlemi durdur/tekrar başlat (ör. iniş, ya da görev).
+  - Güvenli geri dönüş (RTL ya da Return olarakta bilinir).
   - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). Actions include changing the altitude or continuing a mission.
   - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
 - **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
