@@ -19,10 +19,10 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 - **Harita:** Bağlı tüm araçların pozisyonlarını ve mevcut aracın görevini gösterir. 
   - Haritada gezinmek için haritayı sürükleyebilirsiniz (harita belirli bir süre sonra otomatik olarak yeniden ortalanır).
   - Kalkıştan sonra, haritaya tıklayarak bir konuma [Go to](#goto) veya [Orbit at](#orbit) ayarlayabilirsiniz.
-- **Uçuş Araç Çubuğu:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
-  - Select the sensor indicators to view more detail.
-  - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Press the *Armed/Disarmed* text to toggle the armed state. If flying you can press this text to *Emergency Stop*.
+- **Uçuş Araç Çubuğu:** Sensörler (GPS, pil, RC kontrolü) ve araç durumu (Uçuş modu, Etkin (armed) / Devre Dışı (disarmed) durumu) hakkında anahtar bilgiler. 
+  - Daha fazla ayrıntı görmek için sensör göstergelerini seçin.
+  - Yeni bir mod seçmek için * Flight mode * metnine (ör. "Hold") tıklayın. Tüm modlar mevcut olmayabilir.
+  - Aracın uçuşa hazır olma durumunu değiştirmek için *Armed/Disarmed* metnine tıklayın. If flying you can press this text to *Emergency Stop*.
 - **Fly tools:** You can use these to: 
   - Toggle between takeoff/land.
   - Pause/restart the current operation (e.g. landing, or the mission).
