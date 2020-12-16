@@ -38,7 +38,7 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 
 Ayrıca varsayılan olarak görüntülenmeyen/ belirli koşullarda görüntülenebilen bazı öğelerde var. Mesela, çoklu-araç seçici sadece birden çok aracınız varsa veya uçuş öncesi kontrol listesi eğer etkinleştirilmişse görüntülenir.
 
-## Instrument Panel {#instrument_panel}
+## Bilgi Paneli {#instrument_panel}
 
 The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
 
