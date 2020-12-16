@@ -72,17 +72,17 @@ Gelişmiş ayarlara sayfanın sol üstündeki dişliye tıklayarak ulaşabilirsi
 
 ### Video Akışı {#video_instrument_page}
 
-Video sayfası video akışını etkinleştirmek ve devre dışı bırakmak için kullanılır. When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
+Video sayfası video akışını etkinleştirmek ve devre dışı bırakmak için kullanılır. Etkinleştirildiğinde, video akışını durdurup başlatabilir, ızgara çizgilerini açabilir, görüntünün ekrana nasıl sığacağını değiştirebilir ve videoyu yerel olarak QGC ile kaydedebilirsiniz.
 
 ![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
 
-### Health
+### Durum
 
-The health page shows you the health of the systems within your vehicle. *QGroundControl* will switch to this page automatically if any systems change to unhealthy.
+Durum sayfası aracınızdaki sistemin durumunu gösterir. Eğer sistemde bir sıkıntı olursa *QGroundControl* bu sayfayı otomatik olarak açacaktır.
 
 ![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
 
-### Vibration
+### Titreşim
 
 The vibration page shows current vibration levels and clip counts.
 
