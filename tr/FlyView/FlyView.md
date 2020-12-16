@@ -148,32 +148,32 @@ Kalkmak için (iniş yapıldığında):
 
 Uçuş sırasında istediğiniz zaman mevcut konuma inebilirsiniz:
 
-1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
-2. Confirm landing using the slider.
+1. *Fly Tools*'dan **Land** butonuna basın (kalkıştan sonra bu buton **Takeoff** butonu olarak değişecektir).
+2. Kaydırmalı onay butonunu kaydırarak inişi onaylayın.
 
 ![land](../../assets/fly/land.jpg)
 
-### RTL/Return
+### RTL/Geri Dönüş
 
-Return to the home position at any time while flying:
+Uçuş esnasında istediğiniz zaman ana konuma geri dönün:
 
-1. Press the **RTL** button in the *Fly Tools*.
-2. Confirm RTL using the slider.
+1. *Fly Tools*'dan **RTL** butonuna basın.
+2. Kaydırmalı onay butonunu kaydırarak RTL'i onaylayın.
 
 ![land](../../assets/fly/land.jpg)
 
-> **Note** The vehicle may also land at the home position, depending on its type and configuration.
+> **Note** Araç, türüne ve konfigürasyonuna bağlı olarak ana konuma inedebilir.
 
-### Change Altitude {#change_altitude}
+### Yükleklik Değiştirme {#change_altitude}
 
-You can change altitude while flying, except when in a mission:
+Uçuş esnasında eğer bir görevde değilse aracın yükseliği değiştirilebilir:
 
-1. Press the **Action** button on the *Fly Tools*
-2. Select the *Change Altitude* action from the dialog.
+1. *Fly Tools*'dan **Action** butonuna basın
+2. İletişim kutusundan *Change Altitude*'ı seçin.
   
   ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-3. Move the vertical slider to the desired altitude, then drag the confirmation slider to start the action.
+3. Dikey kaydırıcıyla istenilen yüksekliği ayarlayın, ardından kaydırmalı onay butonu ile onaylayın.
   
   ![Change altitude](../../assets/fly/change_altitude.jpg)
 
