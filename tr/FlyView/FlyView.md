@@ -84,11 +84,11 @@ Durum sayfası aracınızdaki sistemin durumunu gösterir. Eğer sistemde bir s�
 
 ### Titreşim
 
-The vibration page shows current vibration levels and clip counts.
+Titreşim sayfası mevcut titreşim seviyelerini ve klips sayılarını gösterir.
 
 ![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
 
-## Actions/Tasks
+## İşlemler/Görevler
 
 The following sections describe how to perform common operations/tasks in the Fly View.
 
