@@ -33,8 +33,8 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 - **[Video/Harita](#video_switcher):** Bir pencerede video ile harita arasında geçiş yapın. 
   - *Video* ya da *Map*'i ön plana almak için öne almak istediğinize tıklayın.
   - *QGroundControl*, aracınızın UDP bağlantısı üzerinden RTP ve RTSP video yayını yapmanızı destekler. Ayrıca direkt bağlantılı UVC cihazları da destekler. QGC'nin video desteği hakkında daha ayrıntılı bilgiyi [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md)'de bulabilirsiniz.
-  - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
-- **Confirmation Slider:** Context sensitive slider to confirm requested actions. Slide to start operation. Press **X** to cancel.
+  - Bir [Telemetry Overlay](../FlyView/VideoOverlay.md) dosyası otomatik olarak oluşturulacaktır
+- **Kaydırmalı Onay Butonu:** İstenen işlemi gerçekleştirmek için onay butonu. Operasyonu başlatmak için kaydırın. Press **X** to cancel.
 
 There are a number of other elements that are not displayed by default/are only displayed in certain conditions. For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
 
