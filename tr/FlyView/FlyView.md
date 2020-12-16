@@ -40,27 +40,27 @@ Ayrıca varsayılan olarak görüntülenmeyen/ belirli koşullarda görüntülen
 
 ## Bilgi Paneli {#instrument_panel}
 
-The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
+Bilgi Paneli, telemetri, kamera, video, sistem durumu ve titreşim bilgileri dahil olmak üzere mevcut araç hakkında bilgileri görüntüleyebileceğiniz çok sekmeli bir widgettır.
 
-The default page displays vehicle telemetry - use the drop down menu on the to right to select the other options.
+Varsayılan şekilde araç telemetrisini gösterir - diğer seçenekleri seçmek için sağdaki açılır menüyü kullanabilirsiniz.
 
-### Values (Telemetry)
+### Değerler (Telemetri)
 
-The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
+Değerler sayfası telemetri bilgilerini gösterir; varsayılan olarak rakım (ev konumuna göre) ve yer hızı.
 
 ![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
 
-You can configure what information is display by pressing the small gear icon on the top left of the panel. Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
+Panelin sol üst köşesindeki küçük dişli simgesine basarak hangi bilgilerin görüntüleneceğini ayarlayabilirsiniz. Her değeri ister normal isterse "büyük" boyutta görüntülenebilir (normal boyutta sayfadaki her satırda 2 değer varken, büyük boyutta sadece 1 değer olur).
 
 ![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
 
-### Camera {#camera_instrument_page}
+### Kamera {#camera_instrument_page}
 
-The camera page is used to configure and control the camera. For a camera connected directly to the Flight Controller the only available option is camera triggering:
+Kamera sayfası, kamerayı ayarlamak ve kontrol etmek için kullanılır. Uçuş kontrolcüsüne direkt bağlı bir kamera için sadece kamerayı başlatma ayarı vardır:
 
 ![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
 
-When connected to camera that supports the [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html) you can additionally configure and use other camera services that it makes available. For example, if your camera supports video mode you will be able to switch between still image capture and video mode, and start/stop recording.
+[MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html)'ü destekleyen bir kameraya bağlandığınızda ek olarak geçerli hale gelen diğer kamera özelliklerini ayarlayıp kullanabilirsiniz. Örnek olarak, eğer kameranız video modunu destekliyorsa, fotoğraf ve video modları arasında geçiş yapabilir, kaydı başlatıp/durdurabilirsiniz.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
 
