@@ -90,9 +90,9 @@ Titreşim sayfası mevcut titreşim seviyelerini ve klips sayılarını gösteri
 
 ## İşlemler/Görevler
 
-The following sections describe how to perform common operations/tasks in the Fly View.
+Aşağıdaki bölümler, Uçuş Ekranı'nda genel işlemlerin / görevlerin nasıl gerçekleştirileceğini açıklamaktadır.
 
-> **Note** Many of the available options depend on both the vehicle type and its current state.
+> **Note** Mevcut seçeneklerin çoğu, hem aracın türüne hem de mevcut durumuna bağlıdır.
 
 ### Pre Flight Checklist {#preflight_checklist}
 
