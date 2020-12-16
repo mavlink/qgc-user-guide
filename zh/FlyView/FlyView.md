@@ -148,7 +148,7 @@ To takeoff (when landed):
 
 You can land at the current position at any time while flying:
 
-1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
+1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
 2. Confirm landing using the slider.
 
 ![land](../../assets/fly/land.jpg)
