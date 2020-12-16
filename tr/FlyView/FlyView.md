@@ -177,21 +177,21 @@ Uçuş esnasında eğer bir görevde değilse aracın yükseliği değiştirileb
   
   ![Change altitude](../../assets/fly/change_altitude.jpg)
 
-### Goto Location {#goto}
+### Hedef Konum {#goto}
 
-After taking off you can specify that you want to fly to a particular location.
+Kalkıştan sonra belirli bir konuma uçmayı ayarlayabilirsiniz.
 
-1. Press the map where you want the vehicle to move and select **Go to location** on the popup.
+1. Haritada aracın gitmesini istediğiniz yere basın ve açılır pencereden **Go to location**'ı seçin.
   
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
 
-2. The location will be displayed on the map, along with a confirmation slider.
+2. Konum harita üzerinde kaydırmalı onay butonuyla birlikte gözükecektir.
   
   ![Goto confirmation](../../assets/fly/goto.jpg)
 
-3. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
+3. Hazır olduğunuzda kaydırarak onay verin (ya da **X**'e basarak iptal edin).
 
-> **Note** Goto points must be set within 1 km of the vehicle (hard-coded in QGC).
+> **Note** Hedef konum aracın 1 km çevresinde seçilmelidir (QGC'de sabit olarak ayarlanmıştır).
 
 ### Orbit Location {#orbit}
 
