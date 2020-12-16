@@ -108,45 +108,45 @@ Tüm testleri gerçekleştirdikten sonra, tamamlandı olarak işaretlemek için 
 
 > **Tip** Genel olarak * QGroundControl * aracı manuel olarak devreye almanızı gerektirmez; Bir göreve veya kalkışa başlarsanız bu sizin için yapılır.
 
-Arming a vehicle starts the motors in preparation for takeoff.
+Bir aracı devreye almak, kalkışa hazırlık için motorları çalıştırır.
 
-To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the confirmation sider.
+Aracı devreye almak için, *Fly Toolbar*'dan **Disarmed**'ı seçin ve kaydırmalı onay butonuyla onaylayın.
 
 ![Arm](../../assets/fly/arm.jpg)
 
-> **Note** Vehicles usually disarm automatically if you do not take off after a few seconds.
+> **Note** Eğer bir kaç saniye içinde kalkmazlarsa araçlar genellikle otomatik olarak kendilerini devre dışı bırakırlar.
 
-### Disarm {#disarm}
+### Aracı Devre Dışı Bırakma {#disarm}
 
-Disarming the vehicle stops the motors (making the vehicle safe). To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
+Aracı devre dışı bırakmak motorları durdurur (aracı güvenli hale getirir). Aracı devre dışı bırakmak için araç **landed** halindeyken *Fly Toolbar* 'dan **Armed**'ı seçin.
 
 ![Disarm](../../assets/fly/disarm.jpg)
 
-> **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
+> **Note** Aracı uçarken devre dışı bırakmak [Emergency Stop](#emergency_stop) olarak adlandırılır
 
-### Emergency Stop {#emergency_stop}
+### Acil Durdurma {#emergency_stop}
 
-Emergency stop is effectively the same as disarming the vehicle while you are flying. Your vehicle will crash!
+Acil durdurma, uçarken aracı durdurmakla aynı etkiye sahiptir. Aracınız çarpacaktır/çakılacaktır!
 
-To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
+Aracı devre dışı bırakmak için uçuş sırasında *Fly Toolbar*'dan **Armed**'ı seçin.
 
 ![Emergency Stop](../../assets/fly/emergency_stop.jpg)
 
-### Takeoff {#takeoff}
+### Kalkış {#takeoff}
 
-> **Tip** If you are starting a mission for a multicopter *QGroundControl* will automatically perform the takeoff step.
+> **Tip** Eğer bir multikopter için göreve başlıyorsanız, *QGroundControl* kalkışı otomatik olarak yapacaktır.
 
-To takeoff (when landed):
+Kalkmak için (iniş yapıldığında):
 
-1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
-2. Optionally set the takeoff altitude in the right-side vertical slider.
-3. Confirm takeoff using the slider.
+1. *Fly Tools*'dan **Takeoff** butonuna basın (kalkıştan sonra bu buton **Land** butonu olarak değişecektir).
+2. İsterseniz kalkış yüksekliğini sağda bulunan dikey kaydırıcıyla ayarlayabilirsiniz.
+3. Kaydırmalı onay butonunu kaydırarak kalkışı onaylayın.
 
 ![takeoff](../../assets/fly/takeoff.jpg)
 
-### Land {#land}
+### İniş {#land}
 
-You can land at the current position at any time while flying:
+Uçuş sırasında istediğiniz zaman mevcut konuma inebilirsiniz:
 
 1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Land** button when landed).
 2. Confirm landing using the slider.
