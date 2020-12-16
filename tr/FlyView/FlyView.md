@@ -32,7 +32,7 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 - **[Bilgi Paneli](#instrument_panel):** Telemetri, kamera, video, sistem durumu ve titreşim dahil olmak üzere araç bilgilerini görüntüleyebileceğiniz çok sekmeli widget.
 - **[Video/Harita](#video_switcher):** Bir pencerede video ile harita arasında geçiş yapın. 
   - *Video* ya da *Map*'i ön plana almak için öne almak istediğinize tıklayın.
-  - *QGroundControl*, aracınızın UDP bağlantısı üzerinden RTP ve RTSP video yayını yapmanızı destekler. It also support directly connected UVC device support. QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - *QGroundControl*, aracınızın UDP bağlantısı üzerinden RTP ve RTSP video yayını yapmanızı destekler. Ayrıca direkt bağlantılı UVC cihazları da destekler. QGC'nin video desteği hakkında daha ayrıntılı bilgiyi [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md)'de bulabilirsiniz.
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. Slide to start operation. Press **X** to cancel.
 
