@@ -104,9 +104,9 @@ Kontrol listesi için, önce [Application Settings > General > Fly View](../Sett
 
 Tüm testleri gerçekleştirdikten sonra, tamamlandı olarak işaretlemek için kullanıcı arayüzünde testi seçin.
 
-### Arm {#arm}
+### Aracı Devreye Alma {#arm}
 
-> **Tip** Generally *QGroundControl* does not require you to arm the vehicle explicitly; this is done for you if you start a mission or takeoff.
+> **Tip** Genel olarak * QGroundControl * aracı manuel olarak devreye almanızı gerektirmez; Bir göreve veya kalkışa başlarsanız bu sizin için yapılır.
 
 Arming a vehicle starts the motors in preparation for takeoff.
 
