@@ -148,7 +148,7 @@ Kalkmak için (iniş yapıldığında):
 
 Uçuş sırasında istediğiniz zaman mevcut konuma inebilirsiniz:
 
-1. *Fly Tools*'dan **Land** butonuna basın (kalkıştan sonra bu buton **Takeoff** butonu olarak değişecektir).
+1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
 2. Kaydırmalı onay butonunu kaydırarak inişi onaylayın.
 
 ![land](../../assets/fly/land.jpg)
