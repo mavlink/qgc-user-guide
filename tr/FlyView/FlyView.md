@@ -94,7 +94,7 @@ Aşağıdaki bölümler, Uçuş Ekranı'nda genel işlemlerin / görevlerin nas�
 
 > **Note** Mevcut seçeneklerin çoğu, hem aracın türüne hem de mevcut durumuna bağlıdır.
 
-### Pre Flight Checklist {#preflight_checklist}
+### Uçuş Öncesi Kontrol Listesi {#preflight_checklist}
 
 An automated preflight checklist can be used to run through standard checks that the vehicle is configured correctly and it is safe to fly.
 
