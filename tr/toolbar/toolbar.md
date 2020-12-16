@@ -1,24 +1,24 @@
-# Main Toolbar
+# Ana Araç Çubuğu
 
-The main toolbar provides access to select the different application views, and high level status information for connected vehicles. The toolbar is the same in all views except for "PlanView" (which has a single icon to take you back to "Fly" view).
+Ana araç çubuğu, farklı uygulama görünümlerine erişmenize ve bağlı araçlarınız için öndemli durumların bilgisine ulaşmanıza olanak sağlar. Araç çubuğu, "PlanView" haricindeki tüm ekranlarda aynıdır (sizi "Fly" görünümüne geri götüren tek bir simgeye sahiptir).
 
-## View-select icons
+## Seç-Görüntüle Simgeler
 
-The following icons are used to switch between the main *Views*. These are displayed even if no vehicle is connected.
+Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. Hiçbir araç bağlı olmasa bile bu simgeler ekranda bulunur.
 
-![Settings view icon](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Settings](../SettingsView/SettingsView.md)** <br />Configure the *QGroundControl* application.
+![Ayarlar ekranı simgesi](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Settings](../SettingsView/SettingsView.md)** <br />Configure the *QGroundControl* application.
 
-![Setup view icon](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Setup](../SetupView/SetupView.md)** <br />Configure and tune your vehicle.
+![Kurulum ekranı simgesi](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Setup](../SetupView/SetupView.md)** <br />Configure and tune your vehicle.
 
-![Plan view icon](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br />Create autonomous missions.
+![Plan ekranı simgesi](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br />Create autonomous missions.
 
-![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor you vehicle(s) while flying, including streaming video.
+![Uçuş simgesi](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor you vehicle(s) while flying, including streaming video.
 
-![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
+![Analiz simgesi](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
 
-## Status icons
+## Durum Simgeleri
 
-Status icons are displayed when *QGroundControl* is connected to a vehicle. These show the high level status of the vehicle, and can be clicked to see more detailed information.
+Durum simgeleri *QGroundControl* bir araca bağlıyken gözükür. Bunlar araçla ilgili önemli bilgileri gösterir ve üstlerine tıklayarak daha ayrıntılı bilgilere erişilebilir.
 
 ![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages** <br />Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
 

@@ -1,94 +1,94 @@
-# Fly View
+# Uçuş Ekranı
 
-The Fly View is used to command and monitor the vehicle when flying.
+Uçuş Ekranı, aracı uçarken izlemek ve araca komut vermek için kullanılır.
 
-You can use it to:
+Şunları yapmak için kullanabilirsiniz:
 
-- Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
-- Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
-- Switch between a map view and a video view (if available)
-- Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
+- Otomatik şekilde [pre-flight checklist](#preflight_checklist) çalıştırın.
+- Görevleri kontrol edin: [start](#start_mission), [continue](#continue_mission), [pause](#pause), ve [resume](#resume_mission).
+- Aracı [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), belirli bir konuma [go to](#goto) veya [orbit](#orbit), ve [return/RTL](#rtl) için yönlendirin.
+- Harita görünümü ile video görünümü (eğer varsa) arasında geçiş yapın
+- Mevcut araç için video, görev, telemetri ve diğer bilgileri görüntüleyin ve ayrıca bağlı araçlar arasında geçiş yapın.
 
 ![Fly View](../../assets/fly/fly_view_overview.jpg)
 
-## UI Overview
+## Kullanıcı Arayüzü'ne Genel Bakış
 
-The screenshot above shows the main elements of the fly view:
+Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 
-- **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle. 
-  - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
-  - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
-- **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
-  - Select the sensor indicators to view more detail.
-  - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Press the *Armed/Disarmed* text to toggle the armed state. If flying you can press this text to *Emergency Stop*.
-- **Fly tools:** You can use these to: 
-  - Toggle between takeoff/land.
-  - Pause/restart the current operation (e.g. landing, or the mission).
-  - Safety return (also known as RTL or Return).
-  - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). Actions include changing the altitude or continuing a mission.
-  - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
-- **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
-- **[Video/Switcher](#video_switcher):** Toggle between video or map in a window. 
-  - Press the element to switch *Video* and *Map* to foreground.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also support directly connected UVC device support. QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
-  - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
-- **Confirmation Slider:** Context sensitive slider to confirm requested actions. Slide to start operation. Press **X** to cancel.
+- **Harita:** Bağlı tüm araçların pozisyonlarını ve mevcut aracın görevini gösterir. 
+  - Haritada gezinmek için haritayı sürükleyebilirsiniz (harita belirli bir süre sonra otomatik olarak yeniden ortalanır).
+  - Kalkıştan sonra, haritaya tıklayarak bir konuma [Go to](#goto) veya [Orbit at](#orbit) ayarlayabilirsiniz.
+- **Uçuş Araç Çubuğu:** Sensörler (GPS, pil, RC kontrolü) ve araç durumu (Uçuş modu, Etkin (armed) / Devre Dışı (disarmed) durumu) hakkında anahtar bilgiler. 
+  - Daha fazla ayrıntı görmek için sensör göstergelerini seçin.
+  - Yeni bir mod seçmek için * Flight mode * metnine (ör. "Hold") tıklayın. Tüm modlar mevcut olmayabilir.
+  - Aracın uçuşa hazır olma durumunu değiştirmek için *Armed/Disarmed* metnine tıklayın. Eğer araç uçuyorsa *Emergency Stop* için bu metne tıklayın.
+- **Uçuş araçları:** Şunları yapmak için kullanabilirsiniz: 
+  - Kalkış/iniş arasında geçiş yapın.
+  - Mevcut işlemi durdur/tekrar başlat (ör. iniş, ya da görev).
+  - Güvenli geri dönüş (RTL ya da Return olarakta bilinir).
+  - *Action* butonu mevcut durum için diğer uygun seçenekleri sunar (bunlar *Confirmation Slider*'ın üstünde gözükür). İşlemler, yüksekliği değiştirmeyi veya bir göreve devam etmeyi içerir.
+  - [preflight checklist](#preflight_checklist)'i etkinleştirin (varsayılan olarak devre dışıdır).
+- **[Bilgi Paneli](#instrument_panel):** Telemetri, kamera, video, sistem durumu ve titreşim dahil olmak üzere araç bilgilerini görüntüleyebileceğiniz çok sekmeli widget.
+- **[Video/Harita](#video_switcher):** Bir pencerede video ile harita arasında geçiş yapın. 
+  - *Video* ya da *Map*'i ön plana almak için öne almak istediğinize tıklayın.
+  - *QGroundControl*, aracınızın UDP bağlantısı üzerinden RTP ve RTSP video yayını yapmanızı destekler. Ayrıca direkt bağlantılı UVC cihazları da destekler. QGC'nin video desteği hakkında daha ayrıntılı bilgiyi [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md)'de bulabilirsiniz.
+  - Bir [Telemetry Overlay](../FlyView/VideoOverlay.md) dosyası otomatik olarak oluşturulacaktır
+- **Kaydırmalı Onay Butonu:** İstenen işlemi gerçekleştirmek için onay butonu. Operasyonu başlatmak için kaydırın. İptal etmek için **X** 'e basın.
 
-There are a number of other elements that are not displayed by default/are only displayed in certain conditions. For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
+Ayrıca varsayılan olarak görüntülenmeyen/ belirli koşullarda görüntülenebilen bazı öğelerde var. Mesela, çoklu-araç seçici sadece birden çok aracınız varsa veya uçuş öncesi kontrol listesi eğer etkinleştirilmişse görüntülenir.
 
-## Instrument Panel {#instrument_panel}
+## Bilgi Paneli {#instrument_panel}
 
-The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
+Bilgi Paneli, telemetri, kamera, video, sistem durumu ve titreşim bilgileri dahil olmak üzere mevcut araç hakkında bilgileri görüntüleyebileceğiniz çok sekmeli bir widgettır.
 
-The default page displays vehicle telemetry - use the drop down menu on the to right to select the other options.
+Varsayılan şekilde araç telemetrisini gösterir - diğer seçenekleri seçmek için sağdaki açılır menüyü kullanabilirsiniz.
 
-### Values (Telemetry)
+### Değerler (Telemetri)
 
-The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
+Değerler sayfası telemetri bilgilerini gösterir; varsayılan olarak rakım (ev konumuna göre) ve yer hızı.
 
 ![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
 
-You can configure what information is display by pressing the small gear icon on the top left of the panel. Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
+Panelin sol üst köşesindeki küçük dişli simgesine basarak hangi bilgilerin görüntüleneceğini ayarlayabilirsiniz. Her değeri ister normal isterse "büyük" boyutta görüntülenebilir (normal boyutta sayfadaki her satırda 2 değer varken, büyük boyutta sadece 1 değer olur).
 
 ![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
 
-### Camera {#camera_instrument_page}
+### Kamera {#camera_instrument_page}
 
-The camera page is used to configure and control the camera. For a camera connected directly to the Flight Controller the only available option is camera triggering:
+Kamera sayfası, kamerayı ayarlamak ve kontrol etmek için kullanılır. Uçuş kontrolcüsüne direkt bağlı bir kamera için sadece kamerayı başlatma ayarı vardır:
 
 ![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
 
-When connected to camera that supports the [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html) you can additionally configure and use other camera services that it makes available. For example, if your camera supports video mode you will be able to switch between still image capture and video mode, and start/stop recording.
+[MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html)'ü destekleyen bir kameraya bağlandığınızda ek olarak geçerli hale gelen diğer kamera özelliklerini ayarlayıp kullanabilirsiniz. Örnek olarak, eğer kameranız video modunu destekliyorsa, fotoğraf ve video modları arasında geçiş yapabilir, kaydı başlatıp/durdurabilirsiniz.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
 
-Advanced settings can be changed via the gear icon at the top left of the page.
+Gelişmiş ayarlara sayfanın sol üstündeki dişliye tıklayarak ulaşabilirsiniz.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
 
-> **Note** Most of the settings that are displayed depend on the camera (they are defined in its [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)). A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
+> **Note** Gösterilen ayarların çoğu kameraya bağlıdır (ayarlar [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)'da tanımlanmıştır). Sondaki bir kaç ortak ayar sabit olarak kodlanmıştır: Fotoğraf Modu (Tekli/Photolapse), Fotoğraf Aralığı (Timelapse için), Kamera Ayarlarını Varsayılana Sıfırla (kameraya bir sıfırlama komutu gönderir), Format (depolama)
 
-### Video Stream {#video_instrument_page}
+### Video Akışı {#video_instrument_page}
 
-The video page is used to enable/disable video streaming. When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
+Video sayfası video akışını etkinleştirmek ve devre dışı bırakmak için kullanılır. Etkinleştirildiğinde, video akışını durdurup başlatabilir, ızgara çizgilerini açabilir, görüntünün ekrana nasıl sığacağını değiştirebilir ve videoyu yerel olarak QGC ile kaydedebilirsiniz.
 
 ![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
 
-### Health
+### Durum
 
-The health page shows you the health of the systems within your vehicle. *QGroundControl* will switch to this page automatically if any systems change to unhealthy.
+Durum sayfası aracınızdaki sistemin durumunu gösterir. Eğer sistemde bir sıkıntı olursa *QGroundControl* bu sayfayı otomatik olarak açacaktır.
 
 ![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
 
-### Vibration
+### Titreşim
 
-The vibration page shows current vibration levels and clip counts.
+Titreşim sayfası mevcut titreşim seviyelerini ve klips sayılarını gösterir.
 
 ![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
 
-## Actions/Tasks
+## İşlemler/Görevler
 
 The following sections describe how to perform common operations/tasks in the Fly View.
 
