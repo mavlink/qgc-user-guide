@@ -98,11 +98,11 @@ Aşağıdaki bölümler, Uçuş Ekranı'nda genel işlemlerin / görevlerin nas�
 
 Aracın doğru ayarlandığını ve uçmak için güvenli olduğu gösteren standart kontrollerin yapılması için otomatik bir uçuş öncesi kontrol listesi kullanılabilir.
 
-To you the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox. The tool will then be added to the *Flight Tools*. Press it to open the checklist:
+Kontrol listesi için, önce [Application Settings > General > Fly View](../SettingsView/General.md) 'a gidip **Use preflight checklist** onay kutusunu seçerek etkinleştirin. Liste *Flight Tools*'a eklenecektir. Kontrol listesini oradan açabilirsiniz:
 
 ![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
 
-Once you have performed each test, select it on it in the UI to mark it as complete.
+Tüm testleri gerçekleştirdikten sonra, tamamlandı olarak işaretlemek için kullanıcı arayüzünde testi seçin.
 
 ### Arm {#arm}
 
