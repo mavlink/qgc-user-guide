@@ -278,17 +278,17 @@ Aşağıdaki görüntü inişten sonra yeniden yapılandırılan bir görevi gö
 
 > **Note** Bir görev, basit bir şekilde aracın son gerçekleştirdiği görev aşamasından devam edemez, çünkü son yapılan aşamada görevin sonraki aşamalarına etki edebilecek birden fazla etken olabilir (ör. hız komutları ya da kameranın kontrol komutları). Basit bir şekilde devam etmek yerine, *QGroundControl* son gerçekleştirilen görev aşamasından başlayarak, ilgili komutları da dikkate alarak görevi tekrar yapılandırır.
 
-#### Remove Mission Prompt After Landing {#resume_mission_prompt}
+#### İnişten Sonra Görevi Kaldırma {#resume_mission_prompt}
 
-You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. This is meant to prevent issues where stale missions are unknowingly left on a vehicle, potentially resulting in unexpected behavior.
+Görev bittikten sonra aracın inişi ve devre dışı bırakılmasının ardından görevi araçtan kaldırmanız istenecektir. Bunun amacı farkında olmadan araçta bırakılan görevlerin potansiyel olarak beklenmeyen davranışlar sergilemesinin önüne geçmektir.
 
-### Display Video {#video_switcher}
+### Videoyu Görüntüleme {#video_switcher}
 
-When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map. You can press the switcher anywhere to toggle *Video* and *Map* to foreground (below we show the video in the foreground).
+Video akışı etkinleştirildiğinde, *QGroundControl* haritanın sol altında bulunan "videoya geçiş penceresi"nde videoyu göstermeye başlıyacaktır. Ön planda *Video* ya da *Map* hangisini görüntülemek istiyorsanız geçiş penceresinde istediğiniz yere tıklayabilirsiniz (aşağıda videonun ön planda olduğu hali görebilirsiniz).
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
-> **Note** Video streaming is configured/enabled in [Application Settings > General tab > Video](../SettingsView/General.md#video).
+> **Note** video akışı [Application Settings > General tab > Video](../SettingsView/General.md#video)'dan etkinleştirilebilir/düzenlenebilir.
 
 You can further configure video display using controls on the switcher:
 
