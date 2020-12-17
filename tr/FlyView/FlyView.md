@@ -266,17 +266,17 @@ Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir gör
 
 > **Note** Eğer bataryayı değiştiricekseniz, bataryanın bağlantısını kestikten sonra QGC ile aracın bağlantısını **kesmeyin**. Yeni bataryayı yerleştirdikten sonra *QGroundControl* cihazı tekrar tespit edip, bağlantıyı otomatik olarak yeniden kuracaktır.
 
-After landing you will be prompted with a *Flight Plan complete* dialog, which gives you the option to remove the plan from the vehicle, leave it on the vehicle, or to resume the mission from the last waypoint that was traveled through.
+İnişten sonra size görev planını cihazdan kaldırma, cihazda bırakma ya da göreve kaldığı yerden devam etme seçeneklerini sunan bir *Flight Plan complete* iletişim kutusu karşınıza çıkacaktır.
 
 ![Resume Mission](../../assets/fly/resume_mission.jpg)
 
-If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle. Then use the *Start Mission* slider to continue the mission.
+Eğer göreve devam etmeyi düşünüyorsanız, *QGroundControl* görevi yapılandırıp araca yükleyecektir. Ardından *Start Mission* kaydıracıyla göreve devam edebilirsiniz.
 
-The image below shows the mission that was rebuilt after the Return shown above.
+Aşağıdaki görüntü inişten sonra yeniden yapılandırılan bir görevi göstermektedir.
 
 ![Resume Rebuilt Mission](../../assets/fly/resume_mission_rebuilt.jpg)
 
-> **Note** A mission cannot simply resume from the last mission item that the vehicle executed, because there may be multiple items at the last waypoint that affect the next stage of the mission (e.g. speed commands or camera control commands). Instead *QGroundControl* rebuilds the mission, starting from the last mission item flown, and automatically prepending any relevant commands to the front of the mission.
+> **Note** Bir görev, basit bir şekilde aracın son gerçekleştirdiği görev aşamasından devam edemez, çünkü son yapılan aşamada görevin sonraki aşamalarına etki edebilecek birden fazla etken olabilir (ör. hız komutları ya da kameranın kontrol komutları). Basit bir şekilde devam etmek yerine, *QGroundControl* son gerçekleştirilen görev aşamasından başlayarak, ilgili komutları da dikkate alarak görevi tekrar yapılandırır.
 
 #### Remove Mission Prompt After Landing {#resume_mission_prompt}
 
