@@ -193,32 +193,32 @@ Kalkıştan sonra belirli bir konuma uçmayı ayarlayabilirsiniz.
 
 > **Note** Hedef konum aracın 1 km çevresinde seçilmelidir (QGC'de sabit olarak ayarlanmıştır).
 
-### Orbit Location {#orbit}
+### Yörünge Konumu {#orbit}
 
-After taking off you can specify that you want to orbit a particular location.
+Kalkıştan sonra belirli bir konumun çevresinde yörüngede dolaşmasını ayarlayabilirsiniz.
 
-1. Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
+1. Haritaya basın (istediğiniz yörüngenin merkezine yakın bir yere) ve açılır pencereden **Orbit at location**'i seçin.
   
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
 
-2. The proposed orbit will be displayed on the map, along with a confirmation sider.
+2. Önerile yörünge kaydırmalı onay butonu ile harita üzerinde belirecektir.
   
   ![Orbit confirmation](../../assets/fly/orbit.jpg)
   
-  - Select and drag the central marker to move the orbit location.
-  - Select and drag the dot on the outer circle to change the orbit radius
-3. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
+  - Yörüngenin konumunu değiştirmek için merkezini seçin ve kaydırın.
+  - Yörüngenin yarıçapını, çemberin dışındaki noktayı seçip sürükleyerek ayarlayabilirsiniz.
+3. Hazır olduğunuzda kaydırarak onay verin (ya da **X**'e basarak iptal edin).
 
-### Pause
+### Duraklatma
 
-You can pause most operations, including taking off, landing, RTL, missions, Orbit at location. The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
+Kalkış, iniş, RTL, Yörünge dahil olmak üzere çoğu operasyonu aracın olduğu konumda duraklatabilirsiniz. Duraklatıldığında aracın davranışı aracın tipine bağlıdır, genellikle multikopterler havada asılı kalırken sabit kanatlar çember çizer.
 
-> **Note** You cannot pause a *Goto location* operation.
+> **Note** Bir *Goto location* operasyonunu durduramazsınız.
 
-To pause:
+Durdurmak için:
 
-1. Press the **Pause** button in the *Fly Tools*.
-2. Optionally set a new altitude using the right-side vertical slider.
+1. *Fly Tools*'dan **Pause** butonuna basın.
+2. İsterseniz yeni bir yüksekliği sağda bulunan dikey kaydırıcıyla ayarlayabilirsiniz.
 3. Confirm the pause using the slider.
 
 ![pause](../../assets/fly/pause.jpg)
