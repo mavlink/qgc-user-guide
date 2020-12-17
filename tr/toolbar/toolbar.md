@@ -6,15 +6,15 @@ Ana araç çubuğu, farklı uygulama görünümlerine erişmenize ve bağlı ara
 
 Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. Hiçbir araç bağlı olmasa bile bu simgeler ekranda bulunur.
 
-![Ayarlar ekranı simgesi](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Settings](../SettingsView/SettingsView.md)** <br />Configure the *QGroundControl* application.
+![Ayarlar ekranı simgesi](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Settings](../SettingsView/SettingsView.md)** <br />*QGroundControl* uygulamasını düzenleyin.
 
-![Kurulum ekranı simgesi](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Setup](../SetupView/SetupView.md)** <br />Configure and tune your vehicle.
+![Kurulum ekranı simgesi](../../assets/toolbar/toolbar_view_select_setup.jpg) **[Setup](../SetupView/SetupView.md)** <br /> Aracınızı ayarlayın ve yapılandırın.
 
-![Plan ekranı simgesi](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br />Create autonomous missions.
+![Plan ekranı simgesi](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br /> Otonom göevler oluşturun.
 
-![Uçuş simgesi](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor you vehicle(s) while flying, including streaming video.
+![Uçuş simgesi](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br /> Araç(lar)ınızı uçarken video akışıyla birlikte gözlemleyin.
 
-![Analiz simgesi](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br />Download logs, geotag images from a survey mission, access the MAVLink console.
+![Analiz simgesi](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br /> Uçuş kayıtlarını indirebilir, gözlem görevindeki görüntüler coğrafi olark etiketlenebilir, MAVLink konsoluna erişebilirsiniz.
 
 ## Durum Simgeleri
 
