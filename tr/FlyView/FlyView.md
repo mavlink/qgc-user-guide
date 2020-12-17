@@ -10,7 +10,7 @@ Uçuş Ekranı, aracı uçarken izlemek ve araca komut vermek için kullanılır
 - Harita görünümü ile video görünümü (eğer varsa) arasında geçiş yapın
 - Mevcut araç için video, görev, telemetri ve diğer bilgileri görüntüleyin ve ayrıca bağlı araçlar arasında geçiş yapın.
 
-![Fly View](../../assets/fly/fly_view_overview.jpg)
+![Uçuş Ekranı](../../assets/fly/fly_view_overview.jpg)
 
 ## Kullanıcı Arayüzü'ne Genel Bakış
 
@@ -48,25 +48,25 @@ Varsayılan şekilde araç telemetrisini gösterir - diğer seçenekleri seçmek
 
 Değerler sayfası telemetri bilgilerini gösterir; varsayılan olarak rakım (ev konumuna göre) ve yer hızı.
 
-![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
+![Bilgi Paneli - değerler ve telemetri için](../../assets/fly/instrument_page_values.jpg)
 
 Panelin sol üst köşesindeki küçük dişli simgesine basarak hangi bilgilerin görüntüleneceğini ayarlayabilirsiniz. Her değeri ister normal isterse "büyük" boyutta görüntülenebilir (normal boyutta sayfadaki her satırda 2 değer varken, büyük boyutta sadece 1 değer olur).
 
-![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
+![Bilgi Paneli - değerlerin ayarları](../../assets/fly/instrument_page_values_settings.jpg)
 
 ### Kamera {#camera_instrument_page}
 
 Kamera sayfası, kamerayı ayarlamak ve kontrol etmek için kullanılır. Uçuş kontrolcüsüne direkt bağlı bir kamera için sadece kamerayı başlatma ayarı vardır:
 
-![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
+![Bilgi Paneli - Kamera için](../../assets/fly/instrument_page_camera.jpg)
 
 [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html)'ü destekleyen bir kameraya bağlandığınızda ek olarak geçerli hale gelen diğer kamera özelliklerini ayarlayıp kullanabilirsiniz. Örnek olarak, eğer kameranız video modunu destekliyorsa, fotoğraf ve video modları arasında geçiş yapabilir, kaydı başlatıp/durdurabilirsiniz.
 
-![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
+![Bilgi Paneli - Kameranın MAVLink ayarları](../../assets/fly/instrument_page_camera_mavlink.jpg)
 
 Gelişmiş ayarlara sayfanın sol üstündeki dişliye tıklayarak ulaşabilirsiniz.
 
-![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
+![Bilgi Paneli - Kameranın MAVLink ayarları](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
 
 > **Note** Gösterilen ayarların çoğu kameraya bağlıdır (ayarlar [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)'da tanımlanmıştır). Sondaki bir kaç ortak ayar sabit olarak kodlanmıştır: Fotoğraf Modu (Tekli/Photolapse), Fotoğraf Aralığı (Timelapse için), Kamera Ayarlarını Varsayılana Sıfırla (kameraya bir sıfırlama komutu gönderir), Format (depolama)
 
@@ -74,13 +74,13 @@ Gelişmiş ayarlara sayfanın sol üstündeki dişliye tıklayarak ulaşabilirsi
 
 Video sayfası video akışını etkinleştirmek ve devre dışı bırakmak için kullanılır. Etkinleştirildiğinde, video akışını durdurup başlatabilir, ızgara çizgilerini açabilir, görüntünün ekrana nasıl sığacağını değiştirebilir ve videoyu yerel olarak QGC ile kaydedebilirsiniz.
 
-![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
+![Bilgi Paneli - Video Akışı](../../assets/fly/instrument_page_video_stream.jpg)
 
 ### Durum
 
 Durum sayfası aracınızdaki sistemin durumunu gösterir. Eğer sistemde bir sıkıntı olursa *QGroundControl* bu sayfayı otomatik olarak açacaktır.
 
-![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
+![Bilgi Paneli - Cihaz Durumu](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
 
 ### Titreşim
 
@@ -311,15 +311,15 @@ Video akışı kaydı [video stream instrument page](#video_instrument_page)'dan
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
-Video stream recording is configured in the [Application Settings > General tab](../SettingsView/General.md):
+Video akışı kaydı [Application Settings > General tab](../SettingsView/General.md)'dan düzenlenir:
 
-- [Video Recording](../SettingsView/General.md#video-recording) - specifies the recording file format and storage limits. > **Note** Videos are saved in Matroska format (.mkv) by default. This format is relatively robust against corruption in case of errors.
-- [Miscellaneous](../SettingsView/General.md#miscellaneous) - Streamed video is saved under the **Application Load/Save Path**. 
+- [Video Recording](../SettingsView/General.md#video-recording) - kayıt dosyası formatını ve depolama sınırlarını belirtir. > **Note** Videolar varsayılan olarak Matroska format (.mkv) olarak kaydedilir. Bu format, hata durumunda bozulmaya karşı nispeten dayanıklıdır.
+- [Miscellaneous](../SettingsView/General.md#miscellaneous) - Video **Application Load/Save Path**'e kaydedilir. 
 
-> **Tip** The stored video includes just the video stream itself. To record video with QGroundControl application elements displayed, you should use separate screen recording software.
+> **Tip** Kaydedilen video, sadece video akışının kendisini içerir. QGroundControl uygulamasının öğeleriyle videoyu kaydetmek için başka bir ekran kaydı uygulaması kullanmanız gerekir.
 
-#### Record Video on Camera
+#### Videoyu Kamerada Kaydetme
 
-Start/stop video recording *on the camera itself* using the [camera instrument page](#camera_instrument_page). First toggle to video mode, then select the red button to start recording.
+*Kameranın kendisinde* video kaydını durdurup/başlatmak için [camera instrument page](#camera_instrument_page)'i kullanabilirsiniz. İlk olarak video moduna geçiş yapın, ardından kırmızı butona basarak kaydı başlatabilirsiniz.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
