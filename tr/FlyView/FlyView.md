@@ -219,31 +219,31 @@ Durdurmak için:
 
 1. *Fly Tools*'dan **Pause** butonuna basın.
 2. İsterseniz yeni bir yüksekliği sağda bulunan dikey kaydırıcıyla ayarlayabilirsiniz.
-3. Confirm the pause using the slider.
+3. Kaydırmalı onay butonunu kaydırarak durdurmayı onaylayın.
 
 ![pause](../../assets/fly/pause.jpg)
 
-### Missions
+### Görevler
 
-#### Start Mission {#start_mission}
+#### Görevi Başlatma {#start_mission}
 
-You can start a mission when the vehicle is landed (the start mission confirmation slider is often displayed by default).
+Araç inmiş durumdayken bir görevi başlatabilirsiniz (görevi başlatma onay kaydıracı varsayılan olarak çoğu kez gösterilir).
 
-To start a mission from landed:
+Yerdeki bir aracın görevini başlatmak için:
 
-1. Press the **Action** button on the *Fly Tools*
-2. Select the *Start Mission* action from the dialog.
+1. *Fly Tools*'dan **Action** butonuna basın
+2. İletişim kutusundan *Start Mission*'ı seçin.
   
   ![Start mission action](../../assets/fly/start_mission_action.jpg)
   
-      (to display the confirmation slider)
+      (kaydırmalı onay çubuğunu görüntülemek için)
       
 
-3. When the confirmation slider appears, drag it to start the mission.
+3. Onay kaydıracı belirdiğinde görevi başlatmak için kaydırın.
   
   ![Start mission](../../assets/fly/start_mission.jpg)
 
-#### Continue Mission {#continue_mission}
+#### Göreve Devam Etme (Continue Mission) {#continue_mission}
 
 You can *continue* mission from the *next* waypoint when you're flying (the *Continue Mission* confirmation slider is often displayed by default after you takeoff).
 
