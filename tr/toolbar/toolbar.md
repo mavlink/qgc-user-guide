@@ -20,16 +20,16 @@ Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. 
 
 Durum simgeleri *QGroundControl* bir araca bağlıyken gözükür. Bunlar araçla ilgili önemli bilgileri gösterir ve üstlerine tıklayarak daha ayrıntılı bilgilere erişilebilir.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages** <br />Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
+![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages** <br /> Araçtan gelen mesajları görmek için tıklayın. Eğer kritik bir mesaj varsa bir Yield işaretine dönüşecektir.
 
-![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br />Shows you satellite count and curent hdop.
+![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br /> Uydu sayısını ve geçerli hdopu gösterir.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RS signal strength information.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RS sinyal gücü bilgisi.
 
-![](../../assets/toolbar/toolbar_status_telemetry.jpg) **Telemetry RSSI** <br />Telemetry signals strength information.
+![](../../assets/toolbar/toolbar_status_telemetry.jpg) **Telemetry RSSI** <br />Telemetri sinyalleri güç bilgisi.
 
-![](../../assets/toolbar/toolbar_status_battery.jpg) **Battery** <br />Remaining battery percent.
+![](../../assets/toolbar/toolbar_status_battery.jpg) **Battery** <br />Kalan batarya yüzde bilgisi.
 
-![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **Flight Mode** <br />Current flight mode. Click to change flight mode.
+![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **Flight Mode** <br />Mevcut uçuş modu. Uçuş modunu değiştirmek için tıklayın.
 
-![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS Survey-In Status** <br />Shows you progress of RTK GPS Survey-In process.
+![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS Survey-In Status** <br />RTK GPS Survey-In'in ilerlemesini gösterir.
