@@ -80,13 +80,13 @@ Video sayfası video akışını etkinleştirmek ve devre dışı bırakmak içi
 
 Durum sayfası aracınızdaki sistemin durumunu gösterir. Eğer sistemde bir sıkıntı olursa *QGroundControl* bu sayfayı otomatik olarak açacaktır.
 
-![Bilgi Paneli - Cihaz Durumu](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
+![Bilgi Paneli - Cihazın Durumu İyi](../../assets/fly/instrument_page_health_good.jpg) ![Bilgi Paneli - Cihazın Durumu Kötü](../../assets/fly/instrument_page_health_bad.jpg)
 
 ### Titreşim
 
 Titreşim sayfası mevcut titreşim seviyelerini ve klips sayılarını gösterir.
 
-![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
+![Bilgi Paneli - Titreşim Klipsleri](../../assets/fly/instrument_page_vibration.jpg)
 
 ## İşlemler/Görevler
 
@@ -100,7 +100,7 @@ Aracın doğru ayarlandığını ve uçmak için güvenli olduğu gösteren stan
 
 Kontrol listesi için, önce [Application Settings > General > Fly View](../SettingsView/General.md) 'a gidip **Use preflight checklist** onay kutusunu seçerek etkinleştirin. Liste *Flight Tools*'a eklenecektir. Kontrol listesini oradan açabilirsiniz:
 
-![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
+![Uçuş Öncesi Kontrol Listesi](../../assets/fly/pre_flight_checklist.jpg)
 
 Tüm testleri gerçekleştirdikten sonra, tamamlandı olarak işaretlemek için kullanıcı arayüzünde testi seçin.
 
@@ -112,7 +112,7 @@ Bir aracı devreye almak, kalkışa hazırlık için motorları çalıştırır.
 
 Aracı devreye almak için, *Fly Toolbar*'dan **Disarmed**'ı seçin ve kaydırmalı onay butonuyla onaylayın.
 
-![Arm](../../assets/fly/arm.jpg)
+![Aracı Devreye Alma](../../assets/fly/arm.jpg)
 
 > **Note** Eğer bir kaç saniye içinde kalkmazlarsa araçlar genellikle otomatik olarak kendilerini devre dışı bırakırlar.
 
@@ -120,7 +120,7 @@ Aracı devreye almak için, *Fly Toolbar*'dan **Disarmed**'ı seçin ve kaydırm
 
 Aracı devre dışı bırakmak motorları durdurur (aracı güvenli hale getirir). Aracı devre dışı bırakmak için araç **landed** halindeyken *Fly Toolbar* 'dan **Armed**'ı seçin.
 
-![Disarm](../../assets/fly/disarm.jpg)
+![Aracı Devre Dışı Bırakma](../../assets/fly/disarm.jpg)
 
 > **Note** Aracı uçarken devre dışı bırakmak [Emergency Stop](#emergency_stop) olarak adlandırılır
 
@@ -130,7 +130,7 @@ Acil durdurma, uçarken aracı durdurmakla aynı etkiye sahiptir. Aracınız ça
 
 Aracı devre dışı bırakmak için uçuş sırasında *Fly Toolbar*'dan **Armed**'ı seçin.
 
-![Emergency Stop](../../assets/fly/emergency_stop.jpg)
+![Acil Durdurma](../../assets/fly/emergency_stop.jpg)
 
 ### Kalkış {#takeoff}
 
@@ -142,16 +142,16 @@ Kalkmak için (iniş yapıldığında):
 2. İsterseniz kalkış yüksekliğini sağda bulunan dikey kaydırıcıyla ayarlayabilirsiniz.
 3. Kaydırmalı onay butonunu kaydırarak kalkışı onaylayın.
 
-![takeoff](../../assets/fly/takeoff.jpg)
+![kalkış](../../assets/fly/takeoff.jpg)
 
 ### İniş {#land}
 
 Uçuş sırasında istediğiniz zaman mevcut konuma inebilirsiniz:
 
-1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
+1. *Fly Tools*'dan **Land** butonuna basın (kalkıştan sonra bu buton **Takeoff** butonu olarak değişecektir).
 2. Kaydırmalı onay butonunu kaydırarak inişi onaylayın.
 
-![land](../../assets/fly/land.jpg)
+![iniş](../../assets/fly/land.jpg)
 
 ### RTL/Geri Dönüş
 
@@ -160,7 +160,7 @@ Uçuş esnasında istediğiniz zaman ana konuma geri dönün:
 1. *Fly Tools*'dan **RTL** butonuna basın.
 2. Kaydırmalı onay butonunu kaydırarak RTL'i onaylayın.
 
-![land](../../assets/fly/land.jpg)
+![iniş](../../assets/fly/land.jpg)
 
 > **Note** Araç, türüne ve konfigürasyonuna bağlı olarak ana konuma inedebilir.
 
@@ -171,11 +171,11 @@ Uçuş esnasında eğer bir görevde değilse aracın yükseliği değiştirileb
 1. *Fly Tools*'dan **Action** butonuna basın
 2. İletişim kutusundan *Change Altitude*'ı seçin.
   
-  ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
+  ![Göreve Devam Etme/Yüksekliği Değiştirme ](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
 3. Dikey kaydırıcıyla istenilen yüksekliği ayarlayın, ardından kaydırmalı onay butonu ile onaylayın.
   
-  ![Change altitude](../../assets/fly/change_altitude.jpg)
+  ![Yüksekliği Değiştirme](../../assets/fly/change_altitude.jpg)
 
 ### Hedef Konum {#goto}
 
@@ -183,11 +183,11 @@ Kalkıştan sonra belirli bir konuma uçmayı ayarlayabilirsiniz.
 
 1. Haritada aracın gitmesini istediğiniz yere basın ve açılır pencereden **Go to location**'ı seçin.
   
-  ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
+  ![Hedefe gitme veya yörünge](../../assets/fly/goto_or_orbit.jpg)
 
 2. Konum harita üzerinde kaydırmalı onay butonuyla birlikte gözükecektir.
   
-  ![Goto confirmation](../../assets/fly/goto.jpg)
+  ![Hedefe gitme onayı](../../assets/fly/goto.jpg)
 
 3. Hazır olduğunuzda kaydırarak onay verin (ya da **X**'e basarak iptal edin).
 
@@ -199,11 +199,11 @@ Kalkıştan sonra belirli bir konumun çevresinde yörüngede dolaşmasını aya
 
 1. Haritaya basın (istediğiniz yörüngenin merkezine yakın bir yere) ve açılır pencereden **Orbit at location**'i seçin.
   
-  ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
+  ![Hedefe gitme veya yörünge](../../assets/fly/goto_or_orbit.jpg)
 
 2. Önerile yörünge kaydırmalı onay butonu ile harita üzerinde belirecektir.
   
-  ![Orbit confirmation](../../assets/fly/orbit.jpg)
+  ![Yörünge Onayı](../../assets/fly/orbit.jpg)
   
   - Yörüngenin konumunu değiştirmek için merkezini seçin ve kaydırın.
   - Yörüngenin yarıçapını, çemberin dışındaki noktayı seçip sürükleyerek ayarlayabilirsiniz.
@@ -221,7 +221,7 @@ Durdurmak için:
 2. İsterseniz yeni bir yüksekliği sağda bulunan dikey kaydırıcıyla ayarlayabilirsiniz.
 3. Kaydırmalı onay butonunu kaydırarak durdurmayı onaylayın.
 
-![pause](../../assets/fly/pause.jpg)
+![duraklatma](../../assets/fly/pause.jpg)
 
 ### Görevler
 
@@ -234,14 +234,14 @@ Yerdeki bir aracın görevini başlatmak için:
 1. *Fly Tools*'dan **Action** butonuna basın
 2. İletişim kutusundan *Start Mission*'ı seçin.
   
-  ![Start mission action](../../assets/fly/start_mission_action.jpg)
+  ![Görevi Başlatma Eylemi](../../assets/fly/start_mission_action.jpg)
   
       (kaydırmalı onay çubuğunu görüntülemek için)
       
 
 3. Onay kaydıracı belirdiğinde görevi başlatmak için kaydırın.
   
-  ![Start mission](../../assets/fly/start_mission.jpg)
+  ![Görevi Başlatma](../../assets/fly/start_mission.jpg)
 
 #### Göreve Devam Etme (Continue Mission) {#continue_mission}
 
@@ -254,11 +254,11 @@ Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir gör
 1. *Fly Tools*'dan **Action** butonuna basın
 2. İletişim kutusundan *Continue Mission*'ı seçin.
   
-  ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
+  ![Göreve Devam Etme/Yüksekliği Değiştirme](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
 3. Kaydırmalı onay butonunu kaydırarak göreve devam edin.
   
-  ![Continue Mission](../../assets/fly/continue_mission.jpg)
+  ![Göreve Devam Etme (Continue Mission)](../../assets/fly/continue_mission.jpg)
 
 #### Göreve Devam Etme (Resume Mission) {#resume_mission}
 
@@ -268,13 +268,13 @@ Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir gör
 
 İnişten sonra size görev planını cihazdan kaldırma, cihazda bırakma ya da göreve kaldığı yerden devam etme seçeneklerini sunan bir *Flight Plan complete* iletişim kutusu karşınıza çıkacaktır.
 
-![Resume Mission](../../assets/fly/resume_mission.jpg)
+![Göreve Devam Etme (Resume Mission)](../../assets/fly/resume_mission.jpg)
 
 Eğer göreve devam etmeyi düşünüyorsanız, *QGroundControl* görevi yapılandırıp araca yükleyecektir. Ardından *Start Mission* kaydıracıyla göreve devam edebilirsiniz.
 
 Aşağıdaki görüntü inişten sonra yeniden yapılandırılan bir görevi göstermektedir.
 
-![Resume Rebuilt Mission](../../assets/fly/resume_mission_rebuilt.jpg)
+![Yapılandırılmış Göreve Devam Etme](../../assets/fly/resume_mission_rebuilt.jpg)
 
 > **Note** Bir görev, basit bir şekilde aracın son gerçekleştirdiği görev aşamasından devam edemez, çünkü son yapılan aşamada görevin sonraki aşamalarına etki edebilecek birden fazla etken olabilir (ör. hız komutları ya da kameranın kontrol komutları). Basit bir şekilde devam etmek yerine, *QGroundControl* son gerçekleştirilen görev aşamasından başlayarak, ilgili komutları da dikkate alarak görevi tekrar yapılandırır.
 
@@ -286,7 +286,7 @@ Görev bittikten sonra aracın inişi ve devre dışı bırakılmasının ardın
 
 Video akışı etkinleştirildiğinde, *QGroundControl* haritanın sol altında bulunan "videoya geçiş penceresi"nde videoyu göstermeye başlıyacaktır. Ön planda *Video* ya da *Map* hangisini görüntülemek istiyorsanız geçiş penceresinde istediğiniz yere tıklayabilirsiniz (aşağıda videonun ön planda olduğu hali görebilirsiniz).
 
-![Video Stream Record](../../assets/fly/video_record.jpg)
+![Video Akışı Kaydı](../../assets/fly/video_record.jpg)
 
 > **Note** video akışı [Application Settings > General tab > Video](../SettingsView/General.md#video)'dan etkinleştirilebilir/düzenlenebilir.
 
@@ -309,7 +309,7 @@ Eğer araç ve kamera tarafından destekleniyorsa, *QGroundControl* kendiliğind
 
 Video akışı kaydı [video stream instrument page](#video_instrument_page)'dan kontrol edilir. Yeni bir video kaydı başlatmak için kırmızı daireye tıklayın (daireye her tıklanıldığında yeni bir video dosyası oluşturulur); kayıt devam ederken çember kırmızı bir kareye dönüşecektir.
 
-![Video Stream Record](../../assets/fly/video_record.jpg)
+![Video Akışı Kaydı](../../assets/fly/video_record.jpg)
 
 Video akışı kaydı [Application Settings > General tab](../SettingsView/General.md)'dan düzenlenir:
 
@@ -322,4 +322,4 @@ Video akışı kaydı [Application Settings > General tab](../SettingsView/Gener
 
 *Kameranın kendisinde* video kaydını durdurup/başlatmak için [camera instrument page](#camera_instrument_page)'i kullanabilirsiniz. İlk olarak video moduna geçiş yapın, ardından kırmızı butona basarak kaydı başlatabilirsiniz.
 
-![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
+![Bilgi Paneli - Kameranın MAVLink ayarları](../../assets/fly/instrument_page_camera_mavlink.jpg)
