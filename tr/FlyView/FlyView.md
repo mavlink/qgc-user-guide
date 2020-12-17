@@ -290,24 +290,24 @@ Video akışı etkinleştirildiğinde, *QGroundControl* haritanın sol altında 
 
 > **Note** video akışı [Application Settings > General tab > Video](../SettingsView/General.md#video)'dan etkinleştirilebilir/düzenlenebilir.
 
-You can further configure video display using controls on the switcher:
+Video görüntüsünü geçiş penceresindeki kontrolleri kullanararak daha da düzenleyebilirsiniz:
 
     ![Video Pop](../../assets/fly/video_pop.jpg)
     
 
-- Resize the switcher by dragging the icon in the to right corner.
-- Hide the switcher by pressing the toggle icon in the lower left.
-- Detach the video switcher window by pressing on the icon in its top left corner (once detached, you can move and resize the window just like any other in your OS). If you close the detached window the switcher will re-lock to the QGC Fly view.
+- Sağ üst köşedeki ikonu sürükleyerek geçiş penceresini tekrar boyutlandırabilirsiniz.
+- Geçiş penceresini sol alt köşede bulunan ikona basarak gizleyebilirsiniz.
+- Sol üst köşedeki ikona basarak video geçiş pencersini ayırabilirsiniz. (ayrıldığında, işletim sisteminizdeki her hangi bir pencere gibi hareket ettirip tekrar boyutlandırabilirsiniz). Eğer ayrılan pencereyi kapatırsanız, geçiş penceresi tekrardan QGC uçuş görünüme sabitlenecektir.
 
-### Record Video
+### Video Kaydı
 
-If supported by the camera and vehicle, *QGroundControl* can start and stop video recording on the camera itself. *QGroundControl* can also record the video stream and save it locally.
+Eğer araç ve kamera tarafından destekleniyorsa, *QGroundControl* kendiliğinden video kaydını başlatıp durdurabilirsiniz. Ayrıca *QGroundControl* videoyu yayınlayıp, yerel dosyalara kaydedebilir.
 
-> **Tip** Video stored on the camera may be of much higher quality, but it is likely that your ground station will have a much larger recording capacity.
+> **Tip** Kameranın kendisinde kaydedilen video daha kaliteli olacak olsa da, yüksek ihtimalle yer istasyonunun daha büyük kayıt kapasitesi olacaktır.
 
-#### Record Video Stream (on GCS)
+#### Video Akışını Kaydetme (GCS'de)
 
-Video stream recording is controlled on the [video stream instrument page](#video_instrument_page). Press the red circle to start recording a new video (a new video file is created each time the circle is pressed); the circle will change into a red square while recording is in progress.
+Video akışı kaydı [video stream instrument page](#video_instrument_page)'dan kontrol edilir. Yeni bir video kaydı başlatmak için kırmızı daireye tıklayın (daireye her tıklanıldığında yeni bir video dosyası oluşturulur); kayıt devam ederken çember kırmızı bir kareye dönüşecektir.
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
