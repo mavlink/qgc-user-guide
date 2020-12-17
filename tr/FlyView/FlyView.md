@@ -260,7 +260,7 @@ Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir gör
   
   ![Continue Mission](../../assets/fly/continue_mission.jpg)
 
-#### Resume Mission {#resume_mission}
+#### Göreve Devam Etme (Resume Mission) {#resume_mission}
 
 *Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
 
