@@ -247,16 +247,16 @@ Yerdeki bir aracın görevini başlatmak için:
 
 Göreve *sıradaki* hedef noktanızdan *devam* edebilirsiniz (*Continue Mission* kaydırmalı onay butonu kalkıştan sonra çoğu kez varsayılan olarak gösterilir).
 
-> **Note** Continue ve [Resume mission](#resume_mission) farklıdır! Continue komutu durdurulmuş bir görevi tekrar başlatmak veya zaten kalkmış bir araç için yani kalkış görevi komutunu kaçırmış durumdaysanız kullanılır. Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from you place in the mission).
+> **Note** Continue ve [Resume mission](#resume_mission) farklıdır! Continue komutu durdurulmuş bir görevi tekrar başlatmak veya zaten kalkmış bir araç için yani kalkış görevi komutunu kaçırmış durumdaysanız kullanılır. Resume ise eğer görevin ortasında RTL ya da iniş yaptığınızda (ör. batarya değiştirmek için) ve sonrasında göreve devam etmek istiyorsanız kullanılır (yani görevi olduğunuz yerden devam ettirmek yerine, görevdeki bir sonraki hedefinizden devam ettirir).
 
-You can continue the current mission while (unless already in a mission!):
+Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir görevde değilseniz!):
 
-1. Press the **Action** button on the *Fly Tools*
-2. Select the *Continue Mission* action from the dialog.
+1. *Fly Tools*'dan **Action** butonuna basın
+2. İletişim kutusundan *Continue Mission*'ı seçin.
   
   ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-3. Drag the confirmation slider to continue the mission.
+3. Kaydırmalı onay butonunu kaydırarak göreve devam edin.
   
   ![Continue Mission](../../assets/fly/continue_mission.jpg)
 
