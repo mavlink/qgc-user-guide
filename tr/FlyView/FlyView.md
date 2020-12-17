@@ -262,9 +262,9 @@ Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir gör
 
 #### Göreve Devam Etme (Resume Mission) {#resume_mission}
 
-*Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
+*Resume Mission*, bir görevin içinde [RTL/Return](#rtl) ya da [Land](#land) gerçekleştirdikten sonra (ör. batarya değiştirmek için) kullanılır.
 
-> **Note** If you are performing a battery change, **do not** disconnect QGC from the vehicle after disconnecting the battery. After you insert the new battery *QGroundControl* will detect the vehicle again and automatically restore the connection.
+> **Note** Eğer bataryayı değiştiricekseniz, bataryanın bağlantısını kestikten sonra QGC ile aracın bağlantısını **kesmeyin**. Yeni bataryayı yerleştirdikten sonra *QGroundControl* cihazı tekrar tespit edip, bağlantıyı otomatik olarak yeniden kuracaktır.
 
 After landing you will be prompted with a *Flight Plan complete* dialog, which gives you the option to remove the plan from the vehicle, leave it on the vehicle, or to resume the mission from the last waypoint that was traveled through.
 
