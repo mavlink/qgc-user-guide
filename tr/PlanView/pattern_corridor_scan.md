@@ -4,7 +4,7 @@ Koridor taraması, çoklu çizgileri takip eden bir uçuş şablonu oluşturman�
 
 > **Important** Kamera özelliklerini kullanan bir Koridor Taraması planlarken, araştırma alanınızın zemin yüksekliklerinin kalkış/ev konumunuzla aynı yükseklikte olduğu varsayılır. Eğer araştırma alanınızın zemin yüksekliği fırlatma/ev konumunuzdan daha yüksek veya daha alçaksa, görüntülerinizdeki etkili örtüşme hesaplanandan daha az veya daha fazla (sırasıyla) olacaktır. Araştırma alanınızın zemin yüksekliği fırlatma/ev konumunuzdan önemli ölçüde daha yüksekse, aracın yanlışlıkla ağaçlara, engellere veya zemine çarpmasına neden olacak bir görev planlayabilirsiniz. Kalkış/ev rakımınızdan önemli yükseklik farklılıkları olan arazi üzerinde istenen yükseklik farkını daha yakından koruyan bir tarama oluşturmak için Terrain Follow'u kullanın.
 
-![Corridor Scan](../../assets/plan/corridor_scan.jpg)
+![Koridor Taraması](../../assets/plan/corridor_scan.jpg)
 
 Coğrafi etiketli görüntüler oluşturmak için uygun yolu, koridor genişliğini ve kamera ayarlarını özelleştirebilirsinz.
 
@@ -15,7 +15,7 @@ Bir koridor taraması oluşturmak için:
 1. [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
 2. *Plan Tools* 'dan *Pattern Tool*'u seçin ve *Corridor Scan*'a tıklayın.
   
-  ![Corridor Scan](../../assets/plan/corridor_scan_menu.jpg)
+  ![Koridor Taraması](../../assets/plan/corridor_scan_menu.jpg)
   
   Bu haritaya bir koridor ve görev listesine (sağda) bir *Corridor Scan* öğesi ekleyecektir.
 
@@ -33,13 +33,13 @@ Koridor taraması, ilişkili görev öğesinde (Plan Görünümü'nün sağ tara
 
 Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. Var olan bir kamerayı seçebilir ya da ayarları manuel olarak girebilirsiniz. Mevcut kameraların listesi (QGC 3.4) aşağıda verilmiştir.
 
-![Corridor Scan - Select Camera](../../assets/plan/corridor_scan_settings_camera_select.jpg)
+![Koridor Taraması - Kamera Seç](../../assets/plan/corridor_scan_settings_camera_select.jpg)
 
 #### Bilinen Kamera
 
 Seçenekler açılır listesinden bilinen bir kamerayı seçmek, kameranın özelliklerine göre bir ızgara deseni oluşturmanıza olanak sağlar.
 
-![Corridor Scan - Camera Settings Canon SX260](../../assets/plan/corridor_scan_settings_camera_canon_sx260.jpg)
+![Koridor Taraması - Canon SX260 Kamera Ayarları](../../assets/plan/corridor_scan_settings_camera_canon_sx260.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
@@ -53,7 +53,7 @@ Ayarlanabilir seçenekler şunlardır:
 
 Manuel kamera seçeneği, kameranız için istenen tarama yüksekliğini, deklanşör aralığını ve uygun ızgara aralığını belirlemenize olanak tanır.
 
-![Corridor Scan - Manual Camera Settings](../../assets/plan/corridor_scan_settings_camera_manual.jpg)
+![Koridor Taraması - Manuel Kamera Ayarları](../../assets/plan/corridor_scan_settings_camera_manual.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
@@ -63,7 +63,7 @@ Ayarlanabilir seçenekler şunlardır:
 
 ### Koridor
 
-![Corridor Scan - Corridor Settings](../../assets/plan/corridor_scan_settings_corridor.jpg)
+![Koridor Taraması - Koridor Ayarları](../../assets/plan/corridor_scan_settings_corridor.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
@@ -77,7 +77,7 @@ Ayarlanabilir seçenekler şunlardır:
 
 Varsayılan olarak, uçan bir araç sabit bir yükseklikte koridor yolunu takip edecektir. *Terrain Following*'i aktif hale getirmek, aracın yere göre sabit bir yükseklikte devam etmesini sağlar.
 
-![Corridor Scan - Terrain Following Settings](../../assets/plan/corridor_scan_settings_terrain.jpg)
+![Koridor Taraması - Arazi Takibi Ayarları](../../assets/plan/corridor_scan_settings_terrain.jpg)
 
 > **Note** Arazi takibi, *AirMap* serverlarından sağlanan arazi yüksekliklerini kullanır.
 
@@ -85,11 +85,11 @@ Ayarlanabilir seçenekler şunlardır:
 
 - **Araç araziyi takip eder** - Arazi takibini etkinleştirmek için işaretleyin (ve aşağıdaki seçenekleri görüntüleyin). 
   - **Tolerance** - Hedeflenen yükseklikten kabul edilen sapma miktarı.
-  - **Max Climb Rate** - Maximum climb rate when following terrain.
-  - **Max Descent Rate** - Maximum descent rate when following terrain.
+  - **Max Climb Rate** - Araziyi takip ederken maksimum yükselme oranı.
+  - **Max Climb Rate** - Araziyi takip ederken maksimum alçalma oranı.
 
-### Statistics
+### İstatistikler
 
-The *Statistics* section shows the calculated survey area, photo interval, photo spacing and planned photo count.
+*Statistics* bölümü, hesaplanan tarama alanını, fotoğraf aralığını, fotoğraflar arası boşluğu ve planlanan fotoğraf sayısını gösterir.
 
-![Corridor Scan - Statistics](../../assets/plan/corridor_scan_settings_statistics.jpg)
+![Koridor Taraması - İstatistikler](../../assets/plan/corridor_scan_settings_statistics.jpg)
