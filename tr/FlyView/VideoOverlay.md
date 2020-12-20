@@ -1,14 +1,14 @@
-# Video Yer Paylaşımı
+# Video Overlay
 
-QGroundControl bir video akışını dosyaya kaydederken, aynı zamanda oynatma sırasında video üzerinde telemetriyi göstermek için kullanılabilen, telemetri verilerini içeren bir dosyayı da dışa aktarır. Whichever telemetry values are selected for display in the telemetry [values widget](FlyView.md#values-telemetry) will also be exported to the overlay. The overlay values are updated at 1Hz.
+QGroundControl bir video akışını dosyaya kaydederken, aynı zamanda oynatma sırasında video üzerinde telemetriyi göstermek için kullanılabilen, telemetri verilerini içeren bir altyazı dosyasını da dışa aktarır. Telemetri [değerleri widget](FlyView.md#values-telemetry)ında gösterilmesi için hangi telemetri değerleri seçilirse seçilsin, onlar da overlaye aktarılacaktır. Overlay değerleri 1Hz hızla güncellenecektir.
 
 ![Values Widget](../../assets/fly/overlay_widget.png)
 
-The selected values are laid out in three columns to optimize the screen utilization. ![Overlay in action](../../assets/fly/overlay_capture.png)
+Seçilen değerler ekran kullanımını optimize etmek için 3 sütun halinde düzenlenmiştir. ![Overlay in action](../../assets/fly/overlay_capture.png)
 
-## Playing
+## Oynatma
 
-The overlay can be used with any player that [supports the SubStation Alpha](https://en.wikipedia.org/wiki/SubStation_Alpha#Players_and_renderers) subtitle format. Most players will open both files together when you try to play the video. They need to be in the same folder and with the same name, which is how they are created by QGC.
+Overlay, [SubStation Alpha](https://en.wikipedia.org/wiki/SubStation_Alpha#Players_and_renderers) altyazı formatını destekleyen tüm oynatıcılarla birlikte kullanılabilir. Most players will open both files together when you try to play the video. They need to be in the same folder and with the same name, which is how they are created by QGC.
 
 ## Permanent Video Subtitles using Handbrake
 
