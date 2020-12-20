@@ -11,7 +11,7 @@ Bir uçuşu tekrar etmek için:
 1. **Application Settings > General > Fly View**'i seçin
 1. Ekranın altında uçuşu tekrar oynat butonunu görebilmek için **Show Telemetry Log Replay Status Bar**'ı işaretleyin.
 
-   ![Toggle Flight Replay](../../assets/fly/flight_replay/flight_replay_toggle.jpg)
+   ![Uçuş Tekrarını Aç / Kapat](../../assets/fly/flight_replay/flight_replay_toggle.jpg)
 1. *file selection* seçeneğine erişmek için **Load Telemetry Log**'a tıklayın.
    - Tekrar oynatılması için uygun telemetri kayıtlarından bir kayıt dosyası seçin.
    - * QGroundControl *, kayıtı hemen oynatmaya başlar.
@@ -21,4 +21,4 @@ Bir uçuşu tekrar etmek için:
    - Kaydın ne kadar hızlı oynatılacağını ayarlamak için *Rate*.
 1. Oynatımı durdurmak (stop) için (ör. oynatılması için yeni bir dosya yüklemek için), ilk olarak uçuşu duraklatın (pause) ve ardından **Disconnect**'i seçin (ortaya çıktığında). Bağlantıyı kestikten sonra **Load Telemetry Log** butonu ortaya çıkacaktır.
 
-> **Tip** You can inspect the running replay in more detail using the [MAVLink Inspector](../analyze_view/mavlink_inspector.md).
+> **Tip** [ MAVLink Inspector ](../analyze_view/mavlink_inspector.md) 'ı kullanarak devam eden tekrarı daha ayrıntılı olarak inceleyebilirsiniz.
