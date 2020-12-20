@@ -14,11 +14,11 @@
 
 Aşağıdaki resim, yapı taramasının bir ekran görüntüsünü göstermektedir. Yeşil çokgen, yapının zemin ayak izini işaretlemek için kullanılırken, etrafındaki beyaz çizgi aracın uçuş yolunu gösterir. Uçuş yolundaki yeşil numaralı daire, taramaya giriş/çıkış noktasıdır (taramanın başladığı yer).
 
-![Structure Scan](../../assets/plan/structure_scan_v2/StructureScan.jpg)
+![Yapı Taraması](../../assets/plan/structure_scan_v2/StructureScan.jpg)
 
 Tarama, yapıyı eşit olarak katmanlara ayırır; araç, yapının çevresinde belirli bir irtifada ve yapıya * scan distance*'den uçar, ardından tüm yüzey taranana kadar işlemi her katmanda tekrarlar.
 
-![Layer JPG](../../assets/plan/structure_scan_v2/layers.jpg)
+![Katman JPG](../../assets/plan/structure_scan_v2/layers.jpg)
 
 Kullanıcılar, yapının altındaki engellerden kaçınmak için *scan bottom altitude* ve araç taramaya / taramaya giderken engellerden kaçınmak için *entrance/exit altitude* ayarlayabilir.
 
@@ -28,11 +28,11 @@ Tarama oluşturmak için:
 
 1. **Plan View**'den **Pattern tool > Structure Scan**'ı seçin.
   
-  ![Create Scan JPG](../../assets/plan/structure_scan_v2/create_scan.jpg)
+  ![Tarama JPG'si oluştur](../../assets/plan/structure_scan_v2/create_scan.jpg)
 
 2. Bu haritada basit kare bir yapı taraması oluşturacaktır.
   
-  ![Initial Polygon](../../assets/plan/structure_scan_v2/initial_polygon_scan.jpg)
+  ![İlk Köşegen](../../assets/plan/structure_scan_v2/initial_polygon_scan.jpg)
   
   Yeşil bölge, yapıyı kaplayacak şekilde düzenlenmelidir.
   
@@ -41,7 +41,7 @@ Tarama oluşturmak için:
 
 3. Ayrıca merkezdeki "daire"ye (kırmızı ile işaretlenmiş) tıklayarak ve açılır menüden *Circle* 'ı seçerek dairesel bir alana geçebilirsiniz.
   
-  ![Circle Scan](../../assets/plan/structure_scan_v2/circle_scan.jpg).
+  ![Dairesel Tarama](../../assets/plan/structure_scan_v2/circle_scan.jpg).
   
   - Açılır menüden çokgen alana geri dönebilir ve taramanın yarıçapını ve/veya konumunu değiştirebilirsiniz.
   - Çemberin merkezini konumlandırmak için merkezdeki daireyi sürükleyin. 
@@ -52,7 +52,7 @@ Tarama oluşturmak için:
   
   Farklı modlar için seçenekler aşağıda gösterilmiştir.
   
-  ![Structure Scan editor](../../assets/plan/structure_scan_v2/editor_options.jpg)
+  ![Yapı Taraması Editörü](../../assets/plan/structure_scan_v2/editor_options.jpg)
 
 Kullanıcı her zaman aşağıdaki ayarları yapılandırabilir:
 
@@ -81,4 +81,4 @@ Kalan ayarlar *camera mode*'a bağlıdır:
   - **Scan distance:**Uçuş yolunun yapıya olan mesafesi.
   - **Ground Res:** Yüzey için gerekli görüntü çözünürlüğü/numune kalitesi.
 
-- *Custom camera* selection allows you to enter your own camera characteristics, but otherwise behaves the same as a predefined camera.
+- *Custom camera* seçimi, kendi kamera özelliklerinizi girmenize olanak tanır, ancak aksi takdirde önceden tanımlanmış bir kamerayla aynı şekilde davranır.
