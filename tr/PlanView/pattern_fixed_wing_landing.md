@@ -2,7 +2,7 @@
 
 *Fixed Wing Landing Pattern* aracı, göreve sabit kanat iniş yolu eklemenize olanak tanır. Hem ArduPilot hem de PX4'de desteklenir.
 
-![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
+![Sabit Kanat İniş Yolu](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
 Yolun ilk noktası, belirli bir yükseklikte oyalanacağı yer; ikincisi de iniş noktasıdır. Araç, ilk noktada hedeflenen yüksekliğe erişene kadar oyalanacaktır, ardından iniş için belirlenen iniş noktasına doğru alçalmaya başlayacaktır.
 
@@ -15,11 +15,11 @@ Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir 
 1. Open [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
 2. *Plan Tools* 'dan *Plan Tools*'u açın ve *Fixed Wing Landing Pattern*'i seçin.
   
-  ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
+  ![Sabit Kanat İniş Yolu](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
   
   Bu, görev listesine (sağda) *Landing Pattern* öğesi ekleyecektir.
   
-  ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
+  ![Sabit Kanat İniş Yolu](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
 
 3. Oyalanma ve iniş noktalarını ayarlamak için haritaya tıklayın. Bu noktalar harita üzerinde hareket ettirilebilir.
 
@@ -33,7 +33,7 @@ Ek ayarlar bir sonraki bölümde ele alınmıştır.
 
 *Loiter Point* ayarları, oyalanmanın yüksekliğini, yarı çapını ve yönünü ayarlamak için kullanılır.
 
-![Landing Pattern - Loiter Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_loiter.jpg)
+![İniş Yolu - Oyalanma Noktası](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_loiter.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
@@ -45,7 +45,7 @@ Ayarlanabilir seçenekler şunlardır:
 
 *Landing Point* ayarları, iniş pozisyonunu ve yolunu ayarlamak için kullanılır.
 
-![Landing Pattern - Landing Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_landing.jpg)
+![İniş Yolu - İniş Noktası](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_landing.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
@@ -66,6 +66,6 @@ Bu şablon 3 gören öğresi oluşturur:
 
 Araç, yazılım tarafından `NAV_LOITER_TO_ALT` ve `NAV_LAND` noktaları arasında oluşturulan yolu kullanarak inişe geçer.
 
-If those two locations violate the vehicle's flare constraints (e.g. descent angle is too steep) an error will be raised after you upload the invalid mission to the vehicle.
+Eğer bu 2 konum aracın iniş kısıtlamalarını ihlal ederse (ör. alçalma açısı çok dikse), araca bu geçersiz görev yüklendikten sonra bir hata ortaya çıkacaktır.
 
-> **Note** On PX4, violating the flare constraints sends an error message to the ground station at upload time, and the autopilot will refuse to start the mission (since it fails integrity checks).
+> **Note** PX4'te, yükleme esnasında iniş kısıtlamalarının ihlali yer istasyonuna bir hata mesajı gönderir, ve otopilot görevi başlatmayı reddeder (bütünlük kontrolünde başarısız olacağı için).
