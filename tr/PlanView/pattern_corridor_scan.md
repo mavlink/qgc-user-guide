@@ -21,9 +21,9 @@ Bir koridor taraması oluşturmak için:
 
 3. Koridorun uçlarını, sırasıyla taramanın başlangıç ve bitiş noktalarına sürükleyin.
 
-4. Yeni bir köşe noktası oluşturmak için hattın ortasındaki `(+)` semboüne tıklayın. The new vertix can then be dragged into position to follow the path of the desired corridor.
+4. Yeni bir köşe noktası oluşturmak için hattın ortasındaki `(+)` semboüne tıklayın. Yeni köşe noktası, istenen koridor yolunu takip edeceği bir noktaya sürüklenebilir.
 
-The corridor scan settings are covered in the next section.
+Koridor taraması ayarları bir sonraki bölümde ele alınmıştır.
 
 ## Settings
 
