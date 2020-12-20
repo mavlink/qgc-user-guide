@@ -37,16 +37,16 @@ Tarama oluşturmak için:
   Yeşil bölge, yapıyı kaplayacak şekilde düzenlenmelidir.
   
   - Haritadaki opak köşeleri yapının kenarlarına sürükleyin (yukarıda leylak rengi daire içine alınmış köşeler). 
-  - If the structure footprint is more than a simple square you can click the semi-transparent circles between the vertices to create a new vertix.
+  - Yapının kapladığı alan basit bir kareden fazlaysa, yeni bir köşe noktası oluşturmak için köşeler arasındaki yarı saydam dairelere tıklayabilirsiniz.
 
-3. You can also change to a circular footprint by clicking on the central "vertix" (marked in red) and selecting *Circle* in the popup menu.
+3. Ayrıca merkezdeki "daire"ye (kırmızı ile işaretlenmiş) tıklayarak ve açılır menüden *Circle* 'ı seçerek dairesel bir alana geçebilirsiniz.
   
   ![Circle Scan](../../assets/plan/structure_scan_v2/circle_scan.jpg).
   
-  - From the popup menu you can switch back to a polygon footprint and change the radius and/or position of the scan.
-  - Drag the central vertix to position the centre of the circle. 
+  - Açılır menüden çokgen alana geri dönebilir ve taramanın yarıçapını ve/veya konumunu değiştirebilirsiniz.
+  - Çemberin merkezini konumlandırmak için merkezdeki daireyi sürükleyin. 
 
-4. The rest of the configuration is handled using the *Structure Scan* editor on the right hand side of the view. First select whether you want to perform a manual scan, a scan using a particular camera, or a scan using a custom camera definition.
+4. Geri kalan düzenlemeler, ekranın sağındaki *Structure Scan* editörü kullanılarak halledilir. İlk olarak manuel tarama, belirli bir kamera kullanarak tarama veya özel bir kamera tanımı kullanarak tarama seçeneklerinden hangisini istediğinizi seçin.
   
   > **Note** The main difference between the modes is that predefined cameras are already set up to correctly calculate an effective layer height and trigger distance.
   
