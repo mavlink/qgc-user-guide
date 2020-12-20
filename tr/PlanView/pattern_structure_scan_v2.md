@@ -70,15 +70,15 @@ Kalan ayarlar *camera mode*'a bağlıdır:
 - *Manuel Mod* şunları ayarlamanıza olanak verir: 
   - **Layer height:** Her katmanın yüksekliğini.
   - **Trigger Distance:** Her kamera çekimi arasındaki mesafe. Kamera sadece katman yolunda uçarken çekim yapar. Bir katmandan diğerine geçerken görüntü çekmez.
-  - **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
+  - **Gimbal Pitch** -Tarama için kullanmak istediğiniz gimbal eğimi.
 
-- *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution. It also ensures that the camera is always pointed directly at the right angles to the surface which it is capturing images. The settings are:
+- *Bilinen/önceden tanımlanmış kameralar* görüntü örtüşmesi için gerekli katman yüksekliklerini ve görüntü çekim aralıklarını otomatik olarak hesaplar ve tarama mesafesini değiştirmenize ve görüntü çözünürlüğü ayarlamanıza olanak tanır. Aynı zamanda kameranın her zaman görüntülerin alındığı yüzeye doğru açılarla tutulması doğrudan tutulmasını sağlar. Ayarlar şunlardır:
   
-  - **Camera Orientation:** Portrait or Landscape
-  - *Overlap*: 
-    - **Front Lap:** Image overlap from top to bottom (increasing shrinks layer height and increases layer count).
-    - **Side Lap:** Image overlap at sides (increasing takes more images in each lap/layer scan).
-  - **Scan distance:** Distance from the structure of the flight path.
-  - **Ground Res:** Required image resolution/sample quality of surface.
+  - **Camera Orientation:** Dikey veya Yatay
+  - *Örtüşme*: 
+    - **Front Lap:** Görüntünün yukardan aşağıya örtüşmesi. (arttırılırsa katman boyu küçülür katman sayısı artar).
+    - **Side Lap:** Görüntü kenarlarda örtüşür. (arttırılırsa, her turda/katman taramasında daha fazla görüntü çeker).
+  - **Scan distance:**Uçuş yolunun yapıya olan mesafesi.
+  - **Ground Res:** Yüzey için gerekli görüntü çözünürlüğü/numune kalitesi.
 
 - *Custom camera* selection allows you to enter your own camera characteristics, but otherwise behaves the same as a predefined camera.
