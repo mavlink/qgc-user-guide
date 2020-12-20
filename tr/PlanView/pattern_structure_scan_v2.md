@@ -48,28 +48,28 @@ Tarama oluşturmak için:
 
 4. Geri kalan düzenlemeler, ekranın sağındaki *Structure Scan* editörü kullanılarak halledilir. İlk olarak manuel tarama, belirli bir kamera kullanarak tarama veya özel bir kamera tanımı kullanarak tarama seçeneklerinden hangisini istediğinizi seçin.
   
-  > **Note** The main difference between the modes is that predefined cameras are already set up to correctly calculate an effective layer height and trigger distance.
+  > **Note** Modlar arasındaki temel fark, önceden tanımlanmış kameraların etkili bir katman yüksekliğini ve deklanşör mesafesini doğru bir şekilde hesaplamak için zaten ayarlanmış olmasıdır.
   
-  Options for the different modes are shown below.
+  Farklı modlar için seçenekler aşağıda gösterilmiştir.
   
   ![Structure Scan editor](../../assets/plan/structure_scan_v2/editor_options.jpg)
 
-The user can always configure the following settings:
+Kullanıcı her zaman aşağıdaki ayarları yapılandırabilir:
 
-- **Start scan from top/bottom:** The direction in which layers are scanned.
-- **Structure height:** The height of the object being scanned.
-- **Scan distance:** Distance from the structure of the flight path.
-- **Entrance/Exit Alt:** Use this setting to avoid obstacles between the last/next waypoint and the structure to be scanned. 
-  - The vehicle will fly to the *Entrance/Exit* point at this altitude and then descend to the initial layer to start the scan. 
-  - The vehicle will ascend to this altitude after completing the scan and then move to the next waypoint.
-- **Scan Bottom Alt:** Use this setting to avoid obstacles around the base of the structure. This adjust the bottom of the structure to be above the ground, and hence the altitude of the first scan (the height of the lowest layer flight path is shown in the scan statistics as *Bottom Layer Alt*.
-- **Rotate Entry Point:** Move the start/finish point to the next vertix/position on the flight path.
+- **Start scan from top/bottom:** Katmanların taranma yönü.
+- **Structure height:**Taranan nesnenin yüksekliği.
+- **Scan distance:**Uçuş yolunun yapıya olan mesafesi.
+- **Entrance/Exit Alt:** Son/sonraki hedef noktası ile taranacak yapı arasındaki engellerden kaçınmak için bu ayarı kullanın. 
+  - Araç, bu irtifada *Entrance/Exit* noktasına yükselecek ve ardından taramayı başlatmak için ilk katmana alçalacaktır. 
+  - Araç, taramayı tamamladıktan sonra bu irtifaya yükselecek ve ardından bir sonraki hedef noktaya geçecektir.
+- **Scan Bottom Alt:**Yapının tabanı etrafındaki engellerden kaçınmak için bu ayarı kullanın. Bu ayar, yapının altını yerden yukarıda olacak şekilde ayarlar ve bu nedenle ilk tarama uçuşu yolunun yüksekliği (en alt katmanın yüksekliği) tarama istatistiklerinde *Bottom Layer Alt* olarak gösterilir.
+- **Rotate Entry Point:** Başlangıç/bitiş noktasını uçuş yolundaki bir sonraki köşeye/konuma taşıyın.
 
-The remaining settings depend on the *camera mode*:
+Kalan ayarlar *camera mode*'a bağlıdır:
 
-- *Manual Mode* allows you to specify: 
-  - **Layer height:** The height of each layer.
-  - **Trigger Distance:** The distance between each camera trigger. The camera is only triggered while flying the layer path. It does not trigger images while transitioning from one layer to the next.
+- *Manuel Mod* şunları ayarlamanıza olanak verir: 
+  - **Layer height:** Her katmanın yüksekliğini.
+  - **Trigger Distance:** Her kamera çekimi arasındaki mesafe. Kamera sadece katman yolunda uçarken çekim yapar. Bir katmandan diğerine geçerken görüntü çekmez.
   - **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
 
 - *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution. It also ensures that the camera is always pointed directly at the right angles to the surface which it is capturing images. The settings are:
