@@ -2,26 +2,26 @@
 
 Koridor taraması, çoklu çizgileri takip eden bir uçuş şablonu oluşturmanıza olanak verir. Bu, mesela, bir yolu gözlemlemek için kullanılır. Tüm otopilot ve araç tiplerince desteklenir.
 
-> **Important** Kamera özelliklerini kullanan bir Koridor Taraması planlarken, araştırma alanınızın zemin yüksekliklerinin kalkış/ev konumunuzla aynı yükseklikte olduğu varsayılır. Eğer araştırma alanınızın zemin yüksekliği fırlatma/ev konumunuzdan daha yüksek veya daha alçaksa, görüntülerinizdeki etkili örtüşme hesaplanandan daha az veya daha fazla (sırasıyla) olacaktır. Araştırma alanınızın zemin yüksekliği fırlatma/ev konumunuzdan önemli ölçüde daha yüksekse, aracın yanlışlıkla ağaçlara, engellere veya zemine çarpmasına neden olacak bir görev planlayabilirsiniz. Use Terrain Follow to create a survey that more closely maintains the desired altitude above terrain that has significant elevation differences from your launch/home altitude.
+> **Important** Kamera özelliklerini kullanan bir Koridor Taraması planlarken, araştırma alanınızın zemin yüksekliklerinin kalkış/ev konumunuzla aynı yükseklikte olduğu varsayılır. Eğer araştırma alanınızın zemin yüksekliği fırlatma/ev konumunuzdan daha yüksek veya daha alçaksa, görüntülerinizdeki etkili örtüşme hesaplanandan daha az veya daha fazla (sırasıyla) olacaktır. Araştırma alanınızın zemin yüksekliği fırlatma/ev konumunuzdan önemli ölçüde daha yüksekse, aracın yanlışlıkla ağaçlara, engellere veya zemine çarpmasına neden olacak bir görev planlayabilirsiniz. Kalkış/ev rakımınızdan önemli yükseklik farklılıkları olan arazi üzerinde istenen yükseklik farkını daha yakından koruyan bir tarama oluşturmak için Terrain Follow'u kullanın.
 
 ![Corridor Scan](../../assets/plan/corridor_scan.jpg)
 
-You can specify the path, the width of the corridor, and camera settings appropriate for creating geotagged images.
+Coğrafi etiketli görüntüler oluşturmak için uygun yolu, koridor genişliğini ve kamera ayarlarını özelleştirebilirsinz.
 
-## Creating a Scan
+## Tarama Oluşturma
 
-To create a corridor scan:
+Bir koridor taraması oluşturmak için:
 
-1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
-2. Choose the *Pattern Tool* from the *Plan Tools* and then select *Corridor Scan*.
+1. [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
+2. *Plan Tools* 'dan *Pattern Tool*'u seçin ve *Corridor Scan*'a tıklayın.
   
   ![Corridor Scan](../../assets/plan/corridor_scan_menu.jpg)
   
-  This will add a corridor to the map, and a *Corridor Scan* item to the mission list (on the right).
+  Bu haritaya bir koridor ve görev listesine (sağda) bir *Corridor Scan* öğesi ekleyecektir.
 
-3. On the map drag the ends of the corridor to the start and end positions of the scan, respectively.
+3. Koridorun uçlarını, sırasıyla taramanın başlangıç ve bitiş noktalarına sürükleyin.
 
-4. Click the `(+)` symbol at the centre of a line to create a new vertix. The new vertix can then be dragged into position to follow the path of the desired corridor.
+4. Yeni bir köşe noktası oluşturmak için hattın ortasındaki `(+)` semboüne tıklayın. The new vertix can then be dragged into position to follow the path of the desired corridor.
 
 The corridor scan settings are covered in the next section.
 
