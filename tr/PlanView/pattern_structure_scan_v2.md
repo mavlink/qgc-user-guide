@@ -1,22 +1,22 @@
 # Yapı Taraması (Plan Şablonu)
 
-A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint. Structure Scans are typically used for the visual inspection or creating 3d models of structures.
+*Structure Scan*, çok köşeli (veya dairesel) zemin ayak izine sahip bir yapının *dikey yüzeyleri* üzerinde (ör. duvarlar) görüntüler yakalayabilmek için ızgara şeklinde bir uçuş şablonu oluşturmanıza olanak sağlar. Yapı Taraması genellikle görsel inceleme ya da yapıların 3 boyutlu modellemesi için kullanılır.
 
-*Structure Scans* may be inserted into a mission using the Plan view **Pattern > Structure Scan** tool.
+*Yapı Taramaları*, Plan ekranında **Pattern > Structure Scan** aracı kullanılarak bir görevin içine yerleştirilebilir.
 
-> **Note** The new version of *Structure Scan* can't read older *Structure Scan* plans. They will need to be recreated.
+> **Note** *Structure Scan*'ın yeni versiyonu, eski *Structure Scan* planlarını okuyamaz. Eskilerin tekar oluşturulmaları gerekir.
 
 <span></span>
 
-> **Warning** This feature is not yet supported by ArduPilot firmware. It is supported in PX4.
+> **Warning** Bu özellik henüz ArduPilot yazılımı tarafından desteklenmemektedir. PX4'de desteklenir.
 
-## Overview
+## Genel Bakış
 
-The image below shows a screenshot of structure scan. The green polygon is used to mark out the ground footprint of the structure, while the white line around it indicates the vehicle flight path. The green numbered circle on the flight path is the scan entry/exit point (where the scan starts).
+Aşağıdaki resim, yapı taramasının bir ekran görüntüsünü göstermektedir. Yeşil çokgen, yapının zemin ayak izini işaretlemek için kullanılırken, etrafındaki beyaz çizgi aracın uçuş yolunu gösterir. Uçuş yolundaki yeşil numaralı daire, taramaya giriş/çıkış noktasıdır (taramanın başladığı yer).
 
 ![Structure Scan](../../assets/plan/structure_scan_v2/StructureScan.jpg)
 
-The scan divides the structure evenly into layers; the vehicle flies all the way around the structure at a particular altitude and *scan distance* from the structure, then repeats the process at each layer until the whole surface has been scanned.
+Tarama, yapıyı eşit olarak katmanlara ayırır; araç, yapının çevresinde belirli bir irtifada ve yapıya * scan distance*'den uçar, ardından tüm yüzey taranana kadar işlemi her katmanda tekrarlar.
 
 ![Layer JPG](../../assets/plan/structure_scan_v2/layers.jpg)
 
