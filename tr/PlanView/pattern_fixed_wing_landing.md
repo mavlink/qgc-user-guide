@@ -1,16 +1,16 @@
-# Fixed Wing Landing Pattern (Plan Pattern)
+# Sabit Kanat İniş Yolu (Plan Şablonu)
 
-The *Fixed Wing Landing Pattern* tool allows you to add a fixed wing landing pattern to a mission. It is supported on both ArduPilot and PX4.
+*Fixed Wing Landing Pattern* aracı, göreve sabit kanat iniş yolu eklemenize olanak tanır. Hem ArduPilot hem de PX4'de desteklenir.
 
 ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
-The first point of the pattern is a loiter point with a specific altitude and the second is a landing point. The vehicle will loiter at the first point until it reaches the target altitude, and then begin the landing sequence to fly down to the specified landing spot.
+Yolun ilk noktası, belirli bir yükseklikte oyalanacağı yer; ikincisi de iniş noktasıdır. Araç, ilk noktada hedeflenen yüksekliğe erişene kadar oyalanacaktır, ardından iniş için belirlenen iniş noktasına doğru alçalmaya başlayacaktır.
 
-Both the loiter and land points can be dragged to new positions, and a number of other settings can be configured in the associated mission item.
+Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir ve ilişkili görev öğesinden bir takım başka ayarlar yapılabilir.
 
-## Creating a Landing Pattern
+## İniş Yolu Oluşturma
 
-To create a landing pattern:
+İniş yolu oluşturmak için:
 
 1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*).
 2. Choose the *Pattern Tool* from the *Plan Tools* and then select *Fixed Wing Landing Pattern*.
