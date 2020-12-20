@@ -20,23 +20,23 @@ Tarama, yapıyı eşit olarak katmanlara ayırır; araç, yapının çevresinde 
 
 ![Layer JPG](../../assets/plan/structure_scan_v2/layers.jpg)
 
-Users can set the *scan bottom altitude* to avoid obstacles at the bottom of the structure, and the *extrance/exit altitude* to avoid obstacles as the vehicle travels to/from the scan.
+Kullanıcılar, yapının altındaki engellerden kaçınmak için *scan bottom altitude* ve araç taramaya / taramaya giderken engellerden kaçınmak için *entrance/exit altitude* ayarlayabilir.
 
-## Creating a Scan
+## Tarama Oluşturma
 
-To create a scan:
+Tarama oluşturmak için:
 
-1. In the **Plan View** select **Pattern tool > Structure Scan**.
+1. **Plan View**'den **Pattern tool > Structure Scan**'ı seçin.
   
   ![Create Scan JPG](../../assets/plan/structure_scan_v2/create_scan.jpg)
 
-2. This will create a simple square structure scan on the map.
+2. Bu haritada basit kare bir yapı taraması oluşturacaktır.
   
   ![Initial Polygon](../../assets/plan/structure_scan_v2/initial_polygon_scan.jpg)
   
-  The region shown in green must be modified so that it surrounds the structure.
+  Yeşil bölge, yapıyı kaplayacak şekilde düzenlenmelidir.
   
-  - Drag the opaque vertices on the map to the edge of the structure (example circled in mauve above). 
+  - Haritadaki opak köşeleri yapının kenarlarına sürükleyin (yukarıda leylak rengi daire içine alınmış köşeler). 
   - If the structure footprint is more than a simple square you can click the semi-transparent circles between the vertices to create a new vertix.
 
 3. You can also change to a circular footprint by clicking on the central "vertix" (marked in red) and selecting *Circle* in the popup menu.
