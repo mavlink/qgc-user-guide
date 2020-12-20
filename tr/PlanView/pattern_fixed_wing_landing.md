@@ -43,11 +43,11 @@ Ayarlanabilir seçenekler şunlardır:
 
 ### İniş noktası
 
-The *Landing Point* settings are used to configure the landing position and path.
+*Landing Point* ayarları, iniş pozisyonunu ve yolunu ayarlamak için kullanılır.
 
 ![Landing Pattern - Landing Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_landing.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
 - **Heading** - Heading from loiter point to land point.
 - **Altitude** - Altitude for landing point (nominally zero).
