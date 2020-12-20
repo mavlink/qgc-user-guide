@@ -4,17 +4,17 @@
 
 * Uçuş Verilerini Yeniden Oynat * özelliği, kullanıcıların bir telemetri günlüğünü yeniden oynatmasına olanak vererek geçmiş veya sorunlu uçuşların incelenmesine olanak tanır. Uçuş başlatılabilir, duraklatılabilir, durdurulabilir, yeniden başlatılabilir vb.
 
-> **Note** *QGroundControl* uçuş tekrarını aktif bir bağlantı gibi görür. When you pause/stop playing, the ground station will report "Communication Lost" and wait for disconnection or for more messages.
+> **Note** *QGroundControl* uçuş tekrarını aktif bir bağlantı gibi görür. Oynatmayı duraklattığınızda / durdurduğunuzda, yer istasyonu "İletişim Kaybı" olarak rapor edecek ve bağlantının kesilmesini veya daha fazla komut bekleyecektir.
 
-To replay a flight:
-1. Disconnect any active connections.
-1. Select **Application Settings > General > Fly View**
-1. Check **Show Telemetry Log Replay Status Bar** to toggle the flight replay bar at the bottom of the screen.
+Bir uçuşu tekrar etmek için:
+1. Tüm aktif bağlantıları kesin.
+1. **Application Settings > General > Fly View**'i seçin
+1. Ekranın altında uçuşu tekrar oynat butonunu görebilmek için **Show Telemetry Log Replay Status Bar**'ı işaretleyin.
 
    ![Toggle Flight Replay](../../assets/fly/flight_replay/flight_replay_toggle.jpg)
-1. Select the **Load Telemetry Log** button in the bar to display a *file selection* dialog.
-   - Choose a log file to replay from the available telemetry logs.
-   - *QGroundControl* will immediately start playing the log.
+1. *file selection* seçeneğine erişmek için **Load Telemetry Log**'a tıklayın.
+   - Tekrar oynatılması için uygun telemetri kayıtlarından bir kayıt dosyası seçin.
+   - * QGroundControl *, kayıtı hemen oynatmaya başlar.
 1. When a log is loaded you can use the:
    - **Pause/Play** button to pause and restart playing.
    - *Slider* to drag to a new position in the log.
