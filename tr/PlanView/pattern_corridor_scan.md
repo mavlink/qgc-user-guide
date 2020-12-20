@@ -25,13 +25,13 @@ Bir koridor taraması oluşturmak için:
 
 Koridor taraması ayarları bir sonraki bölümde ele alınmıştır.
 
-## Settings
+## Ayarlar
 
-The corridor scan can be further configured in the associated mission item (in the mission item list on the right hand side of the Plan View).
+Koridor taraması, ilişkili görev öğesinde (Plan Görünümü'nün sağ tarafındaki görev öğesi listesinde) daha da yapılandırılabilir.
 
-### Camera
+### Kamera
 
-Camera triggering behaviour depends on the camera/camera settings. You can select an existing camera or manually enter the settings. The list of available cameras (QGC 3.4) is given below.
+Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. You can select an existing camera or manually enter the settings. The list of available cameras (QGC 3.4) is given below.
 
 ![Corridor Scan - Select Camera](../../assets/plan/corridor_scan_settings_camera_select.jpg)
 
