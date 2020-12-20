@@ -31,34 +31,34 @@ Koridor taraması, ilişkili görev öğesinde (Plan Görünümü'nün sağ tara
 
 ### Kamera
 
-Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. You can select an existing camera or manually enter the settings. The list of available cameras (QGC 3.4) is given below.
+Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. Var olan bir kamerayı seçebilir ya da ayarları manuel olarak girebilirsiniz. Mevcut kameraların listesi (QGC 3.4) aşağıda verilmiştir.
 
 ![Corridor Scan - Select Camera](../../assets/plan/corridor_scan_settings_camera_select.jpg)
 
-#### Known Camera
+#### Bilinen Kamera
 
-Selecting a known camera from the option dropdown allows you to generate a grid pattern based on the camera's specifications.
+Seçenekler açılır listesinden bilinen bir kamerayı seçmek, kameranın özelliklerine göre bir ızgara deseni oluşturmanıza olanak sağlar.
 
 ![Corridor Scan - Camera Settings Canon SX260](../../assets/plan/corridor_scan_settings_camera_canon_sx260.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Landscape/Portrait** - Camera orientation relative to the "normal" orientation of the vehicle.
-- **Image Overlap** - Overlap between each image.
-- Select one of: 
-  - **Altitude** - Survey altitude (ground resolution will be calculated/displayed for this altitude).
-  - **Ground resolution** - Ground resolution for each image (altitude required to achieve this resolution calculated and shown).
+- **Landscape/Portrait** - Aracın "normal" yönüne göre kamera yönü.
+- **Image Overlap** - Her görüntü arasında örtüşme.
+- Birini Seç: 
+  - **Altitude** - Tarama yüksekliği (bu yükseklik için zemin çözünürlüğü hesaplanacak/görüntülenecektir).
+  - **Ground resolution** - Her görüntü için zemin çözünürlüğü (bu çözünürlüğü sağlamak için gerekli yükseklik hesaplanacak/görüntülenecektir).
 
-#### Manual Camera
+#### Manuel Kamera
 
-The manual camera option allows you to specify desired survey height, trigger interval and appropriate grid spacing for your camera.
+Manuel kamera seçeneği, kameranız için istenen tarama yüksekliğini, deklanşör aralığını ve uygun ızgara aralığını belirlemenize olanak tanır.
 
 ![Corridor Scan - Manual Camera Settings](../../assets/plan/corridor_scan_settings_camera_manual.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Altitude** - Survey altitude.
-- **Trigger Distance** - The distance over ground between each camera shot.
+- **Altitude** - Tarama yüksekliği.
+- **Trigger Distance** - Her bir kamera çekimi arasındaki zemin üzerinde alınan mesafe.
 - **Spacing** - Distance between adjacent grid (flight path) lines across the corridor.
 
 ### Corridor
