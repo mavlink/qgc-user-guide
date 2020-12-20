@@ -25,23 +25,23 @@ Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir 
 
 Ek ayarlar bir sonraki bölümde ele alınmıştır.
 
-## Settings
+## Ayarlar
 
-The landing pattern can be further configured in the associated mission item (in the mission item list on the right hand side of the Plan View).
+İniş yolu, ilişkili görev öğesinde (Plan Görünümü'nün sağ tarafındaki görev öğesi listesinde) daha da yapılandırılabilir.
 
-### Loiter Point
+### Oyalanma Noktası
 
-The *Loiter Point* settings are used to configure the loiter altitude, radius and direction.
+*Loiter Point* ayarları, oyalanmanın yüksekliğini, yarı çapını ve yönünü ayarlamak için kullanılır.
 
 ![Landing Pattern - Loiter Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_loiter.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Altitude** - Loiter altitude.
-- **Radius** - Loiter radius.
-- **Loiter clockwise** - Check to loiter in a clockwise direction (anti-clockwise is the default). 
+- **Altitude** - Oyalanma yüksekliği.
+- **Radius** - Oyalanma yarıçapı.
+- **Loiter clockwise** - Oyalanmanın yönünün saat yönü olması için işaretleyin (varsayılan olarak yön, saat yönünün tersidir). 
 
-### Landing Point
+### İniş noktası
 
 The *Landing Point* settings are used to configure the landing position and path.
 
