@@ -15,10 +15,10 @@ Bir uçuşu tekrar etmek için:
 1. *file selection* seçeneğine erişmek için **Load Telemetry Log**'a tıklayın.
    - Tekrar oynatılması için uygun telemetri kayıtlarından bir kayıt dosyası seçin.
    - * QGroundControl *, kayıtı hemen oynatmaya başlar.
-1. When a log is loaded you can use the:
-   - **Pause/Play** button to pause and restart playing.
-   - *Slider* to drag to a new position in the log.
-   - *Rate* selector to choose how quickly the log is run.
-1. To stop relay (i.e. to load a new file to replay), first pause the flight, and then select **Disconnect** (when it appears). After disconnecting the **Load Telemetry Log** button will be displayed.
+1. Bir kayıt yüklendiğinde şunları kullanabilirsiniz:
+   - Oynatmayı durdurmak ve yeniden başlatmak için **Pause/Play** butonuna basın.
+   - Kayıtta yeni bir konuma ilerlemek için *Slider*.
+   - Kaydın ne kadar hızlı oynatılacağını ayarlamak için *Rate*.
+1. Oynatımı durdurmak (stop) için (ör. oynatılması için yeni bir dosya yüklemek için), ilk olarak uçuşu duraklatın (pause) ve ardından **Disconnect**'i seçin (ortaya çıktığında). Bağlantıyı kestikten sonra **Load Telemetry Log** butonu ortaya çıkacaktır.
 
 > **Tip** You can inspect the running replay in more detail using the [MAVLink Inspector](../analyze_view/mavlink_inspector.md).
