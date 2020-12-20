@@ -12,18 +12,18 @@ Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir 
 
 İniş yolu oluşturmak için:
 
-1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*).
-2. Choose the *Pattern Tool* from the *Plan Tools* and then select *Fixed Wing Landing Pattern*.
+1. Open [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
+2. *Plan Tools* 'dan *Plan Tools*'u açın ve *Fixed Wing Landing Pattern*'i seçin.
   
   ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
   
-  This will add a *Landing Pattern* item to the mission list (on the right).
+  Bu, görev listesine (sağda) *Landing Pattern* öğesi ekleyecektir.
   
   ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
 
-3. Click on the map to create both the loiter and landing points. These can be moved on the map.
+3. Oyalanma ve iniş noktalarını ayarlamak için haritaya tıklayın. Bu noktalar harita üzerinde hareket ettirilebilir.
 
-Additional settings are covered in the next section.
+Ek ayarlar bir sonraki bölümde ele alınmıştır.
 
 ## Settings
 
