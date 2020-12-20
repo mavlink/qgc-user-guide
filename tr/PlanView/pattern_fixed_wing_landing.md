@@ -49,10 +49,10 @@ Ayarlanabilir seçenekler şunlardır:
 
 Ayarlanabilir seçenekler şunlardır:
 
-- **Heading** - Heading from loiter point to land point.
-- **Altitude** - Altitude for landing point (nominally zero).
-- *Radio Buttons* 
-  - **Landing Dist** - Distance between loiter and landing points.
+- **Heading** - Oyalanma noktasından iniş noktasına yönelme.
+- **Altitude** - İniş noktası için yükseklik (nominal olarak sıfır).
+- *Radyo Butonları* 
+  - **Landing Dist** - Oyalanma ve iniş noktaları arası mesafe.
   - **Glide Slope** - Glide slope between loiter and landing points.
 - **Altitudes relative to home** - Check to set all altitudes in mission item to be relative to home (default is AMSL).
 
