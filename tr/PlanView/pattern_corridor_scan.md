@@ -59,32 +59,32 @@ Ayarlanabilir seçenekler şunlardır:
 
 - **Altitude** - Tarama yüksekliği.
 - **Trigger Distance** - Her bir kamera çekimi arasındaki zemin üzerinde alınan mesafe.
-- **Spacing** - Distance between adjacent grid (flight path) lines across the corridor.
+- **Spacing** - Koridor boyunca bitişik ızgara (uçuş yolu) çizgileri arasındaki mesafe.
 
-### Corridor
+### Koridor
 
 ![Corridor Scan - Corridor Settings](../../assets/plan/corridor_scan_settings_corridor.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Width** - Set the width of the scan around the polyline that defines the path.
-- **Turnaround dist** - Amount of additional distance to add outside the survey area for vehicle turn around.
-- **Take images in turnarounds** - Check to enable image capture a turnaround points.
-- **Relative altitude** - Check to specify a relative altitude. This is only supported for manual grids that are not using [terrain following](#terrain_following).
-- **Rotate entry point** - Press button to swap the start and end point of the corridor scan.
+- **Width** - Taramada, yolu tanımlayan çoklu çizgilerin etrafındaki genişliğini ayarlayın.
+- **Turnaround dist** - Aracın geri dönmesi için tarama alanının dışına eklenecek olan mesafe miktarı.
+- **Take images in turnarounds** Geri dönüş noktalarında da görüntü yakalanması için işaretleyin.
+- **Relative altitude** - Bağlı bir yüksekik belirtmek için işaretleyin. Bu özellik sadece [terrain following](#terrain_following) kullanmayan manuel ayarlanmış ızgaralarda desteklenir.
+- **Rotate entry point** - Koridor taramasının başlangıç ve bitiş noktasını birbirleriyle değiştirmek için butona basın.
 
-### Terrain Following {#terrain_following}
+### Arazi Takibi {#terrain_following}
 
-By default a flying vehicle will follow the corridor path at a fixed altitude. Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
+Varsayılan olarak, uçan bir araç sabit bir yükseklikte koridor yolunu takip edecektir. *Terrain Following*'i aktif hale getirmek, aracın yere göre sabit bir yükseklikte devam etmesini sağlar.
 
 ![Corridor Scan - Terrain Following Settings](../../assets/plan/corridor_scan_settings_terrain.jpg)
 
-> **Note** Terrain following uses terrain heights queried from *AirMap* servers.
+> **Note** Arazi takibi, *AirMap* serverlarından sağlanan arazi yüksekliklerini kullanır.
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Vehicle follows terrain** - Check to enable terrain following (and display the following options). 
-  - **Tolerance** - The accepted deviation in altitude from the target altitude.
+- **Araç araziyi takip eder** - Arazi takibini etkinleştirmek için işaretleyin (ve aşağıdaki seçenekleri görüntüleyin). 
+  - **Tolerance** - Hedeflenen yükseklikten kabul edilen sapma miktarı.
   - **Max Climb Rate** - Maximum climb rate when following terrain.
   - **Max Descent Rate** - Maximum descent rate when following terrain.
 
