@@ -1,6 +1,6 @@
-# Survey (Plan Pattern)
+# Gözlem (Plan Şablonu)
 
-A survey allows you to create a grid flight pattern over a polygonal area. You can specify an arbitrary polygon, the angle and other properties of the grid, and camera settings appropriate for creating geotagged images.
+Gözlem modu, poligonal bir alan üzerinde bir ızgara uçuş modeli oluşturmanıza olanak sağlar. İstediğiniz şekli, ızgaranın açısını ve diğer özelliklerini ve coğrafi etiketli görüntüler oluşturmak için uygun kamera ayarlarını belirtebilirsiniz.
 
 > **Important** If the survey area has significant elevation variation then consider enabling [Terrain Following](#terrain).
 > 
