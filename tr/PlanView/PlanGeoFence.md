@@ -24,15 +24,15 @@ Coğrafi Sınır Oluşturmak için:
     ![Circular Geofence](../../assets/plan/geofence/geofence_circular.jpg)
     
     - Merkezi noktayı kaydırarak bölgeyi haritada hareket ettirin
-    - Resize the circle by dragging the map dot on the edge of the circle (or you can change the radius value in the fence panel).
+    - Dairenin sınırındaki noktayı sürükleyerek boyutunu ayarlayın (veya sınırlar panelindeki yarıçapı değiştirebilirsiniz).
 
-- Polygon region:
+- Çokgen Bölge:
     
     ![Polygon Geofence](../../assets/plan/geofence/geofence_polygon.jpg)
     
-    - Move the vertices by dragging the filled dots
-    - Create new vertices by clicking the "unfilled" dots on the lines between the filled vertices. 
-        1. By default new regions are created as *inclusion* zones (vehicles must stay within the region). Change them to exclusion zones (where the vehicle can't travel) by unchecking the associated *Inclusion* checkbox in the fence panel.
+    - İçi dolu noktaları sürükleyerek köşeleri hareket ettirin
+    - İçi dolu noktaların arasındaki içi boş noktalara basarak yeni köşeler oluşturun. 
+        1. Varsayılan olarak, *inclusion* bölgeleri olarak yeni bölgeler oluşturulur (araçlar bölge içinde kalmalıdır). Change them to exclusion zones (where the vehicle can't travel) by unchecking the associated *Inclusion* checkbox in the fence panel.
 
 ## Edit/Delete a GeoFence
 
