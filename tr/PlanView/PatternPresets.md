@@ -1,14 +1,14 @@
-# Plan View - Pattern Presets
+# Plan Ekranı - Mod Ön Ayarları
 
-Allows you to save commonly used settings as a named preset.
+Yaygın olarak kullanılan ayarları adlandırılmış bir ön ayar olarak kaydetmenize olanak sağlar.
 
-> **Note** Currently only supported by Survey. Support for other Patterns is in development.
+> **Note** Şuan için sadece Gözlem modu tarafından desteklenmektedir. Diğer modların desteği için geliştirme devam etmektedir.
 
-## Managing Presets
+## Ön Ayarları Yönetme
 
 ![Preset Combo](../../assets/plan/pattern/PatternPresetCombo.jpg)
 
-Pattern items have a new selection at the top which allows you to manage presets:
+Mod öğelerinin üst kısmında ön ayarları yönetmenize izin veren bir seçenek vardır:
 
 * **Custom (specify all settings)** This allows you to *not* use a preset and specify all settings manually.
 * **Save Settings As Preset** Saves the current settings as a named preset.
