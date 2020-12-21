@@ -6,7 +6,7 @@ Yaygın olarak kullanılan ayarları adlandırılmış bir ön ayar olarak kayde
 
 ## Ön Ayarları Yönetme
 
-![Preset Combo](../../assets/plan/pattern/PatternPresetCombo.jpg)
+![Ön Ayar Kombosu](../../assets/plan/pattern/PatternPresetCombo.jpg)
 
 Mod öğelerinin üst kısmında ön ayarları yönetmenize izin veren bir seçenek vardır:
 
@@ -17,7 +17,7 @@ Mod öğelerinin üst kısmında ön ayarları yönetmenize izin veren bir seçe
 
 ## Ön Ayar Oluşturma/Güncelleme
 
-![Preset Save](../../assets/plan/pattern/PatternPresetSave.jpg)
+![Ön Ayarı Kaydet](../../assets/plan/pattern/PatternPresetSave.jpg)
 
 **Save Settings As Preset**'i seçtiğinizde sizden ön ayar için isim istenecektir. Varolan bir ön ayara yeni ayarlar kaydetmek için ön ayar seçiliyken **Save Settings As Preset**'i seçin.
 
@@ -25,8 +25,8 @@ Ayrıca o anda seçili olan kamerayı da ön ayara kaydetmek isteyip istemediği
 
 ## Ön Ayar Ayarlarını Görüntüleme
 
-If you want to view what the exact settings are for a Preset switch back to **Custom (specify all settings)** which will show you all the settings. Then you can switch back to using the named preset when done.
+Bir ön ayarın ayarlarının neler olduğunu görmek istiyorsanız **Custom (specify all settings)** seçeneğini seçin, tüm ayarları size gösterecektir. İşiniz bittiğinde adlandırılmış ön ayarı kullanmaya geri dönebilirsiniz.
 
-## Presets In A Plan File
+## Plan Dosyasında Ön Ayarlar
 
-The currently selected Preset is also saved in the Plan file such that when you load the Plan back the preset will once again be selected. Keep in mind that presets are specific to your version of QGroundControl. If you share a Plan file with a preset with another user incorrect behavior may occur if that other user also have a preset of the same name but different settings.
+Halihazırda seçili olan Ön Ayar Plan dosyasına da kaydedilir, böylece Planı geri yüklediğinizde ön ayar tekrar seçilebilecektir. Ön ayarların kullandığınız QGroundControl sürümüne özel olduğunu unutmayınız. Bir Plan dosyasını bir ön ayar ile başka bir kullanıcıyla paylaşırsanız, diğer kullanıcının da aynı adı taşıyan ancak farklı ayarlara sahip bir ön ayarı varsa, hatalı olaylar gerçekleşebilir.
