@@ -27,7 +27,7 @@ Bir gözlem görevi oluşturmak için:
 
 Gözlem modu ayarları bir sonraki bölümde ele alınmıştır.
 
-## Settings
+## Ayarlar
 
 The survey can be further configured in the associated mission item (in the mission item list on the right hand side of the *Plan View*).
 
