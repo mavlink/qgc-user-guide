@@ -21,9 +21,9 @@ Mod öğelerinin üst kısmında ön ayarları yönetmenize izin veren bir seçe
 
 **Save Settings As Preset**'i seçtiğinizde sizden ön ayar için isim istenecektir. Varolan bir ön ayara yeni ayarlar kaydetmek için ön ayar seçiliyken **Save Settings As Preset**'i seçin.
 
-Ayrıca o anda seçili olan kamerayı da ön ayara kaydetmek isteyip istemediğinizi de belirtebilirsiniz. Kamerayı ön ayar ile kaydetmemeyi seçerseniz, ön ayar yüklenirken mevcut kamera kullanılacaktır. Ayrıca ön ayarı kullanırken farklı bir kameraya da geçebilirsiniz. Unless you fly your vehicle with different cameras at different times with the same preset you should select to save the camera in the preset.
+Ayrıca o anda seçili olan kamerayı da ön ayara kaydetmek isteyip istemediğinizi de belirtebilirsiniz. Kamerayı ön ayar ile kaydetmemeyi seçerseniz, ön ayar yüklenirken mevcut kamera kullanılacaktır. Ayrıca ön ayarı kullanırken farklı bir kameraya da geçebilirsiniz. Aracınızı aynı ön ayarla farklı zamanlarda farklı kameralarla uçurmadığınız sürece, kamerayı ön ayara kaydetmeyi seçmelisiniz.
 
-## Viewing Preset Settings
+## Ön Ayar Ayarlarını Görüntüleme
 
 If you want to view what the exact settings are for a Preset switch back to **Custom (specify all settings)** which will show you all the settings. Then you can switch back to using the named preset when done.
 
