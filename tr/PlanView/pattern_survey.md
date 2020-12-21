@@ -29,24 +29,24 @@ Gözlem modu ayarları bir sonraki bölümde ele alınmıştır.
 
 ## Ayarlar
 
-The survey can be further configured in the associated mission item (in the mission item list on the right hand side of the *Plan View*).
+Gözlem görevi, ilişkili görev öğesinde (*Plan View*'in sağ tarafındaki görev öğesi listesinde) daha da yapılandırılabilir.
 
-### Camera
+### Kamera
 
-Camera triggering behaviour depends on the camera/camera settings. You can select an existing camera, custom camera, or manually enter the settings. The list of available cameras (QGC 3.4) is given below.
+Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. Var olan veya belirli bir kamerayı seçebilir ya da ayarları manuel olarak girebilirsiniz. Mevcut kameraların listesi (QGC 3.4) aşağıda verilmiştir.
 
 ![Survey - Camera Select](../../assets/plan/survey/survey_camera_select.jpg)
 
-#### Known Camera {#known_camera}
+#### Bilinen Kamera {#known_camera}
 
-Selecting a known camera from the option dropdown generates a grid pattern based on the camera capabilities.
+Seçenekler açılır listesinden bilinen bir kamerayı seçmek, kameranın özelliklerine göre bir ızgara deseni oluşturur.
 
 ![Survey - Camera Sony](../../assets/plan/survey/survey_camera_sony.jpg)
 
-The default settings can be tuned for your survey using the configuration options:
+Varsayılan ayarlar, yapılandırma seçenekleri kullanılarak gözleminiz için ayarlanabilir:
 
-- **Landscape/Portrait** - Camera orientation relative to the "normal" orientation of the vehicle.
-- **Overlap** - Overlap between each image capture. This can be configured separately for when flying along grid lines or across them.
+- **Landscape/Portrait** - Aracın "normal" yönüne göre kamera yönü.
+- **Overlap** - Yakalanan her görüntü arasında örtüşme. This can be configured separately for when flying along grid lines or across them.
 - Select one of: 
   - **Altitude** - Survey altitude (ground resolution will be calculated/displayed for this altitude).
   - **Ground resolution** - Ground resolution for each image (altitude required to achieve this resolution calculated and shown).
