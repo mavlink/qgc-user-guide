@@ -35,13 +35,13 @@ Gözlem görevi, ilişkili görev öğesinde (*Plan View*'in sağ tarafındaki g
 
 Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. Var olan veya özel bir kamerayı seçebilir ya da ayarları manuel olarak girebilirsiniz. Mevcut kameraların listesi (QGC 3.4) aşağıda verilmiştir.
 
-![Survey - Camera Select](../../assets/plan/survey/survey_camera_select.jpg)
+![Gözlem - Kamera Seçimi](../../assets/plan/survey/survey_camera_select.jpg)
 
 #### Bilinen Kamera {#known_camera}
 
 Seçenekler açılır listesinden bilinen bir kamerayı seçmek, kameranın özelliklerine göre bir ızgara deseni oluşturur.
 
-![Survey - Camera Sony](../../assets/plan/survey/survey_camera_sony.jpg)
+![Gözlem - Sony Kamera](../../assets/plan/survey/survey_camera_sony.jpg)
 
 Varsayılan ayarlar, yapılandırma seçenekleri kullanılarak gözleminiz için ayarlanabilir:
 
@@ -55,7 +55,7 @@ Varsayılan ayarlar, yapılandırma seçenekleri kullanılarak gözleminiz için
 
 Özel kamera seçeneğinin seçilmesi, yeni bir kamera için ayarları bilinen bir kameraya benzer şekilde belirlemenize olanak tanır.
 
-![Survey - Custom Camera](../../assets/plan/survey/survey_camera_custom.jpg)
+![Gözlem - Özel Kamera](../../assets/plan/survey/survey_camera_custom.jpg)
 
 Özel kameraya özgü ayarlar şunlardır:
 
@@ -69,7 +69,7 @@ Geri kalan ayarlar [bilinen kamera](#known_camera) ile aynıdır.
 
 Manuel kamera seçeneği, kameranız için istenen tarama yüksekliğini, deklanşör aralığını ve uygun ızgara aralığını belirlemenize olanak tanır.
 
-![Survey - Manual Camera Settings](../../assets/plan/survey/survey_camera_manual.jpg)
+![Gözlem - Manuel Kamera Ayarları](../../assets/plan/survey/survey_camera_manual.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
@@ -81,15 +81,15 @@ Ayarlanabilir seçenekler şunlardır:
 
 *Transects* sekmesi kameradan bağımsız olan ızgara ayarları için kullanılır.
 
-![Survey - Transects](../../assets/plan/survey/survey_transects.jpg)
+![Gözlem - Kesitler](../../assets/plan/survey/survey_transects.jpg)
 
 Ayarlanabilir seçenekler şunlardır:
 
-- **Angle** - Kuzeye göre, ızgara çizgilerinin açısı. ![Survey - Angle](../../assets/plan/survey/survey_transects_angle.jpg)
+- **Angle** - Kuzeye göre, ızgara çizgilerinin açısı. ![Gözlem - Açı](../../assets/plan/survey/survey_transects_angle.jpg)
 - **Turnaround dist** - Aracın geri dönmesi için tarama alanının dışına eklenecek olan mesafe miktarı.
 - **Rotate entry point** - Gözlem görevinin başlangıç ve bitiş noktasını birbirleriyle değiştirmek için butona basın.
 - **Hover and capture image** - Görüntü yakalamak için havada durmak (sadece multikopterler).
-- **Refly at 90 degree offset** - Tüm görevi% 90 farkla yeniden gözden geçirmek için işaretleyin. ![Survey - Fly Offset](../../assets/plan/survey/survey_transects_offset.jpg)
+- **Refly at 90 degree offset** - Tüm görevi 90 derece açıyla yeniden uçmak için işaretleyin. ![Gözlem - Uçuş Açısı](../../assets/plan/survey/survey_transects_offset.jpg)
 - **Images in turnarounds** - Dönüşlerde fotoğraf çekilmesi için işaretleyin
 - **Relative altitude** - Check to ... TBD.
 
@@ -97,7 +97,7 @@ Ayarlanabilir seçenekler şunlardır:
 
 Varsayılan olarak, uçan bir araç sabit bir yükseklikte gözlem rotasını takip edecektir. *Terrain Following*'i aktif hale getirmek, aracın yere göre sabit bir yükseklikte devam etmesini sağlar.
 
-![Survey - Terrain Following Settings](../../assets/plan/survey/survey_terrain.jpg)
+![Gözlem - Arazi Takibi Ayarları](../../assets/plan/survey/survey_terrain.jpg)
 
 > **Note** Arazi takibi, *AirMap* serverlarından sağlanan arazi yüksekliklerini kullanır.
 
@@ -112,4 +112,4 @@ Ayarlanabilir seçenekler şunlardır:
 
 *Statistics* bölümü, hesaplanan tarama alanını, fotoğraf aralığını, fotoğraflar arası boşluğu ve planlanan fotoğraf sayısını gösterir.
 
-![Survey - Statistics](../../assets/plan/survey/survey_statistics.jpg)
+![Gözlem - İstatistikler](../../assets/plan/survey/survey_statistics.jpg)
