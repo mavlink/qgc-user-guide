@@ -63,34 +63,34 @@ Varsayılan ayarlar, yapılandırma seçenekleri kullanılarak gözleminiz için
 - **Image width/height** - Kameranın çektiği görüntünün çözünürlüğü.
 - **Focal Length** - Kamera lensinin odak uzaklığı.
 
-The remaining settings are the same as for a [known camera](#known_camera).
+Geri kalan ayarlar [bilinen kamera](#known_camera) ile aynıdır.
 
-#### Manual Camera
+#### Manuel Kamera
 
-The manual camera option allows you to specify desired survey height, trigger interval and appropriate grid spacing for your camera.
+Manuel kamera seçeneği, kameranız için istenen tarama yüksekliğini, deklanşör aralığını ve uygun ızgara aralığını belirlemenize olanak tanır.
 
 ![Survey - Manual Camera Settings](../../assets/plan/survey/survey_camera_manual.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Altitude** - Survey altitude to fly the whole grid.
-- **Trigger Distance** - The distance over ground between each camera shot.
-- **Spacing** - Distance between adjacent grid (flight path) lines across the corridor.
+- **Altitude** - Tüm rotayı uçmak için gözlem irtifası.
+- **Trigger Distance** - Her bir kamera çekimi arasındaki zemin üzerinde alınan mesafe.
+- **Spacing** - Rota boyunca bitişik ızgara (uçuş yolu) çizgileri arasındaki mesafe.
 
-### Transects
+### Kesitler
 
-The *Transects* section is used for grid settings that are independent of the camera used.
+*Transects* sekmesi kameradan bağımsız olan ızgara ayarları için kullanılır.
 
 ![Survey - Transects](../../assets/plan/survey/survey_transects.jpg)
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Angle** - The angle of the grid lines, relative to North. ![Survey - Angle](../../assets/plan/survey/survey_transects_angle.jpg)
-- **Turnaround dist** - Amount of additional distance to add outside the survey area for vehicle turn around.
-- **Rotate Entry Point** - Press button to swap the start and end point of the survey.
-- **Hover and capture image** - Hover to capture images (multicopter only).
-- **Refly at 90 degree offset** - Check to refly the whole mission at a 90% offset. ![Survey - Fly Offset](../../assets/plan/survey/survey_transects_offset.jpg)
-- **Images in turnarounds** - Check to take images when turning
+- **Angle** - Kuzeye göre, ızgara çizgilerinin açısı. ![Survey - Angle](../../assets/plan/survey/survey_transects_angle.jpg)
+- **Turnaround dist** - Aracın geri dönmesi için tarama alanının dışına eklenecek olan mesafe miktarı.
+- **Rotate entry point** - Gözlem görevinin başlangıç ve bitiş noktasını birbirleriyle değiştirmek için butona basın.
+- **Hover and capture image** - Görüntü yakalamak için havada durmak (sadece multikopterler).
+- **Refly at 90 degree offset** - Tüm görevi% 90 farkla yeniden gözden geçirmek için işaretleyin. ![Survey - Fly Offset](../../assets/plan/survey/survey_transects_offset.jpg)
+- **Images in turnarounds** - Dönüşlerde fotoğraf çekilmesi için işaretleyin
 - **Relative altitude** - Check to ... TBD.
 
 ### Terrain
