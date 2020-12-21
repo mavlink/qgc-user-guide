@@ -8,7 +8,7 @@ Gözlem modu, poligonal bir alan üzerinde bir ızgara uçuş modeli oluşturman
 > 
 > Terrain Following'in kullanılması, araştırmanın arazi üzerinde istenen irtifaya daha yakın olmasını sağlar ve yer seviyesine çok yakın bir görev planlanması olasılığını azaltır.
 
-![Survey](../../assets/plan/survey/survey.jpg)
+![Gözlem](../../assets/plan/survey/survey.jpg)
 
 ## Gözlem Görevi Oluştuma
 
@@ -17,7 +17,7 @@ Bir gözlem görevi oluşturmak için:
 1. [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
 2. *Plan Tools* 'dan *Pattern Tool*'u seçin ve *Survey*'e tıklayın.
   
-  ![Survey Menu](../../assets/plan/survey/survey_menu.jpg)
+  ![Gözlem Menüsü](../../assets/plan/survey/survey_menu.jpg)
   
   Bu haritaya bir gözlem alanı ve görev listesine (sağda) bir *Survey* öğesi ekleyecektir.
 
@@ -93,23 +93,23 @@ Ayarlanabilir seçenekler şunlardır:
 - **Images in turnarounds** - Dönüşlerde fotoğraf çekilmesi için işaretleyin
 - **Relative altitude** - Check to ... TBD.
 
-### Terrain
+### Arazi
 
-By default, a flying vehicle will follow the survey path at a fixed altitude. Enabling *Terrain Following* makes the vehicle maintain a constant height relative to ground.
+Varsayılan olarak, uçan bir araç sabit bir yükseklikte gözlem rotasını takip edecektir. *Terrain Following*'i aktif hale getirmek, aracın yere göre sabit bir yükseklikte devam etmesini sağlar.
 
 ![Survey - Terrain Following Settings](../../assets/plan/survey/survey_terrain.jpg)
 
-> **Note** Terrain following uses terrain heights queried from *AirMap* servers.
+> **Note** Arazi takibi, *AirMap* serverlarından sağlanan arazi yüksekliklerini kullanır.
 
-The configurable options are:
+Ayarlanabilir seçenekler şunlardır:
 
-- **Vehicle follows terrain** - Check to enable terrain following (and display the following options). 
-  - **Tolerance** - The accepted deviation in altitude from the target altitude.
-  - **Max Climb Rate** - Maximum climb rate when following terrain.
-  - **Max Descent Rate** - Maximum descent rate when following terrain.
+- **Araç araziyi takip eder** - Arazi takibini etkinleştirmek için işaretleyin (ve aşağıdaki seçenekleri görüntüleyin). 
+  - **Tolerance** - Hedeflenen yükseklikten kabul edilen sapma miktarı.
+  - **Max Climb Rate** - Araziyi takip ederken maksimum yükselme oranı.
+  - **Max Descent Rate** - Araziyi takip ederken maksimum yükselme oranı.
 
-### Statistics
+### İstatistikler
 
-The *Statistics* section shows the calculated survey area, photo interval, photo spacing and planned photo count.
+*Statistics* bölümü, hesaplanan tarama alanını, fotoğraf aralığını, fotoğraflar arası boşluğu ve planlanan fotoğraf sayısını gösterir.
 
 ![Survey - Statistics](../../assets/plan/survey/survey_statistics.jpg)
