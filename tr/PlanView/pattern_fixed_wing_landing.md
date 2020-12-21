@@ -12,7 +12,7 @@ Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir 
 
 İniş yolu oluşturmak için:
 
-1. Open [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
+1. [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
 2. *Plan Tools* 'dan *Plan Tools*'u açın ve *Fixed Wing Landing Pattern*'i seçin.
   
   ![Sabit Kanat İniş Yolu](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
