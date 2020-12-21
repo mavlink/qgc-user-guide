@@ -1,6 +1,6 @@
-# Plan View - GeoFence
+# Plan Ekranı - Coğrafi Sınır
 
-GeoFences allow you to create virtual regions within which the vehicle can fly, or in which it is *not allowed* to fly. You can also configure the action taken if you fly outside permitted areas.
+Coğrafi Sınırlar, aracınızın içinde uçmasına izin verilen ya da *izin verilmeyen* sanal bölgeler oluşturmanıza olanak sağlar. Ayrıca eğer izin verilen alanın dışına çıkıldığında yaplıacak eylemi de ayarlayabilirsiniz.
 
 ![Geofence overview](../../assets/plan/geofence/geofence_overview.jpg)
 
