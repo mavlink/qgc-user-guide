@@ -25,7 +25,7 @@ Bir gözlem görevi oluşturmak için:
 
 4. Yeni bir köşe noktası oluşturmak için var olan köşelerin ortalarındaki `(+)` semboüne tıklayın. Yeni köşe, yeni pozisyonlara çekilebilir.
 
-The survey settings are covered in the next section.
+Gözlem modu ayarları bir sonraki bölümde ele alınmıştır.
 
 ## Settings
 
