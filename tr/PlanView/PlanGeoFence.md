@@ -4,26 +4,26 @@ Coğrafi Sınırlar, aracınızın içinde uçmasına izin verilen ya da *izin v
 
 ![Geofence overview](../../assets/plan/geofence/geofence_overview.jpg)
 
-> **Note** **ArduPilot users:** GeoFence support is only supported by Rover 3.6 and Copter 3.7 or higher. It also requires usage of a Daily build or Stable 3.6 (once available). *QGroundControl* will not display the GeoFence options if they are not supported by the connected vehicle.
+> **Note** **ArduPilot users:** Coğrafi Sınır sadece Rover 3.6 ve Copter3.7 ve üzeri sürümlerde desteklenir. Ek olarak günlük sürümlerin ya da stabil 3.6 sürümünün (erişilebilir olduğunda) kullanılmasını gerektirir. Eğer bağlanan cihaz tarafından Coğrafi Sınır seçeneği desteklenmiyorsa *QGroundControl* seçeneği göstermeyecektir.
 
-## Create a Geofence
+## Coğrafi Sınır Oluşturma
 
-To create a GeoFence:
+Coğrafi Sınır Oluşturmak için:
 
-1. Navigate to the Plan View
-2. Select the *Geofence* radio button above the Mission Command List
+1. Plan Ekranı'na gidin
+2. Görev Komutları Listesi'nin üstünden *Geofence*'i seçin
     
     ![Select geofence radio button](../../assets/plan/geofence/geofence_select.jpg)
 
-3. Insert a circular or polygon region by pressing the **Circular Fence** or **Polygon Fence** buttons, respectively. A new region will be added to the map and to the associated list of fences below the buttons.
+3. **Circular Fence** ya da **Polygon Fence** butonlarına basarak, sırasıyla dairesel ya da çokgen bölgeler ekleyin. Haritaya yeni bir bölge ve butonların altına sınırlarla ilgili yeni bir liste eklenecektir.
     
-    > **Tip** You can create multiple regions by pressing the buttons multiple times, allowing complex geofence definitions to be created.
+    > **Tip** Butonlara birden çok kez basarak birden çok bölge oluşturabilirsiniz, böylece karmaşık coğrafi sınırlar oluşturulabilir.
 
-- Circular region:
+- Dairesel Bölge:
     
     ![Circular Geofence](../../assets/plan/geofence/geofence_circular.jpg)
     
-    - Move the region by dragging the central dot on the map
+    - Merkezi noktayı kaydırarak bölgeyi haritada hareket ettirin
     - Resize the circle by dragging the map dot on the edge of the circle (or you can change the radius value in the fence panel).
 
 - Polygon region:
