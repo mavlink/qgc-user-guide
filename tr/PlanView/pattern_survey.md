@@ -33,7 +33,7 @@ Gözlem görevi, ilişkili görev öğesinde (*Plan View*'in sağ tarafındaki g
 
 ### Kamera
 
-Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. Var olan veya belirli bir kamerayı seçebilir ya da ayarları manuel olarak girebilirsiniz. Mevcut kameraların listesi (QGC 3.4) aşağıda verilmiştir.
+Kamera başlatma davranışı, kamera/kamera ayarlarına bağlıdır. Var olan veya özel bir kamerayı seçebilir ya da ayarları manuel olarak girebilirsiniz. Mevcut kameraların listesi (QGC 3.4) aşağıda verilmiştir.
 
 ![Survey - Camera Select](../../assets/plan/survey/survey_camera_select.jpg)
 
@@ -46,22 +46,22 @@ Seçenekler açılır listesinden bilinen bir kamerayı seçmek, kameranın öze
 Varsayılan ayarlar, yapılandırma seçenekleri kullanılarak gözleminiz için ayarlanabilir:
 
 - **Landscape/Portrait** - Aracın "normal" yönüne göre kamera yönü.
-- **Overlap** - Yakalanan her görüntü arasında örtüşme. This can be configured separately for when flying along grid lines or across them.
-- Select one of: 
-  - **Altitude** - Survey altitude (ground resolution will be calculated/displayed for this altitude).
-  - **Ground resolution** - Ground resolution for each image (altitude required to achieve this resolution calculated and shown).
+- **Overlap** - Yakalanan her görüntü arasında örtüşme. Bu, ızgara hatları boyunca uçarken veya bu hatların üzerinden geçerken olmak üzere ayrı ayrı yapılandırılabilir.
+- Birini Seçin: 
+  - **Altitude** - Tarama yüksekliği (bu yükseklik için zemin çözünürlüğü hesaplanacak/görüntülenecektir).
+  - **Ground resolution** - Her görüntü için zemin çözünürlüğü (bu çözünürlüğü sağlamak için gerekli yükseklik hesaplanacak/görüntülenecektir).
 
-#### Custom Camera {#custom_camera}
+#### Özel Kamera {#custom_camera}
 
-Selecting the custom camera option allows you to specify the settings for a new camera in a similar way to a known camera.
+Özel kamera seçeneğinin seçilmesi, yeni bir kamera için ayarları bilinen bir kameraya benzer şekilde belirlemenize olanak tanır.
 
 ![Survey - Custom Camera](../../assets/plan/survey/survey_camera_custom.jpg)
 
-The camera-specific settings are:
+Özel kameraya özgü ayarlar şunlardır:
 
-- **Sensor width/height** - The size of the image sensor of the camera.
-- **Image width/height** - The resolution of the image captured by the camera.
-- **Focal Length** - The focal length of the camera lens.
+- **Sensor width/height** - Kameranın fotoğraf sensörünün boyutu.
+- **Image width/height** - Kameranın çektiği görüntünün çözünürlüğü.
+- **Focal Length** - Kamera lensinin odak uzaklığı.
 
 The remaining settings are the same as for a [known camera](#known_camera).
 
