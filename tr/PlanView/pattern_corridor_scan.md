@@ -86,7 +86,7 @@ Ayarlanabilir seçenekler şunlardır:
 - **Araç araziyi takip eder** - Arazi takibini etkinleştirmek için işaretleyin (ve aşağıdaki seçenekleri görüntüleyin). 
   - **Tolerance** - Hedeflenen yükseklikten kabul edilen sapma miktarı.
   - **Max Climb Rate** - Araziyi takip ederken maksimum yükselme oranı.
-  - **Max Climb Rate** - Araziyi takip ederken maksimum alçalma oranı.
+  - **Max Descent Rate** - Araziyi takip ederken maksimum alçalma oranı.
 
 ### İstatistikler
 
