@@ -15,15 +15,15 @@ Gözlem modu, poligonal bir alan üzerinde bir ızgara uçuş modeli oluşturman
 Bir gözlem görevi oluşturmak için:
 
 1. [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
-2. Choose the *Pattern Tool* from the *Plan Tools* and then select *Survey*.
+2. *Plan Tools* 'dan *Pattern Tool*'u seçin ve *Survey*'e tıklayın.
   
   ![Survey Menu](../../assets/plan/survey/survey_menu.jpg)
   
-  This will add a survey grid to the map, and a *Survey* item to the mission list (on the right).
+  Bu haritaya bir gözlem alanı ve görev listesine (sağda) bir *Survey* öğesi ekleyecektir.
 
-3. On the map drag the vertices to the change the shape of the polygon.
+3. Haritada köşeleri sürükleyerek çokgenin şeklini değiştirebilirsiniz.
 
-4. Click the `(+)` symbol between existing vertices to create a new vertix. The new vertix can then be dragged into a new position.
+4. Yeni bir köşe noktası oluşturmak için var olan köşelerin ortalarındaki `(+)` semboüne tıklayın. Yeni köşe, yeni pozisyonlara çekilebilir.
 
 The survey settings are covered in the next section.
 
