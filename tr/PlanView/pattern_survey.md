@@ -2,9 +2,9 @@
 
 Gözlem modu, poligonal bir alan üzerinde bir ızgara uçuş modeli oluşturmanıza olanak sağlar. İstediğiniz şekli, ızgaranın açısını ve diğer özelliklerini ve coğrafi etiketli görüntüler oluşturmak için uygun kamera ayarlarını belirtebilirsiniz.
 
-> **Important** If the survey area has significant elevation variation then consider enabling [Terrain Following](#terrain).
+> **Important** Eğer gözlemnecek alanda önemli yükseklik farkları varsa [Terrain Following](#terrain)'i devreye almayı gözönüne alın.
 > 
-> When planning a Survey using camera specifications, the ground under the survey area are assumed to be flat - i.e. at the same altitude as the launch/home location. If the ground elevation under the survey is either higher or lower than the home location the effective overlap in images will be less or more (respectively) than calculated. If ground elevation under the survey area is *significantly* higher than the home location you could inadvertently plan a mission path that causes the vehicle to fly into ground-level obstacles.
+> Kamera özelliklerini kullanan bir Gözlem planlanırken, gözlem alanınızın zeminin düz olduğu varsayılır - ör. kalkış/rv konumuyla aynı yükseklik. Eğer araştırma alanınızın zemin yüksekliği ev konumunuzdan daha yüksek veya daha alçaksa, görüntülerinizdeki etkili örtüşme hesaplanandan daha az veya daha fazla (sırasıyla) olacaktır. Araştırma alanınızın zemin yüksekliği ev konumunuzdan *önemli* ölçüde daha yüksekse, yanlışıla aracın zemin seviyesindeki engellere çarpmasına neden olacak bir görev planlayabilirsiniz.
 > 
 > Using terrain following ensures that the survey more closely matches the desired altitude above terrain, and reduces the likelihood of planning a mission that is too close to ground level.
 
