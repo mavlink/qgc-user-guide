@@ -14,14 +14,14 @@ Yukarıdaki [ ekran görüntüsü ](#plan_screenshot), [ Planlanan Ev ](#planned
 Arayüzün temel elemanları şunlardır:
 
 - **Map:** [ Planlanan Ev ](#planned_home) konumu dahil olmak üzere mevcut görev için numaralandırılmış konumları görüntüler. Noktaları seçmek için tıklayın (düzenlemek için) ya da konumlarını değiştirmek için sürükleyin. 
-- **Plan Araçları:** Status information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission (e.g. horizontal distance and time for mission). 
-  - `Max telem dist` is the distance between the [Planned Home](#planned_home) and the furthest waypoint. 
-  - When connected to a vehicle it also shows an **Upload** button, can be used to upload the plan to the vehicle.
-- **[Plan Tools](#plan_tools):** Used to create and manage missions.
-- **[Mission Command List/Overlay](#mission_command_list):** Displays the current list of mission items (select items to [edit](#mission_command_editors)).
-- **Terrain Altitude Overlay:** Shows the relative altitude of each mission command.
+- **Plan Araçları:** Önceki hedef noktaya göre halihazırda seçili olan hedef nokta için durum bilgisi ve tüm görevin istatistikleri (örn. Yatay mesafe ve görev süresi). 
+  - `Max telem dist`, [Planlanan Ev](#planned_home) konumu ile en uzak hedef nokta arasındaki mesafedir. 
+  - Bir cihaza bağlanıldığında bir **Upload** butonu da belirir ve planı araca yüklemek için kullanılabilir.
+- **[Plan Araçları](#plan_tools):** Görevleri oluşturmak ve yönetmek çin kullanılır.
+- **[Mission Command List/Overlay](#mission_command_list):** Mevcut görevin öğelerinin listesini görüntüler (öğeleri [düzenlemek](#mission_command_editors) için seçin).
+- **Terrain Altitude Overlay:** Her görev komutunun göreceli yüksekliğini gösterir.
 
-It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
+Size o anda seçili olan hedef noktasıyla ilgili bilgilerin yanı sıra tüm görevin istatistiklerini gösterir.
 
 ## Planning a Mission {#plan_mission}
 
