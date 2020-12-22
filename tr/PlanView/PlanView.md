@@ -80,29 +80,29 @@ Mevcut görev için görev komutları ekranın sağında listelenir. En üstte g
 
 ![Mission Command List](../../assets/plan/mission/mission_command_list.jpg)
 
-### Görev Komutları Editörü {#mission_command_editors}
+### Görev Komutları Düzenleyicisi {#mission_command_editors}
 
-Click on a mission command in the list to display its editor (in which you can set/change the command attributes).
+Düzenleyicisini görüntülemek için listedeki bir görev komutuna tıklayın (buradan komut özellikerini ayarlayabilir/değiştirebilirsiniz).
 
-You can change the **type** of the command by clicking on the command name (for example: *Waypoint*). This will display the *Select Mission Command* dialog shown below. By default this just displays the "Basic Commands", but you can use the **Category** drop down menu to display more (e.g. choose **All commands** to see all the options).
+Komut adına tıklayarak komutun ** tipini ** değiştirebilirsiniz (örneğin: *Waypoint*). Bu, aşağıda gösterilen * Select Mission Command* diyaloğunu görüntüler. Varsayılan olarak bu sadece "Temel Komutlar" görüntülenir, daha fazlasını görüntülemek için ** Category** açılır menüsünü kullanabilirsiniz (örneğin tüm seçenekleri görmek için ** All commands ** 'ı seçin).
 
 <img src="../../assets/plan/mission/mission_commands.jpg" style="width: 200px;" />
 
-To the right of each command name is a menu that you can click to access to additional options such as *Insert* and *Delete*.
+Her komut adının sağında, * Ekle * ve * Sil * gibi ek seçeneklere erişmek için tıklayabileceğiniz bir menü bulunur.
 
-> **Note** The list of available commands will depend on firmware and vehicle type. Examples may include: Waypoint, Start image capture, Jump to item (to repeat mission) and other commands.
+> **Note** Kullanılabilir komutların listesi aracın yazılımına ve türüne bağlıdır. Örnek olarak şunlar verilebilir: Hedef nokta, Görüntü yakalamayı başlat, Öğeye atla (görevi tekrarlamak için) ve diğer komutlar.
 
-### Mission Settings {#mission_settings}
+### Görev Ayarları {#mission_settings}
 
-The *Mission Start* panel is the first item that appears in the [mission command list](#mission_command_list). It may be used to specify a number default settings that may affect the start or end of the mission.
+*Mission Start* paneli [ görev komut listesinde ](#mission_command_list) görünen ilk öğedir. Görevin başlangıcını veya sonunu etkileyebilecek bir takım varsayılan ayarı düzenlemek için kullanılabilir.
 
 ![Mission Command List - showing mission settings](../../assets/plan/mission_start.png)
 
 ![Mission settings](../../assets/plan/mission/mission_settings.png)
 
-#### Mission Defaults
+#### Görevin Varsayılan Ayarları
 
-##### Waypoint alt
+##### Hedef Noktanın Yüksekliği
 
 Set the default altitude for the first mission item added to a plan (subsequent items take an initial altitude from the previous item). This can also be used to change the altitude of all items in a plan to the same value; you will be prompted if you change the value when there are items in a plan.
 
