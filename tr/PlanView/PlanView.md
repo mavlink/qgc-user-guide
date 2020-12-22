@@ -143,28 +143,28 @@ Mevcut kamera eylemleri şunlardır:
 
 #### Araç Bilgisi
 
-The appropriate mission commands for the vehicle depend on the firmware and vehicle type.
+Araç için uygun görev komutları, aracın yazılımına ve türüne bağlıdır.
 
-If you are planning a mission while you are *connected to a vehicle* the firmware and vehicle type will be determined from the vehicle. This section allows you to specify the vehicle firmware/type when not connected to a vehicle.
+* Bir araca bağlıyken * bir görev planlıyorsanız aracın yazılımı ve türü araçtan belirlenir. Bu bölüm, bir araca bağlı değilken aracın donanımını yazılımını/türünü belirlemenize olanak tanır.
 
 ![MissionSettings VehicleInfoSection](../../assets/plan/mission/mission_settings_vehicle_info_section.jpg)
 
-The additional value that can be specified when planning a mission is the vehicle flight speed. By specifying this value, total mission or survey times can be approximated even when not connected to a vehicle.
+Bir görev planlarken belirtilebilecek ek değer, aracın uçuş hızıdır. Bu değer belirtilerek, bir araca bağlı olmasa bile toplam görev veya anket süreleri yaklaşık olarak tahmin edilebilir.
 
-## Troubleshooting
+## Sorun Giderme
 
-### Mission (Plan) Upload/Download Failures {#plan_transfer_fail}
+### Görev (Plan) Yükleme/İndirme Hataları {#plan_transfer_fail}
 
-Plan uploading and downloading can fail over a noisy communication link (affecting missions, GeoFence, and rally points). If a failure occurs you should see a status message in the QGC UI similar to:
+Plan yükleme ve indirme, kötü bir iletişim bağlantısında hata verebilir (görevleri, coğrafi sınırları ve toparlanma noktalarını etkiler). Bir arıza meydana gelirse, QGC kullanıcı arayüzünde aşağıdakine benzer bir durum mesajı görmelisiniz:
 
-> Mission transfer failed. Retry transfer. Error: Mission write mission count failed, maximum retries exceeded.
+> Görev aktarımı başarısız oldu. (Mission transfer failed.) Aktarmayı tekrarlayın. (Retry transfer.) Hata: Görev yazma görev sayısı başarısız oldu, maksimum yeniden deneme aşıldı. (Error: Mission write mission count failed, maximum retries exceeded.)
 
-The loss rate for your link can be viewed in [Settings View > MAVLink](../SettingsView/MAVLink.md). The loss rate should be in the low single digits (i.e. maximum of 2 or 3):
+Bağlantınız için kayıp oranı [ Settings View > MAVLink ](../SettingsView/MAVLink.md) 'de görüntülenebilir. Kayıp oranı düşük tek haneli değerlerde olmalıdır (yani maksimum 2 veya 3):
 
-- A loss rate in the high single digits can lead to intermittent failures.
-- Higher loss rates often lead to 100% failure.
+- Yüksek tek haneli bir kayıp oranı, aralıklı arızalara neden olabilir.
+- Daha yüksek kayıp oranları genellikle% 100 başarısızlığa neden olur.
 
-There is a much smaller possibility that issues are caused by bugs in either flight stack or QGC. To analyse this possibility you can turn on [Console Logging](../SettingsView/console_logging.md) for Plan upload/download and review the protocol message traffic.
+Hatalar çok küçük bir ihtimalle QGC'deki ya da uçuş modlarındaki buglardan dolayı ortaya çıkabilir. To analyse this possibility you can turn on [Console Logging](../SettingsView/console_logging.md) for Plan upload/download and review the protocol message traffic.
 
 ## Further Info
 
