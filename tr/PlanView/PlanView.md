@@ -23,24 +23,24 @@ Arayüzün temel elemanları şunlardır:
 
 Size o anda seçili olan hedef noktasıyla ilgili bilgilerin yanı sıra tüm görevin istatistiklerini gösterir.
 
-## Planning a Mission {#plan_mission}
+## Görev Planlama {#plan_mission}
 
-At very high level, the steps to create a mission are:
+Genel bir bakış açısıyla, görev oluşturmanın aşamaları şunlardır:
 
-1. Change to *Plan View*.
-2. Add waypoints or commands to the mission and edit as needed.
-3. Upload the mission to the vehicle.
-4. Change to *Fly View* and fly the mission.
+1. *Plan Ekranı*'nı açın.
+2. Göreve hedef noktalar veya komutlar ekleyin, gerektiği şekilde düzenleyin.
+3. Görevi araca yükleyin.
+4. *Uçuş Ekranı*'nı açın ve görevi gerçekleştirin.
 
-The following sections explain some of the details in the view.
+Aşağıdaki bölümler, ekrandaki bazı ayrıntıları açıklamaktadır.
 
-## Planned Home Position {#planned_home}
+## Planlanmış Ev Konumu {#planned_home}
 
-The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to a vehicle). It is used by QGC to estimate mission times and to draw waypoint lines.
+*Plan View* 'de gösterilen *Planned Home*, bir görev planlanırken (mesela bir araca bağlı değilken) yaklaşık başlangıç noktasını ayarlamak için kullanılır. QGC tarafından görev sürelerini tahmin etmek ve hedef noktalar arası çizgileri çizmek için kullanılır.
 
 ![Planned Home Position](../../assets/plan/mission/mission_settings_planned_home.jpg)
 
-You should move/drag the planned home position to roughly the location where you plan to takeoff. The altitude for the planned home position is set in the [Mission Settings](#mission_settings) panel.
+Planlanan ev konumunu yaklaşık olarak kalkış yapmayı planladığınız konuma taşımanız/sürüklemeniz gerekir. Planlanan ana konumun yüksekliği, [ Mission Settings ](#mission_settings) panelinde ayarlanır.
 
 <img src="../../assets/plan/mission/mission_settings_planned_home_position_section.jpg" style="width: 200px;" />
 
