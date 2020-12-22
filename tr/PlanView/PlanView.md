@@ -5,7 +5,7 @@
 Ayrıca eğer yazılım tarafından destekleniyorsa [GeoFence](PlanGeoFence.md) ve [Rally Points](PlanRallyPoints.md)'leri ayalarmak için kullanılır.
 
 <span id="plan_screenshot"></span>
-![Plan View](../../assets/plan/plan_view_overview.jpg)
+![Plan Ekranı](../../assets/plan/plan_view_overview.jpg)
 
 ## Kullanıcı Arayüzü'ne Genel Bakış {#ui_overview}
 
@@ -38,7 +38,7 @@ Aşağıdaki bölümler, ekrandaki bazı ayrıntıları açıklamaktadır.
 
 *Plan View* 'de gösterilen *Planned Home*, bir görev planlanırken (mesela bir araca bağlı değilken) yaklaşık başlangıç noktasını ayarlamak için kullanılır. QGC tarafından görev sürelerini tahmin etmek ve hedef noktalar arası çizgileri çizmek için kullanılır.
 
-![Planned Home Position](../../assets/plan/mission/mission_settings_planned_home.jpg)
+![Planlanmış Ev Konumu](../../assets/plan/mission/mission_settings_planned_home.jpg)
 
 Planlanan ev konumunu yaklaşık olarak kalkış yapmayı planladığınız konuma taşımanız/sürüklemeniz gerekir. Planlanan ana konumun yüksekliği, [ Mission Settings ](#mission_settings) panelinde ayarlanır.
 
@@ -78,7 +78,7 @@ Plan araçları, ara noktalar eklemek, karmaşık yerler için görev oluşturma
 
 Mevcut görev için görev komutları ekranın sağında listelenir. En üstte görev, coğrafi sınır ve toparlanma noktaları arasında geçiş yapmak için bir dizi seçenek vardır. Listede, değerlerini düzenlemek için görev öğelerini ayrı ayrı seçebilirsiniz.
 
-![Mission Command List](../../assets/plan/mission/mission_command_list.jpg)
+![Görev Komutları Listesi](../../assets/plan/mission/mission_command_list.jpg)
 
 ### Görev Komutları Düzenleyicisi {#mission_command_editors}
 
@@ -96,9 +96,9 @@ Her komut adının sağında, * Ekle * ve * Sil * gibi ek seçeneklere erişmek 
 
 *Mission Start* paneli [ görev komut listesinde ](#mission_command_list) görünen ilk öğedir. Görevin başlangıcını veya sonunu etkileyebilecek bir takım varsayılan ayarı düzenlemek için kullanılabilir.
 
-![Mission Command List - showing mission settings](../../assets/plan/mission_start.png)
+![Görev Komutları Listesi - Görev Ayarlarını Gösterme](../../assets/plan/mission_start.png)
 
-![Mission settings](../../assets/plan/mission/mission_settings.png)
+![Görev Ayarları](../../assets/plan/mission/mission_settings.png)
 
 #### Görevin Varsayılan Ayarları
 
@@ -120,7 +120,7 @@ Aracınızın son görev öğesinden sonra Geri Dönmesini/RTL istiyorsanız bun
 
 [Planned Home Position ](#planned_home) bölümü, bir görev planlarken aracın ev konumunu simüle etmenizi sağlar. Bu, kalkıştan görevin tamamlanmasına kadar aracınızın hedef noktalar arası rotasını görüntülemenizi sağlar.
 
-![MissionSettings Planned Home Position Section](../../assets/plan/mission/mission_settings_planned_home_position_section.jpg)
+![Görev Ayarları Planlanmış Ev Konumu Bölümü](../../assets/plan/mission/mission_settings_planned_home_position_section.jpg)
 
 > **Note** Bu yalnızca * planlanan * ev konumudur ve aracı çalıştırmayı planladığınız yere konumlandırılmalıdır. Görevin gerçekleşmesinde gerçek bir etkisi yoktur. Asıl ev konumu, araç tarafından devreye alınırken ayarlanır.
 
@@ -130,7 +130,7 @@ Bu bölüm, **Altitude** ve ** Set Home to Map Centre** 'ı ayarlamanıza olanak
 
 Kamera bölümü, gerçekleştirilecek bir kamera eylemi belirlemenizi, gimbali kontrol etmenizi ve kameranızı fotoğraf veya video moduna ayarlamanızı sağlar.
 
-![MissionSettings Camera Section](../../assets/plan/mission/mission_settings_camera_section.jpg)
+![Görev Ayarları Kamera Bölümü](../../assets/plan/mission/mission_settings_camera_section.jpg)
 
 Mevcut kamera eylemleri şunlardır:
 
@@ -147,7 +147,7 @@ Araç için uygun görev komutları, aracın yazılımına ve türüne bağlıd�
 
 * Bir araca bağlıyken * bir görev planlıyorsanız aracın yazılımı ve türü araçtan belirlenir. Bu bölüm, bir araca bağlı değilken aracın donanımını yazılımını/türünü belirlemenize olanak tanır.
 
-![MissionSettings VehicleInfoSection](../../assets/plan/mission/mission_settings_vehicle_info_section.jpg)
+![Görev Ayarları Araç Bilgisi Bölümü](../../assets/plan/mission/mission_settings_vehicle_info_section.jpg)
 
 Bir görev planlarken belirtilebilecek ek değer, aracın uçuş hızıdır. Bu değer belirtilerek, bir araca bağlı olmasa bile toplam görev veya anket süreleri yaklaşık olarak tahmin edilebilir.
 
@@ -164,9 +164,9 @@ Bağlantınız için kayıp oranı [ Settings View > MAVLink ](../SettingsView/M
 - Yüksek tek haneli bir kayıp oranı, aralıklı arızalara neden olabilir.
 - Daha yüksek kayıp oranları genellikle% 100 başarısızlığa neden olur.
 
-Hatalar çok küçük bir ihtimalle QGC'deki ya da uçuş modlarındaki buglardan dolayı ortaya çıkabilir. To analyse this possibility you can turn on [Console Logging](../SettingsView/console_logging.md) for Plan upload/download and review the protocol message traffic.
+Hatalar çok küçük bir ihtimalle QGC'deki ya da uçuş modlarındaki buglardan dolayı ortaya çıkabilir. Bu olasılığı analiz etmek için, Plan yükleme/indirme için [ Console Logging ](../SettingsView/console_logging.md) 'i etkinleştirebilir ve protokol mesaj trafiğini gözden geçirebilirsiniz.
 
-## Further Info
+## Daha Fazla Bilgi
 
-- New Plan View features for [QGC release v3.2](../releases/stable_v3.2_long.md#plan_view)
-- New Plan View features for [QGC release v3.3](../releases/stable_v3.3_long.md#plan_view)
+- [QGC v3.2 sürümü](../releases/stable_v3.2_long.md#plan_view) için yeni plan ekranı özellikleri
+- [QGC v3.3 sürümü](../releases/stable_v3.3_long.md#plan_view) için yeni plan ekranı özellikleri
