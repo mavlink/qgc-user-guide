@@ -54,33 +54,33 @@ Plan araçları, ara noktalar eklemek, karmaşık yerler için görev oluşturma
 
 ### Hedef Noktası Ekle
 
-Click on the **Add Waypoint** tool to activate it. While active, clicking on the map will add new mission waypoint at the clicked location. The tool will stay active until you select it again. Once you have added a waypoint, you can select it and drag it around to change its position.
+**Add Waypoint** aracına tıklayarak aktive edin. Aktifken haritaya tıklandığında, tıklanan noktaya yeni bir hedef konum eklenecektir. Tekrar tıklayana kadar araç aktif kalacaktır. Bir hedef nokta ekledikten sonra, konumunu değiştirmek için onu seçebilir ve sürükleyebilirsiniz.
 
-### File (Sync) {#file}
+### Dosya (Senkronizasyon) {#file}
 
-The *File tools* are used to move missions between the ground station and vehicle, and to save/restore them from files. The tool displays an `!` to indicate that there are mission changes that you have not sent to the vehicle.
+* Dosya araçları *, görevleri yer istasyonu ile araç arasında taşımak ve bunları dosyalara kaydetmek/dosyalardan geri yüklemek için kullanılır. Araçlar, araca göndermediğiniz görev değişiklikleri olduğunu belirtmek için bir `! ` işareti kullanır.
 
-> **Note** Before you fly a mission you must upload it to the vehicle.
+> **Note** Bir görevi gerçekleştirmeden önce görevi araca yüklemeniz gerekmektedir.
 
-The *File tools* provide the following functionality:
+*Dosya araçları* aşağıdaki fonksiyonları sağlar:
 
-- Upload (Send to vehicle)
-- Download (Load from vehicle)
-- Save/Save as to File, including as KML file.
-- Load from File
-- Remove All (removes all mission waypoints from *Plan view* and from vehicle)
+- Yükle (Araca göndermek)
+- İndir (Araçtan yüklemek)
+- KML dosyası dahil olmak üzere Dosyaya Kaydet/Farklı Kaydet.
+- Dosyadan Yükle
+- Tümünü Kaldır (tüm görev hedef noktalarını * Plan ekranından* ve araçtan kaldırır)
 
-### Pattern
+### Şablon
 
-The [Pattern](Pattern.md) tool simplifies the creation of missions for flying complex geometries, including [surveys](../PlanView/pattern_survey.md) and [structure scans](../PlanView/pattern_structure_scan_v2.md).
+[Pattern](Pattern.md) aracı, [gözlem](../PlanView/pattern_survey.md) ve [yapı taramaları](../PlanView/pattern_structure_scan_v2.md) da dahil olmak üzere karmaşık şekillerin uçulması için görevlerin oluşturulmasını basitleştirir.
 
-## Mission Command List {#mission_command_list}
+## Görev Komutları Listesi {#mission_command_list}
 
-Mission commands for the current mission are listed on the right side of the view. At the top are a set of options to switch between editing the mission, GeoFence and rally points. Within the list you can select individual mission items to edit their values.
+Mevcut görev için görev komutları ekranın sağında listelenir. En üstte görev, coğrafi sınır ve toparlanma noktaları arasında geçiş yapmak için bir dizi seçenek vardır. Listede, değerlerini düzenlemek için görev öğelerini ayrı ayrı seçebilirsiniz.
 
 ![Mission Command List](../../assets/plan/mission/mission_command_list.jpg)
 
-### Mission Command Editors {#mission_command_editors}
+### Görev Komutları Editörü {#mission_command_editors}
 
 Click on a mission command in the list to display its editor (in which you can set/change the command attributes).
 
