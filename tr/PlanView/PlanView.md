@@ -104,44 +104,44 @@ Her komut adının sağında, * Ekle * ve * Sil * gibi ek seçeneklere erişmek 
 
 ##### Hedef Noktanın Yüksekliği
 
-Set the default altitude for the first mission item added to a plan (subsequent items take an initial altitude from the previous item). This can also be used to change the altitude of all items in a plan to the same value; you will be prompted if you change the value when there are items in a plan.
+Bir plana eklenen ilk görev öğesi için varsayılan irtifayı ayarlayın (sonraki öğeler, önceki öğeden ilk irtifayı alır). Bu aynı zamanda bir plandaki tüm öğelerin yüksekliğni aynı değere ayarlamak için de kullanılabilir; planda öğeler varken eğer değeri değiştirirseniz bu seçenek size sorulacaktır.
 
-##### Flight speed
+##### Uçuş Hızı
 
-Set a flight speed for the mission that is different than the default mission speed.
+Görev için varsayılan görev hızından farklı bir uçuş hızı belirleyin.
 
-#### Mission End
+#### Görevin Sonu
 
-##### Return to Launch after mission end
+##### Görev bittiğinde kalkış yerine dön
 
-Check this if you want your vehicle to Return/RTL after the final mission item.
+Aracınızın son görev öğesinden sonra Geri Dönmesini/RTL istiyorsanız bunu işaretleyin.
 
-#### Planned Home Position
+#### Planlanmış Ev Konumu
 
-The [Planned Home Position](#planned_home) section allows you to simulate the vehicle's home position while planning a mission. This allows you to view the waypoint trajectory for your vehicle from takeoff to mission completion.
+[Planned Home Position ](#planned_home) bölümü, bir görev planlarken aracın ev konumunu simüle etmenizi sağlar. Bu, kalkıştan görevin tamamlanmasına kadar aracınızın hedef noktalar arası rotasını görüntülemenizi sağlar.
 
 ![MissionSettings Planned Home Position Section](../../assets/plan/mission/mission_settings_planned_home_position_section.jpg)
 
-> **Note** This is only the *planned* home position and you should place it where you plan to start the vehicle from. It has no actual impact on flying the mission. The actual home position of a vehicle is set by the vehicle itself when arming.
+> **Note** Bu yalnızca * planlanan * ev konumudur ve aracı çalıştırmayı planladığınız yere konumlandırılmalıdır. Görevin gerçekleşmesinde gerçek bir etkisi yoktur. Asıl ev konumu, araç tarafından devreye alınırken ayarlanır.
 
-The section allows you to set the **Altitude** and **Set Home to Map Centre** (you can move it to another position by dragging it on the map).
+Bu bölüm, **Altitude** ve ** Set Home to Map Centre** 'ı ayarlamanıza olanak tanır (haritada sürükleyerek başka bir konuma taşıyabilirsiniz).
 
-#### Camera
+#### Kamera
 
-The camera section allows you to specify a camera action to take, control the gimbal and set your camera into photo or video mode.
+Kamera bölümü, gerçekleştirilecek bir kamera eylemi belirlemenizi, gimbali kontrol etmenizi ve kameranızı fotoğraf veya video moduna ayarlamanızı sağlar.
 
 ![MissionSettings Camera Section](../../assets/plan/mission/mission_settings_camera_section.jpg)
 
-The available camera actions are:
+Mevcut kamera eylemleri şunlardır:
 
-- No change (continue current action)
-- Take photos (time)
-- Take photos (distance)
-- Stop taking photos
-- Start recording video
-- Stop recording video
+- Değişiklik yok (mevcut eyleme devam et)
+- Fotoğraf çek (zaman aralıklı)
+- Fotoğraf Çek (mesafe aralıklı)
+- Fotoğraf çekimini durdur
+- Video çekmeye başla
+- Video çekimi durdur
 
-#### Vehicle Info
+#### Araç Bilgisi
 
 The appropriate mission commands for the vehicle depend on the firmware and vehicle type.
 
