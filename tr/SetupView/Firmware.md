@@ -1,10 +1,10 @@
 # Yazılımı Yükleme
 
-*QGroundControl* **desktop** versions can install [PX4 Pro](http://px4.io/) or [ArduPilot](http://ardupilot.com) firmware onto Pixhawk-family flight-controller boards. By default QGC will install the current stable version of the selected autopilot, but you can also choose to install beta builds, daily builds, or custom firmware files.
+* QGroundControl *'ün ** masaüstü ** sürümleri [ PX4 Pro ](http://px4.io/) veya [ ArduPilot ](http://ardupilot.com) yazılımını Pixhawk ailesinin uçuş kontrolörü kartlarına yükleyebilir. Varsayılan olarak QGC, seçili otopilotun mevcut kararlı sürümünü kuracaktır, ancak beta sürümleri, günlük sürümleri veya özel donanım yazılımı dosyalarını da kurmayı seçebilirsiniz.
 
-*QGroundControl* can also install the firmware for SiK Radios and PX4 Flow devices.
+* QGroundControl * ayrıca SiK Radyoları ve PX4 Flow cihazları için yazılımları da yükleyebilir.
 
-> **Caution** Loading Firmware is currently not available on tablet or phone versions of *QGroundControl*.
+> **Caution** Yazılım Yükleme özelliği şu anda * QGroundControl * tablet veya telefon sürümlerinde kullanılamamaktadır.
 
 ## Connect Device for Firmware Update
 
