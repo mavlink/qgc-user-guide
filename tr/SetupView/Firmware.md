@@ -6,19 +6,19 @@
 
 > **Caution** Yazılım Yükleme özelliği şu anda * QGroundControl * tablet veya telefon sürümlerinde kullanılamamaktadır.
 
-## Connect Device for Firmware Update
+## Yazılım Güncellemesi için Cihazı Bağlayın
 
-> **Caution** **Before you start installing Firmware** all USB connections to you vehicle must be *disconnected* (both direct or through a telemetry radio). The vehicle must *not be* powered by a battery.
+> **Caution** ** Aygıt Yazılımını yüklemeye başlamadan önce ** aracınıza olan tüm USB bağlantılarının * kesilmesi * (hem doğrudan hem de telemetri radyosu aracılığıyla) gerekir. Araca bir batarya ile * güç verilmemelidir *.
 
-1. First select the **Gear** icon (*Vehicle Setup*) in the top toolbar and then **Firmware** in the sidebar.
+1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (*Vechicle Setup*), daha sonra kenar çubuğundan **Firmware**'i seçin.
     
     ![Firmware disconnected](../../assets/setup/firmware/firmware_disconnected.jpg)
 
-2. Connect your device (Pixhawk, SiK Radio, PX4 Flow) directly to your computer via USB.
+2. Cihazınızı (Pixhawk, SiK Radio, PX4 Flow) USB aracılığıyla doğrudan bilgisayarınıza bağlayın.
     
-    > **Note** Connect directly to a powered USB port on your machine (do not connect through a USB hub).
+    > **Note** Doğrudan makinenizdeki elektrik akışı olan bir USB bağlantı noktasına bağlayın (bir USB hub aracılığıyla bağlamayın).
 
-## Select Firmware to Load
+## Yüklenecek Yazılımı Seçin
 
 Once the device is connected you can choose which firmware to load (*QGroundControl* presents sensible options based on the connected hardware).
 
