@@ -12,7 +12,7 @@
 
 1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (*Vechicle Setup*), daha sonra kenar çubuğundan **Firmware**'i seçin.
     
-    ![Firmware disconnected](../../assets/setup/firmware/firmware_disconnected.jpg)
+    ![Yazılım bağlantısı kesildi](../../assets/setup/firmware/firmware_disconnected.jpg)
 
 2. Cihazınızı (Pixhawk, SiK Radio, PX4 Flow) USB aracılığıyla doğrudan bilgisayarınıza bağlayın.
     
@@ -24,11 +24,11 @@ Cihaz bağlandıktan sonra, hangi aygıt yazılımının yükleneceğini seçebi
 
 1. Pixhawk uyumlu bir anakart için * mevcut kararlı sürümü * indirmek için ** PX4 Flight Stack vX.X.X Stable Release ** veya ** ArduPilot Flight Stack ** seçeneklerinden birini seçin.
     
-    ![Select PX4](../../assets/setup/firmware/firmware_select_default_px4.jpg)
+    ![PX4'ü seçin](../../assets/setup/firmware/firmware_select_default_px4.jpg)
     
     * ArduPilot * 'ı seçerseniz, aynı zamanda araç tipini belirleyen donanım yazılımını da seçmeniz gerekecektir (aşağıda gösterildiği gibi).
     
-    ![Select ArduPilot](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
+    ![ArduPilot'ı seçin](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
 
 2. Belirli geliştirici sürümlerini seçmek veya yerel dosya sisteminizden ürün yazılımı yüklemek için ** Advanced settings **'i kontrol edin.
     
@@ -40,6 +40,6 @@ Cihaz bağlandıktan sonra, hangi aygıt yazılımının yükleneceğini seçebi
     
     Ardından, aygıt yazılımı bir dizi yükseltme adımından geçecektir (yeni aygıt yazılımının indirilmesi, eski aygıt yazılımının silinmesi vb.). Her adım ekrana yazdırılır ve genel ilerleme bir ilerleme çubuğunda görüntülenir.
     
-    ![Firmware Upgrade Complete](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
+    ![Yazılım güncellemesi tamamlandı](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
 
-Yazılım yüklemesi tamamlandığında, cihaz / araç yeniden başlatılacak ve yeniden bağlanacaktır. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
+Yazılım yüklemesi tamamlandığında, cihaz / araç yeniden başlatılacak ve yeniden bağlanacaktır. Daha sonra [ gövdeyi](../SetupView/Airframe.md) (ve sonra sensörler, radyo vb.) Yapılandırmanız gerekir
