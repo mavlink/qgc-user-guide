@@ -1,8 +1,8 @@
-# Airframe Setup (PX4)
+# Gövde Kurulumu (PX4)
 
-To select the airframe in PX4:
+PX4 de gövde seçmek için:
 
-1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
+1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Airframe**'i seçin.
 2. Select the broad vehicle group/type that matches your airframe and then use the dropdown within the group to choose the airframe that best matches your vehicle.
     
     ![Airframe options](../../assets/setup/airframe_px4.jpg)
