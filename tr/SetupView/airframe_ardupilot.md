@@ -1,12 +1,12 @@
-# Airframe Setup (ArduPilot)
+# Gövde Kurulumu (ArduPilot)
 
-Airframe Setup is used to select the frame class and type that matches your vehicle
+Gövde kurulumu, sınıfı ve tipi aracınızla eşleşen gövde seçiminde kullanılır
 
-> **Note** Airframe Setup is only available on *ArduCopter* and *ArduSub* vehicles (it is not shown for *ArduPilot* Rover or Plane vehicles).
+> **Note** Gövde Kurulumu sadece *ArduCopter* ve *ArduSub* araçları için mevcuttur (*ArduPilot* arazi araçları ya da uçaklar için gösterilmez).
 
-## ArduCopter Airframe Setup
+## Arducopter Gövde Kurulumu
 
-To select the airframe in Copter:
+Copter'den gövde seçmek için:
 
 1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
     
