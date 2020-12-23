@@ -8,26 +8,26 @@ Gövde kurulumu, sınıfı ve tipi aracınızla eşleşen gövde seçiminde kull
 
 Copter'den gövde seçmek için:
 
-1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
+1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Airframe**'i seçin.
     
     ![Airframe config](../../assets/setup/airframe/arducopter.jpg)
 
-2. Select the broad *Frame Class* for your vehicle:
+2. Aracınız için uygun olan *Frame Class* 'ı seçin:
     
     ![Airframe type](../../assets/setup/airframe/arducopter_class.jpg)
     
-    > **Note** You will need to reboot the vehicle for class changes to take effect.
+    > **Note** Sınıf değişikliklerinin geçerli olması için aracı yeniden başlatmanız gerekecektir.
 
-3. Select the specific *Frame Type* for your vehicle:
+3. Aracınız için spesifik *Frame Type* 'ını seçin:
     
     ![Airframe type](../../assets/setup/airframe/arducopter_type.jpg)
 
-## ArduSub Frame Setup {#ardusub}
+## ArduSub Gövde Kurulumu {#ardusub}
 
-To select the frame type for Sub:
+Sub için gövde tipini seçmek için:
 
-1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Frame** in the sidebar.
-2. Select the frame type that matches your vehicle (selecting a frame applies the selection).
+1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Frame**'i seçin.
+2. Aracınız için uygun olan gövde tipini seçin (bir gövde seçmek, seçimi uygular).
 3. Make sure that all **green** thrusters have **clockwise** propellers and all **blue** thrusters have **counter-clockwise** propellers (or vice-versa).
     
     ![Select airframe type](../../assets/setup/airframe_ardusub.jpg)
