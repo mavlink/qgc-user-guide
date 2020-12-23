@@ -20,26 +20,26 @@
 
 ## Yüklenecek Yazılımı Seçin
 
-Once the device is connected you can choose which firmware to load (*QGroundControl* presents sensible options based on the connected hardware).
+Cihaz bağlandıktan sonra, hangi aygıt yazılımının yükleneceğini seçebilirsiniz (* QGroundControl *, bağlı donanıma göre mantıklı seçenekler sunar).
 
-1. For a Pixhawk-compatible board choose either **PX4 Flight Stack vX.X.X Stable Release** or **ArduPilot Flight Stack** radio buttons to download the *current stable release*.
+1. Pixhawk uyumlu bir anakart için * mevcut kararlı sürümü * indirmek için ** PX4 Flight Stack vX.X.X Stable Release ** veya ** ArduPilot Flight Stack ** seçeneklerinden birini seçin.
     
     ![Select PX4](../../assets/setup/firmware/firmware_select_default_px4.jpg)
     
-    If you select *ArduPilot* you will also have to choose the specific firmware the type of vehicle (as shown below).
+    * ArduPilot * 'ı seçerseniz, aynı zamanda araç tipini belirleyen donanım yazılımını da seçmeniz gerekecektir (aşağıda gösterildiği gibi).
     
     ![Select ArduPilot](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
 
-2. Check **Advanced settings** to select specific developer releases or install firmware from your local file system.
+2. Belirli geliştirici sürümlerini seçmek veya yerel dosya sisteminizden ürün yazılımı yüklemek için ** Advanced settings **'i kontrol edin.
     
     ![ArduPilot - Advanced Settings](../../assets/setup/firmware/firmware_selection_advanced_settings.jpg)
 
-## Update the firmware
+## Yazılımı güncelleme
 
-1. Click the **OK** button to start the update.
+1. Güncellemeyi başlatmak için ** OK ** tuşuna tıklayın.
     
-    The firmware will then proceed through a number of upgrade steps (downloading new firmware, erasing old firmware etc.). Each step is printed to the screen and overall progress is displayed on a progress bar.
+    Ardından, aygıt yazılımı bir dizi yükseltme adımından geçecektir (yeni aygıt yazılımının indirilmesi, eski aygıt yazılımının silinmesi vb.). Her adım ekrana yazdırılır ve genel ilerleme bir ilerleme çubuğunda görüntülenir.
     
     ![Firmware Upgrade Complete](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
 
-Once the firmware has completed loading the device/vehicle will reboot and reconnect. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
+Yazılım yüklemesi tamamlandığında, cihaz / araç yeniden başlatılacak ve yeniden bağlanacaktır. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
