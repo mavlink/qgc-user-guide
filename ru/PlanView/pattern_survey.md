@@ -2,7 +2,7 @@
 
 A survey allows you to create a grid flight pattern over a polygonal area. You can specify an arbitrary polygon, the angle and other properties of the grid, and camera settings appropriate for creating geotagged images.
 
-> **Important** If the survey area has significant elevation variation then consider enabling [Terrain Following](#terrain).
+> **Warning** If the survey area has significant elevation variation then consider enabling [Terrain Following](#terrain).
 > 
 > When planning a Survey using camera specifications, the ground under the survey area are assumed to be flat - i.e. at the same altitude as the launch/home location. If the ground elevation under the survey is either higher or lower than the home location the effective overlap in images will be less or more (respectively) than calculated. If ground elevation under the survey area is *significantly* higher than the home location you could inadvertently plan a mission path that causes the vehicle to fly into ground-level obstacles.
 > 
@@ -89,9 +89,9 @@ The configurable options are:
 - **Turnaround dist** - Amount of additional distance to add outside the survey area for vehicle turn around.
 - **Rotate Entry Point** - Press button to swap the start and end point of the survey.
 - **Hover and capture image** - Hover to capture images (multicopter only).
-- **Refly at 90 degree offset** - Check to refly the whole mission at a 90% offset. ![Survey - Fly Offset](../../assets/plan/survey/survey_transects_offset.jpg)
+- **Refly at 90 degree offset** - Check to refly the whole mission at a 90 degree offset. ![Survey - Fly Offset](../../assets/plan/survey/survey_transects_offset.jpg)
 - **Images in turnarounds** - Check to take images when turning
-- **Relative altitude** - Check to ... TBD.
+- **Relative altitude** - Check to make specified altitudes relative to home (if unchecked they are AMSL).
 
 ### Terrain
 
