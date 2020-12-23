@@ -2,7 +2,7 @@
 
 Gözlem modu, poligonal bir alan üzerinde bir ızgara uçuş modeli oluşturmanıza olanak sağlar. İstediğiniz şekli, ızgaranın açısını ve diğer özelliklerini ve coğrafi etiketli görüntüler oluşturmak için uygun kamera ayarlarını belirtebilirsiniz.
 
-> **Important** Eğer gözlemlenecek alanda önemli yükseklik farkları varsa [Terrain Following](#terrain)'i devreye almayı gözönüne alın.
+> **Warning** If the survey area has significant elevation variation then consider enabling [Terrain Following](#terrain).
 > 
 > Kamera özelliklerini kullanan bir Gözlem planlanırken, gözlem alanınızın zeminin düz olduğu varsayılır - ör. kalkış/rv konumuyla aynı yükseklik. Eğer araştırma alanınızın zemin yüksekliği ev konumunuzdan daha yüksek veya daha alçaksa, görüntülerinizdeki etkili örtüşme hesaplanandan daha az veya daha fazla (sırasıyla) olacaktır. Araştırma alanınızın zemin yüksekliği ev konumunuzdan *önemli* ölçüde daha yüksekse, yanlışıla aracın zemin seviyesindeki engellere çarpmasına neden olacak bir görev planlayabilirsiniz.
 > 
@@ -89,9 +89,9 @@ Ayarlanabilir seçenekler şunlardır:
 - **Turnaround dist** - Aracın geri dönmesi için tarama alanının dışına eklenecek olan mesafe miktarı.
 - **Rotate entry point** - Gözlem görevinin başlangıç ve bitiş noktasını birbirleriyle değiştirmek için butona basın.
 - **Hover and capture image** - Görüntü yakalamak için havada durmak (sadece multikopterler).
-- **Refly at 90 degree offset** - Tüm görevi 90 derece açıyla yeniden uçmak için işaretleyin. ![Gözlem - Uçuş Açısı](../../assets/plan/survey/survey_transects_offset.jpg)
+- **Refly at 90 degree offset** - Check to refly the whole mission at a 90 degree offset. ![Gözlem - Uçuş Açısı](../../assets/plan/survey/survey_transects_offset.jpg)
 - **Images in turnarounds** - Dönüşlerde fotoğraf çekilmesi için işaretleyin
-- **Relative altitude** - Check to ... TBD.
+- **Relative altitude** - Check to make specified altitudes relative to home (if unchecked they are AMSL).
 
 ### Arazi
 
