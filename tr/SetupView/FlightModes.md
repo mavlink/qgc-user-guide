@@ -1,10 +1,10 @@
-# Flight Modes Setup
+# Uçuş Modları Kurulumu
 
-The *Flight Modes* section allows you to map flight modes to radio channel(s), and hence to the switches on your radio control transmitter. Both flight mode setup and the available flight modes are different in PX4 and ArduPilot (and there are some differences between ArduCopter and ArduPlane).
+* Uçuş Modları * bölümü, uçuş modlarını radyo kanal(lar)ına ve dolayısıyla radyo kontrol vericinizdeki anahtarlara eşlemenize olanak tanır. Hem uçuş modu kurulumu hem de mevcut uçuş modları PX4 ve ArduPilot'ta farklıdır (ve ArduCopter ile ArduPlane arasında bazı farklılıklar vardır).
 
-To access this section, select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+Bu bölüme erişmek için, araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
 
-> **Note** You must already have [configured your radio](../SetupView/Radio.md) in order to set flight modes.
+> **Note** Uçuş modlarını ayarlamak için önceden [ telsizinizi yapılandırmış ](../SetupView/Radio.md) olmanız gerekir.
 
 <span></span>
 
