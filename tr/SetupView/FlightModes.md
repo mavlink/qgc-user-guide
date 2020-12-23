@@ -8,7 +8,7 @@ Bu bölüme erişmek için, araç çubuğunun üstündeki **dişli** simgesini (
 
 <span></span>
 
-> **Tip** Flight modes provide different levels of *autopilot-assisted flight*, and *fully autonomous flight* via missions or offboard (API-based) control. Different flight modes allow new users to learn flying with a more forgiving platform than provided by basic RC control alone. They also enable automation of common tasks like taking off, landing and returning to the original launch position.
+> **Tip** Uçuş modları, farklı seviyelerde * otopilot destekli uçuşları * ve * tam otonom uçuşları *, görevler veya dışarıdan (API tabanlı) kontrol yoluyla sağlar. Farklı uçuş modları, yeni kullanıcıların, yalnızca temel RC kontrolünün sağladığından hataya daha toleranslı bir platformla uçmayı öğrenmelerine olanak tanır. They also enable automation of common tasks like taking off, landing and returning to the original launch position.
 
 <div>
 </div>
