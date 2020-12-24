@@ -74,25 +74,25 @@ Tek kanallı uçuş modu seçimini yapılandırmak için:
 4. *Anahtar Ayarları*'nı özelleştirin: 
     - Belirli eylemlerle eşlemek istediğiniz kanalları seçin - ör. * Dönüş * modu, * Öldürme anahtarı *, * Offboard* modu, vb. (vericinizde fazla anahtarlarınız ve kanallarınız varsa).
 5. Modların doğru verici anahtarlarına eşlendiğini test edin: 
-    - Check the *Channel Monitor* to confirm that the expected channel is changed by each switch.
-    - Select each mode switch on your transmitter in turn, and check that the desired flight mode is activated (the text turns yellow on *QGroundControl* for the active mode).
+    - Her anahatarın istenen kanal için ayarlandığını doğrulamak için *Kanal Monitörü*'nü kontrol edin.
+    - Vericinizdeki her bir mod anahtarını sırayla seçerek ve istenen uçuş modunun etkinleştirilip etkinleştirilmediğini kontrol edin (etkin mod metni * QGroundControl * 'de sarıya döner).
 
-All values are automatically saved as they are changed.
+Tüm değerler değiştirildikçe otomatik olarak kaydedilir.
 
-#### Video Example (including Transmitter Setup)
+#### Video Örneği (Verici Kurulumu dahil)
 
-It is common to use the positions of a 2- and a 3-position switch on the transmitter to represent the 6 flight modes, and encode each combination of switches as a particular PWM value for the mode that will be sent on a single channel.
+Verici üzerindeki 2 ve 3'de konumlu bir anahtarın konumlarını 6 uçuş modunu temsil etmek için kullanmak ve her anahtar kombinasyonunu tek bir kanalda gönderilecek mod için belirli bir PWM değerinde kodlamak yaygındır.
 
-The video below shows how this is done with the *FrSky Taranis* transmitter (a very popular and highly recommended RC transmitter). The process involves assigning a "logical switch" to each combination of positions of the two real switches. Each logical switch is then assigned to a different PWM value on the same channel.
+Aşağıdaki video, bunun * FrSky Taranis * vericisi (çok popüler ve şiddetle tavsiye edilen bir RC vericisi) ile nasıl yapıldığını göstermektedir. İşlem, iki gerçek anahtarın her bir pozisyon kombinasyonuna bir "mantıksal anahtar" atamayı içerir. Her mantıksal anahtar daha sonra aynı kanal üzerinde farklı bir PWM değerine atanır.
 
 <span id="taranis_setup"></span>
-The video then shows how to use *QGroundControl* to specify the mode channel and map modes to each of the 6 "slots". {% youtube %} http://www.youtube.com/watch?v=scqO7vbH2jo {% endyoutube %}
+Ardından video, mod kanalını özelleştirmek ve 6 "slot" un her birine modları eşlemek için * QGroundControl * 'ın nasıl kullanılacağını gösterir. {% youtube %} http://www.youtube.com/watch?v=scqO7vbH2jo {% endyoutube %}
 
-### Multi-Channel Mode
+### Çok Kanallı Mod
 
-> **Tip** We recommend you use [Single Channel Flight Mode](#single_channel) selection because the Multi Channel selection user interface can be confusing. If you do choose to use this method, then the best approach is to start assigning channels and take note of information displayed by *QGroundControl* following your selection.
+> **Tip** Çok Kanallı seçim kullanıcı arayüzü kafa karıştırıcı olabileceğinden [ Tek Kanallı Uçuş Modu ](#single_channel) seçimini kullanmanızı öneririz. Bu yöntemi kullanmayı seçerseniz, en iyi yaklaşım kanalları atamaya başlamak ve seçiminizi takiben * QGroundControl * tarafından görüntülenen bilgileri not almaktır.
 
-The multi-channel selection UI allows you to map one or more modes to one or more channels. There are some modes (and hence switches) that must always be defined, and the channel to which they must be allocated.
+Çok kanallı mod seçimi kullanıcı arayüzü, bir veya daha fazla modu bir veya daha fazla kanalla eşlemenize olanak tanır. Her zaman tanımlanması gereken bazı modlar (ve dolayısıyla anahtarlar) ve bunların tahsis edilmesi gereken kanal vardır.
 
 To configure flight modes using the multi-channel UI:
 
