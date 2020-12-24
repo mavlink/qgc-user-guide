@@ -48,26 +48,26 @@ Joystick'i ayarlamak için:
 
 Bazı ek Seçenekler ** Advanced ** sekmesinde mevcuttur. Bu seçenekler, duyarlılığı artırmak için belirli alışılmadık kurulumlarda ve sıkıntılı joystickleri kullanmak için yararlı olabilir.
 
-### Gaz Kumandası Seçenekleri
+### Gaz Kolu Seçenekleri
 
 ![Joystick setup - Throttle Modes](../../assets/setup/joystick_throttle_modes.jpg)
 
-- **Center stick is zero throttle**: Centered or lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), raised stick sends 1000. 
-    - **Spring loaded throttle smoothing**: In this mode you control not the throttle itself, but the rate at which it increases/decreases. This is useful for setups where the throttle stick is spring loaded, as the user can hold the desired throttle while releasing the stick.
-- **Full down stick is zero throttle**: In this mode, lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered stick 500, and raised 1000.
-- **Allow negative thrust**: When in **Center stick is zero throttle** mode, this allows the user to send negative values by lowering the stick. So that lowered stick sends -1000 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered sends zero, and raised stick sends 1000. This mode is only enabled for vehicles that support negative thrust, such as [Rover](http://ardupilot.org/rover/index.html).
+- **Center stick is zero throttle**: Ortalanmış veya alçaltılmış gaz çubuğu [ MANUAL_CONTROL **z** ](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) ile 0, kaldırılmış gaz çubuğu 1000 gönderir. 
+    - **Spring loaded throttle smoothing**: Bu modda gazın kendisini değil, artıp / azaldığı hızı kontrol edersiniz. Bu, gaz kolunun yaylı olduğu kurulumlar için kullanışlıdır, çünkü kullanıcı çubuğu bırakarak gazı istenen seviyede tutabilir.
+- **Full down stick is zero throttle**: Bu modda, alçaltılmış çubuk [ MANUAL_CONTROL **z** ](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) için 0, ortalanmış çubuk 500 ve kaldırılmış çubuk 1000 gönderir.
+- **Allow negative thrust**: ** Center stick is zero throttle ** modundayken, bu mod, kullanıcının çubuğu indirerek negatif değerler göndermesini sağlar. Böylece, indirilen çubuk [ MANUAL_CONTROL **z** ](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) 'de -1000 gönderir, ortalanmış çubuk 0 gönderir ve yükseltilmiş çubuk 1000 gönderir. Bu mod sadece [ Rover ](http://ardupilot.org/rover/index.html) gibi negatif itişi destekleyen araçlar için etkinleştirilebilir.
 
 ### Expo
 
-The expo slider allows you to make the sticks less sensitive in the center, allowing finer control in this zone.
+Expo kaydırıcısı, çubukları merkezde daha az hassas hale getirmenize ve bu bölgede daha iyi kontrol sağlamanıza olanak tanır.
 
 ![Joystick setup - Expo](../../assets/setup/joystick_throttle_expo.jpg)
 
-The slider adjusts the curvature of the exponential curve.
+Kaydırıcı, üstel eğrinin eğriliğini ayarlar.
 
 ![Joystick setup - Expo Curve](../../assets/setup/joystick_throttle_expo_curve.jpg)
 
-The higher the Expo value, the flatter the curve is at the center, and steeper it is at the edges.
+Expo değeri ne kadar yüksekse, eğri merkezde o kadar düz ve kenarlarda diktir.
 
 ### Advanced Settings
 
