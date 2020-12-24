@@ -2,7 +2,7 @@
 
 PX4 de gövde seçmek için:
 
-1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Airframe**'i seçin.
+1. İlk olarak üstteki araç çubuğundan **dişli** simgesini (Vehicle Setup), daha sonra kenar çubuğundan **Airframe**'i seçin.
 2. Araç gövdenizle eşleşen araç grubu/modelini seçin ve gruptaki açılır menüden aracınıza en uygun gövde modelini seçin.
     
     ![Gövde Seçenekeri](../../assets/setup/airframe_px4.jpg)
