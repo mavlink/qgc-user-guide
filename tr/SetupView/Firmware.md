@@ -10,7 +10,7 @@
 
 > **Caution** ** Aygıt Yazılımını yüklemeye başlamadan önce ** aracınıza olan tüm USB bağlantılarının * kesilmesi * (hem doğrudan hem de telemetri radyosu aracılığıyla) gerekir. Araca bir batarya ile * güç verilmemelidir *.
 
-1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (*Vechicle Setup*), daha sonra kenar çubuğundan **Firmware**'i seçin.
+1. İlk olarak üstteki araç çubuğundan **dişli** simgesini (*Vehicle Setup*), daha sonra kenar çubuğundan **Firmware**'i seçin.
     
     ![Yazılım bağlantısı kesildi](../../assets/setup/firmware/firmware_disconnected.jpg)
 
