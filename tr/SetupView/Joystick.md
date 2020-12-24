@@ -28,21 +28,21 @@ Joystick'i ayarlamak için:
 
 1. * QGroundControl * 'ı başlatın ve bir araca bağlayın.
 2. Joystick ya da Gamepad'i bir USB portuna bağlayın.
-3. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Joystick** in the sidebar. The screen below will appear.
+3. Üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Joystick**'i seçin. Aşağıdaki ekran görünecektir.
     
     ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
 
-4. Make sure your joystick is selected in the **Active joystick** dropdown.
+4. ** Active joystick ** açılır menüsünde kumanda çubuğunuzun seçildiğinden emin olun.
 
-5. Go to the **Calibrate** Tab, press the **Start** button and then follow the on-screen instructions to calibrate/move the sticks.
+5. **Calibrate ** Sekmesine gidin, ** Start ** tuşuna basın ve sonra çubukları kalibre etmek/hareket ettirmek için ekrandaki talimatları izleyin.
     
     ![Joystick setup - Calibration](../../assets/setup/joystick_calibration.jpg)
     
-    The joystick is *enabled* as the last step of the calibration process.
+    Joystick, kalibrasyon işleminin son adımı olarak * etkinleştirilir *.
 
-6. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor in the **General** tab.
+6. Düğmelerin ve çubukların amaçlandığı gibi çalışıp çalışmadığını onlara basarak ve sonucu ** General ** sekmesindeki Axis/Buton monitöründe görüntüleyerek test edin.
 
-7. Select the flight modes/vehicle functions activated by each joystick button. ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
+7. Her bir kumanda kolu düğmesiyle etkinleştirilen uçuş modlarını/araç işlevlerini seçin. ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
 
 ## Advanced Options
 
