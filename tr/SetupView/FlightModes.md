@@ -17,23 +17,23 @@ Bu bölüme erişmek için, araç çubuğunun üstündeki **dişli** simgesini (
 
 ## ArduPilot Uçuş Modu Kurulumu
 
-On ArduPilot you can assign up to 6 different flight modes to a single channel of your transmitter (the channel is selectable on Plane, but fixed to channel 5 on Copter).
+ArduPilot'ta vericinizin tek bir kanalına 6'ya kadar farklı uçuş modu atayabilirsiniz (kanal Plane'de seçilebilir, ancak Copter'de kanal 5'e sabitlenmiştir).
 
-ArduCopter (only) also allows you to specify additional *Channel Options* for channels 7-12. These allow you to assign functions to these switches (for example, to turn on a camera, or return to launch). There is additional information about channel configuration in the ArduCopter docs: \[Auxiliary Function Switches\](
+ArduCopter (yalnızca), 7-12. Kanallar için ek * Kanal Seçenekleri * belirlemenize de olanak tanır. Bunlar, bu anahtarlara işlevler atamanıza izin verir (örneğin, bir kamerayı açmak veya başlatmak için geri dönmek için). ArduCopter belgelerinde kanal yapılandırması hakkında ek bilgi bulunmaktadır: [Auxiliary Function Switches]
 
-To set the flight modes:
+Uçuş modlarını ayarlamak için:
 
-1. Turn on your RC transmitter.
-2. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+1. RC vericinizi açın.
+2. Araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
     ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes_copter_ardupilot.jpg)
     
-    > **Note** The above image is a screenshot of the flight mode setup for ArduCopter.
+    > ** Note ** Yukarıdaki görüntü ArduCopter için uçuş modu kurulumunun bir ekran görüntüsüdür.
 
-3. Select up to 6 flight modes in the drop downs.
+3. Açılır menülerden 6'ya kadar uçuş modu seçin.
 
-4. **ArduCopter only:** Select additional *Channel Options* for channels 7-12.
-5. **ArduPlane only:** Select the mode channel from the dropdown.
+4. ** Yalnızca ArduCopter: ** 7-12. kanallar için ek * Kanal Seçenekleri*ni seçin.
+5. ** Yalnızca ArduPlane: ** Açılır menüden mod kanalını seçin.
     
     ![Flight modes setup - ArduPlane](../../assets/setup/flight_modes_plane_ardupilot.jpg)
 
