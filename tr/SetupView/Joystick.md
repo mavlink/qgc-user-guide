@@ -44,11 +44,11 @@ Joystick'i ayarlamak için:
 
 7. Her bir kumanda kolu düğmesiyle etkinleştirilen uçuş modlarını/araç işlevlerini seçin. ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
 
-## Advanced Options
+## Gelişmiş Seçenekler
 
-Some additional Options are available at the **Advanced** tab. These options may be useful for specific, unsual setups, for increasing sensibility, and for handling noisy joysticks.
+Bazı ek Seçenekler ** Advanced ** sekmesinde mevcuttur. Bu seçenekler, duyarlılığı artırmak için belirli alışılmadık kurulumlarda ve sıkıntılı joystickleri kullanmak için yararlı olabilir.
 
-### Throttle Options
+### Gaz Kumandası Seçenekleri
 
 ![Joystick setup - Throttle Modes](../../assets/setup/joystick_throttle_modes.jpg)
 
