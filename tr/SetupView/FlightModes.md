@@ -65,15 +65,15 @@ Tek kanallı uçuş modu seçimini yapılandırmak için:
     
     ![Flight modes multi-channel](../../assets/setup/flight_modes_single_channel_px4.jpg)
     
-    > **Tip** If the screen opens in *Multi Channel Mode* click the **Use Single Channel Mode Selection** button to change screen.
+    > **Tip** Ekran * Çok Kanallı Mod * 'da açılırsa, ekranı değiştirmek için ** Tek Kanallı Mod Seçimini Kullan ** düğmesine tıklayın.
 
-3. Specify *Flight Mode Settings*:
+3. * Uçuş Modu Ayarlarını * özelleştirin:
     
-    - Select the **Mode channel** (above this shown as Channel 5, but this will depend on your transmitter configuration). 
-    - Select up to six **Flight Modes**.
-4. Specify *Switch Settings*: 
-    - Select the channels that you want to map to specific actions - e.g. *Return* mode, *Kill switch*, *offboard* mode, etc. (if you have spare switches and channels on your transmitter).
-5. Test that the modes are mapped to the right transmitter switches: 
+    - ** Modu kanalını ** seçin (yukarıda Kanal 5 olarak gösterilirse de, verici yapılandırmanıza bağlı olacaktır). 
+    - Altı adede kadar ** Uçuş Modu ** seçin.
+4. *Anahtar Ayarları*'nı özelleştirin: 
+    - Belirli eylemlerle eşlemek istediğiniz kanalları seçin - ör. * Dönüş * modu, * Öldürme anahtarı *, * Offboard* modu, vb. (vericinizde fazla anahtarlarınız ve kanallarınız varsa).
+5. Modların doğru verici anahtarlarına eşlendiğini test edin: 
     - Check the *Channel Monitor* to confirm that the expected channel is changed by each switch.
     - Select each mode switch on your transmitter in turn, and check that the desired flight mode is activated (the text turns yellow on *QGroundControl* for the active mode).
 
