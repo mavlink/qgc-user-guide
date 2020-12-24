@@ -1,4 +1,4 @@
-# Joystick Setup
+# Joystick Kurulumu
 
 *QGroundControl* allows you to control a vehicle using a joystick or gamepad instead of an RC Transmitter.
 
