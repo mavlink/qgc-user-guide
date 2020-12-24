@@ -37,20 +37,20 @@ Uçuş modlarını ayarlamak için:
     
     ![Flight modes setup - ArduPlane](../../assets/setup/flight_modes_plane_ardupilot.jpg)
 
-6. Test that the modes are mapped to the right transmitter switches by selecting each mode switch on your transmitter in turn, and check that the desired flight mode is activated (the text turns yellow on *QGroundControl* for the active mode).
+6. Vericinizdeki her bir mod anahtarını sırayla seçerek modların doğru verici anahtarlarıyla eşleştirildiğini test edin ve istenen uçuş modunun etkinleştirilip etkinleştirilmediğini kontrol edin (etkin mod metni * QGroundControl * 'de sarıya döner).
 
-All values are automatically saved as they are changed.
+Tüm değerler değiştirildikçe otomatik olarak kaydedilir.
 
-> **Note** The ArduCopter screenshot above shows a typical setup for a three position flight mode switch with an additional option of RTL being on a channel 7 switch. You can also setup 6 flight modes using two switches plus mixing on your transmitter. Scroll down to the center section of this [page](http://ardupilot.org/copter/docs/common-rc-transmitter-flight-mode-configuration.html#common-rc-transmitter-flight-mode-configuration) for tutorials on how to do that.
+> **Note** Yukarıdaki ArduCopter ekran görüntüsü, kanal 7 anahtarında ek bir RTL seçeneği bulunan üç konumlu uçuş modu anahtarı için tipik bir kurulumu göstermektedir. Ayrıca iki anahtar ve vericinizde miks kullanarak 6 uçuş modu kurabilirsiniz. Bunun nasıl yapılacağına ilişkin eğitimler için bu [ sayfanın ](http://ardupilot.org/copter/docs/common-rc-transmitter-flight-mode-configuration.html#common-rc-transmitter-flight-mode-configuration) orta bölümüne gidin.
 
-## PX4 Pro Flight Mode Setup
+## PX4 Pro Uçuş Modu Kurulumu
 
-*PX4* (*QGroundControl*) supports two modes for mapping flight modes to transmitter switches/dials:
+* PX4 * (* QGroundControl *) uçuş modlarını verici anahtarları/kadranlarıyla eşleştirmek için iki modu destekler:
 
-- **Single Channel Mode Selection:** Assign up to 6 flight modes to switch positions encoded in a single channel. 
-- **Multi Channel Mode Selection:** Assign modes to switch positions encoded in one or more channels. Some modes are hard coded to share channels, or are defined/set automatically based on other mode selections (the behaviour of multi-channel mode selection can sometimes be confusing). 
+- ** Tek Kanallı Mod Seçimi: ** Tek bir kanalda kodlanmış konumları değiştirmek için 6'ya kadar uçuş modu atayın. 
+- ** Çok Kanallı Mod Seçimi: ** Bir veya daha fazla kanalda kodlanmış konumların değiştirilmesi için modlar atayın. Bazı modlar, kanalları paylaşmak için kodlanmıştır veya diğer mod seçimlerine göre otomatik olarak tanımlanır / ayarlanır (çok kanallı mod seçiminin davranışı bazen kafa karıştırıcı olabilir). 
 
-> **Tip** The recommended approach is use *Single Channel Mode Selection* because it easy to understand and configure. It is similar to the approach used by ArduPilot.
+> **Tip** Önerilen yaklaşım * Tek Kanallı Mod Seçimi * 'i kullanmaktır çünkü anlaşılması ve yapılandırılması kolaydır. ArduPilot tarafından kullanılan yaklaşıma benzer.
 
 ### Single-Channel Mode {#single_channel}
 
