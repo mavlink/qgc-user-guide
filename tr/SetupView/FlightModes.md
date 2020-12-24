@@ -8,14 +8,14 @@ Bu bölüme erişmek için, araç çubuğunun üstündeki **dişli** simgesini (
 
 <span></span>
 
-> **Tip** Uçuş modları, farklı seviyelerde * otopilot destekli uçuşları * ve * tam otonom uçuşları *, görevler veya dışarıdan (API tabanlı) kontrol yoluyla sağlar. Farklı uçuş modları, yeni kullanıcıların, yalnızca temel RC kontrolünün sağladığından hataya daha toleranslı bir platformla uçmayı öğrenmelerine olanak tanır. They also enable automation of common tasks like taking off, landing and returning to the original launch position.
+> **Tip** Uçuş modları, farklı seviyelerde * otopilot destekli uçuşları * ve * tam otonom uçuşları *, görevler veya dışarıdan (API tabanlı) kontrol yoluyla sağlar. Farklı uçuş modları, yeni kullanıcıların, yalnızca temel RC kontrolünün sağladığından hataya daha toleranslı bir platformla uçmayı öğrenmelerine olanak tanır. Kalkış, iniş ve fırlatma konumuna geri dönme gibi yaygın görevlerin otomasyonunu da sağlarlar.
 
 <div>
 </div>
 
-> For more information about the flight modes on each platform see: * [PX4 Flight Modes](https://docs.px4.io/en/flight_modes/) * [ArduCopter Flight Modes](http://ardupilot.org/copter/docs/flight-modes.html) * [ArduPlane Flight Modes](http://ardupilot.org/plane/docs/flight-modes.html)
+> Her platformdaki uçuş modları hakkında daha fazla bilgi için bakınız: * [PX4 Flight Modes](https://docs.px4.io/en/flight_modes/) * [ArduCopter Flight Modes](http://ardupilot.org/copter/docs/flight-modes.html) * [ArduPlane Flight Modes](http://ardupilot.org/plane/docs/flight-modes.html)
 
-## ArduPilot Flight Mode Setup
+## ArduPilot Uçuş Modu Kurulumu
 
 On ArduPilot you can assign up to 6 different flight modes to a single channel of your transmitter (the channel is selectable on Plane, but fixed to channel 5 on Copter).
 
