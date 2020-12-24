@@ -69,23 +69,23 @@ Kaydırıcı, üstel eğrinin eğriliğini ayarlar.
 
 Expo değeri ne kadar yüksekse, eğri merkezde o kadar düz ve kenarlarda diktir.
 
-### Advanced Settings
+### Gelişmiş Ayarlar
 
-The advanced settings are not recommended for everyday users. They can cause unpredicted results if used incorrectly.
+Gelişmiş ayarlar, günlük kullanıcılar için önerilmez. Yanlış kullanılırlarsa beklenmeyen sonuçlara neden olabilirler.
 
 ![Joystick setup - Advanced Settings](../../assets/setup/joystick_advanced.jpg)
 
-The following settings are available:
+Şu seçenekler mevcuttur:
 
-- **Enable Gimbal Control**: Enabled two additional channels for controlling a gimbal.
+- **Enable Gimbal Control**: Bir gimbali kontrol etmek için iki ek kanal etkinleştirilir.
 
-- **Joystick Mode**: Changes what the joystick actually controls, and the MAVLink messages sent to the vehicle.
+- **Joystick Mode**: Joystick'in gerçekte neyi kontrol ettiğini ve araca gönderilen MAVLink mesajlarını değiştirir.
     
-    - **Normal**: User controls as if using a regular RC radio, MAVLink [MANUAL_CONTROL](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) messages are used.
-    - **Attitude**: User controls the vehicle attitude, MAVLink [SET_ATTITUDE_TARGET](https://mavlink.io/en/messages/common.html#SET_ATTITUDE_TARGET) messages are used.
-    - **Position**: User controls the vehicle position, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **position** only are used.
-    - **Force**: User controls the forces applied to the vehicle, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **force** only are used.
-    - **Velocity**: User controls the forces applied to the vehicle, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **velocity** only are used.
+    - **Normal**: Kullanıcı normal bir RC radyo kullanıyormuş gibi kontrol eder, MAVLink [ MANUAL_CONTROL ](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) mesajları kullanılır.
+    - **Attitude**: Kullanıcı aracın duruşunu kontrol eder, MAVLink [ SET_ATTITUDE_TARGET ](https://mavlink.io/en/messages/common.html#SET_ATTITUDE_TARGET) mesajları kullanılır.
+    - **Position**: Kullanıcı araç konumunu kontrol eder, ** konumu ** için yalnızca bit maskeli MAVLink [ SET_POSITION_TARGET_LOCAL_NED ](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) mesajları kullanılır.
+    - **Force**: Kullanıcı araca uygulanan kuvvetleri kontrol eder, ** kuvvet ** için yalnızca bit maskeli MAVLink [ SET_POSITION_TARGET_LOCAL_NED ](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) mesajları kullanılır.
+    - **Velocity**: Kullanıcı araca uygulanan kuvvetleri kontrol eder, ** hız ** için yalnızca bit maskeli MAVLink [ SET_POSITION_TARGET_LOCAL_NED ](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) mesajları kullanılır.
 
 - **Axis Frequency**: When the joystick is idle (inputs are not changing), the joystick commands are sent to the vehicle at 5Hz. When the joystick is in use (input values are changing), the joystick commands are sent to the vehicle at the (higher) frequency configured by this setting. The default is 25Hz.
 
