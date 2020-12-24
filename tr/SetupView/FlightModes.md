@@ -26,7 +26,7 @@ Uçuş modlarını ayarlamak için:
 1. RC vericinizi açın.
 2. Üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
-    ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes_copter_ardupilot.jpg)
+    ![Uçuş Modları Kurulumu - Arducopter](../../assets/setup/flight_modes_copter_ardupilot.jpg)
     
     > ** Note ** Yukarıdaki görüntü ArduCopter için uçuş modu kurulumunun bir ekran görüntüsüdür.
 
@@ -35,7 +35,7 @@ Uçuş modlarını ayarlamak için:
 4. ** Yalnızca ArduCopter: ** 7-12. kanallar için ek * Kanal Seçenekleri*ni seçin.
 5. ** Yalnızca ArduPlane: ** Açılır menüden mod kanalını seçin.
     
-    ![Flight modes setup - ArduPlane](../../assets/setup/flight_modes_plane_ardupilot.jpg)
+    ![Uçuş Modları Kurulumu - Arduplane](../../assets/setup/flight_modes_plane_ardupilot.jpg)
 
 6. Vericinizdeki her bir mod anahtarını sırayla seçerek modların doğru verici anahtarlarıyla eşleştirildiğini test edin ve istenen uçuş modunun etkinleştirilip etkinleştirilmediğini kontrol edin (etkin mod metni * QGroundControl * 'de sarıya döner).
 
@@ -63,7 +63,7 @@ Tek kanallı uçuş modu seçimini yapılandırmak için:
 1. RC vericinizi açın.
 2. Üstteki araç çubuğundan **dişli** simgesini (Vehicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
-    ![Flight modes multi-channel](../../assets/setup/flight_modes_single_channel_px4.jpg)
+    ![Çok kanallı uçuş modları](../../assets/setup/flight_modes_single_channel_px4.jpg)
     
     > **Tip** Ekran * Çok Kanallı Mod * 'da açılırsa, ekranı değiştirmek için ** Tek Kanallı Mod Seçimini Kullan ** düğmesine tıklayın.
 
@@ -99,7 +99,7 @@ Ardından video, mod kanalını özelleştirmek ve 6 "slot" un her birine modlar
 1. RC vericinizi açın.
 2. Üstteki araç çubuğundan **dişli** simgesini (Vehicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
-    ![Flight modes multi-channel](../../assets/setup/flight_modes_multi_channel_px4.jpg)
+    ![Çok kanallı uçuş modları](../../assets/setup/flight_modes_multi_channel_px4.jpg)
     
     > **Tip** Ekran * Tek Kanal Modu * 'nda açılırsa, ekranı değiştirmek için ** Çok Kanallı Mod Seçimini Kullan ** düğmesine tıklayın.
 
@@ -114,4 +114,4 @@ Ardından video, mod kanalını özelleştirmek ve 6 "slot" un her birine modlar
 
 Bu mod [ PX4 kurulum videosunda @ 6m53s ](https://youtu.be/91VGmdSlbo4?t=6m53s) (youtube) içinde gösterilir.
 
-> ** Note ** Bu uçuş modu seçim mekanizması, PX4'ün hangi modun seçilmesi gerektiğini belirleme yöntemi nedeniyle nispeten karmaşıktır. You may be able to gain some insight from this [flow chart](https://dev.px4.io/en/concept/flight_modes.html#flight-mode-evaluation-diagram) (PX4 Developer Guide).
+> ** Note ** Bu uçuş modu seçim mekanizması, PX4'ün hangi modun seçilmesi gerektiğini belirleme yöntemi nedeniyle nispeten karmaşıktır. Bu [ akış şemasından ](https://dev.px4.io/en/concept/flight_modes.html#flight-mode-evaluation-diagram) (PX4 Geliştirici Kılavuzu) biraz fikir edinebilirsiniz.
