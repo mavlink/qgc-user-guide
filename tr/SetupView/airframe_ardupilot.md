@@ -8,7 +8,7 @@ Gövde kurulumu, sınıfı ve modeli aracınızla eşleşen gövde seçiminde ku
 
 Copter'den gövde seçmek için:
 
-1. İlk olarak araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Airframe**'i seçin.
+1. İlk olarak üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
     ![Gövde Yapılandırması](../../assets/setup/airframe/arducopter.jpg)
 
