@@ -24,7 +24,7 @@ ArduCopter (yalnızca), 7-12. Kanallar için ek * Kanal Seçenekleri * belirleme
 Uçuş modlarını ayarlamak için:
 
 1. RC vericinizi açın.
-2. Araç çubuğunun üstündeki **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
+2. Üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
     ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes_copter_ardupilot.jpg)
     
@@ -52,16 +52,16 @@ Tüm değerler değiştirildikçe otomatik olarak kaydedilir.
 
 > **Tip** Önerilen yaklaşım * Tek Kanallı Mod Seçimi * 'i kullanmaktır çünkü anlaşılması ve yapılandırılması kolaydır. ArduPilot tarafından kullanılan yaklaşıma benzer.
 
-### Single-Channel Mode {#single_channel}
+### Tek Kanal Modu {#single_channel}
 
-The single-channel selection mode allows you to specify a "mode" channel and select up to 6 flight modes that will be activated based on the PWM value of the channel. You can also separately specify channels for mapping a kill switch, return to launch mode, and offboard mode.
+Tek kanallı seçim modu, bir "mod" kanalı belirlemenize ve kanalın PWM değerine bağlı olarak etkinleştirilecek en fazla 6 uçuş modu seçmenize olanak tanır. Ayrıca, kapatma anahtarı, kalkış moduna geri dönmek ve offboard modu için kanalları ayrı ayrı belirtebilirsiniz.
 
-> **Note** In order to use approach you will first need to configure your *transmitter* to encode the physical positions of your mode switch(es) into a single channel. There is a video guide of how this is done for the popular *Taranis* transmitter [below](#taranis_setup) (check your documentation if you use a different transmitter).
+> **Note** Yaklaşımı kullanmak için, önce * vericinizi*, mod anahtar(lar)ınızın fiziksel konumlarını tek bir kanala kodlayacak şekilde yapılandırmanız gerekir. [ aşağıda ](#taranis_setup) popüler * Taranis * vericisi için bunun nasıl yapıldığına dair bir video kılavuzuna erişebilirsiniz(farklı bir verici kullanıyorsanız belgelerinizi kontrol edin).
 
-To configure single-channel flight mode selection:
+Tek kanallı uçuş modu seçimini yapılandırmak için:
 
-1. Turn on your RC transmitter.
-2. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+1. RC vericinizi açın.
+2. Üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
     ![Flight modes multi-channel](../../assets/setup/flight_modes_single_channel_px4.jpg)
     
