@@ -90,28 +90,28 @@ Ardından video, mod kanalını özelleştirmek ve 6 "slot" un her birine modlar
 
 ### Çok Kanallı Mod
 
-> **Tip** Çok Kanallı seçim kullanıcı arayüzü kafa karıştırıcı olabileceğinden [ Tek Kanallı Uçuş Modu ](#single_channel) seçimini kullanmanızı öneririz. Bu yöntemi kullanmayı seçerseniz, en iyi yaklaşım kanalları atamaya başlamak ve seçiminizi takiben * QGroundControl * tarafından görüntülenen bilgileri not almaktır.
+> **Tip** Çok Kanallı mod seçim kullanıcı arayüzü kafa karıştırıcı olabileceğinden [ Tek Kanallı Uçuş Modu ](#single_channel) seçimini kullanmanızı öneririz. Bu yöntemi kullanmayı seçerseniz, en iyi yaklaşım kanalları atamaya başlamak ve seçiminizi takiben * QGroundControl * tarafından görüntülenen bilgileri not almaktır.
 
 Çok kanallı mod seçimi kullanıcı arayüzü, bir veya daha fazla modu bir veya daha fazla kanalla eşlemenize olanak tanır. Her zaman tanımlanması gereken bazı modlar (ve dolayısıyla anahtarlar) ve bunların tahsis edilmesi gereken kanal vardır.
 
-To configure flight modes using the multi-channel UI:
+Çok kanallı mod kullanıcı arayüzünü kullanarak uçuş modlarını yapılandırmak için:
 
-1. Turn on your RC transmitter.
-2. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+1. RC vericinizi açın.
+2. Üstteki araç çubuğundan **dişli** simgesini (Vehicle Setup), daha sonra kenar çubuğundan **Flight Modes**'u seçin.
     
     ![Flight modes multi-channel](../../assets/setup/flight_modes_multi_channel_px4.jpg)
     
-    > **Tip** If the screen opens in *Single Channel Mode* click the **Use Multi Channel Mode Selection** button to change screen.
+    > **Tip** Ekran * Tek Kanal Modu * 'nda açılırsa, ekranı değiştirmek için ** Çok Kanallı Mod Seçimini Kullan ** düğmesine tıklayın.
 
-3. Select the modes you want to assign to your switches and select the associated channel (selected modes will *move* in the UI to be grouped by channel). There are a number of complications on the mode to channel assignments:
+3. Anahtarlarınıza atamak istediğiniz modları ve ilgili kanalı seçin (seçilen modlar, kanala göre gruplanacak kullanıcı arayüzüne * taşınır*). Modu kanala atamada bir takım karmaşıklıklar vardır:
     
-    - Some modes will have a grayed out channel selector because they cannot be disabled and you cannot directly set the value. For example: 
-        - *Mission* mode - Has the same channel number as *Hold* (if it is defined), or otherwise the same channel as *Stabilized/Main* mode.
-        - *Altitude* mode - Has the same channel number as *Position Control* (if it is defined), or otherwise the same channel as *Stabilized/Main* mode.
-    - *Assist* mode - This mode is added to the same channel as *Stabilized/Main* mode if (and only if) *Position Control* is enabled and defined on a different channel than *Stabilized/Main*.
-4. Click the **Generate Thresholds** button. 
-    - This will automatically create threshold values for all modes, spread evenly across each channel for its assigned modes. For example, in the mode assignment shown above, most modes are assigned to mode 5, and you can see that the channel thresholds for each mode are spread evenly across the channel. 
+    - Bazı modlarda devre dışı bırakılamayacakları ve değerleri doğrudan ayarlayanayacakları için gri bir kanal seçicisi olacaktır. Örneğin: 
+        - *Mission* Modu - * Hold * (tanımlanmışsa) ile aynı kanal numarasına veya * Stabilized/Main* moduyla aynı kanala sahiptir.
+        - *Altitude* modu: * Position Control * (tanımlanmışsa) ile aynı kanal numarasına veya * Stabilized/Main * moduyla aynı kanala sahiptir.
+    - *Assist* modu - Bu mod, ancak (ve ancak) * Position Control * *Stabilized/Main*'den farklı bir kanalda etkinleştirilir ve tanımlanırsa,* Stabilized/Main * modu ile aynı kanala eklenir.
+4. ** Generate Thresholds**'a tıklayın. 
+    - Bu, tüm modlar için otomatik olarak eşik değerleri oluşturacak ve atanmış modlar için her kanala eşit olarak yayacaktır. Örneğin, yukarıda gösterilen mod atamasında, çoğu mod mod 5'e atanır ve her mod için kanal eşiklerinin kanal boyunca eşit olarak dağıldığını görebilirsiniz. 
 
-This mode is demonstrated in the [PX4 setup video @6m53s](https://youtu.be/91VGmdSlbo4?t=6m53s) (youtube).
+Bu mod [ PX4 kurulum videosunda @ 6m53s ](https://youtu.be/91VGmdSlbo4?t=6m53s) (youtube) içinde gösterilir.
 
-> **Note** This flight mode selection mechanism is relatively complicated due to the way that PX4 works out which mode should be selected. You may be able to gain some insight from this [flow chart](https://dev.px4.io/en/concept/flight_modes.html#flight-mode-evaluation-diagram) (PX4 Developer Guide).
+> ** Note ** Bu uçuş modu seçim mekanizması, PX4'ün hangi modun seçilmesi gerektiğini belirleme yöntemi nedeniyle nispeten karmaşıktır. You may be able to gain some insight from this [flow chart](https://dev.px4.io/en/concept/flight_modes.html#flight-mode-evaluation-diagram) (PX4 Developer Guide).
