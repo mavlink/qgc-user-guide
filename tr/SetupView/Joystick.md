@@ -14,20 +14,20 @@
 
 ## PX4 Joystick Desteğini Etkinleştirme
 
-PX4'te Joystick desteğini etkinleştirmek için ` COM_RC_IN_MODE ` parametresini 1 - * Joystick/No RC Checks * olarak ayarlamanız gerekir. If this parameter is not set then *Joystick* will not be offered as a setup option.
+PX4'te Joystick desteğini etkinleştirmek için ` COM_RC_IN_MODE ` parametresini 1 - * Joystick/No RC Checks * olarak ayarlamanız gerekir. Bu parametre ayarlanmazsa, * Joystick * bir kurulum seçeneği olarak sunulmayacaktır.
 
-This is enabled by default for PX4 SITL builds (see the [Parameters](../SetupView/Parameters.md) topic for information on how to find and set a particular parameter).
+Bu, PX4 SITL yapıları için varsayılan olarak etkindir (belirli bir parametrenin nasıl bulunacağı ve ayarlanacağı hakkında bilgi için [Parametreler](../SetupView/Parameters.md) konusuna bakın).
 
-## Ardupilot Joystick Support
+## Ardupilot Joystick Desteği
 
-All ArduPilot vehicles are supported. No parameter configuration is necessary.
+Tüm ArduPilot araçları desteklenmektedir. Parametre yapılandırmasına gerek yoktur.
 
-## Configuring the Joystick {#configure}
+## Joystick'i Ayarlama {#configure}
 
-To configure a joystick:
+Joystick'i ayarlamak için:
 
-1. Start *QGroundControl* and connect to a vehicle.
-2. Connect the Joystick or Gamepad to a USB port.
+1. * QGroundControl * 'ı başlatın ve bir araca bağlayın.
+2. Joystick ya da Gamepad'i bir USB portuna bağlayın.
 3. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Joystick** in the sidebar. The screen below will appear.
     
     ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
