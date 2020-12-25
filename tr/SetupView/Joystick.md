@@ -93,36 +93,36 @@ Gelişmiş ayarlar, günlük kullanıcılar için önerilmez. Yanlış kullanıl
 
 - **Enable Circle Correction**: Uzaktan kumanda çubukları bir kareyi tanımlarken, kumanda çubukları genellikle bir daireyi tanımlar. Bu seçenek etkinleştirildiğinde, daha çok bir RC kontrolörü gibi olmasını sağlamak için joystick hareket alanının içine bir kare yazılır (böylece dört köşenin tamamına ulaşmak mümkündür). Çubuğun etkili hareket alanı azaldığından, çözünürlükte azalır.
     
-    - **Disabled:**Bu ** devre dışı bırakıldığında ** joystick konumu değiştirilmeden araca gönderilir (joystick cihazından okunma şekli). Bazı oyun çubuklarında, (roll, pitch) değerleri, bir karenin içindeki bir dairenin alanıyla sınırlıdır. In this figure, point B would command full pitch forward and full roll right, but the joystick is not able to reach point B because the retainer is circular. This means that you will not be able to achieve full roll and pitch deflection simultaneously.
+    - **Disabled:**Bu ** devre dışı bırakıldığında ** joystick konumu değiştirilmeden araca gönderilir (joystick cihazından okunma şekli). Bazı oyun çubuklarında, (roll, pitch) değerleri, bir karenin içindeki bir dairenin alanıyla sınırlıdır. Bu şekilde, B noktası tam adım ileri ve sağa tam yuvarlanma komutu verir, ancak kumanda kolu B noktasına ulaşamaz çünkü tutucu daireseldir. Bu, aynı anda tam roll ve adım pitch elde edemeyeceğiniz anlamına gelir.
     
     ![](../../assets/setup/joystick_circle_correction.jpg)
     
-    - **Enabled:** The joystick values are adjusted in software to ensure full range of commands. The usable area of travel and resolution is decreased, however, because the area highlighted grey in the figure is no longer used.
+    - **Enabled:** Joystick değerleri, komut aralığını eksiksiz sağlamak için yazılımda ayarlanır. Kullanılabilir hareket alanı ve çözünürlük azalır, ancak şekilde gri ile vurgulanan alan artık kullanılmamaktadır.
     
     ![Circle correction enabled](../../assets/setup/joystick_circle_correction2.jpg)
 
-- **Deadbands:** Deadbands allow input changes to be ignored when the sticks are near their neutral positions. This helps to avoid noise or small oscillations on sensitive sticks which may be interpreted as commands, or small offsets when sticks do not re-center well. They can be adjusted during the first step of the [calibration](#configure), or by dragging vertically on the corresponding axis monitor.
+- **Deadbands:**Deadbandler, çubuklar nötr konumlarına yakın olduğunda giriş değişikliklerinin göz ardı edilmesini sağlar. Bu, hassas çubuklarda komut olarak yorumlanabilecek parazitleri veya küçük salınımları ya da çubuklar yeniden ortalanmadığında küçük farkları önlemeye yardımcı olur. [ Kalibrasyonunun ](#configure) ilk adımı sırasında veya ilgili eksen monitöründe dikey olarak sürüklenerek ayarlanabilirler.
 
-## Supported Joysticks
+## Desteklenen Joystickler
 
-The following joysticks/controllers have been shown to work with relatively recent *QGroundControl* builds.
+Aşağıdaki kumanda kollarının/kontrol cihazlarının nispeten yeni * QGroundControl * versiyonlarıyla çalıştığı görülmüştür.
 
-### Sony Playstation 3/4 Controllers
+### Sony Playstation 3/4 Kontrolcüleri
 
-These are both highly recommended. They work well "out of the box" and have many buttons that you can map to flight modes.
+İkisi de oldukça tavsiye edilir. "Kutudan çıkar çıkmaz" iyi çalışırlar ve uçuş modlarına eşleyebileceğiniz birçok düğme vardır.
 
-#### Sony PS4 - DualShock 4 Controller V2 (Wireless setup)
+#### Sony PS4 - DualShock 4 Kontrolcü V2 (Kablosuz kurulum)
 
-This controller supports both USB and Bluetooth wireless connection. Wired USB connection usually works out of the box. The wireless connection needs some setup.
+Bu kontrolcü hem USB hem de Bluetooth kablosuz bağlantısını destekler. Kablolu USB bağlantısı genellikle kutudan çıkar çıkmaz çalışır. Kablosuz bağlantı için bazı kurulumlara ihtiyacı vardır.
 
-##### Linux Ubuntu setup
+##### Linux Ubuntu'da Kurulumu
 
-To make the controller work wirelessly under Linux the [jstest-gtk](https://jstest-gtk.gitlab.io/) and [ds4drv](https://github.com/chrippa/ds4drv) utilities are needed.
+Kontrolcünün Linux altında kablosuz olarak çalışmasını sağlamak için [ jstest-gtk ](https://jstest-gtk.gitlab.io/) ve [ ds4drv ](https://github.com/chrippa/ds4drv) yardımcı programlarına ihtiyaç vardır.
 
-The steps are:
+Adımlar şunlardır:
 
-1. Install *jstest-gtk*: ```sudo apt install jstest-gtk```
-2. Install *ds4drv*: ```sudo pip install ds4drv```
+1. * jstest-gtk * 'yi yükleyin: ```sudo apt install jstest-gtk```
+2. * ds4drv * yükleyin: ```sudo pip install ds4drv```
 3. Run ds4drv ```sudo ds4drv```
 4. Hold **Share** button and then **PS** button until controller LED starts blinking rapidly. The *ds4drv* should then detect a new device.
 5. Last of all, you should check the controller setup by running the *jstest-gtk* utility. 
