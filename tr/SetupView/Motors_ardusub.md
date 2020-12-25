@@ -2,7 +2,7 @@
 
 ArduSub'un düzgün çalışması için motorların doğru şekilde kurulması gerekir.
 
-If you just assembled your ROV, first make sure that the thrusters are connected to the correct outputs in the **Manual Test** section. Drag each slider and make sure that the *correct motor* spins accordingly to the frame displayed.
+ROV'nuzu yeni monte ettiyseniz, önce ** Manuel Test ** bölümünde iticilerin doğru çıkışlara bağlandığından emin olun. Drag each slider and make sure that the *correct motor* spins accordingly to the frame displayed.
 
 Once you know that the thrusters are connected to the proper outputs you can check for *correct direction* (forward/reverse) using either [automatic direction detection](#automatic) (recommended from ArduSub 4.0) or the [manual test](#manual).
 
