@@ -93,7 +93,7 @@ Gelişmiş ayarlar, günlük kullanıcılar için önerilmez. Yanlış kullanıl
 
 - **Enable Circle Correction**: Uzaktan kumanda çubukları bir kareyi tanımlarken, kumanda çubukları genellikle bir daireyi tanımlar. Bu seçenek etkinleştirildiğinde, daha çok bir RC kontrolörü gibi olmasını sağlamak için joystick hareket alanının içine bir kare yazılır (böylece dört köşenin tamamına ulaşmak mümkündür). Çubuğun etkili hareket alanı azaldığından, çözünürlükte azalır.
     
-    - **Disabled:**Bu ** devre dışı bırakıldığında ** joystick konumu değiştirilmeden araca gönderilir (joystick cihazından okunma şekli). Bazı oyun çubuklarında, (roll, pitch) değerleri, bir karenin içindeki bir dairenin alanıyla sınırlıdır. Bu şekilde, B noktası tam adım ileri ve sağa tam yuvarlanma komutu verir, ancak kumanda kolu B noktasına ulaşamaz çünkü tutucu daireseldir. Bu, aynı anda tam roll ve adım pitch elde edemeyeceğiniz anlamına gelir.
+    - **Disabled:**Bu ** devre dışı bırakıldığında ** joystick konumu değiştirilmeden araca gönderilir (joystick cihazından okunma şekli). Bazı oyun çubuklarında, (yuvarlanma, eğim) değerleri, bir karenin içindeki bir dairenin alanıyla sınırlıdır. Bu şekilde, B noktası tam adım ileri ve sağa tam yuvarlanma komutu verir, ancak kumanda kolu B noktasına ulaşamaz çünkü tutucu daireseldir. Bu, aynı anda tam roll ve adım pitch elde edemeyeceğiniz anlamına gelir.
     
     ![](../../assets/setup/joystick_circle_correction.jpg)
     
@@ -123,35 +123,35 @@ Adımlar şunlardır:
 
 1. * jstest-gtk * 'yi yükleyin: ```sudo apt install jstest-gtk```
 2. * ds4drv * yükleyin: ```sudo pip install ds4drv```
-3. Run ds4drv ```sudo ds4drv```
-4. Hold **Share** button and then **PS** button until controller LED starts blinking rapidly. The *ds4drv* should then detect a new device.
-5. Last of all, you should check the controller setup by running the *jstest-gtk* utility. 
+3. Ds4drv'yi çalıştırın ```sudo ds4drv```
+4. Kontrolcünün LED'i hızla yanıp sönmeye başlayana kadar ** Share ** düğmesini ve sonra ** PS ** düğmesini basılı tutun. Daha sonra * ds4drv * yeni bir aygıt algılamalıdır.
+5. Son olarak, * jstest-gtk * yardımcı programını çalıştırarak denetleyici kurulumunu kontrol etmelisiniz. 
 
 ### FrSky Taranis XD9 plus
 
-The *FrSky Taranis XD9 plus* remote control can also be connected as a joystick. You will need to connect it via the USB port on the back.
+* FrSky Taranis XD9 plus * uzaktan kumandası da bir joystick olarak bağlanabilir. Arkadaki USB bağlantı noktası üzerinden bağlanması gerekecektir.
 
-The Taranis does not allow you to use button options (to be precise, you can set the options, but toggling the buttons on your transmitter does not cause them to be pressed).
+Taranis, düğme seçeneklerini kullanmanıza izin vermez (kesin olmak gerekirse, seçenekleri ayarlayabilirsiniz, ancak vericinizdeki düğmelerin değiştirilmesi, bunlara basılmasına neden olmaz).
 
-> **Note** The Taranis is an open system that is openly being worked on. It is possible that at time of writing there is a firmware or configuration that allows it to work effectively as a joystick.
+> ** Note ** Taranis açık bir şekilde üzerinde çalışılan açık bir sistemdir. Yazma sırasında, bir joystick olarak etkili bir şekilde çalışmasına izin veren bir aygıt yazılımı veya konfigürasyon olması mümkündür.
 
 ### Logitech Gamepad F310
 
-The Logitech Gamepad F310 has been tested via USB on MacOSX "Sierra".
+Logitech Gamepad F310, MacOS "Sierra" üzerinde USB aracılığıyla test edilmiştir.
 
 ### Logitech Extreme 3D Pro
 
-The [Logitech Extreme 3D Pro](http://gaming.logitech.com/en-ch/product/extreme-3d-pro-joystick) Joystick has been tested on all platforms (Linux, Windows, Mac OSX). This is a single stick controller that can also be twisted. The main stick axes are used for pitch and roll, while the twist action is used for yaw. The throttle is mapped onto a separate wheel.
+[ Logitech Extreme 3D Pro ](http://gaming.logitech.com/en-ch/product/extreme-3d-pro-joystick) Joystick tüm platformlarda (Linux, Windows, Mac OSX) test edilmiştir. Bu, aynı zamanda bükülebilen tek çubuklu bir kontrolcüdür. Ana çubuk eksenleri eğim ve yuvarlanma için kullanılırken, bükme hareketi sapma için kullanılır. Gaz pedalı ayrı bir tekerleğe yerleştirilmiştir.
 
 ### Logitech F710 Gamepad
 
 <!-- This is from http://qgroundcontrol.org/users/joystick -->
 
-This gamepad is great for flying a multirotor manually via QGroundControl. It works on Windows, Linux and Mac OS.
+Bu oyun kumandası, QGroundControl aracılığıyla bir multirotoru manuel olarak uçurmak için mükemmeldir. Windows, Linux ve Mac OS üzerinde çalışır.
 
-#### Mac OS Leopard / Lion Setup
+#### Mac OS Leopard / Lion Kurulumu
 
-The F710 is detected under Leopard / Lion but is not automatically configured as an input device. In order to get a working configuration, the F710 has to be recognised as *Rumblepad2*.
+F710, Leopard / Lion'da algılanır, ancak otomatik olarak bir giriş cihazı olarak yapılandırılmaz. Çalışan bir konfigürasyon elde etmek için, F710'un * Rumblepad2 * olarak tanınması gerekir.
 
 First check how it is recognised: **Apple > About this Mac > Additional Information > System Report > USB**. It is detected as "Logitech Cordless RumblePad 2" then nothing further needs to be done.
 
