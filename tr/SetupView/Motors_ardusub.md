@@ -1,6 +1,6 @@
-# Motors Setup (ArduSub)
+# Motorların Kurulumu (ArduSub)
 
-In order for ArduSub to function properly, the motors must be correctly set up.
+ArduSub'un düzgün çalışması için motorların doğru şekilde kurulması gerekir.
 
 If you just assembled your ROV, first make sure that the thrusters are connected to the correct outputs in the **Manual Test** section. Drag each slider and make sure that the *correct motor* spins accordingly to the frame displayed.
 
