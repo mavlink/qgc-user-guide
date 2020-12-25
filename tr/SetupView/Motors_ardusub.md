@@ -18,14 +18,14 @@ Motorları manuel olarak kurmak ve test etmek için sayfadaki talimatları okuyu
 
 > **Warning** Aracı devreye almak ve testi etkinleştirmek için anahtarı kaydırmadan önce motorların ve pervanelerin engellerden uzak olduğundan emin olun!
 
-![Ardusub Motors Test](../../assets/setup/motors-sub.jpg)
+![Ardusub Motorların Testi](../../assets/setup/motors-sub.jpg)
 
 ## Otomatik Yön Algılama {#automatic}
 
-Ardusub 4.0 ve daha yeni sürümler, motor yönlerinin otomatik olarak algılanmasını destekler. This works by applying pulses to each motor, checking if the frame reacts as expected, and reversing the motor if necessary. The process takes around one minute.
+Ardusub 4.0 ve daha yeni sürümler, motor yönlerinin otomatik olarak algılanmasını destekler. Bu, her motora sinyal göndererek, gövdenin beklendiği gibi tepki verip vermediğini kontrol ederek ve gerekirse motoru ters çevirerek çalışır. Bu işlem yaklaşık bir dakika sürer.
 
-To perform the automatic motor direction detection, navigate to **Vehicle Setup->Motors** tab, click the **Auto-Detect Directions** button and wait. Additional output about the process will be shown next to the button as it runs.
+Otomatik motor yönü algılamasını gerçekleştirmek için **Vehicle Setup->Motors ** sekmesine gidin, ** Auto-Detect Directions ** düğmesine tıklayın ve bekleyin. İşlemle ilgili ek çıktı, işlem gerçekleşirken düğmenin yanında gösterilecektir.
 
-> **Warning** This procedure still requires that the motors are connected to the *correct outputs* as shown in the frame view!
+> **Warning** Bu prosedür hala motorların gövde görünümünde gösterildiği gibi * doğru çıkışlara * bağlanmasını gerektirir!
 
-![Ardusub Motors Auto-Setup](../../assets/setup/motors-sub-auto.jpg)
+![Ardusub Motorların Otomatik Kurulumu](../../assets/setup/motors-sub-auto.jpg)
