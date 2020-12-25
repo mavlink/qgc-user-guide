@@ -91,7 +91,7 @@ Gelişmiş ayarlar, günlük kullanıcılar için önerilmez. Yanlış kullanıl
 
 - **Button Frequency**: Tekrarlanan buton eylemlerinin gönderilme sıklığını kontrol eder.
 
-- **Enable Circle Correction**: Uzaktan kumanda çubukları bir kareyi tanımlarken, kumanda çubukları genellikle bir daireyi tanımlar. Bu seçenek etkinleştirildiğinde, daha çok bir RC kontrolörü gibi olmasını sağlamak için joystick hareket alanının içine bir kare yazılır (böylece dört köşenin tamamına ulaşmak mümkündür). The cost is decreased resolution, as the effective stick travel is reduced.
+- **Enable Circle Correction**: Uzaktan kumanda çubukları bir kareyi tanımlarken, kumanda çubukları genellikle bir daireyi tanımlar. Bu seçenek etkinleştirildiğinde, daha çok bir RC kontrolörü gibi olmasını sağlamak için joystick hareket alanının içine bir kare yazılır (böylece dört köşenin tamamına ulaşmak mümkündür). Çubuğun etkili hareket alanı azaldığından, çözünürlükte azalır.
     
     - **Disabled:** When this is **disabled** the joystick position is sent to the vehicle unchanged (the way that it is read from the joystick device). On some joysticks, the (roll, pitch) values are confined to the space of a circle inscribed inside of a square. In this figure, point B would command full pitch forward and full roll right, but the joystick is not able to reach point B because the retainer is circular. This means that you will not be able to achieve full roll and pitch deflection simultaneously.
     
