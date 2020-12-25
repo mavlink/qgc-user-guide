@@ -2,13 +2,13 @@
 
 ArduSub'un düzgün çalışması için motorların doğru şekilde kurulması gerekir.
 
-ROV'nuzu yeni monte ettiyseniz, önce ** Manuel Test ** bölümünde iticilerin doğru çıkışlara bağlandığından emin olun. Drag each slider and make sure that the *correct motor* spins accordingly to the frame displayed.
+ROV'nuzu yeni monte ettiyseniz, önce ** Manuel Test ** bölümünde iticilerin doğru çıkışlara bağlandığından emin olun. Her kaydırıcıyı sürükleyin ve görüntülenen ekrana göre * doğru motorun * döndüğünden emin olun.
 
-Once you know that the thrusters are connected to the proper outputs you can check for *correct direction* (forward/reverse) using either [automatic direction detection](#automatic) (recommended from ArduSub 4.0) or the [manual test](#manual).
+İticilerinin uygun çıkışlara bağlandığından emin olduktan sonra,* doğru yönü * (ileri / geri) kontrol etmek için [ otomatik yön algılama ](#automatic) (ArduSub 4.0'dan iibaren tavsiye edilir) veya [ manuel test](#manual) seçeneklerinden birini kullanabilirsiniz.
 
-> **Note** [Manual Test](#manual) is supported by ArduSub up to 3.5, while ArduSub 4.0 supports both [Manual Test](#manual) and [automatic direction detection](#automatic).
+> ** Note ** [ Manuel Test ](#manual) ArduSub tarafından 3.5 sürümüne kadar desteklenirken, ArduSub 4.0 hem [ Manuel Testi ](#manual) hem de [ otomatik yön algılamayı ](#automatic) destekler.
 
-## Manual Test {#manual}
+## Manuel Test {#manual}
 
 The ArduSub motor setup allows you to test individual motors. The sliders allow spinning each motor in forward or reverse mode, and the checkboxes under the sliders allow reversing the operation of individual thrusters.
 
