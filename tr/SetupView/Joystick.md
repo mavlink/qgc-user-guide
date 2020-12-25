@@ -30,19 +30,19 @@ Joystick'i ayarlamak için:
 2. Joystick ya da Gamepad'i bir USB portuna bağlayın.
 3. Üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Joystick**'i seçin. Aşağıdaki ekran görünecektir.
     
-    ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
+    ![Joystick Kurulumu - Playstation](../../assets/setup/joystick_sony_playstation.jpg)
 
 4. ** Active joystick ** açılır menüsünde kumanda çubuğunuzun seçildiğinden emin olun.
 
 5. **Calibrate ** Sekmesine gidin, ** Start ** tuşuna basın ve sonra çubukları kalibre etmek/hareket ettirmek için ekrandaki talimatları izleyin.
     
-    ![Joystick setup - Calibration](../../assets/setup/joystick_calibration.jpg)
+    ![Joystick Kurulumu - Kalibrasyon](../../assets/setup/joystick_calibration.jpg)
     
     Joystick, kalibrasyon işleminin son adımı olarak * etkinleştirilir *.
 
 6. Düğmelerin ve çubukların amaçlandığı gibi çalışıp çalışmadığını onlara basarak ve sonucu ** General ** sekmesindeki Axis/Buton monitöründe görüntüleyerek test edin.
 
-7. Her bir kumanda kolu düğmesiyle etkinleştirilen uçuş modlarını/araç işlevlerini seçin. ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
+7. Her bir kumanda kolu düğmesiyle etkinleştirilen uçuş modlarını/araç işlevlerini seçin. ![Joystick Kurulumu - Butonlar](../../assets/setup/joystick_buttons.jpg)
 
 ## Gelişmiş Seçenekler
 
@@ -50,7 +50,7 @@ Bazı ek Seçenekler ** Advanced ** sekmesinde mevcuttur. Bu seçenekler, duyarl
 
 ### Gaz Kolu Seçenekleri
 
-![Joystick setup - Throttle Modes](../../assets/setup/joystick_throttle_modes.jpg)
+![Joystick Kurulumu - Gaz Kolu Modları](../../assets/setup/joystick_throttle_modes.jpg)
 
 - **Center stick is zero throttle**: Ortalanmış veya alçaltılmış gaz çubuğu [ MANUAL_CONTROL **z** ](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) ile 0, kaldırılmış gaz çubuğu 1000 gönderir. 
     - **Spring loaded throttle smoothing**: Bu modda gazın kendisini değil, artıp / azaldığı hızı kontrol edersiniz. Bu, gaz kolunun yaylı olduğu kurulumlar için kullanışlıdır, çünkü kullanıcı çubuğu bırakarak gazı istenen seviyede tutabilir.
@@ -61,11 +61,11 @@ Bazı ek Seçenekler ** Advanced ** sekmesinde mevcuttur. Bu seçenekler, duyarl
 
 Expo kaydırıcısı, çubukları merkezde daha az hassas hale getirmenize ve bu bölgede daha iyi kontrol sağlamanıza olanak tanır.
 
-![Joystick setup - Expo](../../assets/setup/joystick_throttle_expo.jpg)
+![Joystick Kurulumu - Expo](../../assets/setup/joystick_throttle_expo.jpg)
 
 Kaydırıcı, üstel eğrinin eğriliğini ayarlar.
 
-![Joystick setup - Expo Curve](../../assets/setup/joystick_throttle_expo_curve.jpg)
+![Joystick Kurulumu - Expo Eğrisi](../../assets/setup/joystick_throttle_expo_curve.jpg)
 
 Expo değeri ne kadar yüksekse, eğri merkezde o kadar düz ve kenarlarda diktir.
 
@@ -73,7 +73,7 @@ Expo değeri ne kadar yüksekse, eğri merkezde o kadar düz ve kenarlarda dikti
 
 Gelişmiş ayarlar, günlük kullanıcılar için önerilmez. Yanlış kullanılırlarsa beklenmeyen sonuçlara neden olabilirler.
 
-![Joystick setup - Advanced Settings](../../assets/setup/joystick_advanced.jpg)
+![Joystick Kurulumu - Gelişmiş Seçenekler](../../assets/setup/joystick_advanced.jpg)
 
 Şu seçenekler mevcuttur:
 
@@ -99,7 +99,7 @@ Gelişmiş ayarlar, günlük kullanıcılar için önerilmez. Yanlış kullanıl
     
     - **Enabled:** Joystick değerleri, komut aralığını eksiksiz sağlamak için yazılımda ayarlanır. Kullanılabilir hareket alanı ve çözünürlük azalır, ancak şekilde gri ile vurgulanan alan artık kullanılmamaktadır.
     
-    ![Circle correction enabled](../../assets/setup/joystick_circle_correction2.jpg)
+    ![Daire düzeltmesi etkinleştirildi](../../assets/setup/joystick_circle_correction2.jpg)
 
 - **Deadbands:**Deadbandler, çubuklar nötr konumlarına yakın olduğunda giriş değişikliklerinin göz ardı edilmesini sağlar. Bu, hassas çubuklarda komut olarak yorumlanabilecek parazitleri veya küçük salınımları ya da çubuklar yeniden ortalanmadığında küçük farkları önlemeye yardımcı olur. [ Kalibrasyonunun ](#configure) ilk adımı sırasında veya ilgili eksen monitöründe dikey olarak sürüklenerek ayarlanabilirler.
 
@@ -153,12 +153,12 @@ Bu oyun kumandası, QGroundControl aracılığıyla bir multirotoru manuel olara
 
 F710, Leopard / Lion'da algılanır, ancak otomatik olarak bir giriş cihazı olarak yapılandırılmaz. Çalışan bir konfigürasyon elde etmek için, F710'un * Rumblepad2 * olarak tanınması gerekir.
 
-First check how it is recognised: **Apple > About this Mac > Additional Information > System Report > USB**. It is detected as "Logitech Cordless RumblePad 2" then nothing further needs to be done.
+Önce nasıl tanındığını kontrol edin: ** Apple> Bu Mac Hakkında> Ek Bilgi> Sistem Raporu> USB **. "Logitech Cordless RumblePad 2" olarak algılanmışsa bundan sonra başka bir işlem yapılmasına gerek yoktur.
 
-If it is detected as a "Logitech Wireless 710", perform these steps:
+"Logitech Wireless 710" olarak algılanırsa, şu adımları gerçekleştirin:
 
-1. Unplug the USB receiver of the gamepad
-2. Prepare to quickly plug it into a USB port
-3. Hit the Logitech button (its silver with the Logitech Logo on it in the center of the pad)
-4. Quickly connect the USB receiver to your Mac
-5. The pad should now be detected in the system report as "Logitech Cordless RumblePad 2". If not, retry the above steps.
+1. Oyun kumandasının USB alıcısını çıkarın
+2. Hızlı bir şekilde bir USB bağlantı noktasına takmaya hazırlanın
+3. Logitech düğmesine basın (kumandanın ortasında bulunan gümüş rengi Logitech logosu)
+4. USB alıcısını Mac'inize hızla bağlayın
+5. Kumanda artık sistem raporunda "Logitech Cordless RumblePad 2" olarak algılanmalıdır. Eğer algılanmazsa yukarıdaki adımları tekrar deneyin.
