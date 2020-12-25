@@ -10,7 +10,7 @@ ROV'nuzu yeni monte ettiyseniz, önce ** Manuel Test ** bölümünde iticilerin 
 
 ## Manuel Test {#manual}
 
-The ArduSub motor setup allows you to test individual motors. The sliders allow spinning each motor in forward or reverse mode, and the checkboxes under the sliders allow reversing the operation of individual thrusters.
+ArduSub motor kurulumu, motorları teker teker test etmenize olanak sağlar. The sliders allow spinning each motor in forward or reverse mode, and the checkboxes under the sliders allow reversing the operation of individual thrusters.
 
 The image at the right shows the frame currently in use, along with the location and orientation of each thruster. If the frame selection does not match your vehicle, first select the correct frame in the [Frame](../SetupView/airframe_ardupilot.md#ardusub) tab.
 
