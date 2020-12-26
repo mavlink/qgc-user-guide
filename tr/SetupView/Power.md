@@ -1,19 +1,19 @@
-# Power Setup
+# Güç Kurulumu
 
-The *Power Setup* screen is used to configure battery parameters and also provide advanced settings for propellers.
+*Power Setup* ekranı batarya parametrelerini düzenlemek için kullanılır ve ayrıca pervaneler hakkında gelişmiş ayarlar sunar.
 
 ![Battery Calibration](../../assets/setup/PX4Power.jpg)
 
-## Battery Voltage/Current Calibration
+## Batarya Voltaj/Akım Kalibrasyonu
 
-Enter data for your battery/power module from its data sheet: number of cells, full voltage per cell, empty voltage per cell. If provided, also enter voltage divider and amps-per-volt information.
+Batarya/güç modülünüz için veri sayfasından verileri girin: hücre sayısı, hücre başına tam voltaj, hücre başına boş voltaj. Eğer varsa, voltaj bölücü ve volt başına amper bilgilerini de girin.
 
-*QGroundControl* can be used to calculate appropriate voltage divider and amps-per-volt values from measurements:
+*QGroundControl*, ölçümlerden uygun voltaj bölücü ve volt başına amper değerlerini hesaplamak için kullanılabilir:
 
-1. Measure the voltage from the battery using a multimeter.
-2. Click **Calculate** next to the *Voltage divider* field. On the prompt that appears: 
-    1. Enter the measured voltage.
-    2. Click **Calculate** to generate a new voltage-divider value.
+1. Bir multimetre kullanarak pilden gelen voltajı ölçün.
+2. *Voltage divider*'ın yanındaki **Calculate** butonuna tıklayın. Gelen pencerede: 
+    1. Ölçülen voltajı girin.
+    2. **Calculate**'e tıklayarak yeni bir voltaj bölücü değeri oluşturun.
     3. Click **Close** to save the value into the main form. 
 3. Measure the current from the battery.
 4. Click **Calculate** next to the *Amps per volt* field. On the prompt that appears: 
