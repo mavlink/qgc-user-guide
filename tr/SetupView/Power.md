@@ -2,7 +2,7 @@
 
 *Power Setup* ekranı batarya parametrelerini düzenlemek için kullanılır ve ayrıca pervaneler hakkında gelişmiş ayarlar sunar.
 
-![Battery Calibration](../../assets/setup/PX4Power.jpg)
+![Batarya Kalibrasyonu](../../assets/setup/PX4Power.jpg)
 
 ## Batarya Voltaj/Akım Kalibrasyonu
 
@@ -45,4 +45,4 @@ ESC'nin max/min PWM değerlerini kalibre etmek için:
 
 ## Diğer Ayarlar
 
-Select the **Show UAVCAN Settings** checkbox to access additional settings for UAVCAN Bus Configuration and motor index and direction assignment.
+UAVCAN Veriyolu Yapılandırması ve motor indeksi ve yön ataması için ek ayarlara erişmek için **Show UAVCAN Settings** onay kutusunu seçin.
