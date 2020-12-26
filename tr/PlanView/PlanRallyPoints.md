@@ -1,28 +1,28 @@
-# Plan View - Rally Points
+# Plan Ekranı - Toparlanma Noktaları
 
-Rally Points are alternative landing or loiter locations. They are typically used to provide a safer or more convenient (e.g. closer) destination than the home position in Return/RTL mode.
+Toparlanma noktaları, iniş ya da oyalanma noktalarına alternatif noktalardır. Genellikle Geri Dönüş / RTL modunda ana konumdan daha güvenli veya daha uygun (örneğin daha yakın) bir varış noktası sağlamak için kullanılırlar.
 
-> **Note** Rally Points are only supported by ArduPilot on Rover 3.6 and Copter 3.7 (or higher). PX4 support is planned in PX4 v1.10 timeframes. It also requires usage of a Daily build or Stable 3.6 (once available). *QGroundControl* will not display the Rally Point options if they are not supported by the connected vehicle.
+> **Note** Toparlanma Noktaları sadece Rover 3.6 ve Copter3.7 (ve üzeri sürümlerde) desteklenir. PX4 desteği, PX4 v1.10 zaman dilimlerinde planlanmıştır. Ek olarak günlük sürümlerin ya da stabil 3.6 sürümünün (erişilebilir olduğunda) kullanılmasını gerektirir. Eğer bağlanan cihaz tarafından Toparlanma Noktası seçeneği desteklenmiyorsa *QGroundControl* seçeneği göstermeyecektir.
 
-![Rally Points](../../assets/plan/rally/rally_points_overview.jpg)
+![Toparlanma Noktaları](../../assets/plan/rally/rally_points_overview.jpg)
 
-## Rally Point Usage
+## Toparlanma Noktası Kullanımı
 
-To create Rally Points:
+Toparlanma Noktası oluşturmak için:
 
-1. Navigate to the Plan View
-2. Select the *Rally* radio button above the Mission Command List
-3. Click the map wherever you want rally points. 
-    - An **R** marker is added for each
-    - the currently active marker has a different colour (green) and can be edited using the *Rally Point* panel.
-4. Make any rally point active by selecting it on the map: 
-    - Move the active rally point by either dragging it on the map or editing the position in the panel.
-    - Delete the active rally point by selecting the menu option on the *Rally Point* panel ![Delete Rally Point](../../assets/plan/rally/rally_points_delete.jpg)
+1. Plan Ekranı'na gidin
+2. Görev Komutları Listesi'nin üstünden *Rally*'i seçin
+3. Haritanın neresinde toparlanma noktası olmasını istiyorsanız tıklayın. 
+    - Her biri için bir **R** işareti eklenir
+    - şu anda aktif olan işaretçi farklı bir renge (yeşil) sahiptir ve *Rally Point* paneli kullanılarak düzenlenebilir.
+4. Harita üzerinde seçerek herhangi bir toplanma noktasını etkinleştirin: 
+    - Seçilen toplanma noktasını harita üzerinde sürükleyerek veya paneldeki konumu düzenleyerek hareket ettirin.
+    - Aktif toplanma noktasını * Rally Point* panelindeki menü seçeneğini seçerek silin ![Toplanma Noktasını Sil](../../assets/plan/rally/rally_points_delete.jpg)
 
-## Upload Rally Points
+## Toparlanma Noktalarını Yükleme
 
-Rally points are uploaded in the same way as a mission, using **File** in the [Plan tools](../PlanView/PlanView.md).
+Toparlanma Noktaları bir görevle aynı şekilde yüklenir, [Plan tools](../PlanView/PlanView.md)'dan **File**'ı kullanarak.
 
-## Remaining tools
+## Diğer Araçlar
 
-The rest of the tools work exactly as they do while editing a Mission.
+Araçların geri kalanı, bir Görevi düzenlerken olduğu gibi çalışır.

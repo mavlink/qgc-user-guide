@@ -28,9 +28,9 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 *QGroundControl* macOS 10.20 veya daha güncel sürümlere kurulabilir:
 
 1. [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)'i indirin.
-2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
+2. .dmg dosyasına çift tıklayın, ardından çıkan ekranda *QGroundControl*'ü *Application* dosyasına sürükleyin.
     
-    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. QGC uygulamasını ilk defa açmak için:
+    > **Note** QGroundControl imzasız olduğu için Catalina'da problem olmaya devam etmektedir. QGC uygulamasını ilk defa açmak için:
     > 
     > * QGC uygulama ikonuna sağ tıklayın, menüden Aç'ı seçin. Karşınıza yalnızca İptal Et seçeneği çıkacaktır. İptal Et'i seçin.
     > * QGC uygulama ikonuna tekrar sağ tıklayın, menüden Aç'ı seçin. Bu sefer Aç seçeneği de size sunulacaktır.

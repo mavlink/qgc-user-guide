@@ -1,16 +1,16 @@
-# Airframe Setup (PX4)
+# Gövde Kurulumu (PX4)
 
-To select the airframe in PX4:
+PX4 de gövde seçmek için:
 
-1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
-2. Select the broad vehicle group/type that matches your airframe and then use the dropdown within the group to choose the airframe that best matches your vehicle.
+1. İlk olarak üstteki araç çubuğundan **dişli** simgesini (Vehicle Setup), daha sonra kenar çubuğundan **Airframe**'i seçin.
+2. Araç gövdenizle eşleşen araç grubu/modelini seçin ve gruptaki açılır menüden aracınıza en uygun gövde modelini seçin.
     
-    ![Airframe options](../../assets/setup/airframe_px4.jpg)
+    ![Gövde Seçenekeri](../../assets/setup/airframe_px4.jpg)
     
-    The example above shows *3DR Iris Quadrotor* selected from the *Quadrotor Wide* group.
+    Yukarıdaki örnek, * Quadrotor Wide * grubundan seçilen * 3DR Iris Quadrotor * 'u gösterir.
 
-3. Click the **Apply and Restart** button to the top right of the screen.
+3. Ekranın sağ üstünde bulunan **Apply and Restart** butonuna tıklayın.
 
-4. Click **Apply** in the following prompt to save the settings and restart the vehicle.
+4. Ayarları kaydetmek ve aracı yeniden başlatmak için karşınıza çıkan pecereden **Apply**'e tıklayın.
     
-    <img src="../../assets/setup/airframe_px4_apply_prompt.jpg" width="200px" title="Apply airframe selection prompt" />
+    <img src="../../assets/setup/airframe_px4_apply_prompt.jpg" width="200px" title="Gövde seçim istemini uygula" />
