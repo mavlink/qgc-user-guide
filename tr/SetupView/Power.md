@@ -14,20 +14,20 @@ Batarya/güç modülünüz için veri sayfasından verileri girin: hücre sayıs
 2. *Voltage divider*'ın yanındaki **Calculate** butonuna tıklayın. Gelen pencerede: 
     1. Ölçülen voltajı girin.
     2. **Calculate**'e tıklayarak yeni bir voltaj bölücü değeri oluşturun.
-    3. Click **Close** to save the value into the main form. 
-3. Measure the current from the battery.
-4. Click **Calculate** next to the *Amps per volt* field. On the prompt that appears: 
-    1. Enter the measured current.
-    2. Click **Calculate** to generate a new *amps per volt* value.
-    3. Click **Close** to save the value into the main form. 
+    3. Değeri ana forma kaydetmek için **Close**'a tıklayın. 
+3. Bataryadaki akımı ölçün.
+4. *Amps per volt*'un yanındaki **Calculate** butonuna tıklayın. Gelen pencerede: 
+    1. Ölçülen akımı girin.
+    2. **Calculate**'e tıklayarak yeni bir *volt başına akım* değeri oluşturun.
+    3. Değeri ana forma kaydetmek için **Close**'a tıklayın. 
 
-## Advanced Power Settings
+## Gelişmiş Güç Ayarları
 
-Click the **Show Advanced Settings** checkbox to specify advanced power settings.
+Gelişmiş güç ayarlarını özelleştirmek için **Show Advanced Settings** onay kutusuna tıklayın.
 
-### Voltage Drop on Full Load
+### Tam Yükte Voltaj Düşüşü
 
-Batteries show less voltage at high throttle. Enter the difference in Volts between idle throttle and full throttle, divided by the number of battery cells. The default value should be used if unsure!
+Bataryalar yüksek yüklemelerde daha az voltaj gösterir. Enter the difference in Volts between idle throttle and full throttle, divided by the number of battery cells. The default value should be used if unsure!
 
 > **Warning** If the value is too high the battery may be deep-discharged and damaged.
 
