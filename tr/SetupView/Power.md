@@ -27,7 +27,7 @@ Gelişmiş güç ayarlarını özelleştirmek için **Show Advanced Settings** o
 
 ### Tam Yükte Voltaj Düşüşü
 
-Bataryalar yüksek yüklemelerde daha az voltaj gösterir. Enter the difference in Volts between idle throttle and full throttle, divided by the number of battery cells. The default value should be used if unsure!
+Bataryalar yüksek motor yüklemelerinde daha az voltaj gösterir. Motorlar boştayken ve tam kapasitede çalışırkenki volt farkını batarya hücrelerinin sayısına bölerek girin. Emin değilseniz varsayılan değer kullanılmalıdır!
 
 > **Warning** If the value is too high the battery may be deep-discharged and damaged.
 
