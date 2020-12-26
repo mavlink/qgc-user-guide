@@ -6,4 +6,4 @@
 
 ![GeoTag Görüntüleri Analiz Ekranı](../../assets/analyze/geotag_images.jpg)
 
-Kayıt dosyasını, görüntüyü ve (isterseniz) etiketlenmiş görüntülerin nereye kayıt edileceğini seçin. Görüntüleri coğrafi etiketlemye başlamak için **Start Tagging** 'e tıklayın.
+Kayıt dosyasını, görüntüyü ve (isterseniz) etiketlenmiş görüntülerin nereye kayıt edileceğini seçin. Görüntüleri coğrafi etiketlemeye başlamak için **Start Tagging** 'e tıklayın.
