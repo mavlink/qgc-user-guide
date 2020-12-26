@@ -29,20 +29,20 @@ Gelişmiş güç ayarlarını özelleştirmek için **Show Advanced Settings** o
 
 Bataryalar yüksek motor yüklemelerinde daha az voltaj gösterir. Motorlar boştayken ve tam kapasitede çalışırkenki volt farkını batarya hücrelerinin sayısına bölerek girin. Emin değilseniz varsayılan değer kullanılmalıdır!
 
-> **Warning** If the value is too high the battery may be deep-discharged and damaged.
+> **Warning** Eğer değer çok yüksekse batarya deep-discharged olabilir ve hasar görebilir.
 
-## ESC PWM Minimum and Maximum Calibration
+## ESC PWM Minimum ve Maksimum Kalibrasyonu
 
-To calibrate the ESC max/min PWM values:
+ESC'nin max/min PWM değerlerini kalibre etmek için:
 
-1. Remove the propellers. 
-2. Connect the vehicle to QGC via USB (only). 
-3. Click the **Calibrate** button.
+1. Pervaneleri çıkarın. 
+2. Aracı QGC'ye USB (sadece) aracılığı ile bağlayın. 
+3. **Calibrate** butonuna basın.
 
-> **Warning** Never attempt ESC calibration with props on.
+> **Warning** Pervaneler takılıyken hiçbir zaman ESC kalibrasyonunu denemeyin.
 > 
-> Motors should not spin during ESC calibration. However if an ESC doesn't properly support/detect the calibration sequence then it will respond to the PWM input by running the motor at maximum speed.
+> ESC kalibrasyonu sırasında motorlar dönmemelidir. Bununla birlikte, bir ESC kalibrasyon sırasını doğru şekilde desteklemez/tespit etmezse, motoru maksimum hızda çalıştırarak PWM girişine yanıt verecektir.
 
-## Other Settings
+## Diğer Ayarlar
 
 Select the **Show UAVCAN Settings** checkbox to access additional settings for UAVCAN Bus Configuration and motor index and direction assignment.
