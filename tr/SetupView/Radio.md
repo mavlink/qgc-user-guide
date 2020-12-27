@@ -4,9 +4,9 @@ Radyo Kurulumu, ana vericinizin konum kontrol çubuklarını(dönüş, eğim, sa
 
 Ana kalibrasyon süreci PX4 ve ArduPilot için aynıdır (bazı ek uçuş kontrol cihazına özgü ayarlar / araçlar [ aşağıda ayrıntılı](#additional-radio-setup) olarak açıklanmıştır).
 
-> **Note** Before you can calibrate the radio system the receiver and transmitter must be connected/bound. The process for binding a transmitter and receiver pair is hardware specific (see your manual for instructions).
+> **Note** Radyo sistemini kalibre etmeden önce, alıcı ve vericinin bağlanması gerekir. Bir alıcı ve verici çiftini bağlama işlemi donanıma özeldir ( talimatlar için kılavuzunuza bakın).
 
-## Performing the Calibration
+## Kalibrasyonun Yapılması
 
 The calibration process is straightforward - you will be asked to move the sticks in a specific pattern that is shown on the transmitter diagram on the top right of the screen. Simply follow the instructions to complete calibration.
 
