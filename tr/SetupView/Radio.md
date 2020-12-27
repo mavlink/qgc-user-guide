@@ -20,11 +20,11 @@ Radyoyu kalibre etmek için:
     
     > **Note** Yukardaki görüntü PX4 Pro içindir. Her iki aygıt yazılımı için kalibrasyon/üst bölüm aynıdır, ancak * Ek Radyo Ayarları * bölümü farklı olacaktır.
 
-4. Set the *transmitter mode* radio button that matches your transmitter configuration (this ensures that *QGroundControl* displays the correct stick positions for you to follow during calibration).
+4. Verici yapılandırmanıza uyan radyo * verici modunu * seçin (bu, * QGroundControl * 'ın kalibrasyon sırasında izlemeniz için doğru çubuk pozisyonlarını görüntülemesini sağlar).
     
     ![Radio setup - move sticks](../../assets/setup/radio_sticks_throttle.jpg)
 
-5. Move the sticks to the positions indicated in the text (and on the transmitter image). Press **Next** when the sticks are in position. Repeat for all positions.
+5. Çubukları metinde (ve verici görüntüsünde) belirtilen pozisyonlara hareket ettirin. Çubuklar doğru pozisyondayken ** Next ** tuşuna basın. Tüm pozisyonlar için tekrar edin.
 
 6. When prompted, move all other switches and dials through their full range (you will be able to observe them moving on the *Channel Monitor*).
 
