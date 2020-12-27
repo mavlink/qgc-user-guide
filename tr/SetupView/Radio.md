@@ -1,8 +1,8 @@
 # Radyo Kurulumu
 
-Radio Setup is used to configure the mapping of your main transmitter attitude control sticks (roll, pitch, yaw, throttle) to channels, and to calibrate the minimum, maximum, trim and reverse settings for all other transmitter controls/RC channels.
+Radyo Kurulumu, ana vericinizin konum kontrol çubuklarını(dönüş, eğim, sapma, gaz kolu) kanallara eşlemesini yapılandırmak ve diğer tüm verici kontrolleri / RC kanalları için minimum, maksimum, trim ve geri ayarlarını kalibre etmek için kullanılır.
 
-The main calibration process is identical for PX4 and ArduPilot (a number of additional flight-controller specific settings/tools are [detailed below](#additional-radio-setup)).
+Ana kalibrasyon süreci PX4 ve ArduPilot için aynıdır (bazı ek uçuş kontrol cihazına özgü ayarlar / araçlar [ aşağıda ayrıntılı](#additional-radio-setup) olarak açıklanmıştır).
 
 > **Note** Before you can calibrate the radio system the receiver and transmitter must be connected/bound. The process for binding a transmitter and receiver pair is hardware specific (see your manual for instructions).
 
