@@ -10,7 +10,7 @@
 
 <span></span>
 
-> ** Not ** Kumanda kolu, kalibrasyon işleminin son adımı olarak * etkinleştirilir *.
+> ** Note ** Kumanda kolu, kalibrasyon işleminin son adımı olarak * etkinleştirilir *.
 
 ## PX4 Joystick Desteğini Etkinleştirme
 
