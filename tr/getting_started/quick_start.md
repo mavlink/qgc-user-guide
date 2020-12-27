@@ -2,7 +2,7 @@
 
 *QGroundControl*'ü kurmak ve çalıştırmak, hızlı ve kolaydır:
 
-1. [Download and install](../getting_started/download_and_install.md)'a tıklayarak uygulamayı indirin ve kurun.
+1. Uygulamayı [indirin ve kurun](../getting_started/download_and_install.md).
 2. *QGroundControl*'ü başlatın. 
 3. Aracınızı yer istasyonu cihazına USB, telemetri veya WIFI ile bağlayın. *QGroundControl* aracınızı otomatik olarak tespit edip bağlanacaktır.
 
