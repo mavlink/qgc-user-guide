@@ -8,17 +8,17 @@ Ana kalibrasyon süreci PX4 ve ArduPilot için aynıdır (bazı ek uçuş kontro
 
 ## Kalibrasyonun Yapılması
 
-The calibration process is straightforward - you will be asked to move the sticks in a specific pattern that is shown on the transmitter diagram on the top right of the screen. Simply follow the instructions to complete calibration.
+Kalibrasyon işlemi basittir - çubukları ekranın sağ üst köşesindeki verici diyagramında gösterilen belirli bir düzende hareket ettirmeniz istenecektir. Kalibrasonu tamamlamak için talimatları izlemeniz yeterlidir.
 
-To calibrate the radio:
+Radyoyu kalibre etmek için:
 
-1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Radio** in the sidebar.
-2. Turn on your RC transmitter.
-3. Press **OK** to start the calibration.
+1. Üstteki araç çubuğundan **dişli** simgesini (Vechicle Setup), daha sonra kenar çubuğundan **Radio**'u seçin.
+2. RC vericinizi açın.
+3. Kalibrasyonu başlatmak için **OK**'a basın.
     
     ![Radio setup - before starting](../../assets/setup/radio_start_setup.jpg)
     
-    > **Note** The image above is for PX4 Pro. Calibration/top section is the same for both firmware, but the *Additional Radio setup* section will differ.
+    > **Note** Yukardaki görüntü PX4 Pro içindir. Her iki aygıt yazılımı için kalibrasyon/üst bölüm aynıdır, ancak * Ek Radyo Ayarları * bölümü farklı olacaktır.
 
 4. Set the *transmitter mode* radio button that matches your transmitter configuration (this ensures that *QGroundControl* displays the correct stick positions for you to follow during calibration).
     
