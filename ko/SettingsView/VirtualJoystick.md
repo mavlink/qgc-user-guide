@@ -10,7 +10,9 @@
 
 To enable the virtual joysticks:
 
-1. Select the **Q** icon (*Application Settings*) from the top toolbar and then **General** from the sidebar.
-2. Select the **Virtual joystick** checkbox
+1. Select the **Q** icon from the top toolbar
+2. Open the **Application Settings**
+3. Make sure you're on the **General** tab
+4. Check the **Virtual joystick** box
     
-    ![QGroundControl Preferences > Enable Virtual Joystick](../../assets/settings/joystick_virtual_joystick_enable.jpg)
+    ![QGroundControl Application Settings > Enable Virtual joystick](../../assets/settings/joystick_virtual_joystick_enable.png)
