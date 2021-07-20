@@ -31,14 +31,14 @@
   * [카메라](SetupView/Camera.md)
   * [조이스틱](SetupView/Joystick.md)
   * [파라미터](SetupView/Parameters.md)
-* [Application Settings](SettingsView/SettingsView.md) * [General](SettingsView/General.md) * [CSV Logging](SettingsView/csv.md) * [Offline Maps](SettingsView/OfflineMaps.md) * [MAVLink](SettingsView/MAVLink.md) * [Console Logging](SettingsView/console_logging.md) * [Virtual Joystick (PX4)](SettingsView/VirtualJoystick.md)
-* [Analyze](analyze_view/README.md) 
-  * [Log Download](analyze_view/log_download.md)
-  * [GeoTag Images (PX4)](analyze_view/geotag_images.md)
-  * [MAVLink Console (PX4)](analyze_view/mavlink_console.md)
-  * [MAVLink Inspector](analyze_view/mavlink_inspector.md)
+* [응용 세팅](SettingsView/SettingsView.md) * [일반](SettingsView/General.md) * [CSV 로깅](SettingsView/csv.md) * [오프라인 지도](SettingsView/OfflineMaps.md) * [MAVLink](SettingsView/MAVLink.md) * [콘솔 로깅](SettingsView/console_logging.md) * [가상 조이스틱 (PX4)](SettingsView/VirtualJoystick.md)
+* [분석](analyze_view/README.md) 
+  * [로그 다운로드](analyze_view/log_download.md)
+  * [지오태그 이미지 (PX4)](analyze_view/geotag_images.md)
+  * [MAVLink 콘솔 (PX4)](analyze_view/mavlink_console.md)
+  * [MAVLink 탐색기](analyze_view/mavlink_inspector.md)
 
-* [Releases](releases/README.md) * [Release Notes](releases/release_notes.md) * [v4.0 (Additional Notes)](releases/stable_v4.0_additional.md) * [v3.3 (Detailed)](releases/stable_v3.3_long.md) * [v3.2 (Detailed)](releases/stable_v3.2_long.md) * [Daily Builds](releases/daily_builds.md) * [Daily Build New Features](releases/daily_build_new_features.md) * [Privacy Policy](releases/privacy_policy.md)
+* [릴리즈](releases/README.md) * [릴리즈 노트](releases/release_notes.md) * [v4.0 (추가 노트)](releases/stable_v4.0_additional.md) * [v3.3 (상세)](releases/stable_v3.3_long.md) * [v3.2 (상세)](releases/stable_v3.2_long.md) * [데일리 빌드](releases/daily_builds.md) * [데일리 빌드 새로운 기능](releases/daily_build_new_features.md) * [개인정보 처리방침](releases/privacy_policy.md)
 
 * [Support](Support/Support.md) * [QGC Install/Config Problems](Support/troubleshooting_qgc.md) * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md) * [Connection problems](Support/VehicleConnection.md) * [Parameter Download failures](Support/ParameterDownload.md) * [Plan Upload/Download failures](Support/PlanUploadDownload.md) * [Resume Mission failures](Support/ResumeMission.md)
 
