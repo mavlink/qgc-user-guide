@@ -40,18 +40,18 @@
 
 * [릴리즈](releases/README.md) * [릴리즈 노트](releases/release_notes.md) * [v4.0 (추가 노트)](releases/stable_v4.0_additional.md) * [v3.3 (상세)](releases/stable_v3.3_long.md) * [v3.2 (상세)](releases/stable_v3.2_long.md) * [데일리 빌드](releases/daily_builds.md) * [데일리 빌드 새로운 기능](releases/daily_build_new_features.md) * [개인정보 처리방침](releases/privacy_policy.md)
 
-* [Support](Support/Support.md) * [QGC Install/Config Problems](Support/troubleshooting_qgc.md) * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md) * [Connection problems](Support/VehicleConnection.md) * [Parameter Download failures](Support/ParameterDownload.md) * [Plan Upload/Download failures](Support/PlanUploadDownload.md) * [Resume Mission failures](Support/ResumeMission.md)
+* [지원](Support/Support.md) * [QGC 설치/설정 문제](Support/troubleshooting_qgc.md) * [QGC/기체 상호 작용 문제](Support/CommonProblems.md) * [연결 문제](Support/VehicleConnection.md) * [파라미터 다운로드 실패](Support/ParameterDownload.md) * [계획 업로드/다운로드 실패](Support/PlanUploadDownload.md) * [미션 재개 실패](Support/ResumeMission.md)
 
-## Flight Stacks
+## Flight Stack
 
 * [PX4 Pro](https://docs.px4.io/en/)
 * [ArduPilot](http://ardupilot.org/)
 
-## Dronecode Shortcuts
+## 드론코드 관련 링크
 
-* [QGroundControl Developer Guide](https://dev.qgroundcontrol.com/en/)
-* [PX4 User Guide](https://docs.px4.io/en/)
-* [PX4 Developer Guide](https://dev.px4.io/en/)
-* [MAVLink Guide](https://mavlink.io/en/)
+* [QGroundControl 개발자 안내서](https://dev.qgroundcontrol.com/en/)
+* [PX4 사용자 안내서](https://docs.px4.io/en/)
+* [PX4 개발자 설명서](https://dev.px4.io/en/)
+* [MAVLink 안내서](https://mavlink.io/en/)
 * [MAVSDK](https://mavsdk.mavlink.io/)
-* [Dronecode Camera Manager](https://camera-manager.dronecode.org/en/)
+* [드론코드 카메라 관리](https://camera-manager.dronecode.org/en/)
