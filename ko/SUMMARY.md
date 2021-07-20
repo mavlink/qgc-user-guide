@@ -1,12 +1,12 @@
-# Summary
+# 요약
 
 * [개요](README.md)
 * [바로 시작하기](getting_started/quick_start.md)
 * [다운로드 및 설치](getting_started/download_and_install.md)
 * [도구바/메뉴](toolbar/toolbar.md)
-* [Fly](FlyView/FlyView.md) 
-  * [Replay Flight Data](FlyView/replay_flight_data.md)
-  * [Video Overlay](FlyView/VideoOverlay.md)
+* [비행화면](FlyView/FlyView.md) 
+  * [비행데이터 재생](FlyView/replay_flight_data.md)
+  * [비디오 오버레이](FlyView/VideoOverlay.md)
 * [Plan](PlanView/PlanView.md) * [GeoFence](PlanView/PlanGeoFence.md) * [Rally Points](PlanView/PlanRallyPoints.md) * [Pattern](PlanView/Pattern.md) * [Survey](PlanView/pattern_survey.md) * [Structure Scan](PlanView/pattern_structure_scan_v2.md) * [Corridor Scan](PlanView/pattern_corridor_scan.md) * [Fixed Wing Landing Pattern](PlanView/pattern_fixed_wing_landing.md) * [Pattern Presets](PlanView/PatternPresets.md)
 * [Vehicle Setup](SetupView/SetupView.md) 
   * [펌웨어](SetupView/Firmware.md)
