@@ -12,7 +12,9 @@ You can drill down into individual messages to get the message id, source compon
 You can also chart field values in real time, selecting multiple fields from multiple messages to display on one of two charts.
 
 To use the *MAVLink Inspector*:
-1. Select **Analyze | MAVLink Inspector**.
+1. Open *Analyze View* by selecting the *QGroundControl* application menu ("Q" icon in top left corner) and then choosing the **Analyze Tools** button (from the *Select Tool* popup).
+   ![Analyze ](../../assets/analyze/menu_analyze_tool.png)
+1. Select the **MAVLink Inspector** from the sidebar.
 
    ![MAVLink inspector menu](../../assets/analyze/mavlink_inspector/mavlink_inspector_menu.jpg)
 
