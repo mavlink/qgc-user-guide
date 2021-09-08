@@ -1,26 +1,24 @@
-{   
+{
     "gitbook": ">= 3.2.2",
     "title": "QGroundControl User Guide",
     "variables": {
         "logo": "./assets/site/logo_qgc_rgb_horizontal.png",
         "qgc_version": "master"
     },
-	
+
     "plugins": [
         "youtube",
-        "richquotes@git+https://github.com/Dronecode/gitbook-plugin-richquotes.git",
         "anchors",
         "page-toc-button",
         "collapsible-menu",
-        "language-picker",
         "custom-favicon",
-        "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
-        "bulk-redirect@git+https://github.com/Dronecode/gitbook-plugin-bulk-redirect.git",
-        "validate-links",
+        "language-picker",
+        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git",
+        "richquotes@git+https://github.com/Dronecode/gitbook-plugin-richquotes.git",
         "versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git",
-        "theme-dronecode@git+https://github.com/dronecode/theme-dronecode.git"
+        "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
+        "bulk-redirect@git+https://github.com/Dronecode/gitbook-plugin-bulk-redirect.git"
     ],
-	
     "pluginsConfig": {       
         "language-redirect": {
             "baseurl": "https://docs.qgroundcontrol.com/en/"
@@ -43,12 +41,12 @@
                 }
             ]
         },
-        
+
         "bulk-redirect": {
             "basepath": "/",
             "redirectsFile": "redirects.json"
         },
-        
+
         "toolbar": {
             "buttons":
             [
@@ -57,7 +55,6 @@
                     "icon": "fa fa-bug",
                     "position" : "left",
                     "url": "https://github.com/mavlink/qgc-user-guide/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"
-                    
                 },
                 {
                     "label": "GitHub",
@@ -72,10 +69,9 @@
                 }
             ]
         }
-        
-        
-    } 
 
+
+    }
 
 }
 
