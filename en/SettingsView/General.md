@@ -16,7 +16,7 @@ This section defines the display units used in the application.
 
 The settings are:
 - **Distance**: Meters | Feet
-- **Area**: SquareMetres | SquareFeet | SquareKilometers | Hectares | Acres |SquareMiles
+- **Area**: SquareMetres | SquareFeet | SquareKilometers | Hectares | Acres | SquareMiles
 - **Speed**: Metres/second | Feet/second | Miles/hour | Kilometres/hour | Knots
 - **Temperature**: Celsius | Fahrenheit
 
