@@ -16,7 +16,7 @@ You can use it to:
 The screenshot above shows the main elements of the fly view:
 
 - **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle.
-  - You can drag the map to move it around (the map automatically re-centres around the vehicle after a certain amount of time).
+  - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
   - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status).
   - Select the sensor indicators to view more detail.
@@ -28,7 +28,7 @@ The screenshot above shows the main elements of the fly view:
   - Safety return (also known as RTL or Return).
   - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). 
     Actions include changing the altitude or continuing a mission.
-  - Enable the [preflight checklist](#preflight_checklist) (Application Settings -> Fly View; disabled by default).
+  - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
 - **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
   - Press the element to switch *Video* and *Map* to foreground.
@@ -317,7 +317,7 @@ This is meant to prevent issues where stale missions are unknowingly left on a v
 ### Display Video {#video_switcher}
 
 When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map.
-You can press the switcher anywhere to toggle *Video* and *Map* to foreground (below the video is shown in the foreground).
+You can press the switcher anywhere to toggle *Video* and *Map* to foreground (in the image below, the video is shown in the foreground).
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
