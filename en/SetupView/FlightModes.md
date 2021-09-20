@@ -18,7 +18,7 @@ To access this section, select the **Gear** icon (Vehicle Setup) in the top tool
 
 On ArduPilot you can assign up to 6 different flight modes to a single channel of your transmitter (the channel is selectable on Plane, but fixed to channel 5 on Copter).
 
-ArduCopter (only) also allows you to specify additional *Channel Options* for channels 7-12. These allow you to assign functions to these switches (for example, to turn on a camera, or return to launch). There is additional information about channel configuration in the ArduCopter docs: [Auxiliary Function Switches](
+ArduCopter (only) also allows you to specify additional *Channel Options* for channels 7-12. These allow you to assign functions to these switches (for example, to turn on a camera, or return to launch). There is additional information about channel configuration in the ArduCopter docs: [Auxiliary Function Switches](https://ardupilot.org/copter/docs/channel-7-and-8-options.html#channel-7-and-8-options)
 
 To set the flight modes:
 
@@ -49,7 +49,7 @@ All values are automatically saved as they are changed.
 - **Single Channel Mode Selection:** Assign up to 6 flight modes to switch positions encoded in a single channel. 
 - **Multi Channel Mode Selection:** Assign modes to switch positions encoded in one or more channels. Some modes are hard coded to share channels, or are defined/set automatically based on other mode selections (the behaviour of multi-channel mode selection can sometimes be confusing). 
 
-> **Tip** The recommended approach is use *Single Channel Mode Selection* because it easy to understand and configure. It is similar to the approach used by ArduPilot. 
+> **Tip** The recommended approach is to use *Single Channel Mode Selection* because it is easy to understand and configure. It is similar to the approach used by ArduPilot. 
 
 
 ### Single-Channel Mode {#single_channel}
@@ -90,7 +90,7 @@ The video then shows how to use *QGroundControl* to specify the mode channel and
 {% youtube %}
 http://www.youtube.com/watch?v=scqO7vbH2jo
 {% endyoutube %}
-
+** NOTE: THE ABOVE VIDEO LINK IS BROKEN **
 
 ### Multi-Channel Mode
 

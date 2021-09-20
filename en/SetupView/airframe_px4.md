@@ -10,7 +10,7 @@ To select the airframe in PX4:
    
    The example above shows *Generic Hexarotor X geometry* selected from the *Hexarotor X* group.
 
-1. Click the **Apply and Restart** button to the top right of the screen.
+1. Click the **Apply and Restart** button on the top right of the screen.
 1. Click **Apply** in the following prompt to save the settings and restart the vehicle.
 
    <img src="../../assets/setup/airframe_px4/airframe_px4_apply_prompt.jpg" width="200px" title="Apply airframe selection prompt" />
