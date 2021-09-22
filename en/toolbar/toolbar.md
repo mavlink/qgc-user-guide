@@ -17,7 +17,7 @@ The following icons are used to switch between the main *Views*. These are displ
 <br>Create autonomous missions.
 
 ![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)**
-<br>Monitor you vehicle(s) while flying, including streaming video.
+<br>Monitor your vehicle(s) while flying, including streaming video.
 
 ![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)**
 <br>Download logs, geotag images from a survey mission, access the MAVLink console.
@@ -28,14 +28,14 @@ The following icons are used to switch between the main *Views*. These are displ
 Status icons are displayed when *QGroundControl* is connected to a vehicle.
 These show the high level status of the vehicle, and can be clicked to see more detailed information. 
 
-![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages**
-<br>Click to show a dropdown of messages from the vehicle. This will change to a Yield sign if there are critical messages.
+![](../../assets/toolbar/toolbar_status_message.jpg) ![yield](../../assets/toolbar/toolbar_status_critical.jpg) **Vehicle Messages**
+<br>Click to show a list of messages from the vehicle. Note that version on the right is displayed when there are critical messages.
 
 ![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status**
-<br>Shows you satellite count and curent hdop.
+<br>Shows you satellite count and curent HDOP.
 
 ![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** 
-<br>RS signal strength information.
+<br>RC signal strength information.
 
 ![](../../assets/toolbar/toolbar_status_telemetry.jpg) **Telemetry RSSI**
 <br>Telemetry signals strength information.

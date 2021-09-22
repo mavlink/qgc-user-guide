@@ -21,7 +21,7 @@ The screenshot above shows the main elements of the fly view:
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status).
   - Select the sensor indicators to view more detail.
   - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Press the *Armed/Disarmed* text to toggle the armed state. If flying you can press this text to *Emergency Stop*.
+  - Press the *Armed/Disarmed* text to toggle the armed state. While flying you can press this text for *Emergency Stop*.
 - **Fly tools:** You can use these to:
   - Toggle between takeoff/land.
   - Pause/restart the current operation (e.g. landing, or the mission).
@@ -33,7 +33,7 @@ The screenshot above shows the main elements of the fly view:
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
   - Press the element to switch *Video* and *Map* to foreground.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
-    It also support directly connected UVC device support.
+    It also supports directly connected UVC devices.
     QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. 
@@ -47,7 +47,7 @@ For example, the multi-vehicle selector is only displayed if you have multiple v
 
 The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
 
-The default page displays vehicle telemetry - use the drop down menu on the to right to select the other options.
+The default page displays vehicle telemetry - use the drop down menu on the top right to select the other options.
 
 ### Values (Telemetry)
 
@@ -92,7 +92,7 @@ When enabled, you can start/stop the video stream, enable a grid overlay, change
 ### Health
 
 The health page shows you the health of the systems within your vehicle.
-*QGroundControl* will switch to this page automatically if any systems change to unhealthy.
+*QGroundControl* will switch to this page automatically if any system changes to unhealthy.
 
 ![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg)
 ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
@@ -115,13 +115,13 @@ The following sections describe how to perform common operations/tasks in the Fl
 
 An automated preflight checklist can be used to run through standard checks that the vehicle is configured correctly and it is safe to fly.
 
-To you the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox.
+To view the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox.
 The tool will then be added to the *Flight Tools*. 
 Press it to open the checklist:
 
 ![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
 
-Once you have performed each test, select it on it in the UI to mark it as complete.
+Once you have performed each test, select it on the UI to mark it as complete.
 
 ### Arm {#arm}
 
@@ -148,7 +148,7 @@ To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is 
 
 ### Emergency Stop {#emergency_stop}
 
-Emergency stop is effectively the same as disarming the vehicle while you are flying.
+Emergency stop is effectively the same as disarming the vehicle while it is flying.
 Your vehicle will crash!
 
 To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
@@ -157,7 +157,7 @@ To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is 
 
 ### Takeoff {#takeoff}
 
-> **Tip** If you are starting a mission for a multicopter *QGroundControl* will automatically perform the takeoff step.
+> **Tip** If you are starting a mission for a multicopter, *QGroundControl* will automatically perform the takeoff step.
 
 To takeoff (when landed):
 1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
@@ -178,14 +178,15 @@ You can land at the current position at any time while flying:
 
 ### RTL/Return
 
-Return to the home position at any time while flying:
+Return to a "safe point" at any time while flying:
 1. Press the **RTL** button in the *Fly Tools*.
 1. Confirm RTL using the slider.
 
-![land](../../assets/fly/land.jpg)
+![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** The vehicle may also land at the home position, depending on its type and configuration.
-
+> **Note**  Vehicles commonly return to the "home" (takeoff) location and land.
+> This behaviour depends on the vehicle type and configuration. 
+> For example, rally points or mission landings may be used as alternative return targets.
 
 ### Change Altitude {#change_altitude}
 
@@ -204,7 +205,7 @@ You can change altitude while flying, except when in a mission:
 
 After taking off you can specify that you want to fly to a particular location.
 
-1. Press the map where you want the vehicle to move and select **Go to location** on the popup.
+1. Left click/Press on the map where you want the vehicle to move and select **Go to location** on the popup.
 
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
   
@@ -222,7 +223,7 @@ After taking off you can specify that you want to fly to a particular location.
 
 After taking off you can specify that you want to orbit a particular location.
 
-1. Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
+1. Left click/Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
 
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
   
@@ -237,7 +238,7 @@ After taking off you can specify that you want to orbit a particular location.
 
 ### Pause
 
-You can pause most operations, including taking off, landing, RTL, missions, Orbit at location. 
+You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location. 
 The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
 
 > **Note** You cannot pause a *Goto location* operation.
@@ -273,7 +274,7 @@ You can *continue* mission from the *next* waypoint when you're flying (the *Con
 
 > **Note** Continue and [Resume mission](#resume_mission) are different!
   Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command.
-  Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from you place in the mission).
+  Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from your place in the mission).
 
 You can continue the current mission while (unless already in a mission!):
 1. Press the **Action** button on the *Fly Tools*
@@ -317,7 +318,7 @@ This is meant to prevent issues where stale missions are unknowingly left on a v
 ### Display Video {#video_switcher}
 
 When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map.
-You can press the switcher anywhere to toggle *Video* and *Map* to foreground (below we show the video in the foreground).
+You can press the switcher anywhere to toggle *Video* and *Map* to foreground (in the image below, the video is shown in the foreground).
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
@@ -326,7 +327,7 @@ You can press the switcher anywhere to toggle *Video* and *Map* to foreground (b
 You can further configure video display using controls on the switcher:
 
   ![Video Pop](../../assets/fly/video_pop.jpg)
-- Resize the switcher by dragging the icon in the to right corner.
+- Resize the switcher by dragging the icon in the top right corner.
 - Hide the switcher by pressing the toggle icon in the lower left.
 - Detach the video switcher window by pressing on the icon in its top left corner
   (once detached, you can move and resize the window just like any other in your OS).

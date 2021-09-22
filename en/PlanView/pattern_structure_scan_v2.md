@@ -1,7 +1,7 @@
 # Structure Scan (Plan Pattern)
 
 A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint.
-Structure Scans are typically used for the visual inspection or creating 3d models of structures.
+Structure Scans are typically used for the visual inspection or creating 3D models of structures.
 
 *Structure Scans* may be inserted into a mission using the Plan view **Pattern > Structure Scan** tool.
 
@@ -60,7 +60,7 @@ To create a scan:
 The user can always configure the following settings:
 - **Start scan from top/bottom:** The direction in which layers are scanned.
 - **Structure height:** The height of the object being scanned.
-- **Scan distance:** Distance from the structure of the flight path.
+- **Scan distance:** Distance from the structure to the flight path.
 - **Entrance/Exit Alt:** Use this setting to avoid obstacles between the last/next waypoint and the structure to be scanned. 
   - The vehicle will fly to the *Entrance/Exit* point at this altitude and then descend to the initial layer to start the scan. 
   - The vehicle will ascend to this altitude after completing the scan and then move to the next waypoint.
@@ -76,13 +76,14 @@ The remaining settings depend on the *camera mode*:
     The camera is only triggered while flying the layer path.
     It does not trigger images while transitioning from one layer to the next.
   - **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
-- *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution. It  also ensures that the camera is always pointed directly at the right angles to the surface which it is capturing images.
+- *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution.
+  It also ensures that the camera is pointed directly at the surface when it is capturing images (i.e. at a right angle rather than some tangent).
   The settings are:
   - **Camera Orientation:** Portrait or Landscape
   - *Overlap*: 
     - **Front Lap:** Image overlap from top to bottom (increasing shrinks layer height and increases layer count).
     - **Side Lap:** Image overlap at sides (increasing takes more images in each lap/layer scan).
-  - **Scan distance:** Distance from the structure of the flight path.
+  - **Scan distance:** Distance from the structure to the flight path.
   - **Ground Res:** Required image resolution/sample quality of surface.
 
 - *Custom camera* selection allows you to enter your own camera characteristics, but otherwise behaves the same as a predefined camera.

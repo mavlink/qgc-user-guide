@@ -15,7 +15,7 @@ To create a GeoFence:
 1. Select the *Geofence* radio button above the Mission Command List
 
    ![Select geofence radio button](../../assets/plan/geofence/geofence_select.jpg)
-1. Insert a circular or polygon region by pressing the **Circular Fence** or **Polygon Fence** buttons, respectively.
+1. Insert a circular or polygon region by pressing the **Circular Fence** or **Polygon Fence** button, respectively.
    A new region will be added to the map and to the associated list of fences below the buttons.
    
   > **Tip** You can create multiple regions by pressing the buttons multiple times, allowing complex geofence definitions to be created.
@@ -24,7 +24,7 @@ To create a GeoFence:
    
      ![Circular Geofence](../../assets/plan/geofence/geofence_circular.jpg)
      - Move the region by dragging the central dot on the map
-     - Resize the circle by dragging the map dot on the edge of the circle (or you can change the radius value in the fence panel).
+     - Resize the circle by dragging the dot on the edge of the circle (or you can change the radius value in the fence panel).
    - Polygon region:
    
      ![Polygon Geofence](../../assets/plan/geofence/geofence_polygon.jpg)
@@ -38,7 +38,7 @@ To create a GeoFence:
 You can select a geofence region to edit by selecting its *Edit* radio button in the GeoFence panel.
 You can then edit the region on the map as described in the previous section.
 
-Regions can be deleted by pressing the associated **Del** button
+Regions can be deleted by pressing the associated **Del** button.
 
 
 ## Upload a GeoFence
