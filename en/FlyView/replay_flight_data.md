@@ -3,7 +3,7 @@
 > **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**.
   It is only supported on desktop builds (Windows, Linux, Mac OS).
 
-The *Replay Flight Data* feature allow users to replay a telemetry log, enabling review of past or problematic flights.
+The *Replay Flight Data* feature allows users to replay a telemetry log, enabling review of past or problematic flights.
 The flight can be started, paused, stopped, restarted etc.
 
 > **Note** *QGroundControl* treats flight replay like an active connection. 
@@ -21,7 +21,7 @@ To replay a flight:
 1. When a log is loaded you can use the:
    - **Pause/Play** button to pause and restart playing.
    - *Slider* to drag to a new position in the log.
-   - *Rate* selector to choose how fast the log should be run.
+   - *Rate* selector to choose the playback speed.
 1. To stop replay (i.e. to load a new file to replay), first pause the flight, and then select **Disconnect** (when it appears).
    After disconnecting, the **Load Telemetry Log** button will be displayed.
 
