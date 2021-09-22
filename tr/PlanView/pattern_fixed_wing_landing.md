@@ -12,7 +12,7 @@ Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir 
 
 İniş yolu oluşturmak için:
 
-1. [PlanView](../PlanView/PlanView.md)'den *Plan Tools*'u açın.
+1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
 2. *Plan Tools* 'dan *Plan Tools*'u açın ve *Fixed Wing Landing Pattern*'i seçin.
   
   ![Sabit Kanat İniş Yolu](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
@@ -21,7 +21,7 @@ Hem oyalanma hem de iniş noktaları, istenilen yeni noktalara sürüklenebilir 
   
   ![Sabit Kanat İniş Yolu](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
 
-3. Oyalanma ve iniş noktalarını ayarlamak için haritaya tıklayın. Bu noktalar harita üzerinde hareket ettirilebilir.
+3. Click on the map to create both the loiter point and the landing point. Bu noktalar harita üzerinde hareket ettirilebilir.
 
 Ek ayarlar bir sonraki bölümde ele alınmıştır.
 
@@ -52,8 +52,8 @@ Ayarlanabilir seçenekler şunlardır:
 - **Heading** - Oyalanma noktasından iniş noktasına yönelme.
 - **Altitude** - İniş noktası için yükseklik (nominal olarak sıfır).
 - *Radyo Butonları* 
-  - **Landing Dist** - Oyalanma ve iniş noktaları arası mesafe.
-  - **Glide Slope** - Oyalanma ve iniş noktaları arasındaki alçalma eğrisi.
+  - **Landing Dist** - Distance between loiter point and landing point.
+  - **Glide Slope** - Glide slope between loiter point and landing point.
 - **Altitudes relative to home** - Tüm yüksekliklerin ev konumuna bağlı olması için işaretleyin (varsayılan olarak deniz seviyesidir).
 
 ## Uygulama
