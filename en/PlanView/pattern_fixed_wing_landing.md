@@ -22,7 +22,7 @@ To create a landing pattern:
    This will add a *Landing Pattern* item to the mission list (on the right).
    
    ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
-1. Click on the map to create both the loiter and landing point.
+1. Click on the map to create both the loiter point and the landing point.
    These can be moved on the map.
 
 Additional settings are covered in the next section.
@@ -56,8 +56,8 @@ The configurable options are:
 - **Heading** - Heading from loiter point to land point.
 - **Altitude** - Altitude for landing point (nominally zero).
 - *Radio Buttons*
-  - **Landing Dist** - Distance between loiter and landing point.
-  - **Glide Slope** - Glide slope between loiter and landing point.
+  - **Landing Dist** - Distance between loiter point and landing point.
+  - **Glide Slope** - Glide slope between loiter point and landing point.
 - **Altitudes relative to home** - Check to set all altitudes in mission item to be relative to home (default is AMSL).
 
 
