@@ -33,7 +33,7 @@ The screenshot above shows the main elements of the fly view:
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
   - Press the element to switch *Video* and *Map* to foreground.
   - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
-    It also support directly connected UVC device.
+    It also supports directly connected UVC devices.
     QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. 
@@ -92,7 +92,7 @@ When enabled, you can start/stop the video stream, enable a grid overlay, change
 ### Health
 
 The health page shows you the health of the systems within your vehicle.
-*QGroundControl* will switch to this page automatically if any system change to unhealthy.
+*QGroundControl* will switch to this page automatically if any system changes to unhealthy.
 
 ![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg)
 ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
@@ -178,14 +178,15 @@ You can land at the current position at any time while flying:
 
 ### RTL/Return
 
-Return to the home position at any time while flying:
+Return to a "safe point" at any time while flying:
 1. Press the **RTL** button in the *Fly Tools*.
 1. Confirm RTL using the slider.
 
-![land](../../assets/fly/rtl.jpg)
+![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** The vehicle may also land at the home position, depending on its type and configuration.
-** The above Note is not clear, after RTL, the vehicle is suppose to land at home position only**
+> **Note**  Vehicles commonly return to the "home" (takeoff) location and land.
+> This behaviour depends on the vehicle type and configuration. 
+> For example, rally points or mission landings may be used as alternative return targets.
 
 ### Change Altitude {#change_altitude}
 
@@ -237,7 +238,7 @@ After taking off you can specify that you want to orbit a particular location.
 
 ### Pause
 
-You can pause most operations, including taking off, landing, RTL, mission, Orbit at location. 
+You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location. 
 The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
 
 > **Note** You cannot pause a *Goto location* operation.
