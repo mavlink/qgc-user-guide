@@ -36,7 +36,7 @@ Aşağıdaki bölümler, ekrandaki bazı ayrıntıları açıklamaktadır.
 
 ## Planlanmış Ev Konumu {#planned_home}
 
-*Plan View* 'de gösterilen *Planned Home*, bir görev planlanırken (mesela bir araca bağlı değilken) yaklaşık başlangıç noktasını ayarlamak için kullanılır. QGC tarafından görev sürelerini tahmin etmek ve hedef noktalar arası çizgileri çizmek için kullanılır.
+The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to QGC). QGC tarafından görev sürelerini tahmin etmek ve hedef noktalar arası çizgileri çizmek için kullanılır.
 
 ![Planlanmış Ev Konumu](../../assets/plan/mission/mission_settings_planned_home.jpg)
 
@@ -44,7 +44,7 @@ Planlanan ev konumunu yaklaşık olarak kalkış yapmayı planladığınız konu
 
 <img src="../../assets/plan/mission/mission_settings_planned_home_position_section.jpg" style="width: 200px;" />
 
-> **Tip** Uçuş ekranı, araç devreye alındığında araın yazılımı tarafından ayarlanan *asıl* ev konumunu gösterir (bu konum, aracın Geri Dönüş/RTL modunda gideceği konumdur).
+> **Tip** The Fly View displays the *actual* home position set by the vehicle firmware when it arms (this is where the vehicle will return in Return/RTL mode).
 
 ## Plan Araçları {#plan_tools}
 
@@ -124,7 +124,7 @@ Aracınızın son görev öğesinden sonra Geri Dönmesini/RTL istiyorsanız bun
 
 > **Note** Bu yalnızca * planlanan * ev konumudur ve aracı çalıştırmayı planladığınız yere konumlandırılmalıdır. Görevin gerçekleşmesinde gerçek bir etkisi yoktur. Asıl ev konumu, araç tarafından devreye alınırken ayarlanır.
 
-Bu bölüm, **Altitude** ve ** Set Home to Map Centre** 'ı ayarlamanıza olanak tanır (haritada sürükleyerek başka bir konuma taşıyabilirsiniz).
+This section allows you to set the **Altitude** and **Set Home to Map Centre** (you can move it to another position by dragging it on the map).
 
 #### Kamera
 
