@@ -21,7 +21,7 @@ To create a survey:
   
   This will add a survey grid to the map, and a *Survey* item to the mission list (on the right).
 
-3. On the map drag the vertices to the change the shape of the polygon.
+3. On the map drag the vertices to change the shape of the polygon.
 
 4. Click the `(+)` symbol between existing vertices to create a new vertix. The new vertix can then be dragged into a new position.
 
