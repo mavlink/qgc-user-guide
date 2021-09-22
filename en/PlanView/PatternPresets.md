@@ -29,4 +29,4 @@ If you want to view what the exact settings are for a Preset switch back to **Cu
 
 ## Presets In A Plan File
 
-The currently selected Preset is also saved in the Plan file such that when you load the Plan back the preset will once again be selected. Keep in mind that presets are specific to your version of QGroundControl. If you share a Plan file with a preset with another user, incorrect behavior may occur if that other user also have a preset of the same name but different settings.
+The currently selected Preset is also saved in the Plan file such that when you load the Plan back the preset will once again be selected. Keep in mind that presets are specific to your version of QGroundControl. If you share a Plan file with a preset with another user, incorrect behavior may occur if that other user also has a preset of the same name but different settings.
