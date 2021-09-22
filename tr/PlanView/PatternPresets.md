@@ -29,4 +29,4 @@ Bir ön ayarın ayarlarının neler olduğunu görmek istiyorsanız **Custom (sp
 
 ## Plan Dosyasında Ön Ayarlar
 
-Halihazırda seçili olan Ön Ayar Plan dosyasına da kaydedilir, böylece Planı geri yüklediğinizde ön ayar tekrar seçilebilecektir. Ön ayarların kullandığınız QGroundControl sürümüne özel olduğunu unutmayınız. Bir Plan dosyasını bir ön ayar ile başka bir kullanıcıyla paylaşırsanız, diğer kullanıcının da aynı adı taşıyan ancak farklı ayarlara sahip bir ön ayarı varsa, hatalı olaylar gerçekleşebilir.
+Halihazırda seçili olan Ön Ayar Plan dosyasına da kaydedilir, böylece Planı geri yüklediğinizde ön ayar tekrar seçilebilecektir. Ön ayarların kullandığınız QGroundControl sürümüne özel olduğunu unutmayınız. If you share a Plan file with a preset with another user, incorrect behavior may occur if that other user also has a preset of the same name but different settings.
