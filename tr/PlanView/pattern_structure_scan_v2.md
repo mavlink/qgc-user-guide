@@ -1,6 +1,6 @@
 # Yapı Taraması (Plan Şablonu)
 
-*Structure Scan*, çok köşeli (veya dairesel) zemin ayak izine sahip bir yapının *dikey yüzeyleri* üzerinde (ör. duvarlar) görüntüler yakalayabilmek için ızgara şeklinde bir uçuş şablonu oluşturmanıza olanak sağlar. Yapı Taraması genellikle görsel inceleme ya da yapıların 3 boyutlu modellemesi için kullanılır.
+*Structure Scan*, çok köşeli (veya dairesel) zemin ayak izine sahip bir yapının *dikey yüzeyleri* üzerinde (ör. duvarlar) görüntüler yakalayabilmek için ızgara şeklinde bir uçuş şablonu oluşturmanıza olanak sağlar. Structure Scans are typically used for the visual inspection or creating 3D models of structures.
 
 *Yapı Taramaları*, Plan ekranında **Pattern > Structure Scan** aracı kullanılarak bir görevin içine yerleştirilebilir.
 
@@ -58,7 +58,7 @@ Kullanıcı her zaman aşağıdaki ayarları yapılandırabilir:
 
 - **Start scan from top/bottom:** Katmanların taranma yönü.
 - **Structure height:**Taranan nesnenin yüksekliği.
-- **Scan distance:**Uçuş yolunun yapıya olan mesafesi.
+- **Scan distance:** Distance from the structure to the flight path.
 - **Entrance/Exit Alt:** Son/sonraki hedef noktası ile taranacak yapı arasındaki engellerden kaçınmak için bu ayarı kullanın. 
   - Araç, bu irtifada *Entrance/Exit* noktasına yükselecek ve ardından taramayı başlatmak için ilk katmana alçalacaktır. 
   - Araç, taramayı tamamladıktan sonra bu irtifaya yükselecek ve ardından bir sonraki hedef noktaya geçecektir.
@@ -72,13 +72,13 @@ Kalan ayarlar *camera mode*'a bağlıdır:
   - **Trigger Distance:** Her kamera çekimi arasındaki mesafe. Kamera sadece katman yolunda uçarken çekim yapar. Bir katmandan diğerine geçerken görüntü çekmez.
   - **Gimbal Pitch** -Tarama için kullanmak istediğiniz gimbal eğimi.
 
-- *Bilinen/önceden tanımlanmış kameralar* görüntü örtüşmesi için gerekli katman yüksekliklerini ve görüntü çekim aralıklarını otomatik olarak hesaplar ve tarama mesafesini değiştirmenize ve görüntü çözünürlüğü ayarlamanıza olanak tanır. Aynı zamanda kameranın her zaman görüntülerin alındığı yüzeye doğru açılarla tutulması doğrudan tutulmasını sağlar. Ayarlar şunlardır:
+- *Bilinen/önceden tanımlanmış kameralar* görüntü örtüşmesi için gerekli katman yüksekliklerini ve görüntü çekim aralıklarını otomatik olarak hesaplar ve tarama mesafesini değiştirmenize ve görüntü çözünürlüğü ayarlamanıza olanak tanır. It also ensures that the camera is pointed directly at the surface when it is capturing images (i.e. at a right angle rather than some tangent). Ayarlar şunlardır:
   
   - **Camera Orientation:** Dikey veya Yatay
   - *Örtüşme*: 
     - **Front Lap:** Görüntünün yukardan aşağıya örtüşmesi. (arttırılırsa katman boyu küçülür katman sayısı artar).
     - **Side Lap:** Görüntü kenarlarda örtüşür. (arttırılırsa, her turda/katman taramasında daha fazla görüntü çeker).
-  - **Scan distance:**Uçuş yolunun yapıya olan mesafesi.
+  - **Scan distance:** Distance from the structure to the flight path.
   - **Ground Res:** Yüzey için gerekli görüntü çözünürlüğü/numune kalitesi.
 
 - *Custom camera* seçimi, kendi kamera özelliklerinizi girmenize olanak tanır, ancak aksi takdirde önceden tanımlanmış bir kamerayla aynı şekilde davranır.
