@@ -56,7 +56,7 @@ To perform **Pressure** calibration:
 
 ## CompassMot (Optional)
 
-CompassMot calibration is optional! It is recommended for vehicles that only have an internal compass and where there is significant interference on the compass from the motors, power wires, etc. CompassMot only works well if you have a battery current monitor because the magnetic interference is linear with current drawn.
+CompassMot calibration is optional! It is recommended for vehicles that only have an internal compass and when there is significant interference on the compass from the motors, power wires, etc. CompassMot only works well if you have a battery current monitor because the magnetic interference is linear with current drawn.
 
 To perform **CompassMot** calibration:
 
