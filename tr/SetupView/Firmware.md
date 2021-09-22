@@ -8,7 +8,7 @@
 
 ## Yazılım Güncellemesi için Cihazı Bağlayın
 
-> **Caution** ** Aygıt Yazılımını yüklemeye başlamadan önce ** aracınıza olan tüm USB bağlantılarının * kesilmesi * (hem doğrudan hem de telemetri radyosu aracılığıyla) gerekir. Araca bir batarya ile * güç verilmemelidir *.
+> **Caution** **Before you start installing Firmware** all USB connections to your vehicle must be *disconnected* (both direct or through a telemetry radio). Araca bir batarya ile * güç verilmemelidir *.
 
 1. İlk olarak üstteki araç çubuğundan **dişli** simgesini (*Vehicle Setup*), daha sonra kenar çubuğundan **Firmware**'i seçin.
     
@@ -26,7 +26,7 @@ Cihaz bağlandıktan sonra, hangi aygıt yazılımının yükleneceğini seçebi
     
     ![PX4'ü seçin](../../assets/setup/firmware/firmware_select_default_px4.jpg)
     
-    * ArduPilot * 'ı seçerseniz, aynı zamanda araç tipini belirleyen donanım yazılımını da seçmeniz gerekecektir (aşağıda gösterildiği gibi).
+    If you select *ArduPilot* you will also have to choose the specific firmware and the type of vehicle (as shown below).
     
     ![ArduPilot'ı seçin](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
 
@@ -42,4 +42,4 @@ Cihaz bağlandıktan sonra, hangi aygıt yazılımının yükleneceğini seçebi
     
     ![Yazılım güncellemesi tamamlandı](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
 
-Yazılım yüklemesi tamamlandığında, cihaz / araç yeniden başlatılacak ve yeniden bağlanacaktır. Daha sonra [ gövdeyi](../SetupView/Airframe.md) (ve sonra sensörler, radyo vb.) Yapılandırmanız gerekir
+Once the firmware has finished loading the device/vehicle will reboot and reconnect. Daha sonra [ gövdeyi](../SetupView/Airframe.md) (ve sonra sensörler, radyo vb.) Yapılandırmanız gerekir
