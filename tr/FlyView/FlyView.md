@@ -22,7 +22,7 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 - **Uçuş Araç Çubuğu:** Sensörler (GPS, pil, RC kontrolü) ve araç durumu (Uçuş modu, Etkin (armed) / Devre Dışı (disarmed) durumu) hakkında anahtar bilgiler. 
   - Daha fazla ayrıntı görmek için sensör göstergelerini seçin.
   - Yeni bir mod seçmek için * Flight mode * metnine (ör. "Hold") tıklayın. Tüm modlar mevcut olmayabilir.
-  - Aracın uçuşa hazır olma durumunu değiştirmek için *Armed/Disarmed* metnine tıklayın. Eğer araç uçuyorsa *Emergency Stop* için bu metne tıklayın.
+  - Aracın uçuşa hazır olma durumunu değiştirmek için *Armed/Disarmed* metnine tıklayın. While flying you can press this text for *Emergency Stop*.
 - **Uçuş araçları:** Şunları yapmak için kullanabilirsiniz: 
   - Kalkış/iniş arasında geçiş yapın.
   - Mevcut işlemi durdur/tekrar başlat (ör. iniş, ya da görev).
@@ -32,7 +32,7 @@ Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 - **[Bilgi Paneli](#instrument_panel):** Telemetri, kamera, video, sistem durumu ve titreşim dahil olmak üzere araç bilgilerini görüntüleyebileceğiniz çok sekmeli widget.
 - **[Video/Harita](#video_switcher):** Bir pencerede video ile harita arasında geçiş yapın. 
   - *Video* ya da *Map*'i ön plana almak için öne almak istediğinize tıklayın.
-  - *QGroundControl*, aracınızın UDP bağlantısı üzerinden RTP ve RTSP video yayını yapmanızı destekler. Ayrıca direkt bağlantılı UVC cihazları da destekler. QGC'nin video desteği hakkında daha ayrıntılı bilgiyi [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md)'de bulabilirsiniz.
+  - *QGroundControl*, aracınızın UDP bağlantısı üzerinden RTP ve RTSP video yayını yapmanızı destekler. It also supports directly connected UVC devices. QGC'nin video desteği hakkında daha ayrıntılı bilgiyi [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md)'de bulabilirsiniz.
   - Bir [Telemetry Overlay](../FlyView/VideoOverlay.md) dosyası otomatik olarak oluşturulacaktır
 - **Kaydırmalı Onay Butonu:** İstenen işlemi gerçekleştirmek için onay butonu. Operasyonu başlatmak için kaydırın. İptal etmek için **X** 'e basın.
 
@@ -42,7 +42,7 @@ Ayrıca varsayılan olarak görüntülenmeyen/ belirli koşullarda görüntülen
 
 Bilgi Paneli, telemetri, kamera, video, sistem durumu ve titreşim bilgileri dahil olmak üzere mevcut araç hakkında bilgileri görüntüleyebileceğiniz çok sekmeli bir widgettır.
 
-Varsayılan şekilde araç telemetrisini gösterir - diğer seçenekleri seçmek için sağdaki açılır menüyü kullanabilirsiniz.
+The default page displays vehicle telemetry - use the drop down menu on the top right to select the other options.
 
 ### Değerler (Telemetri)
 
@@ -78,7 +78,7 @@ Video sayfası video akışını etkinleştirmek ve devre dışı bırakmak içi
 
 ### Durum
 
-Durum sayfası aracınızdaki sistemin durumunu gösterir. Eğer sistemde bir sıkıntı olursa *QGroundControl* bu sayfayı otomatik olarak açacaktır.
+Durum sayfası aracınızdaki sistemin durumunu gösterir. *QGroundControl* will switch to this page automatically if any system changes to unhealthy.
 
 ![Bilgi Paneli - Cihazın Durumu İyi](../../assets/fly/instrument_page_health_good.jpg) ![Bilgi Paneli - Cihazın Durumu Kötü](../../assets/fly/instrument_page_health_bad.jpg)
 
@@ -98,11 +98,11 @@ Aşağıdaki bölümler, Uçuş Ekranı'nda genel işlemlerin / görevlerin nas�
 
 Aracın doğru ayarlandığını ve uçmak için güvenli olduğu gösteren standart kontrollerin yapılması için otomatik bir uçuş öncesi kontrol listesi kullanılabilir.
 
-Kontrol listesi için, önce [Application Settings > General > Fly View](../SettingsView/General.md) 'a gidip **Use preflight checklist** onay kutusunu seçerek etkinleştirin. Liste *Flight Tools*'a eklenecektir. Kontrol listesini oradan açabilirsiniz:
+To view the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox. Liste *Flight Tools*'a eklenecektir. Kontrol listesini oradan açabilirsiniz:
 
 ![Uçuş Öncesi Kontrol Listesi](../../assets/fly/pre_flight_checklist.jpg)
 
-Tüm testleri gerçekleştirdikten sonra, tamamlandı olarak işaretlemek için kullanıcı arayüzünde testi seçin.
+Once you have performed each test, select it on the UI to mark it as complete.
 
 ### Aracı Devreye Alma {#arm}
 
@@ -126,7 +126,7 @@ Aracı devre dışı bırakmak motorları durdurur (aracı güvenli hale getirir
 
 ### Acil Durdurma {#emergency_stop}
 
-Acil durdurma, uçarken aracı durdurmakla aynı etkiye sahiptir. Aracınız çarpacaktır/çakılacaktır!
+Emergency stop is effectively the same as disarming the vehicle while it is flying. Aracınız çarpacaktır/çakılacaktır!
 
 Aracı devre dışı bırakmak için uçuş sırasında *Fly Toolbar*'dan **Armed**'ı seçin.
 
@@ -134,7 +134,7 @@ Aracı devre dışı bırakmak için uçuş sırasında *Fly Toolbar*'dan **Arme
 
 ### Kalkış {#takeoff}
 
-> **Tip** Eğer bir multikopter için göreve başlıyorsanız, *QGroundControl* kalkışı otomatik olarak yapacaktır.
+> **Tip** If you are starting a mission for a multicopter, *QGroundControl* will automatically perform the takeoff step.
 
 Kalkmak için (iniş yapıldığında):
 
@@ -155,14 +155,14 @@ Uçuş sırasında istediğiniz zaman mevcut konuma inebilirsiniz:
 
 ### RTL/Geri Dönüş
 
-Uçuş esnasında istediğiniz zaman ana konuma geri dönün:
+Return to a "safe point" at any time while flying:
 
 1. *Fly Tools*'dan **RTL** butonuna basın.
 2. Kaydırmalı onay butonunu kaydırarak RTL'i onaylayın.
 
-![iniş](../../assets/fly/land.jpg)
+![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** Araç, türüne ve konfigürasyonuna bağlı olarak ana konuma inedebilir.
+> **Note** Vehicles commonly return to the "home" (takeoff) location and land. This behaviour depends on the vehicle type and configuration. For example, rally points or mission landings may be used as alternative return targets.
 
 ### Yükleklik Değiştirme {#change_altitude}
 
@@ -181,7 +181,7 @@ Uçuş esnasında eğer bir görevde değilse aracın yükseliği değiştirileb
 
 Kalkıştan sonra belirli bir konuma uçmayı ayarlayabilirsiniz.
 
-1. Haritada aracın gitmesini istediğiniz yere basın ve açılır pencereden **Go to location**'ı seçin.
+1. Left click/Press on the map where you want the vehicle to move and select **Go to location** on the popup.
   
   ![Hedefe gitme veya yörünge](../../assets/fly/goto_or_orbit.jpg)
 
@@ -197,7 +197,7 @@ Kalkıştan sonra belirli bir konuma uçmayı ayarlayabilirsiniz.
 
 Kalkıştan sonra belirli bir konumun çevresinde yörüngede dolaşmasını ayarlayabilirsiniz.
 
-1. Haritaya basın (istediğiniz yörüngenin merkezine yakın bir yere) ve açılır pencereden **Orbit at location**'i seçin.
+1. Left click/Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
   
   ![Hedefe gitme veya yörünge](../../assets/fly/goto_or_orbit.jpg)
 
@@ -211,7 +211,7 @@ Kalkıştan sonra belirli bir konumun çevresinde yörüngede dolaşmasını aya
 
 ### Duraklatma
 
-Kalkış, iniş, RTL, Yörünge dahil olmak üzere çoğu operasyonu aracın olduğu konumda duraklatabilirsiniz. Duraklatıldığında aracın davranışı aracın tipine bağlıdır, genellikle multikopterler havada asılı kalırken sabit kanatlar çember çizer.
+You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location. Duraklatıldığında aracın davranışı aracın tipine bağlıdır, genellikle multikopterler havada asılı kalırken sabit kanatlar çember çizer.
 
 > **Note** Bir *Goto location* operasyonunu durduramazsınız.
 
@@ -247,7 +247,7 @@ Yerdeki bir aracın görevini başlatmak için:
 
 Göreve *sıradaki* hedef noktanızdan *devam* edebilirsiniz (*Continue Mission* kaydırmalı onay butonu kalkıştan sonra çoğu kez varsayılan olarak gösterilir).
 
-> **Note** Continue ve [Resume mission](#resume_mission) farklıdır! Continue komutu durdurulmuş bir görevi tekrar başlatmak veya zaten kalkmış bir araç için yani kalkış görevi komutunu kaçırmış durumdaysanız kullanılır. Resume ise eğer görevin ortasında RTL ya da iniş yaptığınızda (ör. batarya değiştirmek için) ve sonrasında göreve devam etmek istiyorsanız kullanılır (yani görevi olduğunuz yerden devam ettirmek yerine, görevdeki bir sonraki hedefinizden devam ettirir).
+> **Note** Continue ve [Resume mission](#resume_mission) farklıdır! Continue komutu durdurulmuş bir görevi tekrar başlatmak veya zaten kalkmış bir araç için yani kalkış görevi komutunu kaçırmış durumdaysanız kullanılır. Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from your place in the mission).
 
 Görevinize aşağıdakileri yaparak devam edebilirsiniz (hali hazırda bir görevde değilseniz!):
 
@@ -284,7 +284,7 @@ Görev bittikten sonra aracın inişi ve devre dışı bırakılmasının ardın
 
 ### Videoyu Görüntüleme {#video_switcher}
 
-Video akışı etkinleştirildiğinde, *QGroundControl* haritanın sol altında bulunan "videoya geçiş penceresi"nde videoyu göstermeye başlıyacaktır. Ön planda *Video* ya da *Map* hangisini görüntülemek istiyorsanız geçiş penceresinde istediğiniz yere tıklayabilirsiniz (aşağıda videonun ön planda olduğu hali görebilirsiniz).
+Video akışı etkinleştirildiğinde, *QGroundControl* haritanın sol altında bulunan "videoya geçiş penceresi"nde videoyu göstermeye başlıyacaktır. You can press the switcher anywhere to toggle *Video* and *Map* to foreground (in the image below, the video is shown in the foreground).
 
 ![Video Akışı Kaydı](../../assets/fly/video_record.jpg)
 
@@ -295,7 +295,7 @@ Video görüntüsünü geçiş penceresindeki kontrolleri kullanararak daha da d
     ![Video Pop](../../assets/fly/video_pop.jpg)
     
 
-- Sağ üst köşedeki ikonu sürükleyerek geçiş penceresini tekrar boyutlandırabilirsiniz.
+- Resize the switcher by dragging the icon in the top right corner.
 - Geçiş penceresini sol alt köşede bulunan ikona basarak gizleyebilirsiniz.
 - Sol üst köşedeki ikona basarak video geçiş pencersini ayırabilirsiniz. (ayrıldığında, işletim sisteminizdeki her hangi bir pencere gibi hareket ettirip tekrar boyutlandırabilirsiniz). Eğer ayrılan pencereyi kapatırsanız, geçiş penceresi tekrardan QGC uçuş görünüme sabitlenecektir.
 
