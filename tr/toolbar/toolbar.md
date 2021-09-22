@@ -12,7 +12,7 @@ Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. 
 
 ![Plan ekranı simgesi](../../assets/toolbar/toolbar_view_select_plan.jpg) **[Plan](../PlanView/PlanView.md)** <br /> Otonom göevler oluşturun.
 
-![Uçuş simgesi](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br /> Araç(lar)ınızı uçarken video akışıyla birlikte gözlemleyin.
+![Uçuş simgesi](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor your vehicle(s) while flying, including streaming video.
 
 ![Analiz simgesi](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Analyze](../analyze_view/README.md)** <br /> Uçuş kayıtlarını indirebilir, gözlem görevindeki görüntüler coğrafi olark etiketlenebilir, MAVLink konsoluna erişebilirsiniz.
 
@@ -20,11 +20,11 @@ Aşağıdaki simgeler ana *Views * arasında geçiş yapmak için kullanılır. 
 
 Durum simgeleri *QGroundControl* bir araca bağlıyken gözükür. Bunlar araçla ilgili önemli bilgileri gösterir ve üstlerine tıklayarak daha ayrıntılı bilgilere erişilebilir.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) **Vehicle Messages** <br /> Araçtan gelen mesajları görmek için tıklayın. Eğer kritik bir mesaj varsa bir Yield işaretine dönüşecektir.
+![](../../assets/toolbar/toolbar_status_message.jpg) ![yield](../../assets/toolbar/toolbar_status_critical.jpg) **Vehicle Messages** <br />Click to show a list of messages from the vehicle. Note that version on the right is displayed when there are critical messages.
 
-![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br /> Uydu sayısını ve geçerli hdopu gösterir.
+![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br />Shows you satellite count and curent HDOP.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RS sinyal gücü bilgisi.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC signal strength information.
 
 ![](../../assets/toolbar/toolbar_status_telemetry.jpg) **Telemetry RSSI** <br />Telemetri sinyalleri güç bilgisi.
 

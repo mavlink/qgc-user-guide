@@ -17,6 +17,7 @@
   - [Setup](../SetupView/SetupView.md)：配置和调试你的设备。
   - [Plan](../PlanView/PlanView.md)：创建自主自动执行的任务
   - [Fly](../FlyView/FlyView.md)：在飞行时监测您的车辆，包括视频流。
+  - [Analyze] ** Description of Analyze view is missing **
 - 点击工具栏上的*Status 图标*来确认已连接设备的状态。 
 
 虽然软件的界面相当直观亲和，但是这篇文档也能给您带来更多信息让您更加容易上手把玩QGC。

@@ -22,7 +22,7 @@
 - **Панель инструментов:** Информация о ключевом статусе датчиков (GPS, аккумулятора, управления РК) и состояния транспортного средства (режим полета, состояние "Армян/разоружен"). 
   - Выберите индикаторы датчика для более подробного просмотра.
   - Нажмите *Режим полета* текст (например, "Задержать") для выбора нового режима. Не каждый режим может быть доступен.
-  - Нажмите *Armed/Disarmed* текст для переключения вооруженного состояния. При полете вы можете нажать этот текст на *аварийная остановка*.
+  - Нажмите *Armed/Disarmed* текст для переключения вооруженного состояния. While flying you can press this text for *Emergency Stop*.
 - **Панель управление полетом:** Вы можете использовать его для: 
   - Переключение между взлет/посадка.
   - Пауза/перезапуск текущую операцию (например, посадку или миссию).
@@ -32,7 +32,7 @@
 - **[Панель инструментов](#instrument_panel):** многостраничный виджет с информацией о БПЛА, включающий в себя: телеметрию, камеру, видео, общее состояние системы и вибрацию.
 - **[Video/Switcher](#video_switcher):** Переключение между видео или картой в окне. 
   - Нажмите на элемент для переключения *Видео* и *Карта* для переключения на передний план.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. Также поддерживается поддержка устройств UVC. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also supports directly connected UVC devices. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. Проведите для начала операции. Нажмите **X** для отмены.
 
@@ -42,7 +42,7 @@
 
 Это многостраничный виджет с информацией о БПЛА, включающий в себя: телеметрию, камеру, видео, общее состояние системы и вибрацию.
 
-По умолчанию отображается телеметрия БПЛА - используйте выпадающее меню справа для выбора других параметров.
+The default page displays vehicle telemetry - use the drop down menu on the top right to select the other options.
 
 ### Значения (Телеметрия)
 
@@ -78,7 +78,7 @@ The video page is used to enable/disable video streaming. When enabled, you can 
 
 ### Health
 
-The health page shows you the health of the systems within your vehicle. *QGroundControl* will switch to this page automatically if any systems change to unhealthy.
+The health page shows you the health of the systems within your vehicle. *QGroundControl* will switch to this page automatically if any system changes to unhealthy.
 
 ![Страница Инструментов - хорошее состояние БПЛА ](../../assets/fly/instrument_page_health_good.jpg) ![Страница Инструментов - плохое состояние БПЛА ](../../assets/fly/instrument_page_health_bad.jpg)
 
@@ -98,11 +98,11 @@ The following sections describe how to perform common operations/tasks in the Fl
 
 An automated preflight checklist can be used to run through standard checks that the vehicle is configured correctly and it is safe to fly.
 
-To you the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox. The tool will then be added to the *Flight Tools*. Press it to open the checklist:
+To view the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox. The tool will then be added to the *Flight Tools*. Press it to open the checklist:
 
 ![Предполетный чек-лист](../../assets/fly/pre_flight_checklist.jpg)
 
-Once you have performed each test, select it on it in the UI to mark it as complete.
+Once you have performed each test, select it on the UI to mark it as complete.
 
 ### Arm {#arm}
 
@@ -126,7 +126,7 @@ Disarming the vehicle stops the motors (making the vehicle safe). To disarm the 
 
 ### Emergency Stop {#emergency_stop}
 
-Emergency stop is effectively the same as disarming the vehicle while you are flying. Your vehicle will crash!
+Emergency stop is effectively the same as disarming the vehicle while it is flying. Your vehicle will crash!
 
 To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
 
@@ -134,7 +134,7 @@ To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is 
 
 ### Взлет {#takeoff}
 
-> **Tip** If you are starting a mission for a multicopter *QGroundControl* will automatically perform the takeoff step.
+> **Tip** If you are starting a mission for a multicopter, *QGroundControl* will automatically perform the takeoff step.
 
 To takeoff (when landed):
 
@@ -155,14 +155,14 @@ You can land at the current position at any time while flying:
 
 ### RTL/Возврат
 
-Return to the home position at any time while flying:
+Return to a "safe point" at any time while flying:
 
 1. Press the **RTL** button in the *Fly Tools*.
 2. Confirm RTL using the slider.
 
-![посадка](../../assets/fly/land.jpg)
+![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** The vehicle may also land at the home position, depending on its type and configuration.
+> **Note** Vehicles commonly return to the "home" (takeoff) location and land. This behaviour depends on the vehicle type and configuration. For example, rally points or mission landings may be used as alternative return targets.
 
 ### Смена высоты {#change_altitude}
 
@@ -181,7 +181,7 @@ You can change altitude while flying, except when in a mission:
 
 After taking off you can specify that you want to fly to a particular location.
 
-1. Press the map where you want the vehicle to move and select **Go to location** on the popup.
+1. Left click/Press on the map where you want the vehicle to move and select **Go to location** on the popup.
   
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
 
@@ -197,7 +197,7 @@ After taking off you can specify that you want to fly to a particular location.
 
 After taking off you can specify that you want to orbit a particular location.
 
-1. Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
+1. Left click/Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
   
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
 
@@ -211,7 +211,7 @@ After taking off you can specify that you want to orbit a particular location.
 
 ### Пауза
 
-You can pause most operations, including taking off, landing, RTL, missions, Orbit at location. The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
+You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location. The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
 
 > **Note** You cannot pause a *Goto location* operation.
 
@@ -247,7 +247,7 @@ To start a mission from landed:
 
 You can *continue* mission from the *next* waypoint when you're flying (the *Continue Mission* confirmation slider is often displayed by default after you takeoff).
 
-> **Note** Continue and [Resume mission](#resume_mission) are different! Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command. Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from you place in the mission).
+> **Note** Continue and [Resume mission](#resume_mission) are different! Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command. Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from your place in the mission).
 
 You can continue the current mission while (unless already in a mission!):
 
@@ -284,7 +284,7 @@ You will be prompted to remove the mission from the vehicle after the mission co
 
 ### Показ видео {#video_switcher}
 
-When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map. You can press the switcher anywhere to toggle *Video* and *Map* to foreground (below we show the video in the foreground).
+When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map. You can press the switcher anywhere to toggle *Video* and *Map* to foreground (in the image below, the video is shown in the foreground).
 
 ![Запись видео потока](../../assets/fly/video_record.jpg)
 
@@ -295,7 +295,7 @@ You can further configure video display using controls on the switcher:
     ![Video Pop](../../assets/fly/video_pop.jpg)
     
 
-- Resize the switcher by dragging the icon in the to right corner.
+- Resize the switcher by dragging the icon in the top right corner.
 - Hide the switcher by pressing the toggle icon in the lower left.
 - Detach the video switcher window by pressing on the icon in its top left corner (once detached, you can move and resize the window just like any other in your OS). If you close the detached window the switcher will re-lock to the QGC Fly view.
 

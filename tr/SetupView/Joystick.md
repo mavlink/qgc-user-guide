@@ -109,7 +109,7 @@ Aşağıdaki kumanda kollarının/kontrol cihazlarının nispeten yeni * QGround
 
 ### Sony Playstation 3/4 Kontrolcüleri
 
-İkisi de oldukça tavsiye edilir. "Kutudan çıkar çıkmaz" iyi çalışırlar ve uçuş modlarına eşleyebileceğiniz birçok düğme vardır.
+Both these joysticks are highly recommended. "Kutudan çıkar çıkmaz" iyi çalışırlar ve uçuş modlarına eşleyebileceğiniz birçok düğme vardır.
 
 #### Sony PS4 - DualShock 4 Kontrolcü V2 (Kablosuz kurulum)
 

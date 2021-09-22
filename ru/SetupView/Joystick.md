@@ -109,7 +109,7 @@ The following joysticks/controllers have been shown to work with relatively rece
 
 ### Sony Playstation 3/4 Controllers
 
-These are both highly recommended. They work well "out of the box" and have many buttons that you can map to flight modes.
+Both these joysticks are highly recommended. They work well "out of the box" and have many buttons that you can map to flight modes.
 
 #### Sony PS4 - DualShock 4 Controller V2 (Wireless setup)
 

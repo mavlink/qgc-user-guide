@@ -21,7 +21,7 @@ Bir gözlem görevi oluşturmak için:
   
   Bu haritaya bir gözlem alanı ve görev listesine (sağda) bir *Survey* öğesi ekleyecektir.
 
-3. Haritada köşeleri sürükleyerek çokgenin şeklini değiştirebilirsiniz.
+3. On the map drag the vertices to change the shape of the polygon.
 
 4. Yeni bir köşe noktası oluşturmak için var olan köşelerin ortalarındaki `(+)` semboüne tıklayın. Yeni köşe, yeni pozisyonlara çekilebilir.
 

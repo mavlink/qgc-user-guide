@@ -1,6 +1,6 @@
 # 下载和安装
 
-以下部分内容可被用于在对应每个工作平台上，下载*QGroundControl*当前的[稳定版本](../releases/release_notes.md)。
+The sections below can be used to download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
 > **小贴士** 如果您在安装完*QGroundControl*后运行时遇到了任何问题，可以查看 [QGC 安装/配置问题集](../Support/troubleshooting_qgc.md)
 

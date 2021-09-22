@@ -15,7 +15,7 @@ Coğrafi Sınır Oluşturmak için:
     
     ![Coğrafi Sınır butonunu seç](../../assets/plan/geofence/geofence_select.jpg)
 
-3. **Circular Fence** ya da **Polygon Fence** butonlarına basarak, sırasıyla dairesel ya da çokgen bölgeler ekleyin. Haritaya yeni bir bölge ve butonların altına sınırlarla ilgili yeni bir liste eklenecektir.
+3. Insert a circular or polygon region by pressing the **Circular Fence** or **Polygon Fence** button, respectively. Haritaya yeni bir bölge ve butonların altına sınırlarla ilgili yeni bir liste eklenecektir.
     
     > **Tip** Butonlara birden çok kez basarak birden çok bölge oluşturabilirsiniz, böylece karmaşık coğrafi sınırlar oluşturulabilir.
 
@@ -24,7 +24,7 @@ Coğrafi Sınır Oluşturmak için:
     ![Dairesel Coğrafi Sınır](../../assets/plan/geofence/geofence_circular.jpg)
     
     - Merkezi noktayı kaydırarak bölgeyi haritada hareket ettirin
-    - Dairenin sınırındaki noktayı sürükleyerek boyutunu ayarlayın (veya sınırlar panelindeki yarıçapı değiştirebilirsiniz).
+    - Resize the circle by dragging the dot on the edge of the circle (or you can change the radius value in the fence panel).
 
 - Çokgen Bölge:
     
@@ -38,7 +38,7 @@ Coğrafi Sınır Oluşturmak için:
 
 Coğrafi Sınır panelinde *Edit* butonunu seçerek düzenlemek için bir coğrafi sınır bölgesi seçebilirsiniz. Daha sonra, önceki bölümde anlatıldığı gibi haritadaki bölgeyi düzenleyebilirsiniz.
 
-Bölgeler, **Del** düğmesine basılarak silinebilir
+Regions can be deleted by pressing the associated **Del** button.
 
 ## Coğrafi Sınır Yükleme
 

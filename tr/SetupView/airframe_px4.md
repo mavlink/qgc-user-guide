@@ -10,7 +10,7 @@ PX4 de gövde seçmek için:
     
     The example above shows *Generic Hexarotor X geometry* selected from the *Hexarotor X* group.
 
-4. Click the **Apply and Restart** button to the top right of the screen.
+4. Click the **Apply and Restart** button on the top right of the screen.
 
 5. Click **Apply** in the following prompt to save the settings and restart the vehicle.
     

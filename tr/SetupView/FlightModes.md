@@ -19,7 +19,7 @@ Bu bölüme erişmek için, üstteki araç çubuğundan **dişli** simgesini (Ve
 
 ArduPilot'ta vericinizin tek bir kanalına 6'ya kadar farklı uçuş modu atayabilirsiniz (kanal Plane'de seçilebilir, ancak Copter'de kanal 5'e sabitlenmiştir).
 
-ArduCopter (yalnızca), 7-12. Kanallar için ek * Kanal Seçenekleri * belirlemenize de olanak tanır. Bunlar, bu anahtarlara işlevler atamanıza izin verir (örneğin, bir kamerayı açmak veya başlatmak için geri dönmek için). ArduCopter belgelerinde kanal yapılandırması hakkında ek bilgi bulunmaktadır: [Auxiliary Function Switches]
+ArduCopter (yalnızca), 7-12. Kanallar için ek * Kanal Seçenekleri * belirlemenize de olanak tanır. Bunlar, bu anahtarlara işlevler atamanıza izin verir (örneğin, bir kamerayı açmak veya başlatmak için geri dönmek için). There is additional information about channel configuration in the ArduCopter docs: [Auxiliary Function Switches](https://ardupilot.org/copter/docs/channel-7-and-8-options.html#channel-7-and-8-options)
 
 Uçuş modlarını ayarlamak için:
 
@@ -50,7 +50,7 @@ Tüm değerler değiştirildikçe otomatik olarak kaydedilir.
 - ** Tek Kanallı Mod Seçimi: ** Tek bir kanalda kodlanmış konumları değiştirmek için 6'ya kadar uçuş modu atayın. 
 - ** Çok Kanallı Mod Seçimi: ** Bir veya daha fazla kanalda kodlanmış konumların değiştirilmesi için modlar atayın. Bazı modlar, kanalları paylaşmak için kodlanmıştır veya diğer mod seçimlerine göre otomatik olarak tanımlanır / ayarlanır (çok kanallı mod seçiminin davranışı bazen kafa karıştırıcı olabilir). 
 
-> **Tip** Önerilen yaklaşım * Tek Kanallı Mod Seçimi * 'i kullanmaktır çünkü anlaşılması ve yapılandırılması kolaydır. ArduPilot tarafından kullanılan yaklaşıma benzer.
+> **Tip** The recommended approach is to use *Single Channel Mode Selection* because it is easy to understand and configure. ArduPilot tarafından kullanılan yaklaşıma benzer.
 
 ### Tek Kanal Modu {#single_channel}
 
@@ -85,7 +85,7 @@ Verici üzerindeki 2 ve 3'de konumlu bir anahtarın konumlarını 6 uçuş modun
 
 Aşağıdaki video, bunun * FrSky Taranis * vericisi (çok popüler ve şiddetle tavsiye edilen bir RC vericisi) ile nasıl yapıldığını göstermektedir. İşlem, iki gerçek anahtarın her bir pozisyon kombinasyonuna bir "mantıksal anahtar" atamayı içerir. Her mantıksal anahtar daha sonra aynı kanal üzerinde farklı bir PWM değerine atanır.
 
-<span id="taranis_setup"></span>
+<a id="taranis_setup"></a>
 Ardından video, mod kanalını özelleştirmek ve 6 "slot" un her birine modları eşlemek için * QGroundControl * 'ın nasıl kullanılacağını gösterir. {% youtube %} http://www.youtube.com/watch?v=scqO7vbH2jo {% endyoutube %}
 
 ### Çok Kanallı Mod

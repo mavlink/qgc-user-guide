@@ -8,7 +8,7 @@
 
 ## Connect Device for Firmware Update
 
-> **Caution** **Before you start installing Firmware** all USB connections to you vehicle must be *disconnected* (both direct or through a telemetry radio). The vehicle must *not be* powered by a battery.
+> **Caution** **Before you start installing Firmware** all USB connections to your vehicle must be *disconnected* (both direct or through a telemetry radio). The vehicle must *not be* powered by a battery.
 
 1. First select the **Gear** icon (*Vehicle Setup*) in the top toolbar and then **Firmware** in the sidebar.
     
@@ -26,7 +26,7 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
     
     ![Select PX4](../../assets/setup/firmware/firmware_select_default_px4.jpg)
     
-    If you select *ArduPilot* you will also have to choose the specific firmware the type of vehicle (as shown below).
+    If you select *ArduPilot* you will also have to choose the specific firmware and the type of vehicle (as shown below).
     
     ![Select ArduPilot](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
 
@@ -42,4 +42,4 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
     
     ![Firmware Upgrade Complete](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
 
-Once the firmware has completed loading the device/vehicle will reboot and reconnect. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
+Once the firmware has finished loading the device/vehicle will reboot and reconnect. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
