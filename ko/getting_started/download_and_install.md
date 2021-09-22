@@ -1,6 +1,6 @@
 # Download and Install
 
-The sections below can be used download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
+The sections below can be used to download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
 > **Tip** See [QGC Install/Config Problems](../Support/troubleshooting_qgc.md) if you have any problem running *QGroundControl* after installation!
 
