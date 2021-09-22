@@ -12,7 +12,7 @@ The following icons are used to switch between the main *Views*. These are displ
 
 ![Plan view icon](../../assets/toolbar/toolbar_view_select_plan.jpg) **[План](../PlanView/PlanView.md)** <br />Планирование и создание автономных планов полетов.
 
-![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Полет](../FlyView/FlyView.md)** <br />Следите за БПЛА во время полёта, включая потоковое видео.
+![Fly icon](../../assets/toolbar/toolbar_view_select_fly.jpg) **[Fly](../FlyView/FlyView.md)** <br />Monitor your vehicle(s) while flying, including streaming video.
 
 ![Analyze icon](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[Анализ](../analyze_view/README.md)** <br />Скачивание журналов событий, запись географических метаданных в фотографии на основе трека полета, доступ к консоли MAVLink.
 
@@ -20,11 +20,11 @@ The following icons are used to switch between the main *Views*. These are displ
 
 Символы статуса активны, когда *QGroundControl* подключено к полётному контроллеру. Они сигнализируют об уровнях состояния основных систем необходимых для навигации БПЛА и могут быть нажаты для получения более подробной информации.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) **Сообщения БПЛА** <br />Нажмите, чтобы показать раскрывающийся список сообщений от БПЛА. This will change to a Yield sign if there are critical messages.
+![](../../assets/toolbar/toolbar_status_message.jpg) ![yield](../../assets/toolbar/toolbar_status_critical.jpg) **Vehicle Messages** <br />Click to show a list of messages from the vehicle. Note that version on the right is displayed when there are critical messages.
 
-![](../../assets/toolbar/toolbar_status_gps.jpg) **Статус GPS** <br />Показывает количество спутников и текущее HDOP (Horizontal Dilution of Precision) — снижение точности в горизонтальной плоскости.
+![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS Status** <br />Shows you satellite count and curent HDOP.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RSSI радиоуправления** <br />Информация об уровне сигнала радиоуправления.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC signal strength information.
 
 ![](../../assets/toolbar/toolbar_status_telemetry.jpg) **RSSI Телеметрии ** <br />Информация об уровене сигнала канала телеметрии.
 
