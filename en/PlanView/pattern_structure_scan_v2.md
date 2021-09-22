@@ -76,7 +76,8 @@ The remaining settings depend on the *camera mode*:
     The camera is only triggered while flying the layer path.
     It does not trigger images while transitioning from one layer to the next.
   - **Gimbal Pitch** - Gimbal pitch you want to use for the scan.
-- *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution. It  also ensures that the camera is always pointed directly at the right angles to the surface when it is capturing images.
+- *Known/pre-defined cameras* automatically calculates layer heights and image triggering from required image overlap, and allows you to trade off scan distance and require image resolution.
+  It also ensures that the camera is pointed directly at the surface when it is capturing images (i.e. at a right angle rather than some tangent).
   The settings are:
   - **Camera Orientation:** Portrait or Landscape
   - *Overlap*: 
