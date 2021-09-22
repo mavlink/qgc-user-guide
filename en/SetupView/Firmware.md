@@ -45,6 +45,6 @@ Once the device is connected you can choose which firmware to load (*QGroundCont
 
    ![Firmware Upgrade Complete](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
 
-Once the firmware is loaded completely the device/vehicle will reboot and reconnect. 
+Once the firmware has finished loading the device/vehicle will reboot and reconnect. 
 Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
 
