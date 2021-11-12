@@ -37,7 +37,7 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 ## Ubuntu Linux 系统 {#ubuntu}
 
-*QGroundControl* can be installed/run on Ubuntu LTS 18.04 (and later).
+*QGroundControl* can be installed/run on Ubuntu LTS 20.04 (and later).
 
 Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
 

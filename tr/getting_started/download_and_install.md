@@ -37,7 +37,7 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 ## Ubuntu Linux {#ubuntu}
 
-*QGroundControl* Ubuntu LTS 18.04 (ve sonrası) sürümlerde kurulabilir/çalıştırılabilir.
+*QGroundControl* can be installed/run on Ubuntu LTS 20.04 (and later).
 
 Ubuntu, bir seri bağlantı noktasının (veya USB serisinin) robotikle ilgili kullanımına müdahale eden bir seri modem yöneticisi ile birlikte gelir. * QGroundControl * 'ü kurmadan önce modem yöneticisini kaldırmalı ve seri bağlantı noktasına erişim için kendinize izin vermelisiniz. Ayrıca video akışını desteklemek için * GStreamer * 'ı da yüklemeniz gerekmektedir.
 
