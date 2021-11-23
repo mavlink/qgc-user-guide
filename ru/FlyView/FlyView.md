@@ -32,7 +32,7 @@
 - **[Панель инструментов](#instrument_panel):** многостраничный виджет с информацией о БПЛА, включающий в себя: телеметрию, камеру, видео, общее состояние системы и вибрацию.
 - **[Video/Switcher](#video_switcher):** Переключение между видео или картой в окне. 
   - Нажмите на элемент для переключения *Видео* и *Карта* для переключения на передний план.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also supports directly connected UVC devices. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. Также поддерживаются UVC устройства. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. Проведите для начала операции. Нажмите **X** для отмены.
 
@@ -118,13 +118,13 @@ To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the co
 
 ### Снять с охраны {#disarm}
 
-Disarming the vehicle stops the motors (making the vehicle safe). To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
+Disarming the vehicle stops the motors (making the vehicle safe). Чтобы снять с охраны, выберите пункт**Поставить на охрану** в *Панели инструментов* при **приземлении**.
 
 ![Снять с охраны](../../assets/fly/disarm.jpg)
 
 > **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
 
-### Emergency Stop {#emergency_stop}
+### Аварийная остановка {#emergency_stop}
 
 Emergency stop is effectively the same as disarming the vehicle while it is flying. Your vehicle will crash!
 
@@ -140,7 +140,7 @@ To takeoff (when landed):
 
 1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
 2. Optionally set the takeoff altitude in the right-side vertical slider.
-3. Confirm takeoff using the slider.
+3. Подтвердите взлет с помощью ползунка.
 
 ![взлет](../../assets/fly/takeoff.jpg)
 
@@ -166,7 +166,7 @@ Return to a "safe point" at any time while flying:
 
 ### Смена высоты {#change_altitude}
 
-You can change altitude while flying, except when in a mission:
+Вы можете изменить высоту во время полета, если не выполняется миссия:
 
 1. Press the **Action** button on the *Fly Tools*
 2. Select the *Change Altitude* action from the dialog.
