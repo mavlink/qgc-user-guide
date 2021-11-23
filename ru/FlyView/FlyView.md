@@ -162,7 +162,7 @@ Return to a "safe point" at any time while flying:
 
 ![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** Vehicles commonly return to the "home" (takeoff) location and land. This behaviour depends on the vehicle type and configuration. For example, rally points or mission landings may be used as alternative return targets.
+> **Note** Vehicles commonly return to the "home" (takeoff) location and land. Такое поведение зависит от типа и конфигурации БПЛА. For example, rally points or mission landings may be used as alternative return targets.
 
 ### Смена высоты {#change_altitude}
 
@@ -219,7 +219,7 @@ To pause:
 
 1. Press the **Pause** button in the *Fly Tools*.
 2. Optionally set a new altitude using the right-side vertical slider.
-3. Confirm the pause using the slider.
+3. Подтвердите паузу с помощью ползунка.
 
 ![пауза](../../assets/fly/pause.jpg)
 
@@ -232,11 +232,11 @@ You can start a mission when the vehicle is landed (the start mission confirmati
 To start a mission from landed:
 
 1. Press the **Action** button on the *Fly Tools*
-2. Select the *Start Mission* action from the dialog.
+2. Выберите *Старт миссии* в диалоговом окне.
   
   ![Подтверждение начала полетного задания](../../assets/fly/start_mission_action.jpg)
   
-      (to display the confirmation slider)
+      (отображать ползунок для подтверждения)
       
 
 3. When the confirmation slider appears, drag it to start the mission.
@@ -270,7 +270,7 @@ After landing you will be prompted with a *Flight Plan complete* dialog, which g
 
 ![Возобновление полетного задания](../../assets/fly/resume_mission.jpg)
 
-If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle. Then use the *Start Mission* slider to continue the mission.
+If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle. Затем используйте ползунок *Старт миссии* для продолжения миссии.
 
 The image below shows the mission that was rebuilt after the Return shown above.
 
