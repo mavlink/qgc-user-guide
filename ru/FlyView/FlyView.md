@@ -112,15 +112,15 @@ Arming a vehicle starts the motors in preparation for takeoff.
 
 To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the confirmation sider.
 
-![Arm](../../assets/fly/arm.jpg)
+![Постановить на охрану](../../assets/fly/arm.jpg)
 
 > **Note** Vehicles usually disarm automatically if you do not take off after a few seconds.
 
-### Disarm {#disarm}
+### Снять с охраны {#disarm}
 
 Disarming the vehicle stops the motors (making the vehicle safe). To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
 
-![Disarm](../../assets/fly/disarm.jpg)
+![Снять с охраны](../../assets/fly/disarm.jpg)
 
 > **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
 
