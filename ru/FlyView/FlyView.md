@@ -104,7 +104,7 @@ To view the checklist, first enable the tool by navigating to [Application Setti
 
 Once you have performed each test, select it on the UI to mark it as complete.
 
-### Arm {#arm}
+### Постановить на охрану {#arm}
 
 > **Tip** Generally *QGroundControl* does not require you to arm the vehicle explicitly; this is done for you if you start a mission or takeoff.
 
@@ -126,7 +126,7 @@ Disarming the vehicle stops the motors (making the vehicle safe). Чтобы с�
 
 ### Аварийная остановка {#emergency_stop}
 
-Emergency stop is effectively the same as disarming the vehicle while it is flying. Your vehicle will crash!
+Emergency stop is effectively the same as disarming the vehicle while it is flying. Авария!
 
 To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
 
@@ -149,7 +149,7 @@ To takeoff (when landed):
 You can land at the current position at any time while flying:
 
 1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
-2. Confirm landing using the slider.
+2. Подтвердите посадку с помощью ползунка.
 
 ![посадка](../../assets/fly/land.jpg)
 
