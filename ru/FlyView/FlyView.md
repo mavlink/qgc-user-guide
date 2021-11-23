@@ -256,7 +256,7 @@ You can continue the current mission while (unless already in a mission!):
   
   ![Продолжение полётного задания/изменение высоты](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-3. Drag the confirmation slider to continue the mission.
+3. Передвиньте ползунок, чтобы продолжить миссию.
   
   ![Продолжение полетного задания](../../assets/fly/continue_mission.jpg)
 
