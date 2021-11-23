@@ -1,10 +1,10 @@
 # Панель инструментов
 
-The main toolbar provides access to select the different application views, and high level status information for connected vehicles. The toolbar is the same in all views except for "PlanView" (which has a single icon to take you back to "Fly" view).
+Основная панель инструментов предоставляет доступ к выбору видов приложения и информацию о состоянии подсоединенных БПЛА. Панель инструментов одинакова во всех видах, за исключением "План" (который имеет одну иконку, чтобы вернуть вас обратно в режим "Полет").
 
 ## Выбор
 
-Используйте иконки для переключения между *видами*. These are displayed even if no vehicle is connected.
+Используйте иконки для переключения между *видами*. Показываются, даже если БПЛА не подключен.
 
 ![Settings view icon](../../assets/toolbar/toolbar_view_select_settings.jpg) **[Настройки](../SettingsView/SettingsView.md)** <br />Настройка *приложения QGroundControl*.
 
@@ -20,16 +20,16 @@ The main toolbar provides access to select the different application views, and 
 
 Символы статуса активны, когда *QGroundControl* подключено к полётному контроллеру. Они сигнализируют об уровнях состояния основных систем необходимых для навигации БПЛА и могут быть нажаты для получения более подробной информации.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) ![yield](../../assets/toolbar/toolbar_status_critical.jpg) **Сообщения БПЛА** <br />Нажмите, чтобы раскрыть список сообщений БПЛА. Note that version on the right is displayed when there are critical messages.
+![](../../assets/toolbar/toolbar_status_message.jpg) ![yield](../../assets/toolbar/toolbar_status_critical.jpg) **Сообщения БПЛА** <br />Нажмите, чтобы раскрыть список сообщений БПЛА. Внимание! Версия справа отображается при критических сообщениях!
 
 ![](../../assets/toolbar/toolbar_status_gps.jpg) **Статус GPS** <br />Количество спутников и надежность HDOP.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC signal strength information.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />Информация о надежности сигнала RC.
 
-![](../../assets/toolbar/toolbar_status_telemetry.jpg) **RSSI Телеметрии ** <br />Информация об уровене сигнала канала телеметрии.
+![](../../assets/toolbar/toolbar_status_telemetry.jpg) **RSSI Телеметрия** <br />Уровень сигнала канала телеметрии.
 
 ![](../../assets/toolbar/toolbar_status_battery.jpg) **Батарея** <br />Информация об остаточной емкости батарее (в процентах).
 
 ![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **Режимы полета** <br />Текущий режим полета. Нажмите, чтобы изменить режим полета.
 
-![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS Survey-In Status** <br />Shows you progress of RTK GPS Survey-In process.
+![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS Survey-In Status** <br />Показывает прогресс процесса RTK GPS Survey-In.
