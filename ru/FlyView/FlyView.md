@@ -32,7 +32,7 @@
 - **[Панель инструментов](#instrument_panel):** многостраничный виджет с информацией о БПЛА, включающий в себя: телеметрию, камеру, видео, общее состояние системы и вибрацию.
 - **[Video/Switcher](#video_switcher):** Переключение между видео или картой в окне. 
   - Нажмите на элемент для переключения *Видео* и *Карта* для переключения на передний план.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also supports directly connected UVC devices. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
+  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. Также поддерживаются UVC устройства. Поддержка видео QGC обсуждается в [Видео README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
 - **Confirmation Slider:** Context sensitive slider to confirm requested actions. Проведите для начала операции. Нажмите **X** для отмены.
 
@@ -104,7 +104,7 @@ To view the checklist, first enable the tool by navigating to [Application Setti
 
 Once you have performed each test, select it on the UI to mark it as complete.
 
-### Arm {#arm}
+### Постановить на охрану {#arm}
 
 > **Tip** Generally *QGroundControl* does not require you to arm the vehicle explicitly; this is done for you if you start a mission or takeoff.
 
@@ -112,21 +112,21 @@ Arming a vehicle starts the motors in preparation for takeoff.
 
 To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the confirmation sider.
 
-![Arm](../../assets/fly/arm.jpg)
+![Постановить на охрану](../../assets/fly/arm.jpg)
 
 > **Note** Vehicles usually disarm automatically if you do not take off after a few seconds.
 
-### Disarm {#disarm}
+### Снять с охраны {#disarm}
 
-Disarming the vehicle stops the motors (making the vehicle safe). To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
+Disarming the vehicle stops the motors (making the vehicle safe). Чтобы снять с охраны, выберите пункт**Поставить на охрану** в *Панели инструментов* при **приземлении**.
 
-![Disarm](../../assets/fly/disarm.jpg)
+![Снять с охраны](../../assets/fly/disarm.jpg)
 
 > **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
 
-### Emergency Stop {#emergency_stop}
+### Аварийная остановка {#emergency_stop}
 
-Emergency stop is effectively the same as disarming the vehicle while it is flying. Your vehicle will crash!
+Emergency stop is effectively the same as disarming the vehicle while it is flying. Авария!
 
 To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
 
@@ -140,7 +140,7 @@ To takeoff (when landed):
 
 1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
 2. Optionally set the takeoff altitude in the right-side vertical slider.
-3. Confirm takeoff using the slider.
+3. Подтвердите взлет с помощью ползунка.
 
 ![взлет](../../assets/fly/takeoff.jpg)
 
@@ -149,7 +149,7 @@ To takeoff (when landed):
 You can land at the current position at any time while flying:
 
 1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
-2. Confirm landing using the slider.
+2. Подтвердите посадку с помощью ползунка.
 
 ![посадка](../../assets/fly/land.jpg)
 
@@ -162,11 +162,11 @@ Return to a "safe point" at any time while flying:
 
 ![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** Vehicles commonly return to the "home" (takeoff) location and land. This behaviour depends on the vehicle type and configuration. For example, rally points or mission landings may be used as alternative return targets.
+> **Note** Vehicles commonly return to the "home" (takeoff) location and land. Такое поведение зависит от типа и конфигурации БПЛА. For example, rally points or mission landings may be used as alternative return targets.
 
 ### Смена высоты {#change_altitude}
 
-You can change altitude while flying, except when in a mission:
+Вы можете изменить высоту во время полета, если не выполняется миссия:
 
 1. Press the **Action** button on the *Fly Tools*
 2. Select the *Change Altitude* action from the dialog.
@@ -219,7 +219,7 @@ To pause:
 
 1. Press the **Pause** button in the *Fly Tools*.
 2. Optionally set a new altitude using the right-side vertical slider.
-3. Confirm the pause using the slider.
+3. Подтвердите паузу с помощью ползунка.
 
 ![пауза](../../assets/fly/pause.jpg)
 
@@ -232,11 +232,11 @@ You can start a mission when the vehicle is landed (the start mission confirmati
 To start a mission from landed:
 
 1. Press the **Action** button on the *Fly Tools*
-2. Select the *Start Mission* action from the dialog.
+2. Выберите *Старт миссии* в диалоговом окне.
   
   ![Подтверждение начала полетного задания](../../assets/fly/start_mission_action.jpg)
   
-      (to display the confirmation slider)
+      (отображать ползунок для подтверждения)
       
 
 3. When the confirmation slider appears, drag it to start the mission.
@@ -256,7 +256,7 @@ You can continue the current mission while (unless already in a mission!):
   
   ![Продолжение полётного задания/изменение высоты](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-3. Drag the confirmation slider to continue the mission.
+3. Передвиньте ползунок, чтобы продолжить миссию.
   
   ![Продолжение полетного задания](../../assets/fly/continue_mission.jpg)
 
@@ -270,7 +270,7 @@ After landing you will be prompted with a *Flight Plan complete* dialog, which g
 
 ![Возобновление полетного задания](../../assets/fly/resume_mission.jpg)
 
-If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle. Then use the *Start Mission* slider to continue the mission.
+If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle. Затем используйте ползунок *Старт миссии* для продолжения миссии.
 
 The image below shows the mission that was rebuilt after the Return shown above.
 
