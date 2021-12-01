@@ -14,7 +14,7 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 *QGroundControl* Windows'un 64 bit versiyonlarına kurulabilir:
 
-1. [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)'i indirin.
+1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
 2. Yükleyiciyi başlatmak için QGroundControl-installer. exe'ye çift tıklayın.
 
 > **Note** Windows kurulum programı 3 kısayol oluşturur: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Eğer başlatma veya video işleme sorunları yaşamıyorsanız ilk kısayolu kullanın. Daha fazla bilgi için [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting)'e göz atın.
@@ -27,7 +27,7 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 *QGroundControl* macOS 10.20 veya daha güncel sürümlere kurulabilir:
 
-1. [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)'i indirin.
+1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
 2. .dmg dosyasına çift tıklayın, ardından çıkan ekranda *QGroundControl*'ü *Application* dosyasına sürükleyin.
     
     > **Note** QGroundControl imzasız olduğu için Catalina'da problem olmaya devam etmektedir. QGC uygulamasını ilk defa açmak için:
@@ -53,7 +53,7 @@ Ubuntu, bir seri bağlantı noktasının (veya USB serisinin) robotikle ilgili k
 
 &nbsp; * QGroundControl * yüklemek için:
 
-1. [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)'ü indirin.
+1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
 2. Aşağıdaki terminal komutlarını kullanarak kurun (ve çalıştırın): 
         sh
         chmod +x ./QGroundControl.AppImage
