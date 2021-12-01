@@ -14,7 +14,7 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 *QGroundControl* can be installed on 64 bit versions of Windows:
 
-1. 下载[QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe)。
+1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
 2. 双击可执行文件来启动安装程序。
 
 > **注意** Windows 安装程序有三个快捷选项：**QGroundControl**, **GPU 兼容性模式**, **GPU 安全模式**。 除非您有遇到启动或图像渲染问题，一般情况下，使用第一个选项来安装， 想了解更多详情可以参考[QGC Install/Config Problem>Windows：UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting)。
@@ -27,7 +27,7 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 *QGroundControl* can be installed on macOS 10.20 or later:
 
-1. 下载[QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg)。
+1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
 2. 双击.dmg 文件以挂载它，然后将*QGroundControl*应用程序拖动到您的*应用程序*文件夹。
     
     > **注意** QGroundControlControl在Catalina系统上如果没有被签名认证，会有些问题发生。 当您首次打开 QGC 应用：
@@ -53,7 +53,7 @@ Before installing *QGroundControl* for the first time:
 
 &nbsp; To install *QGroundControl*:
 
-1. 下载[QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage)。
+1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
 2. 使用终端命令安装(并运行)： 
         sh
         chmod +x ./QGroundControl.AppImage
