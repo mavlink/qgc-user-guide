@@ -14,7 +14,7 @@ QGC должен хорошо работать на любом современ�
 
 *QGroundControl* can be installed on 64 bit versions of Windows:
 
-1. Скачайте [QGroundControl-installer.exe](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl-installer.exe).
+1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
 2. Для запуска программы установки дважды кликните на исполняемый файл.
 
 > **Примечание** Установщик создает 3 ярлыка: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
@@ -27,7 +27,7 @@ QGC должен хорошо работать на любом современ�
 
 *QGroundControl* can be installed on macOS 10.20 or later:
 
-1. Скачайте [QGroundControl.dmg](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.dmg).
+1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
 2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
     
     > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
@@ -53,7 +53,7 @@ Before installing *QGroundControl* for the first time:
 
 &nbsp; To install *QGroundControl*:
 
-1. Скачайте [QGroundControl.AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage).
+1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
 2. Выполните в терминале следующие команды: 
         sh
         chmod +x ./QGroundControl.AppImage
