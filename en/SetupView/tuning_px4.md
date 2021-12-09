@@ -35,11 +35,11 @@ To make sure the vehicle is stable enough for auto-tuning:
 1. Repeat the maneuver, tilting with larger amplitudes at each attempt.
    If the vehicle can stabilise itself within 2 oscillations at ~20 degrees move to the next step.
 1. Repeat the same maneuvers but on the pitch axis.
-   A above, start with small angles and confirm that the vehicle can itself within 2 oscillations before increasing the tilt.
+   As above, start with small angles and confirm that the vehicle can itself within 2 oscillations before increasing the tilt.
 
 If the drone can stabilize itself within 2 oscillations it is ready for the auto-tuning procedure.
 
-If not, see the [PX4 User Guide > Autotuning > Troubleshooting](http://docs.px4.io/master/en/config/autotune.html#troubleshooting)
+If not, see the [PX4 User Guide > Autotuning > Troubleshooting](http://docs.px4.io/master/en/config/autotune.html#troubleshooting).
 
 
 ### Auto-tuning procedure
@@ -107,7 +107,7 @@ In overview:
    - You can also **Clear**/**Stop** the chart using the buttons provided.
 1. Tune the other axes.
 1. Switch to the other controllers and repeat the process.
-   The screenshots are shown below.
+   Screenshots of the tuning pages are shown below.
    
    ![PX4 Tuning - Manual - Attitude controller](../../assets/setup/tuning/px4_copter_manual_attitude.png)
    ![PX4 Tuning - Manual - Velocity controller](../../assets/setup/tuning/px4_copter_manual_velocity.png)
