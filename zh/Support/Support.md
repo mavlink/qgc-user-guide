@@ -11,7 +11,7 @@ These forums are also the best place to start discussions on bugs/problems you a
 
 ### Developer Chat {#developer_chat}
 
-*QGroundControl* developers (and many regular/deeply-involved users) can be found on the [#QGroundControl Slack channel](https://px4.slack.com/).
+*QGroundControl* developers (and many regular/deeply-involved users) can be found on the [#QGroundControl Slack channel](https://px4.slack.com/). (You may need [an invite](http://slack.px4.io/).)
 
 ## GitHub Issues
 
