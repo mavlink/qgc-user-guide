@@ -67,21 +67,15 @@ Ubuntu, bir seri bağlantı noktasının (veya USB serisinin) robotikle ilgili k
 
 ## Android {#android}
 
-* QGroundControl *'ü Google Play Store'dan edinebilirsiniz.
-
-Ayrıca manuel olarak da kurabilirsiniz:
+*QGroundControl* is temporily unavailable from the Google Play Store. You can install manually from here:
 
 * [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
-## iOS {#iOS}
+## Old Stable Releases
 
-* QGroundControl *'ü App Store'dan edinebilirsiniz.
+Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
 
-## Eski Stabil Sürümler
+## Daily Builds
 
-Eski stabil sürümleri <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>'dan bulabilirsiniz.
-
-## Günlük Sürümler
-
-Günlük sürümler [downloaded from here](../releases/daily_builds.md).
+Daily builds can be [downloaded from here](../releases/daily_builds.md).
