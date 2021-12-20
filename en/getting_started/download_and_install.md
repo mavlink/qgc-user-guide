@@ -75,16 +75,10 @@ To install *QGroundControl*:
 
 ## Android {#android}
 
-*QGroundControl* is available from the Google Play Store. 
-
-You can also install manually:
+*QGroundControl* is temporily unavailable from the Google Play Store. You can install manually from here:
 
 * [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
-
-## iOS {#iOS}
-
-*QGroundControl* is available from the App Store. 
 
 ## Old Stable Releases
 
