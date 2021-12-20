@@ -67,21 +67,15 @@ Before installing *QGroundControl* for the first time:
 
 ## Android {#android}
 
-*QGroundControl* is available from the Google Play Store.
-
-You can also install manually:
+*QGroundControl* is temporily unavailable from the Google Play Store. You can install manually from here:
 
 * [Android 32 位 APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 位 APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
-## iOS 版 {#iOS}
-
-*QGroundControl* is available from the App Store.
-
-## 旧稳定版本
+## Old Stable Releases
 
 Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
 
-## 每日构建
+## Daily Builds
 
 Daily builds can be [downloaded from here](../releases/daily_builds.md).
