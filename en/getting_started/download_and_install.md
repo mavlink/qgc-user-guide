@@ -61,17 +61,10 @@ To install *QGroundControl* for Ubuntu Linux 16.04 LTS or later:
 *QGroundControl* is temporarily unavailable from the Google Play Store. 
 We are working on a fix for this, but it may take some time. 
 
-In the meantime you can [download and install the APK from here](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl.apk) (for Android 5.1 or later).
+In the meantime you can download and install the APK from here (for Android 5.1 or later):
 
-## iOS {#iOS}
-
-> **Note** *QGroundControl* for iOS is in beta.
-  It can only be installed as a [daily build](../releases/daily_builds.md).
-
-Install *QGroundControl* for iOS 8.0 or later:
-
-1. Follow the instructions for [Installing iOS Daily Beta](../releases/daily_builds.md).
-
+* [QGroundControl 32 bit apk](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
+* [QGroundControl 64 bit apk](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
 ## Old Stable Releases
 
