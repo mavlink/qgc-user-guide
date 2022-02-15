@@ -81,7 +81,7 @@ In overview:
     
     ![PX4 Tuning - Manual - Rate controller](../../assets/setup/tuning/px4_copter_manual_rate.png)
 
-4. Select the *Tuning axis* to tune: **Rol**, **Pitch** or **Yaw** (each axis is tuned separately).
+4. Select the *Tuning axis* to tune: **Roll**, **Pitch** or **Yaw** (each axis is tuned separately).
 
 5. Fly the vehicle, observing the tracking on the chart. 
     - Adjust the *Tuning Values* (parameters) to improve the tracking shown on the graph using the slider.
