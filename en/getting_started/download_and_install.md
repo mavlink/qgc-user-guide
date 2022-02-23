@@ -54,7 +54,9 @@ Before installing *QGroundControl* for the first time:
    sudo usermod -a -G dialout $USER
    sudo apt-get remove modemmanager -y
    sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
+   sudo apt install libqt5gui5 -y
    ```
+   <!-- Note, remove install of libqt5gui5 https://github.com/mavlink/qgroundcontrol/issues/10176 fixed -->
 1. Logout and login again to enable the change to user permissions.
 
 &nbsp;
