@@ -14,6 +14,10 @@ Auto-tuning automates the process of tuning the PX4 rate and attitude controller
 
 > **Note** This guide shows the default usage of this feature. Additional information and configuration can be found in the [PX4 Autotuning Guide](http://docs.px4.io/master/en/config/autotune.html) (PX4 User Guide).
 
+<span></span>
+
+> **Note** The QGroundControl Autotuning UI is not enabled for Fixed wing vehicles - see [qgroundcontrol#10194](https://github.com/mavlink/qgroundcontrol/issues/10194) (though it is for VTOL vehicles in fixed wing flight). You can start Fixed-wing autotuning by setting the parameter [FW_AT_START](../advanced_config/parameter_reference.md#FW_AT_START).
+
 ### Pre-Autotuning Test
 
 Auto-tuning is performed while flying. The vehicle must be able to fly and adequately stabilize itself before running auto-tune. This test ensures that the vehicle can fly safely in position controlled modes.
@@ -23,7 +27,7 @@ To make sure the vehicle is stable enough for auto-tuning:
 1. Perform a normal preflight safety checklist to ensure the flight zone is clear and has enough space.
 2. Takeoff and prepare for the test 
     - **Multicopters:** Take off and hover at 1m above ground in **Altitude mode** or Stabilized mode.
-    - **Fixed-wing:** Take off and fly at cruise speed in **Position mode** or **Altitude mode**.
+    - **Fixed-wing mode:** Take off and fly at cruise speed in **Position mode** or **Altitude mode**.
 3. Use the RC transmitter roll stick to perform the following maneuver, tilting the vehicle just a few degrees: *roll left > roll right > center* (The whole maneuver should take about 3 seconds). The vehicle should stabilise itself within 2 oscillations.
 4. Repeat the maneuver, tilting with larger amplitudes at each attempt. If the vehicle can stabilise itself within 2 oscillations at ~20 degrees move to the next step.
 5. Repeat the same maneuvers but on the pitch axis. As above, start with small angles and confirm that the vehicle can itself within 2 oscillations before increasing the tilt.
@@ -43,7 +47,7 @@ The test steps are:
 1. Perform the [pre-tuning test](#pre-tuning-test) above.
 2. Takeoff using RC control and prepare for test: 
     - **Multicopters:** Takeoff using the remote controller in **Altitude mode**. Hover the vehicle at a safe distance and at a few meters above ground (between 4 and 20m).
-    - **Fixed-wing:** Once flying at cruise speed, activate **Hold Mode**. This will guide the plane to fly in circle at constant altitude and speed.
+    - **VTOL in Fixed-wing mode:** Once flying at cruise speed, activate **Hold Mode**. This will guide the plane to fly in circle at constant altitude and speed.
 
 3. In QGroundControl, open the menu: **Vehicle setup > PID Tuning**
     
