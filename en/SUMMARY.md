@@ -60,14 +60,14 @@
     * [Daily Builds](releases/daily_builds.md)
     * [Daily Build New Features](releases/daily_build_new_features.md)
     * [Privacy Policy](releases/privacy_policy.md)
-
+* [Troubleshooting](Troubleshooting/Troubleshooting.md)
+  * [QGC Setup Problems](Troubleshooting/qgc_setup_problems.md.md)
+  * [QGC/Vehicle Usage/Interaction Problems](Troubleshooting/qgc_usage_problems.md.md)
+      * [Connection problems](Troubleshooting/VehicleConnection.md)
+      * [Parameter Download failures](Troubleshooting/ParameterDownload.md)
+      * [Plan Upload/Download failures](Troubleshooting/PlanUploadDownload.md)
+      * [Resume Mission failures](Troubleshooting/ResumeMission.md)
 * [Support](Support/Support.md)
-    * [QGC Install/Config Problems](Support/troubleshooting_qgc.md)
-    * [QGC/Vehicle Interaction Problems](Support/CommonProblems.md)
-       * [Connection problems](Support/VehicleConnection.md)
-       * [Parameter Download failures](Support/ParameterDownload.md)
-       * [Plan Upload/Download failures](Support/PlanUploadDownload.md)
-       * [Resume Mission failures](Support/ResumeMission.md)
 
 ## Flight Stacks
 

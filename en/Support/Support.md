@@ -43,13 +43,6 @@ If Windows is telling you the *QGroundControl program is unresponsive* use the f
 
 If you are directed to create a feature request after discussion on support forums please use the "Feature request" template which has some helpful information on required details.
 
-## Troubleshooting
-
-Troubleshooting information is provided in two topics:
-
-- [QGC Installation/Configuration Problems](../Support/troubleshooting_qgc.md) - problems/solutions related to **running** *QGroundControl* on the host computer.
-- [QGC/Vehicle Interaction Problems](../Support/CommonProblems.md) - problems/solutions related to **using** *QGroundControl* to interact with a vehicle.
-
 ### Console Logging
 
 *Console Logs* can be helpful when diagnosing *QGroundControl* problems. For more information see: [Console Logging](../SettingsView/console_logging.md).
