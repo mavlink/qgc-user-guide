@@ -43,6 +43,10 @@ If Windows is telling you the *QGroundControl program is unresponsive* use the f
 
 If you are directed to create a feature request after discussion on support forums please use the "Feature request" template which has some helpful information on required details.
 
+## Troubleshooting
+
+Troubleshooting information is linked from [here](../troubleshooting/README.md).
+
 ### Console Logging
 
 *Console Logs* can be helpful when diagnosing *QGroundControl* problems. For more information see: [Console Logging](../SettingsView/console_logging.md).
