@@ -4,8 +4,8 @@ This user guide is meant to be the main provider of support for *QGroundControl*
 
 *Questions* about how to use *QGroundControl* should be raised in the discussion forum for the associated flight stack:
 
-- [PX4 Pro Flight Stack](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage) (discuss.px4.io).
-- [ArduPilot Flight Stack](http://discuss.ardupilot.org/c/ground-control-software/qgroundcontrol) (discuss.ardupilot.org).
+* [PX4 Pro Flight Stack](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage) (discuss.px4.io).
+* [ArduPilot Flight Stack](http://discuss.ardupilot.org/c/ground-control-software/qgroundcontrol) (discuss.ardupilot.org).
 
 These forums are also the best place to start discussions on bugs/problems you are having with *QGroundControl* and or feature requests you would like to make. From there you may be directed to entering information in a GitHub Issue for further resolution.
 
@@ -43,10 +43,7 @@ If you are directed to create a feature request after discussion on support foru
 
 ## Troubleshooting
 
-Troubleshooting information is provided in two topics:
-
-- [QGC Installation/Configuration Problems](../Support/troubleshooting_qgc.md) - problems/solutions related to **running** *QGroundControl* on the host computer.
-- [QGC/Vehicle Interaction Problems](../Support/CommonProblems.md) - problems/solutions related to **using** *QGroundControl* to interact with a vehicle.
+Troubleshooting information is linked from [here](../troubleshooting/README.md).
 
 ### Console Logging
 
