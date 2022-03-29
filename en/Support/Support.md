@@ -45,10 +45,7 @@ If you are directed to create a feature request after discussion on support foru
 
 ## Troubleshooting
 
-Troubleshooting information is provided in two topics:
-
-- [QGC Installation/Configuration Problems](../Support/troubleshooting_qgc.md) - problems/solutions related to **running** *QGroundControl* on the host computer.
-- [QGC/Vehicle Interaction Problems](../Support/CommonProblems.md) - problems/solutions related to **using** *QGroundControl* to interact with a vehicle.
+Troubleshooting information is linked from [here](../troubleshooting/README.md).
 
 ### Console Logging
 

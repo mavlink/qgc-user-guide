@@ -1,8 +1,8 @@
-# QGC Installation/Configuration Problems
+# Troubleshooting QGC Setup
 
-This topic lists troubleshooting information related to **running** *QGroundControl* on the host computer (e.g. QGC setup and configuration issues).
+This topic lists troubleshooting information related to *QGroundControl* setup and installation on the host computer.
 
-> **Tip** Problems when **using** *QGroundControl* to interact with a vehicle are covered in: [QGC/Vehicle Interaction Problems](../Support/CommonProblems.md).
+> **Tip** Problems when **using** *QGroundControl* to interact with a vehicle are covered in: [QGC Vehicle Interaction Problems](../troubleshooting/qgc_usage.md).
 
 ## 64-bit Windows: Audio in Unexpected Language
 
@@ -27,13 +27,15 @@ If you experience UI rendering issues or video driver crashes on Windows, this m
 - **GPU Safe Mode:** QGC uses a software rasterizer for the UI (this is very slow).
 
 
-## Windows: Waiting For Vehicle Connection over WiFi {#waiting_for_connection}
+## Windows: Doesn't connect to Vehicle over WiFi {#waiting_for_connection}
 
-If *QGroundControl* sits forever *Waiting For Vehicle Connection* when trying to connect to the vehicle over Wifi, a possible cause is that IP traffic is being blocked by firewall software (e.g. Windows Defender, Norton, etc.).
+If *QGroundControl* sits forever (for example, *Waiting For Vehicle Connection*) when trying to connect to the vehicle over Wifi, a possible cause is that IP traffic is being blocked by firewall software (e.g. Windows Defender, Norton, etc.).
 
 ![Waiting for connection](../../assets/support/waiting_for_connection.jpg)
 
 The solution is to allow the *QGroundControl* app through the firewall.
+
+> **Note** It is possible to simply switch the network profile from Public to Private to allow connections, but this exposes your PC to the Network, so be careful
 
 If using *Windows Defender*:
 - In the **Start** bar, enter/select: *Firewall & Network Protection* (System Settings).
