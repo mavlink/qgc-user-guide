@@ -2,7 +2,7 @@
 
 The sections below can be used to download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
-> **Совет** Смотрите раздел [QGC Установка/Проблеммы при конфигурировании](../Support/troubleshooting_qgc.md), если у вас возникли какие-либо проблемы с запуском *QGroundControl* после установки!
+> **Tip** See [Troubleshooting QGC Setup](../troubleshooting/qgc_setup.md) if *QGroundControl* doesn't start and run properly after installation!
 
 ## Системные требования
 
@@ -17,7 +17,7 @@ QGC должен хорошо работать на любом современ�
 1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
 2. Для запуска программы установки дважды кликните на исполняемый файл.
 
-> **Примечание** Установщик создает 3 ярлыка: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting).
+> **Примечание** Установщик создает 3 ярлыка: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [Troubleshooting QGC Setup > Windows: UI Rendering/Video Driver Issues](../troubleshooting/qgc_setup.md#opengl_troubleshooting).
 
 <span></span>
 
@@ -64,7 +64,7 @@ Before installing *QGroundControl* for the first time:
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage (или двойной клик)
 
-> **Note** There are known [video steaming issues](../Support/troubleshooting_qgc.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+> **Note** There are known [video steaming issues](../troubleshooting/qgc_setup.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
 
 <span></span>
 

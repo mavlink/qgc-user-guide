@@ -37,10 +37,11 @@
   * [지오태그 이미지 (PX4)](analyze_view/geotag_images.md)
   * [MAVLink 콘솔 (PX4)](analyze_view/mavlink_console.md)
   * [MAVLink 탐색기](analyze_view/mavlink_inspector.md)
-
-* [릴리즈](releases/README.md) * [릴리즈 노트](releases/release_notes.md) * [v4.0 (추가 노트)](releases/stable_v4.0_additional.md) * [v3.3 (상세)](releases/stable_v3.3_long.md) * [v3.2 (상세)](releases/stable_v3.2_long.md) * [데일리 빌드](releases/daily_builds.md) * [데일리 빌드 새로운 기능](releases/daily_build_new_features.md) * [개인정보 처리방침](releases/privacy_policy.md)
-
-* [지원](Support/Support.md) * [QGC 설치/설정 문제](Support/troubleshooting_qgc.md) * [QGC/기체 상호 작용 문제](Support/CommonProblems.md) * [연결 문제](Support/VehicleConnection.md) * [파라미터 다운로드 실패](Support/ParameterDownload.md) * [계획 업로드/다운로드 실패](Support/PlanUploadDownload.md) * [미션 재개 실패](Support/ResumeMission.md)
+* [Releases](releases/README.md) * [Release Notes](releases/release_notes.md) * [v4.0 (Additional Notes)](releases/stable_v4.0_additional.md) * [v3.3 (Detailed)](releases/stable_v3.3_long.md) * [v3.2 (Detailed)](releases/stable_v3.2_long.md) * [Daily Builds](releases/daily_builds.md) * [Daily Build New Features](releases/daily_build_new_features.md) * [Privacy Policy](releases/privacy_policy.md)
+* [Troubleshooting](troubleshooting/README.md) 
+  * [Setup Problems](troubleshooting/qgc_setup.md)
+  * [Usage Problems](troubleshooting/qgc_usage.md) * [Connection problems](troubleshooting/vehicle_connection.md) * [Parameter Download failures](troubleshooting/parameter_download.md) * [Plan Upload/Download failures](troubleshooting/plan_upload_download.md) * [Resume Mission failures](troubleshooting/resume_mission.md)
+* [Support](Support/Support.md)
 
 ## Flight Stack
 

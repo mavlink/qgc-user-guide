@@ -2,7 +2,7 @@
 
 The sections below can be used to download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
-> **Tip** *QGroundControl*'i indirdikten sonra çalıştırmakta bir problem yaşıyorsanız [QGC Install/Config Problems](../Support/troubleshooting_qgc.md)'e bir göz atın!
+> **Tip** See [Troubleshooting QGC Setup](../troubleshooting/qgc_setup.md) if *QGroundControl* doesn't start and run properly after installation!
 
 ## Sistem Gereksinimleri
 
@@ -17,7 +17,7 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
 2. Yükleyiciyi başlatmak için QGroundControl-installer. exe'ye çift tıklayın.
 
-> **Note** Windows kurulum programı 3 kısayol oluşturur: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Eğer başlatma veya video işleme sorunları yaşamıyorsanız ilk kısayolu kullanın. Daha fazla bilgi için [QGC Install/Config Problems > Windows: UI Rendering/Video Driver Issues](../Support/troubleshooting_qgc.md#opengl_troubleshooting)'e göz atın.
+> **Note** Windows kurulum programı 3 kısayol oluşturur: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Eğer başlatma veya video işleme sorunları yaşamıyorsanız ilk kısayolu kullanın. For more information see [Troubleshooting QGC Setup > Windows: UI Rendering/Video Driver Issues](../troubleshooting/qgc_setup.md#opengl_troubleshooting).
 
 <span></span>
 
@@ -64,7 +64,7 @@ Ubuntu, bir seri bağlantı noktasının (veya USB serisinin) robotikle ilgili k
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
-> **Note** Çift adaptörlü Ubuntu 18.04 sistemlerinde bilinen [ video steaming issues ](../Support/troubleshooting_qgc.md#dual_vga) vardır.
+> **Note** There are known [video steaming issues](../troubleshooting/qgc_setup.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
 
 <span></span>
 
