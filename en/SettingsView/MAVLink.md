@@ -19,7 +19,9 @@ This section sets the MAVLink properties and behaviour of *QGroundControl*.
 - **Emit heartbeat:** Disable emission of regular MAVLink HEARTBEAT message (Default: True).
   Generally speaking, you should not turn this off.
 - **Only accept MAVs with the same protocol version:** Set true to only connect to MAVLink 1 or to MAVLink 2 vehicles (Default: True).
-- **Enable MAVLink forwarding:** Enable *QGroundControl* to forward MAVLink messages to another UDP endpoint (Default: False). Note that this is a one way only forwarding. This means that if any MAVLink messages are received from the specified host these messages will be ignored.
+- **Enable MAVLink forwarding:** Enable *QGroundControl* to forward MAVLink messages from connected vehicles to another UDP endpoint (Default: False).
+  Note that this forwarding is one-way: from QGC to the specified host.
+  Any MAVLink messages that are received from the specified host will be ignored.
 
 ## Link Status {#link_status}
 
