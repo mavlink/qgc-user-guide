@@ -52,6 +52,7 @@
 	* [GeoTag Images (PX4)](analyze_view/geotag_images.md)
 	* [MAVLink Console (PX4)](analyze_view/mavlink_console.md)
 	* [MAVLink Inspector](analyze_view/mavlink_inspector.md)
+    * [Vibration](analyze_view/vibration.md)
 * [Releases](releases/README.md)
     * [Release Notes](releases/release_notes.md)
        * [v4.0 (Additional Notes)](releases/stable_v4.0_additional.md)
