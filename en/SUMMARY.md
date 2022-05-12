@@ -26,6 +26,8 @@
     * [Sensors (ArduPilot)](SetupView/sensors_ardupilot.md)
     * [Sensors (PX4)](SetupView/sensors_px4.md)
   * [Flight Modes](SetupView/FlightModes.md)
+    * [ArduPilot Flight Modes Setup](SetupView/flight_modes_ardupilot.md)
+    * [PX4 Flight Modes Setup](SetupView/flight_modes_px4.md)
   * [Power](SetupView/Power.md)
   * [Motors](SetupView/Motors.md)
     * [Motors (ArduSub)](SetupView/Motors_ardusub.md)
