@@ -24,7 +24,43 @@ Each combination of switches is then encoded as a particular PWM value that will
 > **Note** The single channel is selectable on PX4 and ArduPlane, but is fixed to channel 5 on Copter.
 
 The process for this varies depending on the transmitter.
-For the *FrSky Taranis* transmitter (a very popular and highly recommended RC transmitter) the process involves assigning a "logical switch" to each combination of positions of the two real switches.
-Each logical switch is then assigned to a different PWM value on the same channel.
+A number of setup examples are provided below.
 
 After configuring the switch positions in a single channel you can then map them to flight modes in QGroundControl.
+
+### Taranis
+
+#### Map 3-way Switch to a Single Channel
+
+If you only need to support selecting between two or three modes then you can map the modes to the positions just one 3-way switch.
+Below we show how to map the Taranis 3-way "SD" switch to channel 5.
+
+:::note
+This example shows how to set up the popular *FrSky Taranis* transmitter.
+Transmitter setup will be different on other transmitters.
+:::
+
+Open the Taranis UI **MIXER** page and scroll down to **CH5**, as shown below:
+
+![Taranis - Map channel to switch](../../assets/setup/flight_modes/taranis_single_channel_mode_selection_1.png)
+
+Press **ENT(ER)** to edit the **CH5** configuration then change the **Source** to be the *SD* button.
+
+![Taranis - Configure channel](../../assets/qgc/setup/flight_modes/taranis_single_channel_mode_selection_2.png)
+
+That's it!
+Channel 5 will now output 3 different PWM values for the three different **SD** switch positions.
+
+
+#### Taranis Setup: Map Multiple Switches to a Single Channel 
+
+Most transmitters do not have 6-way switches, so if you need to be able to support more modes than the number of switch positions available (up to 6) then you will have to represent them using multiple switches.
+Commonly this is done by encoding the positions of a 2- and a 3-position switch into a single channel, so that each switch position combination results in a different PWM value.
+
+On the FrSky Taranis this process involves assigning a "logical switch" to each combination of positions of the two real switches.
+Each logical switch is then assigned to a different PWM value on the same channel.
+
+The video below shows how this is done with the *FrSky Taranis* transmitter.
+
+<!-- @[youtube](https://youtu.be/BNzeVGD8IZI?t=427) - video showing how to set the QGC side - at about 7mins and 3 secs -->
+@[youtube](https://youtu.be/TFEjEQZqdVA)
