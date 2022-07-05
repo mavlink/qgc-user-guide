@@ -2,7 +2,7 @@
 
 [![배포](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases) [![토론](https://img.shields.io/badge/discuss-px4-ff69b4.svg)](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage) [![토론](https://img.shields.io/badge/discuss-ardupilot-ff69b4.svg)](http://discuss.ardupilot.org/c/ground-control-software/qgroundcontrol) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mavlink/qgroundcontrol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![슬랙](../assets/site/slack.svg)](https://join.slack.com/t/px4/shared_invite/zt-si4xo5qs-R4baYFmMjlrT4rQK5yUnaA)
 
-*QGroundControl*은 PX4나 ArduPilot을 위한 비행 제어 및 차량 설정 방법을 제공합니다. 초보자에게는 쉽고 간단한 사용법을 제공하며 숙련자에게는 고급 기능 지원을 제공합니다.
+*QGroundControl*은 PX4나 ArduPilot을 위한 비행기와 차량의 제어 및 설정 방법을 제공합니다. 초보자에게는 쉽고 간단한 사용법을 제공하며 숙련자에게는 고급 기능 지원을 제공합니다.
 
 **주요 기능:**
 
@@ -16,8 +16,8 @@
 
 ![](../../assets/quickstart/ConnectedVehicle.jpg)
 
-> **Note** 이 설명서는 작업 중인 버전입니다. 제공된 정보는 정확하여야 하지만, 누락되거나 불완전한 부분이 있을 수 있습니다.
+> **Note** 이 설명서는 작업 중인 버전입니다. 최대한 정확한 정보를 제공하기 위하여 노력하였습니다만, 누락되거나 잘못된 부분이 있을 수 있습니다.
 
 <span></span>
 
-> **Tip** *QGroundControl* 개발, 아키텍처, 기여 및 번역에 대한 정보는 [개발자 가이드](https://dev.qgroundcontrol.com/en/)를 참고하십시오.
+> **Tip** *QGroundControl*에 관련된 개발, 아키텍처, 기여 및 번역에 대한 정보는 [개발자 가이드](https://dev.qgroundcontrol.com/en/)를 참고하십시오.
