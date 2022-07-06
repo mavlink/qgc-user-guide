@@ -1,10 +1,10 @@
-# Download and Install
+# 다운로드 및 설치
 
-The sections below can be used to download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
+아래 섹션에서 여러 플랫폼의 *QGroundControl* [최신 안정 배포판](../releases/release_notes.md)를 다운로드할 수 있습니다.
 
-> **Tip** See [Troubleshooting QGC Setup](../troubleshooting/qgc_setup.md) if *QGroundControl* doesn't start and run properly after installation!
+> **Tip** 설치 후 *QGroundControl*이 정상적으로 실행되지 않으면 [QGC 설정 문제 해결](../troubleshooting/qgc_setup.md)편을 참조하십시오!
 
-## System Requirements
+## 시스템 요구 사항
 
 QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
 
