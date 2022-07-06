@@ -6,9 +6,9 @@
 
 ## 시스템 요구 사항
 
-QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+QGC는 최신 컴퓨터나 모바일 장치에서 월활하게 실행됩니다. 성능은 시스템 환경과 사용 가능한 시스템 리소스 상태에 따라 차이가 납니다. 하드웨어가 좋은 수록 더 좋은 성능을 발휘하는 것은 당연합니다. 최소 8Gb RAM, SSD, Nvidia 또는 AMD 그래픽 및 i5 이상의 CPU가 장착된 컴퓨터이면 충분합니다.
 
-For the best experience and compatibility, we recommend you the newest version of your operating system.
+최상의 경험과 호환성을 위해 최신 버전의 운영 체제를 사용하는 것이 좋습니다.
 
 ## Windows {#windows}
 
