@@ -10,32 +10,32 @@ QGC는 최신 컴퓨터나 모바일 장치에서 월활하게 실행됩니다. 
 
 최상의 경험과 호환성을 위해 최신 버전의 운영 체제를 사용하는 것이 좋습니다.
 
-## Windows {#windows}
+## 윈도우 {#windows}
 
-*QGroundControl* can be installed on 64 bit versions of Windows:
+*QGroundControl*은 64비트 버전 윈도우 운영체제에 설치할 수 있습니다.
 
-1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
-2. Double click the executable to launch the installer.
+1. [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe)를 다운로드합니다.
+2. 실행 파일을 더블 클릭하여 설치 프로그램을 실행합니다.
 
-> **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [Troubleshooting QGC Setup > Windows: UI Rendering/Video Driver Issues](../troubleshooting/qgc_setup.md#opengl_troubleshooting).
+> **Note** Windows 설치 프로그램은 **QGroundControl**, **GPU 호환 모드**, **GPU 안전 모드**의 3가지 바로 가기를 생성합니다. 시작 문제나 비디오 렌더링 문제가 발생하지 않는 한 첫 번째 바로 가기를 사용하십시오. 자세한 내용은 [QGC 설정 문제 해결 > Windows: UI 렌더링/비디오 드라이버 문제](../troubleshooting/qgc_setup.md#opengl_troubleshooting)를 참고하십시오.
 
 <span></span>
 
-> **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64-bit only. It is possible to manually build 32 bit versions (this is not supported by the dev team).
+> **Note** 4.0 버전 이상의 사전 빌드 *QGroundControl* 버전은 64비트 전용입니다. 32비트 버전은 수동으로 빌드할 수 있습니다(개발팀에서 지원하지 않음).
 
-## Mac OS X {#macOS}
+## 맥 OS X {#macOS}
 
-*QGroundControl* can be installed on macOS 10.20 or later:
+*QGroundControl*은 macOS 10.20 이상에 설치할 수 있습니다.
 
-1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
-2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
+1. [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg)를 다운로드합니다.
+2. dmg 파일을 더블 클릭하여 마운트한 다음 *QGroundControl* 애플리케이션을 *Application* 폴더로 드래그합니다.
     
-    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
+    > **Note** QGroundControl 미서명 문제로 인하여 Catalina에서 문제가 발생합니다. 처음으로 QGC 앱을 열려면:
     > 
-    > * Right-click the QGC app icon, select Open from the menu. You will only be presented with an option to Cancel. Select Cancel.
-    > * Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
+    > * QGC 앱 아이콘을 마우스 오른쪽 버튼으로 클릭하고 메뉴에서 열기를 선택합니다. 취소 옵션만 제공됩니다. 취소를 선택합니다.
+    > * QGC 앱 아이콘을 마우스 오른쪽 버튼으로 클릭하고, 메뉴에서 열기를 선택합니다. 이번에는 열기 옵션이 표시됩니다.
 
-## Ubuntu Linux {#ubuntu}
+## 우분투 리눅스 {#ubuntu}
 
 *QGroundControl* can be installed/run on Ubuntu LTS 20.04 (and later).
 
