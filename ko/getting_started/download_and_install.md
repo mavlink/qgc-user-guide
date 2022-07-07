@@ -37,13 +37,13 @@ QGC는 최신 컴퓨터나 모바일 장치에서 월활하게 실행됩니다. 
 
 ## 우분투 리눅스 {#ubuntu}
 
-*QGroundControl* can be installed/run on Ubuntu LTS 20.04 (and later).
+*QGroundControl*은 Ubuntu LTS 20.04(이상)에 설치할 수 있습니다.
 
-Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
+Ubuntu에는 직렬 포트(또는 USB 직렬)의 로봇 공학 사용을 방해하는 직렬 모뎀 관리자가 함께 제공됩니다. *QGroundControl*을 설치하기 전에 모뎀 관리자를 제거하고 직렬 포트에 액세스할 수 있는 권한을 부여하여야 합니다. 동영상 스트리밍을 지원하려면 *GStreamer*도 설치하여야 합니다.
 
-Before installing *QGroundControl* for the first time:
+*QGroundControl*을 처음 설치하기 전에 처음으로:
 
-1. On the command prompt enter:
+1. 명령 프롬프트에서 다음을 입력합니다:
     
     ```sh
     sudo usermod -a -G dialout $USER
@@ -54,33 +54,33 @@ Before installing *QGroundControl* for the first time:
     
     <!-- Note, remove install of libqt5gui5 https://github.com/mavlink/qgroundcontrol/issues/10176 fixed -->
 
-2. Logout and login again to enable the change to user permissions.
+2. 사용자 권한을 변경하려면 로그아웃후 다시 로그인하세요.
 
-&nbsp; To install *QGroundControl*:
+&nbsp; *QGroundControl*을 설치하려면:
 
-1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
-2. Install (and run) using the terminal commands: 
+1. [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage)를 다운로드합니다.
+2. 터미널 명령을 사용하여 설치(및 실행): 
         sh
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
 
-> **Note** There are known [video steaming issues](../troubleshooting/qgc_setup.md#dual_vga) on Ubuntu 18.04 systems with dual adaptors.
+> **Note** 듀얼 어댑터가 있는 Ubuntu 18.04 시스템에는 알려진 [동영상 스트리밍 문제](../troubleshooting/qgc_setup.md#dual_vga)가 있습니다.
 
 <span></span>
 
-> **Note** Prebuilt *QGroundControl* versions from 4.0 cannot run on Ubuntu 16.04. To run these versions on Ubuntu 16.04 you can [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
+> **Note** 4.0의 사전 빌드된 *QGroundControl* 버전은 Ubuntu 16.04에서 실행할 수 없습니다. Ubuntu 16.04에서 이러한 버전을 실행하려면 [비디오 라이브러리 없이 소스에서 QGroundControl을 빌드](https://dev.qgroundcontrol.com/en/getting_started/)할 수 있습니다.
 
-## Android {#android}
+## 안드로이드 {#android}
 
-*QGroundControl* is temporily unavailable from the Google Play Store. You can install manually from here:
+Google Play 스토어에서 *QGroundControl*을 일시적으로 사용할 수 없습니다. 여기에서 수동으로 설치할 수 있습니다.
 
-* [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
-* [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
+* [Android 32 비트 APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
+* [Android 64 비트 APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
-## Old Stable Releases
+## 예전 안정 배포판
 
-Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
+이전의 안정 배포판은 <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>에서 찾을 수 있습니다.
 
-## Daily Builds
+## 일일 빌드
 
-Daily builds can be [downloaded from here](../releases/daily_builds.md).
+일일 빌드는 [여기에서 다운로드](../releases/daily_builds.md)할 수 있습니다.
