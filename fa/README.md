@@ -6,12 +6,12 @@
 
 **قابلیت های کلیدی:**
 
-* Full setup/configuration of ArduPilot and PX4 Pro powered vehicles.
+* راه‌اندازی و پیکربندی کامل وسیله های نقلیه مجهز به Ardupilot و PX4
 * Flight support for vehicles running PX4 and ArduPilot (or any other autopilot that communicates using the MAVLink protocol).
 * Mission planning for autonomous flight.
 * Flight map display showing vehicle position, flight track, waypoints and vehicle instruments.
-* Video streaming with instrument display overlays.
-* Support for managing multiple vehicles.
+* بخش تصویر زنده روی نمایشگر
+* پشتیبانی از کنترل همزمان چندین وسیله نقلیه.
 * قابل اجرا روی پلتفرم های ویندوز،لینوکس،مک و دستگاه های اندروید و ای او اس.
 
 ![](../../assets/quickstart/ConnectedVehicle.jpg)
