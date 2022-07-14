@@ -7,9 +7,9 @@
 **قابلیت های کلیدی:**
 
 * راه‌اندازی و پیکربندی کامل وسیله های نقلیه مجهز به Ardupilot و PX4
-* Flight support for vehicles running PX4 and ArduPilot (or any other autopilot that communicates using the MAVLink protocol).
-* Mission planning for autonomous flight.
-* Flight map display showing vehicle position, flight track, waypoints and vehicle instruments.
+* پشتیبانی کامل از سیستم های خلبان خودکار مثل PX4 و Ardupilot (یاهرسیستم خلبان خودکاری که با استفاده از Mavlink ارتباط برقرارکند).
+* ترسیم ماموریت برای پرواز اتوماتیک
+* نمایش نقشه پرواز ، موقعیت وسیله نقلیه ، مسیر پرواز و نقاط بین راهی.
 * بخش تصویر زنده روی نمایشگر
 * پشتیبانی از کنترل همزمان چندین وسیله نقلیه.
 * قابل اجرا روی پلتفرم های ویندوز،لینوکس،مک و دستگاه های اندروید و ای او اس.
