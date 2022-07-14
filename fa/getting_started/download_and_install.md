@@ -1,21 +1,21 @@
-# Download and Install
+# دانلود و نصب
 
 The sections below can be used to download the [current stable release](../releases/release_notes.md) of *QGroundControl* for each platform.
 
 > **Tip** See [Troubleshooting QGC Setup](../troubleshooting/qgc_setup.md) if *QGroundControl* doesn't start and run properly after installation!
 
-## System Requirements
+## سیستم مورد نیاز
 
-QGC should run well on any modern computer or mobile device. Performance will depend on the system environment, 3rd party applications, and available system resources. More capable hardware will provide a better experience. A computer with at least 8Gb RAM, an SSD, Nvidia or AMD graphics and an i5 or better CPU will be suitable for most applications.
+کیوگراند باید روی هر کامپیوتر و گوشی هوشمند امروزی به خوبی کار کند. اما عملکرد برنامه به منابع آزاد سیستم بستگی دارد تجربه نشان داده که سیستم هایی با سخت افزار قوی تر بهتر نرم افزار رو اجرا میکنند بنظر ما یک کامپیوتر با ۸ گیگ رم ، گرافیک Nvidia یا AMD ، هارد SSD و پردازنده i5 برای اجرای کیوگراند مناسب است
 
-For the best experience and compatibility, we recommend you the newest version of your operating system.
+برای کار کردن در بهترین حالت ما سیستم عامل اخرین نسخه را پیشنهاد میکنیم
 
-## Windows {#windows}
+## ویندوز {#windows}
 
-*QGroundControl* can be installed on 64 bit versions of Windows:
+*کیوگراند* را میتوان در نسخه های ۶۴ بیتی ویندوز نصب کرد
 
-1. Download [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
-2. Double click the executable to launch the installer.
+1. دانلود [QGroundControl-installer.exe](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-installer.exe).
+2. بعد از دانلود روی فایل اجرایی دوبار کلیک کنید
 
 > **Note** The Windows installer creates 3 shortcuts: **QGroundControl**, **GPU Compatibility Mode**, **GPU Safe Mode**. Use the first shortcut unless you experience startup or video rendering issues. For more information see [Troubleshooting QGC Setup > Windows: UI Rendering/Video Driver Issues](../troubleshooting/qgc_setup.md#opengl_troubleshooting).
 
