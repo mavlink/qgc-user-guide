@@ -1,4 +1,4 @@
-# Summary
+# خلاصه
 
 * [بررسی اجمالی](README.md)
 * [شروع سریع](getting_started/quick_start.md)
@@ -32,7 +32,7 @@
   * [موتور](SetupView/Motors.md) 
     * [Motors (ArduSub)](SetupView/Motors_ardusub.md)
   * [ایمنی](SetupView/Safety.md) 
-    * [Safety (ArduPilot)](SetupView/safety_ardupilot.md)
+    * [ایمنی (ArduPilot)](SetupView/safety_ardupilot.md)
   * [Tuning](SetupView/Tuning.md) 
     * [Tuning (ArduPilot)](SetupView/tuning_ardupilot.md) 
       * [ArduCopter Tuning](SetupView/tuning_arducopter.md)
@@ -56,8 +56,8 @@
 * [Releases](releases/README.md) 
   * [یادداشت های انتشار](releases/release_notes.md) 
     * [یادداشت های اضافی (ورژن 4.0)](releases/stable_v4.0_additional.md)
-    * [v3.3 (Detailed)](releases/stable_v3.3_long.md)
-    * [v3.2 (Detailed)](releases/stable_v3.2_long.md)
+    * [ورژن 3.3 (با جزئیات)](releases/stable_v3.3_long.md)
+    * [ورژن 3.2 (با جزئیات)](releases/stable_v3.2_long.md)
   * [Daily Builds](releases/daily_builds.md)
   * [Daily Build New Features](releases/daily_build_new_features.md)
   * [Privacy Policy](releases/privacy_policy.md)
@@ -75,11 +75,11 @@
 * [PX4 Pro](https://docs.px4.io/en/)
 * [ArduPilot](http://ardupilot.org/)
 
-## Dronecode Shortcuts
+## میانبر Dronecode 
 
-* [QGroundControl Developer Guide](https://dev.qgroundcontrol.com/en/)
-* [PX4 User Guide](https://docs.px4.io/en/)
-* [PX4 Developer Guide](https://dev.px4.io/en/)
-* [MAVLink Guide](https://mavlink.io/en/)
+* [راهنمای کیوگراند کنترل برای توسعه دهندگان](https://dev.qgroundcontrol.com/en/)
+* [راهنمای کاربری PX4](https://docs.px4.io/en/)
+* [راهنمای PX4 برای توسعه دهندگان](https://dev.px4.io/en/)
+* [راهنمای MAVLink](https://mavlink.io/en/)
 * [MAVSDK](https://mavsdk.mavlink.io/)
 * [Dronecode Camera Manager](https://camera-manager.dronecode.org/en/)
