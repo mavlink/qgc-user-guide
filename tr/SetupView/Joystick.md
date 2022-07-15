@@ -14,7 +14,7 @@
 
 ## PX4 Joystick Desteğini Etkinleştirme
 
-PX4'te Joystick desteğini etkinleştirmek için ` COM_RC_IN_MODE ` parametresini 1 - * Joystick/No RC Checks * olarak ayarlamanız gerekir. Bu parametre ayarlanmazsa, * Joystick * bir kurulum seçeneği olarak sunulmayacaktır.
+To enable Joystick support in PX4 you need to set the parameter [`COM_RC_IN_MODE`](h[ttp://localhost:8080/px4_user_guide/en](https://docs.px4.io/en/main/advanced_config/parameter_reference.html#COM_RC_IN_MODE) to `1` - *Joystick*. If this parameter is `0` then *Joystick* will not be offered as a setup option.
 
 Bu, PX4 SITL yapıları için varsayılan olarak etkindir (belirli bir parametrenin nasıl bulunacağı ve ayarlanacağı hakkında bilgi için [Parametreler](../SetupView/Parameters.md) konusuna bakın).
 
