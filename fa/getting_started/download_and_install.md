@@ -43,7 +43,7 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 
 ثبت از نصب *کیوگراند برای اولین بار* این مراحل را انجام دهید
 
-1. On the command prompt enter:
+1. کامند زیر را در ترمینال وارد کنید
     
     ```sh
     sudo usermod -a -G dialout $USER
@@ -54,7 +54,7 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
     
     <!-- Note, remove install of libqt5gui5 https://github.com/mavlink/qgroundcontrol/issues/10176 fixed -->
 
-2. Logout and login again to enable the change to user permissions.
+2. یکبار از اکانت خارج شوید و مجدد وارد شوید تا دسترسی ها اعمال شود.
 
 &nbsp; برای نصب *کیوگراند*:
 
