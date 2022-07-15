@@ -72,8 +72,8 @@
 
 ## 비행 스택
 
-* [PX4 Pro](https://docs.px4.io/en/)
-* [ArduPilot](http://ardupilot.org/)
+* [PX4 프로](https://docs.px4.io/en/)
+* [아두파일롯](http://ardupilot.org/)
 
 ## 드론코드 관련 링크
 
