@@ -23,27 +23,27 @@ The sections below can be used to download the [current stable release](../relea
 
 > **Note** Prebuilt *QGroundControl* versions from 4.0 onwards are 64-bit only. It is possible to manually build 32 bit versions (this is not supported by the dev team).
 
-## Mac OS X {#macOS}
+## مک او اس ایکس {#macOS}
 
-*QGroundControl* can be installed on macOS 10.20 or later:
+*کیوگراند*را میتوان برای مک او اس نسخه 10.20 یا جدیدترنصب کرد
 
-1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
-2. Double-click the .dmg file to mount it, then drag the *QGroundControl* application to your *Application* folder.
+1. دانلود [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
+2. روی فایل .dmg دوبارکلیک کنید تا فرایند نصب شروع بشه و ایکون کیوگراند رو درگ کنید روی پوشه *Application*
     
-    > **Note** QGroundControl continues to not be signed which causes problem on Catalina. To open QGC app for the first time:
+    > **یادداشت** ممکن است کیوگراند در نسخه Catalina دچار مشکل شود برای بازکردن کیوگراند برای اولین بار:
     > 
-    > * Right-click the QGC app icon, select Open from the menu. You will only be presented with an option to Cancel. Select Cancel.
+    > * روی ایکون QGC راست کلیک کنید و روی Open را انتخاب کنید. You will only be presented with an option to Cancel. Select Cancel.
     > * Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
 
-## Ubuntu Linux {#ubuntu}
+## لینوکس (ابونتو) {#ubuntu}
 
-*QGroundControl* can be installed/run on Ubuntu LTS 20.04 (and later).
+*کیوگراند*را میتوان برای Ubuntu LTS 20.04 یا جدیدتر نصب کرد.
 
 Ubuntu comes with a serial modem manager that interferes with any robotics related use of a serial port (or USB serial). Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port. You also need to install *GStreamer* in order to support video streaming.
 
-Before installing *QGroundControl* for the first time:
+ثبت از نصب *کیوگراند برای اولین بار* این مراحل را انجام دهید
 
-1. On the command prompt enter:
+1. کامند زیر را در ترمینال وارد کنید
     
     ```sh
     sudo usermod -a -G dialout $USER
@@ -54,12 +54,12 @@ Before installing *QGroundControl* for the first time:
     
     <!-- Note, remove install of libqt5gui5 https://github.com/mavlink/qgroundcontrol/issues/10176 fixed -->
 
-2. Logout and login again to enable the change to user permissions.
+2. یکبار از اکانت خارج شوید و مجدد وارد شوید تا دسترسی ها اعمال شود.
 
-&nbsp; To install *QGroundControl*:
+&nbsp; برای نصب *کیوگراند*:
 
-1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
-2. Install (and run) using the terminal commands: 
+1. دانلود [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
+2. برای نصب و اجرا دستور زیر دا در ترمینال وارد کنید 
         sh
         chmod +x ./QGroundControl.AppImage
         ./QGroundControl.AppImage  (or double click)
@@ -70,17 +70,17 @@ Before installing *QGroundControl* for the first time:
 
 > **Note** Prebuilt *QGroundControl* versions from 4.0 cannot run on Ubuntu 16.04. To run these versions on Ubuntu 16.04 you can [build QGroundControl from source without video libraries](https://dev.qgroundcontrol.com/en/getting_started/).
 
-## Android {#android}
+## اندروید {#android}
 
-*QGroundControl* is temporily unavailable from the Google Play Store. You can install manually from here:
+*کیوگراند* به طور موقت از فوشگاه پلی قابل دانلور نیست و باید از قسمت پایین به صورت دستی دانلود کنید
 
 * [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
-## Old Stable Releases
+## نسخه های پایدار قدیمی
 
-Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>.
+میتوانید نسخه های پایدار قدیمی را از <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">گیتهاب</a> دریافت کنید.
 
-## Daily Builds
+## نسخه روزانه
 
-Daily builds can be [downloaded from here](../releases/daily_builds.md).
+شما میتوانید این نسخه را [ از اینجا دریافت کنید](../releases/daily_builds.md).

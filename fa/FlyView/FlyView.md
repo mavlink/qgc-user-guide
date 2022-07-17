@@ -16,7 +16,7 @@ You can use it to:
 
 The screenshot above shows the main elements of the fly view:
 
-- **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle. 
+- **نقشه** Displays the positions of all connected vehicles and the mission for the current vehicle. 
   - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
   - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 

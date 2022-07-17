@@ -1,4 +1,4 @@
-# Fly View
+# 비행 화면
 
 The Fly View is used to command and monitor the vehicle when flying.
 
