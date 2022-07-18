@@ -1,6 +1,6 @@
-# 비행 화면
+# 비행 뷰
 
-The Fly View is used to command and monitor the vehicle when flying.
+플라이 뷰는 비행 중 차량을 명령하고 모니터링하는 데 사용됩니다.
 
 You can use it to:
 
