@@ -1,60 +1,60 @@
-# 비행 화면
+# 비행 뷰
 
-The Fly View is used to command and monitor the vehicle when flying.
+플라이 뷰는 비행 중 차량을 명령하고 모니터링하는 데 사용됩니다.
 
-You can use it to:
+다음과 같은 용도로 사용할 수 있습니다:
 
-- Run an automated [pre-flight checklist](#preflight_checklist).
-- Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
-- Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
-- Switch between a map view and a video view (if available)
-- Display video, mission, telemetry, and other information for the current vehicle, and also switch between connected vehicles.
+- 자동화된 [비행 전 체크리스트](#preflight_checklist)를 실행합니다.
+- 제어 임무: [시작](#start_mission), [계속](#continue_mission), [일시중지](#pause) 및 [재개](#resume_mission).
+- 차량의 [경비](#arm)/[해제](#disarm)/[비상 정지](#emergency_stop), [이륙](#takeoff)/[착륙](#land), [고도 변경](#change_altitude), 특정 위치로 [이동](#goto) 또는 [궤도](#orbit), [복귀/RTL](#rtl)할 수 있습니다.
+- 지도 보기와 동영상 보기 간 전환(사용 가능한 경우)
+- 현재 차량에 대한 비디오, 임무, 원격 측정 및 기타 정보를 표시하고 연결된 차량 간에 전환합니다.
 
 ![Fly View](../../assets/fly/fly_view_overview.jpg)
 
-## UI Overview
+## UI 개요
 
-The screenshot above shows the main elements of the fly view:
+위의 스크린샷은 비행 뷰의 주요 요소를 나타냅니다.
 
-- **Map:** Displays the positions of all connected vehicles and the mission for the current vehicle. 
-  - You can drag the map to move it around (the map automatically re-centres after a certain amount of time).
-  - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
-- **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status). 
-  - Select the sensor indicators to view more detail.
-  - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Press the *Armed/Disarmed* text to toggle the armed state. While flying you can press this text for *Emergency Stop*.
-- **Fly tools:** You can use these to: 
-  - Toggle between takeoff/land.
-  - Pause/restart the current operation (e.g. landing, or the mission).
-  - Safety return (also known as RTL or Return).
-  - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). Actions include changing the altitude or continuing a mission.
-  - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
-- **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
-- **[Video/Switcher](#video_switcher):** Toggle between video or map in a window. 
-  - Press the element to switch *Video* and *Map* to foreground.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. It also supports directly connected UVC devices. QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
-  - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
-- **Confirmation Slider:** Context sensitive slider to confirm requested actions. Slide to start operation. Press **X** to cancel.
+- **지도:** 연결된 모든 차량의 위치와 현재 차량의 임무를 표시합니다. 
+  - 지도를 드래그하여 이동할 수 있습니다(일정 시간이 지나면 지도가 자동으로 중앙에 위치함).
+  - 비행 후에는 지도를 클릭하여 [이동](#goto) 또는 [궤도](#orbit) 위치를 설정할 수 있습니다.
+- **비행 툴바:** 센서(GPS, 배터리, RC 제어) 및 차량 상태(비행 모드, 무장/해제 상태)에 대한 주요 상태 정보. 
+  - 더 자세히 보려면 센서 표시기를 선택하십시오.
+  - 새 모드를 선택하려면 *비행 모드* 텍스트(예: "Hold")를 누르십시오. 모든 모드를 사용할 수 있는 것은 아닙니다.
+  - 무장 상태를 전환하려면 *Armed/Disarmed* 텍스트를 누르십시오. 비행 중에 이 텍스트를 누르면 *비상 정지*가 가능합니다.
+- **비행 툴:** 다음과 같은 용도로 사용할 수 있습니다: 
+  - 이륙/착륙 사이를 전환합니다.
+  - 현재 작업(예: 착륙 또는 임무)을 일시 중지/재시작합니다.
+  - 안전 반환(RTL 또는 반환이라고도 함).
+  - *작업* 버튼은 현재 상태에 대한 다른 적절한 옵션을 제공합니다(이 옵션은 *확인 슬라이더*와 중첩됨). 조치에는 고도 변경 또는 임무 계속이 포함됩니다.
+  - [실행 전 체크리스트](#preflight_checklist)를 활성화합니다(도구 옵션은 기본적으로 비활성화되어 있음).
+- **[계측기 패널](#instrument_panel):** 원격 측정, 카메라, 비디오, 시스템 상태 및 진동을 포함한 차량 정보를 표시하는 다중 페이지 위젯입니다.
+- **[동영상/전환기](#video_switcher):** 창에서 비디오 또는 지도 사이를 전환합니다. 
+  - 요소를 눌러 *동영상* 및 *지도*를 전경으로 전환합니다.
+  - *QGroundControl*은 차량 UDP 연결을 통한 RTP 및 RTSP 비디오 스트리밍을 지원합니다. 또한 직접 연결된 UVC 장치를 지원합니다. QGC 비디오 지원은 [비디오 README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md)에서 자세히 설명합니다.
+  - [Telemetry Overlay](../FlyView/VideoOverlay.md)가 자막 파일로 자동 생성됩니다.
+- **확인 슬라이더:** 요청된 작업을 확인하기 위한 상황에 맞는 슬라이더입니다. 슬라이드하여 작동을 시작합니다. 취소하려면 **X**를 누르십시오.
 
-There are a number of other elements that are not displayed by default/are only displayed in certain conditions. For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
+기본적으로 표시되지 않거나 특정 조건에서만 표시되는 다른 요소가 많이 있습니다. 예를 들어 다중 차량 선택기는 차량이 여러 대인 경우에만 표시되고 비행 전 체크리스트 도구 버튼은 적절한 설정이 활성화된 경우에만 표시됩니다.
 
-## Instrument Panel {#instrument_panel}
+## 계기판 {#instrument_panel}
 
-The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
+계기판은 원격 측정, 카메라, 비디오, 시스템 상태 및 진동 정보를 포함하여 현재 차량에 대한 정보를 표시하는 다중 페이지 위젯입니다.
 
-The default page displays vehicle telemetry - use the drop down menu on the top right to select the other options.
+기본 페이지에는 차량 원격 측정이 표시됩니다. 오른쪽 상단의 드롭다운 메뉴를 사용하여 다른 옵션을 선택하십시오.
 
-### Values (Telemetry)
+### 값(원격 측정)
 
-The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
+값 페이지에는 원격 측정 정보가 표시됩니다. 기본적으로 고도(홈 위치 기준) 및 지면 속도입니다.
 
 ![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
 
-You can configure what information is display by pressing the small gear icon on the top left of the panel. Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
+패널 왼쪽 상단의 작은 톱니바퀴 아이콘을 눌러 표시할 정보를 구성할 수 있습니다. 각 값은 보통 또는 "큰" 크기로 표시될 수 있습니다(큰 크기는 페이지의 행당 하나의 값만 표시하고 보통은 2를 표시함).
 
 ![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
 
-### Camera {#camera_instrument_page}
+### 카메라 {#camera_instrument_page}
 
 The camera page is used to configure and control the camera. For a camera connected directly to the Flight Controller the only available option is camera triggering:
 

@@ -4,7 +4,7 @@
 * [바로 시작하기](getting_started/quick_start.md)
 * [다운로드 및 설치](getting_started/download_and_install.md)
 * [도구바/메뉴](toolbar/toolbar.md)
-* [비행화면](FlyView/FlyView.md) 
+* [비행](FlyView/FlyView.md) 
   * [비행데이터 재생](FlyView/replay_flight_data.md)
   * [비디오 오버레이](FlyView/VideoOverlay.md)
 * [계획](PlanView/PlanView.md) 
