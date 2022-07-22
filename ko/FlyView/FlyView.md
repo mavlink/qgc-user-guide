@@ -56,19 +56,19 @@
 
 ### 카메라 {#camera_instrument_page}
 
-The camera page is used to configure and control the camera. For a camera connected directly to the Flight Controller the only available option is camera triggering:
+카메라 페이지는 카메라를 구성하고 제어합니다. 비행 콘트롤러에 직접 연결된 카메라에 사용할 수 있는 유일한 옵션은 카메라 트리거입니다.
 
 ![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
 
-When connected to camera that supports the [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html) you can additionally configure and use other camera services that it makes available. For example, if your camera supports video mode you will be able to switch between still image capture and video mode, and start/stop recording.
+[MAVLink 카메라 프로토콜](https://mavlink.io/en/services/camera.html)을 지원하는 카메라에 연결하면 사용 가능한 다른 카메라 서비스를 추가로 구성하고 사용할 수 있습니다. 예를 들어, 카메라가 비디오 모드를 지원하는 경우 정지 이미지 캡처와 비디오 모드 사이를 전환하고 녹화를 시작/중지할 수 있습니다.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
 
-Advanced settings can be changed via the gear icon at the top left of the page.
+고급 설정은 페이지 왼쪽 상단의 톱니바퀴 아이콘을 통해 변경할 수 있습니다.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
 
-> **Note** Most of the settings that are displayed depend on the camera (they are defined in its [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)). A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
+> **Note** 표시되는 대부분의 설정은 카메라에 따라 다릅니다([MAVLink 카메라 정의 파일](https://mavlink.io/en/services/camera_def.html)에 정의되어 있음). A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
 
 ### Video Stream {#video_instrument_page}
 
