@@ -68,71 +68,71 @@
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
 
-> **Note** 표시되는 대부분의 설정은 카메라에 따라 다릅니다([MAVLink 카메라 정의 파일](https://mavlink.io/en/services/camera_def.html)에 정의되어 있음). A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
+> **Note** 표시되는 대부분의 설정은 카메라에 따라 다릅니다([MAVLink 카메라 정의 파일](https://mavlink.io/en/services/camera_def.html)에 정의되어 있음). 마지막에 몇 가지 일반적인 설정이 하드 코딩되어 있습니다: 사진 모드(단일/인터벌), 사진 간격(인터벌인 경우), 카메라 기본값 재설정(카메라에 재설정 명령 전송), 포맷(저장)
 
-### Video Stream {#video_instrument_page}
+### 비디오 스트림 {#video_instrument_page}
 
-The video page is used to enable/disable video streaming. When enabled, you can start/stop the video stream, enable a grid overlay, change how the image fits the screen, and record the video locally with QGC.
+비디오 페이지는 비디오 스트리밍을 활성화/비활성화하는 데 사용됩니다. 활성화하면 비디오 스트림을 시작/중지하고, 그리드 오버레이를 활성화하고, 이미지가 화면에 맞는 방식을 변경하고, QGC를 사용하여 로컬로 비디오를 녹화할 수 있습니다.
 
 ![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
 
-### Health
+### 상태
 
-The health page shows you the health of the systems within your vehicle. *QGroundControl* will switch to this page automatically if any system changes to unhealthy.
+상태 페이지는 차량 내 시스템의 상태를 보여줍니다. 시스템이 비정상으로 변경되면 *QGroundControl*이 자동으로 이 페이지로 전환합니다.
 
 ![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg) ![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
 
-### Vibration
+### 진동
 
-The vibration page shows current vibration levels and clip counts.
+진동 페이지는 현재 진동 수준과 클립 수를 보여줍니다.
 
 ![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
 
-## Actions/Tasks
+## 액션/태스크
 
-The following sections describe how to perform common operations/tasks in the Fly View.
+다음 섹션에서는 플라이 뷰에서 일반적인 작업/작업을 수행하는 방법을 설명합니다.
 
-> **Note** Many of the available options depend on both the vehicle type and its current state.
+> **Note** 사용 가능한 많은 옵션은 차량 유형과 현재 상태에 따라 다릅니다.
 
-### Pre Flight Checklist {#preflight_checklist}
+### 비행 전 점검 리스트 {#preflight_checklist}
 
-An automated preflight checklist can be used to run through standard checks that the vehicle is configured correctly and it is safe to fly.
+자동 비행 전 체크리스트를 사용하여 차량이 올바르게 구성되어 있고 비행하기에 안전한지 표준 검사를 실행할 수 있습니다.
 
-To view the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox. The tool will then be added to the *Flight Tools*. Press it to open the checklist:
+체크리스트를 보려면 먼저 [애플리케이션 설정 > 일반 > 플라이 뷰](../SettingsView/General.md)로 이동하고 **실행 전 체크리스트 사용** 확인란을 선택하여 도구를 활성화하십시오. 그러면 *비행 도구*에 도구가 추가됩니다. 체크리스트를 열려면 누르세요.
 
 ![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
 
-Once you have performed each test, select it on the UI to mark it as complete.
+각 테스트를 수행한 후에는 UI에서 해당 테스트를 선택하여 완료로 표시합니다.
 
-### Arm {#arm}
+### 시동 {#arm}
 
-> **Tip** Generally *QGroundControl* does not require you to arm the vehicle explicitly; this is done for you if you start a mission or takeoff.
+> **Tip** 일반적으로 *QGroundControl*에서는 차량을 명시적으로 시동을 걸 필요가 없습니다. 이것은 임무나 이륙을 시작하는 경우 수행됩니다.
 
-Arming a vehicle starts the motors in preparation for takeoff.
+차량을 시동을 걸면 이륙을 준비하는 모터가 시동됩니다.
 
-To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the confirmation sider.
+차량에 시동을 걸려면 *Fly Toolbar*에서 **Disarmed**를 선택한 다음 확인 사이드를 사용하십시오.
 
 ![Arm](../../assets/fly/arm.jpg)
 
-> **Note** Vehicles usually disarm automatically if you do not take off after a few seconds.
+> **Note** 차량은 일반적으로 몇 초 후에 이륙하지 않으면 자동으로 시동이 해제됩니다.
 
-### Disarm {#disarm}
+### 시동 끄기 {#disarm}
 
-Disarming the vehicle stops the motors (making the vehicle safe). To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
+차량의 시동을 꺼면 모터가 정지합니다(차량을 안전한 상태로 변경함). 차량의 시동을 꺼려면 차량이 **착륙**했을 때 *비행 도구 모음*에서 **시동**을 선택하십시오.
 
 ![Disarm](../../assets/fly/disarm.jpg)
 
-> **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
+> **Note** 비행 중 차량의 시동을 꺼는 것을 [비상 정지](#emergency_stop)라고 합니다.
 
-### Emergency Stop {#emergency_stop}
+### 비상 정지 {#emergency_stop}
 
-Emergency stop is effectively the same as disarming the vehicle while it is flying. Your vehicle will crash!
+비상 정지는 비행 중 차량의 시동을 꺼는 것과 동일합니다. 차량이 충돌합니다!
 
-To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
+비행 중인 차량의 시동을 꺼려면 *비행 도구 모음*에서 **무장**을 선택하십시오.
 
 ![Emergency Stop](../../assets/fly/emergency_stop.jpg)
 
-### Takeoff {#takeoff}
+### 이륙 {#takeoff}
 
 > **Tip** If you are starting a mission for a multicopter, *QGroundControl* will automatically perform the takeoff step.
 
