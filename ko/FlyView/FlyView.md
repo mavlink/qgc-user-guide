@@ -134,37 +134,37 @@
 
 ### 이륙 {#takeoff}
 
-> **Tip** If you are starting a mission for a multicopter, *QGroundControl* will automatically perform the takeoff step.
+> **Tip** 멀티콥터의 임무를 시작하는 경우 *QGroundControl*이 자동으로 이륙 단계를 수행합니다.
 
-To takeoff (when landed):
+이륙 절차(착륙 후):
 
-1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
-2. Optionally set the takeoff altitude in the right-side vertical slider.
-3. Confirm takeoff using the slider.
+1. *비행 도구*에서 **이륙** 버튼을 누릅니다(이륙 후 **착륙** 버튼으로 전환됨).
+2. 오른쪽 수직 슬라이더에서 이륙 고도를 설정을 선택할 수 있습니다.
+3. 슬라이더를 사용하여 이륙을 확인합니다.
 
 ![takeoff](../../assets/fly/takeoff.jpg)
 
-### Land {#land}
+### 착륙 {#land}
 
-You can land at the current position at any time while flying:
+비행 중에는 언제든지 현재 위치에 착륙할 수 있습니다.
 
-1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
-2. Confirm landing using the slider.
+1. *비행 도구*에서 **착륙** 버튼을 누릅니다(착륙 시 **이륙** 버튼으로 전환됨).
+2. 슬라이더를 사용하여 착륙을 확인합니다.
 
 ![land](../../assets/fly/land.jpg)
 
-### RTL/Return
+### 출발지복귀(RTL)/복귀
 
-Return to a "safe point" at any time while flying:
+비행 중 언제든지 "안전 지점"으로 돌아갈 수 있습니다.
 
-1. Press the **RTL** button in the *Fly Tools*.
-2. Confirm RTL using the slider.
+1. *비행 도구*에서 **RTL** 버튼을 누릅니다.
+2. 슬라이더를 사용하여 RTL을 확인합니다.
 
 ![rtl](../../assets/fly/rtl.jpg)
 
-> **Note** Vehicles commonly return to the "home" (takeoff) location and land. This behaviour depends on the vehicle type and configuration. For example, rally points or mission landings may be used as alternative return targets.
+> **Note** 차량은 일반적으로 "홈"(이륙) 위치와 착륙 지점으로 돌아갑니다. 이 동작은 차량 유형 및 설정에 따라 차이가 날 수 있습니다. 예를 들어, 집결지나 임무 착륙을 대체 반환 목표로 사용할 수 있습니다.
 
-### Change Altitude {#change_altitude}
+### 고도 변경 {#change_altitude}
 
 You can change altitude while flying, except when in a mission:
 
