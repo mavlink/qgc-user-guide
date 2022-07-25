@@ -166,101 +166,101 @@
 
 ### 고도 변경 {#change_altitude}
 
-You can change altitude while flying, except when in a mission:
+임무 수행중이 아니면, 비행 중 고도를 변경할 수 있습니다.
 
-1. Press the **Action** button on the *Fly Tools*
-2. Select the *Change Altitude* action from the dialog.
+1. *비행 도구*에서 **액션** 버튼을 누릅니다.
+2. 대화상자에서 *고도 변경* 작업을 선택합니다.
   
   ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-3. Move the vertical slider to the desired altitude, then drag the confirmation slider to start the action.
+3. 수직 슬라이더를 원하는 고도로 이동한 다음 확인 슬라이더를 끌어 작업을 시작합니다.
   
   ![Change altitude](../../assets/fly/change_altitude.jpg)
 
-### Goto Location {#goto}
+### 위치 이동 {#goto}
 
-After taking off you can specify that you want to fly to a particular location.
+이륙후 특정 위치로 이동하도록 지정할 수 있습니다.
 
-1. Left click/Press on the map where you want the vehicle to move and select **Go to location** on the popup.
+1. 차량을 이동하려는 지도를 왼쪽 클릭/누르고 팝업에서 **위치 이동**을 선택합니다.
   
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
 
-2. The location will be displayed on the map, along with a confirmation slider.
+2. 위치는 확인 슬라이더와 함께 지도에 표시됩니다.
   
   ![Goto confirmation](../../assets/fly/goto.jpg)
 
-3. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
+3. 준비가 되면 슬라이더를 끌어 작업을 시작합니다(또는 **X** 아이콘을 눌러 취소).
 
-> **Note** Goto points must be set within 1 km of the vehicle (hard-coded in QGC).
+> **Note** 위치 이동 지점은 차량에서 1km 이내에 설정하여야 합니다(QGC에 하드 코딩됨).
 
-### Orbit Location {#orbit}
+### 선회 비행 {#orbit}
 
-After taking off you can specify that you want to orbit a particular location.
+이륙 후 특정 위치를 선회하도록 지정할 수 있습니다.
 
-1. Left click/Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
+1. 지도(원하는 궤도의 중심 부근)를 마우스 왼쪽 버튼으로 클릭/누르고 팝업에서 **위치에서 궤도**를 선택합니다.
   
   ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
 
-2. The proposed orbit will be displayed on the map, along with a confirmation sider.
+2. 예정 궤도는 확인 슬라이더와 함께 지도에 표시됩니다.
   
   ![Orbit confirmation](../../assets/fly/orbit.jpg)
   
-  - Select and drag the central marker to move the orbit location.
-  - Select and drag the dot on the outer circle to change the orbit radius
-3. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
+  - 중심 마커를 선택하고 끌어 궤도 위치를 이동합니다.
+  - 외부 원의 점을 선택하고 끌어 궤도 반경을 변경합니다.
+3. 준비가 되면 슬라이더를 끌어 작업을 시작합니다(또는 **X** 아이콘을 눌러 취소).
 
-### Pause
+### 일시 중지
 
-You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location. The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
+이륙, 착륙, RTL, 임무 실행, 위치 궤도를 포함한 대부분의 작업을 일시 중지할 수 있습니다. 일시 정지 시 차량 동작은 차량 유형에 따라 다릅니다. 일반적으로 멀티콥터는 호버링하고 고정익은 선회합니다.
 
-> **Note** You cannot pause a *Goto location* operation.
+> **Note** *위치 이동* 작업은 일시중지할 수 없습니다.
 
-To pause:
+일시 중지하려면:
 
-1. Press the **Pause** button in the *Fly Tools*.
-2. Optionally set a new altitude using the right-side vertical slider.
-3. Confirm the pause using the slider.
+1. *비행 도구*에서 **일시중지** 버튼을 누릅니다.
+2. 선택적으로 오른쪽 수직 슬라이더를 사용하여 새 고도를 설정합니다.
+3. 슬라이더를 사용하여 일시 중지를 확인합니다.
 
 ![pause](../../assets/fly/pause.jpg)
 
-### Missions
+### 미션
 
-#### Start Mission {#start_mission}
+#### 미션 시작 {#start_mission}
 
-You can start a mission when the vehicle is landed (the start mission confirmation slider is often displayed by default).
+차량이 착륙하면 임무를 시작할 수 있습니다(임무 시작 확인 슬라이더는 대부분 기본적으로 표시됩니다).
 
-To start a mission from landed:
+착륙에서 임무를 시작하려면:
 
-1. Press the **Action** button on the *Fly Tools*
-2. Select the *Start Mission* action from the dialog.
+1. *비행 도구*에서 **액션** 버튼을 누릅니다.
+2. 대화 상자에서 *미션 시작* 작업을 선택합니다.
   
   ![Start mission action](../../assets/fly/start_mission_action.jpg)
   
-      (to display the confirmation slider)
+      (확인 슬라이더를 표시하기 위하여)
       
 
-3. When the confirmation slider appears, drag it to start the mission.
+3. 확인 슬라이더가 나타나면 드래그하여 미션을 시작합니다.
   
   ![Start mission](../../assets/fly/start_mission.jpg)
 
-#### Continue Mission {#continue_mission}
+#### 미션 계속 {#continue_mission}
 
-You can *continue* mission from the *next* waypoint when you're flying (the *Continue Mission* confirmation slider is often displayed by default after you takeoff).
+비행 중일 때 *다음* 웨이포인트에서 임무를 *계속*할 수 있습니다(이륙 후에 *임무 계속* 확인 슬라이더가 기본적으로 표시되는 경우가 많습니다).
 
-> **Note** Continue and [Resume mission](#resume_mission) are different! Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command. Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from your place in the mission).
+> **Note** 계속과 [임무 재개](#resume_mission)는 다릅니다! 계속은 일시 중지되었거나 이륙했기 때문에 이미 이륙 임무 명령을 놓친 임무를 다시 시작하는 데 사용됩니다. 미션 재개는 RTL을 사용했거나 미션 중간에 착륙했을 때 사용됩니다(예: 배터리 교체). 그런 다음 다음 임무 항목을 계속하기를 원합니다(즉, 임무에서 계속하는 것이 아니라 임무에 있었던 위치로 이동합니다).
 
-You can continue the current mission while (unless already in a mission!):
+현재 임무를 계속할 수 있습니다(이미 임무에 참여하지 않는 한!):
 
-1. Press the **Action** button on the *Fly Tools*
-2. Select the *Continue Mission* action from the dialog.
+1. *비행 도구*에서 **액션** 버튼을 누릅니다.
+2. 대화 상자에서 *임무 계속* 작업을 선택합니다.
   
   ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
-3. Drag the confirmation slider to continue the mission.
+3. 확인 슬라이더를 끌어 임무를 계속하십시오.
   
   ![Continue Mission](../../assets/fly/continue_mission.jpg)
 
-#### Resume Mission {#resume_mission}
+#### 임무 재개 {#resume_mission}
 
 *Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
 
