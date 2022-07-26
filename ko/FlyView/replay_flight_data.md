@@ -1,4 +1,4 @@
-# Replay Flight Data
+# 비행 데이터 재생
 
 > **Warning** This feature is intended primarily for **autopilot developers**/**vehicle creators**. It is only supported on desktop builds (Windows, Linux, Mac OS).
 
