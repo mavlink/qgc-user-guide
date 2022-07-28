@@ -11,14 +11,14 @@
 1. **애플리케이션 설정 > 일반 > 플라이 뷰**
 1. **텔레메트리 로그 재생 상태 표시줄 표시**를 선택하여 화면 하단의 비행 재생 표시줄을 토글합니다.
 
-   ![Toggle Flight Replay](../../assets/fly/flight_replay/flight_replay_toggle.jpg)
-1. Select the **Load Telemetry Log** button in the bar to display a *file selection* dialog.
-   - Choose a log file to replay from the available telemetry logs.
-   - *QGroundControl* will immediately start playing the log.
-1. When a log is loaded you can use the:
-   - **Pause/Play** button to pause and restart playing.
-   - *Slider* to drag to a new position in the log.
-   - *Rate* selector to choose the playback speed.
-1. To stop replay (i.e. to load a new file to replay), first pause the flight, and then select **Disconnect** (when it appears). After disconnecting, the **Load Telemetry Log** button will be displayed.
+   ![비행 리플레이 전환](../../assets/fly/flight_replay/flight_replay_toggle.jpg)
+1. 막대에서 **원격 분석 로그 로드** 버튼을 선택하여 *파일 선택* 대화상자를 표시합니다.
+   - 사용 가능한 원격 분석 로그에서 재생할 로그 파일을 선택합니다.
+   - *QGroundControl*이 즉시 로그 재생을 시작합니다.
+1. 로그가 로드되면 다음을 사용할 수 있습니다.
+   - **일시중지/재생** 버튼으로 재생을 일시중지하고 다시 시작합니다.
+   - *슬라이더*를 사용하여 로그의 새 위치로 드래그합니다.
+   - *속도* 선택기를 사용하여 재생 속도를 선택합니다.
+1. 재생을 중지하려면(즉, 재생할 새 파일을 로드하려면) 먼저 비행을 일시 중지한 다음 **연결 해제**를 선택하십시오(표시될 때). 연결을 끊으면 **원격 측정 로그 로드** 버튼이 표시됩니다.
 
-> **Tip** You can inspect the running replay in more detail using the [MAVLink Inspector](../analyze_view/mavlink_inspector.md).
+> **Tip** [MAVLink Inspector](../analyze_view/mavlink_inspector.md)를 사용하여 실행 중인 리플레이를 더 자세히 검사할 수 있습니다.
