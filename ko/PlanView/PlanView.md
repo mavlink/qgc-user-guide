@@ -1,4 +1,4 @@
-# Plan View
+# 계획 뷰
 
 The *Plan View* is used to plan *autonomous missions* for your vehicle, and upload them to the vehicle. Once the mission is [planned](#plan_mission) and sent to the vehicle, you switch to the [Fly View](../FlyView/FlyView.md) to fly the mission.
 
