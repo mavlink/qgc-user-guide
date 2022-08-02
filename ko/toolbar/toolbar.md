@@ -20,16 +20,16 @@
 
 *QGroundControl*이 차량에 연결되면 상태 아이콘이 표시됩니다. 차량의 상위 레벨 상태를 보여주며 클릭하면 더 자세한 정보를 볼 수 있습니다.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) ![수율](../../assets/toolbar/toolbar_status_critical.jpg) **차량 메시지** <br />클릭하면 차량의 메시지 목록이 표시됩니다. 중요한 메시지가 있는 경우 오른쪽에 버전이 표시됩니다.
+![](../../assets/toolbar/toolbar_status_message.jpg) ![수율](../../assets/toolbar/toolbar_status_critical.jpg) **차량 메시지** <br />클릭하면 차량의 메시지 목록이 표시됩니다. 중요한 메시지가 있는 경우에는 버전이 오른쪽에 표시됩니다.
 
 ![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS 상태** <br />위성 수와 현재 HDOP를 보여줍니다.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC 신호 강도 정보.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC(RadioController) 신호의 수신 강도를 나타냅니다.
 
-![](../../assets/toolbar/toolbar_status_telemetry.jpg) **원격 측정 RSSI** <br />원격 측정은 강도 정보를 나타냅니다.
+![](../../assets/toolbar/toolbar_status_telemetry.jpg) **텔레메트리 측정 RSSI** <br />텔레메트리 신호의 수신 강도를 나타냅니다.
 
-![](../../assets/toolbar/toolbar_status_battery.jpg) **배터리** <br />남은 배터리 퍼센트.
+![](../../assets/toolbar/toolbar_status_battery.jpg) **배터리** <br />배터리의 잔량을 나타냅니다.
 
-![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **비행 모드** <br />현재 비행 모드. 비행 모드를 변경하려면 클릭하세요.
+![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **비행 모드** <br /> 현재 비행모드를 변경하려면 클릭하세요.
 
-![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS 설문 조사 상태** <br />RTK GPS Survey-In 프로세스의 진행 상황을 보여줍니다.
+![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS 신호 상태** <br />RTK GPS 신호 프로세스의 진행 상황을 나타냅니다.
