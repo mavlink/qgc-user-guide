@@ -29,12 +29,12 @@ UI의 주요 요소는 다음과 같습니다.
 
 1. *플랜 뷰*로 변경합니다.
 2. 임무에 웨이포인트 또는 명령을 추가하고 필요에 따라 편집합니다.
-3. Upload the mission to the vehicle.
-4. Change to *Fly View* and fly the mission.
+3. 차량에 임무를 업로드합니다.
+4. *플라이 뷰*로 변경하여 임무 비행을 실히합니다.
 
-The following sections explain some of the details in the view.
+다음 섹션에서는 보기의 일부 세부 정보에 대해 설명합니다.
 
-## Planned Home Position {#planned_home}
+## 지정된 홈 위치 {#planned_home}
 
 The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to QGC). It is used by QGC to estimate mission times and to draw waypoint lines.
 
