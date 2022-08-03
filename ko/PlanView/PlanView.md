@@ -1,34 +1,34 @@
 # 계획 뷰
 
-The *Plan View* is used to plan *autonomous missions* for your vehicle, and upload them to the vehicle. Once the mission is [planned](#plan_mission) and sent to the vehicle, you switch to the [Fly View](../FlyView/FlyView.md) to fly the mission.
+*플랜 뷰*에서는 차량에 대한 *자율 임무*를 계획하고 차량에 업로드합니다. 미션이 [계획](#plan_mission)되어 차량으로 전송되면 [비행 뷰](../FlyView/FlyView.md)로 전환하여 미션을 실행합니다.
 
-It is also use to configure the [GeoFence](PlanGeoFence.md) and [Rally Points](PlanRallyPoints.md) if these are supported by the firmware.
+펌웨어에서 지원하는 경우 [지오 펜스](PlanGeoFence.md)와 [랠리 포인트](PlanRallyPoints.md)를 설정할 수 있습니다.
 
 <span id="plan_screenshot"></span>
 ![Plan View](../../assets/plan/plan_view_overview.jpg)
 
-## UI Overview {#ui_overview}
+## UI 개요 {#ui_overview}
 
-The [screenshot above](#plan_screenshot) shows a simple mission plan that starts with a takeoff at the [Planned Home](#planned_home) position (H), flies through three waypoints, and then lands on the last waypoint (i.e. waypoint 3).
+[위의 스크린샷](#plan_screenshot)은 [Planned Home](#planned_home) 위치(H)에서 이륙으로 시작하는 간단한 임무 계획을 보여줍니다. 3개의 웨이포인트를 통과한 다음 마지막 웨이포인트(즉, 웨이포인트 3)에 착륙합니다.
 
-The main elements of the UI are:
+UI의 주요 요소는 다음과 같습니다.
 
-- **Map:** Displays the numbered indicators for the current mission, including the [Planned Home](#planned_home). Click on the indicators to select them (for editing) or drag them around to reposition them. 
-- **Plan Toolbar:** Status information for the currently selected waypoint relative to the previous waypoint, as well as statistics for the entire mission (e.g. horizontal distance and time for mission). 
-  - `Max telem dist` is the distance between the [Planned Home](#planned_home) and the furthest waypoint. 
-  - When connected to a vehicle it also shows an **Upload** button, can be used to upload the plan to the vehicle.
-- **[Plan Tools](#plan_tools):** Used to create and manage missions.
-- **[Mission Command List/Overlay](#mission_command_list):** Displays the current list of mission items (select items to [edit](#mission_command_editors)).
-- **Terrain Altitude Overlay:** Shows the relative altitude of each mission command.
+- **지도:** [계획된 집](#planned_home)을 포함하여 현재 임무에 대한 번호가 매겨진 표시기를 표시합니다. 표시기를 클릭하여 선택하거나(편집용) 드래그하여 위치를 변경합니다. 
+- **계획 툴바:** 이전 웨이포인트와 관련된 현재 선택된 웨이포인트의 상태 정보와 전체 임무에 대한 통계(예: 임무를 위한 수평 거리 및 시간). 
+  - `최대 원격 거리`는 [계획된 홈](#planned_home)과 가장 먼 웨이포인트의 거리입니다. 
+  - 차량에 연결하면 **업로드** 버튼도 표시되며, 차량에 계획을 업로드할 수 있습니다.
+- **[계획 도구](#plan_tools):** 임무를 만들고 관리하는 데 사용됩니다.
+- **[임무 명령 목록/오버레이](#mission_command_list):** 현재 임무 항목 목록을 표시합니다([편집](#mission_command_editors)할 항목 선택).
+- **지형 고도 오버레이:** 각 임무 명령의 상대 고도를 표시합니다.
 
-It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
+현재 선택된 웨이포인트와 관련된 정보와 전체 미션에 대한 통계를 보여줍니다.
 
-## Planning a Mission {#plan_mission}
+## 임무 계획 {#plan_mission}
 
-At very high level, the steps to create a mission are:
+매우 높은 수준에서 임무를 생성하는 단계는 다음과 같습니다.
 
-1. Change to *Plan View*.
-2. Add waypoints or commands to the mission and edit as needed.
+1. *플랜 뷰*로 변경합니다.
+2. 임무에 웨이포인트 또는 명령을 추가하고 필요에 따라 편집합니다.
 3. Upload the mission to the vehicle.
 4. Change to *Fly View* and fly the mission.
 
