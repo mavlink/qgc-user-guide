@@ -1,6 +1,6 @@
-# 계획 뷰
+# 계획 뷰 
 
-*플랜 뷰*에서는 차량에 대한 *자율 임무*를 계획하고 차량에 업로드합니다. 미션이 [계획](#plan_mission)되어 차량으로 전송되면 [비행 뷰](../FlyView/FlyView.md)로 전환하여 미션을 실행합니다.
+*계획 뷰*에서는 차량에 대한 *자율 임무*를 계획하고 차량에 업로드합니다. 미션이 [계획](#plan_mission)되어 차량으로 전송되면 [비행 뷰](../FlyView/FlyView.md)로 전환하여 미션을 실행합니다.
 
 펌웨어에서 지원하는 경우 [지오 펜스](PlanGeoFence.md)와 [랠리 포인트](PlanRallyPoints.md)를 설정할 수 있습니다.
 
@@ -27,38 +27,38 @@ UI의 주요 요소는 다음과 같습니다.
 
 매우 높은 수준에서 임무를 생성하는 단계는 다음과 같습니다.
 
-1. *플랜 뷰*로 변경합니다.
+1. *계획 뷰*로 변경합니다.
 2. 임무에 웨이포인트 또는 명령을 추가하고 필요에 따라 편집합니다.
 3. 차량에 임무를 업로드합니다.
-4. *플라이 뷰*로 변경하여 임무 비행을 실히합니다.
+4. *비행 뷰*로 변경하여 임무 비행을 실히합니다.
 
 다음 섹션에서는 보기의 일부 세부 정보에 대해 설명합니다.
 
 ## 지정된 홈 위치 {#planned_home}
 
-The *Planned Home* shown in *Plan View* is used to set the approximate start point when planning a mission (i.e. when a vehicle may not even be connected to QGC). It is used by QGC to estimate mission times and to draw waypoint lines.
+*계획 뷰*에 표시된 *계획된 홈*은 임무 계획시 대략적인 시작 지점을 설정합니다(예: 차량이 QGC에 연결되지 않은 경우). QGC에서 임무 시간을 추정하고 웨이포인트 라인을 그립니다.
 
 ![Planned Home Position](../../assets/plan/mission/mission_settings_planned_home.jpg)
 
-You should move/drag the planned home position to roughly the location where you plan to takeoff. The altitude for the planned home position is set in the [Mission Settings](#mission_settings) panel.
+계획된 홈 위치를 이륙 지점 근처로 끌어서 이동하여야 합니다. 계획된 홈 위치의 고도는 [미션 설정](#mission_settings) 패널에서 설정합니다.
 
 <img src="../../assets/plan/mission/mission_settings_planned_home_position_section.jpg" style="width: 200px;" />
 
-> **Tip** The Fly View displays the *actual* home position set by the vehicle firmware when it arms (this is where the vehicle will return in Return/RTL mode).
+> **Tip** 비행 뷰는 시동시에 차량 펌웨어에 의해 설정된 *실제* 홈 위치를 표시합니다(차량이 리턴/RTL 모드에서 복귀하는 위치).
 
-## Plan Tools {#plan_tools}
+## 계획 도구 {#plan_tools}
 
-The plan tools are used for adding individual waypoints, easing mission creation for complicated geometries, uploading/downloading/saving/restoring missions, and for navigating the map. The main tools are described below.
+계획 도구는 개별 웨이포인트 추가, 복잡한 형상에 대한 쉬운 임무 생성, 임무 업로드/다운로드/저장/복원 및 지도를 탐색합니다. 주요 도구는 아래와 같습니다.
 
-> **Note** **Center map**, **Zoom In**, **Zoom Out** tools help users better view and navigate the *Plan view* map (they don't affect the mission commands sent to the vehicle).
+> **Tip** **지도 중심 이동**, **확대**, **축소** 도구는 사용자가 *계획 보기* 지도를 탐색을 편리하게 합니다(차량에 전송되는 임무 명령에는 영향을 미치지 않음).
 
-### Add Waypoints
+### 경유지 추가
 
-Click on the **Add Waypoint** tool to activate it. While active, clicking on the map will add new mission waypoint at the clicked location. The tool will stay active until you select it again. Once you have added a waypoint, you can select it and drag it around to change its position.
+**경유지 추가** 도구를 클릭하여 활성화합니다. 활성 상태에서 지도를 클릭하면 클릭한 위치에 새 임무의 경유지가 추가됩니다. 도구는 다시 선택할 때까지 활성 상태를 유지합니다. 경유지를 추가한 후에는 경유지를 선택하고 끌어서 위치를 변경할 수 있습니다.
 
-### File (Sync) {#file}
+### 파일 (동기화) {#file}
 
-The *File tools* are used to move missions between the ground station and vehicle, and to save/restore them from files. The tool displays an `!` to indicate that there are mission changes that you have not sent to the vehicle.
+*파일 도구*는 지상국과 차량 간에 임무를 이동하고 파일에서 저장/복원하는 데 사용됩니다. 도구에 `!`가 표시된면 차량에 임무 변경 내역이 완전하게 전송되지 않았음을 나타냅니다.
 
 > **Note** Before you fly a mission you must upload it to the vehicle.
 
