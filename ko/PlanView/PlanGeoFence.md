@@ -1,4 +1,4 @@
-# Plan View - GeoFence
+# 계획 뷰 - 지오펜스
 
 GeoFences allow you to create virtual regions within which the vehicle can fly, or in which it is *not allowed* to fly. You can also configure the action taken if you fly outside permitted areas.
 
