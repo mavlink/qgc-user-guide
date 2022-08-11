@@ -25,7 +25,9 @@ The sections below can be used to download the [current stable release](../relea
 
 ## مک او اس ایکس {#macOS}
 
-*کیوگراند*را میتوان برای مک او اس نسخه 10.20 یا جدیدترنصب کرد
+*QGroundControl* can be installed on macOS 10.11 or later: <!-- match version using https://dev.qgroundcontrol.com/master/en/getting_started/#native-builds -->
+
+<!-- usually based on Qt macOS dependency -->
 
 1. دانلود [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
 2. روی فایل .dmg دوبارکلیک کنید تا فرایند نصب شروع بشه و ایکون کیوگراند رو درگ کنید روی پوشه *Application*
