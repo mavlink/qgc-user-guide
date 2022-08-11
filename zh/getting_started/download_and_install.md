@@ -25,7 +25,9 @@ QGC可以在任何当下流行的计算机或移动设备上正常运行。 性�
 
 ## Mac OS X 系统 {#macOS}
 
-*QGroundControl* can be installed on macOS 10.20 or later:
+*QGroundControl* can be installed on macOS 10.11 or later: <!-- match version using https://dev.qgroundcontrol.com/master/en/getting_started/#native-builds -->
+
+<!-- usually based on Qt macOS dependency -->
 
 1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
 2. 双击.dmg 文件以挂载它，然后将*QGroundControl*应用程序拖动到您的*应用程序*文件夹。
