@@ -25,7 +25,9 @@ En iyi deneyim ve uyumluluk için size işletim sisteminizin en yeni sürümün�
 
 ## Mac OS X {#macOS}
 
-*QGroundControl* macOS 10.20 veya daha güncel sürümlere kurulabilir:
+*QGroundControl* can be installed on macOS 10.11 or later: <!-- match version using https://dev.qgroundcontrol.com/master/en/getting_started/#native-builds -->
+
+<!-- usually based on Qt macOS dependency -->
 
 1. Download [QGroundControl.dmg](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.dmg).
 2. .dmg dosyasına çift tıklayın, ardından çıkan ekranda *QGroundControl*'ü *Application* dosyasına sürükleyin.
