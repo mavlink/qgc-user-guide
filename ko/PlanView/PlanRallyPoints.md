@@ -1,4 +1,4 @@
-# Plan View - Rally Points
+# 계획 뷰 - 랠리 포인트
 
 Rally Points are alternative landing or loiter locations. They are typically used to provide a safer or more convenient (e.g. closer) destination than the home position in Return/RTL mode.
 
