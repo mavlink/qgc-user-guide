@@ -4,7 +4,7 @@ GeoFences를 사용하면 비행이 가능한 가상 영역 또는 비행이 *�
 
 ![지오펜스 개요](../../assets/plan/geofence/geofence_overview.jpg)
 
-> **Note** **ArduPilot 사용자:** GeoFence 지원은 Rover 3.6 및 Copter 3.7 이상에서만 지원됩니다. 또한 Daily 빌드 또는 Stable 3.6(한 번 사용 가능)을 사용하여야 합니다. 연결된 차량에서 지원하지 않는 경우에는 *QGroundControl*은 GeoFence 옵션을 표시하지 않습니다.
+> **Note** **ArduPilot 사용자:** GeoFence 지원은 Rover 3.6 및 Copter 3.7 이상에서만 지원됩니다. 또한 일일 빌드 또는 Stable 3.6버전을 사용하여야 합니다(한 번 사용 가능). 연결된 차량에서 지원하지 않는 경우에는 *QGroundControl*은 GeoFence 옵션을 표시하지 않습니다.
 
 ## 지오펜스 생성
 
