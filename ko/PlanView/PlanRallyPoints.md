@@ -4,7 +4,7 @@
 
 > **Note** 랠리 포인트는 Rover 3.6 및 Copter 3.7(또는 그 이상)의 ArduPilot에서만 지원됩니다. PX4 지원은 PX4 v1.10에 계획되어 있습니다. 또한 일일 빌드 또는 Stable 3.6 버전을 사용하여야 합니다(한 번 사용 가능). 연결된 차량에서 지원하지 않는 경우 *QGroundControl*은 랠리 포인트 옵션을 표시하지 않습니다.
 
-![Rally Points](../../assets/plan/rally/rally_points_overview.jpg)
+![랠리 포인트](../../assets/plan/rally/rally_points_overview.jpg)
 
 ## 랠리 포인트 사용법
 
@@ -17,12 +17,12 @@
     - 현재 활성화된 마커는 다른 색상(녹색)을 가지며 *집합 포인트* 패널을 사용하여 편집할 수 있습니다.
 4. 지도에서 랠리 포인트를 선택하여 활성화합니다. 
     - 지도에서 드래그하거나 패널에서 위치를 편집하여 활성 랠리 포인트를 이동합니다.
-    - *집회 지점* 패널에서 메뉴 옵션을 선택하여 활성 집결 지점을 삭제합니다. ![Delete Rally Point](../../assets/plan/rally/rally_points_delete.jpg)
+    - *집회 지점* 패널에서 메뉴 옵션을 선택하여 활성 집결 지점을 삭제합니다. ![랠리 포인트 삭제](../../assets/plan/rally/rally_points_delete.jpg)
 
 ## 랠리 포인트 업로드
 
-랠리 포인트는 [계획 도구](../PlanView/PlanView.md)의 **파일**을 사용하여 미션과 동일한 방식으로 업로드됩니다.
+랠리 포인트를 [계획 도구](../PlanView/PlanView.md)의 **파일**을 사용하여 미션과 동일한 방식으로 업로드합니다.
 
-## Remaining tools
+## 기타 도구
 
-The rest of the tools work exactly as they do while editing a Mission.
+나머지 도구는 임무를 편집시와 동일한 기능을 제공합니다.
