@@ -1,4 +1,4 @@
-# Survey (Plan Pattern)
+# 탐사 (패턴 계획)
 
 A survey allows you to create a grid flight pattern over a polygonal area. You can specify an arbitrary polygon, the angle and other properties of the grid, and camera settings appropriate for creating geotagged images.
 
