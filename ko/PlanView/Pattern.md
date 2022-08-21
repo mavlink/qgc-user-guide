@@ -1,14 +1,14 @@
-# Pattern
+# 패턴
 
-The *Pattern tools* (in the [PlanView](../PlanView/PlanView.md) *Plan Tools*) allow you to specify complex flight patterns using a simple graphical UI. The available pattern tools depend on the vehicle (and support for the vehicle-type in the flight stack).
+*패턴 도구*([계획 뷰](../PlanView/PlanView.md) *계획 도구*)를 사용하면 간단한 그래픽 UI를 사용하여 복잡한 비행 패턴을 지정할 수 있습니다. 사용 가능한 패턴 도구는 차량(및 플라이트 스택의 차량 유형 지원)에 따라 차이가 납니다.
 
-![Pattern Tool (Plan Tools)](../../assets/plan/pattern/pattern_tool.jpg)
+![패턴 도구(계획 도구)](../../assets/plan/pattern/pattern_tool.jpg)
 
-| Pattern                                                         | Description                                                                                                                                                                                     | Vehicles          |
-| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| [Survey](../PlanView/pattern_survey.md)                         | Create a grid flight pattern over a polygonal area.   
-You can specify the polygon as well as the specifications for the grid and camera settings appropriate for creating geotagged images.    | All               |
-| [Structure Scan](../PlanView/pattern_structure_scan_v2.md)      | Create a grid flight pattern that captures images over vertical surfaces (polygonal or circular).   
-These are typically used for the visual inspection or creation of 3D models of structures. | MultiCopter, VTOL |
-| [Corridor Scan](../PlanView/pattern_corridor_scan.md)           | Create a flight pattern which follows a poly-line (for example, to survey a road).                                                                                                              | All               |
-| [Fixed Wing Landing](../PlanView/pattern_fixed_wing_landing.md) | Add a landing pattern for fixed wing vehicles to a mission.                                                                                                                                     | Fixed Wing        |
+| 패턴                                                  | 설명                                                                                   | 차량         |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------- |
+| [탐사](../PlanView/pattern_survey.md)                 | 다각형 영역에 그리드 비행 패턴을 작성합니다.   
+지오태깅 이미지 생성에 적합한 그리드 및 카메라 설정에 대한 사양과 다각형을 지정할 수 있습니다.  | 전체         |
+| [구조물 스캔](../PlanView/pattern_structure_scan_v2.md)  | 수직 표면(다각형 또는 원형) 위의 이미지를 캡처하는 그리드 비행 패턴을 작성합니다.   
+일반적으로 육안 검사 또는 구조물의 3D 모델을 생성합니다. | 멀티콥터, VTOL |
+| [복도 스캔](../PlanView/pattern_corridor_scan.md)       | 폴리라인을 따르는 비행 패턴을 생성합니다(예: 도로 측량).                                                    | 전체         |
+| [고정익 착륙](../PlanView/pattern_fixed_wing_landing.md) | 임무에 고정익 차량의 착륙 패턴을 추가합니다.                                                            | 고정익        |
