@@ -39,31 +39,31 @@
 
 #### 알려진 카메라 {#known_camera}
 
-Selecting a known camera from the option dropdown generates a grid pattern based on the camera capabilities.
+드롭다운 옵션에서 알려진 카메라를 선택하면 카메라 기능을 기반으로 격자 패턴이 생성됩니다.
 
 ![Survey - Camera Sony](../../assets/plan/survey/survey_camera_sony.jpg)
 
-The default settings can be tuned for your survey using the configuration options:
+설정 옵션을 사용하여 설문조사에 대한 기본 설정을 조정할 수 있습니다.
 
-- **Landscape/Portrait** - Camera orientation relative to the "normal" orientation of the vehicle.
-- **Overlap** - Overlap between each image capture. This can be configured separately for when flying along grid lines or across them.
-- Select one of: 
-  - **Altitude** - Survey altitude (ground resolution will be calculated/displayed for this altitude).
-  - **Ground resolution** - Ground resolution for each image (altitude required to achieve this resolution calculated and shown).
+- **가로/세로** - 차량의 "정상" 방향을 기준으로 한 카메라 방향입니다.
+- **겹침** - 각 이미지 캡처 간에 겹칩니다. 그리드 라인을 따라 비행하거나 그리드 라인을 가로 질러 비행할 때 별도로 설정할 수 있습니다.
+- 하나를 선택하십시오: 
+  - **고도** - 조사 고도(지상 해상도가 이 고도에 대해 계산/표시됨).
+  - **지상 해상도** - 각 이미지의 지상 해상도(해상도를 계산하고 표시하는 데 필요한 고도).
 
-#### Custom Camera {#custom_camera}
+#### 카메라 최적화 {#custom_camera}
 
-Selecting the custom camera option allows you to specify the settings for a new camera in a similar way to a known camera.
+사용자 정의 카메라 옵션을 선택하면 알려진 카메라와 유사한 방식으로 새 카메라에 대한 설정을 지정할 수 있습니다.
 
 ![Survey - Custom Camera](../../assets/plan/survey/survey_camera_custom.jpg)
 
-The camera-specific settings are:
+카메라별 설정은 다음과 같습니다.
 
-- **Sensor width/height** - The size of the image sensor of the camera.
-- **Image width/height** - The resolution of the image captured by the camera.
-- **Focal Length** - The focal length of the camera lens.
+- **센서 너비/높이** - 카메라의 이미지 센서 크기입니다.
+- **이미지 너비/높이** - 카메라가 캡처한 이미지의 해상도입니다.
+- **초점 거리** - 카메라 렌즈의 초점 거리입니다.
 
-The remaining settings are the same as for a [known camera](#known_camera).
+나머지 설정은 [알려진 카메라](#known_camera)와 동일합니다.
 
 #### Manual Camera
 
