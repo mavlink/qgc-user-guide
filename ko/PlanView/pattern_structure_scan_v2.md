@@ -1,4 +1,4 @@
-# Structure Scan (Plan Pattern)
+# 구조 스캔 (패턴 계획)
 
 A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint. Structure Scans are typically used for the visual inspection or creating 3D models of structures.
 
