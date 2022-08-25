@@ -54,8 +54,8 @@
   * [MAVLink 콘솔 (PX4)](analyze_view/mavlink_console.md)
   * [MAVLink 탐색기](analyze_view/mavlink_inspector.md)
 * [배포](releases/README.md) 
-  * [배표 개요](releases/release_notes.md) 
-    * [v4.0 (개요 추가)](releases/stable_v4.0_additional.md)
+  * [배포 요약](releases/release_notes.md) 
+    * [v4.0 (요약 추가)](releases/stable_v4.0_additional.md)
     * [v3.3 (상세)](releases/stable_v3.3_long.md)
     * [v3.2 (상세)](releases/stable_v3.2_long.md)
   * [일일 빌드](releases/daily_builds.md)
@@ -73,7 +73,7 @@
 ## 비행 스택
 
 * [PX4 프로](https://docs.px4.io/en/)
-* [아두파일롯](http://ardupilot.org/)
+* [ArduPilot ](http://ardupilot.org/)
 
 ## 드론코드 관련 링크
 

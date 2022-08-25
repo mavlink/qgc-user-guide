@@ -1,4 +1,4 @@
-# Corridor Scan (Plan Pattern)
+# 복도 스캔 (계획 패턴)
 
 A corridor scan allows you to create a flight pattern that follows a poly-line. This can be used to, for example, survey a road. It is supported on all autopilots and vehicle types.
 
