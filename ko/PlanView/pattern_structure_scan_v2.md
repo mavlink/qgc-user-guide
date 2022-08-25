@@ -1,14 +1,14 @@
-# 구조 스캔 (패턴 계획)
+# 구조 스캔 (계획 패턴)
 
-A *Structure Scan* allows you to create a grid flight pattern that captures images over *vertical surfaces* (e.g. walls) around a structure with an arbitrary polygonal (or circular) ground footprint. Structure Scans are typically used for the visual inspection or creating 3D models of structures.
+*구조 스캔*은 임의의 다각형(또는 원형) 지면 공간이 있는 구조 주변의 *수직 표면*(예: 벽) 위의 이미지를 캡처하는 그리드 비행 패턴을 생성합니다. 구조 스캔은 일반적으로 육안 검사 또는 구조의 3D 모델을 생성합니다.
 
-*Structure Scans* may be inserted into a mission using the Plan view **Pattern > Structure Scan** tool.
+*구조물 스캔*은 계획 보기 **패턴 > 구조 스캔** 도구를 사용하여 미션에 삽입할 수 있습니다.
 
-> **Note** The new version of *Structure Scan* can't read older *Structure Scan* plans. They will need to be recreated.
+> **Note** 새 버전의 *구조물 스캔*은 이전 *구조물 스캔*과 호환되지 않습니다. 다시 생성하여야 합니다.
 
 <span></span>
 
-> **Warning** This feature is not yet supported by ArduPilot firmware. It is supported in PX4.
+> **Warning** 이 기능은 아직 ArduPilot 펌웨어에서 지원되지 않습니다. PX4에서만 지원됩니다.
 
 ## Overview
 
