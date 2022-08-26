@@ -1,4 +1,4 @@
-# Fixed Wing Landing Pattern (Plan Pattern)
+# 고정익 착륙 패턴(계획 패턴)
 
 The *Fixed Wing Landing Pattern* tool allows you to add a fixed wing landing pattern to a mission. It is supported on both ArduPilot and PX4.
 
