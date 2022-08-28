@@ -1,4 +1,4 @@
-# Plan View - Pattern Presets
+# 계획 보기 - 패턴 프리셋
 
 Allows you to save commonly used settings as a named preset.
 
