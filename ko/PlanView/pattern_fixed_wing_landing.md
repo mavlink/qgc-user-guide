@@ -1,58 +1,58 @@
 # 고정익 착륙 패턴(계획 패턴)
 
-The *Fixed Wing Landing Pattern* tool allows you to add a fixed wing landing pattern to a mission. It is supported on both ArduPilot and PX4.
+*고정익 착륙 패턴* 도구를 사용하여 임무에 고정익 착륙 패턴을 추가할 수 있습니다. ArduPilot과 PX4 모두에서 지원됩니다.
 
 ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
-The first point of the pattern is a loiter point with a specific altitude and the second is a landing point. The vehicle will loiter at the first point until it reaches the target altitude, and then begin the landing sequence to fly down to the specified landing spot.
+패턴의 첫 번째 지점은 특정 고도를 가진 배회 지점이고 두 번째 지점은 착륙 지점입니다. 기체는 목표 고도에 도달할 때까지 첫 번째 지점에서 배회한 다음, 착륙 시퀀스를 순서대로 지정된 착륙 지점으로 비행합니다.
 
-Both the loiter and land points can be dragged to new positions, and a number of other settings can be configured in the associated mission item.
+배회 및 착륙 지점을 모두 새 위치로 드래그할 수 있으며, 관련 임무 항목에서 여러가지를 설정할 수 있습니다.
 
-## Creating a Landing Pattern
+## 착륙 패턴 생성
 
-To create a landing pattern:
+착륙 패턴을 생성하려면:
 
-1. Open [PlanView](../PlanView/PlanView.md) *Plan Tools*.
-2. Choose the *Pattern Tool* from the *Plan Tools* and then select *Fixed Wing Landing Pattern*.
+1. [계획 뷰](../PlanView/PlanView.md)에서 *계획 도구*를 오픈합니다.
+2. *계획 도구*에서 *패턴 도구*를 선택한 다음 *고정익 착륙 패턴*을 선택합니다.
   
   ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_menu.jpg)
   
-  This will add a *Landing Pattern* item to the mission list (on the right).
+  그러면 임무 목록(오른쪽)에 *착륙 패턴* 항목이 추가됩니다.
   
   ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern_mission_item_initial.jpg)
 
-3. Click on the map to create both the loiter point and the landing point. These can be moved on the map.
+3. 지도를 클릭하여 배회 지점과 착륙 지점을 모두 생성합니다. 지도에서 이동할 수 있습니다.
 
-Additional settings are covered in the next section.
+추가 설정은 다음 섹션에서 설명합니다.
 
-## Settings
+## 설정
 
-The landing pattern can be further configured in the associated mission item (in the mission item list on the right hand side of the Plan View).
+착륙 패턴은 연계된 미션 아이템(플랜 보기 우측 미션 아이템 목록)에서 추가로 설정할 수 있습니다.
 
-### Loiter Point
+### 배회 지점
 
-The *Loiter Point* settings are used to configure the loiter altitude, radius and direction.
+*배회 지점* 설정은 배회 고도, 반경 및 방향을 설정합니다.
 
 ![Landing Pattern - Loiter Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_loiter.jpg)
 
-The configurable options are:
+설정 옵션은 다음과 같습니다:
 
-- **Altitude** - Loiter altitude.
-- **Radius** - Loiter radius.
-- **Loiter clockwise** - Check to loiter in a clockwise direction (anti-clockwise is the default). 
+- **고도** - 배회 고도.
+- **반경** - 배회 반경.
+- **시계 방향 배회** - 시계 방향으로 배회하려면 선택합니다(반시계 방향이 기본값임). 
 
-### Landing Point
+### 착륙 지점
 
-The *Landing Point* settings are used to configure the landing position and path.
+*착륙 지점* 설정은 착륙 위치와 경로를 설정합니다.
 
 ![Landing Pattern - Landing Point](../../assets/plan/pattern/fixed_wing_landing_pattern_settings_landing.jpg)
 
-The configurable options are:
+설정 옵션은 다음과 같습니다:
 
-- **Heading** - Heading from loiter point to land point.
-- **Altitude** - Altitude for landing point (nominally zero).
-- *Radio Buttons* 
-  - **Landing Dist** - Distance between loiter point and landing point.
+- **방향** - 배회 지점에서 착륙 지점까지의 방향입니다.
+- **고도** - 착륙 지점의 고도입니다(일반적으로 0).
+- *라디오 버튼* 
+  - **착륙 거리** - 배회 지점과 착륙 지점 사이의 거리입니다.
   - **Glide Slope** - Glide slope between loiter point and landing point.
 - **Altitudes relative to home** - Check to set all altitudes in mission item to be relative to home (default is AMSL).
 
