@@ -1,14 +1,14 @@
-# Setup View
+# 설정 보기
 
-The Setup View is used to configure a new vehicle prior to first flight and/or tune a configured vehicle.
+설정 보기는 첫 비행 전에 새 기체를 구성하거나 구성된 기체를 조정하는 데 사용됩니다.
 
 ![](../../assets/setup/SetupView.jpg)
 
-## Setup Options
+## 설정 옵션
 
-To the left of the screen are the set of available setup options. A setup button is marked with a red icon if there are still settings needed to be adjusted/specified. You should not fly if any of these are red. In the above image the Radio setup is not yet complete.
+화면 왼쪽에는 사용 가능한 설정 옵션 세트가 있습니다. 아직 조정/지정해야 하는 설정이 있는 경우 설정 버튼이 빨간색 아이콘으로 표시됩니다. 이 중 하나라도 빨간색이면 비행해서는 안 됩니다. 위 이미지에서 라디오 설정은 아직 완료되지 않았습니다.
 
-> **Note** The set of options shown and the contents of each option may differ based on whether the vehicle is running PX4 Pro or ArduPilot firmware. The image above is from a vehicle which is running PX4 Pro firmware.
+> **Note** 표시된 옵션 세트와 각 옵션의 내용은 차량이 PX4 Pro 또는 ArduPilot 펌웨어를 실행하는지 여부에 따라 다를 수 있습니다. 위 이미지는 PX4 Pro 펌웨어를 실행하는 기체에서 가져온 것입니다.
 
 **Summary** <br />An overview of all the important setup options for your vehicle. Similar to the individual setup buttons, the summary blocks show a red indicator when those settings are not fully configured.
 
