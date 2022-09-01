@@ -1,4 +1,4 @@
-# Airframe Setup (ArduPilot)
+# 기체 설정(ArduPilot)
 
 Airframe Setup is used to select the frame class and type that matches your vehicle
 

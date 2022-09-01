@@ -10,36 +10,36 @@
 
 > **Caution** </strong>펌웨어를 설치 전에 기체에 모든 USB (직접 또는 원격 측정 라디오) 연결은 *해제*하여야 합니다. 기체에 배터리를 연결하지 *않아야* 합니다.
 
-1. First select the **Gear** icon (*Vehicle Setup*) in the top toolbar and then **Firmware** in the sidebar.
+1. 상단 툴바에서 **기어** 아이콘 (*기체 설정*) 을 선택한 다음 사이드 바에서 **펌웨어**를 선택하십시오.
     
-    ![Firmware disconnected](../../assets/setup/firmware/firmware_disconnected.jpg)
+    ![펌웨어 분리](../../assets/setup/firmware/firmware_disconnected.jpg)
 
-2. Connect your device (Pixhawk, SiK Radio, PX4 Flow) directly to your computer via USB.
+2. USB를 통해 장치(Pixhawk, SiK Radio, PX4 Flow)를 컴퓨터에 직접 연결합니다.
     
-    > **Note** Connect directly to a powered USB port on your machine (do not connect through a USB hub).
+    > **Note**컴퓨터에서 전원이 공급되는 USB 포트에 직접 연결합니다(USB 허브를 사용하여 연결하지 마십시오).
 
-## Select Firmware to Load
+## 업로드할 펌웨어 선택
 
-Once the device is connected you can choose which firmware to load (*QGroundControl* presents sensible options based on the connected hardware).
+장치가 연결되면 업로드 펌웨어를 선택할 수 있습니다(QGroundControl은 연결된 하드웨어를 기반으로 최적의 옵션을 자동으로 제공합니다).
 
-1. For a Pixhawk-compatible board choose either **PX4 Flight Stack vX.X.X Stable Release** or **ArduPilot Flight Stack** radio buttons to download the *current stable release*.
+1. Pixhawk 호환 보드에서는 **PX4 Flight Stack vX.X.X Stable Release** 또는 **ArduPilot Flight Stack** 라디오 버튼을 선택하여 *현재 안정적인 릴리즈* 버전를 다운로드하십시오.
     
-    ![Select PX4](../../assets/setup/firmware/firmware_select_default_px4.jpg)
+    ![PX4 선택](../../assets/setup/firmware/firmware_select_default_px4.jpg)
     
-    If you select *ArduPilot* you will also have to choose the specific firmware and the type of vehicle (as shown below).
+    *ArduPilot*을 선택하면 특정 펌웨어와 차량 유형도 선택하여야 합니다(아래의 그림 참조).
     
-    ![Select ArduPilot](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
+    ![ArduPilot 선택](../../assets/setup/firmware/firmware_selection_ardupilot.jpg)
 
-2. Check **Advanced settings** to select specific developer releases or install firmware from your local file system.
+2. 특정 개발자 릴리즈를 선택하거나 로컬 파일 시스템에서 펌웨어를 설치하려면 **고급 설정**을 사용하십시오.
     
-    ![ArduPilot - Advanced Settings](../../assets/setup/firmware/firmware_selection_advanced_settings.jpg)
+    ![ArduPilot - 고급 설정](../../assets/setup/firmware/firmware_selection_advanced_settings.jpg)
 
-## Update the firmware
+## 펌웨어 업데이트
 
-1. Click the **OK** button to start the update.
+1. 업데이트를 시작하려면 **OK** 버튼을 클릭합니다.
     
-    The firmware will then proceed through a number of upgrade steps (downloading new firmware, erasing old firmware etc.). Each step is printed to the screen and overall progress is displayed on a progress bar.
+    펌웨어가 업그레이드(펌웨어 다운로드, 이전 펌웨어 삭제 등)를 진행합니다. 각 단계 화면을 표출하고, 전체 진행률이 표시줄에 출력됩니다.
     
-    ![Firmware Upgrade Complete](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
+    ![펌웨어 업그레이드 완료](../../assets/setup/firmware/firmware_upgrade_complete.jpg)
 
-Once the firmware has finished loading the device/vehicle will reboot and reconnect. Next you will need to configure the [airframe](../SetupView/Airframe.md) (and then sensors, radio, etc.)
+펌웨어의 업로드가 완료되면, 장치가 재부팅되고 다시 연결됩니다. 다음으로 [기체 프레임](../SetupView/Airframe.md)을 지정하여야 합니다(그리고 센서, 라디오 등).
