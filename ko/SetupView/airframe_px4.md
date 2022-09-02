@@ -1,4 +1,4 @@
-# Airframe Setup (PX4)
+# 기체 설정 (PX4)
 
 To select the airframe in PX4:
 
