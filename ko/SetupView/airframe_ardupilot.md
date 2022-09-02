@@ -1,37 +1,37 @@
 # 기체 설정(ArduPilot)
 
-Airframe Setup is used to select the frame class and type that matches your vehicle
+기체 설정에서는 적합한 기체 프레임을 선택합니다.
 
-> **Note** Airframe Setup is only available on *ArduCopter* and *ArduSub* vehicles (it is not shown for *ArduPilot* Rover or Plane vehicles).
+> **Note** 기체 설정은 *ArduCopter* 및 *ArduSub* 차량에만 사용할 수 있습니다(*ArduPilot* Rover 또는 Plane 차량에는 표시되지 않습니다).
 
-## ArduCopter Airframe Setup
+## ArduCopter 기체 설정
 
-To select the airframe in Copter:
+멀티콥터에서 기체를 선택하려면:
 
-1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Airframe** in the sidebar.
+1. 상단 툴바에서 **톱니바퀴** 아이콘(기체 설정)을 선택한 다음 사이드 바에서 **기체 프레임**을 먼저 선택하십시오.
     
-    ![Airframe config](../../assets/setup/airframe/arducopter.jpg)
+    ![기체 설정](../../assets/setup/airframe/arducopter.jpg)
 
-2. Select the broad *Frame Class* for your vehicle:
+2. 기체에 대한 최상위 *프레임 클래스*를 선택하십시오.
     
-    ![Airframe type](../../assets/setup/airframe/arducopter_class.jpg)
+    ![기체 타입](../../assets/setup/airframe/arducopter_class.jpg)
     
-    > **Note** You will need to reboot the vehicle for class changes to take effect.
+    > **Note** 클래스 변경 사항을 적용하려면 차량을 재부팅하여야 합니다.
 
-3. Select the specific *Frame Type* for your vehicle:
+3. 기체애 대한 특정 *프레임 유형*을 선택하십시오.
     
-    ![Airframe type](../../assets/setup/airframe/arducopter_type.jpg)
+    ![기체 타입](../../assets/setup/airframe/arducopter_type.jpg)
 
-## ArduSub Frame Setup {#ardusub}
+## ArduSub 프레임 설정 {#ardusub}
 
-To select the frame type for Sub:
+Sub의 프레임 유형을 선택하려면:
 
-1. First select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Frame** in the sidebar.
-2. Select the frame type that matches your vehicle (selecting a frame applies the selection).
-3. Make sure that all **green** thrusters have **clockwise** propellers and all **blue** thrusters have **counter-clockwise** propellers (or vice-versa).
+1. 상단 툴바에서 **톱니바퀴** 아이콘(기체 설정)을 선택한 다음 사이드 바에서 **프레임**을 먼저 선택하십시오.
+2. 차량과 일치하는 프레임 유형을 선택하십시오(프레임을 선택하면 선택 사항이 적용됨).
+3. 모든 **녹색** 스러스터에 **시계 방향** 프로펠러가 있고 모든 **파란색** 스러스터에 **반시계 방향** 프로펠러가 있는 지 확인합니다(또는 반대 방향으로 반대로).
     
-    ![Select airframe type](../../assets/setup/airframe_ardusub.jpg)
+    ![기체 타입 선택](../../assets/setup/airframe_ardusub.jpg)
 
-- You can also click **Load Vehicle Default Parameters** to load default parameter set for ArduSub.
+- 또한, **차량 기본 매개변수 로드**를 클릭하여 ArduSub에 대한 기본 매개변수 세트를 로드할 수 있습니다.
     
-    ![Load vehicle params](../../assets/setup/airframe_ardusub_parameters.jpg)
+    ![차량 매개변수 로드](../../assets/setup/airframe_ardusub_parameters.jpg)
