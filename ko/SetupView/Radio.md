@@ -1,8 +1,8 @@
-# Radio Setup
+# 라디오 설정
 
-Radio Setup is used to configure the mapping of your main transmitter attitude control sticks (roll, pitch, yaw, throttle) to channels, and to calibrate the minimum, maximum, trim and reverse settings for all other transmitter controls/RC channels.
+라디오 설정은 주요 송신기 자세 제어 스틱(롤, 피치, 요, 스로틀)의 매핑 채널을 설정하고, 다른 모든 송신기 제어/RC 채널에 대한 최소, 최대, 트림 및 역방향 설정을 보정합니다.
 
-The main calibration process is identical for PX4 and ArduPilot (a number of additional flight-controller specific settings/tools are [detailed below](#additional-radio-setup)).
+주요 보정 프로세스는 PX4 및 ArduPilot에서 동일합니다(여러 추가 비행 컨트롤러 관련 설정/도구는 [아래에 자세히 설명되어 있음](#additional-radio-setup)).
 
 > **Note** Before you can calibrate the radio system the receiver and transmitter must be connected/bound. The process for binding a transmitter and receiver pair is hardware specific (see your manual for instructions).
 
