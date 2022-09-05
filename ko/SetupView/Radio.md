@@ -1,34 +1,34 @@
 # 라디오 설정
 
-라디오 설정은 주요 송신기 자세 제어 스틱(롤, 피치, 요, 스로틀)의 매핑 채널을 설정하고, 다른 모든 송신기 제어/RC 채널에 대한 최소, 최대, 트림 및 역방향 설정을 보정합니다.
+무선 조종기 설정은 주요 송신기 자세 제어 스틱(롤, 피치, 요, 스로틀)의 매핑 채널을 설정하고, 다른 모든 송신기 제어/RC 채널에 대한 최소, 최대, 트림 및 역방향 설정을 보정합니다.
 
 주요 보정 프로세스는 PX4 및 ArduPilot에서 동일합니다(여러 추가 비행 컨트롤러 관련 설정/도구는 [아래에 자세히 설명되어 있음](#additional-radio-setup)).
 
-> **Note** Before you can calibrate the radio system the receiver and transmitter must be connected/bound. The process for binding a transmitter and receiver pair is hardware specific (see your manual for instructions).
+> **Note** 무선 조종기를 보정하려면, 수신기와 송신기를 먼저 바인딩하여야 합니다. 송신기와 수신기를 바인딩 프로세스는 하드웨어에 따라 조금씩 차이가 날 수 있습니다 (자세한 지침은 설명서 참조).
 
-## Performing the Calibration
+## 보정 절차
 
-The calibration process is straightforward - you will be asked to move the sticks in a specific pattern that is shown on the transmitter diagram on the top right of the screen. Simply follow the instructions to complete calibration.
+보정 프로세스는 간단합니다. 화면 오른쪽 상단의 트랜스미터 다이어그램에 표시된 특정 패턴으로 스틱을 움직여야 합니다. 지침에 따라 보정을 완료합니다.
 
-To calibrate the radio:
+무선 조종기 보정 절차
 
-1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Radio** in the sidebar.
-2. Turn on your RC transmitter.
-3. Press **OK** to start the calibration.
+1. 상단 도구 모음에서 **톱니 바퀴** 아이콘(기체 설정)을 선택한 다음 가장자리 표시줄에서 **무선 조종기**를 선택하십시오.
+2. RC 송신기를 켭니다.
+3. **확인**을 눌러 보정작업을 시작합니다.
     
     ![Radio setup - before starting](../../assets/setup/radio_start_setup.jpg)
     
-    > **Note** The image above is for PX4 Pro. Calibration/top section is the same for both firmware, but the *Additional Radio setup* section will differ.
+    > **Note** 위 이미지는 PX4 Pro용입니다. 보정/상단 섹션은 두 펌웨어 모두 동일하지만 *추가 라디오 설정* 섹션은 다릅니다.
 
-4. Set the *transmitter mode* radio button that matches your transmitter configuration (this ensures that *QGroundControl* displays the correct stick positions for you to follow during calibration).
+4. 트랜스미터와 일치하는 *송신기 모드* 라디오 버튼을 설정합니다 (이렇게하면 *QGroundControl*이 교정 중에 따라야 할 올바른 스틱 위치를 표시함).
     
     ![Radio setup - move sticks](../../assets/setup/radio_sticks_throttle.jpg)
 
-5. Move the sticks to the positions indicated in the text (and on the transmitter image). Press **Next** when the sticks are in position. Repeat for all positions.
+5. 스틱을 텍스트(및 송신기 이미지)에 표시된 위치로 이동합니다. 스틱이 제자리에 있으면 **다음**을 누르십시오. 모든 위치에 대하여 반복하십시오.
 
-6. When prompted, move all other switches and dials through their full range (you will be able to observe them moving on the *Channel Monitor*).
+6. 메시지가 표시되면 다른 모든 스위치와 다이얼을 전체 범위로 이동합니다 (*채널 모니터*에서 움직이는 것을 관찰 할 수 있습니다).
 
-7. Press **Next** to save the settings.
+7. **Next(다음)**를 클릭하여 설정을 시작합니다.
 
 Radio calibration is demonstrated in the [PX4 setup video here](https://youtu.be/91VGmdSlbo4?t=4m30s) (youtube).
 
