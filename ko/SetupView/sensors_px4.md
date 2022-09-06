@@ -1,16 +1,16 @@
-# Sensor Setup (PX4)
+# 센서 설정 (PX4)
 
-The *Sensor Setup* section allows you to configure and calibrate the vehicle's compass, gyroscope, accelerometer and any other sensors (the available sensors will depend on the vehicle type).
+*센서 설정* 섹션에서는 차량의 나침반, 자이로스코프, 가속도계 및 기타 센서를 구성하고 보정할 수 있습니다(사용 가능한 센서는 차량 유형에 따라 다름).
 
-Available sensors are displayed as a list of buttons beside the sidebar. Sensors marked with green are already calibrated, while sensors marked with red require calibration prior to flight. Sensors with no light are simple settings with default values that you may choose not to calibrate.
+사용 가능한 센서는 사이드바 옆에 버튼 목록으로 표시됩니다. 녹색으로 표시된 센서는 이미 보정된 반면 빨간색으로 표시된 센서는 비행 전에 보정이 필요합니다. 조명이 없는 센서는 보정하지 않도록 선택할 수 있는 기본값이 있는 간단한 설정입니다.
 
-Click on the button for each sensor to start its calibration sequence.
+각 센서의 버튼을 클릭하여 보정 시퀀스를 시작합니다.
 
 ![Sensors Setup screen for VTOL vehicle](../../assets/setup/sensors_px4_vtol.jpg)
 
-> **Note** The image shown is from a VTOL vehicle running PX4 firmware. Other autopilot firmware and vehicles will offer slightly different options.
+> **Note** 표시된 이미지는 PX4 펌웨어를 실행하는 VTOL 차량입니다. 다른 자동 조종 장치 펌웨어 및 차량은 약간 다른 옵션을 제공합니다.
 
-## Compass {#compass}
+## 나침반 {#compass}
 
 The process guides you to position the vehicle in a number of set orientations and rotate the vehicle about the specified axis.
 
