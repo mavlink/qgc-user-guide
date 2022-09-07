@@ -11,7 +11,7 @@
 - [ArduPilot 비행 모드 설정](../SetupView/flight_modes_ardupilot.md)
 - [PX4 비행 모드 설정](../SetupView/flight_modes_px4.md)
 
-## Transmitter Setup
+## 송신기 설정
 
 In order setup flight modes you will first need to configure your *transmitter* to encode the physical positions of your mode switch(es) into a single channel.
 
