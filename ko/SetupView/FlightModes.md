@@ -1,17 +1,17 @@
-# Flight Modes Setup
+# 비행 모드 설정
 
-The *Flight Modes* section allows you to map flight modes to radio channel(s), and hence to the switches on your radio control transmitter. Both flight mode setup and the available flight modes are different in PX4 and ArduPilot (and there are some differences between ArduCopter and ArduPlane).
+*비행 모드* 섹션을 사용하면 비행 모드를 무선 채널에 매핑할 수 있으며, 따라서 무선 제어 송신기의 스위치에 매핑할 수 있습니다. 비행 모드 설정 방법과 사용 가능한 비행 모드는 PX4와 ArduPilot이 동일하지 않습니다. (ArduCopter와 ArduPlane 간에도 약간의 차이가 있습니다).
 
-> **Note** In order to set up flight modes you must already have already [configured your radio](../SetupView/Radio.md), and [setup the transmitter](#transmitter-setup) (as shown below).
+> **Note** 비행 모드를 설정하려면 이미 [무전기를 구성](../SetupView/Radio.md)하고 [송신기를 설정](#transmitter-setup)하여야 합니다(아래 그림 참조).
 
-To access this section, select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+이 섹션에 액세스하려면, 상단 툴바에서 **기어** 아이콘(차량 설정)을 선택한 다음 사이드바에서 **비행 모드**를 선택하세요.
 
-For more flight stack specific setup see:
+플라이트 스택별 설정에 대한 자세한 내용은 다음을 참조하세요.
 
-- [ArduPilot Flight Modes Setup](../SetupView/flight_modes_ardupilot.md)
-- [PX4 Flight Modes Setup](../SetupView/flight_modes_px4.md)
+- [ArduPilot 비행 모드 설정](../SetupView/flight_modes_ardupilot.md)
+- [PX4 비행 모드 설정](../SetupView/flight_modes_px4.md)
 
-## Transmitter Setup
+## 송신기 설정
 
 In order setup flight modes you will first need to configure your *transmitter* to encode the physical positions of your mode switch(es) into a single channel.
 
