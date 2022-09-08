@@ -11,11 +11,11 @@
 
 ## 비행 모드 설정
 
-On ArduPilot you can assign up to 6 different flight modes to a single channel of your transmitter (the channel is selectable on Plane, but fixed to channel 5 on Copter). ArduCopter also allows you to specify additional *Channel Options* for channels 7-12. These allow you to assign functions to these switches (for example, to turn on a camera, or return to launch).
+ArduPilot에서 최대 6개의 다른 비행 모드를 송신기의 단일 채널에 할당할 수 있습니다(채널은 평면에서 선택 가능하지만 멀티콥터에서는 채널 5로 고정됨). 또한 ArduCopter를 사용하면 채널 7-12에 대한 추가 *채널 옵션*을 설정할 수 있습니다. 이를 통하여 스위치에 기능을 설정합니다(예: 카메라를 켜거나 실행으로 돌아가기).
 
-To set the flight modes:
+비행 모드를 설정 방법:
 
-1. Turn on your RC transmitter.
+1. RC 송신기를 켭니다.
 1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
 
    ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes/ardupilot_copter.jpg)
