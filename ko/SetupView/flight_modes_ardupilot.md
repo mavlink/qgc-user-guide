@@ -1,15 +1,15 @@
-# ArduPilot Flight Mode Setup
+# ArduPilot 비행 모드 설정
 
-The *Flight Modes* section allows you to configure which flight modes and other actions are triggered by particular switches/switch positions on your RC transmitter.
+*비행 모드* 섹션에서는 RC 송신기의 특정 스위치/스위치 위치에 의해 트리거되는 비행 모드 및 기타 작업을 설정할 수 있습니다.
 
-> **Note** In order to set up flight modes you must already have - [Configured your radio](../SetupView/Radio.md) in order to set flight modes. - [Setup the RC transmitter](../SetupView/FlightModes.md#transmitter-setup) (Flight Modes > Transmitter Setup)
+> **Note** 비행 모드를 설정하려면 비행 모드를 설정하기 위해 [무전기를 구성](../SetupView/Radio.md)해야 합니다. - [RC 송신기 설정](../SetupView/FlightModes.md#transmitter-setup)(비행 모드 & 송신기 설정)
 
-To access this section, select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+이 섹션에 액세스하려면, 상단 툴바에서 **기어** 아이콘(차량 설정)을 선택한 다음 사이드바에서 **비행 모드**를 선택하세요.
 
 ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes/ardupilot_copter.jpg)
 
 
-## Flight Mode Settings
+## 비행 모드 설정
 
 On ArduPilot you can assign up to 6 different flight modes to a single channel of your transmitter (the channel is selectable on Plane, but fixed to channel 5 on Copter). ArduCopter also allows you to specify additional *Channel Options* for channels 7-12. These allow you to assign functions to these switches (for example, to turn on a camera, or return to launch).
 
