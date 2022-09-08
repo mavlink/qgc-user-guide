@@ -6,7 +6,7 @@
 
 이 섹션에 액세스하려면, 상단 툴바에서 **기어** 아이콘(차량 설정)을 선택한 다음 사이드바에서 **비행 모드**를 선택하세요.
 
-![Flight modes setup - ArduCopter](../../assets/setup/flight_modes/ardupilot_copter.jpg)
+![비행 모드 설정 - ArduCopter](../../assets/setup/flight_modes/ardupilot_copter.jpg)
 
 
 ## 비행 모드 설정
@@ -16,28 +16,28 @@ ArduPilot에서 최대 6개의 다른 비행 모드를 송신기의 단일 채�
 비행 모드를 설정 방법:
 
 1. RC 송신기를 켭니다.
-1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+1. 상단 툴바에서 **기어** 아이콘(차량 설정)을 선택한 다음 사이드바에서 **비행 모드**를 선택합니다.
 
-   ![Flight modes setup - ArduCopter](../../assets/setup/flight_modes/ardupilot_copter.jpg)
+   ![비행 모드 설정 - ArduCopter](../../assets/setup/flight_modes/ardupilot_copter.jpg)
 
-   > **Note** The above image is a screenshot of the flight mode setup for ArduCopter.
+   > **Note** 위 이미지는 ArduCopter의 비행 모드 설정 스크린샷입니다.
 
-1. Select up to 6 flight modes in the drop downs.
-1. **ArduCopter only:** Select additional *Channel Options* for channels 7-12.
-1. **ArduPlane only:** Select the mode channel from the dropdown.
+1. 드롭다운에서 최대 6개의 비행 모드를 선택합니다.
+1. **ArduCopter만 해당:** 채널 7-12에 대해 추가 *채널 옵션*을 선택합니다.
+1. **ArduPlane만 해당:** 드롭다운에서 모드 채널을 선택합니다.
 
-   ![Flight modes setup - ArduPlane](../../assets/setup/flight_modes/ardupilot_plane.jpg)
-1. Test that the modes are mapped to the right transmitter switches by selecting each mode switch on your transmitter in turn, and check that the desired flight mode is activated (the text turns yellow on *QGroundControl* for the active mode).
+   ![비행 모드 설정 - ArduPlane](../../assets/setup/flight_modes/ardupilot_plane.jpg)
+1. 송신기의 각 모드 스위치를 차례로 선택하여 모드가 올바른 송신기 스위치에 매핑되는지 테스트하고, 선택한 비행 모드 활성화 여부를 확인합니다(활성 모드의 경우 *QGroundControl*에서 텍스트가 노란색으로 변경됩니다).
 
-All values are automatically saved as they are changed.
+모든 값은 변경시에 자동으로 저장됩니다.
 
-> **Note** The ArduCopter screenshot above shows a typical setup for a three position flight mode switch with an additional option of RTL being on a channel 7 switch. You can also setup 6 flight modes using two switches plus mixing on your transmitter. Scroll down to the center section of this [page](http://ardupilot.org/copter/docs/common-rc-transmitter-flight-mode-configuration.html#common-rc-transmitter-flight-mode-configuration) for tutorials on how to do that.
+> **Note** 위의 ArduCopter 스크린샷은 채널 7 스위치에 RTL의 추가 옵션이 있는 3위치 비행 모드 스위치의 일반적인 설정을 보여줍니다. 또한 2개의 스위치와 송신기의 믹싱을 사용하여 6가지 비행 모드를 설정할 수 있습니다. 방법에 대한 자습서를 보려면 이 [페이지](http://ardupilot.org/copter/docs/common-rc-transmitter-flight-mode-configuration.html#common-rc-transmitter-flight-mode-configuration)의 중앙 섹션으로 스크롤하십시오.
 
 
-## See Also
+## 참고:
 
-- [ArduCopter Flight Modes](http://ardupilot.org/copter/docs/flight-modes.html)
-- [ArduPlane Flight Modes](http://ardupilot.org/plane/docs/flight-modes.html)
-- [ArduCopter > Auxiliary Function Switches](https://ardupilot.org/copter/docs/channel-7-and-8-options.html#channel-7-and-8-options) - additional information about channel configuration.
+- [ArduCopter 비행 모드](http://ardupilot.org/copter/docs/flight-modes.html)
+- [ArduPlane 비행 모드](http://ardupilot.org/plane/docs/flight-modes.html)
+- [ArduCopter > 보조 기능 스위치](https://ardupilot.org/copter/docs/channel-7-and-8-options.html#channel-7-and-8-options) - 채널 설정에 대한 추가 정보
 
 
