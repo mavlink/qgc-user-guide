@@ -1,17 +1,17 @@
-# PX4 Flight Modes Setup
+# PX4 비행 모드 설정
 
-The *Flight Modes* section allows you to configure which [flight modes](http://docs.px4.io/master/en/getting_started/flight_modes.html) and other actions are triggered by particular switches/switch positions on your RC transmitter.
+*비행 모드* 섹션에서는 RC 송신기의 특정 스위치/스위치 위치에 의해 트리거되는 비행 모드 및 기타 작업을 설정할 수 있습니다.
 
-> **Note** In order to set up flight modes you must already have - [Configured your radio](../SetupView/Radio.md) in order to set flight modes. - [Setup the RC transmitter](../SetupView/FlightModes.md#transmitter-setup) (Flight Modes > Transmitter Setup)
+> **Note** 비행 모드를 설정하려면 비행 모드를 설정하기 위해 [무전기를 구성](../SetupView/Radio.md)해야 합니다. - [RC 송신기 설정](../SetupView/FlightModes.md#transmitter-setup)(비행 모드 & 송신기 설정)
 
-To access this section, select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+이 섹션에 액세스하려면, 상단 툴바에서 **기어** 아이콘(차량 설정)을 선택한 다음 사이드바에서 **비행 모드**를 선택하세요.
 
 ![Flight modes single-channel](../../assets/setup/flight_modes/px4_single_channel.jpg)
 
 
 
 
-## Flight Mode Settings
+## 비행 모드 설정
 
 The screen allows you to specify a "mode" channel and select up to 6 flight modes that will be activated based on the value sent on the channel. You can also assign a small number of channels to trigger particular actions, such as deploying landing gear, or emergency shutdown (kill switch).
 
