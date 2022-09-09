@@ -16,8 +16,6 @@ Auto-tuning automates the process of tuning the PX4 rate and attitude controller
 
 <span></span>
 
-> **Note** The QGroundControl Autotuning UI is not enabled for Fixed wing vehicles - see [qgroundcontrol#10194](https://github.com/mavlink/qgroundcontrol/issues/10194) (though it is for VTOL vehicles in fixed wing flight). You can start Fixed-wing autotuning by setting the parameter [FW_AT_START](../advanced_config/parameter_reference.md#FW_AT_START).
-
 ### Pre-Autotuning Test
 
 Auto-tuning is performed while flying. The vehicle must be able to fly and adequately stabilize itself before running auto-tune. This test ensures that the vehicle can fly safely in position controlled modes.
