@@ -1,6 +1,6 @@
-# Power Setup
+# 전원 설정
 
-The *Power Setup* screen is used to configure battery parameters and also provide advanced settings for propellers.
+*전원 설정*은 배터리 매개변수를 설정과 프로펠러 고급 설정을 제공합니다.
 
 ![Battery Calibration](../../assets/setup/PX4Power.jpg)
 
