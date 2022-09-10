@@ -13,18 +13,18 @@
 
 ## 비행 모드 설정
 
-The screen allows you to specify a "mode" channel and select up to 6 flight modes that will be activated based on the value sent on the channel. You can also assign a small number of channels to trigger particular actions, such as deploying landing gear, or emergency shutdown (kill switch).
+화면에서 "모드" 채널을 지정하고 채널에서 전송된 값을 기반으로 활성화될 최대 6개의 비행 모드를 선택할 수 있습니다. 또한 소수의 채널을 할당하여 랜딩 기어 배치 또는 비상 정지(킬 스위치)와 같은 특정 작업을 트리거할 수 있습니다.
 
-The steps are:
+단계는 다음과 같습니다:
 
-1. Turn on your RC transmitter.
-1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Flight Modes** in the sidebar.
+1. RC 송신기를 켭니다.
+1. 상단 툴바에서 **기어** 아이콘(차량 설정)을 선택한 다음 사이드바에서 **비행 모드**를 선택합니다.
 
    ![Flight modes single-channel](../../assets/setup/flight_modes/px4_single_channel.jpg)
 
-1. Specify *Flight Mode Settings*:
-   * Select the transmitter **Mode channel** (shown as Channel 5 above).
-   * Select up to six **Flight Modes** for switch positions encoded in the channel. > **Note** Position mode, return mode and mission mode [are recommended](https://docs.px4.io/master/en/config/flight_mode.html#what-flight-modes-and-switches-should-i-set).
+1. *비행 모드 설정* 설정
+   * 송신기 **모드 채널**을 선택합니다(위의 채널 5로 표시됨).
+   * 채널에 인코딩된 스위치 위치에 대해 최대 6개의 **비행 모드**를 선택합니다. > **참고** 위치 모드, 리턴 모드 및 미션 모드가 [권장됩니다](https://docs.px4.io/master/en/config/flight_mode.html#what-flight-modes-and-switches-should-i-set).
 1. Specify *Switch Settings*:
    * Select the channels that you want to map to specific actions - *Kill switch*, landing gear, etc. (if you have spare switches and channels on your transmitter).
 1. Test that the modes are mapped to the right transmitter switches:
