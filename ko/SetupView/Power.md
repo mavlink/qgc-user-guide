@@ -4,20 +4,20 @@
 
 ![Battery Calibration](../../assets/setup/PX4Power.jpg)
 
-## Battery Voltage/Current Calibration
+## 배터리 전압 및 전류 보정
 
-Enter data for your battery/power module from its data sheet: number of cells, full voltage per cell, empty voltage per cell. If provided, also enter voltage divider and amps-per-volt information.
+데이터 시트에서 배터리 전력 모듈에 대한 다음의 데이터를 입력합니다: 셀 수, 셀당 최대 전압, 셀당 빈 전압. 전압 분배기 및 볼트당 암페어 정보도 입력하면 더욱 좋습니다.
 
-*QGroundControl* can be used to calculate appropriate voltage divider and amps-per-volt values from measurements:
+*QGroundControl*을 사용하여 측정에서 적절한 전압 분배기 및 볼트당 암페어 값을 계산할 수 있습니다.
 
-1. Measure the voltage from the battery using a multimeter.
-2. Click **Calculate** next to the *Voltage divider* field. On the prompt that appears: 
-    1. Enter the measured voltage.
-    2. Click **Calculate** to generate a new voltage-divider value.
-    3. Click **Close** to save the value into the main form. 
-3. Measure the current from the battery.
-4. Click **Calculate** next to the *Amps per volt* field. On the prompt that appears: 
-    1. Enter the measured current.
+1. 멀티미터를 사용하여 배터리의 전압을 측정합니다.
+2. *전압 분배기* 필드 옆에 있는 **계산**을 클릭합니다. 표시된 프롬프트에서: 
+    1. 측정 전압을 입력합니다.
+    2. 새 전압 분배기 값을 생성하려면 **계산**을 클릭합니다.
+    3. **닫기**를 클릭하여 값을 기본 양식에 저장합니다. 
+3. 배터리의 전류를 측정합니다.
+4. *볼트당 암페어* 필드 옆에 있는 **계산**을 클릭합니다. 표시된 프롬프트에서: 
+    1. 측정한 전류를 입력합니다.
     2. Click **Calculate** to generate a new *amps per volt* value.
     3. Click **Close** to save the value into the main form. 
 
