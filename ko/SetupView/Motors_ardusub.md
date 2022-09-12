@@ -1,4 +1,4 @@
-# Motors Setup (ArduSub)
+# 모터 설정 (ArduSub)
 
 In order for ArduSub to function properly, the motors must be correctly set up.
 
