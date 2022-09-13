@@ -42,26 +42,26 @@
 설정 옵션은 다음과 같습니다:
 
 - **Ground Station failsafe** - 비활성화, 항상 RTL 활성화, 자동 모드에서 미션 계속 활성화, 항상 SmartRTL 또는 RTL 활성화, 항상 SmartRTL 또는 Land 활성화.
-- **Throttle failsafe** - Disabled, Always RTL, Continue with Mission in Auto Mode, Always land.
-- **PWM Threshold** ([FS_THR_VALUE](http://ardupilot.org/copter/docs/parameters.html#fs-thr-value-throttle-failsafe-value)) - PWM value below which throttle failsafe triggers.
+- **Throttle failsafe** - 비활성화됨, 항상 RTL, 자동 모드에서 미션 계속, 항상 착륙.
+- **PWM Threshold**([FS_THR_VALUE](http://ardupilot.org/copter/docs/parameters.html#fs-thr-value-throttle-failsafe-value)) - 스로틀 페일세이프가 트리거되는 PWM 값입니다.
 
-### Geofence {#geofence_copter}
+### 지오펜스 {#geofence_copter}
 
-This panel sets the parameters for the cylindrical [Simple Geofence](http://ardupilot.org/copter/docs/ac2_simple_geofence.html). You can set whether the fence radius or height are enabled, the maximum values for causing a breach, and the action in the event of a breach.
+이 패널은 원통형 [Simple Geofence](http://ardupilot.org/copter/docs/ac2_simple_geofence.html)에 대한 매개변수를 설정합니다. 울타리 반경 또는 높이 활성화 여부, 위반 최대값 및 위반 시 조치를 설정할 수 있습니다.
 
 ![Safety Setup - Geofence (Copter)](../../assets/setup/safety/safety_arducopter_geofence.jpg)
 
-The configuration options are:
+설정 옵션은 다음과 같습니다:
 
-- **Circle GeoFence enabled** ([FENCE_TYPE](http://ardupilot.org/copter/docs/parameters.html#fence-type-fence-type), [FENCE_ENABLE](http://ardupilot.org/copter/docs/parameters.html#fence-enable-fence-enable-disable)) - Enable the circular geofence.
-- **Altitude GeoFence enabled** ([FENCE_TYPE](http://ardupilot.org/copter/docs/parameters.html#fence-type-fence-type), [FENCE_ENABLE](http://ardupilot.org/copter/docs/parameters.html#fence-enable-fence-enable-disable)) - Enable altitude geofence.
-- Fence action ([FENCE_ACTION](http://ardupilot.org/copter/docs/parameters.html#fence-action-fence-action)) One of: 
-  - **Report only** - Report fence breach.
-  - **RTL or Land** - RTL or land on fence breach.
-- **Max radius** ([FENCE_RADIUS](http://ardupilot.org/copter/docs/parameters.html#fence-radius-circular-fence-radius)) - Circular fence radius that when broken causes RTL.
-- **Max altitude** ([FENCE_ALT_MAX](http://ardupilot.org/copter/docs/parameters.html#fence-alt-max-fence-maximum-altitude))- Fence maximum altitude to trigger altitude geofence.
+- **Circle GeoFence enabled**([FENCE_TYPE](http://ardupilot.org/copter/docs/parameters.html#fence-type-fence-type), [FENCE_ENABLE](http://ardupilot.org/copter/docs/parameters.html#fence-enable-fence-enable-disable)) - 원형 지오펜스를 활성화합니다.
+- **Altitude GeoFence enabled**([FENCE_TYPE](http://ardupilot.org/copter/docs/parameters.html#fence-type-fence-type), [FENCE_ENABLE](http://ardupilot.org/copter/docs/parameters.html#fence-enable-fence-enable-disable)) - 고도 지오펜스를 활성화합니다.
+- 울타리 작업([FENCE_ACTION](http://ardupilot.org/copter/docs/parameters.html#fence-action-fence-action)) 다음 중 하나: 
+  - **보고만** - 울타리 위반을 보고합니다.
+  - **RTL 또는 Land** - 출발지 복귀 또는 펜스 경계 착륙
+- **최대 반경**([FENCE_RADIUS](http://ardupilot.org/copter/docs/parameters.html#fence-radius-circular-fence-radius)) - 부서졌을 때 RTL을 유발하는 원형 울타리 반경.
+- **최대 고도**([FENCE_ALT_MAX](http://ardupilot.org/copter/docs/parameters.html#fence-alt-max-fence-maximum-altitude))- 고도 지오펜스를 트리거하는 최대 고도를 표시합니다.
 
-### Return to Launch {#rtl_copter}
+### 출발지 복귀 {#rtl_copter}
 
 This panel sets the [RTL Mode](http://ardupilot.org/copter/docs/rtl-mode.html) behaviour.
 
