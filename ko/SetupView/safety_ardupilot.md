@@ -1,4 +1,4 @@
-# Safety Setup (ArduPilot)
+# 안전 설정 (ArduPilot)
 
 The *Safety Setup* page allows you to configure (vehicle specific) failsafe settings.
 
