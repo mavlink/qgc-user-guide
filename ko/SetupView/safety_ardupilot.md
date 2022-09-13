@@ -41,7 +41,7 @@
 
 설정 옵션은 다음과 같습니다:
 
-- **Ground Station failsafe** - Disabled, Enabled always RTL, Enabled Continue with Mission in Auto Mode, Enabled Always SmartRTL or RTL, Enabled Always SmartRTL or Land.
+- **Ground Station failsafe** - 비활성화, 항상 RTL 활성화, 자동 모드에서 미션 계속 활성화, 항상 SmartRTL 또는 RTL 활성화, 항상 SmartRTL 또는 Land 활성화.
 - **Throttle failsafe** - Disabled, Always RTL, Continue with Mission in Auto Mode, Always land.
 - **PWM Threshold** ([FS_THR_VALUE](http://ardupilot.org/copter/docs/parameters.html#fs-thr-value-throttle-failsafe-value)) - PWM value below which throttle failsafe triggers.
 
