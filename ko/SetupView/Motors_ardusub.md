@@ -1,18 +1,18 @@
 # 모터 설정 (ArduSub)
 
-In order for ArduSub to function properly, the motors must be correctly set up.
+ArduSub가 제대로 작동하려면 모터가 올바르게 설정되어야 합니다.
 
-If you just assembled your ROV, first make sure that the thrusters are connected to the correct outputs in the **Manual Test** section. Drag each slider and make sure that the *correct motor* spins accordingly to the frame displayed.
+ROV를 방금 조립했다면 먼저 **수동 테스트** 섹션에서 추진기가 올바른 출력에 연결되었는 지 확인하십시오. 각 슬라이더를 드래그하여 표시된 프레임에 따라 *올바른 모터*가 회전하는 지 확인합니다.
 
-Once you know that the thrusters are connected to the proper outputs you can check for *correct direction* (forward/reverse) using either [automatic direction detection](#automatic) (recommended from ArduSub 4.0) or the [manual test](#manual).
+추진기가 적절한 출력에 연결되면, [자동 방향 감지](#automatic)(ArduSub 4.0에서 권장) 또는 [수동 테스트](#manual)로 *정확한 방향*(정방향/역방향)을 확인할 수 있습니다.
 
-> **Note** [Manual Test](#manual) is supported by ArduSub up to 3.5, while ArduSub 4.0 supports both [Manual Test](#manual) and [automatic direction detection](#automatic).
+> **Note** [수동 테스트](#manual)는 ArduSub 3.5까지 지원되며, ArduSub 4.0은 [수동 테스트](#manual)와 [자동 방향 감지](#automatic)를 모두 지원합니다.
 
-## Manual Test {#manual}
+## 수동 테스트 {#manual}
 
-The ArduSub motor setup allows you to test individual motors. The sliders allow spinning each motor in forward or reverse mode, and the checkboxes under the sliders allow reversing the operation of individual thrusters.
+ArduSub 모터 설정에서 각각의 모터를 테스트할 수 있습니다. 슬라이더를 사용하면 각 모터를 정방향 또는 역방향 모드로 회전할 수 있으며, 슬라이더 아래의 확인란을 사용하면 개별 추진기의 작동을 반대로 할 수 있습니다.
 
-The image at the right shows the frame currently in use, along with the location and orientation of each thruster. If the frame selection does not match your vehicle, first select the correct frame in the [Frame](../SetupView/airframe_ardupilot.md#ardusub) tab.
+오른쪽 이미지는 각 추진기의 위치, 방향 및 현재 사용 중인 프레임을 보여줍니다. If the frame selection does not match your vehicle, first select the correct frame in the [Frame](../SetupView/airframe_ardupilot.md#ardusub) tab.
 
 To manually set up and test the motors, read and follow the instructions on the page.
 
