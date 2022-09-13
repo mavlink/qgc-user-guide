@@ -1,6 +1,6 @@
 # 안전 설정 (ArduPilot)
 
-The *Safety Setup* page allows you to configure (vehicle specific) failsafe settings.
+*안전 설정*에서는 (기체별) 비상 안전 설정을 설정합니다.
 
 > **Tip** The setup page covers the most important safety options; other failsafe settings can be set via the [parameters](../SetupView/Parameters.md) described in the failsafe documentation for each vehicle type.
 
