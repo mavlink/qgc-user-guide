@@ -2,29 +2,29 @@
 
 *안전 설정*에서는 (기체별) 비상 안전 설정을 설정합니다.
 
-> **Tip** The setup page covers the most important safety options; other failsafe settings can be set via the [parameters](../SetupView/Parameters.md) described in the failsafe documentation for each vehicle type.
+> **Tip** 설정 페이지에서는 가장 중요한 안전 옵션을 설정합니다. 다른 안전 장치 설정은 각 차량 유형에 대한 안전 장치 설명서에 설명된 [매개변수](../SetupView/Parameters.md)를 통하여 설정할 수 있습니다.
 
 <span></span>
 
-> **Note** *QGroundControl* does not support polygon fences or rally points on ArduPilot.
+> **Note** *QGroundControl*은 ArduPilot에서 폴리곤 펜스 또는 랠리 포인트를 지원하지 않습니다.
 
-## Copter
+## 콥터
 
-The Copter safety page is shown below.
+콥터의 안전 페이지는 아래와 같습니다.
 
 ![Safety Setup - Copter (Ardupilot)](../../assets/setup/safety/safety_arducopter.jpg)
 
-> **Note** For additional safety settings and information see: [Failsafe](http://ardupilot.org/copter/docs/failsafe-landing-page.html).
+> **Note** 추가 안전 설정 및 정보는 [안전장치](http://ardupilot.org/copter/docs/failsafe-landing-page.html)를 참고하십시오.
 
-### Battery Failsafe {#battery_failsafe_copter}
+### 배터리 안전장치 {#battery_failsafe_copter}
 
-This panel sets the [Battery Failsafe](http://ardupilot.org/copter/docs/failsafe-battery.html) parameters. You can set low and critical thresholds for voltage and/or remaining capacity and define the action if the failsafe value is breached. The thresholds can be disabled by setting them to zero.
+이 패널은 [배터리 안전장치](http://ardupilot.org/copter/docs/failsafe-battery.html) 매개변수를 설정합니다. 전압 및 남은 용량에 대해 낮거나 중요한 임계값을 설정하고 안전 장치 값이 위반되는 경우 조치를 정의할 수 있습니다. 임계값을 0으로 설정하여 비활성화할 수 있습니다.
 
-> **Tip** If there is a second battery (enabled in the [Power Setup](../SetupView/Power.md)) a second panel will be displayed with the same settings.
+> **Tip** 두 번째 배터리가 있는 경우([전원 설정](../SetupView/Power.md)에서 활성화됨) 두 번째 패널이 동일한 설정으로 표시됩니다.
 
 ![Safety Setup - Battery1 Failsafe Triggers (Copter)](../../assets/setup/safety/safety_arducopter_battery1_failsafe_triggers.jpg)
 
-The configuration options are:
+설정 옵션은 다음과 같습니다:
 
 - **Low action** ([BATT_FS_LOW_ACT](http://ardupilot.org/copter/docs/parameters.html#batt-fs-low-act-low-battery-failsafe-action)) - Select one of: None, Land, RTL, SmartRTL, SmartRTL or Land, Terminate.
 - **Critical action** ([BATT_FS_CRT_ACT](http://ardupilot.org/copter/docs/parameters.html#batt-fs-crt-act-critical-battery-failsafe-action)) - Select one of: None, Land, RTL, SmartRTL, SmartRTL or Land, Terminate.
