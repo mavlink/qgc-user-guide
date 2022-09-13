@@ -28,18 +28,18 @@
 
 - **Low action**([BATT_FS_LOW_ACT](http://ardupilot.org/copter/docs/parameters.html#batt-fs-low-act-low-battery-failsafe-action)) - 없음, Land, RTL, SmartRTL, SmartRTL 또는 Land, Terminate 중 하나를 선택합니다.
 - **Critical action**([BATT_FS_CRT_ACT](http://ardupilot.org/copter/docs/parameters.html#batt-fs-crt-act-critical-battery-failsafe-action)) - 없음, Land, RTL, SmartRTL, SmartRTL 또는 Land, Terminate 중 하나를 선택합니다.
-- **Low voltage threshold** ([BATT_LOW_VOLT](http://ardupilot.org/copter/docs/parameters.html#batt-low-volt-low-battery-voltage)) - Battery voltage that triggers the *low action*. 
-- **Critical voltage threshold** ([BATT_CRT_VOLT](http://ardupilot.org/copter/docs/parameters.html#batt-crt-volt-critical-battery-voltage))- Battery voltage that triggers the *critical action*. 
-- **Low mAh threshold** ([BATT_LOW_MAH](http://ardupilot.org/copter/docs/parameters.html#batt-low-mah-low-battery-capacity)) - Battery capacity that triggers the *low action*. 
-- **Critical mAh threshold** ([BATT_CRT_MAH](http://ardupilot.org/copter/docs/parameters.html#batt-crt-mah-battery-critical-capacity)) - Battery capacity that triggers the *critical action*. 
+- **Low voltage threshold**([BATT_LOW_VOLT](http://ardupilot.org/copter/docs/parameters.html#batt-low-volt-low-battery-voltage)) - *낮은 동작*을 트리거하는 배터리 전압입니다. 
+- **Critical voltage threshold<**([BATT_CRT_VOLT](http://ardupilot.org/copter/docs/parameters.html#batt-crt-volt-critical-battery-voltage))- *중요 작업*을 트리거하는 배터리 전압입니다. 
+- **Low mAh threshold**([BATT_LOW_MAH](http://ardupilot.org/copter/docs/parameters.html#batt-low-mah-low-battery-capacity)) - *낮은 작업*을 트리거하는 배터리 용량입니다. 
+- **Critical mAh threshold**([BATT_CRT_MAH](http://ardupilot.org/copter/docs/parameters.html#batt-crt-mah-battery-critical-capacity)) - *중요한 작업*을 트리거하는 배터리 용량입니다. 
 
-### General Failsafe Triggers {#failsafe_triggers_copter}
+### 일반적인 안전장치 트리거 {#failsafe_triggers_copter}
 
-This panel enables the [GCS Failsafe](http://ardupilot.org/copter/docs/gcs-failsafe.html) and enables/configures the throttle failsafe.
+이 패널은 [GCS 안전장치](http://ardupilot.org/copter/docs/gcs-failsafe.html)를 활성화하고 스로틀 안전장치를 설정합니다.
 
 ![Safety Setup - General Failsafe Triggers (Copter)](../../assets/setup/safety/safety_arducopter_general_failsafe_triggers.jpg)
 
-The configuration options are:
+설정 옵션은 다음과 같습니다:
 
 - **Ground Station failsafe** - Disabled, Enabled always RTL, Enabled Continue with Mission in Auto Mode, Enabled Always SmartRTL or RTL, Enabled Always SmartRTL or Land.
 - **Throttle failsafe** - Disabled, Always RTL, Continue with Mission in Auto Mode, Always land.
