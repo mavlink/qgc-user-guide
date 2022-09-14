@@ -1,12 +1,12 @@
-# ArduCopter Tuning
+# ArduCopter 튜닝
 
 ![ArduCopter Tuning Page](../../assets/setup/tuning/arducopter.png)
 
-## Basic Tuning
+## 튜닝 기초
 
-Adjust the flight characteristics by moving the desired slider to the left or right.
+원하는 슬라이더를 왼쪽이나 오른쪽으로 이동하여 비행 특성을 설정합니다.
 
-## AutoTune
+## 자동 튜닝
 
 AutoTune is used to automatically tune the rate parameters in order to provide the highest response without significant overshoot.
 
