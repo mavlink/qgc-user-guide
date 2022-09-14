@@ -1,4 +1,4 @@
-# Tuning (ArduPilot)
+# 튜닝(ArduPilot)
 
-* [Tuning (ArduCopter)](../SetupView/tuning_arducopter.md)
-* [Tuning (ArduSub)](../SetupView/tuning_ardusub.md)
+* [튜닝(ArduCopter)](../SetupView/tuning_arducopter.md)
+* [튜닝(ArduSub)](../SetupView/tuning_ardusub.md)
