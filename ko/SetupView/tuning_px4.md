@@ -1,6 +1,6 @@
-# Tuning (PX4)
+# 튜닝 (PX4)
 
-Tuning only needs to be done once, and is recommended unless you're using vehicle that has already been tuned by the manufacturer (and not modified since).
+한 번 튜닝으로 충분하며, 제조업체에서 이미 튜닝한(그 이후로 수정하지 않은) 기체가 아니면 튜팅을 하는 것이 좋습니다.
 
 [Auto-tuning](#autotune) should generally be used for frame types and controllers that support it (multicopter, fixed wing, and hybrid VTOL fixed wing vehicles). The tuning UI also supports manual tuning of all controllers.
 
