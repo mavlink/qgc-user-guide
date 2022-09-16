@@ -1,22 +1,22 @@
 # 튜닝 (PX4)
 
-한 번 튜닝으로 충분하며, 제조업체에서 이미 튜닝한(그 이후로 수정하지 않은) 기체가 아니면 튜팅을 하는 것이 좋습니다.
+한 번 튜닝으로 충분하며, 제조업체에서 튜닝후 기체를 수정한 기체가 아니면 튜닝을 하는 것이 바람직합니다.
 
-[Auto-tuning](#autotune) should generally be used for frame types and controllers that support it (multicopter, fixed wing, and hybrid VTOL fixed wing vehicles). The tuning UI also supports manual tuning of all controllers.
+[자동 튜닝](#autotune)은 일반적으로 프레임 유형 및 이를 지원하는 콘트롤러(멀티콥터, 고정익 및 하이브리드 VTOL 고정익)에 적용하여야 합니다. 튜닝 UI는 모든 콘트롤러의 수동 튜닝도 지원합니다.
 
 ![Tuning Setup > Autotune](../../assets/setup/tuning/px4_autotune_hero.png)
 
-> **Note** During [Airframe Setup](../config/airframe.md) you should have selected the frame that most closely matches your vehicle. This will usually be tuned well enough to fly, and it *may* also be sufficiently well tuned to run autotuning.
+> **Note**[기체 설정](../config/airframe.md) 중에 귀하의 기체와 가장 근접하게 일치하는 프레임을 미리 선택하여야 합니다. 이것은 일반적으로 비행하기에 충분히 잘 조정되며 자동 튜닝을 실행하기에 충분히 잘 *조정될 수* 있습니다.
 
-## Autotune
+## 자동 튜닝
 
-Auto-tuning automates the process of tuning the PX4 rate and attitude controllers, which are the most important controllers for stable and responsive flight (other tuning is more "optional").
+자동 튜닝은 안정적이고 반응성이 뛰어난 비행을 위한 가장 중요한 컨트롤러인 PX4의 속도 및 자세의 튜닝을 자동화합니다(다른 튜닝은 "선택 사항"에 가깝습니다).
 
-> **Note** This guide shows the default usage of this feature. Additional information and configuration can be found in the [PX4 Autotuning Guide](http://docs.px4.io/master/en/config/autotune.html) (PX4 User Guide).
+> **Note** 이 가이드는 자동 튜닝의 기본 사용법을 보여줍니다. 추가 정보 및 설정은 [PX4 자동 튜닝 가이드](http://docs.px4.io/master/en/config/autotune.html)(PX4 사용자 가이드)을 참고하십시오.
 
-### Pre-Autotuning Test
+### 사전 자동 튜닝 테스트
 
-Auto-tuning is performed while flying. The vehicle must be able to fly and adequately stabilize itself before running auto-tune. This test ensures that the vehicle can fly safely in position controlled modes.
+비행 중에 자동 튜닝이 수행됩니다. 기체 자동 튜닝을 실행하기 전에 비행할 수 있고 적절하게 안정화되어야 합니다. 이 테스트는 기체의 위치 제어 모드에서 안전하게 비행할 수 있는 지 확인합니다.
 
 To make sure the vehicle is stable enough for auto-tuning:
 
