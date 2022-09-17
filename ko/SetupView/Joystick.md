@@ -47,48 +47,48 @@ ArduPilot 기체에서 지원됩니다. 매개변수 설정은 필요하지 않�
 
 ## 고급 설정
 
-Some additional Options are available at the **Advanced** tab. These options may be useful for specific, unsual setups, for increasing sensibility, and for handling noisy joysticks.
+**고급** 탭에서 몇 가지 추가 옵션을 사용할 수 있습니다. 이러한 옵션은 특이하고 비정상적인 설정, 감도 증가 및 시끄러운 조이스틱 처리에 유용합니다.
 
-### Throttle Options
+### 스로틀 옵션
 
 ![Joystick setup - Throttle Modes](../../assets/setup/joystick_throttle_modes.jpg)
 
-- **Center stick is zero throttle**: Centered or lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), raised stick sends 1000. 
-    - **Spring loaded throttle smoothing**: In this mode you control not the throttle itself, but the rate at which it increases/decreases. This is useful for setups where the throttle stick is spring loaded, as the user can hold the desired throttle while releasing the stick.
-- **Full down stick is zero throttle**: In this mode, lowered stick sends 0 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered stick 500, and raised 1000.
-- **Allow negative thrust**: When in **Center stick is zero throttle** mode, this allows the user to send negative values by lowering the stick. So that lowered stick sends -1000 in [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL), centered sends zero, and raised stick sends 1000. This mode is only enabled for vehicles that support negative thrust, such as [Rover](http://ardupilot.org/rover/index.html).
+- **조이스틱의 중앙을 스로틀 0으로 설정**: [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL)에서 중앙 또는 아래로 향한 스틱은 0을 전송하고, 위로 올린 스틱은 1000을 전송합니다. 
+    - **스프링 로드 스로틀 스무딩**: 이 모드에서는 스로틀 자체가 아니라 스로틀이 증감하는 속도를 제어합니다. 이것은 사용자가 원하는 스로틀을 잡고 스틱을 놓을 수 있으므로, 스로틀 스틱에 스프링이 장착된 설정에 유용합니다.
+- **풀다운 스틱은 제로 스로틀**: 이 모드에서 스틱을 내리면 [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL)에서 0, 중앙에 500, 올리면 1000이 전송됩니다.
+- **음수 추력 허용**: **중앙 스틱이 0 스로틀** 모드에 있을 때 사용자가 스틱을 내려 음수 값을 전송할 수 있습니다. 내려진 스틱은 [MANUAL_CONTROL **z**](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL)에서 -1000을 전송하고, 중앙에 있는 스틱은 0을 전송하고, 올려진 스틱은 1000을 전송합니다. 이 모드는 [Rover](http://ardupilot.org/rover/index.html)와 같이 음의 추력을 지원하는 차량에만 사용할 수 있습니다.
 
-### Expo
+### 엑스포
 
-The expo slider allows you to make the sticks less sensitive in the center, allowing finer control in this zone.
+엑스포 슬라이더를 사용하면 스틱을 중앙에서 덜 민감하게 만들어 이 영역에서 더 세밀하게 제어할 수 있습니다.
 
 ![Joystick setup - Expo](../../assets/setup/joystick_throttle_expo.jpg)
 
-The slider adjusts the curvature of the exponential curve.
+슬라이더는 지수 곡선의 곡률을 조정합니다.
 
 ![Joystick setup - Expo Curve](../../assets/setup/joystick_throttle_expo_curve.jpg)
 
-The higher the Expo value, the flatter the curve is at the center, and steeper it is at the edges.
+엑스포 값이 높을수록 곡선은 중앙에서 더 평평해지고 가장자리에서 더 가파르게 됩니다.
 
-### Advanced Settings
+### 고급 설정
 
-The advanced settings are not recommended for everyday users. They can cause unpredicted results if used incorrectly.
+고급 설정은 일반 사용자에게는 권장되지 않습니다. 잘못 사용하면 예상치 못한 결과를 초래할 수 있습니다.
 
 ![Joystick setup - Advanced Settings](../../assets/setup/joystick_advanced.jpg)
 
-The following settings are available:
+다음과 같은 설정을 사용할 수 있습니다:
 
-- **Enable Gimbal Control**: Enabled two additional channels for controlling a gimbal.
+- **짐벌 제어 활성화**: 짐벌을 제어하기 위한 활성화된 두 개의 추가 채널
 
-- **Joystick Mode**: Changes what the joystick actually controls, and the MAVLink messages sent to the vehicle.
+- **조이스틱 모드**: 조이스틱이 실제로 제어하는 것과 차량에 전송되는 MAVLink 메시지를 변경합니다.
     
-    - **Normal**: User controls as if using a regular RC radio, MAVLink [MANUAL_CONTROL](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) messages are used.
-    - **Attitude**: User controls the vehicle attitude, MAVLink [SET_ATTITUDE_TARGET](https://mavlink.io/en/messages/common.html#SET_ATTITUDE_TARGET) messages are used.
-    - **Position**: User controls the vehicle position, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **position** only are used.
-    - **Force**: User controls the forces applied to the vehicle, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **force** only are used.
-    - **Velocity**: User controls the forces applied to the vehicle, MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) messages with bitmask for **velocity** only are used.
+    - **일반**: 일반 RC 라디오를 사용하는 것처럼 사용자가 제어하며, MAVLink [MANUAL_CONTROL](https://mavlink.io/en/messages/common.html#MANUAL_CONTROL) 메시지를 사용합니다.
+    - **자세**: 사용자가 차량의 자세를 제어하며 MAVLink [SET_ATTITUDE_TARGET](https://mavlink.io/en/messages/common.html#SET_ATTITUDE_TARGET) 메시지를 사용합니다.
+    - **위치**: 사용자가 기체의 위치를 제어합니다. MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) 메시지에는 **위치**에 대한 비트마스크만을 사용합니다.
+    - **힘**: 사용자가 차량에 가해지는 힘을 제어합니다. MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) 메시지는 **force** 전용 비트마스크를 사용합니다.
+    - **속도**: 사용자가 차량에 가해지는 힘을 제어하며, **속도**에 대한 비트마스크가 있는 MAVLink [SET_POSITION_TARGET_LOCAL_NED](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_LOCAL_NED) 메시지를 사용합니다.
 
-- **Axis Frequency**: When the joystick is idle (inputs are not changing), the joystick commands are sent to the vehicle at 5Hz. When the joystick is in use (input values are changing), the joystick commands are sent to the vehicle at the (higher) frequency configured by this setting. The default is 25Hz.
+- **축 주파수**: 조이스틱이 유휴 상태일 때(입력이 변경되지 않음) 조이스틱 명령이 5Hz로 차량에 전송됩니다. When the joystick is in use (input values are changing), the joystick commands are sent to the vehicle at the (higher) frequency configured by this setting. The default is 25Hz.
 
 - **Button Frequency**: Controls the frequency at which repeated button actions are sent.
 
