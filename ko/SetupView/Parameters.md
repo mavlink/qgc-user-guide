@@ -1,6 +1,6 @@
-# Parameters
+# 매개변수
 
-The *Parameters* screen allows you to find and modify any of the parameters associated with the vehicle.
+*매개변수* 화면은 기체와 관련된 매개변수를 검색하고 수정합니다.
 
 ![Parameters Screen](../../assets/setup/parameters_px4.jpg)
 
