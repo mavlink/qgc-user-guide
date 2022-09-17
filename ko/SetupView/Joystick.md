@@ -1,50 +1,51 @@
 # 조이스틱 설정
 
-*QGroundControl* allows you to control a vehicle using a joystick or gamepad instead of an RC Transmitter.
+*QGroundControl*은 RC 송신기 대신 조이스틱이나 게임패드로 기체를 조종할 수 있습니다.
 
-> **Note** Flying with a Joystick (or [virtual thumb-sticks](../SettingsView/VirtualJoystick.md)) requires a reliable high bandwidth telemetry channel to ensure that the vehicle is responsive to joystick movements (because joystick information is sent over MAVLink).
-
-<span></span>
-
-> **Note** Joystick and Gamepad support is enabled using the cross-platform [SDL2](http://www.libsdl.org/index.php) library. Compatibility with a particular controller depends on SDL (all buttons that are exposed by that API are displayed through the *QGroundControl* UI). A [number of common joysticks and gamepads](#supported-joysticks) are known to work.
+> **Note** 조이스틱(또는 [가상 썸스틱](../SettingsView/VirtualJoystick.md))으로 비행하려면 조이스틱 정보가 MAVLink로 전송되기 때문에 기체가 조이스틱에 반응하기 위하여 안정적인 고대역폭 원격 측정 채널이 필요합니다.
 
 <span></span>
 
-> **Note** The joystick is *enabled* as the last step of the calibration process.
+> **Note** 조이스틱과 게임패드 지원은 이기종 플랫폼 [SDL2](http://www.libsdl.org/index.php) 라이브러리를 사용하여 활성화됩니다. 특정 컨트롤러와의 호환성은 SDL에 따라 다릅니다(해당 API에 의해 노출되는 모든 버튼은 *QGroundControl* UI를 통하여 표시됨). [일반적인 조이스틱과 게임패드](#supported-joysticks)들은 호환됩니다.
 
-## Enabling PX4 Joystick Support
+<span></span>
 
-To enable Joystick support in PX4 you need to set the parameter [`COM_RC_IN_MODE`](h[ttp://localhost:8080/px4_user_guide/en](https://docs.px4.io/en/main/advanced_config/parameter_reference.html#COM_RC_IN_MODE) to `1` - *Joystick*. If this parameter is `0` then *Joystick* will not be offered as a setup option.
+> **Note** 조이스틱은 보정 프로세스의 마지막 단계로 *활성화*됩니다.
 
-This is enabled by default for PX4 SITL builds (see the [Parameters](../SetupView/Parameters.md) topic for information on how to find and set a particular parameter).
+## PX4 조이스틱 활성화
 
-## Ardupilot Joystick Support
+PX4에서 조이스틱 지원을 활성화하려면 매개변수 [`COM_RC_IN_MODE`](h[ttp://localhost:8080/px4_user_guide/en](https://docs.px4.io/en/main/advanced_config/parameter_reference.html#COM_RC_IN_MODE)을 `1</0)로 설정합니다. 
+이 매개변수가 <code>0`이면 *조이스틱*이 설정 옵션으로 제공되지 않습니다.
 
-All ArduPilot vehicles are supported. No parameter configuration is necessary.
+이것은 PX4 SITL 빌드에서 기본적으로 활성화됩니다. 매개변수의 검색 및 설정 방법은 [매개변수](../SetupView/Parameters.md)를 참고하십시오.
 
-## Configuring the Joystick {#configure}
+## Ardupilot 조이스틱 지원
 
-To configure a joystick:
+ArduPilot 기체에서 지원됩니다. 매개변수 설정은 필요하지 않습니다.
 
-1. Start *QGroundControl* and connect to a vehicle.
-2. Connect the Joystick or Gamepad to a USB port.
-3. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Joystick** in the sidebar. The screen below will appear.
+## 조이스틱 설정 {#configure}
+
+조이스틱을 설정하려면:
+
+1. *QGroundControl*을 실행후, 기체를 연결합니다.
+2. USB 포트에 조이스틱이나 게임패드를 연결합니다.
+3. 상단 도구 모음에서 **톱니 바퀴** 아이콘(기체 설정)을 선택한 다음 가장자리 표시줄에서 **조이스틱**을 선택하십시오. 아래의 화면이 표시됩니다.
     
     ![Joystick setup - PlayStation](../../assets/setup/joystick_sony_playstation.jpg)
 
-4. Make sure your joystick is selected in the **Active joystick** dropdown.
+4. **활성화된 조이스틱** 드롭다운에서 조이스틱이 선택 여부를 확인합니다.
 
-5. Go to the **Calibrate** Tab, press the **Start** button and then follow the on-screen instructions to calibrate/move the sticks.
+5. **교정** 탭으로 이동하여 **시작** 버튼을 클릭하여 다음 화면의 지시에 따라 스틱을 교정하고 이동합니다.
     
     ![Joystick setup - Calibration](../../assets/setup/joystick_calibration.jpg)
     
-    The joystick is *enabled* as the last step of the calibration process.
+    조이스틱은 보정 프로세스의 마지막 단계에서 *활성화*됩니다.
 
-6. Test the buttons and sticks work as intended by pressing them, and viewing the result in the Axis/Button monitor in the **General** tab.
+6. 버튼과 스틱이 의도한 대로 작동하는지 테스트하고 **일반** 탭의 축과 버튼 모니터에서 결과를 확인합니다.
 
-7. Select the flight modes/vehicle functions activated by each joystick button. ![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
+7. 각 조이스틱 버튼으로 활성화되는 비행 모드와 차량의 기능을 선택합니다.![Joystick setup - Buttons](../../assets/setup/joystick_buttons.jpg)
 
-## Advanced Options
+## 고급 설정
 
 Some additional Options are available at the **Advanced** tab. These options may be useful for specific, unsual setups, for increasing sensibility, and for handling noisy joysticks.
 
