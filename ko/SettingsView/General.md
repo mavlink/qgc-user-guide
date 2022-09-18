@@ -1,4 +1,4 @@
-# General Settings (Settings View)
+# 일반 설정(설정 화면)
 
 The general settings (**SettingsView > General Settings**) are the main place for application-level configuration. Settable values include: display units, autoconnection devices, video display and storage, RTK GPS, brand image, and other miscellaneous settings.
 
