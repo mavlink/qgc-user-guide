@@ -41,7 +41,7 @@
   * [카메라](SetupView/Camera.md)
   * [조이스틱](SetupView/Joystick.md)
   * [파라미터](SetupView/Parameters.md)
-* [애플리케이션 설정](SettingsView/SettingsView.md) 
+* [어플리케이션 설정](SettingsView/SettingsView.md) 
   * [일반](SettingsView/General.md) 
     * [CSV 로깅](SettingsView/csv.md)
   * [오프라인 지도](SettingsView/OfflineMaps.md)
