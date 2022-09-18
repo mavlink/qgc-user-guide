@@ -1,31 +1,31 @@
 # 일반 설정(설정 화면)
 
-The general settings (**SettingsView > General Settings**) are the main place for application-level configuration. Settable values include: display units, autoconnection devices, video display and storage, RTK GPS, brand image, and other miscellaneous settings.
+일반 설정(**설정 화면> 일반 설정**)은 애플리케이션의 주요 항목들을 설정합니다. 디스플레이 장치, 자동 연결 장치, 비디오 디스플레이 및 저장 장치, RTK GPS, 브랜드 이미지 및 기타 항목들을 설정합니다.
 
-> **Note** Values are settable even if no vehicle is connected. Settings that require a vehicle restart are indicated in the UI.
+> **Note** 기체가 연결되지 않은 상태에서도 설정할 수 있습니다. 차량 재시동이 필요한 설정은 UI에 표시됩니다.
 
 ![SettingsView - Full General Tab](../../assets/settings/general/overview.jpg)
 
-## Units
+## 단위
 
-This section defines the display units used in the application.
+이 섹션에서는 응용 프로그램의 표시 단위를 정의합니다.
 
 ![Units settings](../../assets/settings/general/units.jpg)
 
-The settings are:
+설정은 다음과 같습니다:
 
-- **Distance**: Meters | Feet
-- **Area**: SquareMetres | SquareFeet | SquareKilometers | Hectares | Acres | SquareMiles
-- **Speed**: Metres/second | Feet/second | Miles/hour | Kilometres/hour | Knots
-- **Temperature**: Celsius | Fahrenheit
+- **거리**: 미터 | 피트
+- **면적**: 평방미터 | 스퀘어피트 | 평방킬로미터 | 헥타르 | 에이커 | 스퀘어마일스
+- **속도**: 미터/초 | 피트/초 | 마일/시간 | 킬로미터/시간 | 매듭
+- **온도**: 섭씨 | 화씨
 
-## Miscellaneous
+## 기타
 
-This section defines a number of miscellaneous settings, related to (non exhaustively): font sizes, colour schemes, map providers, map types, telemetry logging, audio output, low battery announcement levels, default mission altitude, [virtual joysticks](../SettingsView/VirtualJoystick.md), mission autoloading, default application file load/save path etc.
+이 섹션에서는 (완벽하지 않음)과 관련된 여러 가지 항목들을 설정합니다: 글꼴 크기, 색 구성표, 지도 제공자, 지도 유형, 원격 측정 로깅, 오디오 출력, 배터리 부족 알림 수준, 기본 임무 고도, [가상 조이스틱](../SettingsView/VirtualJoystick.md), 임무 자동 로드, 기본 애플리케이션 파일 로드/저장 경로 등
 
 ![Miscellaneous settings](../../assets/settings/general/miscellaneous.jpg)
 
-The settings are:
+설정은 다음과 같습니다:
 
 - <span id="language"></span>**Language**: System (System Language) | Bulgarian, Chinese, ...
   
