@@ -1,4 +1,4 @@
-# Offline Maps
+# 오프라인 지도 설정
 
 ![](../../assets/settings/OfflineMaps.jpg)
 
