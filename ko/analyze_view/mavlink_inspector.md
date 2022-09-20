@@ -1,4 +1,4 @@
-# MAVLink Inspector
+# MAVLink 탐색기
 
 The *MAVLink Inspector* provides real-time information and charting of MAVLink traffic received by *QGroundControl*.
 
