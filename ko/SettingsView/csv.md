@@ -1,4 +1,4 @@
-# CSV Logging
+# CSV 로깅
 
 ![Csv checkbox](../../assets/settings/general/csv.jpg)
 
