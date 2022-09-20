@@ -46,7 +46,7 @@
     * [CSV 로깅](SettingsView/csv.md)
   * [오프라인 지도 설정](SettingsView/OfflineMaps.md)
   * [MAVLink 설정](SettingsView/MAVLink.md)
-  * [콘솔 로깅](SettingsView/console_logging.md)
+  * [콘솔 로그 설정](SettingsView/console_logging.md)
   * [가상 조이스틱 (PX4) 설정](SettingsView/VirtualJoystick.md)
 * [분석](analyze_view/README.md) 
   * [로그 다운로드](analyze_view/log_download.md)
