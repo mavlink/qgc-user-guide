@@ -45,37 +45,37 @@
   * ArduPilot 
     * 플래싱 및 자동 연결과 관련하여 chibios 펌웨어 및 ArduPilot 부트로더에 대한 지원이 향상되었습니다.
 
-일부 기능에 대한 추가 참고 사항은 [v4.0](../releases/stable_v4.0_additional.md)을 참고하십시오.
+일부 기능들에 대한 자세한 내용은 [v4.0](../releases/stable_v4.0_additional.md)을 참고하십시오.
 
 ## 안정 버전 3.5
 
-This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5.
+이 섹션에는 버전 3.5에서 *QGroundControl*에 추가된 새 기능의 상위 수준 및 *전체* 목록이 포함되어 있습니다.
 
-* **Overall** 
-  * Added Airmap integration to QGC. OSX build only.
-  * Bumped settings version (now 8). This will cause all settings to be reset to defaults.
-  * Added Chinese and Turkish localization and partial German localization. 
-  * Added support for the Taisync 2.4GHz ViUlinx digital HD wireless link.
-  * Fix loading of parameters from multiple components. This especially affected WiFi connections.
-  * **ArduPilot** Support for ChibiOS firmware connect and flash.
-* **Settings** 
-  * **RTK** Add support for specifying fixed RTK based station location in Settings/General.
-  * **GCS Location** 
-    * Added UDP Port option for NMEA GPS Device.
-    * GCS heading shown if available
-* **Plan** 
-  * **Polygons** Support loading polygons from SHP files.
-  * **Fixed Wing Landing Pattern** Add stop photo/video support. Defaults to on such that doing an RTL will stop camera.
-  * **Edit Position dialog** Available on polygon vertices.
-* **Fly** 
-  * **Camera Page** Updated support for new MAVLInk camera messages. Camera select, camera mode, start/stop photo/video, storage mangement... 
-  * **Orbit** Support for changing rotation direction.
-  * **Instrument Panel** 
-    * Added ESTIMATOR_STATUS values to new estimatorStatus Vehicle FactGroup. These are now available to display in instrument panel.
-    * Make Distance to GCS available for display from instrument panel.
-    * Make Heading to Home available for display from instrument panel.
+* **전체** 
+  * QGC에 Airmap 통합을 추가하였습니다. OSX 빌드 전용.
+  * 범프 설정 버전(현재 8). 이렇게 하면 모든 설정들이 기본값으로 재설정됩니다.
+  * 중국어, 터키어 및 부분적인 독일어 번역이 추가되었습니다. 
+  * Taisync 2.4GHz ViUlinx 디지털 HD 무선 네트웍 지원이 추가되었습니다.
+  * 여러 구성 요소에서 매개변수 로드를 수정합니다. 이것은 특히 WiFi 연결에 큰 변화가 일어났습니다.
+  * **ArduPilot** ChibiOS 펌웨어 연결 및 플래시 지원.
+* **설정** 
+  * **RTK** 설정/일반에서 고정 RTK 기반 스테이션 위치 지정에 대한 지원을 추가합니다.
+  * **GCS 위치** 
+    * NMEA GPS 장치용 UDP 포트 옵션이 추가되었습니다.
+    * 사용 가능한 경우 GCS 방향 표시
+* **계획** 
+  * **폴리곤** SHP 파일에서 폴리곤 불러오기를 지원합니다.
+  * **고정익 착륙 패턴** 정지 사진 및 동영상 지원이 추가되었습니다. RTL을 수행하면 카메라가 중지되도록 기본값은 켜짐입니다.
+  * **위치 편집 대화상자** 폴리곤 정점에서 사용할 수 있습니다.
+* **비행** 
+  * **카메라 페이지** 새로운 MAVLink 카메라 메시지에 대한 지원이 업데이트되었습니다. 카메라 선택, 카메라 모드, 사진/동영상 시작/중지, 스토리지 관리 등등 
+  * **궤도** 회전 방향 변경 지원.
+  * **계기판** 
+    * 새로운 estimatorStatus Vehicle FactGroup에 ESTIMATOR_STATUS 값을 추가하였습니다. 이제 계기판에 표시할 수 있습니다.
+    * 계기판에서 표시할 수 있도록 GCS까지의 거리를 설정합니다.
+    * 기준점 방향을 계기판에서 표시할 수 있도록 합니다.
 
-## Stable Version 3.4
+## 안정 버전 3.4
 
 This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.4. Not to mention the large number of bug fixes in each stable release.
 
