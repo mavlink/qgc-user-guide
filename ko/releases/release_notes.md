@@ -1,10 +1,10 @@
 # 배포 요약
 
-This topic contains the cumulative release notes for *QGroundControl*.
+*QGroundControl*의 지금까지의 배포판들의 정보들을 설명합니다.
 
-> **Note** Stable build major/minor numbers are listed below. *Patch* release numbers are not listed, but can be found on the [Github release page](https://github.com/mavlink/qgroundcontrol/releases).
+> **Note** 안정적인 빌드 메이저 및 마이너 번호는 다음과 같습니다. *패치* 배포 번호는 표시되어 있지 않으나, [Github 배포 페이지](https://github.com/mavlink/qgroundcontrol/releases)에서 나와 있습니다.
 
-## Stable Version 4.0 (current)
+## 안정 버전 4.0(현재)
 
 > **Note** The format for Settings in QGC had to change in this release. Which means all QGC settings will be reset to defaults.
 
