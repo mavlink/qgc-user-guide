@@ -6,48 +6,48 @@
 
 ## 안정 버전 4.0(현재)
 
-> **Note** The format for Settings in QGC had to change in this release. Which means all QGC settings will be reset to defaults.
+> **Note** QGroundControl의 설정 형식은 이번 배포판에서 변경되었습니다. 즉, 모든 QGroundControl의 설정이 기본값으로 재설정됩니다.
 
-* Settings 
-  * Language: Allow selection of language
-  * Optional [CSV Logging](../SettingsView/csv.md) of telemetry data for improved accessibility.
+* 설정 
+  * 언어: 언어 선택 허용
+  * 접근성 향상을 위한 원격 측정 데이터의 선택적 [CSV 로깅](../SettingsView/csv.md).
   * ArduPilot 
-    * Mavlink: Configurable stream rate settings
-* Setup 
-  * Joystick 
-    * New joystick setup ui
-    * Ability to configure held button to single or repeated action
+    * Mavlink: 가능한 스트리밍 속도 설정
+* 설정 
+  * 조이스틱 
+    * 새로운 조이스틱 설정 UI
+    * 보류 버튼을 단일 또는 반복 작업으로 설정하는 기능
   * ArduPilot 
-    * Motor Test
+    * 모터 테스트
     * ArduSub 
-      * Automatic motor direction detection
-* Plan 
-  * Create Plan from template with wizard like progression for completing full Plan.
-  * Survey: Save commonly used settings as a Preset
-  * Polygon editing 
-    * New editing tools ui
-    * Support for tracing a polygon from map locations
+      * 자동 모터 방향 감지
+* 계획 
+  * 전체 계획을 완료 마법사를 사용하여 템플릿에서 계획을 생성.
+  * 설문조사: 자주 사용하는 설정을 사전 설정으로 저장
+  * 다각형 편집 
+    * 새로운 편집 도구 UI
+    * 지도 위치에서 폴리곤 추적 지원
   * ArduPilot 
-    * Support for GeoFence and Rally Points using latest firmwares and mavlink v2
-* Fly 
-  * Click to ROI support
-  * Added support for connecting to ADSB SBS server. Adds support for ADSB data from USB SDR Dongle running 'dump1090 --net' for example.
-  * Ability to turn on Heading to home, COG and Next Waypoint heading indicators in Compass.
-  * Video 
-    * Add support for h.265 video streams
-    * Automatically add a [Video Overlay](../FlyView/VideoOverlay.md) with flight data as a subtitle for locally-recorded videos
-  * Vehicle type specific pre-flight checklists. Turn on from Settings.
-* Analyze 
-  * New Mavlink Inspector which includes charting support. Supported on all builds including Android and iOS.
-* General 
-  * Released Windows build are now 64 bit only
-  * Log Replay: Ability to specify replay speed
+    * 최신 펌웨어 및 mavlink v2를 사용하여 GeoFence 및 Rally Points 지원
+* 비행 
+  * 클릭하여 ROI 지원
+  * ADSB SBS 서버에 연결하기 위한 지원이 추가되었습니다. 예를 들어 'dump1090 --net'을 실행하는 USB SDR 동글의 ADSB 데이터에 대한 지원을 추가합니다.
+  * 나침반에서 집으로 향하는 방향, COG 및 다음 웨이포인트 방향 표시기를 켤 수 있는 기능.
+  * 비디오 
+    * h.265 비디오 스트림 지원 추가
+    * 비행 데이터가 포함된 [동영상 오버레이](../FlyView/VideoOverlay.md)를 현지에서 녹화된 동영상의 자막으로 자동 추가
+  * 차량 유형별 비행 전 체크리스트. 설정에서 켜기
+* 분석 
+  * 차트 지원을 포함하는 새로운 Mavlink 탐색기. Android 및 iOS를 포함한 모든 빌드에서 지원됩니다.
+* 일반 
+  * 릴리스된 Windows 빌드는 이제 64비트 전용입니다.
+  * 로그 재생: 재생 속도 지정 기능
   * ArduPilot 
-    * Improved support for chibios firmwares and ArduPilot bootloader with respect to flashing and auto-connect.
+    * 플래싱 및 자동 연결과 관련하여 chibios 펌웨어 및 ArduPilot 부트로더에 대한 지원이 향상되었습니다.
 
-Additional notes for some features can be found here: [v4.0 (Additional Notes)](../releases/stable_v4.0_additional.md).
+일부 기능에 대한 추가 참고 사항은 [v4.0](../releases/stable_v4.0_additional.md)을 참고하십시오.
 
-## Stable Version 3.5
+## 안정 버전 3.5
 
 This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.5.
 
