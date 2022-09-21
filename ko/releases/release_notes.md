@@ -1,4 +1,4 @@
-# Release Notes
+# 배포 요약
 
 This topic contains the cumulative release notes for *QGroundControl*.
 
