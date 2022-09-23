@@ -87,74 +87,74 @@
 * **설정** 
   * **펌웨어** PX4 또는 ArduPilot Flow 펌웨어를 플래시하는 기능. 
   * PX4 프로 펌웨어 
-    * **Flight Modes** Specify channels for all available transmitter switches.
-    * **Tuning: Advanced** Initial implementation of vehicle PID tuning support. Note that this is a work in progress that will improve in 3.5 daily builds.
-  * ArduPilot Firmware 
-    * **Power/Safety** Support for new multi-battery setup.
-    * **Trad Heli** New setup page.
-* **Plan** 
-  * **File Load/Save** New model for Plan file loading which matches a standard File Load/Save/Save As user model.
-  * **Load KML** Ability to load a KML file directly from the Sync menu. You will be prompted for what type of Pattern you want to create from the KML if needed.
-  * **Survey** Better support for irregular shaped polygons.
-  * **[Corridor Scan](../PlanView/pattern_corridor_scan.md)** - Create a flight pattern which follows a poly-line. For example can be used to survey a road.
-  * **[Fixed Wing Landing Pattern](../PlanView/pattern_fixed_wing_landing.md)** 
-    * Landing area visually represented in Plan.
-    * Landing position/heading can be copied from Vehicle position/heading.
-  * **Terrain** 
-    * Height of mission items can be specified as height above terrain.
-    * Survey and Corridor Scan can generate flight plans which follow terrain. > **Note** This feature does not support [ArduPilot terrain following](http://ardupilot.org/copter/docs/common-terrain-following.html). 
-  * **Edit Position** Set item position from vehicle position. 
-* **Fly** 
-  * **Pre-Flight Checklist** You can turn this on from Settings. It provides a generic checklist to follow prior to flight. Expect more feature to appear for this in 3.5 daily builds.
-  * **Instrument Panel** 
-    * Many new values available for display.
-    * New Camera page which provides full camera control. Requires a camera which support new MavLink camera specification.
-  * **ArduPlane** Much better support for guided commands including QuadPlane support.
-  * **High Latency Links** Support for high latency links such as satellite connections. Limits the traffic from QGC up to Vehicle on these links to reduce cost. Supports HIGH_LATENCY MavLink message. Supports failover back/forth from high latency to normal link with dual link setup.
+    * **비행 모드** 사용 가능한 모든 송신기 스위치에 대한 채널을 지정합니다.
+    * **튜닝: 고급** 차량 PID 튜닝 지원의 초기 구현. 이것은 3.5 일일 빌드에서 수정중인 개선 사항입니다.
+  * ArduPilot 펌웨어 
+    * **전원/안전** 새로운 다중 배터리 설정을 지원합니다.
+    * **Trad Heli** 새로운 설정 페이지.
+* **계획** 
+  * **파일 로드/저장** 표준 파일 로드/저장/다른 이름으로 저장 사용자 모델과 일치하는 계획 파일 로드를 위한 새 모델입니다.
+  * **KML 로드** 동기화 메뉴에서 직접 KML 파일을 로드하는 기능. 필요한 경우 KML에서 생성하려는 패턴 유형을 묻는 메시지가 표시됩니다.
+  * **탐사** 불규칙한 모양의 다각형에 대한 지원이 개선되었습니다.
+  * **[복도 스캔](../PlanView/pattern_corridor_scan.md)** - 폴리라인 형태의 비행 패턴을 생성합니다. 예를 들어, 도로 조사에 사용할 수 있습니다.
+  * **[고정익 착륙 패턴](../PlanView/pattern_fixed_wing_landing.md)** 
+    * 평면도에 시각적으로 표시되는 착륙 영역.
+    * 착륙 위치/방향은 차량 위치/방향에서 복사할 수 있습니다.
+  * **지형** 
+    * 미션 아이템의 높이는 지형 위의 높이로 지정할 수 있습니다.
+    * 측량 및 복도 스캔은 지형을 따라 비행 계획을 생성할 수 있습니다. **Note** 이 기능은 [ArduPilot 지형 추적](http://ardupilot.org/copter/docs/common-terrain-following.html) 기능을 지원하지 않습니다. 
+  * **위치 편집** 차량 위치에서 항목 위치를 설정합니다. 
+* **비행** 
+  * **비행 전 체크리스트** 설정에서 이 기능을 켤 수 있습니다. 비행 전에 따라야 할 일반적인 체크리스트를 제공합니다. 3.5 일일 빌드에서 더 많은 기능이 제공할 예정입니다.
+  * **계기판** 
+    * 많은 새로운 값을 표시할 수 있습니다.
+    * 많은 새로운 값을 표시할 수 있습니다. 새로운 MavLink 카메라 사양을 지원하는 카메라가 필요합니다.
+  * **ArduPlane** QuadPlane 지원을 포함하여 안내 명령에 대한 지원이 향상되었습니다.
+  * **높은 대기 시간 링크** 위성 연결과 같은 대기 시간이 긴 링크를 지원합니다. 비용을 줄이기 위하여 이러한 링크에서 QGroundControl에서 기체 트래픽을 제한합니다. HIGH_LATENCY MavLink 메시지를 지원합니다. 듀얼 링크 설정으로, 높은 대기 시간에서 일반 링크로의 장애 복구를 지원합니다.
 
-## Stable Version 3.3
+## 안정 버전 3.3
 
-> **Tip** More detailed release notes for version 3.3 can be found [here](../releases/stable_v3.3_long.md).
+> **Tip** 버전 3.3에 대한 자세한 출시 정보는 [여기](../releases/stable_v3.3_long.md)에서 확인할 수 있습니다.
 
-This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.3. Not to mention the large number of bug fixes of this release.
+이 섹션에는 버전 3.3에서 *QGroundControl*에 추가된 새 기능의 상위 수준 및 *전체* 목록이 포함되어 있습니다. 각 안정적인 릴리스에서 다수의 버그들이 수정되었습니다.
 
-* **Settings** 
-  * Local NMEA GPS device support.
-  * Video Recording save settings.
-* **Setup** 
+* **설정** 
+  * 로컬 NMEA GPS 장치 지원.
+  * 비디오 녹화 설정을 저장합니다.
+* **설정** 
   * **Parameter Editor** - Searching updates as you type characters for near immediate response to searches.
   * **Joystick** - Android joystick support.
-* **Plan** 
-  * **NEW - Structure Scan Pattern** - Create a multi-layered flight pattern that captures images over vertical surfaces (polygonal or circular). Used for 3d model generation or vertical surface inspection.
-  * **Fixed Wing Landing Pattern** - You can now adjust the distance from the loiter to land point by either distance or glide slope fall rate.
-  * PX4 GeoFence and Rally Point support.
-  * Terrain height display in lower Mission Item altitude display
-* **Fly** 
-  * Start/Stop video recording.
-  * Better display of vehicle icons when connected to multiple vehicles.
-  * Multi-Vehicle View supports commands which apply to all vehicles.
-  * Displays vehicles reported from ADS-B sensor.
-* **Analyze** 
-  * **Mavlink console** - New support for communicating with Mavlink console.
-  * **Log Download** - Moved from Menu to Analyze view.
+* **계획** 
+  * **새로운 기능 - 구조 스캔 패턴** - 수직 표면(다각형 또는 원형) 위의 이미지를 캡처하는 다층 비행 패턴을 생성합니다. 3D 모델 생성 또는 수직 표면 검사에 사용됩니다.
+  * **고정익 착륙 패턴** - 거리 또는 활공 경사 낙하율로 배회지에서 착륙 지점까지의 거리를 조정할 수 있습니다.
+  * PX4 GeoFence 및 Rally Point 지원.
+  * 낮은 임무 항목 고도 표시의 지형 고도 표시
+* **비행** 
+  * 비디오 녹화를 시작/중지합니다.
+  * 여러 기체에 연결된 경우 기체 아이콘이 더 잘 표시됩니다.
+  * 다중 기체 보기는 모든 기체에 적용되는 명령을 지원합니다.
+  * ADS-B 센서에서 보고된 기체를 표시합니다.
+* **분석** 
+  * **Mavlink 콘솔** - Mavlink 콘솔과의 통신을 위한 새로운 지원.
+  * **로그 다운로드** - 메뉴에서 분석 보기로 이동하였습니다.
 
-## Stable Version 3.2
+## 안정 버전 3.2
 
-> **Tip** More detailed release notes for version 3.2 can be found [here](../releases/stable_v3.2_long.md).
+> **Tip** 버전 3.2에 대한 자세한 출시 정보는 [여기](../releases/stable_v3.2_long.md)에서 확인할 수 있습니다.
 
-This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.2.
+이 섹션에는 버전 3.2에서 *QGroundControl*에 추가된 새 기능의 상위 수준 및 *전체* 목록이 포함되어 있습니다.
 
-* **Settings**
+* **설정**
   
-  * **File Save path** - Specify a save path for all files used by QGC.
-  * **Telemetry log auto-save** - Telemetry logs are now automatically saved without prompting.
-  * **AutoLoad Plans** - Used to automatically load a Plan onto a vehicle when it first connects.
-  * **RTK GPS** - Specify the Survey in accuracy and Minimum observation duration.
+  * **파일 저장 경로** - QGroundControl에서 사용하는 모든 파일의 저장 경로를 지정합니다.
+  * **원격 측정 로그 자동 저장** - 이제 원격 측정 로그를 묻지 않고, 자동으로 저장합니다.
+  * **계획 자동 로드** - 기체 최조 연실시 미션을 자동으로 로드합니다.
+  * **RTK GPS** - 정확도와 최소 관찰 기간으로 측량을 지정합니다.
 
-* **Setup**
+* **설정**
   
-  * ArduPilot only 
-    * **Pre-Flight Barometer and Airspeed calibration** - Now supported
+  * ArduPilot 전용 
+    * **비행 전 기압계 및 속도 보정** - 이제 지원됨
     * **Copy RC Trims** - Now supported
 
 * **Plan View**
