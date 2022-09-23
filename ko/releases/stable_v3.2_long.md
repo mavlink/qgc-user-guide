@@ -1,8 +1,8 @@
-# QGroundControl v3.2 Release Notes (Detailed)
+# QGroundControl v3.2 릴리스 노트(추가)
 
-This topic contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.2.
+이 섹션에는 버전 3.2에서 *QGroundControl*에 추가된 새 기능의 상위 수준 및 *전체* 목록이 포함되어 있습니다.
 
-## Settings
+## 설정
 
 ### Telemetry log auto-save
 
