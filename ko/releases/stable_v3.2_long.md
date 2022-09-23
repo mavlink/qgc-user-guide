@@ -72,53 +72,53 @@
 
 ##### 임무 종료 후 출발지 복귀
 
-Check this if you want your vehicle to RTL after the final mission item.
+최종 미션 아이템 이후에 차량이 출발지복귀를 설정합니다.
 
-#### Camera section
+#### 카메라 선택
 
 <img src="../../assets/plan/mission/mission_settings_camera_section.jpg" style="width: 150px;" />
 
-The camera section allows you to specify a camera action to take, control the gimbal and set your camera into photo or video mode.
+카메라 섹션에서는 수행할 카메라 동작을 지정하고 짐벌을 제어하며 카메라를 사진 또는 비디오 모드로 설정합니다.
 
-The camera actions available are:
+사용 가능한 카메라 작업은 다음과 같습니다.
 
-* Continue current action
-* Take photos (time)
-* Take photos (distance)
-* Stop taking photos
-* Start recording video
-* Stop recording video
+* 현재 동작 지속
+* 사진 찍기(시간)
+* 사직 찍기 (거리)
+* 사진 촬영 중지
+* 동영상 녹화 시작
+* 동영상 녹화 중지
 
-#### Vehicle Info section
+#### 기체 정보 섹션
 
 <img src="../../assets/plan/mission/mission_settings_vehicle_info_section.jpg" style="width: 150px;" />
 
-When planning a mission the firmware being run on the vehicle as well as the vehicle type must be known in order for QGroundControl to show you the mission commands which are appropriate for your vehicle.
+임무 계획시, QGroundControl에서 기체에 적합한 임무 명령을 표시하려면 실행 중인 펌웨어와 기체 유형을 알아야 합니다.
 
-If you are planning a mission while you are connected to your vehicle the Firmware and Vehicle Type will be determined from the vehicle. If you are planning a mission while not connected to a vehicle you will need to specify this information yourself.
+기체가 연결된 상태에서 임무를 계획하는 경우에는 펌웨어와 기체 유형은 기체에서 결정됩니다. 기체에 연결되지 않은 상태에서 임무를 계획하는 경우 이 정보를 직접 지정하여야 합니다.
 
-The additional value that can be specified when planning a mission is the vehicle flight speed. By specifying this value, total mission or survey times can be approximated even when not connected to a vehicle.
+임무를 계획할 때 지정할 수 있는 추가 값은 기체 비행 속도입니다. 이 값을 지정하면 기체에 연결되지 않은 상태에서도 총 임무 또는 조사 시간을 대략적으로 계산할 수 있습니다.
 
-#### Planned Home Position
+#### 지정된 홈 위치
 
 <img src="../../assets/plan/mission/mission_settings_planned_home.jpg" style="width: 150px;" />
 
-The planned home position allows you to simulate the vehicle's home position while planning a mission. This way you see the waypoint trajectory for your vehicle from takeoff to mission completion. Keep in mind that this is only the "planned" home position and you should place it where you plan to start the vehicle from. It has no actual impact on flying the mission. The actual home position of a vehicle is set by the vehicle itself when arming.
+계획된 홈 위치를 사용하면, 임무를 계획하는 동안 기체의 홈 위치를 시뮬레이션할 수 있습니다. 이 방법을 통해 이륙에서 임무 완료까지 차량의 경로점들의 궤적을 조회할 수 있습니다. 이것은 "계획된" 홈 위치일 뿐이며 기체가 출발할 계획인 위치에 배치하여야 합니다. 미션 비행에 실질적인 영향은 없습니다. 차량의 실제 홈 위치는 시동시 결정됩니다.
 
-### New Waypoint features
+### 새로운 경로점 기능
 
 <img src="../../assets/plan/Waypoint.jpg" style="width: 150px;" />
 
-* You can now adjust heading and flight speed for each waypoint.
-* There is a camera section available for camera changes on each waypoint. Explanation of Camera Section can be read under Mission Settings above.
+* 이제 각 경로점의 방향과 비행 속도를 조정할 수 있습니다.
+* 각 경로점에서 카메라 변경에 사용할 수 있는 카메라 섹션이 있습니다. 카메라 섹션에 대한 설명은 위의 미션 설정에서 읽을 수 있습니다.
 
-### Visual Gimbal direction
+### 비주얼 짐벌 방향
 
 <img src="../../assets/plan/GimbalDirection.jpg" style="width: 300px;" />
 
-If you specify gimbal yaw changes on waypoints, both the plan and fly views will show you a visual representation of the gimbal direction.
+경로점에서 짐벌 편요각 변경을 지정하면, 평면도와 조감도는 짐벌 방향을 시각적으로 나타냅니다.
 
-### Pattern tool
+### 패턴 도구
 
 There is a new *Pattern tool*. The following patterns are supported:
 
