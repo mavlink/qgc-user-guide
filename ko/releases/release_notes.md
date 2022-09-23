@@ -77,16 +77,16 @@
 
 ## 안정 버전 3.4
 
-This section contains a high level and *non-exhaustive* list of new features added to *QGroundControl* in version 3.4. Not to mention the large number of bug fixes in each stable release.
+이 섹션에는 버전 3.4에서 *QGroundControl*에 추가된 새 기능의 상위 수준 및 *전체* 목록이 포함되어 있습니다. 각 안정적인 릴리스에서 다수의 버그들이 수정되었습니다.
 
-* **Settings** 
-  * **Offline Maps** 
-    * Center Tool allows you to specify a map location in lat/lon or UTM coordinates. Making it easier to get to the location you want to create an offline map for.
-    * Ability to pre-download terrain heights for offline use.
-  * **Help** Provides links to QGC user guide and forums.
-* **Setup** 
-  * **Firmware** Ability to flash either PX4 or ArduPilot Flow firmware. 
-  * PX4 Pro Firmware 
+* **설정** 
+  * **오프라인 지도** 
+    * Center Tool을 사용하면 위도/경도 또는 UTM 좌표로 지도 위치를 지정할 수 있습니다. 생성하는 오프라인 지도 영역을 편리하게 수정할 수 있습니다.
+    * 오프라인 사용을 위해 지형 높이를 미리 다운로드합니다.
+  * **Help** QGC 사용자 가이드 및 포럼에 대한 링크를 제공합니다.
+* **설정** 
+  * **펌웨어** PX4 또는 ArduPilot Flow 펌웨어를 플래시하는 기능. 
+  * PX4 프로 펌웨어 
     * **Flight Modes** Specify channels for all available transmitter switches.
     * **Tuning: Advanced** Initial implementation of vehicle PID tuning support. Note that this is a work in progress that will improve in 3.5 daily builds.
   * ArduPilot Firmware 
