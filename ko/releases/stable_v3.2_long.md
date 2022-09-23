@@ -4,73 +4,73 @@
 
 ## 설정
 
-### Telemetry log auto-save
+### 원격 측정 로그 자동 저장
 
-If you have *Save telemetry log after each flight* turned on you will no longer be prompted as to where to save the log each time the vehicle disarms. Logs will automatically be saved to the [Application Load/Save Path](../SettingsView/General.md#load_save_path)
+*비행 후 텔레메트리 로그 저장*을 켠 경우 더 이상 차량이 시동 정지 시마다 로그를 저장 위치를 묻는 메시지가 표시되지 않습니다. 로그는 [애플리케이션 로드/저장 경로](../SettingsView/General.md#load_save_path)에 자동으로 저장됩니다.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#autosave_log).
+자세한 내용은 [설정 > 일반(기타)](../SettingsView/General.md#autosave_log)을 참고하십시오.
 
-### AutoLoad plans
+### 계획 자동 로드
 
-If this setting is turned on, *QGroundControl* will automatically upload a plan to the vehicle when it connects. The plan file must be named **AutoLoad#.plan** where the `#` is replaced with the vehicle id. The plan file must be located in the [Application Load/Save Path](../SettingsView/General.md#load_save_path).
+이 설정이 켜져 있으면, *QGroundControl*에 차량 연결시 계획을 자동으로 업로드합니다. 계획 파일의 이름은 **AutoLoad#.plan**이어야 하며, 여기서 `#`은 차량 Id로 대체됩니다. 계획 파일은 [응용 프로그램 로드/저장 경로](../SettingsView/General.md#load_save_path)에 위치하여야 합니다.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#autoload_missions).
+자세한 내용은 [설정 > 일반(기타)](../SettingsView/General.md#autoload_missions)을 참고하십시오.
 
-### Application Load/Save Path
+### 응용프로그램 불러오기/저장 경로
 
-You can now specify a save path which QGC will use as the default location to save files such as Parameters, Telemetry or Mission Plans.
+이제 QGroundControl에 매개변수, 원격 측정 또는 임무 계획의 기본 저장 경로를 지정할 수 있습니다.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#load_save_path).
+자세한 내용은 [설정 > 일반(기타)](../SettingsView/General.md#load_save_path)을 참고하십시오.
 
 ### RTK GPS
 
-You can now specify the *Survey in accuracy* and *Minimum observation duration* for use with a connected RTK GPS.
+이제 연결된 RTK GPS와 함께 사용할 *정확도 조사* 및 *최소 관찰 기간*을 지정할 수 있습니다.
 
-For more information see [Settings > General (RTK GPS)](../SettingsView/General.md#rtk_gps).
+자세한 내용은 [설정 > 일반(RTK GPS)](../SettingsView/General.md#rtk_gps)을 참고하십시오.
 
-## Setup
+## 설정
 
-### ArduPilot - Pre-Flight Barometer and Airspeed calibration
+### ArduPilot - 비행 전 기압계 및 대기 속도 보정
 
-This is now supported from the Sensors page.
+이제 센서 페이지에서 지원됩니다.
 
-### ArduPilot - Copy RC Trims
+### ArduPilot - RC 트림 복사
 
-This is now supported from the Copy Trims button on the Radio setup page.
+이제 라디오 설정 페이지의 트림 복사 버튼에서 지원됩니다.
 
-## Plan View {#plan_view}
+## 계획 화면 {#plan_view}
 
-### Plan Files
+### 계획 파일
 
-Previous version of *QGroundControl* saved missions, geo-fences and rally points in separate files (**.mission**, **.fence**, **.rally**). QGC now save all information related to a flight plan into a single file called a *Plan File* with a file extension of **.plan**.
+이전 버전의 *QGroundControl*은 미션, 지오펜스 및 집회 지점을 별도의 파일(**.mission**, **.fence**, **.rally**)에 저장하였습니다 . QGroundControl은 이제 비행 계획과 관련된 모든 정보를 파일 확장자를 **.plan**인 *계획 파일*을 사용합니다.
 
-Information about the format can be found in [Plan File Format](https://dev.qgroundcontrol.com/en/file_formats/plan.html) (QGC Developer Guide).
+형식에 대한 정보는 [계획 파일 형식](https://dev.qgroundcontrol.com/en/file_formats/plan.html)(QGroundControl 개발자 안내서)을 참고하십시오.
 
-### Plan Toolbar
+### 계획 툴바
 
 ![Plan Toolbar](../../assets/plan/PlanToolbar.jpg)
 
-The new *Plan Toolbar* is displayed at the top of the [PlanView](../PlanView/PlanView.md). It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
+[계획 화면](../PlanView/PlanView.md) 상단에 새로운 *계획 도구 모음*이 표시됩니다. 현재 선택된 웨이포인트와 관련된 정보와 전체 미션에 대한 통계를 나타냅니다.
 
-When connected to a vehicle it also shows an **Upload** button, which can be used to upload the plan to the vehicle.
+차량에 연결하면 **업로드** 버튼도 표시되며, 차량에 계획을 업로드할 수 있습니다.
 
-### Mission Settings
+### 임무 설정
 
-The [Mission Settings](../PlanView/PlanView.md#mission_settings) panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
+[미션 설정](../PlanView/PlanView.md#mission_settings) 패널을 사용하면 전체 미션에 적용되는 값을 지정하거나 미션 시작 시 바로 제어하려는 설정을 지정할 수 있습니다. 화면 오른쪽 미션 목록의 첫 번째 아이템입니다.
 
 <img src="../../assets/plan/mission/mission_settings.png" style="width: 150px;" />
 
-#### Mission Defaults
+#### 임무 기본값
 
-##### Waypoint alt
+##### 경로점 고도
 
-This specifies the default altitude for newly added mission items. If you update this value while you have a mission loaded it will prompt you to update all the the waypoints to this new altitude.
+새로 추가된 임무 항목의 기본 고도를 지정합니다. 임무를 로드한 상태에서 이 값을 업데이트하면, 모든 경로점들을 새로운 고도값으로 업데이트하는 메시지가 표시됩니다.
 
-##### Flight speed
+##### 비행 속도
 
-This allows you to set the flight speed for the mission to be different than the default mission speed.
+이를 통하여 미션의 비행 속도를 기본 미션 속도와 다르게 설정합니다.
 
-##### RTL after mission end
+##### 임무 종료 후 출발지 복귀
 
 Check this if you want your vehicle to RTL after the final mission item.
 
