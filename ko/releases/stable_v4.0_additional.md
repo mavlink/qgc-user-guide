@@ -1,12 +1,12 @@
-# QGroundControl v4.0 Release Notes (Additional)
+# QGroundControl v4.0 릴리스 노트(추가)
 
-This topic contains additional notes about QGroundControl 4.0. These should be integrated into main documentation in coming months (and this document deleted).
+이 항목에는 QGroundControl 4.0에 대한 추가 참고 사항이 포함되어 있습니다. 이것들은 앞으로 몇 달 안에 주요 문서에 통합되어야 합니다(이 문서는 삭제됨).
 
-* [Pattern Presets](../PlanView/PatternPresets.md) - Allows you to save settings for a Pattern item (Survey, Corridor Scan, ...) into a named preset. You can then use this preset over and over again as you create new Pattern.
+* [패턴 사전 설정](../PlanView/PatternPresets.md) - 패턴 항목(측량, 복도 스캔, ...)에 대한 설정을 명명된 사전 설정에 저장할 수 있습니다. 그런 다음 새 패턴을 만들 때 이 사전 설정을 계속 사용할 수 있습니다.
 * ArduPilot:
-  * Copter - PID Tuning support ![PID Tuning JPG](../../assets/daily_build_changes/ArduCopterPIDTuning.jpg)
-  * Copter - Additional Basic Tuning options ![Basic Tuning JPG](../../assets/daily_build_changes/ArduCopterBasicTuning.jpg)
-  * Copter/Rover - Frame setup ui ![Setup Frame Copter JPG](../../assets/daily_build_changes/ArduCopterSetupFrame.jpg)
-  * Improved support for flashing ChibiOS firmware
-  * Improved support for connecting to ChibiOS bootloader boards
-  * Support configurable mavlink stream rates. Available from Settings/Mavlink page. ![Stream Rates JPG](../../assets/daily_build_changes/ArduPilotStreamRates.jpg)
+  * 콥터 - PID 튜닝 지원![PID 튜닝 ](../../assets/daily_build_changes/ArduCopterPIDTuning.jpg)
+  * 콥터 - 추가 기본 튜닝 옵션![튜닝 기초](../../assets/daily_build_changes/ArduCopterBasicTuning.jpg)
+  * 콥터/로버 - 프레임 설정 UI![프레임 콥터 설정](../../assets/daily_build_changes/ArduCopterSetupFrame.jpg)
+  * ChibiOS 펌웨어 플래시 지원 개선
+  * ChibiOS 부트로더 보드 연결 지원 개선
+  * 구성 가능한 mavlink 스트림 속도를 지원합니다. 설정/Mavlink 페이지에서 사용할 수 있습니다. ![스트림 속도](../../assets/daily_build_changes/ArduPilotStreamRates.jpg)
