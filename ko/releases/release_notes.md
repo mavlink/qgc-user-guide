@@ -122,8 +122,8 @@
   * 로컬 NMEA GPS 장치 지원.
   * 비디오 녹화 설정을 저장합니다.
 * **설정** 
-  * **Parameter Editor** - Searching updates as you type characters for near immediate response to searches.
-  * **Joystick** - Android joystick support.
+  * **매개변수 편집기** - 검색에 거의 즉각적인 응답을 위해 문자를 입력할 때 검색이 업데이트됩니다.
+  * **조이스틱** - Android 조이스틱 지원.
 * **계획** 
   * **새로운 기능 - 구조 스캔 패턴** - 수직 표면(다각형 또는 원형) 위의 이미지를 캡처하는 다층 비행 패턴을 생성합니다. 3D 모델 생성 또는 수직 표면 검사에 사용됩니다.
   * **고정익 착륙 패턴** - 거리 또는 활공 경사 낙하율로 배회지에서 착륙 지점까지의 거리를 조정할 수 있습니다.
@@ -155,70 +155,70 @@
   
   * ArduPilot 전용 
     * **비행 전 기압계 및 속도 보정** - 이제 지원됨
-    * **Copy RC Trims** - Now supported
+    * **RC 트림 복사** - 이제 지원됨
 
-* **Plan View**
+* **계획 화면**
   
-  * **Plan files** - Missions are now saved as .plan files which include the mission, geo-fence and rally points.
-  * **Plan Toolbar** - New toolbar which shows you mission statistics and Upload button.
-  * **Mission Start** - Allows you to specify values such as flight speed and camera settings to start the mission with.
-  * **New Waypoint features** - Adjust heading and flight speed for each waypoint as well as camera settings.
-  * **Visual Gimbal direction** - Gimbal direction is shown on waypoint indicators.
-  * **Pattern tool** - Allows you to add complex patterns to a mission. 
-    * Fixed Wing Landing (new)
-    * Survey (many new features)
-  * **Fixed Wing Landing Pattern** - Adds a landing pattern for fixed wings to your mission.
-  * **Survey** - New features 
-    * **Take Images in Turnarounds** - Specify whether to take images through entire survey or just within each transect segment.
-    * **Hover and Capture** - Stop vehicle at each image location and take photo.
-    * **Refly at 90 degree offset** - Add additional pattern at 90 degree offset to original so get better image coverage.
-    * **Entry location** - Specify entry point for survey.
-    * **Polygon editing** - Simple on screen mechanism to drag, resize, add/remove points. Much better touch support.
+  * **계획 파일** - 이제 임무가 임무, 지오펜스 및 집결 지점을 포함하는 .plan 파일로 저장됩니다.
+  * **계획 도구 모음** - 미션 통계와 업로드 버튼을 표시하는 새로운 도구 모음입니다.
+  * **미션 시작** - 비행 속도 및 카메라 설정과 같은 값을 지정하여 미션을 시작할 수 있습니다.
+  * **새로운 웨이포인트 기능** - 각 웨이포인트와 카메라 설정에 대한 방향과 비행 속도를 조정합니다.
+  * **시각적 짐벌 방향** - 짐벌 방향은 웨이포인트 표시기에 표시됩니다.
+  * **패턴 도구** - 미션에 복잡한 패턴을 추가할 수 있습니다. 
+    * 고정익 착륙 (신규)
+    * 탐사(많은 신규 기능)
+  * **고정익 착륙 패턴** - 미션에 고정익 착륙 패턴을 추가합니다.
+  * **탐사** - 새로운 기능 
+    * **턴어라운드로 이미지 찍기** - 전체 설문조사를 통해 이미지를 촬영 여부나 각 횡단 세그먼트 내에서만 이미지를 촬영 여부를 지정합니다.
+    * **마우스 오버 및 캡처** - 각 이미지 위치에서 차량을 멈추고 사진을 찍습니다.
+    * **90도 오프셋에서 반사** - 원본에 90도 오프셋으로 패턴을 추가하여 이미지 범위를 개선합니다.
+    * **진입 위치** - 설문조사의 진입점을 지정합니다.
+    * **폴리곤 편집** - 드래그, 크기 조정, 포인트 추가/제거를 위한 간단한 화면 메커니즘. 터치 기능 개선 및 지원
 
-* **Fly View**
+* **비행 화면**
   
-  * **Arm/Disarm** - Available from toolbar.
-  * **Guided Actions** - New action toolbar on the left. Supports: 
-    * Takeoff
-    * Land
-    * RTL
-    * Pause
-    * Start Mission
-    * Resume Mission - after battery change
-    * Change Altitude
-    * Land Abort
-    * Set Waypoint
-    * Goto Location
-  * **Remove mission after vehicle lands** - Prompt to remove mission from vehicle after landing.
-  * **Flight Time** - Flight time is shown in instrument panel.
-  * **Multi-Vehicle View** - Better control of multiple vehicles.
+  * **시동/비시동** - 도구 모음에서 사용할 수 있습니다.
+  * **안내 작업** - 왼쪽에 새로운 작업 도구 모음이 있습니다. 지원: 
+    * 이륙
+    * 착륙
+    * 출발지 복귀
+    * 일시 중지
+    * 미션 시작
+    * 임무 재개 - 배터리 교체 후
+    * 고도 변경
+    * 착륙 중단
+    * 경로점 설정
+    * 위치 이동
+  * **차량 착륙 후 임무 제거** - 착륙 후 차량에서 임무를 제거하라는 메시지가 표시됩니다.
+  * **비행 시간** - 비행 시간은 계기판에 표시됩니다.
+  * **여러 기체 보기** - 여러 기체들을 제어가 편리합니다.
 
-* **Analyze View** - New
+* **분석 화면** - 신규
   
-  * **Log Download** - Moved to Analyze view from menu
-  * **Mavlink Console** - NSH shell access
+  * **로그 다운로드** - 메뉴에서 분석 보기로 이동
+  * **Mavlink 콘솔** - NSH 셸 액세스
 
-* **Support for third-party customized QGroundControl**
+* **타사 맞춤형 QGroundControl 지원**
   
-  * Standard QGC supports multiple firmware types and multiple vehicle types. There is now support in QGC which allows a third-party to create their own custom version of QGC which is targeted specifically to their custom vehicle. They can then release their own version of QGC with their vehicle.
+  * 표준 QGroundControl는 여러가지 펌웨어 유형과 여러가지 기체 유형을 지원합니다. 이제 QGroundControl에서 지원이 제공되어 타사에서 사용자 지정 차량을 대상으로 하는 자체 사용자 지정 버전의 QGroundControl를 만들 수 있습니다. 그런 다음, 기체와과 함께 자체 버전의 QGroundControl를 출시할 수 있습니다.
 
-## Stable Version 3.1
+## 안정 버전 3.1
 
-New Features
+새로운 기능
 
-* [Survey](../PlanView/pattern_survey.md) mission support
-* [GeoFence](../PlanView/PlanGeoFence.md) support in Plan View
-* [Rally Point](../PlanView/PlanRallyPoints.md) support in Plan View (ArduPilot only)
-* ArduPilot onboard compass calibration
-* Parameter editor search will now search as you type for quicker access
-* Parameter display now supports unit conversion
-* GeoTag images from log files (PX4 only)
-* System health in instrument panel
-* MAVLink 2.0 support (no signing yet)
+* [탐사](../PlanView/pattern_survey.md) 미션 지원
+* 계획 화면에서 [GeoFence](../PlanView/PlanGeoFence.md) 지원
+* 계획 화면에서 [Rally Point](../PlanView/PlanRallyPoints.md) 지원(ArduPilot만 해당)
+* ArduPilot 온보드 나침반 보정
+* 더 빠른 액세스를 위해 입력 시 매개변수 편집기를 검색합니다.
+* 이제 매개변수에서 단위 변환을 지원합니다.
+* 로그 파일의 GeoTag 이미지(PX4만 해당)
+* 계기판의 시스템 상태
+* MAVLink 2.0 지원(아직 서명 없음)
 
-Major Bug Fixes
+주요 버그 수정
 
-* Fixed crash after disconnect from Vehicle
-* Fixed android crash when using SiK Radios
-* Many multi-vehicle fixes
-* Bluetooth fixes
+* 기체 연결 해제 후 충돌 수정
+* SiK 라디오를 사용할 때 안드로이드 충돌 수정
+* 많은 다중 차량 수정
+* 블루투스 수정
