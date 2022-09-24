@@ -48,7 +48,7 @@
 
 ### 계획 툴바
 
-![Plan Toolbar](../../assets/plan/PlanToolbar.jpg)
+![계획 툴바](../../assets/plan/PlanToolbar.jpg)
 
 [계획 화면](../PlanView/PlanView.md) 상단에 새로운 *계획 도구 모음*이 표시됩니다. 현재 선택된 웨이포인트와 관련된 정보와 전체 미션에 대한 통계를 나타냅니다.
 
@@ -127,7 +127,7 @@
 
 #### 고정익 착륙 패턴
 
-![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
+![고정익 착륙 패턴](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
 이것은 미션에 고정익 착륙 패턴을 추가합니다. 패턴의 첫 번째 지점은 기체가 특정 고도로 배회하도록 명령하는 배회 지점입니다. 해당 고도에 도달하면 기체는 착륙 시퀀스를 시작하고 지정된 착륙 지점으로 비행합니다.
 
@@ -138,50 +138,50 @@
 #### 탐사(신규 기능)
 
 * 다각형 조사 영역 외부의 회전 구역에서는 이미지가 자동으로 촬영되지 않습니다.
-* 각 이미지 위치에서 최고 품질의 이미지를 캡처하는 데 사용할 수 있는 새로운 *마우스 오버 및 캡처* 옵션이 있습니다. The vehicle will stop at each image location prior to taking the image such that the vehicle is stable while the image is taken.
-* There is a new option to re-fly the survey grid at a 90 degree angle to the previous pass. This allows you to generate much denser coverage for the images.
+* 각 이미지 위치에서 최고 품질의 이미지를 캡처하는 데 사용할 수 있는 새로운 *마우스 오버 및 캡처* 옵션이 있습니다. 영상 촬영전에 기체가 안정성을 위하여 영상 촬영 위치에서 정지합니다.
+* 이전 패스에 대해 90도 각도로 측량 그리드를 다시 비행하는 새로운 옵션이 있습니다. 이를 통해 훨씬 더 조밀한 영상 적용 범위를 생성할 수 있습니다.
 
 ![](../../assets/plan/PolygonEdit.jpg)
 
-Manipulating the survey area polygon is now easier to use on tablets with touch screens:
+이제 터치 스크린이 있는 태블릿에서 조사 영역 다각형을 더 쉽게 조작할 수 있습니다:
 
-* You can drag the entire polygon to a new location by dragging the center point handle.
-* Each polygon vertex can be dragged to a new location.
-* To remove a polygon vertex, simple click on the drag handle for it.
-* Click on the **+** handles to add a new vertex between two existing vertices.
+* 중심점 핸들을 끌어 전체 다각형을 새 위치로 끌 수 있습니다.
+* 각 다각형 정점을 새 위치로 드래그할 수 있습니다.
+* 다각형 정점을 제거하려면, 해당 정점에 대한 드래그 핸들을 클릭하면 됩니다.
+* 두 개의 기존 정점 사이에 새 정점을 추가하려면, **+** 핸들을 클릭합니다.
 
-## Fly View
+## 비행 화면
 
 ### RTK GPS
 
-RTK status is now shown in the toolbar.
+이제 RTK 상태가 도구 모음에 표시됩니다.
 
-### Arm/Disarm
+### 시동/비시동
 
-There is an armed/disarmed indicator in the toolbar. You can click it to arm/disarm your vehicle. If you click Disarm in the toolbar while your vehicle is flying you will provided the option to Emergency Stop your vehicle.
+도구 모음에 무장/해제 표시기가 있습니다. 클릭하면 차량을 시동을 걸거나 끌 수 있습니다. 기체가 비행하는 동안 도구 모음에서 시동 해제를 클릭하면, 기체가 비상 정지할 수 있는 옵션이 제공됩니다.
 
-### Guided Actions
+### 안내 작업
 
-* Takeoff
-* Land
-* RTL
-* Pause
-* Actions 
-  * Start Mission
-  * Resume Mission
-  * Change Altitude
-  * Land Abort
-* Direct interaction with map 
-  * Set Waypoint
-  * Goto Location
+* 이륙
+* 착륙
+* 출발지 복귀
+* 일시 중지
+* 액션 
+  * 미션 시작
+  * 임무 재개
+  * 고도 변경
+  * 착륙 중단
+* 지도와 직접 상호 작용 
+  * 경로점 설정
+  * 위치 이동
 
-#### Resume Mission
+#### 미션 재개
 
-The Resume Mission guided action is used to resume a mission after performing an RTL from within the mission to perform a battery change. After the vehicle lands from RTL and you have disconnected the battery **do not** disconnect QGC from the Vehicle. Put in your new battery and QGC will detect the vehicle again and automatically restore the connection. Once this happens you will be prompted with a Resume Mission confirmation slider. If you want to resume the mission, confirm this and the mission will be rebuilt from your last waypoint traveled through. Once the mission is rebuilt you will be presented with another Resume Mission slide which allows you to review the rebuilt mission before starting it again. Confirm this Resume Mission slider to continue on with the mission.
+미션 재개 가이드 액션은 배터리 교체를 위하여, 미션 내에서 출발지 복귀 후 미션을 재개합니다. 차량이 출발지 복귀후 착륙하고 배터리를 분리한 후 QGroundControl 연결를 중단하지 **마십시오**. 새 배터리를 장착하면, QGroundControl에서 기체를 다시 감지하고 자동으로 연결을 복원합니다. 이러한 일이 발생하면, 미션 재개 확인 슬라이더가 표시됩니다. 임무를 재개하려면, 이를 확인하고 지난 웨이포인트에서 임무를 재개합니다. 임무가 재개되면, 다시 시작하기 전에 재개된 임무를 검토할 수 있는 또 다른 임무 재개 슬라이드가 표시됩니다. 미션을 계속하려면 이 미션 재개 슬라이더를 확인하십시오.
 
-###### How resume mission rebuilding works
+###### 미션 재개 작동 방식
 
-In order to resume a mission you cannot simply continue it from the last mission item the vehicle ran. The reason is is that may skip over important change speed commands or camera control commands which are prior to that item in the mission. If you skipped over those the remainder of the mission will not run correctly. In order to make resume mission work correctly QGC rebuilds the mission looking backwards from the last mission item flown and automatically appends relevant commands to the front of the mission. By doing this the state of the mission prior to the resume point is restore. The following mission commands are the ones scanned for:
+임무를 재개하려면, 기체가 실행한 마지막 임무 항목에서 단순히 임무를 계속할 수 없습니다. 그 이유는 미션에서 해당 항목 이전에 중요한 변경 속도 명령이나 카메라 제어 명령을 건너뛸 수 있기 때문입니다. 이를 건너뛰면, 나머지 미션이 제대로 실행되지 않습니다. 재개 임무가 올바르게 작동을 위하여 QGroundControl은 비행 마지막 임무 항목에서 거꾸로 임무를 재구축하고 임무 전면에 관련 명령을 자동으로 추가합니다. 이렇게 하면 재개 시점 이전의 미션 상태가 복원됩니다. 다음 임무 명령은 스캔된 명령입니다.
 
 * `MAV_CMD_DO_CONTROL_VIDEO`
 * `MAV_CMD_DO_SET_ROI`
@@ -198,45 +198,45 @@ In order to resume a mission you cannot simply continue it from the last mission
 * `MAV_CMD_DO_CHANGE_SPEED`
 * `MAV_CMD_NAV_TAKEOFF`
 
-### Remove mission after vehicle lands
+### 기체 착륙 후 임무 제거
 
-You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. This is meant to prevent issues where stale missions are unknowingly left on a vehicle cause unexpected behavior.
+임무가 완료후, 기체가 착륙하고 무장 해제되면 기체의 임무를 제거하라는 메시지가 표시됩니다. 이는 오래된 임무가 의도치 않게 기체에 남겨져, 예기치 않은 동작을 일으키는 문제를 방지합니다.
 
-### Instrument panel
+### 계기판
 
-#### Camera trigger
+#### 카메라 트리거 
 
-#### Flight Time
+#### 비행 시간
 
-Flight time is now available for display in the instrument panel. For new users, flight time will be shown by default. For existing users who have already modified their instrument panel values you will have to add it yourself if you want to use it.
+이제 계기판에 비행 시간을 표시할 수 있습니다. 신규 사용자의 경우 기본적으로 비행 시간이 표시됩니다. 이미 계기판 값을 수정한 기존 사용자의 경우, 이를 사용하려면 직접 추가하여야 합니다.
 
-## [Analyze View](../analyze_view/README.md)
+## [분석 화면](../analyze_view/README.md)
 
-* [Log Download](../analyze_view/log_download.md) moved to *Analyze View* from menu.
-* New [GeoTag Images](../analyze_view/geotag_images.md) support for PX4 Pro firmware
-* New [MAVLink Console](../analyze_view/mavlink_console.md) which provides access the the *nsh shell* running on the vehicle.
+* [로그 다운로드](../analyze_view/log_download.md)가 메뉴에서 *분석 화면*으로 이동하였습니다.
+* PX4 Pro 펌웨어에 대한 새로운 [GeoTag 이미지](../analyze_view/geotag_images.md) 지원
+* 기체에서 실행되는 *nsh 쉘*에 대한 액세스를 제공하는 새로운 [MAVLink 콘솔](../analyze_view/mavlink_console.md).
 
-## Multi-Vehicle View
+## 다중 기체 화면
 
-There is a new view available when you have multiple vehicles connected to QGC. It will only show up when more than one vehicle is connected. When that happens you will see an additional set of radio button at the top right of the Plan view.
+여러 기체들이 QGroundControl에 연결된 경우 사용할 수 있는 새로운 화면을 제공합니다. 두 대 이상의 기체가 연결된 경우에만 표시됩니다. 이 경우 계획 화면의 오른쪽 상단에 추가 라디오 버튼 세트가 표시됩니다.
 
 <img src="../../assets/daily_build_changes/MultiVehicleRadios.jpg" style="width: 150px;" />
 
-Click the **Multi-Vehicle** radio button to replace the instrument panel with the multi-vehicle list:
+계기판을 다중 기체 목록으로 바꾸려면 **다중 기체** 라디오 버튼을 클릭합니다.
 
 <img src="../../assets/daily_build_changes/MultiVehicleList.jpg" style="width: 150px;" />
 
-The example above shows three vehicles. The numbers are the vehicle id. In the large font is the current flight mode. You can click the flight mode name to change to a different flight mode. To the right are small version of the instruments for each vehicle. You can command the vehicle to do the following actions from the control panel:
+위의 예는 세 대의 기체를 나타냅니다. 숫자는 차량 ID입니다. 큰 글꼴은 현재 비행 모드입니다. 비행 모드 이름을 클릭하여 다른 비행 모드로 변경할 수 있습니다. 오른쪽에는 각 차량용 계기의 작은 버전이 있습니다. 제어판에서 기체의 다음 작업을 수행하도록 명령할 수 있습니다.
 
-* Arm/Disarm
-* Start/Stop a mission
-* Return to Launch
-* Take Control back of the vehicle by returning to manual control from a mission.
+* 시동/비시동
+* 미션 시작/중지
+* 출발지 복귀
+* 임무에서 수동 제어로 돌아와 기체의 제어권을 확보합니다.
 
-### Multi-Vehicle Gotchas - Unique vehicle ids
+### 다중 기체 문제 - 고유 기체 ID
 
-Each vehicle connected to QGC must have a unique id. Otherwise QGC will think the vehicles are actually the same vehicle. The symptom of this is the Plan view jerking around as it tries to position itself to one vehicle and then the next. For PX4 Pro firmwares this is the `MAV_SYS_ID` parameter. For ArduPilot firmwares it is the ```SYSID_THISMAV``` parameter.
+QGroundControl에 연결된 각 기체는 고유한 ID가 있어야 합니다. 그렇지 않으면, QGroundControl에서는 동일한 기체로 판별합니다. 이것의 증상은 한 기체를 다음 기체의 위치를 지정하려고 할 때 이리저리 흔들리는 평면 화면입니다. PX4 Pro 펌웨어의 경우 이것은 `MAV_SYS_ID` 매개변수입니다. ArduPilot 펌웨어의 경우 ```SYSID_THISMAV``` 매개 변수
 
-## Support for third-party customized QGroundControl
+## 타사 맞춤형 QGroundControl 지원
 
-Standard QGC supports multiple firmware types and multiple vehicle types. There is now support in QGC which allows a third-party to create their own custom version of QGC which is targeted specifically to their custom vehicle. They can then release their own version of QGC with their vehicle.
+표준 QGroundControl는 다양한 펌웨어와 다향한 기체들을 지원합니다. 이제 QGroundControl에서 지원이 제공되어 타사에서 사용자 지정 기체를 대상으로 하는 자체 사용자 지정 버전의 QGroundControl를 제작 가능합니다. 그런 다음, 기체와과 함께 자체 버전의 QGroundControl를 출시할 수 있습니다.
