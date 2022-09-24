@@ -1,4 +1,4 @@
-# Daily Builds
+# 일일 빌드
 
 Daily Builds of *QGroundControl* have the absolute latest set of [new features](../releases/daily_build_new_features.md).
 
