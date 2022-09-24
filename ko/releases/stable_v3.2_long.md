@@ -4,121 +4,121 @@
 
 ## 설정
 
-### Telemetry log auto-save
+### 원격 측정 로그 자동 저장
 
-If you have *Save telemetry log after each flight* turned on you will no longer be prompted as to where to save the log each time the vehicle disarms. Logs will automatically be saved to the [Application Load/Save Path](../SettingsView/General.md#load_save_path)
+*비행 후 텔레메트리 로그 저장*을 켠 경우 더 이상 차량이 시동 정지 시마다 로그를 저장 위치를 묻는 메시지가 표시되지 않습니다. 로그는 [애플리케이션 로드/저장 경로](../SettingsView/General.md#load_save_path)에 자동으로 저장됩니다.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#autosave_log).
+자세한 내용은 [설정 > 일반(기타)](../SettingsView/General.md#autosave_log)을 참고하십시오.
 
-### AutoLoad plans
+### 계획 자동 로드
 
-If this setting is turned on, *QGroundControl* will automatically upload a plan to the vehicle when it connects. The plan file must be named **AutoLoad#.plan** where the `#` is replaced with the vehicle id. The plan file must be located in the [Application Load/Save Path](../SettingsView/General.md#load_save_path).
+이 설정이 켜져 있으면, *QGroundControl*에 차량 연결시 계획을 자동으로 업로드합니다. 계획 파일의 이름은 **AutoLoad#.plan**이어야 하며, 여기서 `#`은 차량 Id로 대체됩니다. 계획 파일은 [응용 프로그램 로드/저장 경로](../SettingsView/General.md#load_save_path)에 위치하여야 합니다.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#autoload_missions).
+자세한 내용은 [설정 > 일반(기타)](../SettingsView/General.md#autoload_missions)을 참고하십시오.
 
-### Application Load/Save Path
+### 응용프로그램 불러오기/저장 경로
 
-You can now specify a save path which QGC will use as the default location to save files such as Parameters, Telemetry or Mission Plans.
+이제 QGroundControl에 매개변수, 원격 측정 또는 임무 계획의 기본 저장 경로를 지정할 수 있습니다.
 
-For more information see [Settings > General (Miscellaneous)](../SettingsView/General.md#load_save_path).
+자세한 내용은 [설정 > 일반(기타)](../SettingsView/General.md#load_save_path)을 참고하십시오.
 
 ### RTK GPS
 
-You can now specify the *Survey in accuracy* and *Minimum observation duration* for use with a connected RTK GPS.
+이제 연결된 RTK GPS와 함께 사용할 *정확도 조사* 및 *최소 관찰 기간*을 지정할 수 있습니다.
 
-For more information see [Settings > General (RTK GPS)](../SettingsView/General.md#rtk_gps).
+자세한 내용은 [설정 > 일반(RTK GPS)](../SettingsView/General.md#rtk_gps)을 참고하십시오.
 
-## Setup
+## 설정
 
-### ArduPilot - Pre-Flight Barometer and Airspeed calibration
+### ArduPilot - 비행 전 기압계 및 대기 속도 보정
 
-This is now supported from the Sensors page.
+이제 센서 페이지에서 지원됩니다.
 
-### ArduPilot - Copy RC Trims
+### ArduPilot - RC 트림 복사
 
-This is now supported from the Copy Trims button on the Radio setup page.
+이제 라디오 설정 페이지의 트림 복사 버튼에서 지원됩니다.
 
-## Plan View {#plan_view}
+## 계획 화면 {#plan_view}
 
-### Plan Files
+### 계획 파일
 
-Previous version of *QGroundControl* saved missions, geo-fences and rally points in separate files (**.mission**, **.fence**, **.rally**). QGC now save all information related to a flight plan into a single file called a *Plan File* with a file extension of **.plan**.
+이전 버전의 *QGroundControl*은 미션, 지오펜스 및 집회 지점을 별도의 파일(**.mission**, **.fence**, **.rally**)에 저장하였습니다 . QGroundControl은 이제 비행 계획과 관련된 모든 정보를 파일 확장자를 **.plan**인 *계획 파일*을 사용합니다.
 
-Information about the format can be found in [Plan File Format](https://dev.qgroundcontrol.com/en/file_formats/plan.html) (QGC Developer Guide).
+형식에 대한 정보는 [계획 파일 형식](https://dev.qgroundcontrol.com/en/file_formats/plan.html)(QGroundControl 개발자 안내서)을 참고하십시오.
 
-### Plan Toolbar
+### 계획 툴바
 
 ![Plan Toolbar](../../assets/plan/PlanToolbar.jpg)
 
-The new *Plan Toolbar* is displayed at the top of the [PlanView](../PlanView/PlanView.md). It shows you information related to the currently selected waypoint as well as statistics for the entire mission.
+[계획 화면](../PlanView/PlanView.md) 상단에 새로운 *계획 도구 모음*이 표시됩니다. 현재 선택된 웨이포인트와 관련된 정보와 전체 미션에 대한 통계를 나타냅니다.
 
-When connected to a vehicle it also shows an **Upload** button, which can be used to upload the plan to the vehicle.
+차량에 연결하면 **업로드** 버튼도 표시되며, 차량에 계획을 업로드할 수 있습니다.
 
-### Mission Settings
+### 임무 설정
 
-The [Mission Settings](../PlanView/PlanView.md#mission_settings) panel allows you to specify values which apply to the entire mission, or settings you want to control right at the beginning of a mission. This is the first item in the mission list on the right of the screen.
+[미션 설정](../PlanView/PlanView.md#mission_settings) 패널을 사용하면 전체 미션에 적용되는 값을 지정하거나 미션 시작 시 바로 제어하려는 설정을 지정할 수 있습니다. 화면 오른쪽 미션 목록의 첫 번째 아이템입니다.
 
 <img src="../../assets/plan/mission/mission_settings.png" style="width: 150px;" />
 
-#### Mission Defaults
+#### 임무 기본값
 
-##### Waypoint alt
+##### 경로점 고도
 
-This specifies the default altitude for newly added mission items. If you update this value while you have a mission loaded it will prompt you to update all the the waypoints to this new altitude.
+새로 추가된 임무 항목의 기본 고도를 지정합니다. 임무를 로드한 상태에서 이 값을 업데이트하면, 모든 경로점들을 새로운 고도값으로 업데이트하는 메시지가 표시됩니다.
 
-##### Flight speed
+##### 비행 속도
 
-This allows you to set the flight speed for the mission to be different than the default mission speed.
+이를 통하여 미션의 비행 속도를 기본 미션 속도와 다르게 설정합니다.
 
-##### RTL after mission end
+##### 임무 종료 후 출발지 복귀
 
-Check this if you want your vehicle to RTL after the final mission item.
+최종 미션 아이템 이후에 차량이 출발지복귀를 설정합니다.
 
-#### Camera section
+#### 카메라 선택
 
 <img src="../../assets/plan/mission/mission_settings_camera_section.jpg" style="width: 150px;" />
 
-The camera section allows you to specify a camera action to take, control the gimbal and set your camera into photo or video mode.
+카메라 섹션에서는 수행할 카메라 동작을 지정하고 짐벌을 제어하며 카메라를 사진 또는 비디오 모드로 설정합니다.
 
-The camera actions available are:
+사용 가능한 카메라 작업은 다음과 같습니다.
 
-* Continue current action
-* Take photos (time)
-* Take photos (distance)
-* Stop taking photos
-* Start recording video
-* Stop recording video
+* 현재 동작 지속
+* 사진 찍기(시간)
+* 사직 찍기 (거리)
+* 사진 촬영 중지
+* 동영상 녹화 시작
+* 동영상 녹화 중지
 
-#### Vehicle Info section
+#### 기체 정보 섹션
 
 <img src="../../assets/plan/mission/mission_settings_vehicle_info_section.jpg" style="width: 150px;" />
 
-When planning a mission the firmware being run on the vehicle as well as the vehicle type must be known in order for QGroundControl to show you the mission commands which are appropriate for your vehicle.
+임무 계획시, QGroundControl에서 기체에 적합한 임무 명령을 표시하려면 실행 중인 펌웨어와 기체 유형을 알아야 합니다.
 
-If you are planning a mission while you are connected to your vehicle the Firmware and Vehicle Type will be determined from the vehicle. If you are planning a mission while not connected to a vehicle you will need to specify this information yourself.
+기체가 연결된 상태에서 임무를 계획하는 경우에는 펌웨어와 기체 유형은 기체에서 결정됩니다. 기체에 연결되지 않은 상태에서 임무를 계획하는 경우 이 정보를 직접 지정하여야 합니다.
 
-The additional value that can be specified when planning a mission is the vehicle flight speed. By specifying this value, total mission or survey times can be approximated even when not connected to a vehicle.
+임무를 계획할 때 지정할 수 있는 추가 값은 기체 비행 속도입니다. 이 값을 지정하면 기체에 연결되지 않은 상태에서도 총 임무 또는 조사 시간을 대략적으로 계산할 수 있습니다.
 
-#### Planned Home Position
+#### 지정된 홈 위치
 
 <img src="../../assets/plan/mission/mission_settings_planned_home.jpg" style="width: 150px;" />
 
-The planned home position allows you to simulate the vehicle's home position while planning a mission. This way you see the waypoint trajectory for your vehicle from takeoff to mission completion. Keep in mind that this is only the "planned" home position and you should place it where you plan to start the vehicle from. It has no actual impact on flying the mission. The actual home position of a vehicle is set by the vehicle itself when arming.
+계획된 홈 위치를 사용하면, 임무를 계획하는 동안 기체의 홈 위치를 시뮬레이션할 수 있습니다. 이 방법을 통해 이륙에서 임무 완료까지 차량의 경로점들의 궤적을 조회할 수 있습니다. 이것은 "계획된" 홈 위치일 뿐이며 기체가 출발할 계획인 위치에 배치하여야 합니다. 미션 비행에 실질적인 영향은 없습니다. 차량의 실제 홈 위치는 시동시 결정됩니다.
 
-### New Waypoint features
+### 새로운 경로점 기능
 
 <img src="../../assets/plan/Waypoint.jpg" style="width: 150px;" />
 
-* You can now adjust heading and flight speed for each waypoint.
-* There is a camera section available for camera changes on each waypoint. Explanation of Camera Section can be read under Mission Settings above.
+* 이제 각 경로점의 방향과 비행 속도를 조정할 수 있습니다.
+* 각 경로점에서 카메라 변경에 사용할 수 있는 카메라 섹션이 있습니다. 카메라 섹션에 대한 설명은 위의 미션 설정에서 읽을 수 있습니다.
 
-### Visual Gimbal direction
+### 비주얼 짐벌 방향
 
 <img src="../../assets/plan/GimbalDirection.jpg" style="width: 300px;" />
 
-If you specify gimbal yaw changes on waypoints, both the plan and fly views will show you a visual representation of the gimbal direction.
+경로점에서 짐벌 편요각 변경을 지정하면, 평면도와 조감도는 짐벌 방향을 시각적으로 나타냅니다.
 
-### Pattern tool
+### 패턴 도구
 
 There is a new *Pattern tool*. The following patterns are supported:
 
