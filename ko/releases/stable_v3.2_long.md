@@ -120,25 +120,25 @@
 
 ### 패턴 도구
 
-There is a new *Pattern tool*. The following patterns are supported:
+새로운 *패턴 도구*가 있습니다. 아래의 패턴들을 사용할 수 있습니다:
 
-* Fixed Wing Landing (new)
-* Survey (with new features)
+* 고정익 착륙 (신규)
+* 탐사(신규 기능)
 
-#### Fixed Wing Landing Pattern
+#### 고정익 착륙 패턴
 
 ![Fixed Wing Landing Pattern](../../assets/plan/pattern/fixed_wing_landing_pattern.jpg)
 
-This adds a landing pattern for fixed wings to your mission. The first point of the pattern is the loiter point which commands to vehicle to loiter to a specific altitude. Once that altitude is reached, the vehicle will begin the landing sequence and fly down to the specified landing spot.
+이것은 미션에 고정익 착륙 패턴을 추가합니다. 패턴의 첫 번째 지점은 기체가 특정 고도로 배회하도록 명령하는 배회 지점입니다. 해당 고도에 도달하면 기체는 착륙 시퀀스를 시작하고 지정된 착륙 지점으로 비행합니다.
 
-Both the loiter and land points can be dragged to adjust. Also all the various values associated with the pattern can be adjusted.
+배회 지점과 착륙 지점 모두 드래그하여 수정할 수 있습니다. 또한, 패턴과 관련된 모든 다양한 값들을 수정할 수 있습니다.
 
-For more information see [Fixed Wing Landing Pattern](../PlanView/pattern_fixed_wing_landing.md).
+자세한 내용은 [고정 날개 착륙 패턴](../PlanView/pattern_fixed_wing_landing.md)을 참고하십시오.
 
-#### Survey (new features)
+#### 탐사(신규 기능)
 
-* Images are not automatically taken in the turnaround zone outside of the polygonal survey area.
-* There is a new *Hover and Capture* option which can be used to capture the highest quality image at each image location. The vehicle will stop at each image location prior to taking the image such that the vehicle is stable while the image is taken.
+* 다각형 조사 영역 외부의 회전 구역에서는 이미지가 자동으로 촬영되지 않습니다.
+* 각 이미지 위치에서 최고 품질의 이미지를 캡처하는 데 사용할 수 있는 새로운 *마우스 오버 및 캡처* 옵션이 있습니다. The vehicle will stop at each image location prior to taking the image such that the vehicle is stable while the image is taken.
 * There is a new option to re-fly the survey grid at a 90 degree angle to the previous pass. This allows you to generate much denser coverage for the images.
 
 ![](../../assets/plan/PolygonEdit.jpg)
