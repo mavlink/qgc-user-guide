@@ -1,4 +1,4 @@
-# Troubleshooting QGC Setup
+# QGroundControl 설정 문제 해결
 
 This topic lists troubleshooting information related to *QGroundControl* setup and installation on the host computer.
 
