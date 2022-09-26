@@ -1,4 +1,4 @@
-# Vehicle Connection Problems
+# 기체 연결 문제
 
 ## Vehicle does not show up in UI
 
