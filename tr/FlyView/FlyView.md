@@ -12,7 +12,7 @@ Uçuş Ekranı, aracı uçarken izlemek ve araca komut vermek için kullanılır
 
 ![Uçuş Ekranı](../../assets/fly/fly_view_overview.jpg)
 
-## Kullanıcı Arayüzü'ne Genel Bakış
+## İzleme
 
 Yukarıdaki ekran görüntüsü, uçuş ekranının ana öğelerini gösterir:
 
