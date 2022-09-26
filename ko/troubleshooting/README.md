@@ -1,8 +1,8 @@
-## Troubleshooting
+## 문제 해결
 
-Troubleshooting information is provided in two sections:
+문제 해결 정보는 두 섹션으로 제공됩니다.
 
-- [QGC Setup](../troubleshooting/qgc_setup.md) - Troubleshooting *QGroundControl* installation and setup.
-- [QGC Usage](../troubleshooting/qgc_usage.md) - Troubleshooting problems when **using** *QGroundControl* to interact with a vehicle.
+- [QGroundControl 설정](../troubleshooting/qgc_setup.md) - *QGroundControl* 설치 및 설정 문제 해결.
+- [QGroundControl 사용](../troubleshooting/qgc_usage.md) - 기체 연동시 *QGroundControl*을 **사용**상의 문제를 해결합니다.
 
-If your questions are still unresolved, please check the [Support](../Support/Support.md) page for more information on getting help.
+여전히 해결되지 않은 질문이 있으면, [지원](../Support/Support.md) 페이지에서 도움을 받는 방법에 대한 자세한 정보를 확인하십시오.
