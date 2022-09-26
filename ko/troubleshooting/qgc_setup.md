@@ -13,7 +13,7 @@ Windows 64비트 시스템에서 *QGroundControl*은 때때로 **제어판 > 음
 해결책은 시스템에 원하는 *32비트 음성*을 설정하는 것입니다.
 
 1. 제어판 응용 프로그램을 실행합니다: **C:\Windows\SysWOW64\Speech\SpeechUX\sapi.cpl**.
-2. 원하는 *음성 선택*을 한 다음 대화상자 하단의 **확인**을 클릭합니다. ![Windows 32-bit Text-To-Speech Control Panel](../../assets/support/windows_text_to_speech.png)
+2. 원하는 *음성 선택*을 한 다음 대화상자 하단의 **확인**을 클릭합니다. ![Windows 32비트 TTS(텍스트 음성 변환) 제어판](../../assets/support/windows_text_to_speech.png)
 
 > **Note** Windows 음성 API에 대한 추가 정보는 [여기](https://www.webbie.org.uk/blog/microsoft-speech/)를 참고하십시오.
 
@@ -29,7 +29,7 @@ Windows에서 UI 렌더링 문제 또는 비디오 드라이버 충돌이 발생
 
 Wi-Fi를 통해 기체 연결시 *QGroundControl*이 영구적으로 유지되는 경우(예: *기체 연결 대기*), 가능한 원인은 IP 트래픽이 방화벽 소프트웨어에 의해 차단되기 때문일 수 있습니다.
 
-![Waiting for connection](../../assets/support/waiting_for_connection.jpg)
+![연결을 기다리는 중](../../assets/support/waiting_for_connection.jpg)
 
 해결책은 방화벽을 통해 *QGroundControl* 앱을 허용하는 것입니다.
 
@@ -53,28 +53,28 @@ VideoReceiver::start()가 실패했습니다. gst_element_factory_make('avdec_h2
 
 ## Ubuntu 18.04: 듀얼 비디오 어댑터 시스템에서 비디오 스트리밍 실패 {#dual_vga}
 
-![Video on Ubuntu 18.04](../../assets/support/troubleshooting_dual_vga_driver.jpg)
+![Ubuntu 18.04의 비디오](../../assets/support/troubleshooting_dual_vga_driver.jpg)
 
 Ubuntu 18.04의 GSteamer 버전에는 Intel 및 NVidia 비디오 디스플레이 어댑터가 모두 있는 시스템에서 VA API 기반 디코더(예: vaapih264dec 등)를 사용시 비디오가 표시되지 않는 버그가 있습니다.
 
-> **Note** More generally, while the problem is known to occur on Ubuntu 18.04 with Intel and NVidia VGAs, it might occur on any linux system and other types of (dual) VGAs.
+> **Note** 더 일반적인 문제는 Intel 및 NVidia VGA가 있는 Ubuntu 18.04에서 발생하는 것으로 알려져 있지만, 모든 Linux 시스템 및 기타 유형의 (이중) VGA에서 발생할 수 있습니다.
 
-The easiest way to get *QGroundControl* to work in this case is to start it using the following command line:
+이 경우 *QGroundControl* 실행하는 가장 쉬운 방법은 다음 명령어를 사용하여 시작하는 것입니다.
 
-    LIBVA_DRIVER_NAME=fakedriver ./QGroundControl)  will this make the
+    LIBVA_DRIVER_NAME=fakedriver ./QGroundControl
     
 
-Other alternatives are to disable one of the VGAs, uninstall VA API components, or upgrade to GStreamer 1.16 (there is no easy way to do this on Ubuntu 18.04 - please contribute a recipe if you find one!)
+다른 대안은 VGA 중 하나를 비활성화하거나 VA API 구성 요소를 제거하거나 GStreamer 1.16으로 업그레이드하는 것입니다(Ubuntu 18.04에서는 이를 수행하는 쉬운 방법이 없습니다. 찾으면 레시피를 제공하여 주십시오!)
 
-## Ubuntu 16.04: GLIBC_2.27 not found {#glibc_2_27}
+## Ubuntu 16.04: GLIBC_2.27을 찾을 수 없음 {#glibc_2_27}
 
-The pre-built AppImages for QGroundControl 4.0 (and later) can only run on Ubuntu 18.04 LTS (or later). They do not run on Ubuntu 16.04.
+사전 빌드된 QGroundControl 4.0(이상)용 AppImages는 Ubuntu 18.04 LTS(이상)에서만 실행 가능합니다. Ubuntu 16.04에서는 실행되지 않습니다.
 
-If you try you will get the error as shown:
+실행시 다음과 같은 에러가 발생합니다.
 
 ```sh
 $ ./QGroundControl.AppImage 
 /tmp/.mount_i4hPuB/QGroundControl: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.27' not found (required by /tmp/.mount_i4hPuB/QGroundControl)
 ```
 
-If you need to use Ubuntu 16.04 then one workaround is to build from source without the video libraries.
+Ubuntu 16.04를 사용해야 하는 경우의 한 가지 해결 방법은 비디오 라이브러리 없이 소스에서 빌드하는 것입니다.
