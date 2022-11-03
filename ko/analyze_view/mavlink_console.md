@@ -1,6 +1,6 @@
 # MAVLink 콘솔(분석 화면)
 
-MAVLink 콘솔(**분석 > Mavlink 콘솔**)을 사용하면 PX4 [nsh 쉘](https://dev.px4.io/en/debug/system_console.html)에 연결하고 명령어를 전송합니다.
+The MAVLink Console (**Analyze > Mavlink Console**) allows you to connect to the PX4 [System Console](https://docs.px4.io/main/en/debug/system_console.html) and send commands.
 
 > **Note** 콘솔은 *PX4* 플라이트 스택을 실행하는 *하드웨어*에 연결된 경우에만 작동합니다. PX4 SITL 및 ArduPilot은 지원되지 않습니다.
 
