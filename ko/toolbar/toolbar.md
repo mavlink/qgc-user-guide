@@ -1,35 +1,35 @@
 # 메인 툴바
 
-메인 툴바는 다양한 애플리케이션 보기와 연결된 차량에 대한 높은 수준의 상태 정보를 선택할 수 있는 액세스를 제공합니다. 도구 모음은 "PlanView"("Fly" 보기로 다시 이동하는 단일 아이콘이 있음)를 제외한 모든 보기에서 동일합니다.
+메인 툴바를 이용하여 기체의 자세한 상태 정보를 제공하는 다양한 어플라케이션 화면들을 접근할 수 있습니다. "계획 화면("비행 화면"으로 다시 이동하는 아이콘이 있음)을 제외한 모든 화면에서 툴바를 제공합니다.
 
-## 보기 선택 아이콘
+## 화면 선택 아이콘
 
-다음 아이콘은 기본 *보기* 사이를 전환하는 데 사용됩니다. 연결된 차량이 없는 경우에도 표시됩니다.
+아래의 아이콘들을 사용하여 주요 *화면*들을 전환합니다. 기체가 연결되지 않아도 사용 가능합니다.
 
-![설정 보기 아이콘](../../assets/toolbar/toolbar_view_select_settings.jpg) **[설정](../SettingsView/SettingsView.md)** <br />*QGroundControl* 애플리케이션을 구성합니다.
+![설정 화면 아이콘](../../assets/toolbar/toolbar_view_select_settings.jpg) **[설정](../SettingsView/SettingsView.md)** <br />*QGroundControl* 애플리케이션을 설정합니다.
 
-![설정 보기 아이콘](../../assets/toolbar/toolbar_view_select_setup.jpg) **[설정](../SetupView/SetupView.md)** <br />차량을 구성하고 조정합니다.
+![설정 화면 아이콘](../../assets/toolbar/toolbar_view_select_setup.jpg) **[설정](../SetupView/SetupView.md)** <br />기체를 설정하고 튜닝합니다.
 
-![계획 보기 아이콘](../../assets/toolbar/toolbar_view_select_plan.jpg) **[계획](../PlanView/PlanView.md)** <br />자율 미션을 생성합니다.
+![계획 화면 아이콘](../../assets/toolbar/toolbar_view_select_plan.jpg) **[계획](../PlanView/PlanView.md)** <br />자율 비행 미션을 생성합니다.
 
-![비행 아이콘](../../assets/toolbar/toolbar_view_select_fly.jpg) **[비행](../FlyView/FlyView.md)** <br />스트리밍 비디오를 포함하여 비행 중 차량을 모니터링합니다.
+![비행 아이콘](../../assets/toolbar/toolbar_view_select_fly.jpg) **[비행](../FlyView/FlyView.md)** <br />스트리밍 비디오를 포함하여 비행 중 기체를 모니터링합니다.
 
-![분석 아이콘](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[분석](../analyze_view/README.md)** <br />로그를 다운로드하고 설문조사 임무에서 이미지에 위치정보 태그를 지정하고 MAVLink 콘솔에 액세스합니다.
+![분석 아이콘](../../assets/toolbar/toolbar_view_select_analyse.jpg) **[분석](../analyze_view/README.md)** <br />로그를 다운로드하고, 탐사 미션의 이미지에 위치정보 태그를 지정하며, MAVLink 콘솔에 접근합니다.
 
 ## 상태 아이콘
 
-*QGroundControl*이 차량에 연결되면 상태 아이콘이 표시됩니다. 차량의 상위 레벨 상태를 보여주며 클릭하면 더 자세한 정보를 볼 수 있습니다.
+*QGroundControl*은 기체가 연결되면 상태 아이콘을 표시합니다. 기체의 상위 레벨 상태를 표시하며, 클릭하여 더 자세한 정보를 조회합니다.
 
-![](../../assets/toolbar/toolbar_status_message.jpg) ![수율](../../assets/toolbar/toolbar_status_critical.jpg) **차량 메시지** <br />클릭하면 차량의 메시지 목록이 표시됩니다. 중요한 메시지가 있는 경우에는 버전이 오른쪽에 표시됩니다.
+![](../../assets/toolbar/toolbar_status_message.jpg) ![수율](../../assets/toolbar/toolbar_status_critical.jpg) **기체 메시지** <br />클릭하면 기체의 메시지 목록이 표시됩니다. 중요한 메시지가 있는 경우에는 버전이 오른쪽에 표시됩니다.
 
 ![](../../assets/toolbar/toolbar_status_gps.jpg) **GPS 상태** <br />위성 수와 현재 HDOP를 보여줍니다.
 
-![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC(RadioController) 신호의 수신 강도를 나타냅니다.
+![](../../assets/toolbar/toolbar_status_rc.jpg) **RC RSSI** <br />RC(Radio Controller) 수신 강도를 나타냅니다.
 
-![](../../assets/toolbar/toolbar_status_telemetry.jpg) **텔레메트리 측정 RSSI** <br />텔레메트리 신호의 수신 강도를 나타냅니다.
+![](../../assets/toolbar/toolbar_status_telemetry.jpg) **텔레메트리 RSSI** <br />텔레메트리의 수신 강도를 나타냅니다.
 
 ![](../../assets/toolbar/toolbar_status_battery.jpg) **배터리** <br />배터리의 잔량을 나타냅니다.
 
-![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **비행 모드** <br /> 현재 비행모드를 변경하려면 클릭하세요.
+![](../../assets/toolbar/toolbar_status_flight_mode.jpg) **비행 모드** <br /> 클릭하여, 현재 비행모드를 변경할 수 있습니다.
 
 ![](../../assets/toolbar/toolbar_status_rtk_gps.jpg) **RTK GPS 신호 상태** <br />RTK GPS 신호 프로세스의 진행 상황을 나타냅니다.

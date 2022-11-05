@@ -3,7 +3,7 @@
 * [개요](README.md)
 * [시작하기](getting_started/quick_start.md)
 * [다운로드 및 설치](getting_started/download_and_install.md)
-* [도구바와 메뉴](toolbar/toolbar.md)
+* [툴바와 메뉴](toolbar/toolbar.md)
 * [비행](FlyView/FlyView.md) 
   * [비행 데이터 재생](FlyView/replay_flight_data.md)
   * [비디오 오버레이](FlyView/VideoOverlay.md)
