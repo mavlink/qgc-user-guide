@@ -98,6 +98,12 @@ Before running *QGroundControl* for the first time:
    <!-- Note, remove install of libqt5gui5 https://github.com/mavlink/qgroundcontrol/issues/10176 fixed -->
 1. Reboot to enable the change to user permissions.
 
+The built in on screen keyboard does not work in *QGroundControl*. CoreKeyboard can be installed from the Discover store and mapped to a shortcut that allows it to be opened in *QGroundControl*. To map the shortcut, open the settings in desktop mode, open shortcuts, select "Add Application", under utilities select "CoreKeyboard", select "Add Custom Shortcut", press L5+B, then click "Apply".
+
+To switch to Gamepad input mode, hold the button with three horizontal lines that is above the right stick.
+
+To exit *QGroundControl* press L5 in Desktop input mode.
+
 &nbsp;
 To install *QGroundControl*:
 
