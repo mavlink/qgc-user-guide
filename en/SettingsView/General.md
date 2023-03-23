@@ -30,6 +30,13 @@ The settings are:
 - <span id="language"></span>**Language**: System (System Language) | Bulgarian, Chinese, ...
 
   ![Display languages](../../assets/settings/general/languages.jpg)
+
+  Translations are generally built into the application and selected automatically based on the system language.
+
+  Metadata downloaded from the vehicle (such as parameter descriptions) might have translations as well.
+  These are downloaded from the internet upon vehicle connection. The translations are then cached locally.
+  This means an internet connection during vehicle connection is required at least once.
+
 - <span id="colour_scheme"></span>**Color Scheme**: Indoor (Dark) | Outdoor (Light)
 - **Map Provider**: Google | Mapbox | Bing | Airmap | VWorld | Eniro | Statkart
 - **Map Type**: Road | Hybrid | Satellite
