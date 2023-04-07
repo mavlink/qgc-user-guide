@@ -50,6 +50,16 @@ Ubuntu comes with a serial modem manager that interferes with any robotics relat
 Before installing *QGroundControl* you should remove the modem manager and grant yourself permissions to access the serial port.
 You also need to install *GStreamer* in order to support video streaming.
 
+### Flatpak
+
+*QGroundControl* is available as Flatpak on [Flathub](https://flathub.org/apps/details/org.mavlink.qgroundcontrol). If you haven't set up Flatpak and Flathub already, follow the instructions at https://flatpak.org/setup/. Afterwards, run
+```sh
+flatpak install flathub org.mavlink.qgroundcontrol
+```
+to install the *QGroundControl* Flatpak.
+
+### AppImage
+
 Before installing *QGroundControl* for the first time:
 1. On the command prompt enter:
    ```sh
