@@ -3,7 +3,9 @@
 The Fly View is used to command and monitor the vehicle when flying.
 
 You can use it to:
+
 - Run an automated [pre-flight checklist](#preflight_checklist).
+- Arm the vehicle (or check why it won't arm).
 - Control missions: [start](#start_mission), [continue](#continue_mission), [pause](#pause), and [resume](#resume_mission).
 - Guide the vehicle to [arm](#arm)/[disarm](#disarm)/[emergency stop](#emergency_stop), [takeoff](#takeoff)/[land](#land), [change altitude](#change_altitude), [go to](#goto) or [orbit](#orbit) a particular location, and [return/RTL](#rtl).
 - Switch between a map view and a video view (if available)
@@ -20,66 +22,84 @@ The screenshot above shows the main elements of the fly view:
   - Once flying, you can click on the map to set a [Go to](#goto) or [Orbit at](#orbit) location.
 - **Fly Toolbar:** Key status information for sensors (GPS, battery, RC control), and vehicle state (Flight mode, Armed/Disarmed status).
   - Select the sensor indicators to view more detail.
-  - Press the *Flight mode* text (e.g. "Hold") to select a new mode. Not every mode may be available.
-  - Press the *Armed/Disarmed* text to toggle the armed state. While flying you can press this text for *Emergency Stop*.
+  - Press the _Flight mode_ text (e.g. "Hold") to select a new mode.
+    Not every mode may be available.
+  - The text next to the **Q** icon indicates the flight readiness using text: "Not Ready", "Ready to Fly", "Flying", and status using colour: "green" (all good!), amber (a warning), red (serious problem).
+    Select the text when the background is amber or red to find out the cause of any preflight issues (QGC 4.2.0 and later).
+    You can also select the text to reach a button to arm/disarm/emergency-stop the vehicle.
 - **Fly tools:** You can use these to:
   - Toggle between takeoff/land.
   - Pause/restart the current operation (e.g. landing, or the mission).
   - Safety return (also known as RTL or Return).
-  - The *Action* button offers other appropriate options for the current state (these overlay the *Confirmation Slider*). 
+  - The _Action_ button offers other appropriate options for the current state (these overlay the _Confirmation Slider_).
     Actions include changing the altitude or continuing a mission.
   - Enable the [preflight checklist](#preflight_checklist) (tool option disabled by default).
-- **[Instrument Panel](#instrument_panel):** A multi-page widget that displays vehicle information including: telemetry, camera, video, system health, and vibration.
+- **[Instrument Panel](#instrument_panel):** A widget that displays vehicle telemetry.
+- **Attitude/Compass**: A widget that provides virtual horizon and heading information.
+- **Camera Tools**: A widget for switching between still and video modes, starting/stopping capture, and controlling camera settings.
 - **[Video/Switcher](#video_switcher):** Toggle between video or map in a window.
-  - Press the element to switch *Video* and *Map* to foreground.
-  - *QGroundControl* supports RTP and RTSP video streaming over your vehicles UDP connection. 
+  - Press the element to switch _Video_ and _Map_ to foreground.
+  - _QGroundControl_ supports RTP and RTSP video streaming over your vehicles UDP connection.
     It also supports directly connected UVC devices.
     QGC video support is further discussed in the [Video README](https://github.com/mavlink/qgroundcontrol/blob/master/src/VideoStreaming/README.md).
   - A [Telemetry Overlay](../FlyView/VideoOverlay.md) is automatically generated as a subtitle file
-- **Confirmation Slider:** Context sensitive slider to confirm requested actions. 
+- **Confirmation Slider:** Context sensitive slider to confirm requested actions.
   Slide to start operation. Press **X** to cancel.
 
-There are a number of other elements that are not displayed by default/are only displayed in certain conditions. 
+There are a number of other elements that are not displayed by default/are only displayed in certain conditions.
 For example, the multi-vehicle selector is only displayed if you have multiple vehicles, and the preflight checklist tool button is only displayed if the appropriate setting is enabled.
 
+## Instrument Panel (Telemetry) {#instrument_panel}
 
-## Instrument Panel {#instrument_panel}
+The instrument panel displays telemetry information about the current vehicle.
 
-The instrument panel is a multi-page widget that displays information about the current vehicle, including: telemetry, camera, video, system health, and vibration information.
+![Instrument Panel - for values/telemetry](../../assets/fly/instrument_panel/instrument_panel_default_values.png)
 
-The default page displays vehicle telemetry - use the drop down menu on the top right to select the other options.
+The default values include altitude (relative to the home location), horizontal and vertical speed, total flight time, and distance between vehicle and ground station.
 
-### Values (Telemetry)
+You can configure where the information is displayed by hovering over the panel and selecting the left-side square tool.
+This toggles the position of the panel between bottom centre and right-centre.
 
-The values page shows telemetry information; by default the altitude (relative to the home location) and the ground speed.
+![Instrument Panel - hover for move/edit tools](../../assets/fly/instrument_panel/instrument_panel_tools_move_edit.png)
 
-![Instrument Page - for values/telemetry](../../assets/fly/instrument_page_values.jpg)
+You configure what information is display by selecting the edit/pencil icon.
+The grid will then display "+" and "-" icons that you can use to add or remove rows and columns (and the pencil icon is replaced by a "lock" icon that you can use to save the settings).
 
-You can configure what information is display by pressing the small gear icon on the top left of the panel.
-Each value can be displayed in normal or "large" size (large size shows just one value per row in the page, while normal shows 2).
+![Instrument Panel - add rows/columns](../../assets/fly/instrument_panel/instrument_panel_tools_edit_on.png)
 
-![Instrument Page - values settings](../../assets/fly/instrument_page_values_settings.jpg)
+Select a value to launch its "Value Display" editor.
+This allows you to change the icon, text, size, units and so on of the current telemetry value.
 
+![Instrument Panel - edit a value](../../assets/fly/instrument_panel/instrument_panel_tools_edit_value.png)
+
+The selection list on the top left is used to change the source of the telemetry.
+By default this is the vehicle, but you can use the selector to choose a particular sensor type.
+
+![Instrument Panel - value type](../../assets/fly/instrument_panel/instrument_panel_edit_value_type.png)
+
+The selection list on the top right is used to select a particular telemetry value for the vehicle or sensor.
+
+![Instrument Panel - value options](../../assets/fly/instrument_panel/instrument_panel_edit_value_options.png)
 
 ### Camera {#camera_instrument_page}
 
-The camera page is used to configure and control the camera.
-For a camera connected directly to the Flight Controller the only available option is camera triggering:
+The camera panel is used to capture still images and video, and to configure the camera.
 
-![Instrument Page - for Camera](../../assets/fly/instrument_page_camera.jpg)
+![Camera Panel](../../assets/fly/camera_panel/camera_mavlink.png)
+
+The camera capture and configuration options depend on the connected camera.
+The configuration options are selected using the panel gear icon.
+The configuration for a simple autopilot-connected camera are shown below.
+
+![Camera Panel - minimal settings](../../assets/fly/camera_panel/camera_settings_minimal.png)
 
 When connected to camera that supports the [MAVLink Camera Protocol](https://mavlink.io/en/services/camera.html) you can additionally configure and use other camera services that it makes available.
-For example, if your camera supports video mode you will be able to  switch between still image capture and video mode, and start/stop recording.
+For example, if your camera supports video mode you will be able to switch between still image capture and video mode, and start/stop recording.
 
-![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
-
-Advanced settings can be changed via the gear icon at the top left of the page.
-
-![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink_settings.jpg)
+![Camera Panel - MAVLink settings](../../assets/fly/camera_panel/camera_settings_mavlink.png)
 
 > **Note** Most of the settings that are displayed depend on the camera (they are defined in its [MAVLink Camera Definition File](https://mavlink.io/en/services/camera_def.html)).
-  A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
-  
+> A few common settings at the end are hard-coded: Photo Mode (Single/Time Lapse), Photo Interval (if Time Lapse), Reset Camera Defaults (sends a reset command to the camera), Format (storage)
 
 ### Video Stream {#video_instrument_page}
 
@@ -88,111 +108,128 @@ When enabled, you can start/stop the video stream, enable a grid overlay, change
 
 ![Instrument Page - Video Stream](../../assets/fly/instrument_page_video_stream.jpg)
 
-
-### Health
-
-The health page shows you the health of the systems within your vehicle.
-*QGroundControl* will switch to this page automatically if any system changes to unhealthy.
-
-![Instrument Page - Vehicle Health Good](../../assets/fly/instrument_page_health_good.jpg)
-![Instrument Page - Vehicle Health Bad](../../assets/fly/instrument_page_health_bad.jpg)
-
-### Vibration
-
-The vibration page shows current vibration levels and clip counts.
-
-![Instrument Page - Vibration Clip](../../assets/fly/instrument_page_vibration.jpg)
-
-
 ## Actions/Tasks
 
 The following sections describe how to perform common operations/tasks in the Fly View.
 
 > **Note** Many of the available options depend on both the vehicle type and its current state.
 
-
 ### Pre Flight Checklist {#preflight_checklist}
 
 An automated preflight checklist can be used to run through standard checks that the vehicle is configured correctly and it is safe to fly.
 
 To view the checklist, first enable the tool by navigating to [Application Settings > General > Fly View](../SettingsView/General.md) and selecting the **Use preflight checklist** checkbox.
-The tool will then be added to the *Flight Tools*. 
+The tool will then be added to the _Flight Tools_.
 Press it to open the checklist:
 
 ![Pre Flight Checklist](../../assets/fly/pre_flight_checklist.jpg)
 
 Once you have performed each test, select it on the UI to mark it as complete.
 
-### Arm {#arm}
-
-> **Tip** Generally *QGroundControl* does not require you to arm the vehicle explicitly; this is done for you if you start a mission or takeoff.
+### Arming and Preflight Checks {#arm}
 
 Arming a vehicle starts the motors in preparation for takeoff.
+You will only be able to arm the vehicle if it is safe and ready to fly.
 
-To arm the vehicle, select **Disarmed** in the *Fly Toolbar* and then use the confirmation sider.
+> **Tip** Generally, if the vehicle is ready to arm, _QGroundControl_ will arm the vehicle for you if you start a mission or takeoff.
 
-![Arm](../../assets/fly/arm.jpg)
+The vehicle is ready to fly in all modes if the status text says "Ready to Fly" and the background is green.
 
-> **Note** Vehicles usually disarm automatically if you do not take off after a few seconds.
+![Vehicle state - ready to fly green/ready background](../../assets/fly/vehicle_states/ready_to_fly_ok.png)
 
+If the background is amber then it is ready to take off in the current mode, but may not be able to switch to other modes.
+If the background is red and the text is "Not Ready" then you will not be able to arm in the current mode.
+
+![Vehicle state - ready to fly amber/warning background](../../assets/fly/vehicle_states/ready_to_fly_warning.png)
+![Vehicle state - not ready](../../assets/fly/vehicle_states/not_ready.png)
+
+From QGC 4.2.0 (at time of writing, a daily build) you can find out the exact cause of the warning or error, and possible solutions, by pushing the status text.
+
+This launches the preflight arming checks popup with a list of all preflight warnings.
+The toggle on the right expands each error with additional information and possible solutions.
+
+![UI To check arming warnings](../../assets/fly/vehicle_states/arming_preflight_check_ui.png)
+
+Once each issue is resolved it will disappear from the UI.
+When all issues blocking arming have been removed you can use the arm button to display the arming confirmation slider, and arm the vehicle (or you can just take off - note that the vehicles will (by default) disarm automatically if you do not take off after a few seconds.
+
+![Arm confirmation slider](../../assets/fly/vehicle_states/arming_slider.png)
+
+> **Note** The status text also displays when flying.
+>
+> ![Vehicle state - armed](../../assets/fly/vehicle_states/armed.png) > ![Vehicle state - flying](../../assets/fly/vehicle_states/flying.png)
+>
+> The arming checks UI will open even when flying, allowing you to emergency disarm.
 
 ### Disarm {#disarm}
 
-Disarming the vehicle stops the motors (making the vehicle safe).
-To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is **landed**.
+Disarming the vehicle when landed stops the motors (making the vehicle safe).
 
-![Disarm](../../assets/fly/disarm.jpg)
+Generally you do not need to explicitly disarm as vehicles will disarm automatically after landing, or shortly after arming if you do not take off.
+
+If needed, you can do so from the Arming Preflight Checks UI.
+
+![Disarming](../../assets/fly/vehicle_states/arming_ui_landed_disarm.png)
+
+You will then need to use the disarming slider.
+
+![disarm slider](../../assets/fly/vehicle_states/disarm_slider.png)
 
 > **Note** Disarming the vehicle while it is flying is called an [Emergency Stop](#emergency_stop)
-
 
 ### Emergency Stop {#emergency_stop}
 
 Emergency stop is effectively the same as disarming the vehicle while it is flying.
 Your vehicle will crash!
 
-To disarm the vehicle select **Armed** in the *Fly Toolbar* when the vehicle is flying.
+If needed, you can do so from the Arming Preflight Checks UI.
 
-![Emergency Stop](../../assets/fly/emergency_stop.jpg)
+![Disarming when flying](../../assets/fly/vehicle_states/arming_ui_flying_disarm.png)
+
+You will then need to use the emergency disarming slider.
+
+![Emergency disarm slider](../../assets/fly/vehicle_states/emergency_disarm_slider.png)
 
 ### Takeoff {#takeoff}
 
-> **Tip** If you are starting a mission for a multicopter, *QGroundControl* will automatically perform the takeoff step.
+> **Tip** If you are starting a mission for a multicopter, _QGroundControl_ will automatically perform the takeoff step.
 
 To takeoff (when landed):
-1. Press the **Takeoff** button in the *Fly Tools* (this will toggle to a **Land** button after taking off).
+
+1. Press the **Takeoff** button in the _Fly Tools_ (this will toggle to a **Land** button after taking off).
 1. Optionally set the takeoff altitude in the right-side vertical slider.
 1. Confirm takeoff using the slider.
 
 ![takeoff](../../assets/fly/takeoff.jpg)
 
-
 ### Land {#land}
 
 You can land at the current position at any time while flying:
-1. Press the **Land** button in the *Fly Tools* (this will toggle to a **Takeoff** button when landed).
+
+1. Press the **Land** button in the _Fly Tools_ (this will toggle to a **Takeoff** button when landed).
 1. Confirm landing using the slider.
 
 ![land](../../assets/fly/land.jpg)
 
-
 ### RTL/Return
 
 Return to a "safe point" at any time while flying:
-1. Press the **RTL** button in the *Fly Tools*.
+
+1. Press the **RTL** button in the _Fly Tools_.
 1. Confirm RTL using the slider.
 
 ![rtl](../../assets/fly/rtl.jpg)
 
-> **Note**  Vehicles commonly return to the "home" (takeoff) location and land.
-> This behaviour depends on the vehicle type and configuration. 
+> **Note** Vehicles commonly return to the "home" (takeoff) location and land.
+> This behaviour depends on the vehicle type and configuration.
 > For example, rally points or mission landings may be used as alternative return targets.
 
 ### Change Altitude {#change_altitude}
 
 You can change altitude while flying, except when in a mission:
-1. Press the **Action** button on the *Fly Tools*
-1. Select the *Change Altitude* action from the dialog.
+
+1. Press the **Action** button on the _Fly Tools_
+1. Select the _Change Altitude_ action from the dialog.
 
    ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
@@ -200,24 +237,21 @@ You can change altitude while flying, except when in a mission:
 
    ![Change altitude](../../assets/fly/change_altitude.jpg)
 
-
 ### Goto Location {#goto}
 
 After taking off you can specify that you want to fly to a particular location.
 
 1. Left click/Press on the map where you want the vehicle to move and select **Go to location** on the popup.
 
-  ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
-  
+![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
+
 1. The location will be displayed on the map, along with a confirmation slider.
 
    ![Goto confirmation](../../assets/fly/goto.jpg)
-   
+
 1. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
-
-> **Note** Goto points must be set within 1 km of the vehicle (hard-coded in QGC). 
-
+> **Note** Goto points must be set within 1 km of the vehicle (hard-coded in QGC).
 
 ### Orbit Location {#orbit}
 
@@ -225,31 +259,31 @@ After taking off you can specify that you want to orbit a particular location.
 
 1. Left click/Press on the map (near the centre of your desired orbit) and select **Orbit at location** on the popup.
 
-  ![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
-  
+![Goto or orbit](../../assets/fly/goto_or_orbit.jpg)
+
 1. The proposed orbit will be displayed on the map, along with a confirmation sider.
 
    ![Orbit confirmation](../../assets/fly/orbit.jpg)
-   
+
    - Select and drag the central marker to move the orbit location.
    - Select and drag the dot on the outer circle to change the orbit radius
-1. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
+1. When you're ready, drag the slider to start the operation (or press the **X** icon to cancel it).
 
 ### Pause
 
-You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location. 
+You can pause most operations, including taking off, landing, RTL, mission execution, orbit at location.
 The vehicle behaviour when paused depends on the vehicle type; typically a multicopter will hover, and a fixed wing vehicle will circle.
 
-> **Note** You cannot pause a *Goto location* operation.
+> **Note** You cannot pause a _Goto location_ operation.
 
 To pause:
-1. Press the **Pause** button in the *Fly Tools*.
+
+1. Press the **Pause** button in the _Fly Tools_.
 1. Optionally set a new altitude using the right-side vertical slider.
 1. Confirm the pause using the slider.
 
 ![pause](../../assets/fly/pause.jpg)
-
 
 ### Missions
 
@@ -258,27 +292,30 @@ To pause:
 You can start a mission when the vehicle is landed (the start mission confirmation slider is often displayed by default).
 
 To start a mission from landed:
-1. Press the **Action** button on the *Fly Tools*
-1. Select the *Start Mission* action from the dialog.
+
+1. Press the **Action** button on the _Fly Tools_
+1. Select the _Start Mission_ action from the dialog.
 
    ![Start mission action](../../assets/fly/start_mission_action.jpg)
-   
-    (to display the confirmation slider)
+
+   (to display the confirmation slider)
+
 1. When the confirmation slider appears, drag it to start the mission.
 
    ![Start mission](../../assets/fly/start_mission.jpg)
 
 #### Continue Mission {#continue_mission}
 
-You can *continue* mission from the *next* waypoint when you're flying (the *Continue Mission* confirmation slider is often displayed by default after you takeoff).
+You can _continue_ mission from the _next_ waypoint when you're flying (the _Continue Mission_ confirmation slider is often displayed by default after you takeoff).
 
 > **Note** Continue and [Resume mission](#resume_mission) are different!
-  Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command.
-  Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from your place in the mission).
+> Continue is used to restart a mission that has been paused, or where you have taken off, so you've already missed a takeoff mission command.
+> Resume mission is used when you've used a RTL or landed midway through a mission (e.g. for a battery change) and then wish to continue the next mission item (i.e. it takes you to where you were up to in the mission, rather than continuing from your place in the mission).
 
 You can continue the current mission while (unless already in a mission!):
-1. Press the **Action** button on the *Fly Tools*
-1. Select the *Continue Mission* action from the dialog.
+
+1. Press the **Action** button on the _Fly Tools_
+1. Select the _Continue Mission_ action from the dialog.
 
    ![Continue Mission/Change Altitude action](../../assets/fly/continue_mission_change_altitude_action.jpg)
 
@@ -286,39 +323,36 @@ You can continue the current mission while (unless already in a mission!):
 
    ![Continue Mission](../../assets/fly/continue_mission.jpg)
 
-
 #### Resume Mission {#resume_mission}
 
-*Resume Mission* is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
+_Resume Mission_ is used to resume a mission after performing an [RTL/Return](#rtl) or [Land](#land) from within a mission (in order, for example, to perform a battery change).
 
 > **Note** If you are performing a battery change, **do not** disconnect QGC from the vehicle after disconnecting the battery.
-  After you insert the new battery *QGroundControl* will detect the vehicle again and automatically restore the connection.
+> After you insert the new battery _QGroundControl_ will detect the vehicle again and automatically restore the connection.
 
-After landing you will be prompted with a *Flight Plan complete* dialog, which gives you the option to remove the plan from the vehicle, leave it on the vehicle, or to resume the mission from the last waypoint that was traveled through.
+After landing you will be prompted with a _Flight Plan complete_ dialog, which gives you the option to remove the plan from the vehicle, leave it on the vehicle, or to resume the mission from the last waypoint that was traveled through.
 
 ![Resume Mission](../../assets/fly/resume_mission.jpg)
 
-If you select to resume the mission, then *QGroundControl* will rebuild the mission and upload it to the vehicle.
-Then use the *Start Mission* slider to continue the mission.
+If you select to resume the mission, then _QGroundControl_ will rebuild the mission and upload it to the vehicle.
+Then use the _Start Mission_ slider to continue the mission.
 
 The image below shows the mission that was rebuilt after the Return shown above.
 
 ![Resume Rebuilt Mission](../../assets/fly/resume_mission_rebuilt.jpg)
 
-
 > **Note** A mission cannot simply resume from the last mission item that the vehicle executed, because there may be multiple items at the last waypoint that affect the next stage of the mission (e.g. speed commands or camera control commands).
-  Instead *QGroundControl* rebuilds the mission, starting from the last mission item flown, and automatically prepending any relevant commands to the front of the mission.
-
+> Instead _QGroundControl_ rebuilds the mission, starting from the last mission item flown, and automatically prepending any relevant commands to the front of the mission.
 
 #### Remove Mission Prompt After Landing {#resume_mission_prompt}
 
-You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms. 
+You will be prompted to remove the mission from the vehicle after the mission completes and the vehicle lands and disarms.
 This is meant to prevent issues where stale missions are unknowingly left on a vehicle, potentially resulting in unexpected behavior.
 
 ### Display Video {#video_switcher}
 
-When video streaming is enabled, *QGroundControl* will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map.
-You can press the switcher anywhere to toggle *Video* and *Map* to foreground (in the image below, the video is shown in the foreground).
+When video streaming is enabled, _QGroundControl_ will display the video stream for the currently selected vehicle in the "video switcher window" at the bottom left of the map.
+You can press the switcher anywhere to toggle _Video_ and _Map_ to foreground (in the image below, the video is shown in the foreground).
 
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
@@ -326,23 +360,17 @@ You can press the switcher anywhere to toggle *Video* and *Map* to foreground (i
 
 You can further configure video display using controls on the switcher:
 
-  ![Video Pop](../../assets/fly/video_pop.jpg)
+![Video Pop](../../assets/fly/video_pop.jpg)
+
 - Resize the switcher by dragging the icon in the top right corner.
 - Hide the switcher by pressing the toggle icon in the lower left.
 - Detach the video switcher window by pressing on the icon in its top left corner
   (once detached, you can move and resize the window just like any other in your OS).
   If you close the detached window the switcher will re-lock to the QGC Fly view.
 
-
-
-
-
-
-
-
 ### Record Video
 
-If supported by the camera and vehicle, *QGroundControl* can start and stop video recording on the camera itself. *QGroundControl* can also record the video stream and save it locally.
+If supported by the camera and vehicle, _QGroundControl_ can start and stop video recording on the camera itself. _QGroundControl_ can also record the video stream and save it locally.
 
 > **Tip** Video stored on the camera may be of much higher quality, but it is likely that your ground station will have a much larger recording capacity.
 
@@ -354,21 +382,18 @@ Press the red circle to start recording a new video (a new video file is created
 ![Video Stream Record](../../assets/fly/video_record.jpg)
 
 Video stream recording is configured in the [Application Settings > General tab](../SettingsView/General.md):
-- [Video Recording](../SettingsView/General.md#video-recording) - specifies the recording file format and storage limits. 
+
+- [Video Recording](../SettingsView/General.md#video-recording) - specifies the recording file format and storage limits.
   > **Note** Videos are saved in Matroska format (.mkv) by default.
-    This format is relatively robust against corruption in case of errors.
-- [Miscellaneous](../SettingsView/General.md#miscellaneous) - Streamed video is saved under the **Application Load/Save Path**. 
+  > This format is relatively robust against corruption in case of errors.
+- [Miscellaneous](../SettingsView/General.md#miscellaneous) - Streamed video is saved under the **Application Load/Save Path**.
 
 > **Tip** The stored video includes just the video stream itself.
-  To record video with QGroundControl application elements displayed, you should use separate screen recording software. 
+> To record video with QGroundControl application elements displayed, you should use separate screen recording software.
 
 #### Record Video on Camera
 
-Start/stop video recording *on the camera itself* using the [camera instrument page](#camera_instrument_page).
+Start/stop video recording _on the camera itself_ using the [camera instrument page](#camera_instrument_page).
 First toggle to video mode, then select the red button to start recording.
 
 ![Instrument Page - Camera MAVLink Settings](../../assets/fly/instrument_page_camera_mavlink.jpg)
-
-
-
-
