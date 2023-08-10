@@ -143,7 +143,8 @@ If the background is red and the text is "Not Ready" then you will not be able t
 ![Vehicle state - ready to fly amber/warning background](../../assets/fly/vehicle_states/ready_to_fly_warning.png)
 ![Vehicle state - not ready](../../assets/fly/vehicle_states/not_ready.png)
 
-You can find out the cause of the warning or error, and possible solutions, by pushing the status text.
+From QGC 4.2.0 (at time of writing, a daily build) you can find out the exact cause of the warning or error, and possible solutions, by pushing the status text.
+
 This launches the preflight arming checks popup with a list of all preflight warnings.
 The toggle on the right expands each error with additional information and possible solutions.
 
