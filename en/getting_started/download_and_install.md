@@ -85,6 +85,35 @@ To install *QGroundControl*:
 * [Android 32 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl32.apk)
 * [Android 64 bit APK](https://qgroundcontrol.s3-us-west-2.amazonaws.com/latest/QGroundControl64.apk)
 
+## Steam Deck Linux {#steamdeck}
+
+*QGroundControl* can run on the Steam Deck running SteamOS.
+
+Before running *QGroundControl* for the first time:
+
+1. On the command prompt enter:
+   ```sh
+   sudo usermod -a -G uucp $USER
+   ```
+   <!-- Note, remove install of libqt5gui5 https://github.com/mavlink/qgroundcontrol/issues/10176 fixed -->
+1. Reboot to enable the change to user permissions.
+
+The built in on screen keyboard does not work in *QGroundControl*. CoreKeyboard can be installed from the Discover store and mapped to a shortcut that allows it to be opened in *QGroundControl*. To map the shortcut, open the settings in desktop mode, open shortcuts, select "Add Application", under utilities select "CoreKeyboard", select "Add Custom Shortcut", press L5+B, then click "Apply".
+
+To switch to Gamepad input mode, hold the button with three horizontal lines that is above the right stick.
+
+To exit *QGroundControl* press L5 in Desktop input mode.
+
+&nbsp;
+To install *QGroundControl*:
+
+1. Download [QGroundControl.AppImage](https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage).
+1. Upon first run, you will be prompted to allow executing as a program. Select **Allow** and **Never ask again**.
+1. For the gamepad to work, the controller action must be set to **Gamepad** (not _Desktop_).
+   This can be done by holding the button with three horizontal lines that is above the right stick.
+1. To exit the app, switch back to "Desktop" mode and press the L5 button on the back left of the controller.
+1. To ensure the screen doesn't turn off during use, select the battery icon in the tray and select **Manually block sleep and screen locking**.
+
 ## Old Stable Releases
 
 Old stable releases can be found on <a href="https://github.com/mavlink/qgroundcontrol/releases/" target="_blank">GitHub</a>. 
