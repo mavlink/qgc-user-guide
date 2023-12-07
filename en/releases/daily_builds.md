@@ -15,7 +15,5 @@ These can be downloaded from the links below (install as described in [Download 
   > *   Right-click the QGC app icon again, Open from the menu. This time you will be presented with the option to Open.
 
 * [Linux](https://d176tv9ibo4jno.cloudfront.net/builds/master/QGroundControl.AppImage)
-* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta) - Google Play: Listed as *QGroundControl (Daily Test Build)*.
+* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta) - Google Play daily builds are currently not up to date. Android daily builds can be downloaded here: [QGroundControl32.apk](https://d176tv9ibo4jno.cloudfront.net/builds/master/QGroundControl32.apk), and [QGroundControl64.apk](https://d176tv9ibo4jno.cloudfront.net/builds/master/QGroundControl64.apk)
 * iOS currently unavailable
-
-> **Note** The QGroundControl Continous Delivery pipeline from time to time might experience issues uploading to the Google Play store. You can find the daily build APK for Android devices for direct download here: [QGroundControl32.apk](https://d176tv9ibo4jno.cloudfront.net/builds/master/QGroundControl32.apk), and [QGroundControl64.apk](https://d176tv9ibo4jno.cloudfront.net/builds/master/QGroundControl64.apk)
